@@ -1,0 +1,10 @@
+{
+	"extends": "../tsconfig.json",
+	"compilerOptions": {
+		"types": ["cypress", "node"],
+		"lib": ["ES2022", "DOM"],
+		"isolatedModules": false
+	},
+	"include": ["**/*.ts", "../src/**/*.cy.ts", "../src/**/*.cy.svelte"],
+	"exclude": []
+}

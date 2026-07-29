@@ -1,0 +1,6 @@
+# Bun configuration
+# Docs: https://bun.com/docs/runtime/bunfig
+#
+# Unit and component tests run under Vitest (see `vitest.config.ts`);
+# Bun is used as the JavaScript runtime, bundler, and package manager
+# for this project but is not the test runner.
