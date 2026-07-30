@@ -4,7 +4,6 @@
 	import { Tooltip, Toaster, TopBar, TabBar, ProfileSwitcher, Spinner } from '$lib/components';
 	import { initConvex } from '$lib/convex';
 	import { profileStore } from '$lib/stores';
-	import { cn } from '$lib/utils';
 	import '../app.css';
 
 	let { children, data } = $props();
@@ -16,13 +15,6 @@
 	$effect(() => {
 		profileStore.init();
 	});
-
-	/**
-	 * The recipe detail owns its own chrome: a photo that starts at y = 0,
-	 * under the status bar, with floating controls over it. Deriving the flag
-	 * here beats a route group, which would duplicate this layout.
-	 */
-	const bare = $derived(page.url.pathname.startsWith('/recepty/'));
 
 	/**
 	 * The profile gate gets skipped on error pages. `+error.svelte` renders as
@@ -44,11 +36,15 @@
 		{:else if gateOnProfile && !profileStore.current}
 			<ProfileSwitcher variant="gate" />
 		{:else}
+			<!--
+				Every authenticated route gets the same chrome — the top bar included.
+				A route that wants a full-width element (the recipe hero) bleeds out of
+				this gutter with negative margins, which keeps the exception inside the
+				component that needs it instead of making the layout route-aware.
+			-->
 			<div class="flex min-h-dvh w-full flex-col">
-				{#if !bare}
-					<TopBar />
-				{/if}
-				<main class={cn('mx-auto w-full max-w-lg flex-1 pb-28', bare ? 'pt-0' : 'px-4 pt-4')}>
+				<TopBar />
+				<main class="mx-auto w-full max-w-lg flex-1 px-4 pt-4 pb-28">
 					{@render children?.()}
 				</main>
 				<TabBar />

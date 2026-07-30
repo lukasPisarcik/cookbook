@@ -14,56 +14,39 @@
 	let { imageUrl, title, isFavorite, onToggleFavorite }: Props = $props();
 
 	/**
-	 * A collapsing toolbar, modelled on the trip-planner map stage.
+	 * A full-width photo that scrolls away with the page — plainly, no sticky
+	 * stage. A collapsing-toolbar peek was tried and rejected: pinned to a
+	 * sliver, a photo crop shows nothing useful and just eats the top of the
+	 * screen. The app header stays put instead, which is what navigation
+	 * actually needs.
 	 *
-	 * The stage is `sticky` with a **negative** top — `peek − height` — so it
-	 * scrolls away naturally under its own momentum until only
-	 * `--recipe-hero-peek` remains pinned below the status bar. The photo then
-	 * reads as a photo-backed app bar rather than sliding off the screen and
-	 * taking the back button with it.
-	 *
-	 * Three things make it behave:
-	 *
-	 * - The height is **constant** (`--recipe-hero-h`) and there is no scroll
-	 *   listener. Resizing a sticky stage per scroll frame resizes the document
-	 *   mid-scroll, which fights the browser's scroll anchoring and stutters.
-	 * - `overflow-hidden` lives on the inner frame, never on the stage: on the
-	 *   stage it would become the scroll container for its own children and kill
-	 *   the controls' stickiness.
-	 * - The controls are `sticky self-start` inside the stage, so they ride the
-	 *   peek and stay reachable for the whole scroll.
-	 *
-	 * The stage sits at `z-2` and the route's content column at `z-1`, so the
-	 * content slides *behind* the pinned peek. On desktop the column stays
+	 * `-mx-4 -mt-4` cancels the layout's gutter so the photo runs edge to edge
+	 * and sits flush under the header. Keeping the bleed here means the layout
+	 * does not have to special-case this route. On desktop the column stays
 	 * `max-w-lg`, so the photo bleeds to the column's edges, not the browser's.
 	 */
 </script>
 
 <div
-	class="sticky top-[calc(env(safe-area-inset-top)+var(--recipe-hero-peek)-var(--recipe-hero-h))] z-2 grid h-(--recipe-hero-h) w-full *:col-start-1 *:row-start-1 *:min-w-0"
+	class="relative -mx-4 -mt-4 aspect-[4/5] overflow-hidden rounded-b-3xl bg-muted sm:aspect-[4/3]"
 >
-	<div class="relative overflow-hidden rounded-b-3xl bg-muted">
-		{#if imageUrl}
-			<img src={imageUrl} alt={title} class="h-full w-full object-cover" />
-		{:else}
-			<!-- 20 recipes have no photo; the block scales up instead of looking broken. -->
-			<div class="flex h-full w-full items-center justify-center text-7xl">🥗</div>
-		{/if}
+	{#if imageUrl}
+		<img src={imageUrl} alt={title} class="h-full w-full object-cover" />
+	{:else}
+		<!-- 20 recipes have no photo; the block scales up instead of looking broken. -->
+		<div class="flex h-full w-full items-center justify-center text-7xl">🥗</div>
+	{/if}
 
-		<!-- Scrim: keeps white floating buttons legible on pale photos. -->
-		<div
-			class="pointer-events-none absolute inset-x-0 top-0 h-32 bg-gradient-to-b from-black/25 to-transparent"
-		></div>
-	</div>
-
-	<!-- Controls ride the peek, like the trip-planner map controls. -->
+	<!-- Scrim: keeps the white floating buttons legible on pale photos. -->
 	<div
-		class="pointer-events-none sticky top-[calc(env(safe-area-inset-top)+0.75rem)] z-3 flex items-center justify-between self-start px-4"
-	>
+		class="pointer-events-none absolute inset-x-0 top-0 h-28 bg-gradient-to-b from-black/25 to-transparent"
+	></div>
+
+	<div class="absolute inset-x-0 top-3 flex items-center justify-between px-3">
 		<a
 			href={resolve('/')}
 			aria-label={d.backToList}
-			class="pointer-events-auto flex h-10 w-10 items-center justify-center rounded-full bg-card/90 shadow-md backdrop-blur transition-colors hover:bg-card"
+			class="flex h-10 w-10 items-center justify-center rounded-full bg-card/90 shadow-md backdrop-blur transition-colors hover:bg-card"
 		>
 			<ArrowLeft class="h-5 w-5" />
 		</a>
@@ -72,7 +55,7 @@
 			onclick={onToggleFavorite}
 			aria-label={d.favoriteToggle}
 			aria-pressed={isFavorite}
-			class="pointer-events-auto flex h-10 w-10 items-center justify-center rounded-full bg-card/90 shadow-md backdrop-blur transition-colors hover:bg-card"
+			class="flex h-10 w-10 items-center justify-center rounded-full bg-card/90 shadow-md backdrop-blur transition-colors hover:bg-card"
 		>
 			<Heart class={cn('h-5 w-5', isFavorite ? 'fill-primary text-primary' : 'text-foreground')} />
 		</button>

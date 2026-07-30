@@ -166,22 +166,27 @@ await page.waitForTimeout(800);
 await shot('recepty-category-filter');
 await page.click('button:has-text("Všetky")');
 
-// --- Detail: full-bleed hero, variants, favourite, Dnes varím ---------------
+// --- Detail: full-width hero under the header, variants, favourite ----------
 await page.goto(BASE_URL + '/recepty/thajske-kari');
 await page.waitForSelector('[data-testid="variant-switcher"]', { timeout: 15000 });
 await page.waitForTimeout(1000);
-await shot('detail-hero-full-bleed');
+await shot('detail-hero-full-width');
 
-// The photo must span the viewport and start at y = 0, with no header above it.
-check(
-	(await page.locator('header').count()) === 0,
-	'an app header is visible above the recipe hero'
-);
+// The app header stays on the detail page like every other tab.
+const detailHeader = page.locator('header').first();
+check((await page.locator('header').count()) > 0, 'the app header is missing on the recipe detail');
+const headerBox = await detailHeader.boundingBox();
+const headerBottom = headerBox === null ? 0 : headerBox.y + headerBox.height;
+
+// The photo spans the full column width and sits flush under the header.
 const heroBox = await page.locator('article img').first().boundingBox();
-check(heroBox !== null && heroBox.y <= 0, `the hero photo does not start at y = 0 (${heroBox?.y})`);
 check(
 	heroBox !== null && heroBox.width >= 390,
 	`the hero photo does not span the viewport width (${heroBox?.width})`
+);
+check(
+	heroBox !== null && Math.abs(heroBox.y - headerBottom) < 8,
+	`the hero photo is not flush under the header (photo y ${heroBox?.y}, header bottom ${headerBottom})`
 );
 // Floating controls sit on top of the photo.
 check(
@@ -193,24 +198,22 @@ check(
 	'no floating favourite button over the hero'
 );
 
-// Scroll behaviour: the photo is a collapsing toolbar, so it must scroll away
-// only down to a pinned peek — not slide off the screen and take the back
-// button with it.
+// Scrolled: the photo scrolls away plainly (no pinned sliver of a crop), while
+// the sticky header stays put so navigation never leaves the screen.
 await page.evaluate(() => window.scrollTo(0, 1200));
 await page.waitForTimeout(700);
-const peekBox = await page.locator('article img').first().boundingBox();
-const peekBottom = peekBox === null ? null : peekBox.y + peekBox.height;
-check(peekBox !== null && peekBox.y < 0, 'the hero did not scroll up with the page at all');
+const scrolledHeader = await detailHeader.boundingBox();
 check(
-	peekBottom !== null && peekBottom > 40 && peekBottom < 160,
-	`the hero peek did not stay pinned near the top (bottom edge at ${peekBottom})`
+	scrolledHeader !== null && scrolledHeader.y >= 0 && scrolledHeader.y < 8,
+	`the header did not stay pinned while scrolled (y = ${scrolledHeader?.y})`
 );
-const backBox = await page.locator('article a[aria-label*="Späť"]').first().boundingBox();
+const scrolledHero = await page.locator('article img').first().boundingBox();
+const heroBottom = scrolledHero === null ? null : scrolledHero.y + scrolledHero.height;
 check(
-	backBox !== null && backBox.y >= 0 && backBox.y < 120,
-	`the back button did not ride the peek (y = ${backBox?.y})`
+	heroBottom !== null && heroBottom <= headerBottom + 1,
+	`the hero photo did not scroll away cleanly (bottom edge at ${heroBottom})`
 );
-await shot('detail-hero-collapsed-peek');
+await shot('detail-scrolled-header-stays');
 await page.evaluate(() => window.scrollTo(0, 0));
 await page.waitForTimeout(500);
 

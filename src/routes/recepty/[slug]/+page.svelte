@@ -67,7 +67,7 @@
 {#if recipe.isLoading}
 	<div class="flex justify-center py-16"><Spinner /></div>
 {:else if !recipe.data}
-	<div class="space-y-4 px-4 py-16 text-center">
+	<div class="space-y-4 py-16 text-center">
 		<p class="text-sm text-muted-foreground">{d.recipeNotFound}</p>
 		<Button variant="outline" href={resolve('/')}>
 			<ArrowLeft class="mr-2 h-4 w-4" />
@@ -85,13 +85,10 @@
 		/>
 
 		<!--
-			Only the photo bleeds; everything below re-applies the gutter. `z-1`
-			against the hero's `z-2` is what makes the content slide *behind* the
-			pinned photo peek, and the opaque background is what stops the photo
-			showing through it.
+			Only the photo bleeds out of the layout's gutter; the content keeps it.
+			pb-10 clears the fixed action bar, on top of the layout's tab-bar padding.
 		-->
-		<!-- pb-10 clears the fixed action bar, on top of the layout's tab-bar padding. -->
-		<div class="relative z-1 space-y-5 bg-background px-4 pt-4 pb-10">
+		<div class="space-y-5 pt-4 pb-10">
 			<div class="space-y-2">
 				<h1 class="font-display text-2xl leading-tight font-bold tracking-tight">{data.title}</h1>
 				{#if data.dietTags.length > 0}
@@ -211,10 +208,9 @@
 		<!--
 			A fixed action bar pinned above the tab bar, not a sticky element inside
 			the content flow: sticky-in-flow floats over whichever row happens to sit
-			under it, which read as the button colliding with the stat cards. It is
-			chrome, so it lives outside the content column's `z-1` stacking context —
-			otherwise the hero's `z-2` peek would paint over it. The gradient turns
-			opaque before the tab bar, so content scrolls out of sight behind it.
+			under it, which read as the button colliding with the stat cards. The
+			gradient turns opaque before the tab bar, so content scrolls out of sight
+			behind it rather than colliding with the button.
 		-->
 		<div
 			class="pointer-events-none fixed inset-x-0 bottom-[calc(env(safe-area-inset-bottom)+var(--tab-bar-h))] z-10"

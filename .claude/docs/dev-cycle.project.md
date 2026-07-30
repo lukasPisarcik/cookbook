@@ -95,8 +95,9 @@ headless shell from `bunx playwright install chromium`) drives the running app
 at **390×844** through every feature: login gate (wrong + right password), the
 **„Kto si?" profile gate** (and that the tabs are unreachable before a name is
 chosen, and that the choice survives a reload), grid, diacritic-insensitive
-search, category filter, the **full-bleed recipe hero** (asserting the photo
-starts at y = 0, spans the viewport, and has no header above it), kcal-variant
+search, category filter, the **full-width recipe hero** (asserting the header is
+present, the photo spans the viewport and sits flush under it, and that the
+header stays pinned while the photo scrolls away), kcal-variant
 switch, favorite toggle, **ingredient tiles**, Dnes varím + portion multiplier,
 shopping-list generation with tiles, check-off, „Mám doma" override, the
 **Špajza tile grid** (add via „Časté", remove, dimmed already-owned tiles),
