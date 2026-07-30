@@ -84,8 +84,14 @@
 			onToggleFavorite={toggleFavorite}
 		/>
 
-		<!-- Only the photo bleeds; everything below re-applies the gutter. -->
-		<div class="space-y-5 px-4 pt-4">
+		<!--
+			Only the photo bleeds; everything below re-applies the gutter. `z-1`
+			against the hero's `z-2` is what makes the content slide *behind* the
+			pinned photo peek, and the opaque background is what stops the photo
+			showing through it.
+		-->
+		<!-- pb-10 clears the fixed action bar, on top of the layout's tab-bar padding. -->
+		<div class="relative z-1 space-y-5 bg-background px-4 pt-4 pb-10">
 			<div class="space-y-2">
 				<h1 class="font-display text-2xl leading-tight font-bold tracking-tight">{data.title}</h1>
 				{#if data.dietTags.length > 0}
@@ -200,16 +206,27 @@
 					<p>{data.funFact}</p>
 				</aside>
 			{/if}
+		</div>
 
-			<!--
-				The CTA floats above the tab bar for the whole scroll, so it needs a
-				fade behind it — otherwise it reads as colliding with whatever row
-				happens to sit under it rather than as a bar on top of the content.
-			-->
+		<!--
+			A fixed action bar pinned above the tab bar, not a sticky element inside
+			the content flow: sticky-in-flow floats over whichever row happens to sit
+			under it, which read as the button colliding with the stat cards. It is
+			chrome, so it lives outside the content column's `z-1` stacking context —
+			otherwise the hero's `z-2` peek would paint over it. The gradient turns
+			opaque before the tab bar, so content scrolls out of sight behind it.
+		-->
+		<div
+			class="pointer-events-none fixed inset-x-0 bottom-[calc(env(safe-area-inset-bottom)+var(--tab-bar-h))] z-10"
+		>
 			<div
-				class="sticky bottom-20 -mx-4 bg-gradient-to-t from-background via-background to-transparent px-4 pt-8 pb-1"
+				class="mx-auto w-full max-w-lg bg-gradient-to-t from-background from-50% to-transparent px-4 pt-10 pb-3"
 			>
-				<Button class="w-full rounded-full shadow-lg" size="lg" onclick={toggleCookingToday}>
+				<Button
+					class="pointer-events-auto w-full rounded-full shadow-lg"
+					size="lg"
+					onclick={toggleCookingToday}
+				>
 					<CalendarCheck class="mr-2 h-5 w-5" />
 					{data.cookingToday ? d.cookingTodayRemove : d.cookingTodayAdd}
 				</Button>

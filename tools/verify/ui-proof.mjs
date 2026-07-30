@@ -193,6 +193,27 @@ check(
 	'no floating favourite button over the hero'
 );
 
+// Scroll behaviour: the photo is a collapsing toolbar, so it must scroll away
+// only down to a pinned peek — not slide off the screen and take the back
+// button with it.
+await page.evaluate(() => window.scrollTo(0, 1200));
+await page.waitForTimeout(700);
+const peekBox = await page.locator('article img').first().boundingBox();
+const peekBottom = peekBox === null ? null : peekBox.y + peekBox.height;
+check(peekBox !== null && peekBox.y < 0, 'the hero did not scroll up with the page at all');
+check(
+	peekBottom !== null && peekBottom > 40 && peekBottom < 160,
+	`the hero peek did not stay pinned near the top (bottom edge at ${peekBottom})`
+);
+const backBox = await page.locator('article a[aria-label*="Späť"]').first().boundingBox();
+check(
+	backBox !== null && backBox.y >= 0 && backBox.y < 120,
+	`the back button did not ride the peek (y = ${backBox?.y})`
+);
+await shot('detail-hero-collapsed-peek');
+await page.evaluate(() => window.scrollTo(0, 0));
+await page.waitForTimeout(500);
+
 // Every ingredient row renders a tile — no blanks.
 const ingredientTiles = await page.locator('article ul li [aria-hidden="true"]').count();
 check(ingredientTiles > 0, 'the ingredient rows render no emoji tiles');
