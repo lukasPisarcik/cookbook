@@ -1,0 +1,27 @@
+{
+	"title": "Proteínové Marshmallows",
+	"category": "dezerty",
+	"prepTimeMinutes": 325,
+	"steps": [
+		"Mlieko nalej do hrnca a nechaj ho pomaly zohriať. Do mlieka pridaj želatínu a rýchlo premiešaj, aby si zabránila vzniku hrudiek.",
+		"Po 5 minútach vypni plameň a vmiešaj 2 odmerky proteínového prášku a sladidlo.",
+		"Formu vylož papierom na pečenie a nalej do nej zmes. Nechaj vychladnúť a ulož do chladničky aspoň na 5 hodín.",
+		"Potom nakrájaj a vychutnaj si!"
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 30,
+			"macros": {"carbs": 1, "protein": 3, "fat": 0.3},
+			"ingredients": [
+				{"name": "polotučné mlieko", "quantity": 500, "unit": "ml"},
+				{"name": "želatína", "quantity": 5, "unit": "ČL"},
+				{"name": "vanilkový proteínový prášok", "quantity": 2, "unit": "odmerka"},
+				{"name": "vanilková stévia"}
+			]
+		}
+	],
+	"image": "onvia/image351.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image351"
+}

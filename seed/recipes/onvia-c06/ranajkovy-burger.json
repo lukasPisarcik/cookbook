@@ -1,0 +1,38 @@
+{
+	"title": "Raňajkový burger",
+	"category": "ranajky",
+	"prepTimeMinutes": 17,
+	"steps": [
+		"Mleté hovädzie mäso daj do misky, ochuť ho morskou soľou a cesnakovým práškom. Vytvaruj z neho burger placku a daj piecť do fritézy (AirFryer). Fritézu postriekaj (vytri) olejom v spreji a mäsovú placku peč 5-6 minút pri teplote 190°C.",
+		"Počas toho ako sa ti pečie mäsová placka si upeč jedno voľské oko na panvici.",
+		"Vezmi si raňajkovú žemlu, prekroj na polovicu. Vrchnú časť postriekaj (potri) olejom v spreji a na spodnú polovicu pridaj plátok syra. Obe časti žemle daj zapiecť do fritézy k mäsovej placke na cca 2 minúty.",
+		"Keď je všetko hotové, zostav si svoj raňajkový burger a vychutnaj si ho!"
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 360,
+			"portions": 1,
+			"macros": {
+				"carbs": 26,
+				"protein": 36,
+				"fat": 12
+			},
+			"ingredients": [
+				{ "name": "anglický muffin", "quantity": 1, "unit": "ks" },
+				{ "name": "chudé mleté hovädzie mäso", "quantity": 100, "unit": "g" },
+				{ "name": "vajce", "quantity": 1, "unit": "ks" },
+				{ "name": "syr light", "quantity": 14, "unit": "g" },
+				{ "name": "soľ" },
+				{ "name": "granulovaný cesnak" },
+				{ "name": "čierne korenie" },
+				{ "name": "chili prášok" },
+				{ "name": "granulovaná cibuľa" },
+				{ "name": "červená paprika" }
+			]
+		}
+	],
+	"image": "onvia/image123.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image123"
+}

@@ -1,0 +1,32 @@
+{
+	"title": "Mandľové sušienky s tahini a sezamom",
+	"category": "dezerty",
+	"prepTimeMinutes": 5,
+	"steps": [
+		"V miske zmiešaj mandľovú múku, tahini, čakankový alebo Unicorn Dust, štipku soli a vanilkový extrakt. Dôkladne premiešaj. Pojde to veľmi ztuha. Môžeš pridať trošku vody, ale nie veľa. Dbaj na to, aby sa suroviny dôkladne spojili a vytvorili tuhé cesto.",
+		"Cesto rozdeľ na 7 rovnako veľkých guličiek a obaľ ich v sezamových semienkach.",
+		"Každú guličku prstami stlač do tvaru placky. Sušienky polož na plech vyložený papierom na pečenie.",
+		"Sušienky peč vo vyhriatej rúre pri teplote 180 stupňov približne 10 minút. Mali by byť zlatohnedé.",
+		"Vychutnaj si ich ešte teplé!"
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 126,
+			"portions": 7,
+			"macros": {"carbs": 4, "protein": 4, "fat": 10},
+			"ingredients": [
+				{"name": "mandľová múka", "quantity": 90, "unit": "g"},
+				{"name": "tahini", "quantity": 45, "unit": "g"},
+				{"name": "čakankový sirup", "quantity": 30, "unit": "g"},
+				{"name": "soľ", "unit": "štipka"},
+				{"name": "vanilkový extrakt", "quantity": 1, "unit": "kvapka"},
+				{"name": "voda"},
+				{"name": "sezamové semienka", "quantity": 10, "unit": "g"}
+			]
+		}
+	],
+	"image": "onvia/image314.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image314"
+}

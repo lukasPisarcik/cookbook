@@ -1,0 +1,58 @@
+{
+	"title": "Smotanové špagety s tuniakom a kukuricou",
+	"category": "obedy",
+	"steps": [
+		"Špagety uvarte podľa návodu a až budú uvarené, tak ich zlejte.",
+		"Pridajte tuniaka, kukuricu a smotanu, premiešajte a ľahko povarte.",
+		"Ak máte radi olivy pridajte ich.",
+		"Špagety rozdeľte do krabičiek, pred podávaním ozdobte rukolou."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 4,
+			"ingredients": [
+				{
+					"name": "špagety",
+					"quantity": 500,
+					"unit": "g"
+				},
+				{
+					"name": "tuniak vo vlastnej šťave",
+					"quantity": 350,
+					"unit": "g"
+				},
+				{
+					"name": "konzervovaná kukurica",
+					"quantity": 140,
+					"unit": "g"
+				},
+				{
+					"name": "krémová smotana s 15 % tuku",
+					"quantity": 200,
+					"unit": "g"
+				},
+				{
+					"name": "parmezán",
+					"quantity": 50,
+					"unit": "g"
+				},
+				{
+					"name": "olivy"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "čierne korenie"
+				},
+				{
+					"name": "rukola"
+				}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p70.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p70"
+}

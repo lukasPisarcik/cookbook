@@ -1,0 +1,38 @@
+{
+	"title": "Mrkvový koláč s krémovým tvarohom",
+	"category": "dezerty",
+	"prepTimeMinutes": 15,
+	"steps": [
+		"Predhrejeme rúru na 160°C horný/spodný ohrev.",
+		"Nastrúhame mrkvu, pridáme všetky suché suroviny na základ a premiešame s mliekom. Vyšľaháme bielky, pridáme ich do zmesi a dobre vymiešame.",
+		"Pečieme v rúre 20 minút. Po 20 min vykonáme prvú ľahkú tlakovú skúšku rukou, či je cesto upečené a v prípade potreby upravíme čas pečenia.",
+		"Medzitým vymiešame prísady na krém a pridáme uvarenú želatínu podľa návodu.",
+		"Pred rozkrojením koláča na polovicu necháme základ mierne vychladnúť. Koláčovú formu vyložíme potravinovou fóliou (uľahčí to neskoršie vyberanie koláča), polovicu koláča prekrojeného pozdĺž vložíme späť do formy, potrieme ho časťou krému, prikryjeme druhou polovicou koláča a potrieme zvyškom krému.",
+		"Prikryjeme potravinárskou fóliou a necháme vychladnúť v chladničke kým krém neztuhne."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 7,
+			"ingredients": [
+				{"name": "proteínový prášok (vanilka / škorica)", "quantity": 50, "unit": "g"},
+				{"name": "mandľová múka", "quantity": 100, "unit": "g"},
+				{"name": "prášok do pečiva", "quantity": 4, "unit": "g"},
+				{"name": "najemno nastrúhaná mrkva", "quantity": 120, "unit": "g"},
+				{"name": "vaječný bielok", "quantity": 2, "unit": "ks"},
+				{"name": "mandľové mlieko", "quantity": 150, "unit": "ml"},
+				{"name": "Unicorn Dust", "quantity": 12, "unit": "g"},
+				{"name": "škorica", "quantity": 1, "unit": "PL"},
+				{"name": "soľ", "unit": "štipka"},
+				{"name": "nízkotučný tvaroh (skyr)", "quantity": 120, "unit": "g"},
+				{"name": "nízkotučný smotanový syr", "quantity": 400, "unit": "g"},
+				{"name": "instantná želatína", "quantity": 1, "unit": "balenie"},
+				{"name": "Unicorn Dust", "quantity": 9, "unit": "g"},
+				{"name": "šťava z citróna", "quantity": 1, "unit": "ks"}
+			]
+		}
+	],
+	"image": "onvia/image282.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image282"
+}

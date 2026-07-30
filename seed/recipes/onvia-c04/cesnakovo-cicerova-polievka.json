@@ -1,0 +1,44 @@
+{
+	"title": "Cesnakovo cícerová polievka",
+	"category": "obedy",
+	"prepTimeMinutes": 40,
+	"steps": [
+		"Na olivovom oleji orestuj cibuľu dosklovita, pridaj cesnak a krátko opeč, aby sa uvoľnila aróma.",
+		"Pridaj nakrájané zemiaky, cícer, korenia, soľ a 500 ml vody alebo vývaru. Priveď do varu a var 10-15 minút, kým zemiaky nezmäknú.",
+		"Polievku rozmixuj do hladka, potom vmiešaj ricottu a polovicu parmezánu. Dochuť soľou podľa potreby.",
+		"Podávaj teplú, posypanú zvyšným parmezánom."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 307,
+			"portions": 3,
+			"macros": {
+				"carbs": 21,
+				"protein": 18,
+				"fat": 16
+			},
+			"ingredients": [
+				{ "name": "cícer", "quantity": 265, "unit": "g" },
+				{ "name": "zemiak", "quantity": 100, "unit": "g" },
+				{ "name": "ricotta", "quantity": 200, "unit": "g" },
+				{ "name": "parmezán", "quantity": 50, "unit": "g" },
+				{ "name": "cesnak", "quantity": 2, "unit": "strúčik" },
+				{ "name": "cibuľa", "quantity": 1, "unit": "ks" },
+				{ "name": "olivový olej", "quantity": 10, "unit": "g" },
+				{ "name": "koriander" },
+				{ "name": "kari" },
+				{ "name": "chili" },
+				{ "name": "bazalka" },
+				{ "name": "petržlen" },
+				{ "name": "kôpor" },
+				{ "name": "zázvor" },
+				{ "name": "kurkuma" },
+				{ "name": "soľ" }
+			]
+		}
+	],
+	"image": "onvia/image84.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image84"
+}

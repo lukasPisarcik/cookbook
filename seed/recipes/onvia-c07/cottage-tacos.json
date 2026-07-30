@@ -1,0 +1,68 @@
+{
+	"title": "Cottage tacos",
+	"category": "ranajky",
+	"prepTimeMinutes": 35,
+	"steps": [
+		"Rúru predhrej na 200 stupňov a plech vylož papierom na pečenie.",
+		"Cottage, 2 bielky, chilli, korenie a soľ vymiešaj/vymixuj do hladka.",
+		"Pomocou lyžice vytvor na plechu 4 placky. Peč ich 20 minút pri teplote 200 stupňov.",
+		"Kým sa tacos pečú, priprav si restovaná vajcia na kvapke ghí/masla, nakrájaj avokádo a pažítku.",
+		"Tacos nechaj chvíľu vychladnúť. Pridaj nakrájané avokádo, vajce, chilli olej a pažítku."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 473,
+			"portions": 2,
+			"macros": {
+				"carbs": 11,
+				"protein": 45,
+				"fat": 27
+			},
+			"ingredients": [
+				{
+					"name": "cottage light",
+					"quantity": 200,
+					"unit": "g"
+				},
+				{
+					"name": "vaječný bielok",
+					"quantity": 2
+				},
+				{
+					"name": "chilli",
+					"unit": "štipka"
+				},
+				{
+					"name": "čierne korenie"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "vajce",
+					"quantity": 2
+				},
+				{
+					"name": "ghí",
+					"quantity": 2,
+					"unit": "g"
+				},
+				{
+					"name": "avokádo",
+					"quantity": 60,
+					"unit": "g"
+				},
+				{
+					"name": "chilli omáčka"
+				},
+				{
+					"name": "pažítka"
+				}
+			]
+		}
+	],
+	"image": "onvia/image149.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image149"
+}

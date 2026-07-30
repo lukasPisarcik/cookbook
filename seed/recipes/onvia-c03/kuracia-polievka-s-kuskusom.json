@@ -1,0 +1,82 @@
+{
+	"title": "Kuracia polievka s kuskusom",
+	"category": "obedy",
+	"prepTimeMinutes": 50,
+	"steps": [
+		"V hrnci rozpusti lyžičku ghí a nakrájanú zeleninu (kapustu, mrkvu, zeler) na ňom minútu restuj.",
+		"Zeleninu zalej vodou a pridaj hovädzí bujón. Môžeš použiť aj vývar ak máš. Prihoď bobkový list, pridaj kvapku jablčného octu, osoľ a nechaj prevariť.",
+		"Do polievky prihoď 1 kuracie prso a nechaj variť približne 20 minút. Keď je mäso uvarené, vyber ho. Vyber bobkový list a do polievky vhoď kuskus.",
+		"Kým sa kuskus varí, mäso natrhaj na prúžky. Potom ho vhoď späť do polievky.",
+		"Dochuť soľou, korením a vychutnaj si ju!"
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 358,
+			"portions": 2,
+			"macros": {
+				"carbs": 37,
+				"protein": 38,
+				"fat": 7
+			},
+			"ingredients": [
+				{
+					"name": "kuracie prsia",
+					"quantity": 250,
+					"unit": "g"
+				},
+				{
+					"name": "mrkva",
+					"quantity": 150,
+					"unit": "g"
+				},
+				{
+					"name": "zeler",
+					"quantity": 150,
+					"unit": "g"
+				},
+				{
+					"name": "kapusta",
+					"quantity": 150,
+					"unit": "g"
+				},
+				{
+					"name": "ghee",
+					"quantity": 1,
+					"unit": "ČL"
+				},
+				{
+					"name": "hovädzí bujón",
+					"quantity": 1,
+					"unit": "PL"
+				},
+				{
+					"name": "jablčný ocot",
+					"quantity": 1,
+					"unit": "PL"
+				},
+				{
+					"name": "voda"
+				},
+				{
+					"name": "kuskus",
+					"quantity": 50,
+					"unit": "g"
+				},
+				{
+					"name": "jarná cibuľka",
+					"unit": "stonka"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "bobkový list"
+				}
+			]
+		}
+	],
+	"image": "onvia/image73.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image73"
+}

@@ -1,0 +1,33 @@
+{
+	"title": "Apple croissants",
+	"category": "dezerty",
+	"prepTimeMinutes": 15,
+	"steps": [
+		"Lístkové cesto rozrež na polovicu a každú časť potom na 6 trojuholníkov.",
+		"Povrch posyp škoricou, datľovým cukrom / unicorn dustom a nasekanými orechmi.",
+		"Na širšiu spodnú časť každého trojuholníka polož plátok jablka.",
+		"Zroluj do tvaru croissantu a poukladaj na plech vystlaný papierom na pečenie.",
+		"Potri rozšľahaným vajíčkom.",
+		"Peč v rúre vyhriatej na 200 °C približne 15 minút, kým croissanty nezozlatnú.",
+		"Vychutnaj si s gréckym jogurtom alebo tvarohom."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 91,
+			"portions": 12,
+			"macros": {"carbs": 8, "protein": 2, "fat": 5},
+			"ingredients": [
+				{"name": "lístkové cesto", "quantity": 200, "unit": "g"},
+				{"name": "jablko", "quantity": 100, "unit": "g"},
+				{"name": "datľový cukor", "quantity": 15, "unit": "g"},
+				{"name": "mletá škorica", "unit": "štipka"},
+				{"name": "nasekané orechy", "quantity": 20, "unit": "g"},
+				{"name": "vajce", "quantity": 1, "unit": "ks"}
+			]
+		}
+	],
+	"image": "onvia/image325.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image325"
+}

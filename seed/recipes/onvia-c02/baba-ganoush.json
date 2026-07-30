@@ -1,0 +1,103 @@
+{
+	"title": "Baba ganoush",
+	"category": "zaklady",
+	"prepTimeMinutes": 60,
+	"steps": [
+		"Najprv si priprav pečené baklažány na nátierku. Baklažány nakrájaj, poprepichuj vidličkou, osoľ a pokvapkaj trochou olivového oleja.",
+		"Baklažány peč v rúre pri teplote 180°C ohrev zhora/zdola, kým nezmäknú (približne 45 minút).",
+		"Medzitým si priprav paradajkovú salsu. Paradajky nakrájaj na malé kúsky, červenú cibuľu nadrobno, osoľ, pridaj citrónovú šťavu, olivový olej a nasekanú petržlenovú vňať.",
+		"Priprav si aj bagetky. Bagetu pozdĺžne rozrež a potri olivovým olejom a trochou petržlenovej vňate. Vlož ich do rúry a peč kým nie sú chrumkavé.",
+		"Potom upečené baklažány vydlab a prelož do mixéra. Pridaj citrónovú šťavu, tahini, olivový olej, strúčik cesnaku a korenie. Mixuj do hladka.",
+		"Teraz už len podávaj. Nátierku nalož na tanier, pridaj paradajkovú salsu, pokvapkaj ešte trochou olivového oleja a vychutnaj si ju s čerstvo opečenou bagetkou."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 347,
+			"portions": 4,
+			"macros": {
+				"carbs": 45,
+				"protein": 10,
+				"fat": 14
+			},
+			"ingredients": [
+				{
+					"name": "baklažán",
+					"quantity": 2,
+					"unit": "ks"
+				},
+				{
+					"name": "olivový olej",
+					"quantity": 2,
+					"unit": "PL"
+				},
+				{
+					"name": "šťava z citróna",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "tahini",
+					"quantity": 30,
+					"unit": "g"
+				},
+				{
+					"name": "cesnak",
+					"quantity": 1,
+					"unit": "strúčik"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "korenie"
+				},
+				{
+					"name": "cherry paradajka",
+					"quantity": 1,
+					"unit": "hrsť"
+				},
+				{
+					"name": "červená cibuľa",
+					"quantity": 0.25,
+					"unit": "ks"
+				},
+				{
+					"name": "olivový olej",
+					"quantity": 1,
+					"unit": "ČL"
+				},
+				{
+					"name": "šťava z citróna",
+					"quantity": 0.5,
+					"unit": "ks"
+				},
+				{
+					"name": "soľ",
+					"unit": "štipka"
+				},
+				{
+					"name": "nasekaná petržlenová vňať",
+					"unit": "štipka"
+				},
+				{
+					"name": "francúzska bageta",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "olivový olej na potretie",
+					"quantity": 2,
+					"unit": "PL"
+				},
+				{
+					"name": "nasekaná petržlenová vňať",
+					"unit": "štipka"
+				}
+			]
+		}
+	],
+	"image": "onvia/image42.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image42"
+}

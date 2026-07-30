@@ -1,0 +1,97 @@
+{
+	"title": "Chrumkavé zemiakové placky",
+	"category": "vecere",
+	"dietTags": [
+		"bezlepkove"
+	],
+	"prepTimeMinutes": 50,
+	"steps": [
+		"Predhrej rúru na 200°C.",
+		"Zatiaľ si očisti zemiaky a nastrúhaj ich na hrubom strúhadle.",
+		"Cibuľu nakrájaj nadrobno a strúčiky cesnaku pretlač cez lis.",
+		"K nastrúhaným zemiakom pridaj cibuľu, cesnak, vajce, maslo, soľ a korenie.",
+		"Dôkladne premiešaj.",
+		"Na plech daj papier na pečenie a zľahka ho potri olejom alebo maslom.",
+		"Zemiakové cesto rozotri a vytvor zemiakové placky.",
+		"Placky peč približne 30 minút dozlatista.",
+		"Na dresing zmiešaš všetky suroviny spolu.",
+		"Môžeš podávať chrumkavé placky s dresingom."
+	],
+	"funFact": "McDonald raz vytvoril limitovanú edíciu parfémov, kde jeden z nich voňal ako ich čerstvo vysmažené hranolky :D",
+	"variants": [
+		{
+			"label": "400 kcal",
+			"kcalPerPortion": 391,
+			"portions": 3,
+			"macros": {
+				"carbs": 48,
+				"protein": 11,
+				"fat": 17
+			},
+			"ingredients": [
+				{
+					"name": "vajíčko",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "cibuľa",
+					"quantity": 100,
+					"unit": "g"
+				},
+				{
+					"name": "zemiaky",
+					"quantity": 650,
+					"unit": "g"
+				},
+				{
+					"name": "maslo",
+					"quantity": 40,
+					"unit": "g"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "čierne korenie"
+				},
+				{
+					"name": "cesnak",
+					"quantity": 2,
+					"unit": "strúčik"
+				},
+				{
+					"name": "biely jogurt",
+					"quantity": 250,
+					"unit": "g"
+				},
+				{
+					"name": "sušené oregáno"
+				},
+				{
+					"name": "limetková šťava"
+				},
+				{
+					"name": "čerstvý tymián"
+				},
+				{
+					"name": "čerstvý koriander"
+				},
+				{
+					"name": "čerstvý rozmarín"
+				},
+				{
+					"name": "čerstvá petržlenová vňať"
+				},
+				{
+					"name": "čerstvá šalvia"
+				},
+				{
+					"name": "medvedí cesnak"
+				}
+			]
+		}
+	],
+	"source": "Večere - 400 kcal.pdf",
+	"sourceRef": "p17"
+}

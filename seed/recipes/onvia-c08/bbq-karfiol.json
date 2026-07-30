@@ -1,0 +1,75 @@
+{
+	"title": "BBQ karfiol",
+	"category": "snacky",
+	"prepTimeMinutes": 45,
+	"steps": [
+		"Rozdeľ karfiol na hlávky (kúsky).",
+		"V miske priprav zmes zo špaldovej múky, vody, štipky kukuričného škrobu a korenia (soľ, korenie, sladká paprika, sušený cesnak) a dobre premiešaj.",
+		"Potom v nej obaľ hlávky karfiolu.",
+		"Polož na plech vystlaný papierom na pečenie a nechaj piecť pri teplote 180°C približne 25 minút.",
+		"Medzitým si v druhej miske priprav BBQ omáčku a olivový olej. Tieto suroviny zmiešaj a obaľ v nich karfiol vytiahnutý z rúry. Rovnako ako v prípade prvej vrstvy.",
+		"Vlož späť do rúry a peč kým karfiol nezmäkne.",
+		"Podávaj s čerstvým šalátom a gréckym jogurtovým dresingom."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 363,
+			"portions": 2,
+			"ingredients": [
+				{
+					"name": "malý karfiol",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "špaldová múka",
+					"quantity": 4,
+					"unit": "PL"
+				},
+				{
+					"name": "voda",
+					"quantity": 100,
+					"unit": "ml"
+				},
+				{
+					"name": "olivový olej",
+					"quantity": 3,
+					"unit": "PL"
+				},
+				{
+					"name": "BBQ omáčka",
+					"quantity": 3,
+					"unit": "PL"
+				},
+				{
+					"name": "kukuričný škrob"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "sladká paprika"
+				},
+				{
+					"name": "čierne korenie"
+				},
+				{
+					"name": "sušený cesnak"
+				},
+				{
+					"name": "nízkotučný grécky jogurt",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "korenie na pizzu",
+					"unit": "štipka"
+				}
+			]
+		}
+	],
+	"image": "onvia/image169.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image169"
+}

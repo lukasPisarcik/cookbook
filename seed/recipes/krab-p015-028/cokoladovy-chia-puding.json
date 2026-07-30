@@ -1,0 +1,28 @@
+{
+	"title": "Čokoládový chia puding",
+	"category": "dezerty",
+	"steps": [
+		"V miske zmiešajte chia semienka, kakao, škoricu, med a mlieko, všetko spolu premiešajte a prelejte do mištičiek.",
+		"Dajte na noc do chladničky.",
+		"Ráno ozdobte nasekanou čokoládou a sušenými jahodami.",
+		"Pre doplnenie bielkoví k tomu pridajte skyr alebo grécky jogurt s 0% tuku."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 2,
+			"ingredients": [
+				{"name": "chia semienka", "quantity": 50, "unit": "g"},
+				{"name": "holandské kakao", "quantity": 2, "unit": "PL"},
+				{"name": "med", "quantity": 2, "unit": "PL"},
+				{"name": "ovsené mlieko", "quantity": 330, "unit": "g"},
+				{"name": "mletá škorica", "quantity": 1, "unit": "ČL"},
+				{"name": "čokoláda na ozdobenie"},
+				{"name": "sušené ovocie na ozdobenie"}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p28.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p28"
+}

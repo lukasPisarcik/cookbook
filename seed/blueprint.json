@@ -1,0 +1,8027 @@
+{
+	"recipes": [
+		{
+			"code": "R1",
+			"title": "Chia pudnig s malinami",
+			"category": "ranajky",
+			"kcalPerPortion": 329,
+			"sourceLocation": "Recepty - Raňajky, str. 1",
+			"cooking": true
+		},
+		{
+			"code": "R2",
+			"title": "Jogurtová müsli bowl",
+			"category": "ranajky",
+			"kcalPerPortion": 308,
+			"sourceLocation": "Recepty - Raňajky, str. 2",
+			"cooking": false
+		},
+		{
+			"code": "R3",
+			"title": "Avokádový toast",
+			"category": "ranajky",
+			"kcalPerPortion": 302,
+			"sourceLocation": "Recepty - Raňajky, str. 3",
+			"cooking": true
+		},
+		{
+			"code": "R4",
+			"title": "Miešané vajíčka",
+			"category": "ranajky",
+			"kcalPerPortion": 332,
+			"sourceLocation": "Recepty - Raňajky, str. 4",
+			"cooking": false
+		},
+		{
+			"code": "R5",
+			"title": "Čučoriedková ovsená kaša",
+			"category": "ranajky",
+			"kcalPerPortion": 294,
+			"sourceLocation": "Recepty - Raňajky, str. 5",
+			"cooking": true
+		},
+		{
+			"code": "R6",
+			"title": "Párky s cottage",
+			"category": "ranajky",
+			"kcalPerPortion": 322,
+			"sourceLocation": "Recepty - Raňajky, str. 6",
+			"cooking": true
+		},
+		{
+			"code": "R7",
+			"title": "Chlebík s údeným lososom",
+			"category": "ranajky",
+			"kcalPerPortion": 274,
+			"sourceLocation": "Recepty - Raňajky, str. 7",
+			"cooking": false
+		},
+		{
+			"code": "R8",
+			"title": "Banánové overnight oats",
+			"category": "ranajky",
+			"kcalPerPortion": 292,
+			"sourceLocation": "Recepty - Raňajky, str. 8",
+			"cooking": false
+		},
+		{
+			"code": "R9",
+			"title": "Omeleta s feta syrom",
+			"category": "ranajky",
+			"kcalPerPortion": 309,
+			"sourceLocation": "Recepty - Raňajky, str. 9",
+			"cooking": false
+		},
+		{
+			"code": "R10",
+			"title": "Banánové lievančeky",
+			"category": "ranajky",
+			"kcalPerPortion": 314,
+			"sourceLocation": "Recepty - Raňajky, str. 10",
+			"cooking": false
+		},
+		{
+			"code": "R11",
+			"title": "Makový tvaroh s horúcimi malinami",
+			"category": "ranajky",
+			"kcalPerPortion": 309,
+			"sourceLocation": "Recepty - Raňajky, str. 11",
+			"cooking": false
+		},
+		{
+			"code": "R12",
+			"title": "Domáci obložený bagel",
+			"category": "ranajky",
+			"kcalPerPortion": 329,
+			"sourceLocation": "Recepty - Raňajky, str. 12",
+			"cooking": false
+		},
+		{
+			"code": "R13",
+			"title": "Acai bowl",
+			"category": "ranajky",
+			"kcalPerPortion": 336,
+			"sourceLocation": "Recepty - Raňajky, str. 13",
+			"cooking": false
+		},
+		{
+			"code": "R14",
+			"title": "Papája s jogurtom a granolou",
+			"category": "ranajky",
+			"kcalPerPortion": 302,
+			"sourceLocation": "Recepty - Raňajky, str. 14",
+			"cooking": true
+		},
+		{
+			"code": "R15",
+			"title": "Probio + prebiotická granolová miska",
+			"category": "ranajky",
+			"kcalPerPortion": 345,
+			"sourceLocation": "Recepty - Raňajky, str. 15",
+			"cooking": false
+		},
+		{
+			"code": "R16",
+			"title": "French toast s jahodami",
+			"category": "ranajky",
+			"kcalPerPortion": 302,
+			"sourceLocation": "Recepty - Raňajky, str. 16",
+			"cooking": true
+		},
+		{
+			"code": "R17",
+			"title": "Pečená kokosovo - ovsená kaša",
+			"category": "ranajky",
+			"kcalPerPortion": 306,
+			"sourceLocation": "Recepty - Raňajky, str. 17",
+			"cooking": false
+		},
+		{
+			"code": "R18",
+			"title": "Tofu miešané vajíčka",
+			"category": "ranajky",
+			"kcalPerPortion": 326,
+			"sourceLocation": "Recepty - Raňajky, str. 18",
+			"cooking": false
+		},
+		{
+			"code": "R19",
+			"title": "Zemiaková fittata",
+			"category": "ranajky",
+			"kcalPerPortion": 316,
+			"sourceLocation": "Recepty - Raňajky, str. 19",
+			"cooking": false
+		},
+		{
+			"code": "R20",
+			"title": "Pečený vajíčkový toast",
+			"category": "ranajky",
+			"kcalPerPortion": 307,
+			"sourceLocation": "1. Recept za Receptami Raňajky",
+			"cooking": false
+		},
+		{
+			"code": "R21",
+			"title": "Slaná ovsená kaša s vajíčkom",
+			"category": "ranajky",
+			"kcalPerPortion": 337,
+			"sourceLocation": "2. Recept za Receptami Raňajky",
+			"cooking": false
+		},
+		{
+			"code": "R22",
+			"title": "Čokoládový puding",
+			"category": "ranajky",
+			"kcalPerPortion": 262,
+			"sourceLocation": "3. Recept za Receptami Raňajky",
+			"cooking": false
+		},
+		{
+			"code": "R23",
+			"title": "Citrónovo-tvarohová bábovka",
+			"category": "ranajky",
+			"kcalPerPortion": 338,
+			"sourceLocation": "4. Recept za Receptami Raňajky",
+			"cooking": false
+		},
+		{
+			"code": "R24",
+			"title": "Pumpkin spice ovsená kaša",
+			"category": "ranajky",
+			"kcalPerPortion": 344,
+			"sourceLocation": "5. Recept za Receptami Raňajky",
+			"cooking": false
+		},
+		{
+			"code": "R25",
+			"title": "Fazuľová polievka s párkami",
+			"category": "obedy",
+			"kcalPerPortion": 422,
+			"sourceLocation": "Recepty - Obedy, str. 1",
+			"cooking": true
+		},
+		{
+			"code": "R26",
+			"title": "Ružové cviklové cestoviny",
+			"category": "obedy",
+			"kcalPerPortion": 438,
+			"sourceLocation": "Recepty - Obedy, str. 2",
+			"cooking": true
+		},
+		{
+			"code": "R27",
+			"title": "Tofu s batátovými hranolkami",
+			"category": "obedy",
+			"kcalPerPortion": 418,
+			"sourceLocation": "Recepty - Obedy, str. 3",
+			"cooking": true
+		},
+		{
+			"code": "R28",
+			"title": "Makové šúlance s tvarohom",
+			"category": "obedy",
+			"kcalPerPortion": 439,
+			"sourceLocation": "Recepty - Obedy, str. 4",
+			"cooking": false
+		},
+		{
+			"code": "R29",
+			"title": "Wrap s hummusom",
+			"category": "obedy",
+			"kcalPerPortion": 419,
+			"sourceLocation": "Recepty - Obedy, str. 5",
+			"cooking": true
+		},
+		{
+			"code": "R30",
+			"title": "Buddha bowl",
+			"category": "obedy",
+			"kcalPerPortion": 440,
+			"sourceLocation": "Recepty - Obedy, str. 6",
+			"cooking": true
+		},
+		{
+			"code": "R31",
+			"title": "Šalát z cvikly s kozím syrom",
+			"category": "obedy",
+			"kcalPerPortion": 394,
+			"sourceLocation": "Recepty - Obedy, str. 7",
+			"cooking": true
+		},
+		{
+			"code": "R32",
+			"title": "Cestoviny s pestom",
+			"category": "obedy",
+			"kcalPerPortion": 439,
+			"sourceLocation": "Recepty - Obedy, str. 8",
+			"cooking": false
+		},
+		{
+			"code": "R33",
+			"title": "Tvarohové gule s horúcim ovocím",
+			"category": "obedy",
+			"kcalPerPortion": 403,
+			"sourceLocation": "Recepty - Obedy, str. 9",
+			"cooking": false
+		},
+		{
+			"code": "R34",
+			"title": "Kuracia poliekva do 15 minút",
+			"category": "obedy",
+			"kcalPerPortion": 451,
+			"sourceLocation": "Recepty - Obedy, str. 10",
+			"cooking": false
+		},
+		{
+			"code": "R35",
+			"title": "Fit ryžový nákyp",
+			"category": "obedy",
+			"kcalPerPortion": 316,
+			"sourceLocation": "Recepty - Obedy, str. 11",
+			"cooking": false
+		},
+		{
+			"code": "R36",
+			"title": "Maki sushi",
+			"category": "obedy",
+			"kcalPerPortion": 419,
+			"sourceLocation": "Recepty - Obedy, str. 12",
+			"cooking": false
+		},
+		{
+			"code": "R37",
+			"title": "Krevetový šalát",
+			"category": "obedy",
+			"kcalPerPortion": 399,
+			"sourceLocation": "Recepty - Obedy, str. 13",
+			"cooking": false
+		},
+		{
+			"code": "R38",
+			"title": "Špaldové mini pizzky",
+			"category": "obedy",
+			"kcalPerPortion": 363,
+			"sourceLocation": "Recepty - Obedy, str. 14",
+			"cooking": false
+		},
+		{
+			"code": "R39",
+			"title": "Kuracie mäso s arašidovou omáčkou",
+			"category": "obedy",
+			"kcalPerPortion": 420,
+			"sourceLocation": "Recepty - Obedy, str. 15",
+			"cooking": false
+		},
+		{
+			"code": "R40",
+			"title": "Francúzske zemiaky",
+			"category": "obedy",
+			"kcalPerPortion": 403,
+			"sourceLocation": "Recepty - Obedy, str. 16",
+			"cooking": false
+		},
+		{
+			"code": "R41",
+			"title": "Hubová omáčka s gnocchi",
+			"category": "obedy",
+			"kcalPerPortion": 404,
+			"sourceLocation": "Recepty - Obedy, str. 17",
+			"cooking": false
+		},
+		{
+			"code": "R42",
+			"title": "Šalát s grilovanou nektarínou a burratou",
+			"category": "obedy",
+			"kcalPerPortion": 420,
+			"sourceLocation": "Recepty - Obedy, str. 18",
+			"cooking": false
+		},
+		{
+			"code": "R43",
+			"title": "Restovaná ryža s krevetami",
+			"category": "obedy",
+			"kcalPerPortion": 444,
+			"sourceLocation": "1. Recept za Receptami Obedy",
+			"cooking": false
+		},
+		{
+			"code": "R44",
+			"title": "Thajské kari s ryžou",
+			"category": "obedy",
+			"kcalPerPortion": 391,
+			"sourceLocation": "2. Recept za Receptami Obedy",
+			"cooking": false
+		},
+		{
+			"code": "R45",
+			"title": "Cestoviny s ratatouille",
+			"category": "obedy",
+			"kcalPerPortion": 397,
+			"sourceLocation": "3. Recept za Receptami Obedy",
+			"cooking": false
+		},
+		{
+			"code": "R46",
+			"title": "Tuniakové poké",
+			"category": "obedy",
+			"kcalPerPortion": 406,
+			"sourceLocation": "4. Recept za Receptami Obedy",
+			"cooking": false
+		},
+		{
+			"code": "R47",
+			"title": "Ružové rizoto s kozím syrom",
+			"category": "obedy",
+			"kcalPerPortion": 413,
+			"sourceLocation": "5. Recept za Receptami Obedy",
+			"cooking": false
+		},
+		{
+			"code": "R48",
+			"title": "Vajíčková nátierka",
+			"category": "vecere",
+			"kcalPerPortion": 299,
+			"sourceLocation": "Recepty - Večere, str. 1",
+			"cooking": true
+		},
+		{
+			"code": "R49",
+			"title": "Losos s pečenou zeleninou",
+			"category": "vecere",
+			"kcalPerPortion": 296,
+			"sourceLocation": "Recepty - Večere, str. 2",
+			"cooking": true
+		},
+		{
+			"code": "R50",
+			"title": "Cestovinový kurací šalát",
+			"category": "vecere",
+			"kcalPerPortion": 320,
+			"sourceLocation": "Recepty - Večere, str. 3",
+			"cooking": true
+		},
+		{
+			"code": "R51",
+			"title": "Špagety s avokádovou omáčkou",
+			"category": "vecere",
+			"kcalPerPortion": 304,
+			"sourceLocation": "Recepty - Večere, str. 4",
+			"cooking": true
+		},
+		{
+			"code": "R52",
+			"title": "Parížsky šalát",
+			"category": "vecere",
+			"kcalPerPortion": 297,
+			"sourceLocation": "Recepty - Večere, str. 5",
+			"cooking": true
+		},
+		{
+			"code": "R53",
+			"title": "Plnené batáty",
+			"category": "vecere",
+			"kcalPerPortion": 297,
+			"sourceLocation": "Recepty - Večere, str. 6",
+			"cooking": true
+		},
+		{
+			"code": "R54",
+			"title": "Proteínové cestoviny s párkom",
+			"category": "vecere",
+			"kcalPerPortion": 330,
+			"sourceLocation": "Recepty - Večere, str. 7",
+			"cooking": true
+		},
+		{
+			"code": "R55",
+			"title": "Tortillová pizza",
+			"category": "vecere",
+			"kcalPerPortion": 323,
+			"sourceLocation": "Recepty - Večere, str. 8",
+			"cooking": false
+		},
+		{
+			"code": "R56",
+			"title": "Chlebík so šunkou a vajíčkom",
+			"category": "vecere",
+			"kcalPerPortion": 315,
+			"sourceLocation": "Recepty - Večere, str. 9",
+			"cooking": false
+		},
+		{
+			"code": "R57",
+			"title": "Chnocchi alá bryndzové halušky",
+			"category": "vecere",
+			"kcalPerPortion": 312,
+			"sourceLocation": "Recepty - Večere, str. 10",
+			"cooking": false
+		},
+		{
+			"code": "R58",
+			"title": "Špenátová omeleta plnená s hubami",
+			"category": "vecere",
+			"kcalPerPortion": 300,
+			"sourceLocation": "Recepty - Večere, str. 11",
+			"cooking": false
+		},
+		{
+			"code": "R59",
+			"title": "Vajíčkové muffiny",
+			"category": "vecere",
+			"kcalPerPortion": 325,
+			"sourceLocation": "Recepty - Večere, str. 12",
+			"cooking": false
+		},
+		{
+			"code": "R60",
+			"title": "La scala chopped salad",
+			"category": "vecere",
+			"kcalPerPortion": 322,
+			"sourceLocation": "Recepty - Večere, str. 13",
+			"cooking": false
+		},
+		{
+			"code": "R61",
+			"title": "Batátová polievka",
+			"category": "vecere",
+			"kcalPerPortion": 314,
+			"sourceLocation": "Recepty - Večere, str. 14",
+			"cooking": false
+		},
+		{
+			"code": "R62",
+			"title": "Pečené syrovo-brokolicové guľky",
+			"category": "vecere",
+			"kcalPerPortion": 345,
+			"sourceLocation": "Recepty - Večere, str. 15",
+			"cooking": false
+		},
+		{
+			"code": "R63",
+			"title": "Chrumkavé zemiakové placky",
+			"category": "vecere",
+			"kcalPerPortion": 327,
+			"sourceLocation": "Recepty - Večere, str. 16",
+			"cooking": false
+		},
+		{
+			"code": "R64",
+			"title": "Loss na pomarančovej omáčke",
+			"category": "vecere",
+			"kcalPerPortion": 326,
+			"sourceLocation": "Recepty - Večere, str. 17",
+			"cooking": false
+		},
+		{
+			"code": "R65",
+			"title": "Hovädzie chilli con carne",
+			"category": "vecere",
+			"kcalPerPortion": 333,
+			"sourceLocation": "Recepty - Večere, str. 18",
+			"cooking": false
+		},
+		{
+			"code": "R66",
+			"title": "Vegan bolognese",
+			"category": "vecere",
+			"kcalPerPortion": 333,
+			"sourceLocation": "1. Recept za Receptami Večere",
+			"cooking": false
+		},
+		{
+			"code": "R67",
+			"title": "Zapekané penné s kuracím mäsom",
+			"category": "vecere",
+			"kcalPerPortion": 321,
+			"sourceLocation": "2. Recept za Receptami Večere",
+			"cooking": false
+		},
+		{
+			"code": "R68",
+			"title": "Jesenné vegan kari",
+			"category": "vecere",
+			"kcalPerPortion": 333,
+			"sourceLocation": "3. Recept za Receptami Večere",
+			"cooking": false
+		},
+		{
+			"code": "R69",
+			"title": "Pappardelle s nivovou omáčkou",
+			"category": "vecere",
+			"kcalPerPortion": 337,
+			"sourceLocation": "4. Recept za Receptami Večere",
+			"cooking": false
+		},
+		{
+			"code": "R70",
+			"title": "Tvarohový kuskus",
+			"category": "vecere",
+			"kcalPerPortion": 322,
+			"sourceLocation": "5. Recept za Receptami Večere",
+			"cooking": false
+		},
+		{
+			"code": "R71",
+			"title": "Kuracie prsia na jablkách",
+			"category": "obedy",
+			"kcalPerPortion": 431,
+			"sourceLocation": "6. Recept za Receptami Obedy",
+			"cooking": false
+		},
+		{
+			"code": "R72",
+			"title": "Guacamole s celozrnnými krekrami",
+			"category": "snacky",
+			"kcalPerPortion": 293,
+			"sourceLocation": "Recepty - Snacky, str. 1",
+			"cooking": false
+		},
+		{
+			"code": "R73",
+			"title": "Zeleninový šalát s grivoaným kuracím mäsom",
+			"category": "snacky",
+			"kcalPerPortion": 317,
+			"sourceLocation": "Recepty - Snacky, str. 2",
+			"cooking": true
+		},
+		{
+			"code": "R74",
+			"title": "Pečený cícerový snack",
+			"category": "snacky",
+			"kcalPerPortion": 301,
+			"sourceLocation": "Recepty - Snacky, str. 3",
+			"cooking": false
+		},
+		{
+			"code": "R75",
+			"title": "Tortillky s hummusom",
+			"category": "snacky",
+			"kcalPerPortion": 328,
+			"sourceLocation": "Recepty - Snacky, str. 4",
+			"cooking": false
+		},
+		{
+			"code": "R76",
+			"title": "Pečená mrkva s jogurtovým dipom",
+			"category": "snacky",
+			"kcalPerPortion": 315,
+			"sourceLocation": "Recepty - Snacky, str. 5",
+			"cooking": false
+		},
+		{
+			"code": "R77",
+			"title": "Pomazánka so sušených rajčín",
+			"category": "snacky",
+			"kcalPerPortion": 294,
+			"sourceLocation": "Recepty - Snacky, str. 6",
+			"cooking": false
+		},
+		{
+			"code": "R78",
+			"title": "Tuniakové lodičky",
+			"category": "snacky",
+			"kcalPerPortion": 286,
+			"sourceLocation": "Recepty - Snacky, str. 7",
+			"cooking": true
+		},
+		{
+			"code": "R79",
+			"title": "Vajíčka so zeleninou",
+			"category": "snacky",
+			"kcalPerPortion": 293,
+			"sourceLocation": "Recepty - Snacky, str. 8",
+			"cooking": false
+		},
+		{
+			"code": "R80",
+			"title": "Jarný šalát s tempehom",
+			"category": "snacky",
+			"kcalPerPortion": 363,
+			"sourceLocation": "Recepty - Snacky, str. 9",
+			"cooking": false
+		},
+		{
+			"code": "R81",
+			"title": "Cottage čipsy",
+			"category": "snacky",
+			"kcalPerPortion": 281,
+			"sourceLocation": "Recepty - Snacky, str. 10",
+			"cooking": false
+		},
+		{
+			"code": "R82",
+			"title": "Tuniaková pomazánka",
+			"category": "snacky",
+			"kcalPerPortion": 307,
+			"sourceLocation": "Recepty - Snacky, str. 11",
+			"cooking": true
+		},
+		{
+			"code": "R83",
+			"title": "Syrové štangle",
+			"category": "snacky",
+			"kcalPerPortion": 316,
+			"sourceLocation": "Recepty - Snacky, str. 12",
+			"cooking": false
+		},
+		{
+			"code": "R84",
+			"title": "Bryndzová nátierka",
+			"category": "snacky",
+			"kcalPerPortion": 325,
+			"sourceLocation": "1. Recept za Receptami Snacky",
+			"cooking": false
+		},
+		{
+			"code": "R85",
+			"title": "Chrumkavý chlebík s nivou a pečenými hruškami",
+			"category": "snacky",
+			"kcalPerPortion": 320,
+			"sourceLocation": "2. Recept za Receptami Snacky",
+			"cooking": false
+		},
+		{
+			"code": "R86",
+			"title": "Cuketové mini placky",
+			"category": "snacky",
+			"kcalPerPortion": 348,
+			"sourceLocation": "3. Recept za Receptami Snacky",
+			"cooking": false
+		},
+		{
+			"code": "R87",
+			"title": "Strawbery glazed smoothie",
+			"category": "smoothies",
+			"kcalPerPortion": 227,
+			"sourceLocation": "Recepty - Smoothies, str. 1",
+			"cooking": false
+		},
+		{
+			"code": "R88",
+			"title": "Broskyňovo krémové smoothie",
+			"category": "smoothies",
+			"kcalPerPortion": 219,
+			"sourceLocation": "Recepty - Smoothies, str. 2",
+			"cooking": false
+		},
+		{
+			"code": "R89",
+			"title": "Glow up smoothie",
+			"category": "smoothies",
+			"kcalPerPortion": 229,
+			"sourceLocation": "Recepty - Smoothies, str. 3",
+			"cooking": false
+		},
+		{
+			"code": "R90",
+			"title": "Berry smoothie",
+			"category": "smoothies",
+			"kcalPerPortion": 225,
+			"sourceLocation": "Recepty - Smoothies, str. 4",
+			"cooking": false
+		},
+		{
+			"code": "R91",
+			"title": "Mangové smoothie",
+			"category": "smoothies",
+			"kcalPerPortion": 230,
+			"sourceLocation": "Recepty - Smoothies, str. 5",
+			"cooking": true
+		},
+		{
+			"code": "R92",
+			"title": "Malinové smoothie",
+			"category": "smoothies",
+			"kcalPerPortion": 208,
+			"sourceLocation": "Recepty - Smoothies, str. 6",
+			"cooking": false
+		},
+		{
+			"code": "R93",
+			"title": "Kávové smoothie",
+			"category": "smoothies",
+			"kcalPerPortion": 238,
+			"sourceLocation": "Recepty - Smoothies, str. 7",
+			"cooking": true
+		},
+		{
+			"code": "R94",
+			"title": "Malinová matcha",
+			"category": "smoothies",
+			"kcalPerPortion": 131,
+			"sourceLocation": "Recepty - Smoothies, str. 8",
+			"cooking": false
+		},
+		{
+			"code": "R95",
+			"title": "Piňa colada smoothie",
+			"category": "smoothies",
+			"kcalPerPortion": 209,
+			"sourceLocation": "Recepty - Smoothies, str. 9",
+			"cooking": false
+		},
+		{
+			"code": "R96",
+			"title": "Kefírovo-lesné smoothie",
+			"category": "smoothies",
+			"kcalPerPortion": 241,
+			"sourceLocation": "Recepty - Smoothies, str. 10",
+			"cooking": false
+		},
+		{
+			"code": "R97",
+			"title": "Banánové frapé",
+			"category": "smoothies",
+			"kcalPerPortion": 179,
+			"sourceLocation": "1. Recept za Receptami Smoothies",
+			"cooking": false
+		},
+		{
+			"code": "R98",
+			"title": "Čokoládové smoothie",
+			"category": "smoothies",
+			"kcalPerPortion": 185,
+			"sourceLocation": "2. Recept za Receptami Smoothies",
+			"cooking": false
+		},
+		{
+			"code": "R99",
+			"title": "Pumpkin spice smoothie",
+			"category": "smoothies",
+			"kcalPerPortion": 170,
+			"sourceLocation": "3. Recept za Receptami Smoothies",
+			"cooking": false
+		},
+		{
+			"code": "R100",
+			"title": "Melónová limonáda (mojito)",
+			"category": "drinky",
+			"kcalPerPortion": 230,
+			"sourceLocation": "Recepty - Letné drinky, str. 1",
+			"cooking": true
+		},
+		{
+			"code": "R101",
+			"title": "Broskyňový ľadový čaj",
+			"category": "drinky",
+			"kcalPerPortion": 222,
+			"sourceLocation": "Recepty - Letné drinky, str. 3",
+			"cooking": false
+		},
+		{
+			"code": "R102",
+			"title": "Piňa colada",
+			"category": "drinky",
+			"kcalPerPortion": 224,
+			"sourceLocation": "Recepty - Letné drinky, str. 4",
+			"cooking": false
+		},
+		{
+			"code": "R103",
+			"title": "Malinové mojito",
+			"category": "drinky",
+			"kcalPerPortion": 233,
+			"sourceLocation": "Recepty - Letné drinky, str. 6",
+			"cooking": false
+		},
+		{
+			"code": "R104",
+			"title": "Mangová limonáda",
+			"category": "drinky",
+			"kcalPerPortion": 232,
+			"sourceLocation": "Recepty - Letné drinky, str. 7",
+			"cooking": false
+		},
+		{
+			"code": "R105",
+			"title": "Černicový ľadový čaj",
+			"category": "drinky",
+			"kcalPerPortion": 225,
+			"sourceLocation": "Recepty - Letné drinky, str. 9",
+			"cooking": false
+		},
+		{
+			"code": "R106",
+			"title": "Horúce jablko so zázvorom",
+			"category": "drinky",
+			"sourceLocation": "Recepty - Letné drinky, str. 10",
+			"cooking": false
+		},
+		{
+			"code": "R107",
+			"title": "Brusnicovo-pomarančnový kokteil",
+			"category": "drinky",
+			"sourceLocation": "Recepty - Letné drinky, str. 11",
+			"cooking": false
+		},
+		{
+			"code": "R108",
+			"title": "Hruškový čaj so zázvorom",
+			"category": "drinky",
+			"sourceLocation": "Recepty - Letné drinky, str. 12",
+			"cooking": false
+		},
+		{
+			"code": "R109",
+			"title": "Pumpkin spice smoothie",
+			"category": "drinky",
+			"kcalPerPortion": 340,
+			"sourceLocation": "Recepty - Letné drinky, str. 13",
+			"cooking": false
+		},
+		{
+			"code": "R110",
+			"title": "Banánové plátky s orieškovým maslom",
+			"category": "dezerty",
+			"kcalPerPortion": 308,
+			"sourceLocation": "Recepty - Dezerty, str. 1",
+			"cooking": false
+		},
+		{
+			"code": "R111",
+			"title": "Energy balls",
+			"category": "dezerty",
+			"kcalPerPortion": 301,
+			"sourceLocation": "Recepty - Dezerty, str. 2",
+			"cooking": false
+		},
+		{
+			"code": "R112",
+			"title": "Banánový chlebík",
+			"category": "dezerty",
+			"kcalPerPortion": 316,
+			"sourceLocation": "Recepty - Dezerty, str. 3",
+			"cooking": false
+		},
+		{
+			"code": "R113",
+			"title": "Tvarohovo-jahodový pohár",
+			"category": "dezerty",
+			"kcalPerPortion": 282,
+			"sourceLocation": "Recepty - Dezerty, str. 4",
+			"cooking": true
+		},
+		{
+			"code": "R114",
+			"title": "Pečené jablká s orechami",
+			"category": "dezerty",
+			"kcalPerPortion": 311,
+			"sourceLocation": "Recepty - Dezerty, str. 5",
+			"cooking": false
+		},
+		{
+			"code": "R115",
+			"title": "Ovocie s horkou čokoládou",
+			"category": "dezerty",
+			"kcalPerPortion": 328,
+			"sourceLocation": "Recepty - Dezerty, str. 6",
+			"cooking": false
+		},
+		{
+			"code": "R116",
+			"title": "Odľahčené tiramisu",
+			"category": "dezerty",
+			"kcalPerPortion": 288,
+			"sourceLocation": "Recepty - Dezerty, str. 7",
+			"cooking": false
+		},
+		{
+			"code": "R117",
+			"title": "Medové ryžové chlebíčky",
+			"category": "dezerty",
+			"kcalPerPortion": 288,
+			"sourceLocation": "Recepty - Dezerty, str. 8",
+			"cooking": true
+		},
+		{
+			"code": "R118",
+			"title": "Čokoládové košíčky Reeses's",
+			"category": "dezerty",
+			"kcalPerPortion": 287,
+			"sourceLocation": "Recepty - Dezerty, str. 9",
+			"cooking": false
+		},
+		{
+			"code": "R119",
+			"title": "Banánové cookies",
+			"category": "dezerty",
+			"kcalPerPortion": 278,
+			"sourceLocation": "Recepty - Dezerty, str. 10",
+			"cooking": false
+		},
+		{
+			"code": "R120",
+			"title": "Lávový koláčik",
+			"category": "dezerty",
+			"kcalPerPortion": 293,
+			"sourceLocation": "Recepty - Dezerty, str. 11",
+			"cooking": false
+		},
+		{
+			"code": "R121",
+			"title": "Jogurtové nanuky",
+			"category": "dezerty",
+			"kcalPerPortion": 247,
+			"sourceLocation": "1. Recept za Receptami Dezerty",
+			"cooking": false
+		},
+		{
+			"code": "R122",
+			"title": "Čokoládové mugginky",
+			"category": "dezerty",
+			"kcalPerPortion": 355,
+			"sourceLocation": "2. Recept za Receptami Dezerty",
+			"cooking": false
+		},
+		{
+			"code": "R123",
+			"title": "Jablkový koláč",
+			"category": "dezerty",
+			"kcalPerPortion": 355,
+			"sourceLocation": "3. Recept za Receptami Dezerty",
+			"cooking": false
+		},
+		{
+			"code": "R124",
+			"title": "Malinové brownie so straciatellou",
+			"category": "snacky",
+			"kcalPerPortion": 258,
+			"sourceLocation": "Recepty - IG recepty, str. 1",
+			"cooking": false
+		},
+		{
+			"code": "R125",
+			"title": "Lososová pomazánka",
+			"category": "snacky",
+			"kcalPerPortion": 328,
+			"sourceLocation": "Recepty - IG recepty, str. 2",
+			"cooking": false
+		},
+		{
+			"code": "R126",
+			"title": "Horúca čokoláda",
+			"category": "snacky",
+			"kcalPerPortion": 271,
+			"sourceLocation": "Recepty - IG recepty, str. 3",
+			"cooking": false
+		},
+		{
+			"code": "R127",
+			"title": "Tuniakové burgre",
+			"category": "obedy",
+			"kcalPerPortion": 416,
+			"sourceLocation": "Recepty - IG recepty, str. 4",
+			"cooking": false
+		},
+		{
+			"code": "R128",
+			"title": "Losos v trojobale",
+			"category": "obedy",
+			"kcalPerPortion": 492,
+			"sourceLocation": "Recepty - IG recepty, str. 5",
+			"cooking": false
+		},
+		{
+			"code": "R129",
+			"title": "Mliečna ryža",
+			"category": "snacky",
+			"kcalPerPortion": 285,
+			"sourceLocation": "Recepty - IG recepty, str. 6",
+			"cooking": false
+		}
+	],
+	"ingredientsByCode": {
+		"R1": [
+			{
+				"name": "chia semienka",
+				"quantity": 30,
+				"unit": "g",
+				"productType": "semienka"
+			},
+			{
+				"name": "kokosové mlieko light",
+				"quantity": 120,
+				"unit": "ml",
+				"productType": "konzervy"
+			},
+			{
+				"name": "javorový sirup",
+				"quantity": 5,
+				"unit": "ml",
+				"productType": "sladidlá"
+			},
+			{
+				"name": "maliny",
+				"quantity": 50,
+				"unit": "g",
+				"productType": "ovocie"
+			},
+			{
+				"name": "mäta",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "bylinky"
+			}
+		],
+		"R2": [
+			{
+				"name": "grécky jogurt",
+				"quantity": 140,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "müsli",
+				"quantity": 40,
+				"unit": "g",
+				"productType": "cereálie"
+			},
+			{
+				"name": "jahody",
+				"quantity": 15,
+				"unit": "g",
+				"productType": "ovocie"
+			},
+			{
+				"name": "čučoriedky",
+				"quantity": 15,
+				"unit": "g",
+				"productType": "ovocie"
+			},
+			{
+				"name": "banán",
+				"quantity": 20,
+				"unit": "g",
+				"productType": "ovocie"
+			},
+			{
+				"name": "med",
+				"quantity": 5,
+				"unit": "g",
+				"productType": "sladidlá"
+			},
+			{
+				"name": "škorica mletá",
+				"quantity": 2,
+				"unit": "g",
+				"productType": "korenie"
+			}
+		],
+		"R3": [
+			{
+				"name": "kváskový chlieb",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "pečivo"
+			},
+			{
+				"name": "avokádo",
+				"quantity": 70,
+				"unit": "g",
+				"productType": "ovocie"
+			},
+			{
+				"name": "vajce",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "chladené výrobky"
+			},
+			{
+				"name": "šunka",
+				"quantity": 20,
+				"unit": "g",
+				"productType": "chladené výrobky"
+			},
+			{
+				"name": "soľ",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "čierne korenie",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "chili",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "olivový olej",
+				"quantity": 5,
+				"unit": "ml",
+				"productType": "oleje"
+			}
+		],
+		"R4": [
+			{
+				"name": "vajce",
+				"quantity": 2,
+				"unit": "ks",
+				"productType": "chladené výrobky"
+			},
+			{
+				"name": "Schwarzvaldská šunka",
+				"quantity": 20,
+				"unit": "g",
+				"productType": "chladené výrobky"
+			},
+			{
+				"name": "kváskový chlieb",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "pečivo"
+			},
+			{
+				"name": "olivový olej",
+				"quantity": 5,
+				"unit": "ml",
+				"productType": "oleje"
+			},
+			{
+				"name": "soľ",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "čierne korenie",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "pažítka",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "bylinky"
+			}
+		],
+		"R5": [
+			{
+				"name": "ovsené vločky",
+				"quantity": 30,
+				"unit": "g",
+				"productType": "cereálie"
+			},
+			{
+				"name": "polotučné mlieko",
+				"quantity": 100,
+				"unit": "ml",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "proteinový prášok (vanilka)",
+				"quantity": 20,
+				"unit": "g",
+				"productType": "protein"
+			},
+			{
+				"name": "čučoriedky",
+				"quantity": 50,
+				"unit": "g",
+				"productType": "ovocie"
+			},
+			{
+				"name": "med",
+				"quantity": 5,
+				"unit": "g",
+				"productType": "sladidlá"
+			}
+		],
+		"R6": [
+			{
+				"name": "kuracie párky",
+				"quantity": 2,
+				"unit": "ks",
+				"productType": "chladené výrobky"
+			},
+			{
+				"name": "cottage cheese",
+				"quantity": 100,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "horčica",
+				"quantity": 10,
+				"unit": "g",
+				"productType": "omáčky"
+			},
+			{
+				"name": "kečup",
+				"quantity": 10,
+				"unit": "g",
+				"productType": "omáčky"
+			},
+			{
+				"name": "uhorka",
+				"quantity": 20,
+				"unit": "g",
+				"productType": "zelenina"
+			},
+			{
+				"name": "cherry paradajky",
+				"quantity": 20,
+				"unit": "g",
+				"productType": "zelenina"
+			}
+		],
+		"R7": [
+			{
+				"name": "kváskový chlieb",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "pečivo"
+			},
+			{
+				"name": "údený losos",
+				"quantity": 40,
+				"unit": "g",
+				"productType": "chladené výrobky"
+			},
+			{
+				"name": "avokádo",
+				"quantity": 40,
+				"unit": "g",
+				"productType": "ovocie"
+			},
+			{
+				"name": "Lučina",
+				"quantity": 20,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "červená cibuľa",
+				"quantity": 0.25,
+				"unit": "ks",
+				"productType": "zelenina"
+			},
+			{
+				"name": "citrónová šťava",
+				"quantity": 5,
+				"unit": "ml",
+				"productType": "iné"
+			},
+			{
+				"name": "soľ",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "čierne korenie",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			}
+		],
+		"R8": [
+			{
+				"name": "chia semienka",
+				"quantity": 4,
+				"unit": "g",
+				"productType": "semienka"
+			},
+			{
+				"name": "vlašské orechy",
+				"quantity": 4,
+				"unit": "g",
+				"productType": "semienka"
+			},
+			{
+				"name": "med",
+				"quantity": 5,
+				"unit": "g",
+				"productType": "sladidlá"
+			},
+			{
+				"name": "ovsené vločky",
+				"quantity": 30,
+				"unit": "g",
+				"productType": "cereálie"
+			},
+			{
+				"name": "holandské kakao",
+				"quantity": 15,
+				"unit": "g",
+				"productType": "iné"
+			},
+			{
+				"name": "banán",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "ovocie"
+			},
+			{
+				"name": "škorica mletá",
+				"quantity": 3,
+				"unit": "g",
+				"productType": "korenie"
+			}
+		],
+		"R9": [
+			{
+				"name": "vajce",
+				"quantity": 2,
+				"unit": "ks",
+				"productType": "chladené výrobky"
+			},
+			{
+				"name": "vaječné bielky",
+				"quantity": 2,
+				"unit": "ks",
+				"productType": "chladené výrobky"
+			},
+			{
+				"name": "feta syr",
+				"quantity": 30,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "špenát",
+				"quantity": 30,
+				"unit": "g",
+				"productType": "zelenina"
+			},
+			{
+				"name": "cherry paradajky",
+				"quantity": 40,
+				"unit": "g",
+				"productType": "zelenina"
+			},
+			{
+				"name": "olivový olej",
+				"quantity": 3,
+				"unit": "ml",
+				"productType": "oleje"
+			},
+			{
+				"name": "soľ",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "čierne korenie",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			}
+		],
+		"R10": [
+			{
+				"name": "vajce",
+				"quantity": 2,
+				"unit": "ks",
+				"productType": "chladené výrobky"
+			},
+			{
+				"name": "banán",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "ovocie"
+			},
+			{
+				"name": "kypriaci prášok",
+				"quantity": 5,
+				"unit": "g",
+				"productType": "iné"
+			},
+			{
+				"name": "škorica mletá",
+				"quantity": 2,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "grécky jogurt",
+				"quantity": 70,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "čučoriedky",
+				"quantity": 30,
+				"unit": "g",
+				"productType": "ovocie"
+			},
+			{
+				"name": "javorový sirup",
+				"quantity": 5,
+				"unit": "ml",
+				"productType": "sladidlá"
+			}
+		],
+		"R11": [
+			{
+				"name": "nízkotučný tvaroh",
+				"quantity": 250,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "mletý mak",
+				"quantity": 15,
+				"unit": "g",
+				"productType": "iné"
+			},
+			{
+				"name": "vanilkový extrakt",
+				"quantity": 0.5,
+				"unit": "čl",
+				"productType": "sladidlá"
+			},
+			{
+				"name": "sladidlo",
+				"quantity": 2,
+				"unit": "ml",
+				"productType": "sladidlá"
+			},
+			{
+				"name": "mrazené maliny",
+				"quantity": 100,
+				"unit": "g",
+				"productType": "mrazené výrobky"
+			}
+		],
+		"R12": [
+			{
+				"name": "grécky jogurt",
+				"quantity": 250,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "špaldová múka",
+				"quantity": 130,
+				"unit": "g",
+				"productType": "iné"
+			},
+			{
+				"name": "kypriaci prášok",
+				"quantity": 10,
+				"unit": "g",
+				"productType": "iné"
+			},
+			{
+				"name": "vajce",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "chladené výrobky"
+			},
+			{
+				"name": "sezamové semienka",
+				"quantity": 10,
+				"unit": "g",
+				"productType": "semienka"
+			},
+			{
+				"name": "avokádo",
+				"quantity": 200,
+				"unit": "g",
+				"productType": "ovocie"
+			},
+			{
+				"name": "šunka",
+				"quantity": 100,
+				"unit": "g",
+				"productType": "chladené výrobky"
+			},
+			{
+				"name": "Lučina",
+				"quantity": 40,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "uhorka",
+				"quantity": 20,
+				"unit": "g",
+				"productType": "zelenina"
+			},
+			{
+				"name": "cherry paradajky",
+				"quantity": 20,
+				"unit": "g",
+				"productType": "zelenina"
+			},
+			{
+				"name": "špenát",
+				"quantity": 30,
+				"unit": "g",
+				"productType": "zelenina"
+			}
+		],
+		"R13": [
+			{
+				"name": "acai prášok",
+				"quantity": 1,
+				"unit": "čl",
+				"productType": "iné"
+			},
+			{
+				"name": "banán",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "ovocie"
+			},
+			{
+				"name": "proteinový prášok (vanilka)",
+				"quantity": 15,
+				"unit": "g",
+				"productType": "protein"
+			},
+			{
+				"name": "mrazené maliny",
+				"quantity": 70,
+				"unit": "g",
+				"productType": "mrazené výrobky"
+			},
+			{
+				"name": "mandľové mlieko",
+				"quantity": 80,
+				"unit": "ml",
+				"productType": "rastlinné výrobky"
+			},
+			{
+				"name": "sladidlo",
+				"quantity": 2,
+				"unit": "ml",
+				"productType": "sladidlá"
+			},
+			{
+				"name": "čučoriedky",
+				"quantity": 10,
+				"unit": "g",
+				"productType": "ovocie"
+			},
+			{
+				"name": "maliny",
+				"quantity": 10,
+				"unit": "g",
+				"productType": "ovocie"
+			},
+			{
+				"name": "chia semienka",
+				"quantity": 3,
+				"unit": "g",
+				"productType": "semienka"
+			}
+		],
+		"R14": [
+			{
+				"name": "papája",
+				"quantity": 0.5,
+				"unit": "ks",
+				"productType": "ovocie"
+			},
+			{
+				"name": "jahody",
+				"quantity": 10,
+				"unit": "g",
+				"productType": "ovocie"
+			},
+			{
+				"name": "kiwi",
+				"quantity": 10,
+				"unit": "g",
+				"productType": "ovocie"
+			},
+			{
+				"name": "čučoriedky",
+				"quantity": 10,
+				"unit": "g",
+				"productType": "ovocie"
+			},
+			{
+				"name": "granola",
+				"quantity": 20,
+				"unit": "g",
+				"productType": "cereálie"
+			},
+			{
+				"name": "chia semienka",
+				"quantity": 2,
+				"unit": "g",
+				"productType": "semienka"
+			},
+			{
+				"name": "javorový sirup",
+				"quantity": 10,
+				"unit": "ml",
+				"productType": "sladidlá"
+			}
+		],
+		"R15": [
+			{
+				"name": "granola",
+				"quantity": 25,
+				"unit": "g",
+				"productType": "cereálie"
+			},
+			{
+				"name": "probio jogurt",
+				"quantity": 145,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "proteinový prášok (vanilka)",
+				"quantity": 15,
+				"unit": "g",
+				"productType": "protein"
+			},
+			{
+				"name": "maliny",
+				"quantity": 20,
+				"unit": "g",
+				"productType": "ovocie"
+			},
+			{
+				"name": "jahody",
+				"quantity": 30,
+				"unit": "g",
+				"productType": "ovocie"
+			},
+			{
+				"name": "banán",
+				"quantity": 30,
+				"unit": "g",
+				"productType": "ovocie"
+			},
+			{
+				"name": "čučoriedky",
+				"quantity": 20,
+				"unit": "g",
+				"productType": "ovocie"
+			},
+			{
+				"name": "čakankový sirup",
+				"quantity": 15,
+				"unit": "ml",
+				"productType": "sladidlá"
+			},
+			{
+				"name": "škorica mletá",
+				"quantity": 2,
+				"unit": "g",
+				"productType": "korenie"
+			}
+		],
+		"R16": [
+			{
+				"name": "toastový chlieb",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "pečivo"
+			},
+			{
+				"name": "vajce",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "chladené výrobky"
+			},
+			{
+				"name": "olivový olej",
+				"quantity": 3,
+				"unit": "ml",
+				"productType": "oleje"
+			},
+			{
+				"name": "škorica mletá",
+				"quantity": 2,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "polotučné mlieko",
+				"quantity": 15,
+				"unit": "ml",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "jahody",
+				"quantity": 50,
+				"unit": "g",
+				"productType": "ovocie"
+			},
+			{
+				"name": "čakankový sirup",
+				"quantity": 10,
+				"unit": "ml",
+				"productType": "sladidlá"
+			},
+			{
+				"name": "odtučnený tvaroh",
+				"quantity": 125,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			}
+		],
+		"R17": [
+			{
+				"name": "ovsené vločky",
+				"quantity": 20,
+				"unit": "g",
+				"productType": "cereálie"
+			},
+			{
+				"name": "proteinový prášok (vanilka)",
+				"quantity": 15,
+				"unit": "g",
+				"productType": "protein"
+			},
+			{
+				"name": "banán",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "ovocie"
+			},
+			{
+				"name": "kokos",
+				"quantity": 10,
+				"unit": "g",
+				"productType": "iné"
+			},
+			{
+				"name": "škorica mletá",
+				"quantity": 2,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "kypriaci prášok",
+				"quantity": 5,
+				"unit": "g",
+				"productType": "iné"
+			},
+			{
+				"name": "odtučnený tvaroh",
+				"quantity": 15,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "med",
+				"quantity": 7,
+				"unit": "g",
+				"productType": "sladidlá"
+			},
+			{
+				"name": "jahody",
+				"quantity": 50,
+				"unit": "g",
+				"productType": "ovocie"
+			}
+		],
+		"R18": [
+			{
+				"name": "tofu",
+				"quantity": 160,
+				"unit": "g",
+				"productType": "rastlinné výrobky"
+			},
+			{
+				"name": "šalotka",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "zelenina"
+			},
+			{
+				"name": "olivový olej",
+				"quantity": 5,
+				"unit": "ml",
+				"productType": "oleje"
+			},
+			{
+				"name": "soľ",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "čierne korenie",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "sušený cesnak",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "ovsené mlieko",
+				"quantity": 50,
+				"unit": "ml",
+				"productType": "rastlinné výrobky"
+			},
+			{
+				"name": "droždie",
+				"quantity": 5,
+				"unit": "g",
+				"productType": "iné"
+			},
+			{
+				"name": "kurkuma",
+				"quantity": 5,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "mletá paprika",
+				"quantity": 5,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "kváskový chlieb",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "pečivo"
+			}
+		],
+		"R19": [
+			{
+				"name": "vajce",
+				"quantity": 6,
+				"unit": "ks",
+				"productType": "chladené výrobky"
+			},
+			{
+				"name": "cibuľa",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "zelenina"
+			},
+			{
+				"name": "olivový olej",
+				"quantity": 5,
+				"unit": "ml",
+				"productType": "oleje"
+			},
+			{
+				"name": "soľ",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "čierne korenie",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "mletá paprika",
+				"quantity": 5,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "Oravská slanina",
+				"quantity": 20,
+				"unit": "g",
+				"productType": "chladené výrobky"
+			},
+			{
+				"name": "morčacia šunka",
+				"quantity": 50,
+				"unit": "g",
+				"productType": "chladené výrobky"
+			},
+			{
+				"name": "Eidam",
+				"quantity": 50,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "zemiaky",
+				"quantity": 450,
+				"unit": "g",
+				"productType": "zelenina"
+			},
+			{
+				"name": "petržlenová vňať",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "bylinky"
+			}
+		],
+		"R20": [
+			{
+				"name": "toastový chlieb",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "pečivo"
+			},
+			{
+				"name": "maslo",
+				"quantity": 10,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "vajce",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "chladené výrobky"
+			},
+			{
+				"name": "soľ",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "čierne korenie",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "mozzarella",
+				"quantity": 25,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			}
+		],
+		"R21": [
+			{
+				"name": "ovsené vločky",
+				"quantity": 30,
+				"unit": "g",
+				"productType": "cereálie"
+			},
+			{
+				"name": "olivový olej",
+				"quantity": 3,
+				"unit": "ml",
+				"productType": "oleje"
+			},
+			{
+				"name": "šampiňóny",
+				"quantity": 50,
+				"unit": "g",
+				"productType": "zelenina"
+			},
+			{
+				"name": "sušený tymián",
+				"quantity": 5,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "pažítka",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "bylinky"
+			},
+			{
+				"name": "soľ",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "čierne korenie",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "avokádo",
+				"quantity": 20,
+				"unit": "g",
+				"productType": "ovocie"
+			},
+			{
+				"name": "slnečnicové semienka",
+				"quantity": 10,
+				"unit": "g",
+				"productType": "semienka"
+			},
+			{
+				"name": "cherry paradajky",
+				"quantity": 20,
+				"unit": "g",
+				"productType": "zelenina"
+			},
+			{
+				"name": "vajce",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "chladené výrobky"
+			}
+		],
+		"R22": [
+			{
+				"name": "avokádo",
+				"quantity": 250,
+				"unit": "g",
+				"productType": "ovocie"
+			},
+			{
+				"name": "banán",
+				"quantity": 2,
+				"unit": "ks",
+				"productType": "ovocie"
+			},
+			{
+				"name": "holandské kakao",
+				"quantity": 28,
+				"unit": "g",
+				"productType": "iné"
+			},
+			{
+				"name": "med",
+				"quantity": 25,
+				"unit": "g",
+				"productType": "sladidlá"
+			},
+			{
+				"name": "jahody",
+				"quantity": 150,
+				"unit": "g",
+				"productType": "ovocie"
+			}
+		],
+		"R23": [
+			{
+				"name": "nízkotučný tvaroh",
+				"quantity": 250,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "polotučné mlieko",
+				"quantity": 250,
+				"unit": "ml",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "špaldová múka",
+				"quantity": 200,
+				"unit": "g",
+				"productType": "iné"
+			},
+			{
+				"name": "kokosový cukor",
+				"quantity": 120,
+				"unit": "g",
+				"productType": "sladidlá"
+			},
+			{
+				"name": "maslo",
+				"quantity": 50,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "grécky jogurt",
+				"quantity": 30,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "soľ",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "citrón",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "ovocie"
+			},
+			{
+				"name": "proteinový prášok (vanilka)",
+				"quantity": 30,
+				"unit": "g",
+				"productType": "protein"
+			},
+			{
+				"name": "kypriaci prášok",
+				"quantity": 12,
+				"unit": "g",
+				"productType": "iné"
+			},
+			{
+				"name": "maslo",
+				"quantity": 10,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "špaldová múka",
+				"quantity": 10,
+				"unit": "g",
+				"productType": "iné"
+			},
+			{
+				"name": "práškový cukor",
+				"quantity": 10,
+				"unit": "g",
+				"productType": "sladidlá"
+			},
+			{
+				"name": "grécky jogurt",
+				"quantity": 30,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			}
+		],
+		"R24": [
+			{
+				"name": "tekvicové pyré",
+				"quantity": 150,
+				"unit": "g",
+				"productType": "zaváraniny"
+			},
+			{
+				"name": "ovsené vločky",
+				"quantity": 70,
+				"unit": "g",
+				"productType": "cereálie"
+			},
+			{
+				"name": "sójové mlieko",
+				"quantity": 200,
+				"unit": "ml",
+				"productType": "rastlinné výrobky"
+			},
+			{
+				"name": "ďatľový sirup",
+				"quantity": 15,
+				"unit": "ml",
+				"productType": "sladidlá"
+			},
+			{
+				"name": "pumpkin spice",
+				"quantity": 5,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "nízkotučný tvaroh",
+				"quantity": 80,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "jablko",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "ovocie"
+			},
+			{
+				"name": "figy",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "ovocie"
+			},
+			{
+				"name": "horká čokoláda",
+				"quantity": 10,
+				"unit": "g",
+				"productType": "sladkosti"
+			}
+		],
+		"R25": [
+			{
+				"name": "fazule v paradajkovej omáčke",
+				"quantity": 1,
+				"unit": "konzerva",
+				"productType": "konzervy"
+			},
+			{
+				"name": "cibuľa",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "zelenina"
+			},
+			{
+				"name": "mrkva",
+				"quantity": 2,
+				"unit": "ks",
+				"productType": "zelenina"
+			},
+			{
+				"name": "cesnak",
+				"quantity": 2,
+				"unit": "ks",
+				"productType": "zelenina"
+			},
+			{
+				"name": "olivový olej",
+				"quantity": 10,
+				"unit": "ml",
+				"productType": "oleje"
+			},
+			{
+				"name": "zeleninový vývar",
+				"quantity": 750,
+				"unit": "ml",
+				"productType": "korenie"
+			},
+			{
+				"name": "bobkový list",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "korenie"
+			},
+			{
+				"name": "soľ",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "čierne korenie",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "oregano",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "zemiaky",
+				"quantity": 200,
+				"unit": "g",
+				"productType": "zelenina"
+			},
+			{
+				"name": "kuracie párky",
+				"quantity": 3,
+				"unit": "ks",
+				"productType": "chladené výrobky"
+			},
+			{
+				"name": "proteinový chlieb",
+				"quantity": 4,
+				"unit": "ks",
+				"productType": "pečivo"
+			}
+		],
+		"R26": [
+			{
+				"name": "cícerové cestoviny",
+				"quantity": 120,
+				"unit": "g",
+				"productType": "cestoviny"
+			},
+			{
+				"name": "cvikla",
+				"quantity": 250,
+				"unit": "g",
+				"productType": "zelenina"
+			},
+			{
+				"name": "riccota",
+				"quantity": 100,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "cottage cheese",
+				"quantity": 150,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "balzamiko",
+				"quantity": 5,
+				"unit": "ml",
+				"productType": "oleje"
+			},
+			{
+				"name": "soľ",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "čierne korenie",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "sušený cesnak",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "parmezán",
+				"quantity": 40,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			}
+		],
+		"R27": [
+			{
+				"name": "údené tofu",
+				"quantity": 200,
+				"unit": "g",
+				"productType": "rastlinné výrobky"
+			},
+			{
+				"name": "batáty",
+				"quantity": 400,
+				"unit": "g",
+				"productType": "zelenina"
+			},
+			{
+				"name": "sójová omáčka",
+				"quantity": 10,
+				"unit": "ml",
+				"productType": "korenie"
+			},
+			{
+				"name": "soľ",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "čierne korenie",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "zázvor",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "zelenina"
+			},
+			{
+				"name": "sezamový olej",
+				"quantity": 15,
+				"unit": "ml",
+				"productType": "oleje"
+			},
+			{
+				"name": "jarná cibuľka",
+				"quantity": 2,
+				"unit": "ks",
+				"productType": "zelenina"
+			},
+			{
+				"name": "mrkva",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "zelenina"
+			},
+			{
+				"name": "sezamové semienka",
+				"quantity": 15,
+				"unit": "g",
+				"productType": "semienka"
+			}
+		],
+		"R28": [
+			{
+				"name": "hrudkovitý tvaroh",
+				"quantity": 250,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "ovsené vločky",
+				"quantity": 100,
+				"unit": "g",
+				"productType": "cereálie"
+			},
+			{
+				"name": "proteinový prášok (vanilka)",
+				"quantity": 10,
+				"unit": "g",
+				"productType": "protein"
+			},
+			{
+				"name": "vajce",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "chladené výrobky"
+			},
+			{
+				"name": "mletý mak",
+				"quantity": 20,
+				"unit": "g",
+				"productType": "iné"
+			},
+			{
+				"name": "čakankový sirup",
+				"quantity": 3,
+				"unit": "ml",
+				"productType": "sladidlá"
+			},
+			{
+				"name": "citrónová kôra",
+				"quantity": 5,
+				"unit": "g",
+				"productType": "korenie"
+			}
+		],
+		"R29": [
+			{
+				"name": "celozrnná tortilla",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "pečivo"
+			},
+			{
+				"name": "kuracie prsia",
+				"quantity": 100,
+				"unit": "g",
+				"productType": "chladené výrobky"
+			},
+			{
+				"name": "hummus",
+				"quantity": 30,
+				"unit": "g",
+				"productType": "chladené výrobky"
+			},
+			{
+				"name": "cuketa",
+				"quantity": 50,
+				"unit": "g",
+				"productType": "zelenina"
+			},
+			{
+				"name": "paprika",
+				"quantity": 50,
+				"unit": "g",
+				"productType": "zelenina"
+			},
+			{
+				"name": "baklažán",
+				"quantity": 30,
+				"unit": "g",
+				"productType": "zelenina"
+			},
+			{
+				"name": "olivový olej",
+				"quantity": 5,
+				"unit": "ml",
+				"productType": "oleje"
+			},
+			{
+				"name": "soľ",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "čierne korenie",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "petržlenová vňať",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "bylinky"
+			}
+		],
+		"R30": [
+			{
+				"name": "hummus",
+				"quantity": 100,
+				"unit": "g",
+				"productType": "chladené výrobky"
+			},
+			{
+				"name": "údené tofu",
+				"quantity": 180,
+				"unit": "g",
+				"productType": "rastlinné výrobky"
+			},
+			{
+				"name": "olivový olej",
+				"quantity": 5,
+				"unit": "ml",
+				"productType": "oleje"
+			},
+			{
+				"name": "ryža",
+				"quantity": 100,
+				"unit": "g",
+				"productType": "cestoviny"
+			},
+			{
+				"name": "sezamové semienka",
+				"quantity": 5,
+				"unit": "g",
+				"productType": "semienka"
+			},
+			{
+				"name": "špenát",
+				"quantity": 50,
+				"unit": "g",
+				"productType": "zelenina"
+			},
+			{
+				"name": "uhorka",
+				"quantity": 30,
+				"unit": "g",
+				"productType": "zelenina"
+			},
+			{
+				"name": "cherry paradajky",
+				"quantity": 30,
+				"unit": "g",
+				"productType": "zelenina"
+			},
+			{
+				"name": "paprika",
+				"quantity": 20,
+				"unit": "g",
+				"productType": "zelenina"
+			},
+			{
+				"name": "mrkva",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "zelenina"
+			},
+			{
+				"name": "edamame",
+				"quantity": 100,
+				"unit": "g",
+				"productType": "konzervy"
+			},
+			{
+				"name": "tahini",
+				"quantity": 20,
+				"unit": "g",
+				"productType": "omáčky"
+			},
+			{
+				"name": "soľ",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "čierne korenie",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			}
+		],
+		"R31": [
+			{
+				"name": "cvikla",
+				"quantity": 300,
+				"unit": "g",
+				"productType": "zelenina"
+			},
+			{
+				"name": "rukola",
+				"quantity": 50,
+				"unit": "g",
+				"productType": "zelenina"
+			},
+			{
+				"name": "olivový olej",
+				"quantity": 10,
+				"unit": "ml",
+				"productType": "oleje"
+			},
+			{
+				"name": "balzamiko",
+				"quantity": 15,
+				"unit": "g",
+				"productType": "oleje"
+			},
+			{
+				"name": "med",
+				"quantity": 10,
+				"unit": "g",
+				"productType": "sladidlá"
+			},
+			{
+				"name": "zázvor",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "zelenina"
+			},
+			{
+				"name": "kozí syr",
+				"quantity": 150,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "tymián",
+				"quantity": 5,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "slnečnicové semienka",
+				"quantity": 15,
+				"unit": "g",
+				"productType": "semienka"
+			},
+			{
+				"name": "soľ",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "čierne korenie",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			}
+		],
+		"R32": [
+			{
+				"name": "celozrnné cestoviny",
+				"quantity": 50,
+				"unit": "g",
+				"productType": "cestoviny"
+			},
+			{
+				"name": "kuracie prsia",
+				"quantity": 70,
+				"unit": "g",
+				"productType": "chladené výrobky"
+			},
+			{
+				"name": "pesto",
+				"quantity": 20,
+				"unit": "g",
+				"productType": "omáčky"
+			},
+			{
+				"name": "olivový olej",
+				"quantity": 5,
+				"unit": "ml",
+				"productType": "oleje"
+			},
+			{
+				"name": "soľ",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "čierne korenie",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "parmezán",
+				"quantity": 15,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			}
+		],
+		"R33": [
+			{
+				"name": "hrudkovitý tvaroh",
+				"quantity": 250,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "kurpica",
+				"quantity": 90,
+				"unit": "g",
+				"productType": "iné"
+			},
+			{
+				"name": "vajce",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "chladené výrobky"
+			},
+			{
+				"name": "lesné ovocie",
+				"quantity": 200,
+				"unit": "g",
+				"productType": "mrazené výrobky"
+			},
+			{
+				"name": "sladidlo",
+				"quantity": 5,
+				"unit": "ml",
+				"productType": "sladidlá"
+			},
+			{
+				"name": "chia semienka",
+				"quantity": 10,
+				"unit": "g",
+				"productType": "semienka"
+			}
+		],
+		"R34": [
+			{
+				"name": "olivový olej",
+				"quantity": 5,
+				"unit": "ml",
+				"productType": "oleje"
+			},
+			{
+				"name": "cibuľa",
+				"quantity": 0.5,
+				"unit": "ks",
+				"productType": "zelenina"
+			},
+			{
+				"name": "mrkva",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "zelenina"
+			},
+			{
+				"name": "zeler",
+				"quantity": 40,
+				"unit": "g",
+				"productType": "zelenina"
+			},
+			{
+				"name": "cesnak",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "zelenina"
+			},
+			{
+				"name": "kurací vývar",
+				"quantity": 375,
+				"unit": "ml",
+				"productType": "korenie"
+			},
+			{
+				"name": "kuracie prsia",
+				"quantity": 75,
+				"unit": "g",
+				"productType": "chladené výrobky"
+			},
+			{
+				"name": "soľ",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "čierne korenie",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "cestoviny do polievky",
+				"quantity": 40,
+				"unit": "g",
+				"productType": "cestoviny"
+			}
+		],
+		"R35": [
+			{
+				"name": "ryža",
+				"quantity": 300,
+				"unit": "g",
+				"productType": "cestoviny"
+			},
+			{
+				"name": "mandľové mlieko",
+				"quantity": 300,
+				"unit": "ml",
+				"productType": "rastlinné výrobky"
+			},
+			{
+				"name": "proteinový prášok (vanilka)",
+				"quantity": 30,
+				"unit": "g",
+				"productType": "protein"
+			},
+			{
+				"name": "maslo",
+				"quantity": 50,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "vajce",
+				"quantity": 2,
+				"unit": "ks",
+				"productType": "chladené výrobky"
+			},
+			{
+				"name": "javorový sirup",
+				"quantity": 20,
+				"unit": "ml",
+				"productType": "sladidlá"
+			},
+			{
+				"name": "lesné ovocie",
+				"quantity": 150,
+				"unit": "g",
+				"productType": "mrazené výrobky"
+			}
+		],
+		"R36": [
+			{
+				"name": "sushi ryža",
+				"quantity": 180,
+				"unit": "g",
+				"productType": "cestoviny"
+			},
+			{
+				"name": "tuniak vo vlastnej šťave",
+				"quantity": 200,
+				"unit": "g",
+				"productType": "konzervy"
+			},
+			{
+				"name": "ryžový ocot",
+				"quantity": 40,
+				"unit": "ml",
+				"productType": "oleje"
+			},
+			{
+				"name": "trstinový cukor",
+				"quantity": 15,
+				"unit": "g",
+				"productType": "sladidlá"
+			},
+			{
+				"name": "nori riasy",
+				"quantity": 3,
+				"unit": "ks",
+				"productType": "iné"
+			},
+			{
+				"name": "uhorka",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "zelenina"
+			},
+			{
+				"name": "soľ",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "sójová omáčka",
+				"quantity": 20,
+				"unit": "ml",
+				"productType": "korenie"
+			},
+			{
+				"name": "nakladaný zázvor",
+				"quantity": 20,
+				"unit": "g",
+				"productType": "konzervy"
+			},
+			{
+				"name": "wasabi",
+				"quantity": 5,
+				"unit": "g",
+				"productType": "iné"
+			}
+		],
+		"R37": [
+			{
+				"name": "celozrnné cestoviny",
+				"quantity": 125,
+				"unit": "g",
+				"productType": "cestoviny"
+			},
+			{
+				"name": "krevety",
+				"quantity": 150,
+				"unit": "g",
+				"productType": "mrazené výrobky"
+			},
+			{
+				"name": "kukurica",
+				"quantity": 40,
+				"unit": "g",
+				"productType": "konzervy"
+			},
+			{
+				"name": "grécky jogurt",
+				"quantity": 140,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "cesnak",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "zelenina"
+			},
+			{
+				"name": "Eidam",
+				"quantity": 50,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "soľ",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "čierne korenie",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "citrónová šťava",
+				"quantity": 3,
+				"unit": "ml",
+				"productType": "iné"
+			},
+			{
+				"name": "maslo",
+				"quantity": 5,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			}
+		],
+		"R38": [
+			{
+				"name": "špaldová múka",
+				"quantity": 200,
+				"unit": "g",
+				"productType": "iné"
+			},
+			{
+				"name": "cottage cheese",
+				"quantity": 200,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "vajce",
+				"quantity": 2,
+				"unit": "ks",
+				"productType": "chladené výrobky"
+			},
+			{
+				"name": "kypriaci prášok",
+				"quantity": 12,
+				"unit": "g",
+				"productType": "iné"
+			},
+			{
+				"name": "soľ",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "kečup",
+				"quantity": 50,
+				"unit": "g",
+				"productType": "omáčky"
+			},
+			{
+				"name": "mozzarella",
+				"quantity": 100,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "kukurica",
+				"quantity": 80,
+				"unit": "g",
+				"productType": "konzervy"
+			},
+			{
+				"name": "šunka",
+				"quantity": 100,
+				"unit": "g",
+				"productType": "chladené výrobky"
+			}
+		],
+		"R39": [
+			{
+				"name": "kuracie prsia",
+				"quantity": 250,
+				"unit": "g",
+				"productType": "chladené výrobky"
+			},
+			{
+				"name": "arašidové maslo",
+				"quantity": 30,
+				"unit": "g",
+				"productType": "omáčky"
+			},
+			{
+				"name": "med",
+				"quantity": 18,
+				"unit": "g",
+				"productType": "sladidlá"
+			},
+			{
+				"name": "sójová omáčka",
+				"quantity": 18,
+				"unit": "ml",
+				"productType": "korenie"
+			},
+			{
+				"name": "citrónová šťava",
+				"quantity": 5,
+				"unit": "ml",
+				"productType": "iné"
+			},
+			{
+				"name": "kukuričný škrob",
+				"quantity": 5,
+				"unit": "g",
+				"productType": "iné"
+			},
+			{
+				"name": "cesnak",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "zelenina"
+			},
+			{
+				"name": "olivový olej",
+				"quantity": 8,
+				"unit": "ml",
+				"productType": "oleje"
+			},
+			{
+				"name": "koriander",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "bylinky"
+			},
+			{
+				"name": "mrkva",
+				"quantity": 2,
+				"unit": "ks",
+				"productType": "zelenina"
+			},
+			{
+				"name": "ryžové rezance",
+				"quantity": 90,
+				"unit": "g",
+				"productType": "cestoviny"
+			},
+			{
+				"name": "arašidy",
+				"quantity": 10,
+				"unit": "g",
+				"productType": "semienka"
+			}
+		],
+		"R40": [
+			{
+				"name": "zemiaky",
+				"quantity": 1000,
+				"unit": "g",
+				"productType": "zelenina"
+			},
+			{
+				"name": "šunka",
+				"quantity": 75,
+				"unit": "g",
+				"productType": "chladené výrobky"
+			},
+			{
+				"name": "kuracie párky",
+				"quantity": 3,
+				"unit": "g",
+				"productType": "chladené výrobky"
+			},
+			{
+				"name": "vajce",
+				"quantity": 3,
+				"unit": "ks",
+				"productType": "chladené výrobky"
+			},
+			{
+				"name": "mozzarella",
+				"quantity": 125,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "biely jogurt",
+				"quantity": 150,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "polotučné mlieko",
+				"quantity": 100,
+				"unit": "ml",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "cesnak",
+				"quantity": 2,
+				"unit": "ks",
+				"productType": "zelenina"
+			},
+			{
+				"name": "bazalka",
+				"quantity": 5,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "soľ",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "čierne korenie",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			}
+		],
+		"R41": [
+			{
+				"name": "špaldová múka",
+				"quantity": 15,
+				"unit": "g",
+				"productType": "iné"
+			},
+			{
+				"name": "šampiňóny",
+				"quantity": 200,
+				"unit": "g",
+				"productType": "zelenina"
+			},
+			{
+				"name": "vegan sójová smotana",
+				"quantity": 45,
+				"unit": "g",
+				"productType": "rastlinné výrobky"
+			},
+			{
+				"name": "mletá paprika",
+				"quantity": 5,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "soľ",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "čierne korenie",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "olivový olej",
+				"quantity": 5,
+				"unit": "ml",
+				"productType": "oleje"
+			},
+			{
+				"name": "sójové mlieko",
+				"quantity": 100,
+				"unit": "ml",
+				"productType": "rastlinné výrobky"
+			},
+			{
+				"name": "gnocchi",
+				"quantity": 90,
+				"unit": "g",
+				"productType": "chladené výrobky"
+			}
+		],
+		"R42": [
+			{
+				"name": "nektarínka",
+				"quantity": 150,
+				"unit": "g",
+				"productType": "ovocie"
+			},
+			{
+				"name": "burrata",
+				"quantity": 90,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "ľadový šalát",
+				"quantity": 1,
+				"unit": "hlávka",
+				"productType": "zelenina"
+			},
+			{
+				"name": "rukola",
+				"quantity": 100,
+				"unit": "g",
+				"productType": "zelenina"
+			},
+			{
+				"name": "vlaššské orechy",
+				"quantity": 10,
+				"unit": "g",
+				"productType": "semienka"
+			},
+			{
+				"name": "červená cibuľa",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "zelenina"
+			},
+			{
+				"name": "soľ",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "čierne korenie",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "olivový olej",
+				"quantity": 5,
+				"unit": "ml",
+				"productType": "oleje"
+			}
+		],
+		"R43": [
+			{
+				"name": "ryža",
+				"quantity": 220,
+				"unit": "g",
+				"productType": "cestoviny"
+			},
+			{
+				"name": "mrazený hrášok",
+				"quantity": 150,
+				"unit": "g",
+				"productType": "mrazené výrobky"
+			},
+			{
+				"name": "hráškové struky",
+				"quantity": 100,
+				"unit": "g",
+				"productType": "mrazené výrobky"
+			},
+			{
+				"name": "olivový olej",
+				"quantity": 20,
+				"unit": "ml",
+				"productType": "oleje"
+			},
+			{
+				"name": "cibuľa",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "zelenina"
+			},
+			{
+				"name": "cesnak",
+				"quantity": 2,
+				"unit": "ks",
+				"productType": "zelenina"
+			},
+			{
+				"name": "zázvor",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "zelenina"
+			},
+			{
+				"name": "krevety",
+				"quantity": 150,
+				"unit": "g",
+				"productType": "mrazené výrobky"
+			},
+			{
+				"name": "vajce",
+				"quantity": 3,
+				"unit": "ks",
+				"productType": "chladené výrobky"
+			},
+			{
+				"name": "sezamové semienka",
+				"quantity": 10,
+				"unit": "g",
+				"productType": "semienka"
+			},
+			{
+				"name": "sójová omáčka",
+				"quantity": 15,
+				"unit": "ml",
+				"productType": "korenie"
+			},
+			{
+				"name": "ryžový ocot",
+				"quantity": 7,
+				"unit": "ml",
+				"productType": "oleje"
+			},
+			{
+				"name": "jarná cibuľka",
+				"quantity": 4,
+				"unit": "ks",
+				"productType": "zelenina"
+			}
+		],
+		"R44": [
+			{
+				"name": "jasmínová ryža",
+				"quantity": 200,
+				"unit": "g",
+				"productType": "cestoviny"
+			},
+			{
+				"name": "cibuľa",
+				"quantity": 2,
+				"unit": "ks",
+				"productType": "zelenina"
+			},
+			{
+				"name": "olivový olej",
+				"quantity": 8,
+				"unit": "ml",
+				"productType": "oleje"
+			},
+			{
+				"name": "zelená paprika",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "zelenina"
+			},
+			{
+				"name": "červená paprika",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "zelenina"
+			},
+			{
+				"name": "cesnak",
+				"quantity": 2,
+				"unit": "ks",
+				"productType": "zelenina"
+			},
+			{
+				"name": "kokosové mlieko light",
+				"quantity": 400,
+				"unit": "ml",
+				"productType": "konzervy"
+			},
+			{
+				"name": "červená kari pasta",
+				"quantity": 60,
+				"unit": "g",
+				"productType": "omáčky"
+			},
+			{
+				"name": "morčacie prsia",
+				"quantity": 400,
+				"unit": "g",
+				"productType": "chladené výrobky"
+			},
+			{
+				"name": "koriander",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "bylinky"
+			}
+		],
+		"R45": [
+			{
+				"name": "celozrnné cestoviny",
+				"quantity": 200,
+				"unit": "g",
+				"productType": "cestoviny"
+			},
+			{
+				"name": "lúpané sekané paradajky",
+				"quantity": 400,
+				"unit": "g",
+				"productType": "konzervy"
+			},
+			{
+				"name": "čierne olivy",
+				"quantity": 50,
+				"unit": "g",
+				"productType": "zaváraniny"
+			},
+			{
+				"name": "baklažán",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "zelenina"
+			},
+			{
+				"name": "marinované tofu",
+				"quantity": 360,
+				"unit": "g",
+				"productType": "rastlinné výrobky"
+			},
+			{
+				"name": "cesnak",
+				"quantity": 2,
+				"unit": "ks",
+				"productType": "zelenina"
+			},
+			{
+				"name": "olivový olej",
+				"quantity": 5,
+				"unit": "ml",
+				"productType": "oleje"
+			},
+			{
+				"name": "soľ",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "čierne korenie",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "chili",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "oregano",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			}
+		],
+		"R46": [
+			{
+				"name": "sushi ryža",
+				"quantity": 180,
+				"unit": "g",
+				"productType": "cestoviny"
+			},
+			{
+				"name": "tuniak vo vlastnej šťave",
+				"quantity": 100,
+				"unit": "g",
+				"productType": "konzervy"
+			},
+			{
+				"name": "edamame",
+				"quantity": 100,
+				"unit": "g",
+				"productType": "konzervy"
+			},
+			{
+				"name": "červená kapusta v náleve",
+				"quantity": 80,
+				"unit": "g",
+				"productType": "zaváraniny"
+			},
+			{
+				"name": "uhorka",
+				"quantity": 50,
+				"unit": "g",
+				"productType": "zelenina"
+			},
+			{
+				"name": "mrkva",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "zelenina"
+			},
+			{
+				"name": "avokádo",
+				"quantity": 50,
+				"unit": "g",
+				"productType": "ovocie"
+			},
+			{
+				"name": "reďkovka",
+				"quantity": 2,
+				"unit": "ks",
+				"productType": "zelenina"
+			},
+			{
+				"name": "jarná cibuľka",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "zelenina"
+			},
+			{
+				"name": "granátové jablko",
+				"quantity": 35,
+				"unit": "g",
+				"productType": "ovocie"
+			},
+			{
+				"name": "sezamové semienka",
+				"quantity": 5,
+				"unit": "g",
+				"productType": "semienka"
+			},
+			{
+				"name": "nori riasy",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "iné"
+			},
+			{
+				"name": "sójová omáčka",
+				"quantity": 5,
+				"unit": "ml",
+				"productType": "korenie"
+			},
+			{
+				"name": "soľ",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "light majonéza",
+				"quantity": 20,
+				"unit": "g",
+				"productType": "chladené výrobky"
+			},
+			{
+				"name": "grécky jogurt",
+				"quantity": 20,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "sriracha",
+				"quantity": 5,
+				"unit": "g",
+				"productType": "omáčky"
+			},
+			{
+				"name": "limetková šťava",
+				"quantity": 5,
+				"unit": "ml",
+				"productType": "iné"
+			}
+		],
+		"R47": [
+			{
+				"name": "ryža",
+				"quantity": 150,
+				"unit": "g",
+				"productType": "cestoviny"
+			},
+			{
+				"name": "cvikla",
+				"quantity": 250,
+				"unit": "g",
+				"productType": "zelenina"
+			},
+			{
+				"name": "cibuľa",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "zelenina"
+			},
+			{
+				"name": "citrón",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "ovocie"
+			},
+			{
+				"name": "cesnak",
+				"quantity": 2,
+				"unit": "ks",
+				"productType": "zelenina"
+			},
+			{
+				"name": "kozí syr",
+				"quantity": 100,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "zeleninový vývar",
+				"quantity": 300,
+				"unit": "ml",
+				"productType": "korenie"
+			},
+			{
+				"name": "olivový olej",
+				"quantity": 5,
+				"unit": "ml",
+				"productType": "oleje"
+			},
+			{
+				"name": "soľ",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "čierne korenie",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			}
+		],
+		"R48": [
+			{
+				"name": "cottage cheese",
+				"quantity": 150,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "soľ",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "čierne korenie",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "sušený cesnak",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "vajce",
+				"quantity": 3,
+				"unit": "ks",
+				"productType": "chladené výrobky"
+			},
+			{
+				"name": "pažítka",
+				"quantity": 5,
+				"unit": "g",
+				"productType": "bylinky"
+			},
+			{
+				"name": "Lučina",
+				"quantity": 30,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "toastový chlieb",
+				"quantity": 2,
+				"unit": "ks",
+				"productType": "pečivo"
+			}
+		],
+		"R49": [
+			{
+				"name": "paradajky",
+				"quantity": 80,
+				"unit": "g",
+				"productType": "zelenina"
+			},
+			{
+				"name": "mrkva",
+				"quantity": 4,
+				"unit": "ks",
+				"productType": "zelenina"
+			},
+			{
+				"name": "olivový olej",
+				"quantity": 10,
+				"unit": "ml",
+				"productType": "oleje"
+			},
+			{
+				"name": "losos",
+				"quantity": 200,
+				"unit": "g",
+				"productType": "chladené výrobky"
+			},
+			{
+				"name": "pesto",
+				"quantity": 40,
+				"unit": "g",
+				"productType": "omáčky"
+			},
+			{
+				"name": "soľ",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "čierne korenie",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			}
+		],
+		"R50": [
+			{
+				"name": "celozrnné cestoviny",
+				"quantity": 125,
+				"unit": "g",
+				"productType": "cestoviny"
+			},
+			{
+				"name": "kuracie prsia",
+				"quantity": 100,
+				"unit": "g",
+				"productType": "chladené výrobky"
+			},
+			{
+				"name": "paprika",
+				"quantity": 30,
+				"unit": "g",
+				"productType": "zelenina"
+			},
+			{
+				"name": "kukurica",
+				"quantity": 40,
+				"unit": "g",
+				"productType": "konzervy"
+			},
+			{
+				"name": "cherry paradajky",
+				"quantity": 30,
+				"unit": "g",
+				"productType": "zelenina"
+			},
+			{
+				"name": "reďkovka",
+				"quantity": 2,
+				"unit": "ks",
+				"productType": "zelenina"
+			},
+			{
+				"name": "rukola",
+				"quantity": 50,
+				"unit": "g",
+				"productType": "zelenina"
+			},
+			{
+				"name": "biely jogurt",
+				"quantity": 30,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "cesnak",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "zelenina"
+			},
+			{
+				"name": "Eidam",
+				"quantity": 20,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "soľ",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "čierne korenie",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "olivový olej",
+				"quantity": 5,
+				"unit": "ml",
+				"productType": "oleje"
+			},
+			{
+				"name": "petržlenová vňať",
+				"quantity": 5,
+				"unit": "g",
+				"productType": "korenie"
+			}
+		],
+		"R51": [
+			{
+				"name": "celozrnné cestoviny",
+				"quantity": 70,
+				"unit": "g",
+				"productType": "cestoviny"
+			},
+			{
+				"name": "citrónová šťava",
+				"quantity": 5,
+				"unit": "ml",
+				"productType": "iné"
+			},
+			{
+				"name": "cesnak",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "zelenina"
+			},
+			{
+				"name": "droždie",
+				"quantity": 10,
+				"unit": "g",
+				"productType": "iné"
+			},
+			{
+				"name": "avokádo",
+				"quantity": 170,
+				"unit": "g",
+				"productType": "ovocie"
+			},
+			{
+				"name": "špenát",
+				"quantity": 50,
+				"unit": "g",
+				"productType": "zelenina"
+			},
+			{
+				"name": "olivový olej",
+				"quantity": 10,
+				"unit": "ml",
+				"productType": "oleje"
+			},
+			{
+				"name": "soľ",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "čierne korenie",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "bazalka",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "oregano",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "šunka",
+				"quantity": 30,
+				"unit": "g",
+				"productType": "chladené výrobky"
+			}
+		],
+		"R52": [
+			{
+				"name": "šunka",
+				"quantity": 100,
+				"unit": "g",
+				"productType": "chladené výrobky"
+			},
+			{
+				"name": "hrášok",
+				"quantity": 140,
+				"unit": "g",
+				"productType": "konzervy"
+			},
+			{
+				"name": "grécky jogurt",
+				"quantity": 125,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "Lučina",
+				"quantity": 40,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "kyslé uhorky",
+				"quantity": 25,
+				"unit": "g",
+				"productType": "zaváraniny"
+			},
+			{
+				"name": "cibuľa",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "zelenina"
+			},
+			{
+				"name": "citrónová šťava",
+				"quantity": 5,
+				"unit": "ml",
+				"productType": "iné"
+			},
+			{
+				"name": "horčica",
+				"quantity": 10,
+				"unit": "g",
+				"productType": "omáčky"
+			},
+			{
+				"name": "proteinový chlieb",
+				"quantity": 2,
+				"unit": "ks",
+				"productType": "pečivo"
+			},
+			{
+				"name": "soľ",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "čierne korenie",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			}
+		],
+		"R53": [
+			{
+				"name": "batáty",
+				"quantity": 200,
+				"unit": "g",
+				"productType": "zelenina"
+			},
+			{
+				"name": "olivový olej",
+				"quantity": 5,
+				"unit": "ml",
+				"productType": "oleje"
+			},
+			{
+				"name": "soľ",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "čierne korenie",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "Schwarzvaldská šunka",
+				"quantity": 30,
+				"unit": "g",
+				"productType": "chladené výrobky"
+			},
+			{
+				"name": "červená cibuľa",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "zelenina"
+			},
+			{
+				"name": "bryndza",
+				"quantity": 70,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "pažítka",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "bylinky"
+			},
+			{
+				"name": "grécky jogurt",
+				"quantity": 140,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			}
+		],
+		"R54": [
+			{
+				"name": "cícerové cestoviny",
+				"quantity": 80,
+				"unit": "g",
+				"productType": "cestoviny"
+			},
+			{
+				"name": "paradajková omáčka",
+				"quantity": 100,
+				"unit": "g",
+				"productType": "konzervy"
+			},
+			{
+				"name": "cottage cheese",
+				"quantity": 100,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "kuracie párky",
+				"quantity": 2,
+				"unit": "ks",
+				"productType": "chladené výrobky"
+			},
+			{
+				"name": "špenát",
+				"quantity": 30,
+				"unit": "g",
+				"productType": "zelenina"
+			},
+			{
+				"name": "olivový olej",
+				"quantity": 5,
+				"unit": "ml",
+				"productType": "oleje"
+			},
+			{
+				"name": "soľ",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "čierne korenie",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			}
+		],
+		"R55": [
+			{
+				"name": "celozrnná tortilla",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "pečivo"
+			},
+			{
+				"name": "šunka",
+				"quantity": 50,
+				"unit": "g",
+				"productType": "chladené výrobky"
+			},
+			{
+				"name": "mozzarella",
+				"quantity": 30,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "paradajková omáčka",
+				"quantity": 30,
+				"unit": "g",
+				"productType": "konzervy"
+			},
+			{
+				"name": "kukurica",
+				"quantity": 30,
+				"unit": "g",
+				"productType": "konzervy"
+			}
+		],
+		"R56": [
+			{
+				"name": "proteinový chlieb",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "pečivo"
+			},
+			{
+				"name": "Lučina",
+				"quantity": 20,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "šunka",
+				"quantity": 60,
+				"unit": "g",
+				"productType": "chladené výrobky"
+			},
+			{
+				"name": "vajce",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "chladené výrobky"
+			},
+			{
+				"name": "Eidam",
+				"quantity": 10,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "paradajky",
+				"quantity": 20,
+				"unit": "g",
+				"productType": "zelenina"
+			},
+			{
+				"name": "uhorka",
+				"quantity": 20,
+				"unit": "g",
+				"productType": "zelenina"
+			},
+			{
+				"name": "paprika",
+				"quantity": 10,
+				"unit": "g",
+				"productType": "zelenina"
+			}
+		],
+		"R57": [
+			{
+				"name": "gnocchi",
+				"quantity": 50,
+				"unit": "g",
+				"productType": "chladené výrobky"
+			},
+			{
+				"name": "grécky jogurt",
+				"quantity": 100,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "bryndza",
+				"quantity": 30,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "Schwarzvaldská šunka",
+				"quantity": 30,
+				"unit": "g",
+				"productType": "chladené výrobky"
+			},
+			{
+				"name": "pažítka",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "bylinky"
+			},
+			{
+				"name": "soľ",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "čierne korenie",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "sušený cesnak",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "olivový olej",
+				"quantity": 5,
+				"unit": "ml",
+				"productType": "oleje"
+			}
+		],
+		"R58": [
+			{
+				"name": "vajce",
+				"quantity": 2,
+				"unit": "ks",
+				"productType": "chladené výrobky"
+			},
+			{
+				"name": "špenát",
+				"quantity": 50,
+				"unit": "g",
+				"productType": "zelenina"
+			},
+			{
+				"name": "cibuľa",
+				"quantity": 0.5,
+				"unit": "ks",
+				"productType": "zelenina"
+			},
+			{
+				"name": "šampiňóny",
+				"quantity": 50,
+				"unit": "g",
+				"productType": "zelenina"
+			},
+			{
+				"name": "ghee",
+				"quantity": 5,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "soľ",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "čierne korenie",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "sušený cesnak",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "Lučina",
+				"quantity": 20,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "kváskový chlieb",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "pečivo"
+			}
+		],
+		"R59": [
+			{
+				"name": "vajce",
+				"quantity": 5,
+				"unit": "ks",
+				"productType": "chladené výrobky"
+			},
+			{
+				"name": "jarná cibuľka",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "zelenina"
+			},
+			{
+				"name": "mozzarella",
+				"quantity": 40,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "špenát",
+				"quantity": 50,
+				"unit": "g",
+				"productType": "zelenina"
+			},
+			{
+				"name": "sušené paradajky",
+				"quantity": 20,
+				"unit": "g",
+				"productType": "zaváraniny"
+			},
+			{
+				"name": "morčacia šunka",
+				"quantity": 100,
+				"unit": "g",
+				"productType": "chladené výrobky"
+			},
+			{
+				"name": "soľ",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "čierne korenie",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			}
+		],
+		"R60": [
+			{
+				"name": "ľadový šalát",
+				"quantity": 0.5,
+				"unit": "hlávka",
+				"productType": "zelenina"
+			},
+			{
+				"name": "ľadový šalát",
+				"quantity": 1,
+				"unit": "hlávka",
+				"productType": "zelenina"
+			},
+			{
+				"name": "cícer",
+				"quantity": 100,
+				"unit": "g",
+				"productType": "konzervy"
+			},
+			{
+				"name": "saláma",
+				"quantity": 50,
+				"unit": "g",
+				"productType": "chladené výrobky"
+			},
+			{
+				"name": "mozzarella",
+				"quantity": 30,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "vínny ocot",
+				"quantity": 5,
+				"unit": "ml",
+				"productType": "oleje"
+			},
+			{
+				"name": "cesnak",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "zelenina"
+			},
+			{
+				"name": "horčica",
+				"quantity": 5,
+				"unit": "g",
+				"productType": "omáčky"
+			},
+			{
+				"name": "parmezán",
+				"quantity": 5,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "soľ",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "čierne korenie",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			}
+		],
+		"R61": [
+			{
+				"name": "olivový olej",
+				"quantity": 5,
+				"unit": "ml",
+				"productType": "oleje"
+			},
+			{
+				"name": "cibuľa",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "zelenina"
+			},
+			{
+				"name": "cesnak",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "zelenina"
+			},
+			{
+				"name": "mrkva",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "zelenina"
+			},
+			{
+				"name": "batáty",
+				"quantity": 600,
+				"unit": "g",
+				"productType": "zelenina"
+			},
+			{
+				"name": "zeleninový vývar",
+				"quantity": 400,
+				"unit": "ml",
+				"productType": "korenie"
+			},
+			{
+				"name": "vegeta",
+				"quantity": 5,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "soľ",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "čierne korenie",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "bazalka",
+				"quantity": 3,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "rasca",
+				"quantity": 3,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "kokosové mlieko light",
+				"quantity": 50,
+				"unit": "ml",
+				"productType": "konzervy"
+			},
+			{
+				"name": "tekvicové semienka",
+				"quantity": 10,
+				"unit": "g",
+				"productType": "semienka"
+			}
+		],
+		"R62": [
+			{
+				"name": "olivový olej",
+				"quantity": 5,
+				"unit": "ml",
+				"productType": "oleje"
+			},
+			{
+				"name": "cibuľa",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "zelenina"
+			},
+			{
+				"name": "cesnak",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "zelenina"
+			},
+			{
+				"name": "brokolica",
+				"quantity": 250,
+				"unit": "g",
+				"productType": "zelenina"
+			},
+			{
+				"name": "ovsené vločky",
+				"quantity": 80,
+				"unit": "g",
+				"productType": "cereálie"
+			},
+			{
+				"name": "mozzarella",
+				"quantity": 100,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "vajce",
+				"quantity": 2,
+				"unit": "ks",
+				"productType": "chladené výrobky"
+			},
+			{
+				"name": "soľ",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "čierne korenie",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "biely jogurt",
+				"quantity": 20,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "soľ",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "čierne korenie",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "cesnak",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			}
+		],
+		"R63": [
+			{
+				"name": "vajce",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "chladené výrobky"
+			},
+			{
+				"name": "cibuľa",
+				"quantity": 3,
+				"unit": "ks",
+				"productType": "zelenina"
+			},
+			{
+				"name": "zemiaky",
+				"quantity": 600,
+				"unit": "g",
+				"productType": "zelenina"
+			},
+			{
+				"name": "maslo",
+				"quantity": 20,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "soľ",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "čierne korenie",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "cesnak",
+				"quantity": 2,
+				"unit": "ks",
+				"productType": "zelenina"
+			},
+			{
+				"name": "biely jogurt",
+				"quantity": 250,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "soľ",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "čierne korenie",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "oregano",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "limetková šťava",
+				"quantity": 5,
+				"unit": "ml",
+				"productType": "iné"
+			},
+			{
+				"name": "koriander",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "tymián",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "rozmarín",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "petržlenová vňať",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "šalvia",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "bylinky"
+			},
+			{
+				"name": "medvedí cesnak",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			}
+		],
+		"R64": [
+			{
+				"name": "losos",
+				"quantity": 150,
+				"unit": "g",
+				"productType": "chladené výrobky"
+			},
+			{
+				"name": "pomaranč",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "ovocie"
+			},
+			{
+				"name": "med",
+				"quantity": 20,
+				"unit": "g",
+				"productType": "sladidlá"
+			},
+			{
+				"name": "sójová omáčka",
+				"quantity": 5,
+				"unit": "ml",
+				"productType": "korenie"
+			},
+			{
+				"name": "soľ",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "čierne korenie",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "ryža",
+				"quantity": 70,
+				"unit": "g",
+				"productType": "cestoviny"
+			}
+		],
+		"R65": [
+			{
+				"name": "mleté hovädzie mäso",
+				"quantity": 250,
+				"unit": "g",
+				"productType": "chladené výrobky"
+			},
+			{
+				"name": "oregano",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "cesnak",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "zelenina"
+			},
+			{
+				"name": "mletá paprika",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "cibuľa",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "zelenina"
+			},
+			{
+				"name": "olivový olej",
+				"quantity": 10,
+				"unit": "ml",
+				"productType": "oleje"
+			},
+			{
+				"name": "fazule",
+				"quantity": 65,
+				"unit": "g",
+				"productType": "konzervy"
+			},
+			{
+				"name": "paradajkový pretlak",
+				"quantity": 100,
+				"unit": "g",
+				"productType": "konzervy"
+			},
+			{
+				"name": "kukurica",
+				"quantity": 75,
+				"unit": "g",
+				"productType": "konzervy"
+			},
+			{
+				"name": "korenie na hovädzie mäso",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "soľ",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "čierne korenie",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "koriander",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "chili",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "ryža",
+				"quantity": 120,
+				"unit": "g",
+				"productType": "cestoviny"
+			}
+		],
+		"R66": [
+			{
+				"name": "olivový olej",
+				"quantity": 15,
+				"unit": "ml",
+				"productType": "oleje"
+			},
+			{
+				"name": "cibuľa",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "zelenina"
+			},
+			{
+				"name": "mrkva",
+				"quantity": 2,
+				"unit": "ks",
+				"productType": "zelenina"
+			},
+			{
+				"name": "cesnak",
+				"quantity": 4,
+				"unit": "ks",
+				"productType": "zelenina"
+			},
+			{
+				"name": "oregano",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "tymián",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "soľ",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "čierne korenie",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "paradajkový pretlak",
+				"quantity": 150,
+				"unit": "g",
+				"productType": "konzervy"
+			},
+			{
+				"name": "červené suché víno",
+				"quantity": 120,
+				"unit": "ml",
+				"productType": "nápoje"
+			},
+			{
+				"name": "zeleninový vývar",
+				"quantity": 720,
+				"unit": "ml",
+				"productType": "korenie"
+			},
+			{
+				"name": "červená šošovica",
+				"quantity": 185,
+				"unit": "g",
+				"productType": "cestoviny"
+			},
+			{
+				"name": "vlašské oregy",
+				"quantity": 20,
+				"unit": "g",
+				"productType": "semienka"
+			},
+			{
+				"name": "drvené paradajky",
+				"quantity": 410,
+				"unit": "g",
+				"productType": "konzervy"
+			},
+			{
+				"name": "špagety",
+				"quantity": 250,
+				"unit": "g",
+				"productType": "cestoviny"
+			},
+			{
+				"name": "balzamiko",
+				"quantity": 5,
+				"unit": "ml",
+				"productType": "oleje"
+			},
+			{
+				"name": "bazalka",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "bylinky"
+			}
+		],
+		"R67": [
+			{
+				"name": "olivový olej",
+				"quantity": 10,
+				"unit": "ml",
+				"productType": "oleje"
+			},
+			{
+				"name": "strúhanka",
+				"quantity": 15,
+				"unit": "g",
+				"productType": "iné"
+			},
+			{
+				"name": "cesnak",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "zelenina"
+			},
+			{
+				"name": "kuracie prsia",
+				"quantity": 450,
+				"unit": "g",
+				"productType": "chladené výrobky"
+			},
+			{
+				"name": "talianske korenie",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "soľ",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "čierne korenie",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "kurací vývar",
+				"quantity": 500,
+				"unit": "ml",
+				"productType": "korenie"
+			},
+			{
+				"name": "lúpané paradajky",
+				"quantity": 400,
+				"unit": "g",
+				"productType": "konzervy"
+			},
+			{
+				"name": "celozrnné cestoviny",
+				"quantity": 225,
+				"unit": "g",
+				"productType": "cestoviny"
+			},
+			{
+				"name": "parmezán",
+				"quantity": 30,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "bazalka",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "bylinky"
+			}
+		],
+		"R68": [
+			{
+				"name": "maslová tekvica",
+				"quantity": 750,
+				"unit": "g",
+				"productType": "zelenina"
+			},
+			{
+				"name": "ryža",
+				"quantity": 180,
+				"unit": "g",
+				"productType": "cestoviny"
+			},
+			{
+				"name": "klinčeky",
+				"quantity": 4,
+				"unit": "ks",
+				"productType": "korenie"
+			},
+			{
+				"name": "bobkový list",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "korenie"
+			},
+			{
+				"name": "cibuľa",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "zelenina"
+			},
+			{
+				"name": "cesnak",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "zelenina"
+			},
+			{
+				"name": "zázvor",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "zelenina"
+			},
+			{
+				"name": "garam masala",
+				"quantity": 3,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "kurkuma",
+				"quantity": 3,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "rasca",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "chili",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "kokosové mlieko light",
+				"quantity": 400,
+				"unit": "ml",
+				"productType": "konzervy"
+			},
+			{
+				"name": "paradajkový pretlak",
+				"quantity": 70,
+				"unit": "g",
+				"productType": "konzervy"
+			},
+			{
+				"name": "olivový olej",
+				"quantity": 10,
+				"unit": "ml",
+				"productType": "oleje"
+			},
+			{
+				"name": "petržlenová vňať",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "soľ",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			}
+		],
+		"R69": [
+			{
+				"name": "soľ",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "čierne korenie",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "papardelle",
+				"quantity": 100,
+				"unit": "g",
+				"productType": "cestoviny"
+			},
+			{
+				"name": "kuracie prsia",
+				"quantity": 300,
+				"unit": "g",
+				"productType": "chladené výrobky"
+			},
+			{
+				"name": "maslo",
+				"quantity": 10,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "cibuľa",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "zelenina"
+			},
+			{
+				"name": "smotana na šľahanie",
+				"quantity": 100,
+				"unit": "ml",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "niva",
+				"quantity": 100,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "brokolica",
+				"quantity": 100,
+				"unit": "g",
+				"productType": "zelenina"
+			},
+			{
+				"name": "olivový olej",
+				"quantity": 10,
+				"unit": "ml",
+				"productType": "oleje"
+			},
+			{
+				"name": "chili",
+				"quantity": 2,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "pažítka",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "bylinky"
+			}
+		],
+		"R70": [
+			{
+				"name": "polotučné mlieko",
+				"quantity": 350,
+				"unit": "ml",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "nízkotučný tvaroh",
+				"quantity": 250,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "citrónová kôra",
+				"quantity": 3,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "citrónová šťava",
+				"quantity": 3,
+				"unit": "ml",
+				"productType": "iné"
+			},
+			{
+				"name": "kuskus",
+				"quantity": 200,
+				"unit": "g",
+				"productType": "cestoviny"
+			},
+			{
+				"name": "vajce",
+				"quantity": 3,
+				"unit": "ks",
+				"productType": "chladené výrobky"
+			},
+			{
+				"name": "čakankový sirup",
+				"quantity": 5,
+				"unit": "ml",
+				"productType": "sladidlá"
+			},
+			{
+				"name": "olivový olej",
+				"quantity": 2,
+				"unit": "ml",
+				"productType": "oleje"
+			},
+			{
+				"name": "Jablko",
+				"quantity": 4,
+				"unit": "ks",
+				"productType": "ovocie"
+			},
+			{
+				"name": "škorica mletá",
+				"quantity": 3,
+				"unit": "g",
+				"productType": "korenie"
+			}
+		],
+		"R71": [
+			{
+				"name": "kuracie prsia",
+				"quantity": 400,
+				"unit": "g",
+				"productType": "chladené výrobky"
+			},
+			{
+				"name": "jablko",
+				"quantity": 2,
+				"unit": "ks",
+				"productType": "ovocie"
+			},
+			{
+				"name": "cibuľa",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "zelenina"
+			},
+			{
+				"name": "šalvia",
+				"quantity": 6,
+				"unit": "ks",
+				"productType": "bylinky"
+			},
+			{
+				"name": "olivový olej",
+				"quantity": 15,
+				"unit": "ml",
+				"productType": "oleje"
+			},
+			{
+				"name": "javorový sirup",
+				"quantity": 10,
+				"unit": "ml",
+				"productType": "sladidlá"
+			},
+			{
+				"name": "soľ",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "čierne korenie",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "zemiaky",
+				"quantity": 500,
+				"unit": "g",
+				"productType": "zelenina"
+			},
+			{
+				"name": "rozmarín",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "tymián",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			}
+		],
+		"R72": [
+			{
+				"name": "avokádo",
+				"quantity": 100,
+				"unit": "g",
+				"productType": "ovocie"
+			},
+			{
+				"name": "citrón",
+				"quantity": 0.5,
+				"unit": "ks",
+				"productType": "ovocie"
+			},
+			{
+				"name": "paradajky",
+				"quantity": 50,
+				"unit": "g",
+				"productType": "zelenina"
+			},
+			{
+				"name": "červená cibuľa",
+				"quantity": 0.25,
+				"unit": "ks",
+				"productType": "zelenina"
+			},
+			{
+				"name": "soľ",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "čierne korenie",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "celozrnné krekry",
+				"quantity": 30,
+				"unit": "g",
+				"productType": "pečivo"
+			}
+		],
+		"R73": [
+			{
+				"name": "kuracie prsia",
+				"quantity": 100,
+				"unit": "g",
+				"productType": "chladené výrobky"
+			},
+			{
+				"name": "rukola",
+				"quantity": 50,
+				"unit": "g",
+				"productType": "zelenina"
+			},
+			{
+				"name": "uhorka",
+				"quantity": 30,
+				"unit": "g",
+				"productType": "zelenina"
+			},
+			{
+				"name": "paprika",
+				"quantity": 20,
+				"unit": "g",
+				"productType": "zelenina"
+			},
+			{
+				"name": "cherry paradajky",
+				"quantity": 20,
+				"unit": "g",
+				"productType": "zelenina"
+			},
+			{
+				"name": "kukurica",
+				"quantity": 30,
+				"unit": "g",
+				"productType": "konzervy"
+			},
+			{
+				"name": "olivy",
+				"quantity": 20,
+				"unit": "g",
+				"productType": "zaváraniny"
+			},
+			{
+				"name": "sušené paradajky",
+				"quantity": 20,
+				"unit": "g",
+				"productType": "zaváraniny"
+			},
+			{
+				"name": "olivový olej",
+				"quantity": 15,
+				"unit": "ml",
+				"productType": "oleje"
+			},
+			{
+				"name": "balzamiko",
+				"quantity": 5,
+				"unit": "ml",
+				"productType": "oleje"
+			},
+			{
+				"name": "soľ",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "čierne korenie",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			}
+		],
+		"R74": [
+			{
+				"name": "cícer",
+				"quantity": 400,
+				"unit": "g",
+				"productType": "konzervy"
+			},
+			{
+				"name": "olivový olej",
+				"quantity": 15,
+				"unit": "ml",
+				"productType": "oleje"
+			},
+			{
+				"name": "soľ",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "čierne korenie",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "bazalka",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "oregano",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "cesnak",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "mletá paprika",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			}
+		],
+		"R75": [
+			{
+				"name": "celozrnná tortilla",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "pečivo"
+			},
+			{
+				"name": "hummus",
+				"quantity": 160,
+				"unit": "g",
+				"productType": "chladené výrobky"
+			},
+			{
+				"name": "uhorka",
+				"quantity": 30,
+				"unit": "g",
+				"productType": "zelenina"
+			},
+			{
+				"name": "paprika",
+				"quantity": 30,
+				"unit": "g",
+				"productType": "zelenina"
+			},
+			{
+				"name": "olivový olej",
+				"quantity": 5,
+				"unit": "ml",
+				"productType": "oleje"
+			},
+			{
+				"name": "soľ",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "čierne korenie",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			}
+		],
+		"R76": [
+			{
+				"name": "mrkva",
+				"quantity": 3,
+				"unit": "ks",
+				"productType": "zelenina"
+			},
+			{
+				"name": "olivový olej",
+				"quantity": 15,
+				"unit": "ml",
+				"productType": "oleje"
+			},
+			{
+				"name": "soľ",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "čierne korenie",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "grécky jogurt",
+				"quantity": 70,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "citrónová šťava",
+				"quantity": 5,
+				"unit": "ml",
+				"productType": "iné"
+			},
+			{
+				"name": "cesnak",
+				"quantity": 5,
+				"unit": "g",
+				"productType": "korenie"
+			}
+		],
+		"R77": [
+			{
+				"name": "sušené paradajky",
+				"quantity": 100,
+				"unit": "g",
+				"productType": "zaváraniny"
+			},
+			{
+				"name": "olivový olej",
+				"quantity": 20,
+				"unit": "ml",
+				"productType": "oleje"
+			},
+			{
+				"name": "sušený cesnak",
+				"quantity": 5,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "citrónová šťava",
+				"quantity": 5,
+				"unit": "ml",
+				"productType": "iné"
+			},
+			{
+				"name": "proteinový chlieb",
+				"quantity": 3,
+				"unit": "ks",
+				"productType": "pečivo"
+			},
+			{
+				"name": "čierne korenie",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "Lučina",
+				"quantity": 200,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			}
+		],
+		"R78": [
+			{
+				"name": "uhorka",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "zelenina"
+			},
+			{
+				"name": "tuniak vo vlastnej šťave",
+				"quantity": 100,
+				"unit": "g",
+				"productType": "konzervy"
+			},
+			{
+				"name": "červená cibuľa",
+				"quantity": 0.25,
+				"unit": "ks",
+				"productType": "zelenina"
+			},
+			{
+				"name": "majonéza light",
+				"quantity": 20,
+				"unit": "g",
+				"productType": "chladené výrobky"
+			},
+			{
+				"name": "grécky jogurt",
+				"quantity": 70,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "dijonská horčica",
+				"quantity": 5,
+				"unit": "g",
+				"productType": "omáčky"
+			},
+			{
+				"name": "sušený cesnak",
+				"quantity": 5,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "soľ",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "čierne korenie",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "čierny sezam",
+				"quantity": 3,
+				"unit": "g",
+				"productType": "semienka"
+			}
+		],
+		"R79": [
+			{
+				"name": "vajce",
+				"quantity": 2,
+				"unit": "ks",
+				"productType": "chladené výrobky"
+			},
+			{
+				"name": "uhorka",
+				"quantity": 20,
+				"unit": "g",
+				"productType": "zelenina"
+			},
+			{
+				"name": "paradajky",
+				"quantity": 20,
+				"unit": "g",
+				"productType": "zelenina"
+			},
+			{
+				"name": "mrkva",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "zelenina"
+			},
+			{
+				"name": "Lučina",
+				"quantity": 50,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "pažítka",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "bylinky"
+			},
+			{
+				"name": "soľ",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "čierne korenie",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			}
+		],
+		"R80": [
+			{
+				"name": "tempeh",
+				"quantity": 130,
+				"unit": "g",
+				"productType": "iné"
+			},
+			{
+				"name": "olivový olej",
+				"quantity": 10,
+				"unit": "ml",
+				"productType": "oleje"
+			},
+			{
+				"name": "hlávkový šalát",
+				"quantity": 1,
+				"unit": "hlávka",
+				"productType": "zelenina"
+			},
+			{
+				"name": "reďkovka",
+				"quantity": 8,
+				"unit": "ks",
+				"productType": "zelenina"
+			},
+			{
+				"name": "jarná cibuľka",
+				"quantity": 2,
+				"unit": "ks",
+				"productType": "zelenina"
+			},
+			{
+				"name": "šalotka",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "zelenina"
+			},
+			{
+				"name": "granátové jablko",
+				"quantity": 50,
+				"unit": "g",
+				"productType": "ovocie"
+			},
+			{
+				"name": "citrónová šťava",
+				"quantity": 5,
+				"unit": "ml",
+				"productType": "iné"
+			},
+			{
+				"name": "soľ",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "čierne korenie",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "sezamové semienka",
+				"quantity": 10,
+				"unit": "g",
+				"productType": "semienka"
+			},
+			{
+				"name": "cesnak",
+				"quantity": 2,
+				"unit": "ks",
+				"productType": "zelenina"
+			},
+			{
+				"name": "pažítka",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "bylinky"
+			}
+		],
+		"R81": [
+			{
+				"name": "cottage cheese",
+				"quantity": 260,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "olivový olej",
+				"quantity": 5,
+				"unit": "ml",
+				"productType": "oleje"
+			},
+			{
+				"name": "soľ",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "čierne korenie",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "oregano",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "chili",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "cesnak",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "sezamové semienka",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "semienka"
+			}
+		],
+		"R82": [
+			{
+				"name": "tuniak vo vlastnej šťave",
+				"quantity": 120,
+				"unit": "g",
+				"productType": "konzervy"
+			},
+			{
+				"name": "jemný polotučný tvaroh",
+				"quantity": 75,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "horčica",
+				"quantity": 12,
+				"unit": "g",
+				"productType": "omáčky"
+			},
+			{
+				"name": "kváskový chlieb",
+				"quantity": 3,
+				"unit": "ks",
+				"productType": "pečivo"
+			},
+			{
+				"name": "červená cibuľa",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "zelenina"
+			},
+			{
+				"name": "cesnak",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "zelenina"
+			},
+			{
+				"name": "citrónová šťava",
+				"quantity": 5,
+				"unit": "ml",
+				"productType": "iné"
+			},
+			{
+				"name": "soľ",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "čierne korenie",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "bazalka",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			}
+		],
+		"R83": [
+			{
+				"name": "špaldová múka",
+				"quantity": 50,
+				"unit": "g",
+				"productType": "iné"
+			},
+			{
+				"name": "vajce",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "chladené výrobky"
+			},
+			{
+				"name": "jemný polotučný tvaroh",
+				"quantity": 50,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "mozzarella",
+				"quantity": 80,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "kypriaci prášok",
+				"quantity": 12,
+				"unit": "g",
+				"productType": "iné"
+			},
+			{
+				"name": "soľ",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "psylium",
+				"quantity": 5,
+				"unit": "g",
+				"productType": "iné"
+			},
+			{
+				"name": "parmezán",
+				"quantity": 15,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "cesnak",
+				"quantity": 4,
+				"unit": "ks",
+				"productType": "zelenina"
+			},
+			{
+				"name": "korenie na pizzu",
+				"quantity": 3,
+				"unit": "g",
+				"productType": "korenie"
+			}
+		],
+		"R84": [
+			{
+				"name": "bryndza",
+				"quantity": 125,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "jemný nízkotučný tvaroh",
+				"quantity": 150,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "pažítka",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "bylinky"
+			},
+			{
+				"name": "mletá paprika",
+				"quantity": 5,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "proteinový chlieb",
+				"quantity": 2,
+				"unit": "ks",
+				"productType": "pečivo"
+			}
+		],
+		"R85": [
+			{
+				"name": "proteinový chlieb",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "pečivo"
+			},
+			{
+				"name": "hruška",
+				"quantity": 0.5,
+				"unit": "ks",
+				"productType": "ovocie"
+			},
+			{
+				"name": "niva",
+				"quantity": 30,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "vlaššské orechy",
+				"quantity": 10,
+				"unit": "g",
+				"productType": "semienka"
+			},
+			{
+				"name": "med",
+				"quantity": 5,
+				"unit": "g",
+				"productType": "sladidlá"
+			},
+			{
+				"name": "tymián",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "rukola",
+				"quantity": 10,
+				"unit": "g",
+				"productType": "zelenina"
+			}
+		],
+		"R86": [
+			{
+				"name": "cuketa",
+				"quantity": 200,
+				"unit": "g",
+				"productType": "zelenina"
+			},
+			{
+				"name": "vajce",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "chladené výrobky"
+			},
+			{
+				"name": "olivový olej",
+				"quantity": 5,
+				"unit": "ml",
+				"productType": "oleje"
+			},
+			{
+				"name": "cottage cheese",
+				"quantity": 100,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "špaldová múka",
+				"quantity": 30,
+				"unit": "g",
+				"productType": "iné"
+			},
+			{
+				"name": "soľ",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "čierne korenie",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "cesnak",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "pažítka",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "bylinky"
+			}
+		],
+		"R87": [
+			{
+				"name": "jahody",
+				"quantity": 100,
+				"unit": "g",
+				"productType": "ovocie"
+			},
+			{
+				"name": "avokádo",
+				"quantity": 50,
+				"unit": "g",
+				"productType": "ovocie"
+			},
+			{
+				"name": "ďatle",
+				"quantity": 20,
+				"unit": "g",
+				"productType": "iné"
+			},
+			{
+				"name": "kokosové mlieko light",
+				"quantity": 30,
+				"unit": "ml",
+				"productType": "konzervy"
+			},
+			{
+				"name": "javorový sirup",
+				"quantity": 5,
+				"unit": "ml",
+				"productType": "sladidlá"
+			},
+			{
+				"name": "proteinový prášok (vanilka)",
+				"quantity": 10,
+				"unit": "g",
+				"productType": "protein"
+			},
+			{
+				"name": "sladidlo",
+				"quantity": 5,
+				"unit": "ml",
+				"productType": "sladidlá"
+			}
+		],
+		"R88": [
+			{
+				"name": "broskyne",
+				"quantity": 3,
+				"unit": "ks",
+				"productType": "ovocie"
+			},
+			{
+				"name": "kombucha",
+				"quantity": 50,
+				"unit": "ml",
+				"productType": "nápoje"
+			},
+			{
+				"name": "kokosové mlieko light",
+				"quantity": 30,
+				"unit": "ml",
+				"productType": "konzervy"
+			},
+			{
+				"name": "goji",
+				"quantity": 6,
+				"unit": "g",
+				"productType": "iné"
+			},
+			{
+				"name": "javorový sirup",
+				"quantity": 3,
+				"unit": "ml",
+				"productType": "sladidlá"
+			},
+			{
+				"name": "proteinový prášok (vanilka)",
+				"quantity": 10,
+				"unit": "g",
+				"productType": "protein"
+			},
+			{
+				"name": "grécky jogurt",
+				"quantity": 50,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "sladidlo",
+				"quantity": 5,
+				"unit": "ml",
+				"productType": "sladidlá"
+			}
+		],
+		"R89": [
+			{
+				"name": "banán",
+				"quantity": 50,
+				"unit": "g",
+				"productType": "ovocie"
+			},
+			{
+				"name": "mango",
+				"quantity": 100,
+				"unit": "g",
+				"productType": "mrazené výrobky"
+			},
+			{
+				"name": "mandľové mlieko",
+				"quantity": 150,
+				"unit": "ml",
+				"productType": "rastlinné výrobky"
+			},
+			{
+				"name": "avokádo",
+				"quantity": 20,
+				"unit": "g",
+				"productType": "ovocie"
+			},
+			{
+				"name": "uhorka",
+				"quantity": 20,
+				"unit": "g",
+				"productType": "zelenina"
+			},
+			{
+				"name": "proteinový prášok (vanilka)",
+				"quantity": 10,
+				"unit": "g",
+				"productType": "protein"
+			},
+			{
+				"name": "špenát",
+				"quantity": 20,
+				"unit": "g",
+				"productType": "zelenina"
+			},
+			{
+				"name": "spirula",
+				"quantity": 5,
+				"unit": "g",
+				"productType": "iné"
+			},
+			{
+				"name": "citrónová šťava",
+				"quantity": 10,
+				"unit": "ml",
+				"productType": "iné"
+			}
+		],
+		"R90": [
+			{
+				"name": "lesné ovocie",
+				"quantity": 100,
+				"unit": "g",
+				"productType": "mrazené výrobky"
+			},
+			{
+				"name": "mango",
+				"quantity": 50,
+				"unit": "g",
+				"productType": "mrazené výrobky"
+			},
+			{
+				"name": "cvikla",
+				"quantity": 50,
+				"unit": "g",
+				"productType": "zelenina"
+			},
+			{
+				"name": "grécky jogurt",
+				"quantity": 40,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "mandľové mlieko",
+				"quantity": 150,
+				"unit": "ml",
+				"productType": "rastlinné výrobky"
+			},
+			{
+				"name": "proteínový prášok (jahoda)",
+				"quantity": 15,
+				"unit": "g",
+				"productType": "protein"
+			}
+		],
+		"R91": [
+			{
+				"name": "mango",
+				"quantity": 100,
+				"unit": "g",
+				"productType": "mrazené výrobky"
+			},
+			{
+				"name": "proteínový prášok (karamel)",
+				"quantity": 10,
+				"unit": "g",
+				"productType": "protein"
+			},
+			{
+				"name": "banán",
+				"quantity": 50,
+				"unit": "g",
+				"productType": "ovocie"
+			},
+			{
+				"name": "kešu maslo",
+				"quantity": 10,
+				"unit": "g",
+				"productType": "omáčky"
+			},
+			{
+				"name": "chia semienka",
+				"quantity": 5,
+				"unit": "g",
+				"productType": "semienka"
+			}
+		],
+		"R92": [
+			{
+				"name": "maliny",
+				"quantity": 100,
+				"unit": "g",
+				"productType": "mrazené výrobky"
+			},
+			{
+				"name": "proteínový prášok (malina/vanilka)",
+				"quantity": 10,
+				"unit": "g",
+				"productType": "protein"
+			},
+			{
+				"name": "mandľové mlieko",
+				"quantity": 100,
+				"unit": "ml",
+				"productType": "rastlinné výrobky"
+			},
+			{
+				"name": "chia semienka",
+				"quantity": 5,
+				"unit": "g",
+				"productType": "semienka"
+			},
+			{
+				"name": "javorový sirup",
+				"quantity": 5,
+				"unit": "ml",
+				"productType": "sladidlá"
+			},
+			{
+				"name": "grécky jogurt",
+				"quantity": 50,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "lyofilizované maliny",
+				"quantity": 10,
+				"unit": "g",
+				"productType": "semienka"
+			}
+		],
+		"R93": [
+			{
+				"name": "banán",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "mrazené výrobky"
+			},
+			{
+				"name": "káva",
+				"quantity": 5,
+				"unit": "g",
+				"productType": "čaj/káva"
+			},
+			{
+				"name": "mandľové mlieko",
+				"quantity": 100,
+				"unit": "ml",
+				"productType": "rastlinné výrobky"
+			},
+			{
+				"name": "arašidové maslo",
+				"quantity": 10,
+				"unit": "g",
+				"productType": "omáčky"
+			},
+			{
+				"name": "proteinový prášok (vanilka)",
+				"quantity": 15,
+				"unit": "g",
+				"productType": "protein"
+			}
+		],
+		"R94": [
+			{
+				"name": "matcha",
+				"quantity": 5,
+				"unit": "g",
+				"productType": "čaj/káva"
+			},
+			{
+				"name": "mandľové mlieko",
+				"quantity": 100,
+				"unit": "ml",
+				"productType": "rastlinné výrobky"
+			},
+			{
+				"name": "maliny",
+				"quantity": 100,
+				"unit": "g",
+				"productType": "mrazené výrobky"
+			},
+			{
+				"name": "čakankový sirup",
+				"quantity": 10,
+				"unit": "ml",
+				"productType": "sladidlá"
+			}
+		],
+		"R95": [
+			{
+				"name": "banán",
+				"quantity": 90,
+				"unit": "g",
+				"productType": "ovocie"
+			},
+			{
+				"name": "kokosová voda",
+				"quantity": 200,
+				"unit": "ml",
+				"productType": "nápoje"
+			},
+			{
+				"name": "ananás",
+				"quantity": 200,
+				"unit": "g",
+				"productType": "mrazené výrobky"
+			},
+			{
+				"name": "citrónová šťava",
+				"quantity": 2,
+				"unit": "ml",
+				"productType": "iné"
+			}
+		],
+		"R96": [
+			{
+				"name": "acidko",
+				"quantity": 200,
+				"unit": "ml",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "lesné ovocie",
+				"quantity": 150,
+				"unit": "g",
+				"productType": "mrazené výrobky"
+			},
+			{
+				"name": "proteinový prášok (vanilka)",
+				"quantity": 20,
+				"unit": "g",
+				"productType": "protein"
+			},
+			{
+				"name": "čakankový sirup",
+				"quantity": 2,
+				"unit": "ml",
+				"productType": "sladidlá"
+			}
+		],
+		"R97": [
+			{
+				"name": "káva",
+				"quantity": 5,
+				"unit": "g",
+				"productType": "čaj/káva"
+			},
+			{
+				"name": "ovsené mlieko",
+				"quantity": 150,
+				"unit": "ml",
+				"productType": "rastlinné výrobky"
+			},
+			{
+				"name": "proteinový prášok (vanilka)",
+				"quantity": 20,
+				"unit": "g",
+				"productType": "protein"
+			},
+			{
+				"name": "odtučnený tvaroh",
+				"quantity": 80,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "škorica mletá",
+				"quantity": 5,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "banán",
+				"quantity": 110,
+				"unit": "g",
+				"productType": "ovocie"
+			}
+		],
+		"R98": [
+			{
+				"name": "mandľové mlieko",
+				"quantity": 200,
+				"unit": "ml",
+				"productType": "rastlinné výrobky"
+			},
+			{
+				"name": "orieškové maslo",
+				"quantity": 15,
+				"unit": "g",
+				"productType": "omáčky"
+			},
+			{
+				"name": "banán",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "ovocie"
+			},
+			{
+				"name": "čakankový sirup",
+				"quantity": 10,
+				"unit": "ml",
+				"productType": "sladidlá"
+			},
+			{
+				"name": "proteínový prášok (čokoláda)",
+				"quantity": 30,
+				"unit": "g",
+				"productType": "protein"
+			}
+		],
+		"R99": [
+			{
+				"name": "banán",
+				"quantity": 100,
+				"unit": "g",
+				"productType": "mrazené výrobky"
+			},
+			{
+				"name": "grécky jogurt",
+				"quantity": 120,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "tekvicové pyré",
+				"quantity": 120,
+				"unit": "g",
+				"productType": "zaváraniny"
+			},
+			{
+				"name": "mandľové mlieko",
+				"quantity": 120,
+				"unit": "ml",
+				"productType": "rastlinné výrobky"
+			},
+			{
+				"name": "vanilkový extrakt",
+				"quantity": 5,
+				"unit": "ml",
+				"productType": "sladidlá"
+			},
+			{
+				"name": "škorica mletá",
+				"quantity": 5,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "muškátový oriešok",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "zázvor",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "nové korenie",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			}
+		],
+		"R100": [
+			{
+				"name": "melón",
+				"quantity": 500,
+				"unit": "g",
+				"productType": "ovocie"
+			},
+			{
+				"name": "med",
+				"quantity": 25,
+				"unit": "g",
+				"productType": "sladidlá"
+			},
+			{
+				"name": "limetka",
+				"quantity": 2,
+				"unit": "ks",
+				"productType": "ovocie"
+			},
+			{
+				"name": "mäta",
+				"quantity": 10,
+				"unit": "ks",
+				"productType": "bylinky"
+			}
+		],
+		"R101": [
+			{
+				"name": "čierny čaj",
+				"quantity": 4,
+				"unit": "ks",
+				"productType": "čaj/káva"
+			},
+			{
+				"name": "med",
+				"quantity": 25,
+				"unit": "g",
+				"productType": "sladidlá"
+			},
+			{
+				"name": "limetka",
+				"quantity": 2,
+				"unit": "ks",
+				"productType": "ovocie"
+			},
+			{
+				"name": "broskyne",
+				"quantity": 3,
+				"unit": "ks",
+				"productType": "ovocie"
+			},
+			{
+				"name": "mäta",
+				"quantity": 10,
+				"unit": "ks",
+				"productType": "bylinky"
+			}
+		],
+		"R102": [
+			{
+				"name": "kokosové mlieko light",
+				"quantity": 75,
+				"unit": "ml",
+				"productType": "konzervy"
+			},
+			{
+				"name": "ananásový džús",
+				"quantity": 125,
+				"unit": "ml",
+				"productType": "nápoje"
+			},
+			{
+				"name": "limetka",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "ovocie"
+			}
+		],
+		"R103": [
+			{
+				"name": "maliny",
+				"quantity": 200,
+				"unit": "g",
+				"productType": "ovocie"
+			},
+			{
+				"name": "mäta",
+				"quantity": 10,
+				"unit": "ks",
+				"productType": "bylinky"
+			},
+			{
+				"name": "trstinový cukor",
+				"quantity": 10,
+				"unit": "g",
+				"productType": "sladidlá"
+			},
+			{
+				"name": "limetka",
+				"quantity": 0.5,
+				"unit": "ks",
+				"productType": "ovocie"
+			},
+			{
+				"name": "malinový džús",
+				"quantity": 100,
+				"unit": "ml",
+				"productType": "nápoje"
+			},
+			{
+				"name": "rumová aróma",
+				"quantity": 2,
+				"unit": "ml",
+				"productType": "iné"
+			}
+		],
+		"R104": [
+			{
+				"name": "mango",
+				"quantity": 200,
+				"unit": "g",
+				"productType": "mrazené výrobky"
+			},
+			{
+				"name": "mäta",
+				"quantity": 10,
+				"unit": "ks",
+				"productType": "bylinky"
+			},
+			{
+				"name": "mangový džús",
+				"quantity": 200,
+				"unit": "ml",
+				"productType": "nápoje"
+			}
+		],
+		"R105": [
+			{
+				"name": "zelený čaj",
+				"quantity": 3,
+				"unit": "ks",
+				"productType": "čaj/káva"
+			},
+			{
+				"name": "černice",
+				"quantity": 150,
+				"unit": "g",
+				"productType": "ovocie"
+			},
+			{
+				"name": "rozmarín",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "bylinky"
+			},
+			{
+				"name": "med",
+				"quantity": 35,
+				"unit": "g",
+				"productType": "sladidlá"
+			}
+		],
+		"R106": [
+			{
+				"name": "jablko",
+				"quantity": 5,
+				"unit": "ks",
+				"productType": "ovocie"
+			},
+			{
+				"name": "zázvor",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "ovocie"
+			},
+			{
+				"name": "klinčeky",
+				"quantity": 6,
+				"unit": "ks",
+				"productType": "korenie"
+			},
+			{
+				"name": "škorica celá",
+				"quantity": 2,
+				"unit": "ks",
+				"productType": "korenie"
+			},
+			{
+				"name": "kurkuma",
+				"quantity": 5,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "med",
+				"quantity": 10,
+				"unit": "g",
+				"productType": "sladidlá"
+			}
+		],
+		"R107": [
+			{
+				"name": "brusnicový džús",
+				"quantity": 200,
+				"unit": "ml",
+				"productType": "nápoje"
+			},
+			{
+				"name": "pomarančový džús",
+				"quantity": 200,
+				"unit": "ml",
+				"productType": "nápoje"
+			},
+			{
+				"name": "brusnice",
+				"quantity": 10,
+				"unit": "g",
+				"productType": "ovocie"
+			},
+			{
+				"name": "pomaranč",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "ovocie"
+			}
+		],
+		"R108": [
+			{
+				"name": "hruška",
+				"quantity": 2,
+				"unit": "ks",
+				"productType": "ovocie"
+			},
+			{
+				"name": "zázvor",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "ovocie"
+			},
+			{
+				"name": "škorica mletá",
+				"quantity": 5,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "klinčeky",
+				"quantity": 2,
+				"unit": "ks",
+				"productType": "korenie"
+			},
+			{
+				"name": "med",
+				"quantity": 10,
+				"unit": "g",
+				"productType": "sladidlá"
+			}
+		],
+		"R109": [
+			{
+				"name": "banán",
+				"quantity": 100,
+				"unit": "g",
+				"productType": "mrazené výrobky"
+			},
+			{
+				"name": "grécky jogurt",
+				"quantity": 120,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "tekvicové pyré",
+				"quantity": 120,
+				"unit": "g",
+				"productType": "zaváraniny"
+			},
+			{
+				"name": "mandľové mlieko",
+				"quantity": 120,
+				"unit": "ml",
+				"productType": "rastlinné výrobky"
+			},
+			{
+				"name": "mandľové maslo",
+				"quantity": 15,
+				"unit": "g",
+				"productType": "rastlinné výrobky"
+			},
+			{
+				"name": "vanilkový extrakt",
+				"quantity": 5,
+				"unit": "ml",
+				"productType": "sladidlá"
+			},
+			{
+				"name": "škorica mletá",
+				"quantity": 5,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "muškátový oriešok",
+				"quantity": 2,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "zázvor",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "nové korenie",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			}
+		],
+		"R110": [
+			{
+				"name": "banán",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "ovocie"
+			},
+			{
+				"name": "orieškové maslo",
+				"quantity": 20,
+				"unit": "g",
+				"productType": "omáčky"
+			},
+			{
+				"name": "med",
+				"quantity": 10,
+				"unit": "g",
+				"productType": "sladidlá"
+			},
+			{
+				"name": "chia semienka",
+				"quantity": 5,
+				"unit": "g",
+				"productType": "semienka"
+			},
+			{
+				"name": "škorica mletá",
+				"quantity": 2,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "jahody",
+				"quantity": 10,
+				"unit": "g",
+				"productType": "ovocie"
+			},
+			{
+				"name": "čučoriedky",
+				"quantity": 10,
+				"unit": "g",
+				"productType": "ovocie"
+			},
+			{
+				"name": "maliny",
+				"quantity": 20,
+				"unit": "g",
+				"productType": "ovocie"
+			},
+			{
+				"name": "granátové jablko",
+				"quantity": 10,
+				"unit": "g",
+				"productType": "ovocie"
+			}
+		],
+		"R111": [
+			{
+				"name": "ďatle",
+				"quantity": 150,
+				"unit": "g",
+				"productType": "iné"
+			},
+			{
+				"name": "vlašské orechy",
+				"quantity": 120,
+				"unit": "g",
+				"productType": "semienka"
+			},
+			{
+				"name": "ovsené vločky",
+				"quantity": 30,
+				"unit": "g",
+				"productType": "cereálie"
+			},
+			{
+				"name": "kešu maslo",
+				"quantity": 30,
+				"unit": "g",
+				"productType": "omáčky"
+			}
+		],
+		"R112": [
+			{
+				"name": "banán",
+				"quantity": 3,
+				"unit": "ks",
+				"productType": "ovocie"
+			},
+			{
+				"name": "kokosový olej",
+				"quantity": 60,
+				"unit": "g",
+				"productType": "oleje"
+			},
+			{
+				"name": "med",
+				"quantity": 70,
+				"unit": "g",
+				"productType": "sladidlá"
+			},
+			{
+				"name": "vajce",
+				"quantity": 2,
+				"unit": "ks",
+				"productType": "chladené výrobky"
+			},
+			{
+				"name": "špaldová múka",
+				"quantity": 300,
+				"unit": "g",
+				"productType": "iné"
+			},
+			{
+				"name": "škorica mletá",
+				"quantity": 2,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "polotučné mlieko",
+				"quantity": 190,
+				"unit": "ml",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "kypriaci prášok",
+				"quantity": 10,
+				"unit": "g",
+				"productType": "iné"
+			},
+			{
+				"name": "soľ",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "grécky jogurt",
+				"quantity": 70,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "čučoriedky",
+				"quantity": 50,
+				"unit": "g",
+				"productType": "ovocie"
+			},
+			{
+				"name": "javorový sirup",
+				"quantity": 15,
+				"unit": "ml",
+				"productType": "sladidlá"
+			}
+		],
+		"R113": [
+			{
+				"name": "nízkotučný tvaroh",
+				"quantity": 125,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "jahody",
+				"quantity": 100,
+				"unit": "g",
+				"productType": "ovocie"
+			},
+			{
+				"name": "med",
+				"quantity": 20,
+				"unit": "g",
+				"productType": "sladidlá"
+			},
+			{
+				"name": "vanilkový extrakt",
+				"quantity": 5,
+				"unit": "ml",
+				"productType": "sladidlá"
+			},
+			{
+				"name": "granola",
+				"quantity": 20,
+				"unit": "g",
+				"productType": "cereálie"
+			}
+		],
+		"R114": [
+			{
+				"name": "jablko",
+				"quantity": 2,
+				"unit": "ks",
+				"productType": "ovocie"
+			},
+			{
+				"name": "med",
+				"quantity": 30,
+				"unit": "g",
+				"productType": "sladidlá"
+			},
+			{
+				"name": "orieškové maslo",
+				"quantity": 30,
+				"unit": "g",
+				"productType": "omáčky"
+			},
+			{
+				"name": "škorica mletá",
+				"quantity": 2,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "vlašské orechy",
+				"quantity": 15,
+				"unit": "g",
+				"productType": "semienka"
+			}
+		],
+		"R115": [
+			{
+				"name": "jahody",
+				"quantity": 100,
+				"unit": "g",
+				"productType": "ovocie"
+			},
+			{
+				"name": "banán",
+				"quantity": 100,
+				"unit": "g",
+				"productType": "ovocie"
+			},
+			{
+				"name": "čučoriedky",
+				"quantity": 50,
+				"unit": "g",
+				"productType": "ovocie"
+			},
+			{
+				"name": "horká čokoláda",
+				"quantity": 20,
+				"unit": "g",
+				"productType": "sladkosti"
+			},
+			{
+				"name": "mandle",
+				"quantity": 10,
+				"unit": "g",
+				"productType": "semienka"
+			}
+		],
+		"R116": [
+			{
+				"name": "odtučnený tvaroh",
+				"quantity": 200,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "sladidlo",
+				"quantity": 5,
+				"unit": "ml",
+				"productType": "sladidlá"
+			},
+			{
+				"name": "vanilkový extrakt",
+				"quantity": 5,
+				"unit": "ml",
+				"productType": "sladidlá"
+			},
+			{
+				"name": "špaldové piškóty",
+				"quantity": 40,
+				"unit": "g",
+				"productType": "sladkosti"
+			},
+			{
+				"name": "káva",
+				"quantity": 10,
+				"unit": "g",
+				"productType": "čaj/káva"
+			},
+			{
+				"name": "holandské kakao",
+				"quantity": 5,
+				"unit": "g",
+				"productType": "iné"
+			}
+		],
+		"R117": [
+			{
+				"name": "ryžové chlebíčky",
+				"quantity": 32,
+				"unit": "g",
+				"productType": "pečivo"
+			},
+			{
+				"name": "grécky jogurt",
+				"quantity": 140,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "med",
+				"quantity": 10,
+				"unit": "g",
+				"productType": "sladidlá"
+			},
+			{
+				"name": "čučoriedky",
+				"quantity": 25,
+				"unit": "g",
+				"productType": "ovocie"
+			},
+			{
+				"name": "jahody",
+				"quantity": 10,
+				"unit": "g",
+				"productType": "ovocie"
+			},
+			{
+				"name": "kiwi",
+				"quantity": 15,
+				"unit": "g",
+				"productType": "ovocie"
+			},
+			{
+				"name": "škorica mletá",
+				"quantity": 5,
+				"unit": "g",
+				"productType": "korenie"
+			}
+		],
+		"R118": [
+			{
+				"name": "horká čokoláda",
+				"quantity": 200,
+				"unit": "g",
+				"productType": "sladkosti"
+			},
+			{
+				"name": "arašidové maslo",
+				"quantity": 90,
+				"unit": "g",
+				"productType": "omáčky"
+			},
+			{
+				"name": "soľ",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			}
+		],
+		"R119": [
+			{
+				"name": "banán",
+				"quantity": 2,
+				"unit": "ks",
+				"productType": "ovocie"
+			},
+			{
+				"name": "ovsené vločky",
+				"quantity": 40,
+				"unit": "g",
+				"productType": "cereálie"
+			},
+			{
+				"name": "kokos",
+				"quantity": 40,
+				"unit": "g",
+				"productType": "iné"
+			},
+			{
+				"name": "vajce",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "chladené výrobky"
+			},
+			{
+				"name": "horká čokoláda",
+				"quantity": 40,
+				"unit": "g",
+				"productType": "sladkosti"
+			},
+			{
+				"name": "lieskové oriešky",
+				"quantity": 30,
+				"unit": "g",
+				"productType": "semienka"
+			},
+			{
+				"name": "škorica mletá",
+				"quantity": 5,
+				"unit": "g",
+				"productType": "korenie"
+			}
+		],
+		"R120": [
+			{
+				"name": "horká čokoláda",
+				"quantity": 30,
+				"unit": "g",
+				"productType": "sladkosti"
+			},
+			{
+				"name": "proteínový prášok (čokoláda)",
+				"quantity": 25,
+				"unit": "g",
+				"productType": "protein"
+			},
+			{
+				"name": "jablková výživa",
+				"quantity": 20,
+				"unit": "g",
+				"productType": "zaváraniny"
+			},
+			{
+				"name": "holandské kakao",
+				"quantity": 20,
+				"unit": "g",
+				"productType": "iné"
+			},
+			{
+				"name": "polotučné mlieko",
+				"quantity": 100,
+				"unit": "ml",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "kypriaci prášok",
+				"quantity": 5,
+				"unit": "g",
+				"productType": "iné"
+			},
+			{
+				"name": "kokosový olej",
+				"quantity": 2,
+				"unit": "g",
+				"productType": "oleje"
+			},
+			{
+				"name": "špaldová múka",
+				"quantity": 20,
+				"unit": "g",
+				"productType": "iné"
+			},
+			{
+				"name": "vajce",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "chladené výrobky"
+			},
+			{
+				"name": "čakankový sirup",
+				"quantity": 5,
+				"unit": "ml",
+				"productType": "sladidlá"
+			},
+			{
+				"name": "jahody",
+				"quantity": 50,
+				"unit": "g",
+				"productType": "ovocie"
+			}
+		],
+		"R121": [
+			{
+				"name": "maliny",
+				"quantity": 300,
+				"unit": "g",
+				"productType": "ovocie"
+			},
+			{
+				"name": "grécky jogurt",
+				"quantity": 280,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "vanilkový extrakt",
+				"quantity": 5,
+				"unit": "ml",
+				"productType": "sladidlá"
+			},
+			{
+				"name": "med",
+				"quantity": 25,
+				"unit": "g",
+				"productType": "sladidlá"
+			}
+		],
+		"R122": [
+			{
+				"name": "jemne hrudkovaný tvaroh",
+				"quantity": 200,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "vajce",
+				"quantity": 2,
+				"unit": "ks",
+				"productType": "chladené výrobky"
+			},
+			{
+				"name": "grécky jogurt",
+				"quantity": 140,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "ghee",
+				"quantity": 20,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "trstinový cukor",
+				"quantity": 36,
+				"unit": "g",
+				"productType": "sladidlá"
+			},
+			{
+				"name": "kypriaci prášok",
+				"quantity": 4,
+				"unit": "g",
+				"productType": "iné"
+			},
+			{
+				"name": "špaldová múka",
+				"quantity": 140,
+				"unit": "g",
+				"productType": "iné"
+			},
+			{
+				"name": "holandské kakao",
+				"quantity": 20,
+				"unit": "g",
+				"productType": "iné"
+			},
+			{
+				"name": "čučoriedky",
+				"quantity": 100,
+				"unit": "g",
+				"productType": "ovocie"
+			}
+		],
+		"R123": [
+			{
+				"name": "špaldová múka",
+				"quantity": 150,
+				"unit": "g",
+				"productType": "iné"
+			},
+			{
+				"name": "maslo",
+				"quantity": 75,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "kokosový cukor",
+				"quantity": 120,
+				"unit": "g",
+				"productType": "sladidlá"
+			},
+			{
+				"name": "škorica mletá",
+				"quantity": 5,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "vajce",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "chladené výrobky"
+			},
+			{
+				"name": "jablko",
+				"quantity": 8,
+				"unit": "ks",
+				"productType": "ovocie"
+			},
+			{
+				"name": "citrónová šťava",
+				"quantity": 5,
+				"unit": "ml",
+				"productType": "iné"
+			},
+			{
+				"name": "škorica mletá",
+				"quantity": 5,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "maslo",
+				"quantity": 25,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "grécky jogurt",
+				"quantity": 70,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			}
+		],
+		"R124": [
+			{
+				"name": "červené fazule",
+				"quantity": 400,
+				"unit": "g",
+				"productType": "konzervy"
+			},
+			{
+				"name": "banán",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "ovocie"
+			},
+			{
+				"name": "vajce",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "chladené výrobky"
+			},
+			{
+				"name": "sladidlo",
+				"quantity": 5,
+				"unit": "ml",
+				"productType": "sladidlá"
+			},
+			{
+				"name": "holandské kakao",
+				"quantity": 20,
+				"unit": "g",
+				"productType": "iné"
+			},
+			{
+				"name": "proteínový prášok (čokoláda)",
+				"quantity": 30,
+				"unit": "g",
+				"productType": "protein"
+			},
+			{
+				"name": "kypriaci prášok",
+				"quantity": 5,
+				"unit": "g",
+				"productType": "iné"
+			},
+			{
+				"name": "horká čokoláda",
+				"quantity": 100,
+				"unit": "g",
+				"productType": "sladkosti"
+			},
+			{
+				"name": "polotučný tvaroh",
+				"quantity": 250,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "sladidlo",
+				"quantity": 5,
+				"unit": "ml",
+				"productType": "sladidlá"
+			},
+			{
+				"name": "maliny",
+				"quantity": 150,
+				"unit": "g",
+				"productType": "mrazené výrobky"
+			},
+			{
+				"name": "chia semienka",
+				"quantity": 5,
+				"unit": "g",
+				"productType": "semienka"
+			},
+			{
+				"name": "javorový sirup",
+				"quantity": 20,
+				"unit": "ml",
+				"productType": "sladidlá"
+			}
+		],
+		"R125": [
+			{
+				"name": "údený losos",
+				"quantity": 100,
+				"unit": "g",
+				"productType": "chladené výrobky"
+			},
+			{
+				"name": "červená cibuľa",
+				"quantity": 0.5,
+				"unit": "ks",
+				"productType": "zelenina"
+			},
+			{
+				"name": "riccota",
+				"quantity": 30,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "citrónová šťava",
+				"quantity": 5,
+				"unit": "ml",
+				"productType": "iné"
+			},
+			{
+				"name": "paradajkové pesto",
+				"quantity": 20,
+				"unit": "g",
+				"productType": "omáčky"
+			},
+			{
+				"name": "soľ",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "čierne korenie",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "proteinový chlieb",
+				"quantity": 4,
+				"unit": "ks",
+				"productType": "pečivo"
+			}
+		],
+		"R126": [
+			{
+				"name": "puding (čokoláda)",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "iné"
+			},
+			{
+				"name": "polotučné mlieko",
+				"quantity": 300,
+				"unit": "ml",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "sladidlo",
+				"quantity": 5,
+				"unit": "ml",
+				"productType": "sladidlá"
+			},
+			{
+				"name": "škorica mletá",
+				"quantity": 2,
+				"unit": "g",
+				"productType": "korenie"
+			}
+		],
+		"R127": [
+			{
+				"name": "tuniak vo vlastnej šťave",
+				"quantity": 246,
+				"unit": "g",
+				"productType": "konzervy"
+			},
+			{
+				"name": "Eidam",
+				"quantity": 100,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "vajce",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "chladené výrobky"
+			},
+			{
+				"name": "Lučina",
+				"quantity": 100,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "grécky jogurt",
+				"quantity": 150,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "kečup",
+				"quantity": 20,
+				"unit": "g",
+				"productType": "omáčky"
+			},
+			{
+				"name": "soľ",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "čierne korenie",
+				"quantity": 1,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "hlávkový šalát",
+				"quantity": 1,
+				"unit": "hlávka",
+				"productType": "zelenina"
+			},
+			{
+				"name": "uhorka",
+				"quantity": 20,
+				"unit": "g",
+				"productType": "zelenina"
+			},
+			{
+				"name": "paprika",
+				"quantity": 20,
+				"unit": "g",
+				"productType": "zelenina"
+			},
+			{
+				"name": "olivy",
+				"quantity": 30,
+				"unit": "g",
+				"productType": "zaváraniny"
+			},
+			{
+				"name": "sušené paradajky",
+				"quantity": 30,
+				"unit": "g",
+				"productType": "zaváraniny"
+			}
+		],
+		"R128": [
+			{
+				"name": "losos",
+				"quantity": 300,
+				"unit": "g",
+				"productType": "chladené výrobky"
+			},
+			{
+				"name": "špaldová múka",
+				"quantity": 50,
+				"unit": "g",
+				"productType": "iné"
+			},
+			{
+				"name": "cornflakes",
+				"quantity": 100,
+				"unit": "g",
+				"productType": "cereálie"
+			},
+			{
+				"name": "vajce",
+				"quantity": 1,
+				"unit": "ks",
+				"productType": "chladené výrobky"
+			},
+			{
+				"name": "hlávkový šalát",
+				"quantity": 1,
+				"unit": "hlávka",
+				"productType": "zelenina"
+			},
+			{
+				"name": "uhorka",
+				"quantity": 20,
+				"unit": "g",
+				"productType": "zelenina"
+			},
+			{
+				"name": "paprika",
+				"quantity": 20,
+				"unit": "g",
+				"productType": "zelenina"
+			}
+		],
+		"R129": [
+			{
+				"name": "ryža",
+				"quantity": 80,
+				"unit": "g",
+				"productType": "cestoviny"
+			},
+			{
+				"name": "kokosová voda",
+				"quantity": 160,
+				"unit": "ml",
+				"productType": "rastlinné výrobky"
+			},
+			{
+				"name": "polotučné mlieko",
+				"quantity": 160,
+				"unit": "ml",
+				"productType": "mliečné výrobky"
+			},
+			{
+				"name": "maliny",
+				"quantity": 100,
+				"unit": "g",
+				"productType": "mrazené výrobky"
+			},
+			{
+				"name": "chia semienka",
+				"quantity": 5,
+				"unit": "g",
+				"productType": "semienka"
+			},
+			{
+				"name": "kokosový cukor",
+				"quantity": 10,
+				"unit": "g",
+				"productType": "sladidlá"
+			},
+			{
+				"name": "škorica mletá",
+				"quantity": 5,
+				"unit": "g",
+				"productType": "korenie"
+			},
+			{
+				"name": "maslo",
+				"quantity": 7,
+				"unit": "g",
+				"productType": "mliečné výrobky"
+			}
+		]
+	},
+	"pantry": [
+		{
+			"name": "šunka",
+			"productType": "chladené výrobky"
+		},
+		{
+			"name": "soľ",
+			"productType": "korenie"
+		},
+		{
+			"name": "polotučné mlieko",
+			"productType": "mliečné výrobky"
+		},
+		{
+			"name": "kečup",
+			"productType": "omáčky"
+		},
+		{
+			"name": "toastový chlieb",
+			"productType": "pečivo"
+		},
+		{
+			"name": "mrkva",
+			"productType": "zelenina"
+		},
+		{
+			"name": "cesnak",
+			"productType": "zelenina"
+		},
+		{
+			"name": "zeleninový vývar",
+			"productType": "korenie"
+		},
+		{
+			"name": "bobkový list",
+			"productType": "korenie"
+		},
+		{
+			"name": "zemiaky",
+			"productType": "zelenina"
+		},
+		{
+			"name": "cícerové cestoviny",
+			"productType": "cestoviny"
+		},
+		{
+			"name": "cvikla",
+			"productType": "zelenina"
+		},
+		{
+			"name": "balzamiko",
+			"productType": "oleje"
+		},
+		{
+			"name": "zázvor",
+			"productType": "zelenina"
+		},
+		{
+			"name": "sezamový olej",
+			"productType": "oleje"
+		},
+		{
+			"name": "kuracie prsia",
+			"productType": "chladené výrobky"
+		},
+		{
+			"name": "hummus",
+			"productType": "chladené výrobky"
+		},
+		{
+			"name": "baklažán",
+			"productType": "zelenina"
+		},
+		{
+			"name": "losos",
+			"productType": "chladené výrobky"
+		},
+		{
+			"name": "citrónová šťava",
+			"productType": "iné"
+		},
+		{
+			"name": "bryndza",
+			"productType": "mliečné výrobky"
+		},
+		{
+			"name": "tuniak vo vlastnej šťave",
+			"productType": "konzervy"
+		},
+		{
+			"name": "jemný polotučný tvaroh",
+			"productType": "mliečné výrobky"
+		},
+		{
+			"name": "mandľové mlieko",
+			"productType": "rastlinné výrobky"
+		},
+		{
+			"name": "melón",
+			"productType": "ovocie"
+		},
+		{
+			"name": "limetka",
+			"productType": "ovocie"
+		},
+		{
+			"name": "vanilkový extrakt",
+			"productType": "sladidlá"
+		}
+	],
+	"productTypes": [
+		"bylinky",
+		"cereálie",
+		"cestoviny",
+		"čaj/káva",
+		"chladené výrobky",
+		"iné",
+		"konzervy",
+		"korenie",
+		"mliečné výrobky",
+		"mrazené výrobky",
+		"nápoje",
+		"oleje",
+		"omáčky",
+		"ovocie",
+		"pečivo",
+		"protein",
+		"rastlinné výrobky",
+		"semienka",
+		"sladidlá",
+		"sladkosti",
+		"zaváraniny",
+		"zelenina"
+	]
+}

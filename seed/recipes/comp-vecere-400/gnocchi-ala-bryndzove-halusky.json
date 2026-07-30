@@ -1,0 +1,65 @@
+{
+	"title": "Gnocchi alá bryndzové halušky",
+	"category": "vecere",
+	"prepTimeMinutes": 15,
+	"steps": [
+		"Gnocchi uvar podľa návodu.",
+		"Rozmiešaj si grécky jogurt s bryndzou do hladka.",
+		"Pridaj soľ, čierne korenie a sušený cesnak podľa chuti.",
+		"Schwarzwaldskú šunku nakrájaj opeč na troške oleja.",
+		"Na gnocchi pridaj bryndzovú zmes, pridaj šunku a pažítku."
+	],
+	"variants": [
+		{
+			"label": "400 kcal",
+			"kcalPerPortion": 401,
+			"portions": 1,
+			"macros": {
+				"carbs": 27,
+				"protein": 28,
+				"fat": 20
+			},
+			"ingredients": [
+				{
+					"name": "gnocchi",
+					"quantity": 70,
+					"unit": "g"
+				},
+				{
+					"name": "grécky jogurt 0 %",
+					"quantity": 100,
+					"unit": "g"
+				},
+				{
+					"name": "bryndza",
+					"quantity": 45,
+					"unit": "g"
+				},
+				{
+					"name": "schwarzwaldská šunka",
+					"quantity": 30,
+					"unit": "g"
+				},
+				{
+					"name": "pažítka"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "sušený cesnak"
+				},
+				{
+					"name": "čierne korenie"
+				},
+				{
+					"name": "olivový olej",
+					"quantity": 5,
+					"unit": "g"
+				}
+			]
+		}
+	],
+	"source": "Večere - 400 kcal.pdf",
+	"sourceRef": "p11"
+}

@@ -1,0 +1,45 @@
+{
+	"title": "Quesadilla s trhaným tofu",
+	"category": "obedy",
+	"prepTimeMinutes": 30,
+	"steps": [
+		"Rúru predhrej na 180 stupňov.",
+		"V miske zmiešaj nastrúhané tofu s lyžičkou škrobu a korením (soľ, korenie, kurkuma, mletý koriander, drvená rasca). Premiešaj a priprav si plech na pečenie. Plech vylož papierom na pečenie alebo ho nastriekaj olejovým sprejom. Rozlož nastrúhané tofu a vlož do rúry na približne 20 minút.",
+		"Medzitým si priprav zeleninu a dip. Na panvici rozohrej olej a opeč na ňom nakrájanú papriku a cherry paradajky. Osoľ, okoreň a restuj do mäkka.",
+		"Na dip zmiešaj biely jogurt, soľ, sladkú chilli omáčku a nakrájané sušené paradajky.",
+		"Teraz stačí vziať tortillu, natrieť dipom, pridať tofu, zeleninu a preložiť. Tortillu opeč z oboch strán na panvici, na ktorej si pripravila zeleninu, a po opečení ju nakrájaj na trojuholníky.",
+		"Vychutnaj si s dipom!"
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 421,
+			"portions": 2,
+			"macros": {
+				"carbs": 45,
+				"protein": 22,
+				"fat": 16
+			},
+			"ingredients": [
+				{ "name": "tortilla", "quantity": 2, "unit": "ks" },
+				{ "name": "tofu natural", "quantity": 1, "unit": "balenie" },
+				{ "name": "avokádový olej v spreji" },
+				{ "name": "kukuričný škrob", "quantity": 1, "unit": "ČL" },
+				{ "name": "sušené paradajky", "quantity": 5, "unit": "ks" },
+				{ "name": "sweet chilli omáčka", "quantity": 1, "unit": "PL" },
+				{ "name": "biely jogurt", "quantity": 150, "unit": "g" },
+				{ "name": "červená paprika", "quantity": 1, "unit": "ks" },
+				{ "name": "cherry paradajky", "quantity": 1, "unit": "hrsť" },
+				{ "name": "avokádový olej", "quantity": 1, "unit": "PL" },
+				{ "name": "soľ" },
+				{ "name": "čierne korenie" },
+				{ "name": "mletý koriander" },
+				{ "name": "kurkuma" },
+				{ "name": "drvená rasca" }
+			]
+		}
+	],
+	"image": "onvia/image133.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image133"
+}

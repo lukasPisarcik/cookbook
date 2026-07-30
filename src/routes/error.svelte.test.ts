@@ -39,6 +39,7 @@ vi.mock('$app/state', () => ({
 	updated: { current: false }
 }));
 
+import { langStore } from '$lib/stores';
 import ErrorPage from './+error.svelte';
 
 function setPage(status: number, error: PageError) {
@@ -48,6 +49,7 @@ function setPage(status: number, error: PageError) {
 
 describe('+error.svelte', () => {
 	beforeEach(() => {
+		langStore.set('en_us');
 		setPage(500, null);
 	});
 

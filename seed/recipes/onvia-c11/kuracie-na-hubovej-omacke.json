@@ -1,0 +1,37 @@
+{
+	"title": "Kuracie na hubovej omáčke",
+	"category": "obedy",
+	"prepTimeMinutes": 20,
+	"steps": [
+		"Rozohrej panvicu, ktorú môže vložiť do rúry, a postriekaj ju olejom v spreji. Kuracie prsia opeč zo všetkých strán na niekoľko sekúnd. Vyber ich bokom na tanier.",
+		"Na oleji orestuj nadrobno nakrájanú cibuľu a rozdrvený cesnak. Po chvíli pridaj huby, zalej vodou a pridaj mäso. Vlož do rúry na 190 stupňov a peč približne 15 minút.",
+		"Keď je mäso upečené, vráť pánvicu späť na sporák. Buď opatrná, rukoväť bude horúca, takže sa nepopáľ.",
+		"Omáčku dochuť koreninami, zrieď smotanou a pridaj špenát.",
+		"Podávaj s čerstvou bagetkou."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 495,
+			"portions": 3,
+			"macros": {"carbs": 40, "protein": 43, "fat": 18},
+			"ingredients": [
+				{"name": "kuracie prsia", "quantity": 3, "unit": "ks"},
+				{"name": "olivový olej", "quantity": 1, "unit": "PL"},
+				{"name": "cibuľa", "quantity": 1, "unit": "ks"},
+				{"name": "cesnak", "quantity": 2, "unit": "strúčik"},
+				{"name": "šampiňóny", "quantity": 150, "unit": "g"},
+				{"name": "baby špenát", "quantity": 1, "unit": "hrsť"},
+				{"name": "smotana na varenie 7%", "quantity": 100, "unit": "ml"},
+				{"name": "voda"},
+				{"name": "čerstvá bagetka", "quantity": 1, "unit": "ks"},
+				{"name": "soľ"},
+				{"name": "korenie"},
+				{"name": "drvená rasca"}
+			]
+		}
+	],
+	"image": "onvia/image230.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image230"
+}

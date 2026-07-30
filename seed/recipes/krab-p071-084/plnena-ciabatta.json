@@ -1,0 +1,49 @@
+{
+	"title": "Plnená ciabatta",
+	"category": "obedy",
+	"steps": [
+		"Ciabattu rozkrojte, obe strany pomažte pestom.",
+		"Na spodnú časť ciabatty navrstvite rukolu, potom na ňu položte šunku, na šunku mozzarellu a nakoniec pridajte uhorku. Preklopte vrchnú časť ciabatty, rozkrojte na polovicu a buď jedzte alebo schovajte do krabičky na obed."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 1,
+			"ingredients": [
+				{
+					"name": "ciabatta",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "pesto zo sušených paradajok",
+					"quantity": 20,
+					"unit": "g"
+				},
+				{
+					"name": "šunka",
+					"quantity": 50,
+					"unit": "g"
+				},
+				{
+					"name": "mozzarella light",
+					"quantity": 50,
+					"unit": "g"
+				},
+				{
+					"name": "čerstvá rukola",
+					"quantity": 1,
+					"unit": "hrsť"
+				},
+				{
+					"name": "šalátová uhorka",
+					"quantity": 9,
+					"unit": "plátok"
+				}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p75.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p75"
+}

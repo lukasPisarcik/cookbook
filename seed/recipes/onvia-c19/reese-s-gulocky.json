@@ -1,0 +1,28 @@
+{
+	"title": "Reese's guľôčky",
+	"category": "dezerty",
+	"prepTimeMinutes": 35,
+	"steps": [
+		"Z jablkového pyré, arašidového masla v prášku a proteínu vymiešaj tuhú zmes. Daj na 15 minút do mrazničky.",
+		"Potom zo zmesi tvaruj guľôčky, ktoré obal v roztopenej čokoláde s kokosovým olejom.",
+		"Daj opäť stuhnúť do mrazničky minimálne na 30 minút a potom vychutnávaj."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 67,
+			"portions": 15,
+			"macros": { "carbs": 5, "protein": 5, "fat": 3 },
+			"ingredients": [
+				{ "name": "jablkové pyré", "quantity": 240, "unit": "g" },
+				{ "name": "arašidové maslo v prášku", "quantity": 100, "unit": "g" },
+				{ "name": "vanilkový proteínový prášok", "quantity": 40, "unit": "g" },
+				{ "name": "horká čokoláda", "quantity": 30, "unit": "g" },
+				{ "name": "kokosový olej", "quantity": 15, "unit": "g" }
+			]
+		}
+	],
+	"image": "onvia/image365.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image365"
+}

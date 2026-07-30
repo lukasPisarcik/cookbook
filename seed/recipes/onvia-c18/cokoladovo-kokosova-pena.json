@@ -1,0 +1,27 @@
+{
+	"title": "Čokoládovo kokosová pena",
+	"category": "dezerty",
+	"prepTimeMinutes": 5,
+	"steps": [
+		"Dbaj na to, aby si z kokosového mlieka použila len smotanu (tuhú časť), vodovú časť použi neskôr napríklad na osviežujúci proteínový šejk.",
+		"Všetky suroviny zmiešaj dohromady, kým nezískaš hladkú konzistenciu.",
+		"Zmes rozdeľ do 4 malých misiek a vlož ich do chladničky aspoň na 30 min, aby krém opäť stuhol."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 269,
+			"portions": 4,
+			"macros": {"carbs": 5, "protein": 5, "fat": 25},
+			"ingredients": [
+				{"name": "kokosový krém", "quantity": 400, "unit": "g"},
+				{"name": "kakao", "quantity": 20, "unit": "g"},
+				{"name": "proteínový prášok", "quantity": 10, "unit": "g"},
+				{"name": "sladidlo"}
+			]
+		}
+	],
+	"image": "onvia/image343.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image343"
+}

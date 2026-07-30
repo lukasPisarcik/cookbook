@@ -1,0 +1,29 @@
+{
+	"title": "Sendvič s tuniakovou nátierkou a rukolou",
+	"category": "snacky",
+	"steps": [
+		"V miske zmiešajte tuniaka s gervais. Pridajte nadrobno nasekanú cibuľu, kôpor, horčicu, štipku soli a všetko premiešajte.",
+		"Obidva plátky chleba pomažte nátierkou, na jeden plátok potom navrstvite uhorky a rukolu. Prikryte druhým plátkom s nátierkou.",
+		"Sendvič prekrojte, dajte do krabičky a doplňte obľúbenou zeleninou."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 1,
+			"ingredients": [
+				{"name": "toastový chlieb", "quantity": 2, "unit": "plátok"},
+				{"name": "tuniak vo vlastnej šťave", "quantity": 65, "unit": "g"},
+				{"name": "Gravais fit protein", "quantity": 35, "unit": "g"},
+				{"name": "červená cibuľa", "quantity": 30, "unit": "g"},
+				{"name": "čerstvý kôpor"},
+				{"name": "dijonská horčica", "quantity": 0.33, "unit": "ČL"},
+				{"name": "soľ"},
+				{"name": "čerstvá rukola", "quantity": 1, "unit": "hrsť"},
+				{"name": "šalátová uhorka", "quantity": 6, "unit": "plátok"}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p37.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p37"
+}

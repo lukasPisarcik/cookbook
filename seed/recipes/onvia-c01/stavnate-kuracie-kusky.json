@@ -1,0 +1,50 @@
+{
+	"title": "Šťavnaté kuracie kúsky",
+	"category": "zaklady",
+	"prepTimeMinutes": 60,
+	"steps": [
+		"Mäso nakrájaj na približne 25 kúskov.",
+		"Ďalej si priprav marinádu. Do veľkej misky pridaj šťavu z uhoriek a kefír. Zmiešaj ich dokopy a potom do misky pridaj kuracie kúsky, aby sa marinovali aspoň hodinu (Ak máš čas marinuj 3-4 hodiny alebo aj cez noc).",
+		"Vyber kura z misky a nechaj odkvapkať, aby sa korenie udržalo na povrchu. Kuracie kúsky vlož do misky a poriadne ochuť všetkými koreninami.",
+		"Potom ich vlož do fritézy (airfryer) a postriekaj ich olejom v spreji. Peč ich na horúcom vzduchu na 180°C po dobu 9 minút (fritéza nemusí byť predhriata).",
+		"Postup zopakuj pre všetky kuracie kúsky a potom si vychutnaj!"
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 30,
+			"ingredients": [
+				{
+					"name": "kuracie prsia",
+					"quantity": 500,
+					"unit": "g"
+				},
+				{
+					"name": "šťava z uhoriek",
+					"quantity": 100,
+					"unit": "ml"
+				},
+				{
+					"name": "kefír",
+					"quantity": 100,
+					"unit": "ml"
+				},
+				{
+					"name": "morská soľ"
+				},
+				{
+					"name": "čierne korenie"
+				},
+				{
+					"name": "granulovaný cesnak"
+				},
+				{
+					"name": "červená paprika"
+				}
+			]
+		}
+	],
+	"image": "onvia/image22.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image22"
+}

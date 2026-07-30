@@ -1,0 +1,46 @@
+{
+	"title": "Pina Colada",
+	"category": "drinky",
+	"steps": [
+		"Do mixéra daj kokosové mlieko, ananásový džús, trochu ľadu a limetkovú šťavu.",
+		"Mixuj dohladka.",
+		"Nalej do pohára, ozdob ananásom a pridaj ľad.",
+		"Môžeš podávať."
+	],
+	"variants": [
+		{
+			"label": "200 kcal",
+			"kcalPerPortion": 224,
+			"macros": {
+				"carbs": 20.5,
+				"protein": 2.2,
+				"fat": 16
+			},
+			"ingredients": [
+				{
+					"name": "kokosové mlieko z konzervy",
+					"quantity": 75,
+					"unit": "ml"
+				},
+				{
+					"name": "ananásový džús",
+					"quantity": 125,
+					"unit": "ml"
+				},
+				{
+					"name": "ľad",
+					"quantity": 1,
+					"unit": "šálka"
+				},
+				{
+					"name": "limetka",
+					"quantity": 1,
+					"unit": "ks"
+				}
+			]
+		}
+	],
+	"image": "letne-drinky-200-kcal/p9.webp",
+	"source": "Letné drinky - 200 kcal.pdf",
+	"sourceRef": "p9"
+}

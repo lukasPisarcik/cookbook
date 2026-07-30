@@ -1,0 +1,115 @@
+{
+	"title": "Grinder Sandwich",
+	"category": "obedy",
+	"prepTimeMinutes": 22,
+	"steps": [
+		"Všetky suroviny na šalát (okrem šalátu a červenej cibule) daj do veľkej misy a premiešaj. Potom pridaj na tenké plátky nakrájaný šalát a červenú cibuľu, ktorá bola namočená vo vode, aby sa zbavila štipľavosti. Premiešaj, kým sa všetko pekne neprepojí.",
+		"Teraz si vydlab vnútro brioche žemlí, aby si si urobila miesto na náplň a suroviny.",
+		"Na všetky polovice natri Sambal Oelek (Ajvar) a na spodné polovice pridaj šunku a syr. Peč v rúre, kým sa syr neroztopí a druhá horná žemľa nebude opečená, cca 7 min.",
+		"Po dopečení na syrovú žemlu pridaj šalát, paradajky, soľ, korenie, parmezán a hornú žemľu.",
+		"Prekroj na polovicu a vychutnaj si tento skvost!"
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 439,
+			"portions": 5,
+			"macros": {
+				"carbs": 29,
+				"protein": 47,
+				"fat": 15
+			},
+			"ingredients": [
+				{
+					"name": "nízkotučný grécky jogurt",
+					"quantity": 90,
+					"unit": "g"
+				},
+				{
+					"name": "majonéza light",
+					"quantity": 30,
+					"unit": "g"
+				},
+				{
+					"name": "balsamico",
+					"quantity": 20,
+					"unit": "ml"
+				},
+				{
+					"name": "cesnak",
+					"quantity": 3,
+					"unit": "strúčik"
+				},
+				{
+					"name": "oregano",
+					"quantity": 1,
+					"unit": "ČL"
+				},
+				{
+					"name": "červená paprika",
+					"quantity": 0.25,
+					"unit": "ČL"
+				},
+				{
+					"name": "soľ",
+					"unit": "štipka"
+				},
+				{
+					"name": "čierne korenie",
+					"unit": "štipka"
+				},
+				{
+					"name": "paprička Pepperoncini",
+					"quantity": 3,
+					"unit": "ks"
+				},
+				{
+					"name": "hlávkový šalát",
+					"quantity": 250,
+					"unit": "g"
+				},
+				{
+					"name": "červená cibuľa",
+					"quantity": 75,
+					"unit": "g"
+				},
+				{
+					"name": "Brioche žemľa",
+					"quantity": 5,
+					"unit": "ks"
+				},
+				{
+					"name": "Sambal Oelek",
+					"quantity": 5,
+					"unit": "ČL"
+				},
+				{
+					"name": "chudá šunka",
+					"quantity": 500,
+					"unit": "g"
+				},
+				{
+					"name": "syr light",
+					"quantity": 5,
+					"unit": "plátok"
+				},
+				{
+					"name": "paradajka",
+					"quantity": 5,
+					"unit": "plátok"
+				},
+				{
+					"name": "parmezán",
+					"quantity": 20,
+					"unit": "g"
+				},
+				{
+					"name": "korenie"
+				}
+			]
+		}
+	],
+	"image": "onvia/image116.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image116"
+}

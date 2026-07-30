@@ -1,0 +1,42 @@
+{
+	"title": "Brownie z čiernej fazule plný bielkovín",
+	"category": "dezerty",
+	"prepTimeMinutes": 15,
+	"steps": [
+		"Najlepšie bude, ak čiernu fazuľu namočíš deň vopred cez noc. Fazuľa narastie na dvojnásobnú veľkosť, takže potrebuješ 400 g suchej hmotnosti. Niekoľkokrát ju prepláchni čerstvou vodou a nechaj ju odmočiť vo veľkej mise.",
+		"Na druhý deň ju môžeš povariť 60-80 minút vo vode, kým nezmäkkne.",
+		"Predhrej si rúru na 170°C ohrev zhora/zdola a vo veľkej mise spolu zmiešaj všetky suché suroviny.",
+		"Do rúry vlož spolu maslo a čokopecičky v malej miske na pečenie, aby sa rozpustili.",
+		"Keď je fazuľa uvarené a trochu vychladnutá, vysyp ju do mixéra a rozmixuj na kašu. Hmotu budeš musieť z času na čas premiešať stierkou. Pridaj zvyšok mokrých surovín a pokračuj v mixovaní, kým nezískaš hladké cesto.",
+		"Vzniknuté cesto primiešaj do misy k suchým surovinám a všetko spolu dôkladne premiešaj, kým sa suroviny dobre nespoja.",
+		"Cesto na brownie nalej do nádoby na pečenie, posyp čokopecičkami a vločkami soli (opcia). Pečieš cca 45 minút.",
+		"Najlepšie je, ak brownie necháš cez noc vychladnúť v chladničke a na tejto kráse si pochutnáš na druhý deň."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 355,
+			"portions": 9,
+			"macros": {"carbs": 38, "protein": 27, "fat": 10},
+			"ingredients": [
+				{"name": "vopred namočená čierna fazuľa", "quantity": 800, "unit": "g"},
+				{"name": "jablkové pyré (bez pridaného cukru)", "quantity": 200, "unit": "g"},
+				{"name": "tekuté vaječné bielky", "quantity": 240, "unit": "g"},
+				{"name": "kokosová múka", "quantity": 30, "unit": "g"},
+				{"name": "mandľová múka", "quantity": 50, "unit": "g"},
+				{"name": "hladká múka", "quantity": 50, "unit": "g"},
+				{"name": "proteínový prášok (čokoláda)", "quantity": 80, "unit": "g"},
+				{"name": "raw cacao", "quantity": 60, "unit": "g"},
+				{"name": "prášok do pečiva", "quantity": 5, "unit": "g"},
+				{"name": "Unicorn Dust", "quantity": 15, "unit": "g"},
+				{"name": "rozpustené maslo", "quantity": 50, "unit": "g"},
+				{"name": "rozpustená čokoláda (70%)", "quantity": 50, "unit": "g"},
+				{"name": "čokopecičky", "quantity": 50, "unit": "g"},
+				{"name": "soľ", "unit": "štipka"}
+			]
+		}
+	],
+	"image": "onvia/image262.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image262"
+}

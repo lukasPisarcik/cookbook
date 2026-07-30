@@ -1,0 +1,69 @@
+{
+	"title": "Proteínové krekry",
+	"category": "snacky",
+	"prepTimeMinutes": 50,
+	"steps": [
+		"Vo veľkej miske zmiešaj všetky semienka. Ak určitý druh nemáš, jednoducho pridaj viac iných semiačok.",
+		"Semienka zalej horúcou vodou a olejom. Pridaj 1 polievkovú lyžicu psyllia a soľ. Dôkladne premiešaj.",
+		"Priprav si plech vyložený papierom na pečenie. Zmes rovnomerne rozotri a vytvor tenkú vrstvu.",
+		"Vlož do vyhriatej rúry a peč pri teplote 150 stupňov približne 45 minút.",
+		"Placka by mala byť suchá a keď ju vyberieš z rúry, mala by sa pekne lámať."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 76,
+			"portions": 20,
+			"macros": {
+				"carbs": 3,
+				"protein": 3,
+				"fat": 6
+			},
+			"ingredients": [
+				{
+					"name": "slnečnicové semienka",
+					"quantity": 130,
+					"unit": "g"
+				},
+				{
+					"name": "ľanové semienka",
+					"quantity": 30,
+					"unit": "g"
+				},
+				{
+					"name": "chia semienka",
+					"quantity": 30,
+					"unit": "g"
+				},
+				{
+					"name": "sezamové semienka",
+					"quantity": 30,
+					"unit": "g"
+				},
+				{
+					"name": "horúca voda",
+					"quantity": 130,
+					"unit": "g"
+				},
+				{
+					"name": "ľanový olej",
+					"quantity": 30,
+					"unit": "g"
+				},
+				{
+					"name": "psyllium",
+					"quantity": 1,
+					"unit": "PL"
+				},
+				{
+					"name": "soľ",
+					"quantity": 1,
+					"unit": "ČL"
+				}
+			]
+		}
+	],
+	"image": "onvia/image143.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image143"
+}

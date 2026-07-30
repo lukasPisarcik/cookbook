@@ -1,0 +1,40 @@
+{
+	"title": "Ružové rizoto s kozím syrom",
+	"category": "obedy",
+	"dietTags": ["vegetarianske"],
+	"prepTimeMinutes": 45,
+	"steps": [
+		"Na panvicu daj olivový olej a nadrobno nakrájanú cibuľu a cesnak opraž dozlatista.",
+		"Potom pridaj ryžu a miešaj, kým ryža nezačne byť priehľadná.",
+		"Postupne prilievaj teplý zeleninový vývar po naberačkách, aby bola ryža vždy iba trochu zaliata a vzniklo krémové rizoto.",
+		"Medzitým si predvarenú cviklu nastrúhaj najemno a pridaj do rizota, keď je ryža takmer uvarená.",
+		"Na záver pridáj kozí syr, ktorý rizoto krásne zahustí.",
+		"Dochuť soľou a korením.",
+		"Na hotové rizoto na tanieri servíruj s posypanými kúskami kozieho syra a pokvapkaj citrónom.",
+		"Dobrú chuť :)"
+	],
+	"funFact": "Kozí syr je jedným z najstarších syrov na svete. Ľudia ho vyrábali už pred viac ako 8 000 rokmi.",
+	"variants": [
+		{
+			"label": "400 kcal",
+			"kcalPerPortion": 413,
+			"portions": 3,
+			"macros": { "carbs": 59, "protein": 15, "fat": 13 },
+			"ingredients": [
+				{ "name": "ryža", "quantity": 150, "unit": "g" },
+				{ "name": "cvikla", "quantity": 250, "unit": "g" },
+				{ "name": "cibuľa", "quantity": 1, "unit": "ks" },
+				{ "name": "citrón" },
+				{ "name": "cesnak", "quantity": 2, "unit": "ks" },
+				{ "name": "kozí syr", "quantity": 100, "unit": "g" },
+				{ "name": "zeleninový vývar", "quantity": 300, "unit": "ml" },
+				{ "name": "olivový olej", "quantity": 5, "unit": "ml" },
+				{ "name": "soľ" },
+				{ "name": "korenie" }
+			]
+		}
+	],
+	"image": "ruzove-rizito-400-kcal/p1.webp",
+	"source": "Ružové rizito - 400 kcal.pdf",
+	"sourceRef": "p1"
+}

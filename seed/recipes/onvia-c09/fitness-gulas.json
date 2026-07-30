@@ -1,0 +1,39 @@
+{
+	"title": "Fitness guláš",
+	"category": "obedy",
+	"prepTimeMinutes": 35,
+	"steps": [
+		"Vo veľkom hrnci krátko orestuj cibuľu a cesnak s paradajkovou pastou a po 3-4 minútach pridaj kuracie mäso. Nechaj ho trochu opiecť a pridaj korenie, papriku a šampiňóny. Všetko orestuj 2-3 minúty a potom pridaj scedené paradajky, ajvar, kečup a citrónovú šťavu. Nakoniec pridaj zemiaky, vodu a nechaj zľahka variť 20 minút alebo kým zemiaky nezmäknú."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 482,
+			"portions": 2,
+			"macros": {"carbs": 59, "protein": 41, "fat": 11},
+			"ingredients": [
+				{"name": "kuracie prsia (kúsky)", "quantity": 300, "unit": "g"},
+				{"name": "červená paprika", "quantity": 1, "unit": "ks"},
+				{"name": "hnedé šampióny", "quantity": 250, "unit": "g"},
+				{"name": "červená cibuľa", "quantity": 1, "unit": "ks"},
+				{"name": "cesnak", "quantity": 2, "unit": "strúčik"},
+				{"name": "scedené paradajky z konzervy", "quantity": 400, "unit": "g"},
+				{"name": "paradajková pasta", "quantity": 1, "unit": "PL"},
+				{"name": "kečup light", "quantity": 2, "unit": "PL"},
+				{"name": "ajvar", "quantity": 1, "unit": "PL"},
+				{"name": "voda", "quantity": 100, "unit": "ml"},
+				{"name": "morská soľ"},
+				{"name": "čierne korenie"},
+				{"name": "mletá rasca"},
+				{"name": "sladká paprika"},
+				{"name": "údená paprika"},
+				{"name": "citrónová šťava"},
+				{"name": "sušená petržlenová vňať"},
+				{"name": "čerstvá bazalka"}
+			]
+		}
+	],
+	"image": "onvia/image200.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image200"
+}

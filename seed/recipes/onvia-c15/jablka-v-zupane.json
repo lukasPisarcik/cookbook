@@ -1,0 +1,38 @@
+{
+	"title": "Jablká v župane",
+	"category": "snacky",
+	"prepTimeMinutes": 25,
+	"steps": [
+		"V miske zmiešaj všetky suroviny na cesto (vajce, mlieko, múku, proteín, korenie a prášok do pečiva) a priprav cesto.",
+		"Jablká nakrájaj na plátky a vykroj z nich kruh.",
+		"Plátky jablka namoč do cesta.",
+		"Na panvici rozpusti lyžičku ghí (masla) a smaž ich z oboch strán dozlatista.",
+		"Vychutnaj si ich s gréckym jogurtom a štipkou škorice."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 298,
+			"portions": 4,
+			"macros": {"carbs": 33, "protein": 20, "fat": 7},
+			"ingredients": [
+				{"name": "vajce", "quantity": 1, "unit": "ks"},
+				{"name": "polotučné mlieko", "quantity": 100, "unit": "ml"},
+				{"name": "špaldová múka", "quantity": 3, "unit": "PL"},
+				{"name": "vanilkový proteín", "quantity": 30, "unit": "g"},
+				{"name": "škorica", "unit": "štipka"},
+				{"name": "prášok do pečiva", "unit": "štipka"},
+				{"name": "sladidlo"},
+				{"name": "jablko"},
+				{"name": "grécky jogurt", "quantity": 1, "unit": "PL"},
+				{"name": "arašidové maslo", "quantity": 1, "unit": "ČL"},
+				{"name": "čučoriedky"},
+				{"name": "granola"},
+				{"name": "ghí", "quantity": 1, "unit": "PL"}
+			]
+		}
+	],
+	"image": "onvia/image285.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image285"
+}

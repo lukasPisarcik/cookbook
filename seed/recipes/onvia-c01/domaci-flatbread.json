@@ -1,0 +1,67 @@
+{
+	"title": "Domáci flatbread",
+	"category": "zaklady",
+	"prepTimeMinutes": 20,
+	"steps": [
+		"Predhrej rúru na 220°C funkcia ventilátor.",
+		"Do misy nasyp suché suroviny a premiešaj, aby sa zabránilo ich zhlukovaniu.",
+		"Do druhej misky pridaj mokré suroviny a premiešaj ich.",
+		"Zmiešaj suché suroviny s mokrými a miešaj, pokým nevznikne hustá lepivá konzistencia podobná paste.",
+		"Plech vylož papierom na pečenie. Uisti sa, že je dostatočne veľký, aby si vytvorila z cesta stredne veľký obdĺžnik.",
+		"Vlož cesto na papier a rozotri ho v tvare obdĺžnika čo najrovnomernejšie. Počas pečenia trochu narastie, takže sa dá rozotrieť pomerne natenko.",
+		"Keď vytvaruješ z cesta na plechu obdĺžnik, vlož ho do rúry na 10 minút, kým nezozlatne.",
+		"Po dopečení ho vyber a nechaj pár minut vychladnúť.",
+		"Nakrájaj na plátky a vychutnaj si ich!"
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 94,
+			"macros": {
+				"carbs": 11,
+				"protein": 6,
+				"fat": 0.5
+			},
+			"ingredients": [
+				{
+					"name": "polohrubá múka",
+					"quantity": 60,
+					"unit": "g"
+				},
+				{
+					"name": "proteínový prášok bez chuti",
+					"quantity": 30,
+					"unit": "g"
+				},
+				{
+					"name": "kokosová múka",
+					"quantity": 16,
+					"unit": "g"
+				},
+				{
+					"name": "prášok do pečiva",
+					"quantity": 4,
+					"unit": "g"
+				},
+				{
+					"name": "skyr",
+					"quantity": 200,
+					"unit": "g"
+				},
+				{
+					"name": "tekuté vaječné bielky",
+					"quantity": 100,
+					"unit": "g"
+				},
+				{
+					"name": "morská soľ",
+					"quantity": 3,
+					"unit": "g"
+				}
+			]
+		}
+	],
+	"image": "onvia/image20.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image20"
+}

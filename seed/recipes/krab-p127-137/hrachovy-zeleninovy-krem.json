@@ -1,0 +1,34 @@
+{
+	"title": "Hrachový zeleninový krém",
+	"category": "obedy",
+	"steps": [
+		"Hrách namočte 3-4 hodin předem do vody. Před vařením sceďte a propláchněte.",
+		"Šalotku/cibuli očistěte a nakrájejte nadrobno. Petržel a mrkev také očistěte a nakrájejte na kostičky.",
+		"V hrnci rozehřejte olej a orestujte cibuli nebo šalotku a poté i kořenovou zeleninu.",
+		"Přidejte hrách, otestujte a vše zalijte vývarem. Přidejte bobkový list a nové koření a vařte do změknutí hráchu. Poté vyndejte koření a rozmixujte dohladka.",
+		"Nakonec dochuťte solí a lahůdkovým droždím. Kdyby byl krém moc hustý, můžete jej ještě zředit vývarem či vodou.",
+		"Ozdobte krutony a bylinkami."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 4,
+			"ingredients": [
+				{"name": "olivový olej", "quantity": 1, "unit": "PL"},
+				{"name": "šalotka", "quantity": 1, "unit": "ks"},
+				{"name": "petržel", "quantity": 1, "unit": "ks"},
+				{"name": "mrkev", "quantity": 3, "unit": "ks"},
+				{"name": "půlený žlutý hrách", "quantity": 100, "unit": "g"},
+				{"name": "kuřecí vývar", "quantity": 1400, "unit": "ml"},
+				{"name": "bobkový list", "quantity": 1, "unit": "ks"},
+				{"name": "nové koření", "quantity": 2, "unit": "ks"},
+				{"name": "lahůdkové droždí", "quantity": 2, "unit": "PL"},
+				{"name": "sůl"},
+				{"name": "microgreens"}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p133.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p133"
+}

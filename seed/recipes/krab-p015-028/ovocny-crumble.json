@@ -1,0 +1,27 @@
+{
+	"title": "Ovocný crumble",
+	"category": "dezerty",
+	"steps": [
+		"Rúru predhrejte na 180 stupňov.",
+		"Do zapekacej misky dajte ovocie.",
+		"V miske vytvorte mrveničku z masla, medu, mandľovej múky a škorice, posypte ňou ovocie.",
+		"Dajte zapiecť na 15 minút do rúry.",
+		"Servírujte so skyrom, gréckym alebo rastlinným jogurtom."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 4,
+			"ingredients": [
+				{"name": "mrazené lesné ovocie", "quantity": 250, "unit": "g"},
+				{"name": "maslo", "quantity": 50, "unit": "g"},
+				{"name": "mandľová múka", "quantity": 100, "unit": "g"},
+				{"name": "med", "quantity": 25, "unit": "g"},
+				{"name": "mletá škorica", "quantity": 1, "unit": "ČL"}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p26.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p26"
+}

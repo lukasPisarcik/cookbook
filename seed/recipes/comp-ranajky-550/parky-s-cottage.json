@@ -1,0 +1,28 @@
+{
+	"title": "Párky s cottage",
+	"category": "ranajky",
+	"prepTimeMinutes": 5,
+	"steps": [
+		"Párky uvar a daj na tanier spolu s kváskovým chlebom, na ktorý dáš cottage syr.",
+		"Na cottage môžeš pridať čierne korenie a sušený mletý cesnak.",
+		"Podávaj s čerstvou zeleninou napr. mrkva, račiny, uhorky…"
+	],
+	"variants": [
+		{
+			"label": "550 kcal",
+			"kcalPerPortion": 560,
+			"portions": 1,
+			"macros": { "carbs": 30, "protein": 34, "fat": 34 },
+			"ingredients": [
+				{ "name": "kuracie párky 80-95% mäsa", "quantity": 3, "unit": "ks" },
+				{ "name": "cottage", "quantity": 130, "unit": "g" },
+				{ "name": "kváskový chlebík", "quantity": 40, "unit": "g" },
+				{ "name": "horčica", "quantity": 30, "unit": "g" },
+				{ "name": "čerstvá zelenina" }
+			]
+		}
+	],
+	"image": "ranajky-550-kcal/p7.webp",
+	"source": "Raňajky - 550 kcal.pdf",
+	"sourceRef": "p7"
+}

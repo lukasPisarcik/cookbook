@@ -1,0 +1,40 @@
+{
+	"title": "Turecké vajce s pitou",
+	"category": "ranajky",
+	"prepTimeMinutes": 15,
+	"steps": [
+		"Najskôr si priprav vajíčko.",
+		"Urobíš to tak, že urobíš vír v horúcej vode s octom (pozri video). V okamihu, keď sa vo vode objavia bublinky, voda nesmie vrieť do víru vlej jedno vajce. Nechaj ho takto variť približne 3 minúty. Záleží na tom, ako máš rada tekutý žĺtok. Ak ho máš radšej tuhší nechaj vajíčko variť vo vode o 1-2 min dlhšie.",
+		"Do misky daj grécky jogurt a zmiešaj ho s trochou soli a čierneho korenia (môžeš pridať aj pretlačený cesnak).",
+		"Na panvici rozpusti ghí alebo maslo a pridaj štipku sladkej papriky na zafarbenie.",
+		"Teraz prichádza na rad servírovanie. Grécky jogurt polej paprikovým ghí, pridaj vajce a na vrch môžeš pridať čerstvý kôpor.",
+		"Vychutnaj si tento skvost s opečeným pita chlebom."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 423,
+			"portions": 1,
+			"macros": {
+				"carbs": 45,
+				"protein": 34,
+				"fat": 12
+			},
+			"ingredients": [
+				{ "name": "grécky jogurt", "quantity": 250, "unit": "g" },
+				{ "name": "ghí", "quantity": 1, "unit": "ČL" },
+				{ "name": "ocot", "quantity": 2, "unit": "PL" },
+				{ "name": "vajce", "quantity": 1, "unit": "ks" },
+				{ "name": "pita chlieb", "quantity": 1, "unit": "ks" },
+				{ "name": "soľ" },
+				{ "name": "čierne korenie" },
+				{ "name": "sladká paprika" },
+				{ "name": "čerstvý kôpor" },
+				{ "name": "cesnak" }
+			]
+		}
+	],
+	"image": "onvia/image126.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image126"
+}

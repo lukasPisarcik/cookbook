@@ -1,0 +1,47 @@
+{
+	"title": "Bezlepkový chlieb",
+	"category": "zaklady",
+	"dietTags": ["bezlepkove"],
+	"prepTimeMinutes": 70,
+	"steps": [
+		"Deň predtým nechaj pohánku a quinou namočiť.",
+		"Na druhý deň hoď prepláchnutú pohánku a quinou do mixéra. Pridaj ovos, semienka, prášok do pečiva, jablčný ocot, olivový olej, soľ a vodu.",
+		"Všetko spolu rozmixuj.",
+		"Predhrej rúru na 180°C ohrev zhora/zdola.",
+		"Chlebovú zmes nalej do formy na chlieb vyloženú papierom na pečenie.",
+		"Posyp soľou a semienkami podľa potreby.",
+		"Peč približne 1 hodinu a potom nechaj vychladnúť.",
+		"Podávaj ako prílohu alebo ozdob čímkoľvek, na čo máš chuť."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 441,
+			"portions": 16,
+			"macros": {
+				"carbs": 35,
+				"protein": 22,
+				"fat": 25
+			},
+			"ingredients": [
+				{ "name": "svetlá pohánka", "quantity": 100, "unit": "g" },
+				{ "name": "biela quinoa", "quantity": 100, "unit": "g" },
+				{ "name": "jemné vločky", "quantity": 100, "unit": "g" },
+				{ "name": "mleté ľanové semienka", "quantity": 20, "unit": "g" },
+				{ "name": "tekvicové semienka", "quantity": 30, "unit": "g" },
+				{ "name": "prášok do pečiva", "quantity": 1, "unit": "ČL" },
+				{ "name": "jablčný ocot", "quantity": 1, "unit": "PL" },
+				{ "name": "olivový olej", "quantity": 35, "unit": "g" },
+				{ "name": "voda", "quantity": 150, "unit": "ml" },
+				{ "name": "soľ", "unit": "štipka" },
+				{ "name": "avokádo", "quantity": 50, "unit": "g" },
+				{ "name": "volské oko", "quantity": 1, "unit": "ks" },
+				{ "name": "cottage syr", "quantity": 50, "unit": "g" },
+				{ "name": "cherry paradajky" }
+			]
+		}
+	],
+	"image": "onvia/image128.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image128"
+}

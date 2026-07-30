@@ -1,0 +1,63 @@
+{
+	"title": "Losos s pečenou zeleninou",
+	"category": "vecere",
+	"dietTags": ["bezlepkove", "bezlaktozove"],
+	"prepTimeMinutes": 30,
+	"steps": [
+		"Predhrej rúru na 180 °C",
+		"Rajčiny rozkroj na polovicu a polož na plech rozkrojenou stranou nadol.",
+		"Mrkvy očisti, nakrájaj na kolieska a pridaj na plech.",
+		"Pokvapkaj olivovým olejom a dochuť soľou a korením.",
+		"Zeleninu peč cca na 15 minút.",
+		"Lososa osoľ, okoreň a zvrchu potri pestom.",
+		"Peč 10-12 minút pri teplote 175-180 °C.",
+		"Vyjdú ti 2 porcie."
+	],
+	"variants": [
+		{
+			"label": "300 kcal",
+			"kcalPerPortion": 296,
+			"portions": 2,
+			"macros": {
+				"carbs": 3,
+				"protein": 23,
+				"fat": 22
+			},
+			"ingredients": [
+				{
+					"name": "rajčina",
+					"quantity": 2,
+					"unit": "ks"
+				},
+				{
+					"name": "mrkva",
+					"quantity": 4,
+					"unit": "ks"
+				},
+				{
+					"name": "olivový olej",
+					"quantity": 10,
+					"unit": "g"
+				},
+				{
+					"name": "filet z lososa",
+					"quantity": 200,
+					"unit": "g"
+				},
+				{
+					"name": "pesto",
+					"quantity": 40,
+					"unit": "g"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "korenie"
+				}
+			]
+		}
+	],
+	"source": "Večere - 300 kcal.pdf",
+	"sourceRef": "p3"
+}

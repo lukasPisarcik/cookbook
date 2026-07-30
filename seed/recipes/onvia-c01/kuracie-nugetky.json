@@ -1,0 +1,57 @@
+{
+	"title": "Kuracie nugetky",
+	"category": "snacky",
+	"prepTimeMinutes": 35,
+	"steps": [
+		"V miske spolu zmiešaj mleté kuracie mäso s vajíčkom a koreninami.",
+		"Natiahni si rukavice a vytvaruj z mäsovej zmesi nugetky.",
+		"Vlož ich na 10-15 minút do mrazničky. Budú sa ľahšie obaľovať chipsami.",
+		"Chipsy rozdrv na malé kúsky a obal v nich nugetky.",
+		"Vlož ich do fritézy (airfryer) na 200°C na 10 minút, po 5 minútach ich otoč aby sa z oboch strán dobre opiekli.",
+		"Vychutnaj si ich s akýmkoľvek dipom, ktorý máš rada."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 69,
+			"portions": 15,
+			"macros": {
+				"carbs": 3,
+				"protein": 12,
+				"fat": 1
+			},
+			"ingredients": [
+				{
+					"name": "mleté kuracie prsia",
+					"quantity": 500,
+					"unit": "g"
+				},
+				{
+					"name": "vajce",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "proteínové chipsy",
+					"quantity": 40,
+					"unit": "g"
+				},
+				{
+					"name": "morská soľ"
+				},
+				{
+					"name": "čierne korenie"
+				},
+				{
+					"name": "granulovaný cesnak"
+				},
+				{
+					"name": "červená paprika"
+				}
+			]
+		}
+	],
+	"image": "onvia/image19.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image19"
+}

@@ -1,0 +1,30 @@
+{
+	"title": "Salát z quinoy a pečené zeleniny",
+	"category": "obedy",
+	"steps": [
+		"Troubu předehřejte na 180 stupňů.",
+		"Všechnu zeleninu omyjte. Rajčata rozkrojte napůl a cuketu s paprikou nakrájejte na kousky. Zeleninu vložte do zapékací mísy, lehce osolte, přidejte provensálské bylinky a olivový olej, promíchejte a dejte péct na 25 minut.",
+		"Vejce dejte vařit do vroucí vody na 8 minut, po uvaření ihned zchlaďte, počkejte 5 minut a poté je oloupejte, rozkrojte napůl a lehce osolte.",
+		"Upečenou zeleninu smíchejte s uvařenou quinoou, rozdělte do dvou krabiček a nahoru položte vajíčko nebo do salátu ještě přimíchejte na kousky nakrájenou fetu."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 2,
+			"ingredients": [
+				{"name": "uvařená bílá quinoa", "quantity": 340, "unit": "g"},
+				{"name": "žampiony", "quantity": 130, "unit": "g"},
+				{"name": "cherry rajčata", "quantity": 160, "unit": "g"},
+				{"name": "červená paprika", "quantity": 130, "unit": "g"},
+				{"name": "cuketa", "quantity": 170, "unit": "g"},
+				{"name": "provensálské bylinky", "quantity": 1, "unit": "ČL"},
+				{"name": "olivový olej", "quantity": 1, "unit": "PL"},
+				{"name": "sůl"},
+				{"name": "vejce", "quantity": 3, "unit": "ks"}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p134.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p134"
+}

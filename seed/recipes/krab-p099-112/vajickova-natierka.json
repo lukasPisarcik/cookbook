@@ -1,0 +1,28 @@
+{
+	"title": "Vajíčková nátierka",
+	"category": "zaklady",
+	"steps": [
+		"Vajíčka uvarte natvrdo a nechajte vychladnúť. Potom ich olúpte, prekrojte, Do misky vydlabte žĺtky a bielky pokrájajte nadrobno.",
+		"K žĺtkom pridajte majonézu, tvaroh a horčicu a všetko spolu premiešajte.",
+		"Cibuľu nakrájajte nadrobno a spolu s pokrájanými bielkami pridajte do misky k základu. Premiešajte a osoľte podľa chuti.",
+		"Podávajte so zeleninou a pečivom. Ozdobiť to môžete posekanou pažítkou alebo jarnou cibuľkou."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 4,
+			"ingredients": [
+				{"name": "vajce", "quantity": 6, "unit": "ks"},
+				{"name": "nízkotučný tvaroh", "quantity": 250, "unit": "g"},
+				{"name": "majonéza", "quantity": 50, "unit": "g"},
+				{"name": "dijonská horčica", "quantity": 0.5, "unit": "ČL"},
+				{"name": "cibuľa", "quantity": 80, "unit": "g"},
+				{"name": "soľ"},
+				{"name": "pažítka"}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p109.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p109"
+}

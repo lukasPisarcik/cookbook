@@ -1,0 +1,34 @@
+{
+	"title": "Cestovinový šalát s medovou zálievkou",
+	"category": "vecere",
+	"steps": [
+		"Cestoviny uvarte v osolenej vode.",
+		"Medzitým všetku zeleninu umyte a sceďte cícer. Uhorku zbavte šupky a nakrájajte ju na kocky, cherry paradajky nakrájajte na polky alebo štvrtiny.",
+		"Lučinu nakrájajte na kocky.",
+		"V misky zmiešajte med, horčicu, olivový olej, jablčný ocot, soľ a peper.",
+		"Uvarené cestoviny sceďte a nechajte chvíľu vychladiť. Potom dajte do misky k zálievka. Pridajte zeleninu, rukolu, nakrájaný syr a cícer. Všetko dobre premiešajte, rozdeľte do krabičiek a dajte do chladničky vychladiť."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 4,
+			"ingredients": [
+				{"name": "celozrnné cestoviny", "quantity": 250, "unit": "g"},
+				{"name": "cherry paradajka", "quantity": 100, "unit": "g"},
+				{"name": "šalátová uhorka", "quantity": 1, "unit": "ks"},
+				{"name": "čerstvá rukola", "quantity": 2, "unit": "hrsť"},
+				{"name": "cícer", "quantity": 1, "unit": "konzerva"},
+				{"name": "Lučina šalátová", "quantity": 300, "unit": "g"},
+				{"name": "med", "quantity": 2, "unit": "PL"},
+				{"name": "dijonská horčica", "quantity": 1, "unit": "ČL"},
+				{"name": "jablčný ocot", "quantity": 1, "unit": "PL"},
+				{"name": "extra panenský olivový olej", "quantity": 3, "unit": "PL"},
+				{"name": "soľ"},
+				{"name": "peper"}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p89.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p89"
+}

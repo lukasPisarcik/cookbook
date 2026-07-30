@@ -1,0 +1,33 @@
+{
+	"title": "Nevarený čokoládový puding",
+	"category": "dezerty",
+	"prepTimeMinutes": 135,
+	"steps": [
+		"Želatínu rozmiešaj v horúcej vode.",
+		"V mixéri rozmixuj jogurt, rozpustenú želatínu, čokoládu, kakao, proteín, štipku soli a sladidlo do hladka.",
+		"Zmes nalej do 2 misiek, prikry a nechaj v chladničke odstáť aspoň 2-3 hodiny.",
+		"Ak puding ešte nie je stuhnutý, nechaj ho tam dlhšie. Po stuhnutí pridaj na vrch postrúhanú čokoládou a jogurt."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 218,
+			"portions": 2,
+			"macros": {"carbs": 12, "protein": 29, "fat": 6},
+			"ingredients": [
+				{"name": "vriaca voda", "quantity": 300, "unit": "ml"},
+				{"name": "želatína v prášku", "quantity": 9, "unit": "g"},
+				{"name": "0% grécky jogurt", "quantity": 1.5, "unit": "kelímok"},
+				{"name": "horká čokoláda", "quantity": 20, "unit": "g"},
+				{"name": "kakao", "quantity": 15, "unit": "g"},
+				{"name": "čokoládový proteínový prášok", "quantity": 30, "unit": "g"},
+				{"name": "med", "quantity": 1, "unit": "ČL"},
+				{"name": "soľ", "unit": "štipka"},
+				{"name": "strúhaná čokoláda"}
+			]
+		}
+	],
+	"image": "onvia/image354.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image354"
+}

@@ -1,0 +1,36 @@
+{
+	"title": "Tvarohová pizza",
+	"category": "obedy",
+	"steps": [
+		"Predhrejte trúbu na 200 stupňov.",
+		"Z tvarohu, vajca, múky a soli vypracujte celistvé cesto, ktoré rozprestrite do tvaru pizze vlhkými rukami na nepriľnavý plech alebo plech s papierom na pečenie.",
+		"Cesto potom dajte piecť na 10 minút.",
+		"Medzitým pripravte omáčku. Passatu zmiešajte v miske s olivovým olejom a oreganom. Olivy a cherry paradajky prekrojte napoly.",
+		"Predpečený korpus pomažte omáčkou, na omáčku položte šunku a syr, nakoniec rozprestrite olivy a paradajky.",
+		"Dajte piecť na 12 minút.",
+		"Po upečení nechajte trochu vychladnúť, nakrájajte na trojuholníky a ozdobte bazalkou."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 2,
+			"ingredients": [
+				{"name": "tvaroh na pečenie v papieri", "quantity": 250, "unit": "g"},
+				{"name": "vajce", "quantity": 1, "unit": "ks"},
+				{"name": "hladká múka", "quantity": 90, "unit": "g"},
+				{"name": "soľ", "unit": "štipka"},
+				{"name": "paradajková passata", "quantity": 100, "unit": "g"},
+				{"name": "olivový olej", "quantity": 1, "unit": "PL"},
+				{"name": "sušené oregano", "quantity": 0.5, "unit": "ČL"},
+				{"name": "mozzarella na pizzu", "quantity": 100, "unit": "g"},
+				{"name": "šunka prosciutto cotto", "quantity": 180, "unit": "g"},
+				{"name": "olivy kalamata"},
+				{"name": "cherry paradajky"},
+				{"name": "čerstvá bazalka"}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p111.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p111"
+}

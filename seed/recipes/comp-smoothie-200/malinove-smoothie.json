@@ -1,0 +1,34 @@
+{
+	"title": "Malinové smoothie",
+	"category": "smoothies",
+	"dietTags": ["bezlepkove"],
+	"prepTimeMinutes": 5,
+	"steps": [
+		"Zmixuj všetky ingrediencie.",
+		"Môžeš posypať lyo malinami a podávať s ľadom."
+	],
+	"variants": [
+		{
+			"label": "200 kcal",
+			"kcalPerPortion": 208,
+			"portions": 1,
+			"macros": {
+				"carbs": 24,
+				"protein": 15,
+				"fat": 4
+			},
+			"ingredients": [
+				{"name": "mrazené maliny", "quantity": 100, "unit": "g"},
+				{"name": "malinový proteín", "quantity": 10, "unit": "g"},
+				{"name": "mandľové mlieko", "quantity": 100, "unit": "ml"},
+				{"name": "chia semienka", "quantity": 5, "unit": "g"},
+				{"name": "javorový sirup", "quantity": 10, "unit": "ml"},
+				{"name": "grécky odtučnený jogurt", "quantity": 50, "unit": "g"},
+				{"name": "lyo maliny", "quantity": 10, "unit": "g"}
+			]
+		}
+	],
+	"image": "smoothie-200-kcal/p7.webp",
+	"source": "Smoothie - 200 kcal.pdf",
+	"sourceRef": "p7"
+}

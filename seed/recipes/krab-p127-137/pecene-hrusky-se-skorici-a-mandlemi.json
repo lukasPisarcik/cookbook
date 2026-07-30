@@ -1,0 +1,27 @@
+{
+	"title": "Pečené hrušky se skořicí a mandlemi",
+	"category": "dezerty",
+	"steps": [
+		"Troubu předehřejte na 170 stupňů.",
+		"Hrušky omyjte a dle libosti oloupejte nebo nechte se slupkou. Promíchejte s kokosovým olejem nebo máslem a skořicí a dejte do zapékací mísy.",
+		"Pečte v troubě 20 minut.",
+		"Plátky mandlí otestujte nasucho na pánvi.",
+		"Hrušky posypte mandlemi a podávejte s jogurtem."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 2,
+			"ingredients": [
+				{"name": "hruška", "quantity": 3, "unit": "ks"},
+				{"name": "kokosový olej", "quantity": 1, "unit": "ČL"},
+				{"name": "mletá skořice", "quantity": 1, "unit": "ČL"},
+				{"name": "mandlové plátky", "quantity": 15, "unit": "g"},
+				{"name": "bílý Skyr", "quantity": 2, "unit": "ks"}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p137.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p137"
+}

@@ -1,0 +1,43 @@
+{
+	"title": "Ryžové knedličky",
+	"category": "obedy",
+	"prepTimeMinutes": 35,
+	"steps": [
+		"Najprv si priprav krevetovú plnku. Očistené krevety nakrájaj na malé kúsky a vhoď ich do misky. Pridaj nadrobno nakrájaný zázvor, jarnú cibuľku, koriander a červenú kapustu. Pridaj 1 vajce, korenie (soľ, cesnak, korenie) a ochuť sójovou omáčkou.",
+		"Priprav si veľkú panvicu s horúcou vodou a nechaj v nej ryžový papier niekoľko sekúnd namočený. Potom ho vyber na suchú dosku na krájanie alebo utierku a do stredu pridaj 1-2 polievkové lyžice krevetovej zmesi. Zabaľ a takto postupuj, kým použiješ celú zmes. Vylej vodu z panvice, nechaj ju odtiecť a zohrej 1 lyžicu olivového oleja. Knedličky prudko opeč z oboch strán, potom stiahni plameň a smaž, kým nie sú krevety hotové.",
+		"Podávaj s nakrájanou kapustou a omáčkou z vody, vínneho octu, soli a nasekaného koriandra."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 389,
+			"portions": 2,
+			"macros": {
+				"carbs": 57,
+				"protein": 16,
+				"fat": 11
+			},
+			"ingredients": [
+				{ "name": "lúpané krevety", "quantity": 150, "unit": "g" },
+				{ "name": "zázvor", "quantity": 1, "unit": "palec" },
+				{ "name": "jarná cibuľka", "quantity": 1, "unit": "hrsť" },
+				{ "name": "červená kapusta", "quantity": 2, "unit": "hrsť" },
+				{ "name": "koriander", "quantity": 1, "unit": "hrsť" },
+				{ "name": "vajce", "quantity": 1, "unit": "ks" },
+				{ "name": "sójová omáčka", "quantity": 1, "unit": "PL" },
+				{ "name": "soľ" },
+				{ "name": "korenie" },
+				{ "name": "sušený cesnak", "quantity": 1, "unit": "ČL" },
+				{ "name": "ryžový papier", "quantity": 14, "unit": "ks" },
+				{ "name": "olivový olej", "quantity": 1, "unit": "PL" },
+				{ "name": "červená kapusta", "quantity": 1, "unit": "hrsť" },
+				{ "name": "voda" },
+				{ "name": "vínny ocot" },
+				{ "name": "koriander" }
+			]
+		}
+	],
+	"image": "onvia/image140.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image140"
+}

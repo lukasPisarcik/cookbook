@@ -1,0 +1,77 @@
+{
+	"title": "Cviklová nátierka",
+	"category": "ranajky",
+	"prepTimeMinutes": 25,
+	"steps": [
+		"Najprv uvar cviklu a potom ju ošúp. Tento krok si môžeš uľahčiť, ak si kúpíš predvarenú cviklu.",
+		"Malú panvicu postriekaj ghí alebo avokádovým olejom v spreji. Potom do panvice rozbi 2 vajcia a ochuť soľou, korením a štipkou chilli. Nechaj smažiť na polovičnom ohni.",
+		"Uvarenú červenú cviklu, balkánsky syr, olivový olej a koreniny vhoď do mixéra.",
+		"Vymixuj do hladka.",
+		"Nátierku z červenej cvikli premiesti na hlboký tanier. Navrch polož vajíčka, balkánsky syr nakrájaný na kocky. Potom pridaj rukolu alebo iný šalát a čerstvé bylinky.",
+		"Vezmi si k tomu pečivo podľa chuti."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 309,
+			"portions": 2,
+			"macros": {
+				"carbs": 15,
+				"protein": 17,
+				"fat": 21
+			},
+			"ingredients": [
+				{
+					"name": "predvarená červená cvikla",
+					"quantity": 250,
+					"unit": "g"
+				},
+				{
+					"name": "mlieko",
+					"quantity": 30,
+					"unit": "ml"
+				},
+				{
+					"name": "olivový olej",
+					"quantity": 1,
+					"unit": "ČL"
+				},
+				{
+					"name": "balkánsky syr",
+					"quantity": 70,
+					"unit": "g"
+				},
+				{
+					"name": "ghee"
+				},
+				{
+					"name": "vajíčko",
+					"quantity": 2
+				},
+				{
+					"name": "balkánsky syr",
+					"quantity": 30,
+					"unit": "g"
+				},
+				{
+					"name": "rukola"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "čierne korenie"
+				},
+				{
+					"name": "chilli"
+				},
+				{
+					"name": "čerstvé bylinky"
+				}
+			]
+		}
+	],
+	"image": "onvia/image144.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image144"
+}

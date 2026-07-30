@@ -1,0 +1,94 @@
+{
+	"title": "Vegánske \"bolognese\" s proteínovými cestovinami",
+	"category": "obedy",
+	"dietTags": ["vegan"],
+	"prepTimeMinutes": 30,
+	"steps": [
+		"Pripravíme si hrniec s vodou a cestoviny uvaríme podľa návodu na obale.",
+		"Náhradu mletého ''mäsa'' uvaríme podľa návodu na obale, potom orestujeme na panvici s cibuľou na olivovom oleji a dochutíme soľou.",
+		"Nastrúhame mrkvu a pridáme ju spolu s kukuricou na panvicu, premiešame a krátko orestujeme.",
+		"Pridáme paradajkový pretlak, paradajkovú omáčku a korenie.",
+		"Teplotu znížime, prikryjeme pokrievkou a všetko spolu dusíme 10 minút, pokiaľ omáčka nezhustne.",
+		"Omáčku s cestovinami môžeme zmiešať už v panvici alebo až na tanieri."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 633,
+			"portions": 1,
+			"macros": {
+				"carbs": 79,
+				"protein": 48,
+				"fat": 13
+			},
+			"ingredients": [
+				{
+					"name": "cestoviny z červenej šošovice",
+					"quantity": 80,
+					"unit": "g"
+				},
+				{
+					"name": "vegánska náhrada mletého mäsa",
+					"quantity": 100,
+					"unit": "g"
+				},
+				{
+					"name": "paradajková omáčka",
+					"quantity": 180,
+					"unit": "g"
+				},
+				{
+					"name": "paradajkový pretlak",
+					"quantity": 30,
+					"unit": "g"
+				},
+				{
+					"name": "kukurica",
+					"quantity": 50,
+					"unit": "g"
+				},
+				{
+					"name": "mrkva",
+					"quantity": 60,
+					"unit": "g"
+				},
+				{
+					"name": "olivový olej",
+					"quantity": 10,
+					"unit": "g"
+				},
+				{
+					"name": "červená cibuľa",
+					"quantity": 50,
+					"unit": "g"
+				},
+				{
+					"name": "voda",
+					"quantity": 200,
+					"unit": "ml"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "čierne korenie"
+				},
+				{
+					"name": "čerstvý cesnak"
+				},
+				{
+					"name": "bazalka"
+				},
+				{
+					"name": "oregáno"
+				},
+				{
+					"name": "provensálske korenie"
+				}
+			]
+		}
+	],
+	"image": "onvia/image178.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image178"
+}

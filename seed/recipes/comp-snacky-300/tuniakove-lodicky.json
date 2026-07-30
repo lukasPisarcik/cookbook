@@ -1,0 +1,76 @@
+{
+	"title": "Tuniakové lodičky",
+	"category": "snacky",
+	"dietTags": ["bezlepkove"],
+	"prepTimeMinutes": 15,
+	"steps": [
+		"Uhorku prekroj pozdĺžne na polovicu a vydlab vnútornú časť so semienkami. Polovičku ešte raz prekroj, tak aby ti z celej uhorky vyšli 4 kúsky ( lodičky).",
+		"V miske zmiešaj tuniaka, grécky jogurt, červenú cibuľu, majonézu, horčicu, cesnak, soľ a korenie podľa chuti.",
+		"Naplň uhorky tuniakovou zmesou.",
+		"Posyp sezamom."
+	],
+	"funFact": "Ryby sú bohaté na omega-3 mastné kyseliny, rôzne vitamíny a minerály, vrátane vitamínu B12, vitamínu D a selénu. Všeobecne sa odporúča konzumovať ryby aspoň 2 x týždenne. Ideálne je zvoliť rôzne druhy rýb.",
+	"variants": [
+		{
+			"label": "300 kcal",
+			"kcalPerPortion": 286,
+			"portions": 1,
+			"macros": {
+				"carbs": 4,
+				"protein": 21,
+				"fat": 21
+			},
+			"ingredients": [
+				{
+					"name": "uhorka",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "tuniak vo vlastnej šťave",
+					"quantity": 80,
+					"unit": "g"
+				},
+				{
+					"name": "červená cibuľa",
+					"quantity": 0.25,
+					"unit": "ks"
+				},
+				{
+					"name": "majonéza",
+					"quantity": 20,
+					"unit": "g"
+				},
+				{
+					"name": "grécky jogurt",
+					"quantity": 70,
+					"unit": "g"
+				},
+				{
+					"name": "dijonská horčica",
+					"quantity": 5,
+					"unit": "g"
+				},
+				{
+					"name": "mletý sušený cesnak",
+					"quantity": 0.25,
+					"unit": "ČL"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "korenie"
+				},
+				{
+					"name": "čierny sezam",
+					"quantity": 3,
+					"unit": "g"
+				}
+			]
+		}
+	],
+	"image": "snacky-300-kcal/p8.webp",
+	"source": "Snacky - 300 kcal.pdf",
+	"sourceRef": "p8"
+}

@@ -1,0 +1,22 @@
+{
+	"title": "Kakaový tvaroháčik alebo termix",
+	"category": "snacky",
+	"steps": [
+		"Všetko spolu zmiešajte, rozdeľte do 3-4 mištičiek, ozdobiť ovocím a je to."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 4,
+			"ingredients": [
+				{"name": "kyslá smotana", "quantity": 200, "unit": "g"},
+				{"name": "nízkotučný tvaroh", "quantity": 400, "unit": "g"},
+				{"name": "holandské kakao", "quantity": 2, "unit": "PL"},
+				{"name": "práškový cukor"}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p55.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p55"
+}

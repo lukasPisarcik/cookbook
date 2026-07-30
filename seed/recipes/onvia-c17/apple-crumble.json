@@ -1,0 +1,32 @@
+{
+	"title": "Apple crumble",
+	"category": "dezerty",
+	"prepTimeMinutes": 10,
+	"steps": [
+		"Do malej misky daj nakrájané jablko, pridaj štipku škorice, trochu vanilkového pudingového prášku alebo kukuričného škrobu a pár kvapiek vody. Premiešaj, aby sa jablká rovnomerne obalili.",
+		"V druhej miske zmiešaj ovsené vločky, sladidla Unicorn dust, trochu korenia A5C a zmäknuté maslo. Vytvor drobenku.",
+		"Na jablká navrstvi ovsenú drobenku.",
+		"Vlož do horúcovzdušnej fritézy a peč pri 170 °C približne 20 minút, kým povrch pekne nezhnedne.",
+		"Podávaj ešte teplé s gréckym jogurtom alebo tvarohom."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 347,
+			"portions": 1,
+			"macros": {"carbs": 37, "protein": 18, "fat": 15},
+			"ingredients": [
+				{"name": "jablko", "quantity": 125, "unit": "g"},
+				{"name": "korenie A5C", "unit": "štipka"},
+				{"name": "Unicorn Dust", "unit": "štipka"},
+				{"name": "maslo", "quantity": 15, "unit": "g"},
+				{"name": "vanilkový pudingový prášok", "unit": "štipka"},
+				{"name": "ovsené vločky", "quantity": 25, "unit": "g"},
+				{"name": "grécky jogurt biely 0%", "quantity": 140, "unit": "g"}
+			]
+		}
+	],
+	"image": "onvia/image329.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image329"
+}

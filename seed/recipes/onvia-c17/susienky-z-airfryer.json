@@ -1,0 +1,32 @@
+{
+	"title": "Sušienky z airfryer",
+	"category": "snacky",
+	"prepTimeMinutes": 10,
+	"steps": [
+		"V miske rozmačkaj banán vidličkou.",
+		"Pridaj tvrdý tvaroh a dôkladne ho rozmačkaj, aby sa spojil s banánom do hladkej zmesi.",
+		"Primiešaj ovsené vločky a voliteľné prísady (korenie A5C, kypriaci prášok, Unicorn dust).",
+		"Nechaj cesto 5 minút odstáť, aby vločky nasiakli vlhkosť.",
+		"Pomocou lyžice vytvaruj malé sušienky (asi 1 cm vysoké) a polož ich na papier na pečenie alebo silikónovú podložku vhodnú do fritézy.",
+		"Peč v horúcovzdušnej fritéze pri 170 °C približne 20 minút, kým sušienky nezozlátnu.",
+		"Po upečení ich nechaj chvíľu vychladnúť - až potom získajú správnu konzistenciu."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 10,
+			"macros": {"carbs": 7, "protein": 3, "fat": 1},
+			"ingredients": [
+				{"name": "ovsené vločky", "quantity": 80, "unit": "g"},
+				{"name": "banán", "quantity": 100, "unit": "g"},
+				{"name": "tvrdý tvaroh", "quantity": 115, "unit": "g"},
+				{"name": "škorica", "quantity": 0.33, "unit": "ČL"},
+				{"name": "kypriaci prášok", "quantity": 0.5, "unit": "ČL"},
+				{"name": "Unicorn Dust"}
+			]
+		}
+	],
+	"image": "onvia/image327.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image327"
+}

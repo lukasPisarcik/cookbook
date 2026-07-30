@@ -1,0 +1,55 @@
+{
+	"title": "Melónová limonáda",
+	"category": "drinky",
+	"steps": [
+		"Do mixéra nalej jemne perlivú vodu, pridaj nakrájaný melón, 5 kociek ľadu a rozmixuj. Kľudne použi aj melón s jadierkami – sú zdravé a patria medzi superpotraviny.",
+		"Priprav si poháre, z ktorých budeš piť.",
+		"Na dno pohárov daj trochu melónovej šťavy, pridaj med, pár lístkov mäty a šťavu z limetky.",
+		"Všetko premiešaj, aby sa spojili chute a mätové lístky pustili arómu.",
+		"Potom poháre dolievaj zvyšnou melónovou šťavou.",
+		"Nakoniec pridaj drvený ľad."
+	],
+	"variants": [
+		{
+			"label": "200 kcal",
+			"kcalPerPortion": 230,
+			"macros": {
+				"carbs": 50.4,
+				"protein": 3.3,
+				"fat": 0.8
+			},
+			"ingredients": [
+				{
+					"name": "melón",
+					"quantity": 500,
+					"unit": "g"
+				},
+				{
+					"name": "sóda",
+					"quantity": 700,
+					"unit": "ml"
+				},
+				{
+					"name": "med",
+					"quantity": 25,
+					"unit": "g"
+				},
+				{
+					"name": "limetka",
+					"quantity": 2,
+					"unit": "ks"
+				},
+				{
+					"name": "mäta",
+					"unit": "hrsť"
+				},
+				{
+					"name": "ľad"
+				}
+			]
+		}
+	],
+	"image": "letne-drinky-200-kcal/p3.webp",
+	"source": "Letné drinky - 200 kcal.pdf",
+	"sourceRef": "p3"
+}

@@ -1,0 +1,71 @@
+{
+	"title": "Slané lievance plnené šunkou a syrom",
+	"category": "ranajky",
+	"prepTimeMinutes": 30,
+	"steps": [
+		"V miske zmiešaj špaldovú múku, prášok do pečiva, štipku soli a korenia. Potom pridaj vajcia, olej a mlieko. Všetko dobre premiešaj, aby vzniklo hladké cesto.",
+		"Panvicu zohrej na strednú teplotu. Vystriekaj olejom, nalej trochu cesta pridaj plátok šunky a syru. Na to vylej trochu cesta a opeč z oboch strán do zlatista, asi 2–3 minúty na každej strane. Opakuj, kým nie sú všetky lievance hotové.",
+		"Podávaj teplé s čerstvou zeleninou podľa chuti (napríklad paradajkami, uhorkami alebo listovým šalátom)."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 394,
+			"portions": 2,
+			"macros": {
+				"carbs": 27,
+				"protein": 27,
+				"fat": 19
+			},
+			"ingredients": [
+				{
+					"name": "špaldová múka",
+					"quantity": 70,
+					"unit": "g"
+				},
+				{
+					"name": "vajce",
+					"quantity": 2
+				},
+				{
+					"name": "mlieko",
+					"quantity": 50,
+					"unit": "ml"
+				},
+				{
+					"name": "prášok do pečiva",
+					"quantity": 1,
+					"unit": "ČL"
+				},
+				{
+					"name": "soľ",
+					"unit": "štipka"
+				},
+				{
+					"name": "čierne korenie"
+				},
+				{
+					"name": "olivový olej",
+					"quantity": 10,
+					"unit": "g"
+				},
+				{
+					"name": "vysokopercentná šunka",
+					"quantity": 50,
+					"unit": "g"
+				},
+				{
+					"name": "eidam 30%",
+					"quantity": 60,
+					"unit": "g"
+				},
+				{
+					"name": "zelenina"
+				}
+			]
+		}
+	],
+	"image": "onvia/image157.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image157"
+}

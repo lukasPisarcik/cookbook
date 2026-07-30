@@ -1,0 +1,43 @@
+{
+	"title": "Tekvicové rizoto s restovanými hubami",
+	"category": "obedy",
+	"prepTimeMinutes": 20,
+	"steps": [
+		"Na panvici rozpusti 1 PL ghí alebo oleja.",
+		"Zľahka orestuj nadrobno nakrájanú cibuľu a roztlačený cesnak.",
+		"Potom pridaj prepláchnutú ryžu a postupne prilievaj vývar (alebo vodu).",
+		"Keď je ryža tesne pred zmäknutím, pridaj tekvicové pyré (môžeš ho pripraviť dvoma spôsobmi. 1. spôsob- rýchlejší: vydlab tekvicu Hokkaido, odstráň šupku, nakrájaj ju na kocky a uvar vo vriacej vode. Potom ju rozmixuj tyčovým mixérom. 2. spôsob - chutnejší: tekvicu Hokkaido vydlab, nakrájaj na plátky a upeč v rúre pri teplote 180°C do mäkka. Potom odstráň šupku a rozmixuj ako pri prvom spôsobe). Po pridaní tekvicového pyré k ryži, všetko dokopy dôkladne premiešaj.",
+		"Do rizota pridaj kurkumu a nastrúhaný parmezán. Niekoľko minút spoločne ohrievaj a miešaj.",
+		"Medzitým si orestuj huby. Na panvici rozpusti trošku ghí / oleja, pridaj huby, štipku soli a vetvičku tymiánu (ak nemáš, použi sušený). Huby osmaž pohybom panvice sem a tam, aby boli pekne opečené.",
+		"Na tanieri rizoto ozdob hubami.",
+		"Vychutnaj si tento šmak!"
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 468,
+			"portions": 2,
+			"macros": {
+				"carbs": 66,
+				"protein": 20,
+				"fat": 14
+			},
+			"ingredients": [
+				{ "name": "ghí", "quantity": 1, "unit": "PL" },
+				{ "name": "cibuľa", "quantity": 1, "unit": "ks" },
+				{ "name": "cesnak", "quantity": 1, "unit": "strúčik" },
+				{ "name": "tekvicové pyré", "quantity": 150, "unit": "g" },
+				{ "name": "ryža arborio", "quantity": 140, "unit": "g" },
+				{ "name": "vývar", "quantity": 0.5, "unit": "l" },
+				{ "name": "kurkuma", "unit": "štipka" },
+				{ "name": "parmezán", "quantity": 30, "unit": "g" },
+				{ "name": "huby" },
+				{ "name": "tymián", "unit": "štipka" },
+				{ "name": "tekvicový olej" }
+			]
+		}
+	],
+	"image": "onvia/image190.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image190"
+}

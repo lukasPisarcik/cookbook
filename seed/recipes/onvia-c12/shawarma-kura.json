@@ -1,0 +1,45 @@
+{
+	"title": "Shawarma kura",
+	"category": "obedy",
+	"prepTimeMinutes": 20,
+	"steps": [
+		"Na oleji orestuj nadrobno nakrájanú cibuľu a pretlačený cesnak. Pridaj kúsky mäsa a krátko opeč z oboch strán.",
+		"Mäso odlož bokom, do panvice nasyp ryžu, podlej vodou tak, aby bola ponorená, pridaj korenie CU8 a dobre premiešaj.",
+		"Vlož mäso späť na ryžu, prikry pokrievkou alebo alobalom a daj zapiecť do rúry vyhriatej na 190 °C na približne 20 minút.",
+		"V polovici pečenia skontroluj stav a v prípade potreby podlej trochou vody.",
+		"Medzitým si priprav šalát: kapustu nakrájaj na tenké rezance, paradajky na štvrtiny, bylinky nasekaj nadrobno. Všetko zmiešaj s dresingom z jogurtu, tahini, soli a citrónovej šťavy.",
+		"Upečené mäso nakrájaj na rezance a podávaj s kari ryžou a čerstvým šalátikom."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 509,
+			"portions": 2,
+			"macros": {
+				"carbs": 58,
+				"protein": 32,
+				"fat": 17
+			},
+			"ingredients": [
+				{"name": "cibuľa", "quantity": 100, "unit": "g"},
+				{"name": "cesnak", "quantity": 2, "unit": "strúčik"},
+				{"name": "kuracie stehenné rezne", "quantity": 200, "unit": "g"},
+				{"name": "avokádový olej", "quantity": 10, "unit": "g"},
+				{"name": "soľ"},
+				{"name": "čierne korenie"},
+				{"name": "korenie shawarma", "quantity": 1, "unit": "ČL"},
+				{"name": "korenie CU8"},
+				{"name": "basmati ryža", "quantity": 100, "unit": "g"},
+				{"name": "červená kapusta", "quantity": 150, "unit": "g"},
+				{"name": "cherry paradajka", "quantity": 100, "unit": "g"},
+				{"name": "čerstvé bylinky"},
+				{"name": "citrónová šťava"},
+				{"name": "tahini", "quantity": 15, "unit": "g"},
+				{"name": "grécky jogurt 0 %", "quantity": 140, "unit": "g"}
+			]
+		}
+	],
+	"image": "onvia/image240.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image240"
+}

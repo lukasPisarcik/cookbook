@@ -1,0 +1,60 @@
+{
+	"title": "Cestoviny s baklažánom, paradajkami a balkánskym syrom",
+	"category": "obedy",
+	"steps": [
+		"Šalotku a cesnak očisťte a nakrájajte nadrobno.",
+		"Baklažán dôkladne umyte, odkrojte konce a nakrájajte ho na kocky.",
+		"Olivový olej nalejte do panvice a rozohrejte ho. Orestujte na ňom cibuľu a cesnak. Potom pridajte aj baklažán a tiež orestujte. Ľahko osoľte a pridajte paradajky a trochu vody. Stiahnite plameň a duste cca 15 minút.",
+		"Cestoviny uvarte v osolenej vode. Po uvarení vodu zlejte a cestoviny premiešajte s paradajkovo-baklažánovou zmesou.",
+		"Porciu presuňte do krabičky a navrch pridajte rozdrobený balkánsky syr. Doplniť to môžete čerstvou bazalkou, rukolou alebo klíčkami."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 2,
+			"ingredients": [
+				{
+					"name": "šalotka",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "cesnak",
+					"quantity": 2,
+					"unit": "strúčik"
+				},
+				{
+					"name": "olivový olej",
+					"quantity": 1,
+					"unit": "PL"
+				},
+				{
+					"name": "lúpané paradajky",
+					"quantity": 400,
+					"unit": "g"
+				},
+				{
+					"name": "baklažán",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "cestoviny",
+					"quantity": 200,
+					"unit": "g"
+				},
+				{
+					"name": "balkánsky syr",
+					"quantity": 125,
+					"unit": "g"
+				}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p73.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p73"
+}

@@ -1,0 +1,68 @@
+{
+	"title": "Proteínové cestoviny s párkom",
+	"category": "vecere",
+	"dietTags": [
+		"bezlepkove"
+	],
+	"prepTimeMinutes": 20,
+	"steps": [
+		"Cestoviny uvaríš podľa návodu na obale.",
+		"Kým sa cestoviny varia, zmiešaš v mixéri paradajkovú omáčku a cottage cheese a rozmixuješ dohladka.",
+		"Na panvici rozohreješ olivový olej, opražíš kuracie párky a restuješ dozlatista. Pridáš uvarené cestoviny, špenát a pripravenú omáčku.",
+		"Miešaš, kým špenát nezvädne a omáčka sa nezohreje.",
+		"Vyjdú ti 2 porcie."
+	],
+	"funFact": "Cícerové, či hráškové cestoviny sa dajú kúpiť aj v Lidli. Majú síce jemnú pachuť strukovín, ale s výraznejšou omáčkou to nie je tak cítiť, a tak sú zároveň takéto cestoviny skvelý zdroj rastlinných bielkovín.",
+	"variants": [
+		{
+			"label": "400 kcal",
+			"kcalPerPortion": 405,
+			"portions": 2,
+			"macros": {
+				"carbs": 28,
+				"protein": 25,
+				"fat": 22
+			},
+			"ingredients": [
+				{
+					"name": "cícerové cestoviny",
+					"quantity": 100,
+					"unit": "g"
+				},
+				{
+					"name": "paradajková omáčka",
+					"quantity": 100,
+					"unit": "g"
+				},
+				{
+					"name": "cottage cheese",
+					"quantity": 150,
+					"unit": "g"
+				},
+				{
+					"name": "kurací párok",
+					"quantity": 2,
+					"unit": "ks"
+				},
+				{
+					"name": "baby špenát",
+					"quantity": 30,
+					"unit": "g"
+				},
+				{
+					"name": "olivový olej",
+					"quantity": 10,
+					"unit": "g"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "korenie"
+				}
+			]
+		}
+	],
+	"source": "Večere - 400 kcal.pdf",
+	"sourceRef": "p8"
+}

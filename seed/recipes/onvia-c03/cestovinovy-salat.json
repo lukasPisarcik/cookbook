@@ -1,0 +1,103 @@
+{
+	"title": "Cestovinový šalát",
+	"category": "obedy",
+	"prepTimeMinutes": 55,
+	"steps": [
+		"Upeč si dve červené papriky. Ja používam svoju fritézu (AirFryer), pretože je to jednoduché a pohodlné. Postriekaj ich olivovým olejom v spreji a potom ich 10 minút peč na vzduchu pri 200 stupňoch. Po skončení ich nechaj vychladnúť, a potom z nich ošúp šupku.",
+		"Teraz je čas na prípravu omáčky. Do mixéra pridaj ošúpané červené papriky, ostatné suroviny na omáčku z pečenej červenej papriky a koreniny uvedené vyššie. Mixuj pokým nezískaš jemnú konzistenciu.",
+		"Opeč si kúsky kuracích pŕs na panvici, alebo vo fritéze.",
+		"Cestoviny uvar podľa návodu na obale a čerstvé papriky s paradajky si nakrájaj na malé kúsky.",
+		"Je čas na prípravu šalátu. Zmiešaj rímsky šalát, uvarené cestoviny, opečené kuracie prsia, papriky, paradajky a omáčku z pečených červených paprík. Šalát premiešaj a potom vychutnávaj!"
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 469,
+			"portions": 4,
+			"macros": {
+				"carbs": 60,
+				"protein": 46,
+				"fat": 5
+			},
+			"ingredients": [
+				{
+					"name": "rímsky šalát",
+					"quantity": 300,
+					"unit": "g"
+				},
+				{
+					"name": "cestoviny",
+					"quantity": 200,
+					"unit": "g"
+				},
+				{
+					"name": "kuracie prsia",
+					"quantity": 500,
+					"unit": "g"
+				},
+				{
+					"name": "žltá paprika",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "zelená paprika",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "červená paprika",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "cherry paradajky",
+					"quantity": 300,
+					"unit": "g"
+				},
+				{
+					"name": "pečená červená paprika",
+					"quantity": 2,
+					"unit": "ks"
+				},
+				{
+					"name": "feta syr light",
+					"quantity": 180,
+					"unit": "g"
+				},
+				{
+					"name": "cottage syr",
+					"quantity": 120,
+					"unit": "g"
+				},
+				{
+					"name": "cesnak",
+					"quantity": 4,
+					"unit": "strúčik"
+				},
+				{
+					"name": "med",
+					"quantity": 15,
+					"unit": "g"
+				},
+				{
+					"name": "jedlé droždie",
+					"quantity": 8,
+					"unit": "g"
+				},
+				{
+					"name": "morská soľ"
+				},
+				{
+					"name": "čierne korenie"
+				},
+				{
+					"name": "mletá červená paprika"
+				}
+			]
+		}
+	],
+	"image": "onvia/image56.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image56"
+}

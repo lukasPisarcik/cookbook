@@ -1,0 +1,79 @@
+{
+	"title": "Čokoládové muffinky",
+	"category": "dezerty",
+	"prepTimeMinutes": 35,
+	"steps": [
+		"Zmiešaj si všetky suroviny a vznikne ti z toho hladké cesto.",
+		"Cesto by nemalo byť ani riedke ani husté.",
+		"Ak by bolo náhodou príliš husté, môžeš pridať trošku vody na zriedenie.",
+		"Do formy na muffiny priprav papierové alebo silikónové košíky, ktoré naplníš cestom zhruba do dvoch tretín.",
+		"Do cesta daj mrazené alebo čerstvé čučoriedky.",
+		"Peč na 180°C približne 20-25 minút.",
+		"Počas pečenia môžeš muffiny skontrolovať špáradlom.",
+		"Ak už sú hotové, môžeš podávať.",
+		"Dobrú chuť ;)"
+	],
+	"funFact": "Najväčší muffin na svete bol upečený v Kanade v roku 2003 a vážil viac ako 146 kg, potrebovali naň špeciálnu formu aj rúru.",
+	"variants": [
+		{
+			"label": "300 kcal",
+			"kcalPerPortion": 355,
+			"portions": 4,
+			"macros": {
+				"carbs": 39,
+				"protein": 21,
+				"fat": 12
+			},
+			"ingredients": [
+				{
+					"name": "jemný hrudkovaný tvaroh",
+					"quantity": 200,
+					"unit": "g"
+				},
+				{
+					"name": "vajíčko",
+					"quantity": 2,
+					"unit": "ks"
+				},
+				{
+					"name": "grécky jogurt",
+					"quantity": 140,
+					"unit": "g"
+				},
+				{
+					"name": "ghee maslo",
+					"quantity": 20,
+					"unit": "g"
+				},
+				{
+					"name": "trstinový cukor",
+					"quantity": 36,
+					"unit": "g"
+				},
+				{
+					"name": "kypriaci prášok",
+					"quantity": 0.5,
+					"unit": "balenie"
+				},
+				{
+					"name": "hladká špaldová múka",
+					"quantity": 140,
+					"unit": "g"
+				},
+				{
+					"name": "kakao",
+					"quantity": 20,
+					"unit": "g"
+				},
+				{
+					"name": "čučoriedky",
+					"quantity": 100,
+					"unit": "g"
+				}
+			]
+		}
+	],
+	"image": "cokoladove-muffiny/p1.webp",
+	"source": "Čokoládové muffiny.pdf",
+	"sourceRef": "p1"
+}

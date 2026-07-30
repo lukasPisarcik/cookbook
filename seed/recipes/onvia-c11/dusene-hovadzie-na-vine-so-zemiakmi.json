@@ -1,0 +1,40 @@
+{
+	"title": "Dusené hovädzie na víne so zemiakmi",
+	"category": "obedy",
+	"prepTimeMinutes": 25,
+	"steps": [
+		"Na oleji orestuj nadrobno nakrájanú cibuľu. Mäso nakrájaj na kocky, osoľ a pridaj do hrnca (vhodného aj na pečenie do rúry), opeč zo všetkých strán. K mäsu pridaj mrkvu nakrájanú na väčšie kúsky, zalej vodou alebo vývarom, passatou, pridaj červené víno, korenie a prikry pokrievkou. Vlož do rúry a nechaj piecť približne 2 hodiny pri teplote 170°C. Alebo nechaj variť na sporáku na slabom ohni 1,5-2h aby sa mäso rozpadávalo.",
+		"Postupne mäso kontroluj, či nepotrebuje vodu, a premiešaj.",
+		"Na poslednú hodinu pridaj k mäsu zemiaky alebo ich uvar bokom.",
+		"Ku koncu pridaj hrášok.",
+		"Teraz už len dochuť všetkými koreninami a vychutnaj si!"
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 461,
+			"portions": 3,
+			"macros": {"carbs": 41, "protein": 37, "fat": 15},
+			"ingredients": [
+				{"name": "hovädzie mäso zo zadnej nohy", "quantity": 400, "unit": "g"},
+				{"name": "cibuľa", "quantity": 1, "unit": "ks"},
+				{"name": "olivový olej", "quantity": 1, "unit": "PL"},
+				{"name": "paradajková passata", "quantity": 300, "unit": "g"},
+				{"name": "červené víno (suché)", "quantity": 100, "unit": "ml"},
+				{"name": "mrkva", "quantity": 250, "unit": "g"},
+				{"name": "zemiaky", "quantity": 300, "unit": "g"},
+				{"name": "hrášok", "quantity": 100, "unit": "g"},
+				{"name": "soľ"},
+				{"name": "korenie"},
+				{"name": "bobkový list"},
+				{"name": "nové korenie"},
+				{"name": "drvená rasca"},
+				{"name": "tymián"},
+				{"name": "rozmarín"}
+			]
+		}
+	],
+	"image": "onvia/image5.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image5"
+}

@@ -1,0 +1,35 @@
+{
+	"title": "Červené feta cestoviny",
+	"category": "obedy",
+	"prepTimeMinutes": 15,
+	"steps": [
+		"Všetky suroviny na omáčku (všetko okrem cestovín!) rozmixuj v mixéry, kým nezískaš hladkú konzistenciu.",
+		"Omáčku prelej do panvice alebo hrnca a nechaj ju niekoľko minút povariť. Medzitým si uvar cestoviny \"al dente\" (podľa vlastného výberu) podľa návodu.",
+		"Pred podávaním ich pridaj do omáčky a premiešaj alebo servíruj osobitne a dobre premiešaj na tanieri.",
+		"Pridaj toping podľa môjho odporúčania alebo podľa vlastných preferencií."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 497,
+			"portions": 2,
+			"macros": {"carbs": 57, "protein": 38, "fat": 12},
+			"ingredients": [
+				{"name": "proteínové cestoviny", "quantity": 200, "unit": "g"},
+				{"name": "feta syr light", "quantity": 180, "unit": "g"},
+				{"name": "cottage syr", "quantity": 200, "unit": "g"},
+				{"name": "varená červená repa", "quantity": 6, "unit": "ks"},
+				{"name": "šťava z citróna", "quantity": 1, "unit": "ks"},
+				{"name": "cesnak", "quantity": 3, "unit": "strúčik"},
+				{"name": "tymián"},
+				{"name": "soľ"},
+				{"name": "čierne korenie"},
+				{"name": "muškát"},
+				{"name": "rozmarín"}
+			]
+		}
+	],
+	"image": "onvia/image212.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image212"
+}

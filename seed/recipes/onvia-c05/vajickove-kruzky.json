@@ -1,0 +1,53 @@
+{
+	"title": "Vajíčkové krúžky",
+	"category": "ranajky",
+	"prepTimeMinutes": 10,
+	"steps": [
+		"Ošúp celú veľkú cibuľu a nakrájaj ju na plátky hrubé asi 1 cm.",
+		"Vyber stred, aby ti zostali len 2-3 vonkajšie krúžky.",
+		"Zvyšnú cibuľu nakrájaj na malé kocky a vymiešaj ich v miske s vajcami, múkou a korením.",
+		"Na panvici rozohrej trochu masla, vlož naň kolieska cibule a opatrne do nich vlej vaječnú zmes.",
+		"Cibuľové krúžky opeč z oboch strán, kým sa vajce neuvarí."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 178,
+			"portions": 2,
+			"macros": {
+				"carbs": 8,
+				"protein": 13,
+				"fat": 10
+			},
+			"ingredients": [
+				{
+					"name": "cibuľa",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "vajce",
+					"quantity": 3,
+					"unit": "ks"
+				},
+				{
+					"name": "polohrubá múka",
+					"quantity": 1,
+					"unit": "ČL"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "čierne korenie"
+				},
+				{
+					"name": "petržlenová vňať"
+				}
+			]
+		}
+	],
+	"image": "onvia/image112.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image112"
+}

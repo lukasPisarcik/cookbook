@@ -1,0 +1,56 @@
+{
+	"title": "Čokoládové smoothie",
+	"category": "smoothies",
+	"prepTimeMinutes": 5,
+	"steps": ["Zmixuj všetky ingrediencie do hladka", "Môžeš podávať s ľadom."],
+	"variants": [
+		{
+			"label": "200 kcal",
+			"kcalPerPortion": 185,
+			"portions": 2,
+			"macros": {
+				"carbs": 16,
+				"protein": 14,
+				"fat": 7
+			},
+			"ingredients": [
+				{
+					"name": "rastlinné mlieko",
+					"quantity": 200,
+					"unit": "ml"
+				},
+				{
+					"name": "voda",
+					"quantity": 100,
+					"unit": "ml"
+				},
+				{
+					"name": "orieškové maslo",
+					"quantity": 15,
+					"unit": "g"
+				},
+				{
+					"name": "banán",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "čakankový sirup",
+					"quantity": 10,
+					"unit": "g"
+				},
+				{
+					"name": "čokoládový proteín",
+					"quantity": 30,
+					"unit": "g"
+				},
+				{
+					"name": "ľad"
+				}
+			]
+		}
+	],
+	"image": "cokoladove-smoothie/p1.webp",
+	"source": "Čokoládové smoothie.pdf",
+	"sourceRef": "p1"
+}

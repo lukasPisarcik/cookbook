@@ -1,0 +1,30 @@
+{
+	"title": "Overnight Coffee Pudding Oats",
+	"category": "ranajky",
+	"prepTimeMinutes": 245,
+	"steps": [
+		"Uvar si čerstvú kávu",
+		"Vezmi si veľkú misu a dobre v nej vymiešaj spolu všetky suroviny. Celé množstvo rozdeľ na 4 rovnaké porcie do pohárov.",
+		"Ulož ich do chladničky aspoň na 4 hodiny, lepšie cez noc."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 510,
+			"portions": 4,
+			"macros": {"carbs": 33, "protein": 38, "fat": 8},
+			"ingredients": [
+				{"name": "dvojité espresso", "quantity": 4, "unit": "ks"},
+				{"name": "ovsené vločky", "quantity": 200, "unit": "g"},
+				{"name": "proteínový kávový puding", "quantity": 4, "unit": "ks"},
+				{"name": "vanilkový proteínový prášok", "quantity": 120, "unit": "g"},
+				{"name": "sladidlo", "quantity": 10, "unit": "g"},
+				{"name": "škorica", "quantity": 1, "unit": "ČL"},
+				{"name": "psyllium husk", "quantity": 4, "unit": "ČL"}
+			]
+		}
+	],
+	"image": "onvia/image338.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image338"
+}

@@ -1,0 +1,38 @@
+{
+	"title": "Protein Waffle Ice Cream Sandwich",
+	"category": "dezerty",
+	"prepTimeMinutes": 20,
+	"steps": [
+		"Najskôr si priprav zmrzlinovú náplň, pretože po výrobe bude musieť chvíľu odstáť v mrazničke. Do misky pridaj proteínový prášok, Unicorn Dust a premiešaj, aby sa zabránilo zlepeniu.",
+		"Potom pomaly pridávaj smotanu, kým nezískaš konzistenciu podobnú poleve. V druhej miske si ručným mixérom rozmixuj cottage syr. Dbaj na to, aby si to neprehnala, pretože chceš, aby si zmrzlina zachovala nadýchanosť. Po vymixovaní pridaj cottage do misky so smotanovou zmesou, dobre premiešaj a vlož do mrazničky, kým zmes dostatočne nestuhne.",
+		"Teraz si priprav proteínové vafle. Všetky suché suroviny pridaj do misky a premiešaj, aby si zabránila ich zhlukovaniu. Potom pridaj mokré suroviny a miešaj, kým nezískaš konzistenciu podobnú cestu.",
+		"Predhrej si vaflovač a priprav si vafle. Tieto vafle sú hotové za 2 minúty, takže na to nezabudni. Tento postup zopakuj pre všetky vafle. Potom ich nechaj vychladnúť.",
+		"Keď má tvoja zmrzlinová náplň tuhú konzistenciu (po cca 2 hodinách), polož jednu z vaflí na tanier a prdaj na ňu kopček zmrzliny. Potom na zmrzlinu polož vrchnú vafľu a stlač ju, aby sa zmrzlina rovnomerne roztlačila do strán.",
+		"Hotové zmrzlinove sandwiche vlož do mrazničky, kým náplň nezmrzne do konzistencie zmrzliny. Potom si ich vychutnaj!"
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 298,
+			"portions": 2,
+			"macros": {"carbs": 30, "protein": 31, "fat": 6},
+			"ingredients": [
+				{"name": "čokoládový proteínový prášok", "quantity": 30, "unit": "g"},
+				{"name": "polohrubá múka", "quantity": 15, "unit": "g"},
+				{"name": "raw kakaový prášok", "quantity": 8, "unit": "g"},
+				{"name": "Unicorn Dust", "quantity": 5, "unit": "g"},
+				{"name": "prášok do pečiva", "quantity": 4, "unit": "g"},
+				{"name": "morská soľ", "unit": "štipka"},
+				{"name": "vajce", "quantity": 1, "unit": "ks"},
+				{"name": "nesladené mandľové mlieko", "quantity": 40, "unit": "ml"},
+				{"name": "cottage syr", "quantity": 100, "unit": "g"},
+				{"name": "19% smotana", "quantity": 50, "unit": "ml"},
+				{"name": "vanilkový proteínový prášok", "quantity": 10, "unit": "g"},
+				{"name": "Unicorn Dust Vanilla Ecstasy", "quantity": 3, "unit": "g"}
+			]
+		}
+	],
+	"image": "onvia/image268.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image268"
+}

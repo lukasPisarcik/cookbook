@@ -1,0 +1,100 @@
+{
+	"title": "Cibuľový dip",
+	"category": "zaklady",
+	"prepTimeMinutes": 35,
+	"steps": [
+		"Najprv nakrájaj cibuľu na tenké plátky a orestuj ju s troche oleja na panvici.",
+		"Keď sa začne sfarbovať, pridaj korenie, zvyšné tekuté suroviny na karamelizovanú cibuľu okrem vody a zníž teplotu na úroveň 6/10. Keď sa tekutina vyparí a cibuľa sa začne smažiť, pridaj trošku vody a opäť premiešaj. Cibuľu na panvici pravidelne premiešavaj počas smaženia a pridávaj po troškách vodu vždy keď sa vyparí.",
+		"Tento postup opakuj, kým nespotrebuješ všetku vodu (200 ml).",
+		"Medzitým rozmixuj všetky ostatné suroviny v mixéri, kým nezískaš hladkú krémovú konzistenciu.",
+		"Keď je cibuľa hotová a vychladená, pridaj ju k syrovému krému a všetko premiešaj spoločne v miske.",
+		"Nechaj odležať v chladničke aspoň 30 minút a podávaj."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 444,
+			"portions": 1,
+			"macros": {
+				"carbs": 28,
+				"protein": 35,
+				"fat": 21
+			},
+			"ingredients": [
+				{
+					"name": "cottage syr light",
+					"quantity": 200,
+					"unit": "g"
+				},
+				{
+					"name": "majonéza light",
+					"quantity": 50,
+					"unit": "g"
+				},
+				{
+					"name": "grécky jogurt 10%",
+					"quantity": 50,
+					"unit": "g"
+				},
+				{
+					"name": "šťava z citróna",
+					"quantity": 0.5,
+					"unit": "ks"
+				},
+				{
+					"name": "smažená cibuľa",
+					"quantity": 20,
+					"unit": "g"
+				},
+				{
+					"name": "cesnak",
+					"quantity": 1,
+					"unit": "strúčik"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "čierne korenie"
+				},
+				{
+					"name": "granulovaný cesnak"
+				},
+				{
+					"name": "granulovaná cibuľa"
+				},
+				{
+					"name": "biela cibuľa",
+					"quantity": 3,
+					"unit": "ks"
+				},
+				{
+					"name": "olej"
+				},
+				{
+					"name": "biele víno",
+					"quantity": 50,
+					"unit": "ml"
+				},
+				{
+					"name": "ocot balsamico",
+					"quantity": 20,
+					"unit": "ml"
+				},
+				{
+					"name": "worcesterská omáčka",
+					"quantity": 10,
+					"unit": "ml"
+				},
+				{
+					"name": "voda",
+					"quantity": 200,
+					"unit": "ml"
+				}
+			]
+		}
+	],
+	"image": "onvia/image36.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image36"
+}

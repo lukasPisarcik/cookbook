@@ -1,0 +1,35 @@
+{
+	"title": "Parmezánová mrkva",
+	"category": "snacky",
+	"prepTimeMinutes": 10,
+	"steps": [
+		"Predhrej rúru na 190 °C.",
+		"Mrkvy ošúp, prekroj pozdĺžne a následne na približne 3 kúsky.",
+		"Pridaj korenie CU8, pokvapkaj olivovým olejom a obaľ v strúhanom parmezáne tak, aby sa na ne čo najviac prichytil.",
+		"Poukladaj ich do zapekacej misy alebo na plech vystlaný papierom na pečenie.",
+		"Peč približne 30-40 minút, kým nezozlatnú, nezmäknú a parmezán nevytvorí chrumkavú kôrku.",
+		"Medzitým si priprav dip - zmiešaj majonézu, grécky jogurt, med a chilli omáčku.",
+		"Hotové mrkvy podávaj teplé s pripraveným dipom."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 384,
+			"portions": 1,
+			"macros": { "carbs": 26, "protein": 17, "fat": 26 },
+			"ingredients": [
+				{ "name": "mrkva", "quantity": 150, "unit": "g" },
+				{ "name": "strúhaný parmezán", "quantity": 30, "unit": "g" },
+				{ "name": "olivový olej", "quantity": 5, "unit": "g" },
+				{ "name": "korenie CU8" },
+				{ "name": "grécky jogurt", "quantity": 50, "unit": "g" },
+				{ "name": "majonéza", "quantity": 15, "unit": "g" },
+				{ "name": "med", "quantity": 10, "unit": "g" },
+				{ "name": "chilli omáčka", "unit": "kvapka" }
+			]
+		}
+	],
+	"image": "onvia/image248.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image248"
+}

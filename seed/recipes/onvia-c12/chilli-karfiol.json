@@ -1,0 +1,41 @@
+{
+	"title": "Chilli karfiol",
+	"category": "snacky",
+	"prepTimeMinutes": 15,
+	"steps": [
+		"Karfiol rozdeľ na malé ružičky, opláchni a osuš papierovou utierkou.",
+		"V miske zmiešaj roztopené maslo s korením H3T. Ružičky karfiolu obal v marináde.",
+		"Vlož do košíka horúcovzdušnej fritézy a peč pri 190 °C asi 15-18 minút, kým nebude karfiol zlatistý a chrumkavý.",
+		"V menšej miske zmiešaj jogurt, kyslú smotanu, korenie V7X.",
+		"Cherry paradajky nakrájaj na polovice a uhorku na plátky.",
+		"Do hlbokého taniera daj vrstvu dipu, prelej zvyškom marinády, naň poukladaj upečený karfiol, a dozdob cherry paradajkami, uhorkou a guľôčkami rakytníka."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 323,
+			"portions": 1,
+			"macros": {
+				"carbs": 19,
+				"protein": 20,
+				"fat": 20
+			},
+			"ingredients": [
+				{"name": "karfiol", "quantity": 150, "unit": "g"},
+				{"name": "roztopené maslo", "quantity": 10, "unit": "g"},
+				{"name": "korenie H3T"},
+				{"name": "biely grécky jogurt 0 %", "quantity": 140, "unit": "g"},
+				{"name": "kyslá smotana", "quantity": 50, "unit": "g"},
+				{"name": "korenie V7X"},
+				{"name": "soľ", "unit": "štipka"},
+				{"name": "čierne korenie", "unit": "štipka"},
+				{"name": "cherry paradajka", "quantity": 50, "unit": "g"},
+				{"name": "čerstvá uhorka", "quantity": 50, "unit": "g"},
+				{"name": "rakytníkové guľôčky"}
+			]
+		}
+	],
+	"image": "onvia/image242.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image242"
+}

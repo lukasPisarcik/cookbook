@@ -1,0 +1,52 @@
+{
+	"title": "Cheesecake poleva",
+	"category": "dezerty",
+	"prepTimeMinutes": 5,
+	"steps": [
+		"Zober si misku, daj do nej cottage cheese a ručným mixérom ho rozmixuj pokým ti nevznikne homogénna zmes.",
+		"Potom pridaj smotanový syr a opäť dobre premixuj ručným mixérom.",
+		"Pridaj do zmesi všetky suché suroviny a vyšľahaj, pokým sa všetky prísady nespoja a ty získaš hladkú konzistenciu podobnú poleve.",
+		"Hotovú polevu vlož do chladničky aby stuhla. My sme tú našu nechali chladiť cez noc. Polevu použi podľa potreby ako nátierku alebo polevu na koláče."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 16,
+			"macros": {
+				"carbs": 2,
+				"protein": 7,
+				"fat": 1
+			},
+			"ingredients": [
+				{
+					"name": "smotanový syr (nízkotučný)",
+					"quantity": 200,
+					"unit": "g"
+				},
+				{
+					"name": "cottage cheese",
+					"quantity": 200,
+					"unit": "g"
+				},
+				{
+					"name": "vanilkový proteínový prášok",
+					"quantity": 60,
+					"unit": "g"
+				},
+				{
+					"name": "Unicorn Dust",
+					"quantity": 6,
+					"unit": "g"
+				},
+				{
+					"name": "xantánová guma",
+					"quantity": 1,
+					"unit": "g"
+				}
+			]
+		}
+	],
+	"image": "onvia/image39.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image39"
+}

@@ -1,0 +1,35 @@
+{
+	"title": "Lasagne s morčacím mäsom a cuketou",
+	"category": "obedy",
+	"steps": [
+		"Trúbu rozohrejeme na 180 stupňov.",
+		"Cibuľu a cesnak očistite a nakrájate nadrobno a orestujte na olivovom oleji.",
+		"Pridajte mäso, ktoré dôkladne orestujte.",
+		"Cuketu nastrúhajte najemno a pridajte k mäsu. Prilejte passatu, pridajte trošku soli, podľa toho, či passata obsahuje soľ. Nakoniec pridajte aj oregano, všetko premiešajte a nechajte 10 minút dosiť.",
+		"Medzitým nastrúhajte parmezán najemno.",
+		"Na dno zapekacej formy položte prvú časť lagandí, na ne položte mäsovú zmes a posypte 1/3 parmezánu. Potom položte opäť lasagne, navrstvite mäsovú zmes a posypte druhou 1/3 parmezánu. Položte poslednú vrstvu lasagní, na ne opäť mäsovú zmes a poslednú 1/3 parmezánu.",
+		"Pečte v trúbe 40 minút.",
+		"Po upečení nechajte trochu vychladnúť a až potom nakrájajte."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 4,
+			"ingredients": [
+				{"name": "cibuľa", "quantity": 100, "unit": "g"},
+				{"name": "cesnak", "quantity": 2, "unit": "strúčik"},
+				{"name": "olivový olej", "quantity": 1, "unit": "PL"},
+				{"name": "morčacie mleté mäso", "quantity": 500, "unit": "g"},
+				{"name": "očistená cuketa", "quantity": 200, "unit": "g"},
+				{"name": "paradajková passata", "quantity": 500, "unit": "g"},
+				{"name": "sušené oregano", "quantity": 1, "unit": "ČL"},
+				{"name": "soľ"},
+				{"name": "parmezán", "quantity": 90, "unit": "g"},
+				{"name": "lasagne", "quantity": 130, "unit": "g"}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p110.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p110"
+}

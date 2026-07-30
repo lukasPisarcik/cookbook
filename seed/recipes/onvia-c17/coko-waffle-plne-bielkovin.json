@@ -1,0 +1,37 @@
+{
+	"title": "Čoko waffle plné bielkovín",
+	"category": "ranajky",
+	"prepTimeMinutes": 10,
+	"steps": [
+		"V miske zmiešaj cottage, 3 žĺtky, vyšľahaný bielok, prášok do pečiva, jemné vločky alebo ovsenú múku a lyžicu cacaa. Dôkladne premiešaj.",
+		"Rozpálený vaflovač nastriekaj alebo vymaž ghí alebo kokosovým olejom a do každej polovice vaflovača pridaj 2-3 PL zmesi. Prikry a peč, kým sa neopečú a neprestanú sa lepiť na vaflovač.",
+		"Z jednej zmesi získaš 4 vafle.",
+		"Na tanieri ozdob gréckym jogurtom a bobuľovým ovocím (malinami).",
+		"Prípadne pokvapkaj toppingom z arašidového masla a malinovým prebiotickým toppingom od Vilgain.",
+		"Vychutnaj si!"
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 345,
+			"portions": 2,
+			"macros": {"carbs": 27, "protein": 29, "fat": 11},
+			"ingredients": [
+				{"name": "cottage cheese light", "quantity": 200, "unit": "g"},
+				{"name": "žĺtok", "quantity": 2, "unit": "ks"},
+				{"name": "vajce", "quantity": 1, "unit": "ks"},
+				{"name": "prášok do pečiva", "quantity": 1, "unit": "ČL"},
+				{"name": "jemné vločky", "quantity": 50, "unit": "g"},
+				{"name": "raw cacao", "quantity": 1, "unit": "PL"},
+				{"name": "ghí"},
+				{"name": "nízkotučný grécky jogurt", "quantity": 1, "unit": "ks"},
+				{"name": "lesné ovocie", "unit": "hrsť"},
+				{"name": "topping z arašidového masla"},
+				{"name": "malinový prebiotický topping Vilgain"}
+			]
+		}
+	],
+	"image": "onvia/image317.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image317"
+}

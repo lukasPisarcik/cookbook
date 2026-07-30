@@ -1,0 +1,36 @@
+{
+	"title": "Proteínová cuketová kaša s drobným ovocím",
+	"category": "ranajky",
+	"prepTimeMinutes": 10,
+	"steps": [
+		"Cuketu nastrúhame a všetky suroviny okrem vajíčka zmiešame v hrnci, za stáleho miešania pomaly zohrievame.",
+		"Varíme až do požadovanej krémovej konzistencie kaše, popritom stále miešame, inak sa nam kaša pripáli.",
+		"Oddelíme si bielok od žĺtka. Vypneme oheň pod kašou, žĺtko vmiešame do kaše, bielok vyšľaháme v extra nádobe ručným mixérom na sneh. Keď je hrniec odstavený primiešame vyšlahaný bielok. Vmiešavame opatrne, aby nadýchaný sneh nestratil svoju konzistenciu a podávame.",
+		"Podľa nálady a chuti ozdobíme."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 757,
+			"portions": 1,
+			"macros": {"carbs": 60, "protein": 59, "fat": 30},
+			"ingredients": [
+				{"name": "ovsené vločky (pomleté na jemno)", "quantity": 40, "unit": "g"},
+				{"name": "mandľové mlieko (nesladené)", "quantity": 200, "unit": "ml"},
+				{"name": "cuketa", "quantity": 150, "unit": "g"},
+				{"name": "proteínový prášok", "quantity": 40, "unit": "g"},
+				{"name": "vajce", "quantity": 1, "unit": "ks"},
+				{"name": "Unicorn Dust", "quantity": 6, "unit": "g"},
+				{"name": "granola", "quantity": 30, "unit": "g"},
+				{"name": "orechové maslo", "quantity": 20, "unit": "g"},
+				{"name": "čučoriedky", "quantity": 100, "unit": "g"},
+				{"name": "soľ", "unit": "štipka"},
+				{"name": "škorica", "quantity": 0.5, "unit": "ČL"},
+				{"name": "limetková kôra"}
+			]
+		}
+	],
+	"image": "onvia/image297.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image297"
+}

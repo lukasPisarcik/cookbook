@@ -1,0 +1,67 @@
+{
+	"title": "Pomazánka zo sušených rajčín",
+	"category": "snacky",
+	"prepTimeMinutes": 10,
+	"steps": [
+		"Ak máš sušené paradajky bez nálevu, namoč ich predom na 5 minút do horúcej vody a potom ich preceď.",
+		"Všetky suroviny vlož do mixéra a rozmixuj.",
+		"Natrieš na pátok proteínového chlebíka a môžeš podávať s nejakou low kcal zeleninou.",
+		"Nátierku môžeš skladovať v chladničke a spotrebovať do 3- 5 dní."
+	],
+	"variants": [
+		{
+			"label": "300 kcal",
+			"kcalPerPortion": 294,
+			"portions": 3,
+			"macros": {
+				"carbs": 13,
+				"protein": 15,
+				"fat": 19
+			},
+			"ingredients": [
+				{
+					"name": "sušené paradajky",
+					"quantity": 100,
+					"unit": "g"
+				},
+				{
+					"name": "olivový olej",
+					"quantity": 20,
+					"unit": "ml"
+				},
+				{
+					"name": "sušený cesnak",
+					"quantity": 1,
+					"unit": "PL"
+				},
+				{
+					"name": "citrónová šťava",
+					"quantity": 1,
+					"unit": "ČL"
+				},
+				{
+					"name": "čierne korenie",
+					"unit": "štipka"
+				},
+				{
+					"name": "voda",
+					"quantity": 50,
+					"unit": "ml"
+				},
+				{
+					"name": "proteínový chlebík",
+					"quantity": 3,
+					"unit": "ks"
+				},
+				{
+					"name": "Lučina",
+					"quantity": 140,
+					"unit": "g"
+				}
+			]
+		}
+	],
+	"image": "snacky-300-kcal/p7.webp",
+	"source": "Snacky - 300 kcal.pdf",
+	"sourceRef": "p7"
+}

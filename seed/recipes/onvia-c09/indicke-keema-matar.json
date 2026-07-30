@@ -1,0 +1,44 @@
+{
+	"title": "Indické Keema Matar",
+	"category": "obedy",
+	"prepTimeMinutes": 10,
+	"steps": [
+		"Najskôr nakrájaj cibuľu a cesnak nadrobno.",
+		"Orestuj cibuľu a cesnak na oleji, potom pridaj hovädzie mäso a znovu spolu orestuj.",
+		"Dochuť zázvorom, chilli, soľou, korením, paprikou a zvyšnými koreninami.",
+		"Zmes zjemni jogurtom a trochou vody. Potom pridaj 2 PL paradajkovej pasty, ½ ČL garam masaly, citrónovú šťavu a zníž teplotu varenia. Dobre premiešaj.",
+		"Tesne pred koncom pridaj hrášok a restuj 2 minúty."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 345,
+			"portions": 1,
+			"macros": {
+				"carbs": 24,
+				"protein": 42,
+				"fat": 10
+			},
+			"ingredients": [
+				{ "name": "mleté hovädzie mäso", "quantity": 150, "unit": "g" },
+				{ "name": "cibuľa", "quantity": 0.5, "unit": "ks" },
+				{ "name": "mrazený hrášok", "quantity": 100, "unit": "g" },
+				{ "name": "prírodný jogurt", "quantity": 150, "unit": "g" },
+				{ "name": "paradajková pasta", "quantity": 2, "unit": "PL" },
+				{ "name": "olivový olej", "quantity": 1, "unit": "PL" },
+				{ "name": "citrón", "quantity": 1, "unit": "ks" },
+				{ "name": "morská soľ" },
+				{ "name": "čierne korenie" },
+				{ "name": "rasca" },
+				{ "name": "čerstvý cesnak" },
+				{ "name": "mletá paprika" },
+				{ "name": "mletý zázvor" },
+				{ "name": "garam masala" },
+				{ "name": "mleté chilli" }
+			]
+		}
+	],
+	"image": "onvia/image193.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image193"
+}

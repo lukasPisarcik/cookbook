@@ -1,0 +1,35 @@
+{
+	"title": "Mliečna „ryža“ s jablkom a orechami",
+	"category": "dezerty",
+	"prepTimeMinutes": 20,
+	"steps": [
+		"Karfiol najemno nastrúhame.",
+		"V hrnci privedieme mlieko do varu. Vmiešame premytú ryžu, karfiol, proteínový prášok, sladidlo a varíme na miernom ohni. Stále miešame aby sa nič nepripálilo.",
+		"Mliečna ryža je hotová, keď je ryža mäkká alebo je dosiahnutá požadovaná krémová konzistencia.",
+		"Hrniec odstavíme z ohňa a primiešame cottage syr.",
+		"Mliečnu ryžu odzobíme toppingom a podávame v miske."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 577,
+			"portions": 1,
+			"macros": {"carbs": 48, "protein": 48, "fat": 19},
+			"ingredients": [
+				{"name": "ryža", "quantity": 30, "unit": "g"},
+				{"name": "karfiol", "quantity": 100, "unit": "g"},
+				{"name": "cottage syr nízkotučný", "quantity": 100, "unit": "g"},
+				{"name": "proteínový prášok", "quantity": 30, "unit": "g"},
+				{"name": "nesladené mandľové mlieko", "quantity": 250, "unit": "ml"},
+				{"name": "Unicorn Dust", "quantity": 3, "unit": "g"},
+				{"name": "pekanové orechy", "quantity": 30, "unit": "g"},
+				{"name": "jablko", "quantity": 60, "unit": "g"},
+				{"name": "soľ", "unit": "štipka"},
+				{"name": "škorica"}
+			]
+		}
+	],
+	"image": "onvia/image299.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image299"
+}

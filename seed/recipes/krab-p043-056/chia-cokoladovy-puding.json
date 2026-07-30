@@ -1,0 +1,28 @@
+{
+	"title": "Chia čokoládový puding",
+	"category": "snacky",
+	"steps": [
+		"Chia semienka nasypte do misky, pridajte ovsené mlieko, med a kakao. Všetko spolu premiešajte.",
+		"Zmes presuňte do 2 misiek, zatvorte a dajte vychladiť aspoň na 3 hodiny.",
+		"Stuhnutý puding ozdobte jogurtom, arašidovým maslom, nasekanou čokoládou a jahodami."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 2,
+			"ingredients": [
+				{"name": "chia semienka", "quantity": 50, "unit": "g"},
+				{"name": "ovsené mlieko", "quantity": 230, "unit": "g"},
+				{"name": "med", "quantity": 20, "unit": "g"},
+				{"name": "holandské kakao", "quantity": 2, "unit": "PL"},
+				{"name": "arašidové maslo", "quantity": 2, "unit": "ČL"},
+				{"name": "vysoko percentná čokoláda", "quantity": 4, "unit": "štvorček"},
+				{"name": "sušené jahody"},
+				{"name": "grécky jogurt s 0% tuku", "quantity": 150, "unit": "g"}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p46.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p46"
+}

@@ -1,0 +1,28 @@
+{
+	"title": "Mliečna ryža",
+	"category": "snacky",
+	"dietTags": ["bezlepkove"],
+	"prepTimeMinutes": 25,
+	"steps": [],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 285,
+			"portions": 2,
+			"macros": { "carbs": 49, "protein": 8, "fat": 6 },
+			"ingredients": [
+				{ "name": "surová ryža", "quantity": 80, "unit": "g" },
+				{ "name": "kokosová voda", "quantity": 160, "unit": "ml" },
+				{ "name": "polotučné mlieko", "quantity": 160, "unit": "ml" },
+				{ "name": "maliny", "quantity": 100, "unit": "g" },
+				{ "name": "chia", "quantity": 5, "unit": "g" },
+				{ "name": "kokosový cukor", "quantity": 10, "unit": "g" },
+				{ "name": "škorica" },
+				{ "name": "maslo", "quantity": 7, "unit": "g" }
+			]
+		}
+	],
+	"image": "recepty-ig/p7.webp",
+	"source": "Recepty IG.pdf",
+	"sourceRef": "p7"
+}

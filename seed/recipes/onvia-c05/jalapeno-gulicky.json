@@ -1,0 +1,78 @@
+{
+	"title": "Jalapeno guličky",
+	"category": "snacky",
+	"prepTimeMinutes": 32,
+	"steps": [
+		"Predhrej rúru na 170°C funkcia ventilátor.",
+		"Mäso v miske zmiešaj s korením, bylinkami, nakrájanými jalapenos a všetkými ostatnými prísadami. Zo zmesi vytvor približne 20 guličiek (cca 35g na kus).",
+		"Mäsové guličky polož na plech vystlaný papierom na pečenie a peč v rúre 22 minút."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 20,
+			"macros": {
+				"carbs": 1,
+				"protein": 6,
+				"fat": 2
+			},
+			"ingredients": [
+				{
+					"name": "mleté morčacie mäso",
+					"quantity": 400,
+					"unit": "g"
+				},
+				{
+					"name": "jalapeño paprička",
+					"quantity": 2,
+					"unit": "ks"
+				},
+				{
+					"name": "vajce",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "horčica",
+					"quantity": 2,
+					"unit": "PL"
+				},
+				{
+					"name": "nízkotučný syr",
+					"quantity": 50,
+					"unit": "g"
+				},
+				{
+					"name": "panko strúhanka",
+					"quantity": 30,
+					"unit": "g"
+				},
+				{
+					"name": "smotanový syr light",
+					"quantity": 50,
+					"unit": "g"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "čierne korenie"
+				},
+				{
+					"name": "granulovaná cibuľa"
+				},
+				{
+					"name": "granulovaný cesnak"
+				},
+				{
+					"name": "petržlenová vňať",
+					"quantity": 0.25,
+					"unit": "šálka"
+				}
+			]
+		}
+	],
+	"image": "onvia/image105.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image105"
+}

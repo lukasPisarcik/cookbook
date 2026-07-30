@@ -1,0 +1,78 @@
+{
+	"title": "Krémová horčicová omáčka s medom",
+	"category": "zaklady",
+	"prepTimeMinutes": 5,
+	"steps": [
+		"Nakrájaj si nadrobno cibuľu, kôpor, uhorky a všetky suroviny zmiešaj dokopy, kým nevznikne omáčka podobná tatárskej omáčke.",
+		"Vlož ju na 30 minút do chladničky, aby trochu zhustla.",
+		"Po vychladení podávaj s obľúbeným pokrmom."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 245,
+			"portions": 1,
+			"macros": {
+				"carbs": 27,
+				"protein": 24,
+				"fat": 3
+			},
+			"ingredients": [
+				{
+					"name": "smotanový syr light",
+					"quantity": 200,
+					"unit": "g"
+				},
+				{
+					"name": "med",
+					"quantity": 1,
+					"unit": "ČL"
+				},
+				{
+					"name": "horčica",
+					"quantity": 2,
+					"unit": "ČL"
+				},
+				{
+					"name": "šťava z citróna",
+					"quantity": 0.5,
+					"unit": "ks"
+				},
+				{
+					"name": "šťava z uhoriek",
+					"quantity": 2,
+					"unit": "PL"
+				},
+				{
+					"name": "zaváraná uhorka",
+					"quantity": 5,
+					"unit": "ks"
+				},
+				{
+					"name": "červená cibuľa",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "čierne korenie"
+				},
+				{
+					"name": "granulovaný cesnak"
+				},
+				{
+					"name": "granulovaná cibuľa"
+				},
+				{
+					"name": "kôpor",
+					"unit": "hrsť"
+				}
+			]
+		}
+	],
+	"image": "onvia/image33.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image33"
+}

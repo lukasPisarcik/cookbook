@@ -1,0 +1,36 @@
+{
+	"title": "Špagety s krémovým avokádovým pestom",
+	"category": "obedy",
+	"prepTimeMinutes": 22,
+	"steps": [
+		"Špagety uvar v osolenej vode (al dente).",
+		"Medzitým rozmixuj všetky ostatné suroviny a koreniny (okrem paradajok) v mixéry.",
+		"Uvarené cestoviny zmiešaj spolu s vymixovaným avokádovým pestom a pridaj paradajky.",
+		"Finito!"
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 525,
+			"portions": 1,
+			"macros": {"carbs": 76, "protein": 31, "fat": 8},
+			"ingredients": [
+				{"name": "špagety", "quantity": 100, "unit": "g"},
+				{"name": "cottage syr (nízkotučný)", "quantity": 100, "unit": "g"},
+				{"name": "smotanový syr (nízkotučný)", "quantity": 50, "unit": "g"},
+				{"name": "avokádo", "quantity": 0.5, "unit": "ks"},
+				{"name": "cherry paradajky", "quantity": 11, "unit": "ks"},
+				{"name": "baby špenát", "quantity": 1, "unit": "hrsť"},
+				{"name": "šťava a kôra z bio citróna"},
+				{"name": "morská soľ"},
+				{"name": "čierne korenie"},
+				{"name": "čerstvý cesnak"},
+				{"name": "čerstvá petržlenová vňať"},
+				{"name": "chilli"}
+			]
+		}
+	],
+	"image": "onvia/image202.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image202"
+}

@@ -1,0 +1,35 @@
+{
+	"title": "Makový koláč s tvarohom",
+	"category": "dezerty",
+	"prepTimeMinutes": 20,
+	"steps": [
+		"Najprv si priprav cesto. Jednoducho zmiešaj všetky potrebné suroviny a vymiešaj hladkú polotekutú zmes.",
+		"Okrúhlu formu vymaž maslom a vysyp múkou. Cesto nalej do formy a peč pri teplote 180 stupňov približne 25 minút. Cesto by sa nemalo lepiť na špajdľu a vrch by mal byť zlatistý.",
+		"Nechaj ho chvíľu vychladnúť a potri ho tvarohom. Ten nechaj chvíľu stuhnúť a potom si pochutnaj!"
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 263,
+			"portions": 8,
+			"macros": {"carbs": 28, "protein": 11, "fat": 13},
+			"ingredients": [
+				{"name": "mletý mak", "quantity": 100, "unit": "g"},
+				{"name": "hladká múka", "quantity": 100, "unit": "g"},
+				{"name": "hrubá múka", "quantity": 100, "unit": "g"},
+				{"name": "erytritol", "quantity": 80, "unit": "g"},
+				{"name": "prášok do pečiva", "quantity": 0.5, "unit": "balenie"},
+				{"name": "vanilkové sladidlo", "quantity": 6, "unit": "g"},
+				{"name": "olej", "quantity": 60, "unit": "g"},
+				{"name": "vajce", "quantity": 1, "unit": "ks"},
+				{"name": "soľ", "unit": "štipka"},
+				{"name": "mlieko", "quantity": 300, "unit": "ml"},
+				{"name": "nízkotučný tvaroh", "quantity": 250, "unit": "g"},
+				{"name": "vanilková stévia"}
+			]
+		}
+	],
+	"image": "onvia/image313.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image313"
+}

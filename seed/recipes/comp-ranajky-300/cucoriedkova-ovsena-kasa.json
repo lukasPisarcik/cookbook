@@ -1,0 +1,31 @@
+{
+	"title": "Čučoriedková ovsená kaša",
+	"category": "ranajky",
+	"prepTimeMinutes": 15,
+	"steps": [
+		"V hrnci priveď mlieko do varu, pridaj ovsené vločky a var na miernom ohni, kým kaša nezhustne (cca 5-7 minút).",
+		"Odstav kašu z ohňa, nechaj 2-3 minútky vychladnúť a až potom vmiešaj proteínový prášok.",
+		"Ak je potrebné, pridaj trochu vody na zriedenie (ale niekedy nemusíš, pretože niektoré proteíny kašu sami rozriedia).",
+		"Primiešaj čučoriedky, časť môžeš roztlačiť priamo do kaše, a niektoré môžeš vmiešať do nej.",
+		"Podávaj v miske, ozdobené zvyšnými čučoriedkami a medom."
+	],
+	"funFact": "Čučoriedky sú považované za superpotravinu, nakoľko sú bohaté na antioxidanty, ktoré majú protizápalové účinky a chrania naše telo pred oxidačným stresom.",
+	"variants": [
+		{
+			"label": "300 kcal",
+			"kcalPerPortion": 294,
+			"portions": 1,
+			"macros": { "carbs": 38, "protein": 23, "fat": 5 },
+			"ingredients": [
+				{ "name": "ovsené vločky", "quantity": 30, "unit": "g" },
+				{ "name": "mlieko", "quantity": 100, "unit": "ml" },
+				{ "name": "proteínový prášok", "quantity": 20, "unit": "g" },
+				{ "name": "čučoriedky", "quantity": 50, "unit": "g" },
+				{ "name": "med", "quantity": 1, "unit": "ČL" }
+			]
+		}
+	],
+	"image": "ranajky-300-kcal/p6.webp",
+	"source": "Raňajky - 300 kcal.pdf",
+	"sourceRef": "p6"
+}

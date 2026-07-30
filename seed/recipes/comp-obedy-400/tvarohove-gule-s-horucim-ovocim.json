@@ -1,0 +1,32 @@
+{
+	"title": "Tvarohové gule s horúcim ovocím",
+	"category": "obedy",
+	"prepTimeMinutes": 20,
+	"steps": [
+		"V miske zmiešaj tvaroh, krupicu a vajcia.",
+		"Z cesta vytvor guľky a opatrne ich vlož do vriacej vody a var 10-12 minút.",
+		"Guľky musia vyplávať na povrch.",
+		"Na omáčku vlož ovocie na panvičku, pridaj trošku vody a 1 čl chia semienok. Pridaj flavdrops, stéviu alebo iné bezkalorické sladidlo. Var, kým ovocie nezovrie a nevytvorí sa gélovitá konzistencia.",
+		"Na tanier servíruj tvarohové guľky, polej ovocnou omáčkou a navrch pridaj bezkalorický sirup napr. čakankový."
+	],
+	"funFact": "Kokosový cukor má nižší glykemický index (GI) ako biely cukor, a tak môže byť vhodnejšou alternatívou, ak sa snažíš schudnúť. Navyše je obohatený aj o menšie množstvo minerálov ako je železo, zinok a vápnik.",
+	"variants": [
+		{
+			"label": "400 kcal",
+			"kcalPerPortion": 403,
+			"portions": 2,
+			"macros": { "carbs": 47, "protein": 32, "fat": 8 },
+			"ingredients": [
+				{ "name": "hrudkovitý nízkotučný tvaroh", "quantity": 250, "unit": "g" },
+				{ "name": "krupica", "quantity": 90, "unit": "g" },
+				{ "name": "vajce", "quantity": 1, "unit": "ks" },
+				{ "name": "mrazené bobuľové ovocie", "quantity": 200, "unit": "g" },
+				{ "name": "voda" },
+				{ "name": "bezkalorické sladidlo" },
+				{ "name": "chia", "quantity": 10, "unit": "g" }
+			]
+		}
+	],
+	"source": "Obedy - 400 kcal.pdf",
+	"sourceRef": "p10"
+}

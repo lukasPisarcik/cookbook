@@ -1,0 +1,91 @@
+{
+	"title": "Kapustová polievka",
+	"category": "obedy",
+	"prepTimeMinutes": 35,
+	"steps": [
+		"V hrnci opeč tofu nakrájané na kocky zo všetkých strán na lyžičke oleja.",
+		"Vyber ho a orestuj v hrnci nadrobno nakrájanú cibuľu a cesnak. Po chvíli pridaj sladkú papriku, chilli a zalej vodou alebo vývarom (môžeš pridať lyžicu vývaru Vilgain).",
+		"Medzitým ošúp zemiaky nakrájaj na malé kocky a pridaj do polievky.",
+		"Pridaj kmín, bobkový list, soľ a var, kým zemiaky nezmäknú.",
+		"Nakoniec pridaj kapustu a podľa chuti a preferencie kyslosti pridaj vodu z kapusty. Chvíľku povar.",
+		"Odstráň bobkový list a podávaj s čerstvou petržlenovou vňaťou, kyslou smotanou a chlebom."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 399,
+			"portions": 4,
+			"macros": {
+				"carbs": 50,
+				"protein": 22,
+				"fat": 13
+			},
+			"ingredients": [
+				{
+					"name": "olivový olej",
+					"quantity": 1,
+					"unit": "PL"
+				},
+				{
+					"name": "tofu natural",
+					"quantity": 1,
+					"unit": "balenie"
+				},
+				{
+					"name": "cibuľa",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "cesnak",
+					"quantity": 2,
+					"unit": "strúčik"
+				},
+				{
+					"name": "voda",
+					"quantity": 500,
+					"unit": "ml"
+				},
+				{
+					"name": "zemiaky",
+					"quantity": 2,
+					"unit": "ks"
+				},
+				{
+					"name": "kyslá kapusta",
+					"quantity": 500,
+					"unit": "g"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "sladká paprika"
+				},
+				{
+					"name": "chili"
+				},
+				{
+					"name": "rasca"
+				},
+				{
+					"name": "bobkový list"
+				},
+				{
+					"name": "kyslá smotana",
+					"quantity": 1,
+					"unit": "PL"
+				},
+				{
+					"name": "čerstvá petržlenová vňať"
+				},
+				{
+					"name": "kváskový chlieb"
+				}
+			]
+		}
+	],
+	"image": "onvia/image70.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image70"
+}

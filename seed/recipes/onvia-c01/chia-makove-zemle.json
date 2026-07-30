@@ -1,0 +1,64 @@
+{
+	"title": "Chia-makové žemle",
+	"category": "zaklady",
+	"prepTimeMinutes": 55,
+	"steps": [
+		"Najlepšie je pripraviť si chia semienka večer vopred. Jednoducho ich necháme cez noc napučať v 100 ml vody, aby sa vytvorila rôsolovitá hmota.",
+		"Rúru predhrejeme na 170°C s funkciou ventilátor.",
+		"Všetky suroviny zmiešame vo veľkej mise necháme 10-15 minút odpočívať, aby psyllium spojilo hmotu.",
+		"Z cesta si vytvarujeme 5 rovnako veľkých guličiek. Pre kontrolu môžeme použiť váhu, každá gulička by mala mať cca 80-95 g.",
+		"Povrch nakrojíme a žemle pečieme 45 min. Po 20 minútach vpichneme do povrchu žemlí niekoľko otvorov špáradlom."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 127,
+			"portions": 5,
+			"macros": {
+				"carbs": 3,
+				"protein": 14,
+				"fat": 6
+			},
+			"ingredients": [
+				{
+					"name": "nízkotučný jemný tvaroh",
+					"quantity": 250,
+					"unit": "g"
+				},
+				{
+					"name": "psylium",
+					"quantity": 15,
+					"unit": "g"
+				},
+				{
+					"name": "mandľová múka",
+					"quantity": 50,
+					"unit": "g"
+				},
+				{
+					"name": "kypriaci prášok do pečiva",
+					"quantity": 5,
+					"unit": "g"
+				},
+				{
+					"name": "pomletý mak",
+					"quantity": 30,
+					"unit": "g"
+				},
+				{
+					"name": "chia semienka",
+					"quantity": 20,
+					"unit": "g"
+				},
+				{
+					"name": "soľ",
+					"quantity": 3,
+					"unit": "g"
+				}
+			]
+		}
+	],
+	"image": "onvia/image16.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image16"
+}

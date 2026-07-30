@@ -1,0 +1,32 @@
+{
+	"title": "Apple toast",
+	"category": "ranajky",
+	"prepTimeMinutes": 10,
+	"steps": [
+		"Grécky jogurt zmiešaj s tahini alebo orechovým maslom a natri na krajec chleba.",
+		"Jablko nakrájaj na tenké plátky a poukladaj na natretý chlieb.",
+		"Posyp škoricou, pokvapkaj medom a posyp konopnými semienkami.",
+		"Vlož do air fryera a zapekaj pri 180 °C asi 5 minút, kým sa jablko jemne nezapečie a chlieb nebude chrumkavý.",
+		"Vychutnaj si!"
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 409,
+			"portions": 1,
+			"macros": {"carbs": 58, "protein": 25, "fat": 9},
+			"ingredients": [
+				{"name": "celozrnný chlieb", "quantity": 80, "unit": "g"},
+				{"name": "grécky jogurt", "quantity": 140, "unit": "g"},
+				{"name": "tahini", "quantity": 10, "unit": "g"},
+				{"name": "jablko", "quantity": 50, "unit": "g"},
+				{"name": "mletá škorica", "unit": "štipka"},
+				{"name": "med", "quantity": 5, "unit": "g"},
+				{"name": "konopné semienka", "unit": "štipka"}
+			]
+		}
+	],
+	"image": "onvia/image323.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image323"
+}

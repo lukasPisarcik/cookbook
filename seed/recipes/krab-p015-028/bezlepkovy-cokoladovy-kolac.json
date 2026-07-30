@@ -1,0 +1,35 @@
+{
+	"title": "Bezlepkový čokoládový koláč",
+	"category": "dezerty",
+	"dietTags": ["bezlepkove"],
+	"steps": [
+		"Rúru predhrejte na 180 stupňov.",
+		"Čokoládu rozpusťte spolu s kokosovým olejom alebo ghí.",
+		"Vajcia vyšľahajte s cukrom do peny, potom opatrne primiešajte olej a vodu.",
+		"V druhej miske premiešajte múku, kakao, kypriaci prášok a soľ.",
+		"Nakoniec do sypkej zmesi prilejte tekutú časť, všetko spolu premiešajte a nakoniec pridajte rozpustenú čokoládu a opäť premiešajte.",
+		"Formu s rozmermi 20x30 cm vymastite prepusteným maslom alebo kokosovým olejom, vysypte ovsenou múkou alebo ryžovou múkou. Nalejte cesto a pečte 30 minút.",
+		"Po upečení nechajte vychladnúť. Servírujte so skyrom alebo jogurtom."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 6,
+			"ingredients": [
+				{"name": "vysoko percentná čokoláda", "quantity": 125, "unit": "g"},
+				{"name": "kokosový olej", "quantity": 20, "unit": "g"},
+				{"name": "vajce", "quantity": 3, "unit": "ks"},
+				{"name": "trstinový cukor", "quantity": 145, "unit": "g"},
+				{"name": "repkový olej", "quantity": 100, "unit": "g"},
+				{"name": "vlažná voda", "quantity": 210, "unit": "g"},
+				{"name": "ovsená múka", "quantity": 250, "unit": "g"},
+				{"name": "holandské kakao", "quantity": 40, "unit": "g"},
+				{"name": "kypriaci prášok", "quantity": 0.5, "unit": "ČL"},
+				{"name": "soľ", "unit": "štipka"}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p19.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p19"
+}

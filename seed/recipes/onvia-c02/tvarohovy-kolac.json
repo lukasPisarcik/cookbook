@@ -1,0 +1,61 @@
+{
+	"title": "Tvarohový koláč",
+	"category": "dezerty",
+	"prepTimeMinutes": 70,
+	"steps": [
+		"Predhrej si rúru na 170 stupňov.",
+		"Tvaroh v kocke a jemný tvaroh dobre premiešaj spolu s práškom do pečiva, sladidlom a pudingovým práškom.",
+		"V malej miske oddeľ žĺtky od bielkov a vmiešaj ich do tvarohovej zmesi.",
+		"Bielka vyšľahaj so štipkou soli na tuhý sneh. Sneh opatrne vmiešaj do tvarohovej zmesi a prenes na plech vyložený papierom na pečenie.",
+		"Vlož piecť do vyhriatej rúry na približne 1 hodinu. Na prvých 30 min pečenia prikry koláč alobalom.",
+		"Cesto je spočiatku veľmi nadýchané, ale po vybratí z rúry sa prepadne.",
+		"Nechaj vychladnúť a potom si vychutnaj!"
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 99,
+			"portions": 10,
+			"macros": {
+				"carbs": 25,
+				"protein": 14,
+				"fat": 10
+			},
+			"ingredients": [
+				{
+					"name": "hrudkový nízkotučný tvaroh v kocke",
+					"quantity": 500,
+					"unit": "g"
+				},
+				{
+					"name": "jemný nízkotučný tvaroh",
+					"quantity": 250,
+					"unit": "g"
+				},
+				{
+					"name": "vajce",
+					"quantity": 4,
+					"unit": "ks"
+				},
+				{
+					"name": "vanilkový puding (prášok)",
+					"quantity": 1
+				},
+				{
+					"name": "prášok do pečiva",
+					"quantity": 1,
+					"unit": "ČL"
+				},
+				{
+					"name": "sladidlo"
+				},
+				{
+					"name": "soľ"
+				}
+			]
+		}
+	],
+	"image": "onvia/image37.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image37"
+}

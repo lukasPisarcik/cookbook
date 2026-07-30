@@ -1,0 +1,33 @@
+{
+	"title": "Acai bowl",
+	"category": "ranajky",
+	"prepTimeMinutes": 15,
+	"steps": [
+		"V mixéri zmiešaj acai prášok, kolagén / proteín, banán, lesné plody, sladidlo a mandľové mlieko.",
+		"Nalej do misky a ozdob plátkami banánu, čerstvým ovocím, granolou a semienkami.",
+		"Konzumuj hneď, kým sa to roztopí :D."
+	],
+	"funFact": "Acai pochádza z amazonského dažďového pralesa a je považované za superpotravinu. Oproti čučoriedkam obsahujú acai bobule až trojnásobok antioxidantov.",
+	"variants": [
+		{
+			"label": "300 kcal",
+			"kcalPerPortion": 336,
+			"portions": 1,
+			"macros": { "carbs": 39, "protein": 19, "fat": 9 },
+			"ingredients": [
+				{ "name": "acai prášok", "quantity": 1, "unit": "ČL" },
+				{ "name": "banán", "quantity": 1, "unit": "ks" },
+				{ "name": "kolagén", "quantity": 15, "unit": "g" },
+				{ "name": "mrazené lesné plody", "quantity": 70, "unit": "g" },
+				{ "name": "mandľové mlieko", "quantity": 80, "unit": "ml" },
+				{ "name": "stévia" },
+				{ "name": "čerstvé ovocie", "quantity": 20, "unit": "g" },
+				{ "name": "granola", "quantity": 20, "unit": "g" },
+				{ "name": "chia semienka", "quantity": 3, "unit": "g" }
+			]
+		}
+	],
+	"image": "ranajky-300-kcal/p14.webp",
+	"source": "Raňajky - 300 kcal.pdf",
+	"sourceRef": "p14"
+}

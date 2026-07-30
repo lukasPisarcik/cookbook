@@ -1,0 +1,38 @@
+{
+	"title": "PB & Jelly Muffin s arašidami",
+	"category": "dezerty",
+	"prepTimeMinutes": 15,
+	"steps": [
+		"Rúru predhrej na 175°C nastavenie ventilátor.",
+		"Všetky suché prísady daj do misy a premiešaj. Mokré prísady daj do samostatnej misy a premiešaj. Suché prísady spoj s mokrými a vymiešaj do hladka. Do cesta pridaj polovicu rozdrvených arašidov, druhú polovicu si nechaj na posypanie.",
+		"Formy na muffiny vystriekaj (vymaž) kokosovým olejom a cesto nalej do polovice muffinovej formy. Do stredu pridaj džem a potom ho zakry druhou vrstvou cesta. Tento postup zopakuj pre všetkých 6 muffinov a daj piecť.",
+		"Peč 25-30 minút. Keď sa na vrchu muffinov objavia praskliny a získajú zlatistú farbu, sú hotové.",
+		"Nechaj ich vychladnúť, na vrch pridaj vrstvu proteínového arašidového masla a ozdob zvyškom drvených arašidov. Potom už len zostáva vychutnávať!"
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 184,
+			"portions": 6,
+			"macros": {"carbs": 16, "protein": 21, "fat": 4},
+			"ingredients": [
+				{"name": "vanilkový proteínový prášok", "quantity": 50, "unit": "g"},
+				{"name": "arašidové maslo v prášku", "quantity": 36, "unit": "g"},
+				{"name": "kokosová múka", "quantity": 36, "unit": "g"},
+				{"name": "polohrubá múka", "quantity": 30, "unit": "g"},
+				{"name": "Unicorn Dust", "quantity": 9, "unit": "g"},
+				{"name": "prášok do pečiva", "quantity": 12, "unit": "g"},
+				{"name": "nízkotučný grécky jogurt", "quantity": 250, "unit": "g"},
+				{"name": "tekuté vaječné bielky", "quantity": 270, "unit": "g"},
+				{"name": "nesladené jablkové pyré", "quantity": 100, "unit": "g"},
+				{"name": "drvené arašidy", "quantity": 15, "unit": "g"},
+				{"name": "malinový džem s nízkym obsahom cukru", "quantity": 120, "unit": "g"},
+				{"name": "proteínové arašidové maslo", "quantity": 120, "unit": "g"},
+				{"name": "drvené arašidy", "quantity": 30, "unit": "g"}
+			]
+		}
+	],
+	"image": "onvia/image283.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image283"
+}

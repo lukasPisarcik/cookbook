@@ -1,0 +1,37 @@
+{
+	"title": "Slaná quinoa kaša",
+	"category": "ranajky",
+	"dietTags": ["bezlepkove"],
+	"prepTimeMinutes": 5,
+	"steps": [
+		"Najskôr si uvar quinou v hrnci do mäkka.",
+		"Potom do quinoy pridaj tvarohový syr, nastrúhaný parmezán, lahôdkové droždie, soľ a korenie. Premiešaj.",
+		"V druhom hrnci zohrej vodu so štipkou soli a octom. Urob vír a vhoď do nej jedno vajce. Nechaj variť približne 4 minúty.",
+		"Teraz stačí všetko naservírovať. Kašu daj do misky alebo hlbokého taniera, pridaj stratené vajce, nakrájané avokádo, cherry paradajky a citrón. Citrónom môžeš pokvapkať avokádo a všetko doladiť pár kvapkami chilli omáčky alebo srirachy.",
+		"Vychutnaj si!"
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 500,
+			"portions": 1,
+			"macros": {"carbs": 47, "protein": 25, "fat": 25},
+			"ingredients": [
+				{"name": "quinoa", "quantity": 60, "unit": "g"},
+				{"name": "tvarohový syr", "quantity": 1, "unit": "PL"},
+				{"name": "strúhaný parmezán", "quantity": 15, "unit": "g"},
+				{"name": "lahôdkové droždie", "quantity": 1, "unit": "ČL"},
+				{"name": "vajce", "quantity": 1, "unit": "ks"},
+				{"name": "avokádo", "quantity": 50, "unit": "g"},
+				{"name": "chilli omáčka", "quantity": 1, "unit": "ČL"},
+				{"name": "citrón"},
+				{"name": "cherry paradajky"},
+				{"name": "soľ"},
+				{"name": "korenie"}
+			]
+		}
+	],
+	"image": "onvia/image228.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image228"
+}

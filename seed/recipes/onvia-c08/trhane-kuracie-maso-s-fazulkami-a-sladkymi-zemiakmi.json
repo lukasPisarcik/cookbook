@@ -1,0 +1,89 @@
+{
+	"title": "Trhané kuracie mäso s fazuľkami a sladkými zemiakmi",
+	"category": "obedy",
+	"prepTimeMinutes": 45,
+	"steps": [
+		"Rúru si predhrejme na 180°C horný/spodný ohrev.",
+		"Vodu v hrnci necháme zovrieť a kuracie prsia vcelku vložíme a varíme 20 minút, pokým nie sú uvarené.",
+		"Sladké zemiaky ošúpeme, nakrájame na kocky, dokoreníme a na 20 minút dáme piecť do rúry.",
+		"Kuracie prsia vyberieme z hrnca, necháme vychladnúť a pomocou vidličiek, alebo rukami ho natrháme na tenké nite.",
+		"Natrhané kuracie prsia zmiešame s krémovým syrom, kečupom, paradajkovou pastou a korením.",
+		"Zelené fazuľky blanšírujeme 5-6 minút v hrnci (môžeme použiť rovnaký hrniec s vodu, v ktorej sme varili kuracie mäso).",
+		"Trhané kuracie mäso sprudka opečieme na panvici a k tomu pridáme aj fazuľky.",
+		"Na omáčku si necháme v hrnčeku zovrieť kokosové mlieko, pridáme koreniny a necháme chvíľu variť.",
+		"Opečené sladké zemiaky vyberieme z rúry, servírujeme na tanier s fazuľkami, trhaným kuracím mäsom a prelejeme omáčkou."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 498,
+			"portions": 1,
+			"macros": {
+				"carbs": 48,
+				"protein": 46,
+				"fat": 12
+			},
+			"ingredients": [
+				{
+					"name": "kuracie prsia",
+					"quantity": 150,
+					"unit": "g"
+				},
+				{
+					"name": "nízkotučný krémový syr",
+					"quantity": 30,
+					"unit": "g"
+				},
+				{
+					"name": "paradajková pasta",
+					"quantity": 10,
+					"unit": "g"
+				},
+				{
+					"name": "kečup light",
+					"quantity": 15,
+					"unit": "g"
+				},
+				{
+					"name": "sladké zemiaky",
+					"quantity": 150,
+					"unit": "g"
+				},
+				{
+					"name": "zelené fazuľky",
+					"quantity": 200,
+					"unit": "g"
+				},
+				{
+					"name": "kokosové mlieko plnotučné",
+					"quantity": 60,
+					"unit": "ml"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "čierne korenie"
+				},
+				{
+					"name": "čerstvý tymián"
+				},
+				{
+					"name": "sladká paprika"
+				},
+				{
+					"name": "štipľavá paprika"
+				},
+				{
+					"name": "sušený cesnak"
+				},
+				{
+					"name": "muškátový oriešok"
+				}
+			]
+		}
+	],
+	"image": "onvia/image177.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image177"
+}

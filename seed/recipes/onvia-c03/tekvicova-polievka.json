@@ -1,0 +1,75 @@
+{
+	"title": "Tekvicová polievka",
+	"category": "obedy",
+	"prepTimeMinutes": 30,
+	"steps": [
+		"Do hrnca nalej 1 čajovú lyžičku olivového oleja. Potom pridaj kurkumu a nechaj ju chvíľku na ohni ‘’rozvoňať’’ (len niekoľko sekúnd, aby nezhorkla).",
+		"Potom pridaj nadrobno nakrájanú cibuľu, roztlačený cesnak a nechaj speniť.",
+		"K cibuli pridaj na kocky nakrájanú a ošúpanú tekvicu hokkaido. Alebo ju môžeš upiecť najskôr v rúre, získa o niečo lepšiu chuť.",
+		"Ak chceš, môžeš prihodiť vetvičku rozmarínu alebo tymiánu. Zalej vodou a var pod pokrievkou, kým tekvica nezmäkne.",
+		"Po uvarení vyber vetvičky byliniek a rozmixuj tyčovým mixérom.",
+		"Vráť na sporák a dochuť soľou a korením.",
+		"Podávaj s lyžicou ricotty a nasucho opraženými tekvicovými semienkami."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 227,
+			"portions": 2,
+			"macros": {
+				"carbs": 24,
+				"protein": 9,
+				"fat": 12
+			},
+			"ingredients": [
+				{
+					"name": "olivový olej",
+					"quantity": 1,
+					"unit": "PL"
+				},
+				{
+					"name": "kurkuma",
+					"quantity": 1,
+					"unit": "ČL"
+				},
+				{
+					"name": "cibuľa",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "cesnak",
+					"quantity": 1,
+					"unit": "strúčik"
+				},
+				{
+					"name": "tekvica hokkaido",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "rozmarín"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "čierne korenie"
+				},
+				{
+					"name": "ricotta",
+					"quantity": 100,
+					"unit": "g"
+				},
+				{
+					"name": "tekvicové semienka",
+					"quantity": 10,
+					"unit": "g"
+				}
+			]
+		}
+	],
+	"image": "onvia/image71.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image71"
+}

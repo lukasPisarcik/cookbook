@@ -1,0 +1,34 @@
+{
+	"title": "Kuracia polievka do 15 minút",
+	"category": "obedy",
+	"dietTags": ["bezlaktozove"],
+	"prepTimeMinutes": 15,
+	"steps": [
+		"Na strednej teplote rozohrej olivový olej pridaj nakrájanú cibuľu, mrkvu a zeler. Restuj asi 3-5 minút, kým nezmäknú.",
+		"Pridaj nasekaný cesnak a restuj ešte 30-60 sekúnd, kým cesnak nezačne voňať.",
+		"Pridaj vývar a kuracie mäso a dosoľ a dokoreň podľa chuti.",
+		"Var ešte niekoľko minút a podávaj s rezancami."
+	],
+	"variants": [
+		{
+			"label": "500 kcal",
+			"kcalPerPortion": 507,
+			"portions": 1,
+			"macros": {"carbs": 46, "protein": 35, "fat": 20},
+			"ingredients": [
+				{"name": "olivový olej", "quantity": 5, "unit": "ml"},
+				{"name": "cibuľa", "quantity": 40, "unit": "g"},
+				{"name": "mrkva", "quantity": 40, "unit": "g"},
+				{"name": "zeler", "quantity": 40, "unit": "g"},
+				{"name": "cesnak", "quantity": 10, "unit": "g"},
+				{"name": "kurací vývar", "quantity": 375, "unit": "ml"},
+				{"name": "pečené kuracie mäso", "quantity": 100, "unit": "g"},
+				{"name": "soľ"},
+				{"name": "korenie"},
+				{"name": "cestoviny do polievky", "quantity": 40, "unit": "g"}
+			]
+		}
+	],
+	"source": "Obedy - 500 kcal.pdf",
+	"sourceRef": "p11"
+}

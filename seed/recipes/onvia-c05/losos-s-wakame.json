@@ -1,0 +1,75 @@
+{
+	"title": "Losos s wakame",
+	"category": "ranajky",
+	"prepTimeMinutes": 5,
+	"steps": [
+		"Krémový syr zmiešame s bylinkami, korením a citrónovou kôrou.",
+		"Avokádo prekrojíme na polovicu, odkôstkujeme a polovicu avokáda nakrájame na plátky.",
+		"Krajec chleba obložíme postupne so všetkými surovinami a vychutnávame!"
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 538,
+			"portions": 1,
+			"macros": {
+				"carbs": 51,
+				"protein": 30,
+				"fat": 24
+			},
+			"ingredients": [
+				{
+					"name": "kváskový chlieb",
+					"quantity": 1,
+					"unit": "krajec"
+				},
+				{
+					"name": "avokádo",
+					"quantity": 0.5
+				},
+				{
+					"name": "šťava z ½ citróna"
+				},
+				{
+					"name": "krémový syr light",
+					"quantity": 20,
+					"unit": "g"
+				},
+				{
+					"name": "údený losos",
+					"quantity": 100,
+					"unit": "g"
+				},
+				{
+					"name": "wakame riasy",
+					"quantity": 30,
+					"unit": "g"
+				},
+				{
+					"name": "Sriracha"
+				},
+				{
+					"name": "šalát"
+				},
+				{
+					"name": "uhorka"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "čierne korenie"
+				},
+				{
+					"name": "čerstvý kôpor"
+				},
+				{
+					"name": "kôra z citróna"
+				}
+			]
+		}
+	],
+	"image": "onvia/image101.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image101"
+}

@@ -1,0 +1,68 @@
+{
+	"title": "Uhorkové rolky",
+	"category": "snacky",
+	"prepTimeMinutes": 35,
+	"steps": [
+		"Uvarené kuracie prsia nakrájaj na malé kúsky.",
+		"Zmiešaj s roztlačeným avokádom, nasekaným koriandrom, šťavou z limetky, jemne nakrájanou cibuľkou, osoľ a okoreň podľa chuti.",
+		"Z uhorky nakrájaj pomocou škrabky dlhé tenké plátky, ktoré ulož tak, aby sa na polovicu prekrývali. Mal by ti vzniknúť celistvý obdĺžnik. Ten vysuš od nadbytočnej vody pomocou papierových utierok.",
+		"Pozdĺžne navrstvi pripravenú zmes a opatrne zaroluj. Nakrájaj a podávaj."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 316,
+			"portions": 1,
+			"macros": {
+				"carbs": 14,
+				"protein": 33,
+				"fat": 16
+			},
+			"ingredients": [
+				{
+					"name": "kuracie mäso",
+					"quantity": 100,
+					"unit": "g"
+				},
+				{
+					"name": "grécky jogurt 0%",
+					"quantity": 70,
+					"unit": "g"
+				},
+				{
+					"name": "koriander",
+					"quantity": 1,
+					"unit": "hrsť"
+				},
+				{
+					"name": "limetková šťava",
+					"quantity": 0.5,
+					"unit": "ks"
+				},
+				{
+					"name": "avokádo",
+					"quantity": 0.5,
+					"unit": "ks"
+				},
+				{
+					"name": "červená cibuľa",
+					"quantity": 0.25,
+					"unit": "ks"
+				},
+				{
+					"name": "olivový olej",
+					"quantity": 1,
+					"unit": "ČL"
+				},
+				{
+					"name": "uhorka",
+					"quantity": 1,
+					"unit": "ks"
+				}
+			]
+		}
+	],
+	"image": "onvia/image160.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image160"
+}

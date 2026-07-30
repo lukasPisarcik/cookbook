@@ -1,0 +1,43 @@
+{
+	"title": "Mäsové guľky s kapustou",
+	"category": "obedy",
+	"prepTimeMinutes": 30,
+	"steps": [
+		"Najskôr uvar ružičkovú kapustu vo vriacej osolenej vode asi 3 minúty.",
+		"Potom si priprav cibuľu na dochutenie mäsa. V hrnci orestuj nadrobno nakrájanú cibuľu na troche oleja. Pridaj rozdrvený strúčik cesnaku. Zalej 50 ml bieleho vína (zvyšok nechaj na omáčku) a nechaj dusiť, aby sa alkohol odparil a cibuľa pekne zhnedla. Zmes odlož bokom, aby trochu vychladla.",
+		"Teraz nechaj omáčku povariť. V hrnci po cibuľovej zmesi uvar nakrájané paradajky s passatou, zvyškom bieleho vína, štipkou soli a vývarom alebo bujónom.",
+		"Poslednou časťou je mäsová zmes. Mleté hovädzie mäso vhoď do veľkej misy a zmiešaj ho so strúhankou, pridaj korenie RO0 a cibuľovou zmesou z kroku 2. Dôkladne premiešaj rukami. Vytvaruj guľky veľké ako kapusta. Kapustu jednoducho vtlač do mäsa, aby sa vytvorila pevná guľa.",
+		"Guľky opeč zo všetkých strán na panvici s trochou olivového oleja alebo upeč v rúre.",
+		"Guľky môžeš nechať dovariť aj v paradajkovej omáčke (nebudú však také chrumkavé).",
+		"Ako prílohu môžeš použiť dusenú ryžu, zemiaky alebo kúsok dobrého chleba.",
+		"Vychutnaj si."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 446,
+			"portions": 4,
+			"macros": {"carbs": 50, "protein": 14, "fat": 20},
+			"ingredients": [
+				{"name": "mleté hovädzie mäso", "quantity": 500, "unit": "g"},
+				{"name": "vaječný žĺtok", "quantity": 1, "unit": "ks"},
+				{"name": "cibuľa", "quantity": 100, "unit": "g"},
+				{"name": "cesnak", "quantity": 1, "unit": "strúčik"},
+				{"name": "strúhanka", "quantity": 30, "unit": "g"},
+				{"name": "biele víno", "quantity": 150, "unit": "ml"},
+				{"name": "sekané paradajky", "quantity": 1, "unit": "konzerva"},
+				{"name": "passata", "quantity": 500, "unit": "g"},
+				{"name": "vývar", "quantity": 500, "unit": "ml"},
+				{"name": "olivový olej", "quantity": 1, "unit": "PL"},
+				{"name": "ružičková kapusta", "quantity": 250, "unit": "g"},
+				{"name": "korenie RO0"},
+				{"name": "sladká paprika"},
+				{"name": "majoránka"},
+				{"name": "čierne korenie"}
+			]
+		}
+	],
+	"image": "onvia/image216.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image216"
+}

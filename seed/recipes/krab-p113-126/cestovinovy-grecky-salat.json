@@ -1,0 +1,29 @@
+{
+	"title": "Cestovinový grécky šalát",
+	"category": "vecere",
+	"steps": [
+		"Cestoviny uvarte podľa návodu, potom zlejte vodu a ihneď premiešajte s olivovým olejom.",
+		"Všetku zeleninu umyte a očistite, cibuľu a uhorku zbavte šupky. Cibuľu nakrájajte na tenké polkolieska, paradajky na štvrtinky, papriky na kúsky, uhorku na polkoliečka, olivy na polovicu. Všetko pridajte k cestovinám.",
+		"Premiešajte a pridajte oregano, podľa chuti osoľte, rozdrobte fetu a opäť premiešajte."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 4,
+			"ingredients": [
+				{"name": "celozrnné cestoviny typu penne", "quantity": 200, "unit": "g"},
+				{"name": "menšie červené cibule", "quantity": 2, "unit": "ks"},
+				{"name": "cherry paradajky", "quantity": 250, "unit": "g"},
+				{"name": "červená kapia", "quantity": 2, "unit": "ks"},
+				{"name": "šalátová uhorka", "quantity": 1, "unit": "ks"},
+				{"name": "čerstvé olivy", "quantity": 16, "unit": "ks"},
+				{"name": "sušené oregano"},
+				{"name": "feta", "quantity": 200, "unit": "g"},
+				{"name": "extra panenský olivový olej", "quantity": 3, "unit": "PL"}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p115.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p115"
+}

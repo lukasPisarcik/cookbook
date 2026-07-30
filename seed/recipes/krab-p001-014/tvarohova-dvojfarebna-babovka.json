@@ -1,0 +1,32 @@
+{
+	"title": "Tvarohová dvojfarebná bábovka",
+	"category": "ranajky",
+	"steps": [
+		"Rúru predhrejte na 170 stupňov.",
+		"Oddeľte bielky od žĺtkov. Z bielkov vyšľahajte sneh.",
+		"Potom vyšľahajte žĺtky s cukrom, maslom a tvarohom. Pridajte krupicu, kypriaci prášok a soľ. Nakoniec zapracujte sneh.",
+		"Formu vymastite maslom a vysypte krupicou. Polovicu cesta nalejte do formy a do zbytku cesta vmiešajte kakao. Nalejte na svetlú polovicu cesta a dajte piecť na 50 minút.",
+		"Porciu v krabičke doplňte gréckym jogurtom s 0 % tuku a obľúbeným ovocím."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"ingredients": [
+				{ "name": "nízkotučný tvaroh", "quantity": 250, "unit": "g" },
+				{ "name": "plnotučný tvaroh", "quantity": 250, "unit": "g" },
+				{ "name": "vajce", "quantity": 3, "unit": "ks" },
+				{ "name": "zmäknuté maslo", "quantity": 160, "unit": "g" },
+				{ "name": "detská krupica", "quantity": 200, "unit": "g" },
+				{ "name": "kryštálový cukor", "quantity": 170, "unit": "g" },
+				{ "name": "kypriaci prášok", "quantity": 1, "unit": "balenie" },
+				{ "name": "soľ", "unit": "štipka" },
+				{ "name": "holandské kakao", "quantity": 2, "unit": "PL" },
+				{ "name": "maslo na vymastenie formy" },
+				{ "name": "krupica na vysypanie formy" }
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p9.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p9"
+}

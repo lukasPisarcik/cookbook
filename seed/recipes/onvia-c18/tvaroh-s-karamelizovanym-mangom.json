@@ -1,0 +1,31 @@
+{
+	"title": "Tvaroh s karamelizovaným mangom",
+	"category": "dezerty",
+	"prepTimeMinutes": 10,
+	"steps": [
+		"Tvaroh poriadne vymiešame s perlivou vodou, proteínovým práškom a podľa chuti dosladíme.",
+		"Na panvici si rozpálime cukor Erythritol alebo Xylitol a pridáme mango nakrájané na kocky.",
+		"Na strednom ohni mango karamelizujeme cca 7-10 minút a posledné dve minúty pridáme aj nasekané mandle.",
+		"Poriadne premiešame a ozdobíme vymiešaný tvaroh."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 402,
+			"portions": 1,
+			"macros": {"carbs": 33, "protein": 50, "fat": 7},
+			"ingredients": [
+				{"name": "nízkotučný tvaroh jemný", "quantity": 250, "unit": "g"},
+				{"name": "perlivá voda", "quantity": 100, "unit": "ml"},
+				{"name": "vanilkový proteínový prášok", "quantity": 20, "unit": "g"},
+				{"name": "mango", "quantity": 150, "unit": "g"},
+				{"name": "sladidlo"},
+				{"name": "xylitol", "quantity": 25, "unit": "g"},
+				{"name": "nasekané mandle", "quantity": 15, "unit": "g"}
+			]
+		}
+	],
+	"image": "onvia/image342.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image342"
+}

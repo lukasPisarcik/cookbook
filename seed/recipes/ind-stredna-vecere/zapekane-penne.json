@@ -1,0 +1,87 @@
+{
+	"title": "Zapekané penne",
+	"category": "vecere",
+	"prepTimeMinutes": 45,
+	"steps": [
+		"Zohrej polovicu dávky oleja na panvičke alebo zapekacej miske ( budeme dávať do rúry).",
+		"Pridaj strúhanku a cesnak, ( pozor aby nezhorel, inak zhorkne).",
+		"Za stáleho miešania opekaj, kým strúhanka nezíska zlatohnedú farbu (asi 1–2 minúty). Potom ju presyp do malej misky a odlož bokom.",
+		"Do tej istej panvice pridaj zvyšný olej a zohrej ju. Pridaj kuracie mäso, talianske korenie, sol a zvyšnú lyžicu cesnaku. Restuj, kým kuracie mäso nie je hotové.",
+		"Potom prilej vývar, paradajky a penne cestoviny . Var bez pokrievky, často miešaj, kým sa cestoviny neuvaria a omáčka trochu nezhustne (cca 15–20 minút).",
+		"Medzitým si predhrej rúru na 200 stupňov. Keď sú cestoviny hotové, posyp ich nastrúhanou mozzarellou a vlož panvicu do rúry a zapekaj približne 2-5 minút – kým sa syr nerozpustí, nezačne bublinkovať a jemne nezhnedne.",
+		"Nakoniec posyp vrch pripravenou panko strúhankou, nastrúhaným parmezánom a nasekanou čerstvou bazalkou.",
+		"Dobrú chuť :)"
+	],
+	"funFact": "Kuracie mäso, predovšetkým prsia sú skvelý zdroj bielkovín a neobsahujú takmer žiaden tuk.",
+	"variants": [
+		{
+			"label": "400 kcal",
+			"kcalPerPortion": 385,
+			"portions": 5,
+			"macros": {
+				"carbs": 39,
+				"protein": 33,
+				"fat": 10
+			},
+			"ingredients": [
+				{
+					"name": "olivový olej",
+					"quantity": 16,
+					"unit": "g"
+				},
+				{
+					"name": "strúhanka",
+					"quantity": 15,
+					"unit": "g"
+				},
+				{
+					"name": "nasekaný cesnak"
+				},
+				{
+					"name": "kuracie prsia",
+					"quantity": 450,
+					"unit": "g"
+				},
+				{
+					"name": "talianske korenie",
+					"quantity": 1,
+					"unit": "ČL"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "neosolený kurací vývar",
+					"quantity": 2,
+					"unit": "šálka"
+				},
+				{
+					"name": "lúpané krájané paradajky v paradajkovej šťave",
+					"quantity": 400,
+					"unit": "g"
+				},
+				{
+					"name": "celozrnné penne cestoviny",
+					"quantity": 225,
+					"unit": "g"
+				},
+				{
+					"name": "nastrúhaná mozzarella",
+					"quantity": 55,
+					"unit": "g"
+				},
+				{
+					"name": "nastrúhaný parmezán",
+					"quantity": 30,
+					"unit": "g"
+				},
+				{
+					"name": "nasekaná čerstvá bazalka"
+				}
+			]
+		}
+	],
+	"image": "zapekane-penne-400-kcal/p1.webp",
+	"source": "Zapekané penne - 400 kcal.pdf",
+	"sourceRef": "p1"
+}

@@ -1,0 +1,36 @@
+{
+	"title": "Dokonalý cuketový perník",
+	"category": "dezerty",
+	"steps": [
+		"Cuketu nastrúhajte najemno a dajte do misky. Zlejte vodu, ktorá vznikla pri strúhaní a potom k nej pridajte rozšľahané vajíčka, mlieko, maslo a med. Všetko premiešajte.",
+		"V druhej miske zmiešajte múku, kakao, cukor, perníkové korenie, kypriaci prášok a soľ.",
+		"Tekuté ingrediencie nalejte do misky k suchým ingredienciám a všetko spojte do ľahko tekutého cesta. Nakoniec pridajte nasekanú čokoládu a opäť premiešajte.",
+		"Obdĺžnikovú formu na koláč s rozmermi 24x34 cm vymastite maslom a vysypte múkou a rovnomerne nalejte cesto.",
+		"Dajte piecť do rúry vyhriatej na 180 stupňov (horný aj spodný ohrev) na 25 minút.",
+		"Po upečení nechajte chvíľu vychladnúť. Potom vo vodnom kúpeli rozpustite čokoládu a potrite ňou perník. Nechajte do rána stuhnúť.",
+		"Podávajte so skyrom alebo gréckym jogurtom s 0 % tuku pre doplnenie bielkovín."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"ingredients": [
+				{"name": "olúpaná cuketa", "quantity": 300, "unit": "g"},
+				{"name": "vajce", "quantity": 2, "unit": "ks"},
+				{"name": "plnotučné mlieko", "quantity": 180, "unit": "g"},
+				{"name": "med", "quantity": 100, "unit": "g"},
+				{"name": "rozpustené maslo", "quantity": 130, "unit": "g"},
+				{"name": "hladká pšeničná múka", "quantity": 230, "unit": "g"},
+				{"name": "trstinový cukor", "quantity": 80, "unit": "g"},
+				{"name": "holandské kakao", "quantity": 20, "unit": "g"},
+				{"name": "perníkové korenie", "quantity": 8, "unit": "g"},
+				{"name": "kypriaci prášok", "quantity": 8, "unit": "g"},
+				{"name": "soľ", "unit": "štipka"},
+				{"name": "čokoláda s obsahom kakaa min. 70 %", "quantity": 50, "unit": "g"},
+				{"name": "čokoláda s obsahom kakaa min. 70 % na polevu", "quantity": 150, "unit": "g"}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p34.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p34"
+}

@@ -1,0 +1,76 @@
+{
+	"title": "Mrkvová nátierka",
+	"category": "zaklady",
+	"prepTimeMinutes": 30,
+	"steps": [
+		"Predhrej rúru na 185°C ohrev zhora / zdola.",
+		"Mrkvy očisti a nakrájaj na menšie kúsky. Umiesti ich na plech a peč, kým nezmäknú. Budú pekne sladké.",
+		"Keď je mrkva upečená, hoď ju do mixéra spolu s nátierkovým syrom, olivovým olejom, citrónovou šťavou, koreninami a vodou.",
+		"Mixuj, kým nemáš hladkú konzistenciu.",
+		"Podávaj natretú na opečenom chlebe, posyp rozdrobeným feta syrom a môžeš ešte posypať čerstvými bylinkami.",
+		"Nátierku skladuj v chladničke až 3 dni."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 94,
+			"portions": 4,
+			"macros": {
+				"carbs": 9,
+				"protein": 3,
+				"fat": 5
+			},
+			"ingredients": [
+				{
+					"name": "mrkva",
+					"quantity": 3,
+					"unit": "ks"
+				},
+				{
+					"name": "olivový olej",
+					"quantity": 1,
+					"unit": "PL"
+				},
+				{
+					"name": "nátierkový syr",
+					"quantity": 1,
+					"unit": "balenie"
+				},
+				{
+					"name": "šťava z citróna",
+					"quantity": 0.5,
+					"unit": "ks"
+				},
+				{
+					"name": "voda",
+					"quantity": 2,
+					"unit": "PL"
+				},
+				{
+					"name": "soľ",
+					"unit": "štipka"
+				},
+				{
+					"name": "korenie",
+					"unit": "štipka"
+				},
+				{
+					"name": "opečený chlieb",
+					"quantity": 2,
+					"unit": "plátok"
+				},
+				{
+					"name": "feta syr",
+					"quantity": 30,
+					"unit": "g"
+				},
+				{
+					"name": "čerstvá petržlenová vňať"
+				}
+			]
+		}
+	],
+	"image": "onvia/image41.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image41"
+}

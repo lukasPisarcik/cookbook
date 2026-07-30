@@ -1,0 +1,83 @@
+{
+	"title": "Gnocchi s pistáciovým pestom a rukolou",
+	"category": "obedy",
+	"prepTimeMinutes": 28,
+	"steps": [
+		"Najskôr si pripravíme gnocchi. Tvaroh s vajcom zmiešame vo veľkej miske a krátko premixujeme ručným mixérom. Pridáme guarovú gumu a vypracujeme cesto do tvaru gule. Pokiaľ je cesto veľmi lepkavé, pridáme trochu špaldovej múky. Cesto v tvare gule necháme odstáť zakryté 15 minút.",
+		"Pracovnú plochu posypeme trochou múky, alebo proteinovým práškom bez príchute a vyvaľkáme z cesta podlhovasté „hady“. Nakrájame ich na kúsky rovnakej veľkosti a pritlačíme povrch vidličkou tak, aby získali typický gnocchi vzhľad.",
+		"Gnocchi vložíme do variacej vody a varíme, pokiaľ nevyplávajú na povrch (cca 8 min). Keď sú hotové, vyberieme ich z vody a necháme odstáť.",
+		"Pistácie orestujeme na panvici (bez oleja).",
+		"Sušené paradajky nakrájame na malé kúsky a pomocou mixéra spracujeme všetky suroviny na pesto. Ak je zmes príliš tuhá pridáme trochu vody.",
+		"Pridáme polovicu z pripraveného pesta na rozohriatu panvicu a uvarené gnocchi s pestom chvíľu restujeme.",
+		"Gnocchi servírujeme na tanieri a so zvyškom pesta odzobíme podľa chuti a potreby."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 639,
+			"portions": 1,
+			"macros": {
+				"carbs": 15,
+				"protein": 39,
+				"fat": 41
+			},
+			"ingredients": [
+				{
+					"name": "nízkotučný tvaroh jemný",
+					"quantity": 150,
+					"unit": "g"
+				},
+				{
+					"name": "vajce",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "guarová guma",
+					"quantity": 30,
+					"unit": "g"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "sušená zmes byliniek"
+				},
+				{
+					"name": "sušený cesnak"
+				},
+				{
+					"name": "pistáciové oriešky",
+					"quantity": 20,
+					"unit": "g"
+				},
+				{
+					"name": "parmezán",
+					"quantity": 20,
+					"unit": "g"
+				},
+				{
+					"name": "sušené paradajky",
+					"quantity": 30,
+					"unit": "g"
+				},
+				{
+					"name": "olivový olej",
+					"quantity": 15,
+					"unit": "g"
+				},
+				{
+					"name": "voda",
+					"quantity": 50,
+					"unit": "ml"
+				},
+				{
+					"name": "cesnak"
+				}
+			]
+		}
+	],
+	"image": "onvia/image179.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image179"
+}

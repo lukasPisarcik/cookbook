@@ -1,0 +1,89 @@
+{
+	"title": "Coleslaw wrap",
+	"category": "obedy",
+	"prepTimeMinutes": 40,
+	"steps": [
+		"Kapustu nakrájaj na jemné prúžky, mrkvu nastrúhaj nahrubo, uhorku na polmesiačiky, cibuľu na tenké prúžky a petržlen nasekaj.",
+		"Vajíčka uvar natvrdo. Oddeľ žĺtky od bielkov – bielky nastrúhaj a primiešaj k zelenine. Žĺtky roztlač a vyšľahaj so sójovou omáčkou, olejom, horčicou a jogurtom do krémovej zálievky. Osoľ, okoreň a premiešaj so zeleninou.",
+		"Nechaj odstáť aspoň 30 minút v chladničke.",
+		"Kuracie rezne osoľ a okoreň podľa chuti (napr. sladká paprika, cesnak, čierne korenie). Opeč na panvici dozlatista – môžeš ich podliať trochou vody a prikryť, aby ostali šťavnaté. Po opečení nakrájaj na tenké pásiky.",
+		"Každý wrap naplň šalátom a kuracím mäsom. Zabaľ a nasucho opeč na panvici alebo v teplovzdušnej fritéze, aby bol chrumkavý."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 519,
+			"portions": 3,
+			"macros": {
+				"carbs": 43,
+				"protein": 35,
+				"fat": 22
+			},
+			"ingredients": [
+				{
+					"name": "kuracie stehenné rezne",
+					"quantity": 300,
+					"unit": "g"
+				},
+				{
+					"name": "wrap",
+					"quantity": 3,
+					"unit": "ks"
+				},
+				{
+					"name": "vajce",
+					"quantity": 3,
+					"unit": "ks"
+				},
+				{
+					"name": "červená cibuľa",
+					"quantity": 60,
+					"unit": "g"
+				},
+				{
+					"name": "uhorka",
+					"quantity": 100,
+					"unit": "g"
+				},
+				{
+					"name": "surová kapusta",
+					"quantity": 200,
+					"unit": "g"
+				},
+				{
+					"name": "mrkva",
+					"quantity": 100,
+					"unit": "g"
+				},
+				{
+					"name": "petržlenová vňať",
+					"quantity": 1,
+					"unit": "hrsť"
+				},
+				{
+					"name": "olivový olej",
+					"quantity": 10,
+					"unit": "g"
+				},
+				{
+					"name": "plnotučná horčica",
+					"quantity": 3,
+					"unit": "ČL"
+				},
+				{
+					"name": "sójová omáčka",
+					"quantity": 1,
+					"unit": "PL"
+				},
+				{
+					"name": "biely jogurt",
+					"quantity": 150,
+					"unit": "g"
+				}
+			]
+		}
+	],
+	"image": "onvia/image162.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image162"
+}

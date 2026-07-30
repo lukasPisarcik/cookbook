@@ -1,0 +1,39 @@
+{
+	"title": "Domáci obložený bagel",
+	"category": "ranajky",
+	"prepTimeMinutes": 35,
+	"steps": [
+		"Predhrej rúru na 180 °C.",
+		"V miske zmiešaj grécky jogurt, múku a kypriaci prášok, kým nevznikne cesto.",
+		"Z cesta vytvaruj 4 bagely.",
+		"Potri vajíčkom a posyp semienkami.",
+		"Peč do dozlatista v rúre 20-25 minút.",
+		"Nechaj bagely vychladnúť a potom naplň Lučinou, avokádom, mozzarellou, šunkou a zeleninou.",
+		"Vyjdú ti 4 porcie."
+	],
+	"funFact": "Bagel je pôvodm z Poľska a nie z USA. Do USA sa bagely dostali vďaka poľským prisťahovalcom okolo druhej polovice 19. storočia.",
+	"variants": [
+		{
+			"label": "450 kcal",
+			"kcalPerPortion": 449,
+			"portions": 4,
+			"macros": {"carbs": 35, "protein": 30, "fat": 21},
+			"ingredients": [
+				{"name": "grécky odtučnený jogurt", "quantity": 250, "unit": "g"},
+				{"name": "špaldová celozrnná múka", "quantity": 130, "unit": "g"},
+				{"name": "kypriaci prášok", "quantity": 1, "unit": "ČL"},
+				{"name": "vajce", "quantity": 1, "unit": "ks"},
+				{"name": "semienka", "quantity": 20, "unit": "g"},
+				{"name": "avokádo", "quantity": 200, "unit": "g"},
+				{"name": "kvalitná šunka 80+ %", "quantity": 100, "unit": "g"},
+				{"name": "krémový syr", "quantity": 60, "unit": "g"},
+				{"name": "mozzarella v náleve light", "quantity": 220, "unit": "g"},
+				{"name": "uhorka"},
+				{"name": "cherry paradajky"},
+				{"name": "čerstvý špenát"}
+			]
+		}
+	],
+	"source": "Raňajky - 450 kcal.pdf",
+	"sourceRef": "p13"
+}

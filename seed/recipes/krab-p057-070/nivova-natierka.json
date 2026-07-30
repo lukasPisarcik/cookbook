@@ -1,0 +1,34 @@
+{
+	"title": "Nivová nátierka",
+	"category": "zaklady",
+	"steps": [
+		"Nivu rozmixujte spolu s gervais a tvarohom.",
+		"Podávajte buď s pečivom alebo je to aj skvelý dip k pečeným zemiakom.",
+		"Ozdobiť môžete vlašskými orechmi a hroznom."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 2,
+			"ingredients": [
+				{
+					"name": "gervais fit protein",
+					"quantity": 80,
+					"unit": "g"
+				},
+				{
+					"name": "nízkotučný tvaroh",
+					"quantity": 250,
+					"unit": "g"
+				},
+				{
+					"name": "niva",
+					"quantity": 70
+				}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p57.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p57"
+}

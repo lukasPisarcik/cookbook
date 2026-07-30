@@ -1,0 +1,29 @@
+{
+	"title": "Kuracia pečeň v krémovej omáčke",
+	"category": "vecere",
+	"steps": [
+		"Cibuľu nakrájajte nadrobno. Kuraciu pečeň na menšie kúsky.",
+		"Na panvici rozohrejte olej a orestujte na ňom cibuľu do zlatista. Potom pridajte pečeň a tiež orestujte.",
+		"Pridajte soľ a podlejte vodou, duste cca 3 minúty, potom pridajte passatu a mletú papriku. Duste 10 minút.",
+		"Nakoniec pridajte smotanu a povarte. Skontrolujte či je pečeň hotová, ak áno už ju ďalej nevarte a podľa chuti ešte dosoľte.",
+		"Ak je omáčka redšia, dajte trochu pečene s tekutinou do nádoby od mixéra a rozmixujte, rozmixovanú zmes prelejte späť do omáčky a premiešajte, tým ju zahustíte. Podávajte s ryžou."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 2,
+			"ingredients": [
+				{"name": "repkový olej", "quantity": 1, "unit": "ČL"},
+				{"name": "stredná cibuľa", "quantity": 1, "unit": "ks"},
+				{"name": "očistená kuracia pečeň", "quantity": 380, "unit": "g"},
+				{"name": "kurací vývar", "quantity": 115, "unit": "ml"},
+				{"name": "paradajková passata", "quantity": 260, "unit": "g"},
+				{"name": "mletá paprika", "quantity": 1, "unit": "ČL"},
+				{"name": "smotana na šľahanie", "quantity": 60, "unit": "g"}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p114.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p114"
+}

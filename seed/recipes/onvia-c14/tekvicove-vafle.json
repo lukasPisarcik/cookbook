@@ -1,0 +1,39 @@
+{
+	"title": "Tekvicové vafle",
+	"category": "ranajky",
+	"prepTimeMinutes": 20,
+	"steps": [
+		"V miske zmiešaj všetky suché prísady (múku, prášok do pečiva, korenie, proteín, sladidlo).",
+		"Do zmesi primiešaj vajce a pridaj tekvicové pyré.",
+		"Ako pripraviť tekvicové pyré? Tekvicu hokkaido vydlab a nakrájaj na kocky. Buď ich uvar vo vriacej vode, alebo ich upeč v rúre (v rúre budú chutnejšie). Potom ošúp šupku a rozmixuj tyčovým mixérom do hladka (v prípade potreby pridaj trochu mlieka).",
+		"Všetko dôkladne spoj do hladkého cesta.",
+		"Rozohriaty vaflovač postriekaj olejom v spreji a po chvíli doň nalej 1 naberačku cesta.",
+		"Priklop vrchnú časť vaflovača (nezatváraj úplne) a peč pokým nebudú vafle zlatisté.",
+		"Podávaj s gréckym jogurtom, štipkou škorice a nasekanými orechmi."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 508,
+			"portions": 2,
+			"macros": {"carbs": 60, "protein": 42, "fat": 11},
+			"ingredients": [
+				{"name": "hladká špaldová múka", "quantity": 125, "unit": "g"},
+				{"name": "vanilkový proteín", "quantity": 30, "unit": "g"},
+				{"name": "prášok do pečiva", "quantity": 1, "unit": "ČL"},
+				{"name": "Unicorn Dust", "quantity": 1, "unit": "odmerka"},
+				{"name": "škorica", "unit": "štipka"},
+				{"name": "vajce", "quantity": 1, "unit": "ks"},
+				{"name": "polotučné mlieko", "quantity": 150, "unit": "ml"},
+				{"name": "tekvicové pyré", "quantity": 100, "unit": "g"},
+				{"name": "kokosový olej v spreji"},
+				{"name": "nízkotučný grécky jogurt", "quantity": 1, "unit": "ks"},
+				{"name": "nasekané mandle", "quantity": 5, "unit": "g"},
+				{"name": "škorica", "unit": "štipka"}
+			]
+		}
+	],
+	"image": "onvia/image280.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image280"
+}

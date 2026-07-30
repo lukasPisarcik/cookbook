@@ -1,0 +1,86 @@
+{
+	"title": "Quinoa šalát s pečenou tekvicou",
+	"category": "obedy",
+	"dietTags": ["vegetarianske", "bezlaktozove"],
+	"prepTimeMinutes": 35,
+	"steps": [
+		"Poriadne prepláchni quinou a daj do hrnca so štipkou soli. Pridaj vodu podľa návodu (voda : quinoa 2:1) a var približne 15 minút.",
+		"Tekvicu nakrájaj na kocky daj na plech s pečiacim papierom. Polej tekvicu 20 g olivovým olejom, soľou, korením a rozmarínom a pridaj strúčiky cesnaku ak máš rada.",
+		"Peč pri 180 °C cca 25-30 minút, pokým nezmäkne. Pozor na cesnak, aby nezhorel, keď tak ho vyber skôr.",
+		"Na panvici rozohrej 10 g olivového oleja, pridaj cibuľu a restuj na strednom až nižšom ohni cca 10 minút. Pozor, nech nezhorí, zhorkla by.",
+		"Potom môžeš pridať javorový sirup alebo med, nech sa cibuľka pekne skaramelizuje.",
+		"Ďalej na suchej panvici opraž kešu do zlatista. Znova pozor, nech nezhoria.",
+		"Nakoniec zmiešaj všetko dokopy v jednej mise. Nakoniec pridaj špenát a kešu oriešky."
+	],
+	"variants": [
+		{
+			"label": "600 kcal",
+			"kcalPerPortion": 592,
+			"portions": 2,
+			"macros": {
+				"carbs": 80,
+				"protein": 15,
+				"fat": 22
+			},
+			"ingredients": [
+				{
+					"name": "tekvica hokkaido",
+					"quantity": 500,
+					"unit": "g"
+				},
+				{
+					"name": "quinoa",
+					"quantity": 200,
+					"unit": "g"
+				},
+				{
+					"name": "cibuľa",
+					"quantity": 2,
+					"unit": "ks"
+				},
+				{
+					"name": "baby špenát",
+					"quantity": 60,
+					"unit": "g"
+				},
+				{
+					"name": "kešu oriešky",
+					"quantity": 50,
+					"unit": "g"
+				},
+				{
+					"name": "sušené brusnice",
+					"quantity": 40,
+					"unit": "g"
+				},
+				{
+					"name": "olivový olej",
+					"quantity": 30,
+					"unit": "g"
+				},
+				{
+					"name": "javorový sirup",
+					"quantity": 20,
+					"unit": "g"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "cesnak",
+					"quantity": 4,
+					"unit": "strúčik"
+				},
+				{
+					"name": "čierne korenie"
+				},
+				{
+					"name": "sušený rozmarín"
+				}
+			]
+		}
+	],
+	"image": "quinoa-salat-s-pecenou-tekvicou-600-kcal/p1.webp",
+	"source": "Quinoa šalát s pečenou tekvicou - 600 kcal.pdf",
+	"sourceRef": "p1"
+}

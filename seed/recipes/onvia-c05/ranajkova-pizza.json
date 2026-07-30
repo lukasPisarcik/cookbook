@@ -1,0 +1,93 @@
+{
+	"title": "Raňajková pizza",
+	"category": "ranajky",
+	"prepTimeMinutes": 45,
+	"steps": [
+		"Rúru predhrejeme na 180°C horný/spodný ohrev.",
+		"Najprv zmiešame špaldovú múku, proteínový prášok, soľ a prášok na pečenie. Potom nasypeme na pracovnú plochu múku a do stredu vytvarujeme jamku.",
+		"Tvaroh najskôr vidličkou vmiešame, potom postupne prilievame malé množstvo vody (najprv 1-2 PL). Hneď ako sa cesto začne formovať, vyformujeme z neho rukami pevnú guľu. Ak je cesto stále príliš suché, opatrne dolejeme viac vody. Spočiatku je tu potrebné trochu cviku, ale s každou ďalšou prípravou sa proces stáva rutinnejší. Pracovnú plochu posypeme trochou múky alebo neochuteným proteínovým práškom, pizza cesto rozvaľkáme (stále cesto otáčame a potierame s trochou múky, alebo neochuteným proteínovým práškom), potom ho položíme na papier na pečenie.",
+		"Špenát scedíme a stlačíme, aby z neho vytiekla prebytočná voda. Zmiešame ho s krémovým syrom a dokoreníme. So vzniknutou špenátovou zmesou pokryjeme pizza cesto.",
+		"Mozzarellu rozdelíme v plátkoch na pizzu a do stredu pizze vložíme celé vajíčko.",
+		"Pizzu vložíme do rúry na cca 25 minút alebo pokým sa vajíčko neupečie."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 625,
+			"portions": 1,
+			"macros": {
+				"carbs": 51,
+				"protein": 67,
+				"fat": 17
+			},
+			"ingredients": [
+				{
+					"name": "špaldová múka",
+					"quantity": 60,
+					"unit": "g"
+				},
+				{
+					"name": "proteínový prášok bez príchute",
+					"quantity": 30,
+					"unit": "g"
+				},
+				{
+					"name": "nízkotučný tvaroh jemný",
+					"quantity": 60,
+					"unit": "g"
+				},
+				{
+					"name": "kypriaci prášok do pečiva",
+					"quantity": 4,
+					"unit": "g"
+				},
+				{
+					"name": "voda",
+					"quantity": 6,
+					"unit": "PL"
+				},
+				{
+					"name": "mrazený špenát",
+					"quantity": 100,
+					"unit": "g"
+				},
+				{
+					"name": "krémový syr light",
+					"quantity": 60,
+					"unit": "g"
+				},
+				{
+					"name": "mozzarella light",
+					"quantity": 65,
+					"unit": "g"
+				},
+				{
+					"name": "vajíčko",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "čierne korenie"
+				},
+				{
+					"name": "muškátový oriešok"
+				},
+				{
+					"name": "štipľavá paprika"
+				},
+				{
+					"name": "sladká paprika"
+				},
+				{
+					"name": "čerstvý cesnak"
+				}
+			]
+		}
+	],
+	"image": "onvia/image103.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image103"
+}

@@ -1,0 +1,30 @@
+{
+	"title": "Nepečené čokoládové donuty",
+	"category": "dezerty",
+	"prepTimeMinutes": 30,
+	"steps": [
+		"Všetky suché suroviny vlož do kuchynského mixéra a pulzovaním ich prepoj. Potom rovnomerne pridaj grécky jogurt na všetky suché časti zmesi, aby sa zabránilo ich zlepeniu. Následne 20-30-krát pulzuj v mixéry. Zmes by mala byť trochu drobivá, ale keď vezmeš drobky do ruky a stlačíš ich, zlepia sa.",
+		"Zo vzniknutej zmesi vytvaruj guľu a vlož ju do mrazničky, aby sa schladila. Vďaka tomu bude cesto oveľa menej lepkavé a bude sa s ním ľahšie manipulovať.",
+		"Potom ako sa cesto 15 minút chladilo v mrazničke, vezmi všetko cesto, polož ho na váhu a odváž koľko váži. Sumu na váhe vydeľ číslom 3. Vďaka tomu zistíš koľko cesta potrebuješ na 1 donut, z cesta robíme 3 donuty.",
+		"Vytvor z cesta 3 rovnaké guľôčky. V rukách ich rozvaľkaj ako plastelínu na hranie do dlhého povrazu. Potom z neho vytvor kruh spojením a stlačením koncov k sebe aby ti vznikol tvar donutu.",
+		"Opakuj proces so zvyšným cestom a vzniknuté donuty vlož do mrazničky na ďalších 15-20 minút a potom už len vychutnávaj!"
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 183,
+			"portions": 3,
+			"macros": {"carbs": 15, "protein": 24, "fat": 3},
+			"ingredients": [
+				{"name": "proteínový prášok (vanilka, čokoláda)", "quantity": 75, "unit": "g"},
+				{"name": "kakaový prášok", "quantity": 30, "unit": "g"},
+				{"name": "kokosová múka", "quantity": 25, "unit": "g"},
+				{"name": "sladidlo", "quantity": 5, "unit": "g"},
+				{"name": "prírodný nízkotučný grécky jogurt", "quantity": 90, "unit": "g"}
+			]
+		}
+	],
+	"image": "onvia/image334.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image334"
+}

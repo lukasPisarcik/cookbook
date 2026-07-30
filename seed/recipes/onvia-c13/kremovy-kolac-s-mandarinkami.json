@@ -1,0 +1,39 @@
+{
+	"title": "Krémový koláč s mandarinkami",
+	"category": "dezerty",
+	"prepTimeMinutes": 20,
+	"steps": [
+		"Rúru predhrej na 180°C funkcia ventilátor.",
+		"Zmiešaj všetky suroviny na základ a vzniknutú hmotu peč v silikónovej forme (alebo forme vyloženou papierom na pečenie) 12-15 minút.",
+		"Po dopečení základ nechaj dobre vychladnúť.",
+		"Všetky suroviny na krémovú vrstvu vymixuj spolu v miske mixérom počas 1-2 minút a nakoniec pridaj kúsky mandarínok a premiešaj.",
+		"Krém vylej na upečený základ, daj na 3 hodiny vychladiť do chladničky a pred podávaním posyp trochou škorice."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 87,
+			"portions": 8,
+			"macros": {"carbs": 8, "protein": 10, "fat": 2},
+			"ingredients": [
+				{"name": "špaldová múka", "quantity": 30, "unit": "g"},
+				{"name": "proteínový prášok (vanilka)", "quantity": 25, "unit": "g"},
+				{"name": "erythritol", "quantity": 25, "unit": "g"},
+				{"name": "vajce", "quantity": 1, "unit": "ks"},
+				{"name": "prášok do pečiva", "quantity": 3, "unit": "g"},
+				{"name": "Fanta bez cukru", "quantity": 75, "unit": "ml"},
+				{"name": "nízkotučný tvaroh", "quantity": 300, "unit": "g"},
+				{"name": "smotanový syr light", "quantity": 150, "unit": "g"},
+				{"name": "instantná želatína", "quantity": 15, "unit": "g"},
+				{"name": "Fanta bez cukru", "quantity": 50, "unit": "ml"},
+				{"name": "Unicorn Dust", "quantity": 3, "unit": "g"},
+				{"name": "nesladené mandarínky z konzervy", "quantity": 100, "unit": "g"},
+				{"name": "mandarínková voda", "quantity": 2, "unit": "PL"},
+				{"name": "škorica", "unit": "štipka"}
+			]
+		}
+	],
+	"image": "onvia/image259.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image259"
+}

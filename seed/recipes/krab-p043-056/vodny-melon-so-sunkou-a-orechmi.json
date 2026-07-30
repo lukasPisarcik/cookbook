@@ -1,0 +1,21 @@
+{
+	"title": "Vodný melón so šunkou a orechmi",
+	"category": "snacky",
+	"steps": [
+		"Melón nakrájajte na väčšie kúsky. A naskladajte ho do misky. Pridajte šunku a orechy."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 1,
+			"ingredients": [
+				{"name": "melón", "quantity": 3, "unit": "plátok"},
+				{"name": "šunka od kosti", "quantity": 50, "unit": "g"},
+				{"name": "vlašské orechy", "quantity": 15, "unit": "g"}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p54.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p54"
+}

@@ -1,0 +1,39 @@
+{
+	"title": "Losos v trojobale",
+	"category": "obedy",
+	"prepTimeMinutes": 30,
+	"steps": [],
+	"variants": [
+		{
+			"label": "stredná kalorická skupina",
+			"kcalPerPortion": 492,
+			"portions": 3,
+			"macros": { "carbs": 36, "protein": 35, "fat": 23 },
+			"ingredients": [
+				{ "name": "filet z lososa bez kože", "quantity": 300, "unit": "g" },
+				{ "name": "voda" },
+				{ "name": "špaldová múka", "quantity": 50, "unit": "g" },
+				{ "name": "cornflakes", "quantity": 100, "unit": "g" },
+				{ "name": "vajíčko", "quantity": 1, "unit": "ks" },
+				{ "name": "čerstvá nízkokalorická zelenina" }
+			]
+		},
+		{
+			"label": "najvyššia kalorická skupina",
+			"kcalPerPortion": 616,
+			"portions": 3,
+			"ingredients": [
+				{ "name": "filet z lososa bez kože", "quantity": 300, "unit": "g" },
+				{ "name": "voda" },
+				{ "name": "špaldová múka", "quantity": 50, "unit": "g" },
+				{ "name": "cornflakes", "quantity": 100, "unit": "g" },
+				{ "name": "vajíčko", "quantity": 1, "unit": "ks" },
+				{ "name": "batáty", "quantity": 100, "unit": "g" },
+				{ "name": "olivový olej", "quantity": 5, "unit": "ml" }
+			]
+		}
+	],
+	"image": "recepty-ig/p6.webp",
+	"source": "Recepty IG.pdf",
+	"sourceRef": "p6"
+}

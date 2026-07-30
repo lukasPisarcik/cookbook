@@ -1,0 +1,44 @@
+{
+	"title": "Slané muffiny",
+	"category": "snacky",
+	"prepTimeMinutes": 35,
+	"steps": [
+		"Rúru predhrejme na 180°C s funkciou ventilátor.",
+		"Všetky suroviny, okrem feta syru, šunky a zeleniny zmiešame v mise s trochou vody a vytvoríme si krémovú zmes.",
+		"Tip: z nastrúhanej zeleniny odstránime prebytočnú vodu pomocou kuchynskej útierky tak, že ju zabalíme do čistej textilnej útireky a vyžmýkame. Potom zeleninu pridáme do krémovej zmesi a poriadne premiešame.",
+		"Nakoniec pridáme šunku a feta syr nakrájaný nadrobno a opäť dobre premiešame. Vzniknutú zmes porozdeľujeme do muffinovej formy.",
+		"Pečieme cca 30 minút a následne necháme odstáť a vychladnúť."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 88,
+			"portions": 6,
+			"macros": {
+				"carbs": 2,
+				"protein": 13,
+				"fat": 3
+			},
+			"ingredients": [
+				{ "name": "mandľová múka", "quantity": 40, "unit": "g" },
+				{ "name": "proteínový prášok bez príchute", "quantity": 40, "unit": "g" },
+				{ "name": "vajce", "quantity": 1, "unit": "ks" },
+				{ "name": "prášok do pečiva", "quantity": 1, "unit": "ČL" },
+				{ "name": "feta syr light", "quantity": 30, "unit": "g" },
+				{ "name": "cuketa", "quantity": 75, "unit": "g" },
+				{ "name": "karfiol", "quantity": 75, "unit": "g" },
+				{ "name": "chudá šunka", "quantity": 40, "unit": "g" },
+				{ "name": "voda" },
+				{ "name": "soľ" },
+				{ "name": "čierne korenie" },
+				{ "name": "čerstvý cesnak" },
+				{ "name": "chili" },
+				{ "name": "sladká paprika" },
+				{ "name": "muškátový orech" }
+			]
+		}
+	],
+	"image": "onvia/image96.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image96"
+}

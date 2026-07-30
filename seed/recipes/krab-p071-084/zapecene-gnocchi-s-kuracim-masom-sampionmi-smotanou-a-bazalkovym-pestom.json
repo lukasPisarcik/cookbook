@@ -1,0 +1,55 @@
+{
+	"title": "Zapečené gnocchi s kuracím mäsom, šampiónmi, smotanou a bazalkovým pestom",
+	"category": "obedy",
+	"steps": [
+		"Rúru predhrejte na 180 stupňov.",
+		"Šampióny dôkladne umyte, odkrojte konce nožičiek a nakrájajte ich na plátky.",
+		"Do zapekacej misky presuňte neuvarené gnocchi, na ne položte plátky šampiónov a nakoniec na pásiky nakrájané kuracie prsia. Prsia trošku osoľte.",
+		"V miske zmiešajte obe smotany a pesto. Zmesou zalejte gnocchi a dajte piecť na 35 minút.",
+		"Podávajte so zeleninovým šalátom."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 3,
+			"ingredients": [
+				{
+					"name": "gnocchi",
+					"quantity": 500,
+					"unit": "g"
+				},
+				{
+					"name": "kuracie prsia",
+					"quantity": 400,
+					"unit": "g"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "šampióny",
+					"quantity": 200,
+					"unit": "g"
+				},
+				{
+					"name": "smotana na šľahanie",
+					"quantity": 100,
+					"unit": "ml"
+				},
+				{
+					"name": "smotana na varenie",
+					"quantity": 100,
+					"unit": "ml"
+				},
+				{
+					"name": "bazalkové pesto",
+					"quantity": 20,
+					"unit": "g"
+				}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p81.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p81"
+}

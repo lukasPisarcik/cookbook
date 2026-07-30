@@ -1,0 +1,56 @@
+{
+	"title": "Proteínové arašidové maslo",
+	"category": "zaklady",
+	"prepTimeMinutes": 10,
+	"steps": [
+		"Všetky prísady vlož do kuchynského mixéra. Mixuj pomaly, kým nezískaš krémovú konzistenciu bez kúskov.",
+		"Hotové arašidové maslo nalej do pohára, nechaj cez noc v chladnička, aby zhustlo a potom si ho vychutnaj."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 60,
+			"portions": 20,
+			"macros": {
+				"carbs": 2,
+				"protein": 6,
+				"fat": 4
+			},
+			"ingredients": [
+				{
+					"name": "vanilkový proteínový prášok",
+					"quantity": 80,
+					"unit": "g"
+				},
+				{
+					"name": "arašidové maslo v prášku",
+					"quantity": 120,
+					"unit": "g"
+				},
+				{
+					"name": "krémové arašidové maslo",
+					"quantity": 120,
+					"unit": "g"
+				},
+				{
+					"name": "nesladené mandľové mlieko",
+					"quantity": 400,
+					"unit": "ml"
+				},
+				{
+					"name": "sladidlo",
+					"quantity": 6,
+					"unit": "g"
+				},
+				{
+					"name": "xanthanová guma",
+					"quantity": 6,
+					"unit": "g"
+				}
+			]
+		}
+	],
+	"image": "onvia/image15.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image15"
+}

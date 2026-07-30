@@ -1,0 +1,33 @@
+{
+	"title": "Plnené mäsové košíčky",
+	"category": "obedy",
+	"prepTimeMinutes": 20,
+	"steps": [
+		"Košíčky z mletého mäsa vytvaruj podľa pohára, šálky alebo čistej plechovky.",
+		"Košíčky naplň vajcom, plátkom paradajky, horčicou, nasekanou cibuľou, paprikou, nastrúhaným syrom, čerstvou bazalkou, soľou, korením a salsou.",
+		"Daj piecť do rúry na 200 stupňov približne 25–30 minút, kým nebude mäso hotové.",
+		"Podávaj samostatne alebo s prílohou."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 532,
+			"portions": 2,
+			"macros": {"carbs": 7, "protein": 57, "fat": 31},
+			"ingredients": [
+				{"name": "mleté hovädzie mäso", "quantity": 400, "unit": "g"},
+				{"name": "vajce", "quantity": 2, "unit": "ks"},
+				{"name": "cheddar", "quantity": 40, "unit": "g"},
+				{"name": "horčica", "quantity": 20, "unit": "g"},
+				{"name": "paradajka", "quantity": 1, "unit": "ks"},
+				{"name": "červená cibuľa", "quantity": 30, "unit": "g"},
+				{"name": "čerstvá bazalka"},
+				{"name": "červená paprika", "quantity": 30, "unit": "g"},
+				{"name": "salsa", "quantity": 30, "unit": "g"}
+			]
+		}
+	],
+	"image": "onvia/image235.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image235"
+}

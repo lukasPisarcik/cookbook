@@ -1,0 +1,44 @@
+{
+	"title": "Vajíčkové muffiny",
+	"category": "ranajky",
+	"prepTimeMinutes": 40,
+	"steps": [
+		"Predhrej rúru na 185°C ohrev zhora / zdola.",
+		"V miske rozšľahaj vajcia a zmiešaj ich s ostatnými surovinami (rozpustené ghí, nastrúhaný parmezán, nakrájaná šunka, cibuľa, šampiňóny, špenát, cherry paradajky a korenie).",
+		"Potom vmiešaj suché suroviny (múku, prášok do pečiva). Ak je hmota suchá, prilej trošku mlieka.",
+		"Rovnomerne rozdel vaječnú zmes do formičiek na muffiny.",
+		"Vlož do vyhriatej rúry a peč približne 30 minút.",
+		"Vychutnaj si ich samostatne alebo s kečupom či omáčkou podľa vlastných preferencií."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 157,
+			"portions": 7,
+			"macros": {
+				"carbs": 10,
+				"protein": 10,
+				"fat": 8
+			},
+			"ingredients": [
+				{ "name": "vajce", "quantity": 4, "unit": "ks" },
+				{ "name": "ghí", "quantity": 20, "unit": "g" },
+				{ "name": "parmezán", "quantity": 15, "unit": "g" },
+				{ "name": "šunka", "quantity": 50, "unit": "g" },
+				{ "name": "jarná cibuľka", "quantity": 0.33 },
+				{ "name": "šampiňóny", "quantity": 1, "unit": "hrsť" },
+				{ "name": "cherry paradajky", "quantity": 1, "unit": "hrsť" },
+				{ "name": "špaldová múka", "quantity": 3, "unit": "PL" },
+				{ "name": "prášok do pečiva", "quantity": 1, "unit": "ČL" },
+				{ "name": "mlieko", "quantity": 75, "unit": "ml" },
+				{ "name": "soľ" },
+				{ "name": "čierne korenie" },
+				{ "name": "kurkuma" },
+				{ "name": "čerstvá bazalka" }
+			]
+		}
+	],
+	"image": "onvia/image124.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image124"
+}

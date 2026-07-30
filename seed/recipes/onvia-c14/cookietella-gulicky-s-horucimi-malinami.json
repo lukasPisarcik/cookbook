@@ -1,0 +1,36 @@
+{
+	"title": "Cookietella Guličky s horúcimi malinami",
+	"category": "dezerty",
+	"prepTimeMinutes": 20,
+	"steps": [
+		"Všetky suché prísady zmiešaj dohromady.",
+		"Pridaj tvaroh a vajce.",
+		"Vezmi si rukavice a rukami všetko dobre premiešaj, kým sa ti nevytvorí pekná guľa z cesta.",
+		"Nechaj ju 10 minút chladiť v chladničke. Medzitým môžeš začať variť vodu v hrnci.",
+		"Vezmi si guľu z cesta, trochu si navlhči ruky a začni z nej formovať malé guľôčky.",
+		"Keď voda zovrie, vlož ich do hrnca presne na 5 minút.",
+		"Vyber ich z vody, nechaj trochu vychladnúť a buď si ich vychutnaj samotné, alebo si ohrej mrazené ovocie a guličky ním polej. Na záver môžeš pridať aj trochu granoly."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 400,
+			"portions": 2,
+			"macros": {"carbs": 26, "protein": 43, "fat": 13},
+			"ingredients": [
+				{"name": "tvaroh", "quantity": 250, "unit": "g"},
+				{"name": "ovsená múka", "quantity": 40, "unit": "g"},
+				{"name": "vajce", "quantity": 1, "unit": "ks"},
+				{"name": "čokoládové lupienky", "quantity": 30, "unit": "g"},
+				{"name": "raw cacao", "quantity": 20, "unit": "g"},
+				{"name": "čokoládový proteínový prášok", "quantity": 40, "unit": "g"},
+				{"name": "Unicorn Dust", "quantity": 5, "unit": "g"},
+				{"name": "mrazené maliny", "quantity": 150, "unit": "g"},
+				{"name": "granola", "quantity": 50, "unit": "g"}
+			]
+		}
+	],
+	"image": "onvia/image267.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image267"
+}

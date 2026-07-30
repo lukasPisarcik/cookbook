@@ -1,0 +1,72 @@
+{
+	"title": "Jednoduché raňajky",
+	"category": "ranajky",
+	"prepTimeMinutes": 30,
+	"steps": [
+		"Do air fryera vlož dva plátky celozrnného toastového chleba. Potri ich tenkou vrstvou chilli omáčky alebo kečupu.",
+		"Na každý toast poukladaj plátky syra, potom plátky šunky a znova vrstvu syra.",
+		"Navrch polož ďalšie dva plátky toastového chleba, v ktorých uprostred vyrež malé koliesko.",
+		"Do vzniknutého otvoru vlož nakrájané paradajky, na ktoré pridaj čierne korenie, cesnak a chilli a premiešaj s nasekanými bylinkami.",
+		"Navrch opatrne vyklepni vajce a okoreň korením podľa chuti.",
+		"Zapekaj približne 15 minút pri 180 °C, kým vajce nestuhne a toasty nezískajú krásnu zlatistú farbu."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 348,
+			"portions": 2,
+			"macros": {
+				"carbs": 27,
+				"protein": 26,
+				"fat": 14
+			},
+			"ingredients": [
+				{
+					"name": "celozrnný toastový chlieb",
+					"quantity": 4,
+					"unit": "plátok"
+				},
+				{
+					"name": "kečup",
+					"quantity": 1,
+					"unit": "PL"
+				},
+				{
+					"name": "kuracia prsná šunka",
+					"quantity": 2,
+					"unit": "plátok"
+				},
+				{
+					"name": "eidam 30 %",
+					"quantity": 4,
+					"unit": "plátok"
+				},
+				{
+					"name": "vajce",
+					"quantity": 2,
+					"unit": "ks"
+				},
+				{
+					"name": "paradajka",
+					"quantity": 50,
+					"unit": "g"
+				},
+				{
+					"name": "čerstvá bazalka"
+				},
+				{
+					"name": "chilli"
+				},
+				{
+					"name": "cesnak"
+				},
+				{
+					"name": "čierne korenie"
+				}
+			]
+		}
+	],
+	"image": "onvia/image165.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image165"
+}

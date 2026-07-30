@@ -1,0 +1,32 @@
+{
+	"title": "Tofu čoko pena",
+	"category": "dezerty",
+	"prepTimeMinutes": 75,
+	"steps": [
+		"Rozpusti horkú čokoládu buď v mikrovlnke, alebo vo vodnom kúpeli, kým nebude hladká a tekutá.",
+		"Silken tofu daj do mixéra alebo kuchynského robota a rozmixuj do hladkej konzistencie.",
+		"Pridaj roztopenú čokoládu, med, espresso, štipku soli a všetko poriadne vymixuj, kým nevznikne hladká, krémová zmes.",
+		"Penu prelož do pohárov alebo misiek a nechaj v chladničke minimálne 1 hodinu, aby stuhla.",
+		"Podávaj vychladené, môžeš ozdobiť čerstvým ovocím, orechmi alebo strúhanou čokoládou.",
+		"Hotovo! Krémová čokoládová pena, ktorá ťa zasýti a zároveň poteší tvoje chuťové poháriky."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 316,
+			"portions": 2,
+			"macros": { "carbs": 33, "protein": 12, "fat": 15 },
+			"ingredients": [
+				{ "name": "silken tofu", "quantity": 300, "unit": "g" },
+				{ "name": "horká čokoláda", "quantity": 70, "unit": "g" },
+				{ "name": "med", "quantity": 20, "unit": "g" },
+				{ "name": "vanilkový extrakt" },
+				{ "name": "espresso", "quantity": 1, "unit": "ks" },
+				{ "name": "soľ", "unit": "štipka" }
+			]
+		}
+	],
+	"image": "onvia/image363.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image363"
+}

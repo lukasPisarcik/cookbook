@@ -1,0 +1,63 @@
+{
+	"title": "Ryžový wrap s vajíčkom",
+	"category": "ranajky",
+	"prepTimeMinutes": 15,
+	"steps": [
+		"Na panvici priprav 2 volské oká, posyp ich nastrúhaným alebo natrhaným syrom a nechaj krátko zapiecť, aby sa syr roztopil.",
+		"Paradajky nakrájaj na plátky, šalát natrhaj na menšie kúsky.",
+		"Každý plátok ryžového papiera krátko namoč vo vlažnej vode, aby zmäkol. Potom ich poukladaj na dosku alebo tanier tak, aby sa mierne prekrývali.",
+		"Na zmäknutý papier polož šalát, paradajky a volské oká so syrom.",
+		"Zabaľ ako wrap alebo burrito.",
+		"Podávaj hneď, alebo krátko opeč na panvici či v horko vzdušnej fritéze, aby bol papier chrumkavý."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 388,
+			"portions": 1,
+			"macros": {
+				"carbs": 39,
+				"protein": 21,
+				"fat": 15
+			},
+			"ingredients": [
+				{
+					"name": "ryžový papier",
+					"quantity": 4,
+					"unit": "plátok"
+				},
+				{
+					"name": "vajce",
+					"quantity": 2,
+					"unit": "ks"
+				},
+				{
+					"name": "tvrdý syr",
+					"quantity": 20,
+					"unit": "g"
+				},
+				{
+					"name": "listový šalát",
+					"quantity": 50,
+					"unit": "g"
+				},
+				{
+					"name": "paradajka",
+					"quantity": 100,
+					"unit": "g"
+				},
+				{
+					"name": "soľ",
+					"unit": "štipka"
+				},
+				{
+					"name": "korenie",
+					"unit": "štipka"
+				}
+			]
+		}
+	],
+	"image": "onvia/image163.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image163"
+}

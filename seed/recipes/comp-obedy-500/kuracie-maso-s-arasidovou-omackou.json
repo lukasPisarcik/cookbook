@@ -1,0 +1,41 @@
+{
+	"title": "Kuracie mäso s arašidovou omáčkou",
+	"category": "obedy",
+	"dietTags": ["bezlepkove", "bezlaktozove"],
+	"prepTimeMinutes": 40,
+	"steps": [
+		"V miske si zmiešaj arašidové maslo, med, sójovú omáčku, šťavu z citróna, cesnak, asi 30 ml vody a kukuričný škrob.",
+		"Všetko spolu premiešaj, vylej do misky s nakrájaným mäsom na kocky a nechaj marinovať.",
+		"Medzitým si nakrájaj mrkvu na tenké slíže a na panvici ju s olejom osmaž.",
+		"Ryžové rezance si daj variť podľa návodu na obale (postup ako pri varení cestovín).",
+		"Na rovnakej panvici, kde sa smažila mrkva, si priprav kuracie prsia.",
+		"Vyprážaj ich cca 7-10 minút (podľa veľkosti kuracích kúskov).",
+		"Podávaj s čerstvým koriandrom, posypané nasekanými arašidmi."
+	],
+	"funFact": "Počas druhej svetovej vojny bolo arašidové maslo súčasťou jedálnička amerických vojakov kvôli vysokej energetickej hodnote.",
+	"variants": [
+		{
+			"label": "500 kcal",
+			"kcalPerPortion": 508,
+			"portions": 2,
+			"macros": {"carbs": 49, "protein": 36, "fat": 18},
+			"ingredients": [
+				{"name": "kuracie prsia", "quantity": 240, "unit": "g"},
+				{"name": "arašidové maslo", "quantity": 25, "unit": "g"},
+				{"name": "med", "quantity": 15, "unit": "g"},
+				{"name": "sójová omáčka", "quantity": 15, "unit": "g"},
+				{"name": "voda", "quantity": 25, "unit": "ml"},
+				{"name": "šťava z citróna"},
+				{"name": "kukuričný škrob", "quantity": 5, "unit": "g"},
+				{"name": "cesnak", "quantity": 1, "unit": "strúčik"},
+				{"name": "olej", "quantity": 10, "unit": "ml"},
+				{"name": "koriander"},
+				{"name": "mrkva", "quantity": 1, "unit": "ks"},
+				{"name": "ryžové rezance", "quantity": 70, "unit": "g"},
+				{"name": "nepražené arašidy", "quantity": 10, "unit": "g"}
+			]
+		}
+	],
+	"source": "Obedy - 500 kcal.pdf",
+	"sourceRef": "p16"
+}

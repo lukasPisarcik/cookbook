@@ -1,0 +1,31 @@
+{
+	"title": "Perníková ovsená kaša s chia semiačkami, jablkami a slivkami",
+	"category": "ranajky",
+	"steps": [
+		"Jablka umyte, zbavte šupky a semienok, nakrájajte ich na kocky. Slivky tiež nakrájajte na kocky.",
+		"V panvici rozohrejte prepustené maslo a orestuje na ňom kúsky jabĺk, pridajte slivky a nakoniec pridajte škoricu, premiešajte a presuňte do taniera alebo misky,",
+		"Do tej istej panvice nasypte vločky, prilejte mlieko a na miernom stupni uvarte kašu. Nakoniec do nej vmiešajte škoricu.",
+		"Kašu presuňte do 2 misiek, navrch dajte zmes z jabĺk a sliviek. Pridajte lyžičku arašidového masla a ak máte radšej sladšiu kašu, polejte to medom alebo javorovým sirupom.",
+		"Tip: pre doplnenie bielkovín si ku kaši pridajte skyr, grécky jogurt alebo vmiešajte do čaše proteín alebo kolagén."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 2,
+			"ingredients": [
+				{ "name": "jemné ovsené vločky", "quantity": 120, "unit": "g" },
+				{ "name": "ovsené mlieko", "quantity": 2, "unit": "hrnček" },
+				{ "name": "chia semiačka", "quantity": 15, "unit": "g" },
+				{ "name": "perníkové korenie", "quantity": 1, "unit": "ČL" },
+				{ "name": "prepustené maslo", "quantity": 1, "unit": "PL" },
+				{ "name": "jablko", "quantity": 2, "unit": "ks" },
+				{ "name": "sušená slivka", "quantity": 8, "unit": "ks" },
+				{ "name": "mletá škorica", "quantity": 1, "unit": "ČL" },
+				{ "name": "arašidové maslo" }
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p10.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p10"
+}

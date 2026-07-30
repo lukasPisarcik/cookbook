@@ -1,0 +1,26 @@
+{
+	"title": "Mango cheesecake do pohára",
+	"category": "dezerty",
+	"steps": [
+		"Sušienky vyberte z obalu, dajte do mikroténového vrecka a pomocou tĺčika na mäso rozdrvte. Rozdrvené sušienky potom dajte na dno krabičiek.",
+		"V miske zmiešajte jogurt, tvaroh a syr do hladkého krému a navrstvite na sušienky.",
+		"Nakoniec olúpte mango, odkrojte dužinu okolo kôstky a rozmixujte do hladkého pyré. Navrstvite a krém.",
+		"Nechajte cez noc chladiť v chladničke."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 2,
+			"ingredients": [
+				{"name": "kakaové sušienky Bebe dobré ráno", "quantity": 100, "unit": "g"},
+				{"name": "grécky jogurt s 0% tuku", "quantity": 150, "unit": "g"},
+				{"name": "nízkotučný tvaroh", "quantity": 250, "unit": "g"},
+				{"name": "čerstvý syr", "quantity": 75, "unit": "g"},
+				{"name": "zrelé mango", "quantity": 1, "unit": "ks"}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p39.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p39"
+}

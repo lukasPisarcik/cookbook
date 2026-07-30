@@ -1,0 +1,35 @@
+{
+	"title": "Mandľový croissant",
+	"category": "dezerty",
+	"prepTimeMinutes": 10,
+	"steps": [
+		"Predhrej rúru na 180 °C.",
+		"V miske zmiešaj tvaroh so sladidlom (Unicorn dust), pudingovým práškom a podľa potreby pridaj trochu mlieka alebo vody, aby vznikol hustý, krémový krém.",
+		"Croissant pozdĺžne narež (nie úplne) a naplň ho pripraveným krémom.",
+		"Vrch croissantu jemne potri zvyškom krému a posyp mandľovými lupienkami.",
+		"Peč približne 8-10 minút, kým croissant nezíska zlatistú farbu a mandle nezačnú chrumkať.",
+		"Po upečení nechaj chvíľu vychladnúť a podľa chuti posyp erythritolom alebo práškovým cukrom.",
+		"Vychutnaj si!"
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 507,
+			"portions": 1,
+			"macros": {"carbs": 49, "protein": 27, "fat": 22},
+			"ingredients": [
+				{"name": "maslový croissant", "quantity": 65, "unit": "g"},
+				{"name": "tvaroh", "quantity": 125, "unit": "g"},
+				{"name": "pudingový prášok", "quantity": 1, "unit": "ČL"},
+				{"name": "Unicorn Dust", "quantity": 0.5, "unit": "odmerka"},
+				{"name": "stevia drops"},
+				{"name": "mlieko", "quantity": 1, "unit": "ČL"},
+				{"name": "mandľové lupienky", "quantity": 10, "unit": "g"},
+				{"name": "erythritol"}
+			]
+		}
+	],
+	"image": "onvia/image328.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image328"
+}

@@ -1,0 +1,129 @@
+{
+	"title": "Kuskus šalát s falafelom",
+	"category": "obedy",
+	"prepTimeMinutes": 30,
+	"steps": [
+		"Do suchého kuskusu primiešaj zeleninový bujón zaliaty vriacou vodou a nechaj 10 minút odstáť.",
+		"Všetky suroviny na falafel rozmixuj v mixéry na kašovitú hmotu, prstami vytvaruj 3-4 falafely a opeč ich na panvici na troche olivového oleja z oboch strán.",
+		"Zeleninu na kuskusový šalát nakrájajaj na kúsky, bylinky nasekaj na drobno a vmiešaj do uvareného kuskusu. Dochuť korením a priprav si v miske jogurtový dressing tým, že zmiešaš všetky suroviny na dressing dokopy a pridáš koreniny.",
+		"Vystel misku rukolou, pridaj kuskus, zeleninu, zalej dressingom a na vrch pridaj falafel.",
+		"Potom už len vychutnávaj."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 546,
+			"portions": 1,
+			"macros": {
+				"carbs": 84,
+				"protein": 23,
+				"fat": 11
+			},
+			"ingredients": [
+				{
+					"name": "kuskus",
+					"quantity": 65,
+					"unit": "g"
+				},
+				{
+					"name": "zeleninový bujón",
+					"quantity": 1,
+					"unit": "kocka"
+				},
+				{
+					"name": "paprika",
+					"quantity": 0.5,
+					"unit": "ks"
+				},
+				{
+					"name": "rukola",
+					"quantity": 50,
+					"unit": "g"
+				},
+				{
+					"name": "rajčina",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "zelená uhorka",
+					"quantity": 0.5,
+					"unit": "ks"
+				},
+				{
+					"name": "jarná cibuľka",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "červená cibuľa",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "cesnak",
+					"quantity": 1,
+					"unit": "strúčik"
+				},
+				{
+					"name": "olivový olej",
+					"quantity": 1,
+					"unit": "ČL"
+				},
+				{
+					"name": "citrónová kôra"
+				},
+				{
+					"name": "koriander"
+				},
+				{
+					"name": "petržlen"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "korenie"
+				},
+				{
+					"name": "mletá rasca"
+				},
+				{
+					"name": "kurkuma"
+				},
+				{
+					"name": "mletá paprika"
+				},
+				{
+					"name": "nízkotučný prírodný jogurt",
+					"quantity": 75,
+					"unit": "g"
+				},
+				{
+					"name": "citrón",
+					"quantity": 0.5,
+					"unit": "ks"
+				},
+				{
+					"name": "petržlenová vňať"
+				},
+				{
+					"name": "čerstvá mäta"
+				},
+				{
+					"name": "biela fazuľa",
+					"quantity": 150,
+					"unit": "g"
+				},
+				{
+					"name": "múka z cíceru",
+					"quantity": 20,
+					"unit": "g"
+				}
+			]
+		}
+	],
+	"image": "onvia/image55.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image55"
+}

@@ -1,0 +1,78 @@
+{
+	"title": "Špenátová omeleta s hubami",
+	"category": "vecere",
+	"prepTimeMinutes": 15,
+	"steps": [
+		"V miske rozmiešaj vajcia, najemno nakrájaný špenát, štipku soli a čierneho korenia.",
+		"Na panvici zahrej 1/2 porcie ghee a na strednom ohni osmaž nadrobno nakrájanú cibuľu, dozlatista.",
+		"Pridaj na tenké plátky nakrájané, očistené šampiňóny, trochu osoľ, okoreň a nechaj ich dusiť vo vlastnej šťave, kým nebudú mäkké ( ale nie rozvarené ).",
+		"Na panvici rozpusti zvyšné ghee. Nalej na ňu vaječnú zmes so špenátom a upeč omeletu na strednom plameni z oboch strán.",
+		"Horúcu omeletu posyp na jednej strane mozzarellou a druhú stranu natri Lučinou a naplň hubovou zmesou.",
+		"Podávaj s chlebíkom a čerstvou zeleninou."
+	],
+	"variants": [
+		{
+			"label": "500 kcal",
+			"kcalPerPortion": 501,
+			"portions": 1,
+			"macros": {
+				"carbs": 13,
+				"protein": 31,
+				"fat": 36
+			},
+			"ingredients": [
+				{
+					"name": "vajce",
+					"quantity": 3,
+					"unit": "ks"
+				},
+				{
+					"name": "čerstvý špenát",
+					"quantity": 1,
+					"unit": "hrsť"
+				},
+				{
+					"name": "cibuľa",
+					"quantity": 0.5,
+					"unit": "ks"
+				},
+				{
+					"name": "čerstvý šampiňón",
+					"quantity": 5,
+					"unit": "ks"
+				},
+				{
+					"name": "ghee",
+					"quantity": 5,
+					"unit": "g"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "čierne korenie"
+				},
+				{
+					"name": "sušený cesnak"
+				},
+				{
+					"name": "Lučina",
+					"quantity": 20,
+					"unit": "g"
+				},
+				{
+					"name": "kváskový chlebík",
+					"quantity": 30,
+					"unit": "g"
+				},
+				{
+					"name": "strúhaná mozzarella",
+					"quantity": 30,
+					"unit": "g"
+				}
+			]
+		}
+	],
+	"source": "Večere - 500 kcal.pdf",
+	"sourceRef": "p12"
+}

@@ -1,0 +1,59 @@
+{
+	"title": "Chlebík so šunkou a vajíčkom",
+	"category": "vecere",
+	"prepTimeMinutes": 15,
+	"steps": [
+		"Uvar vajce na tvrdo (cca 10 minút) a nechaj ho vychladnúť.",
+		"Proteínový chlebík opeč na panvici alebo v hriankovači a každý plátok natri Lučinou.",
+		"Pridaj šunku a nakrájané vajce.",
+		"Posyp nastrúhaným syrom.",
+		"Na vrch pridaj nakrájanú zeleninu podľa chuti."
+	],
+	"funFact": "Proteínový chlebík je skvelou alternatívou klasického pečiva. Klasické pečivo nie je zlé, ale nemá toľko bielkovín. Proteínovým chlebíkom doplníš bielkoviny, čo sa hodí pri budovaní svalov, a zároveň budeš mať dlhší čas pocit sýtosti, čo sa hodí pri chudnutí.",
+	"variants": [
+		{
+			"label": "300 kcal",
+			"kcalPerPortion": 315,
+			"portions": 1,
+			"macros": {
+				"carbs": 5,
+				"protein": 31,
+				"fat": 18
+			},
+			"ingredients": [
+				{
+					"name": "proteínový chlieb",
+					"quantity": 1,
+					"unit": "plátok"
+				},
+				{
+					"name": "Lučina",
+					"quantity": 20,
+					"unit": "g"
+				},
+				{
+					"name": "šunka",
+					"quantity": 60,
+					"unit": "g"
+				},
+				{
+					"name": "vajce",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "syr",
+					"quantity": 10,
+					"unit": "g"
+				},
+				{
+					"name": "nízkokalorická zelenina",
+					"quantity": 50,
+					"unit": "g"
+				}
+			]
+		}
+	],
+	"source": "Večere - 300 kcal.pdf",
+	"sourceRef": "p10"
+}

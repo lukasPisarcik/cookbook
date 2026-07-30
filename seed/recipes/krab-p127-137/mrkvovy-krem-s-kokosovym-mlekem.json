@@ -1,0 +1,35 @@
+{
+	"title": "Mrkvový krém s kokosovým mlékem",
+	"category": "obedy",
+	"steps": [
+		"Troubu předehřejte na 160 stupňů.",
+		"Mrkev, cibuli a česnek očistěte. Mrkev nakrájejte na kousky, šalotku na čtvrtky a vše dejte do zapékací mísy. Osolte a zakápněte olejem.",
+		"Dejte péct do trouby na 20 minut.",
+		"Poté zeleninu přemístěte do hrnce, přidejte vývar a povařte.",
+		"Vše rozmixujte tyčovým mixérem dohladka a nakonec přidejte kokosové mléko a dochuťte zázvorem a solí.",
+		"Tofu nakrájejte na kousky a opečte na sucho na pánvi.",
+		"Polévku podávejte s kousky tofu, semínky a rukolou."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 4,
+			"ingredients": [
+				{"name": "mrkev", "quantity": 600, "unit": "g"},
+				{"name": "šalotka", "quantity": 2, "unit": "ks"},
+				{"name": "česnek", "quantity": 4, "unit": "ks"},
+				{"name": "olivový olej", "quantity": 2, "unit": "PL"},
+				{"name": "kuřecí vývar", "quantity": 800, "unit": "ml"},
+				{"name": "kokosové mléko", "quantity": 120, "unit": "g"},
+				{"name": "mletý zázvor", "quantity": 0.5, "unit": "ČL"},
+				{"name": "sůl"},
+				{"name": "uzené tofu", "quantity": 400, "unit": "g"},
+				{"name": "rukola"},
+				{"name": "mix semínek"}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p127.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p127"
+}

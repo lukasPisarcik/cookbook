@@ -1,0 +1,56 @@
+{
+	"title": "Chlebíčky s cottage cheesom",
+	"category": "snacky",
+	"dietTags": ["bezlepkove", "vegetarianske"],
+	"prepTimeMinutes": 5,
+	"steps": [
+		"Vezmi si štyri ryžové chlebíky a rovnomerne na ne rozotri zmes cottage.",
+		"Na vrch môžeš dať plátky čerstvej paradajky, osoliť, okoreniť a posypať oba chlebíky konopnými semienkami.",
+		"Pre chuť možeš pridať ešte sušený alebo vytlačený cesnak.",
+		"Dobrú chuť!"
+	],
+	"variants": [
+		{
+			"label": "300 kcal",
+			"kcalPerPortion": 308,
+			"portions": 1,
+			"macros": {
+				"carbs": 28,
+				"protein": 27,
+				"fat": 9
+			},
+			"ingredients": [
+				{
+					"name": "ryžový chlebík",
+					"quantity": 4,
+					"unit": "ks"
+				},
+				{
+					"name": "cottage cheese",
+					"quantity": 200,
+					"unit": "g"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "čierne korenie"
+				},
+				{
+					"name": "paradajka",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "konopné semienka"
+				},
+				{
+					"name": "sušený cesnak"
+				}
+			]
+		}
+	],
+	"image": "chlebicky-s-cottage-cheese-300-kcal/p1.webp",
+	"source": "Chlebíčky s cottage cheese - 300 kcal.pdf",
+	"sourceRef": "p1"
+}

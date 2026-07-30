@@ -1,0 +1,84 @@
+{
+	"title": "Syrové štangle",
+	"category": "snacky",
+	"prepTimeMinutes": 20,
+	"steps": [
+		"V miske zmiešaj múku so psýlliom, práškom do pečiva a soľou.",
+		"Ďalej pridaj vajce, vodu, strúhanú mozzarellu a tvaroh.",
+		"Poriadne premiešaj a vytvor z toho cesto.",
+		"Hotové cesto vytvaruj do tvaru obdĺžnika, s hrúbkou približne 1 cm.",
+		"Daj na plech vystlaný papierom na pečenie a na vrch cesta potri prelisovaným cesnakom, strúhaným parmezánom a nakoniec cesto dokoreň.",
+		"Štangle peči 15 minút pri 200 stupňoch dozlatista.",
+		"Dobrú chuť ;)"
+	],
+	"funFact": "V Taliansku existujú organizované zločinecké skupiny, ktoré sa špecializujú na krádež parmezánu. HaHa",
+	"variants": [
+		{
+			"label": "300 kcal",
+			"kcalPerPortion": 316,
+			"portions": 2,
+			"macros": {
+				"carbs": 20,
+				"protein": 22,
+				"fat": 17
+			},
+			"ingredients": [
+				{
+					"name": "špaldová múka",
+					"quantity": 50,
+					"unit": "g"
+				},
+				{
+					"name": "väčšie vajce",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "polotučný tvaroh",
+					"quantity": 50,
+					"unit": "g"
+				},
+				{
+					"name": "strúhaná mozzarella",
+					"quantity": 80,
+					"unit": "g"
+				},
+				{
+					"name": "prášok do pečiva",
+					"quantity": 1,
+					"unit": "ČL"
+				},
+				{
+					"name": "soľ",
+					"unit": "štipka"
+				},
+				{
+					"name": "mleté psyllium",
+					"quantity": 1,
+					"unit": "ČL"
+				},
+				{
+					"name": "strúhaný parmezán",
+					"quantity": 15,
+					"unit": "g"
+				},
+				{
+					"name": "cesnak",
+					"quantity": 4,
+					"unit": "strúčik"
+				},
+				{
+					"name": "korenie na pizzu"
+				},
+				{
+					"name": "voda",
+					"quantity": 45,
+					"unit": "ml"
+				}
+			]
+		}
+	],
+	"image": "snacky-300-kcal/p13.webp",
+	"source": "Snacky - 300 kcal.pdf",
+	"sourceRef": "p13"
+}

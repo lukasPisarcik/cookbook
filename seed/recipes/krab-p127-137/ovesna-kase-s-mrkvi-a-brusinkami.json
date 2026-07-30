@@ -1,0 +1,31 @@
+{
+	"title": "Ovesná kaše s mrkví a brusinkami",
+	"category": "ranajky",
+	"steps": [
+		"Mrkev očistěte a nastrouhejte najemno.",
+		"Vločky dejte do rendlíku, zalijte je mlékem, přidejte mrkev a brusinky a povařte je, dokud nevznikne kaše. Do kaše pak přidejte skořici a špetku soli.",
+		"Kaši přendejte do misek, ozdobte oříškovým máslem, čokoládou a marakujou.",
+		"Podávejte s řeckým jogurtem. Pokud by kaše byla na vás málo sladká, můžete zakápnout medem nebo javorovým sirupem."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 2,
+			"ingredients": [
+				{"name": "mrkev", "quantity": 200, "unit": "g"},
+				{"name": "bezlepkové ovesné vločky", "quantity": 120, "unit": "g"},
+				{"name": "ovesné mléko", "quantity": 300, "unit": "ml"},
+				{"name": "sušené brusinky", "quantity": 20, "unit": "g"},
+				{"name": "mletá skořice", "quantity": 1, "unit": "ČL"},
+				{"name": "sůl", "unit": "štipka"},
+				{"name": "marakuja", "quantity": 1, "unit": "ks"},
+				{"name": "oříškové máslo", "quantity": 2, "unit": "ČL"},
+				{"name": "vysokoprocentní čokoláda", "quantity": 2, "unit": "ks"},
+				{"name": "řecký jogurt s 0% tuku", "quantity": 2, "unit": "ks"}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p128.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p128"
+}

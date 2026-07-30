@@ -1,0 +1,61 @@
+{
+	"title": "Quinoova placka",
+	"category": "obedy",
+	"prepTimeMinutes": 60,
+	"steps": [
+		"Quinou namoč na 15 minút do horúcej vody alebo cez noc nechaj v chladničke.",
+		"Vodu sceď. Neprepláchni ju úplne, aby ti zostalo trochu vody.",
+		"Quinou hoď do mixéra so štipkou soli a rozmixuj do hladka.",
+		"Zmes rozotri na plech vystlaný papierom na pečenie a peč v predhriatej rúre pri 175 stupňov 20 minút, kým trochu stuhne.",
+		"Potom vyber a pridaj passatu alebo paradajkovú omáčku, syr, paradajky a špenát. Vlož späť do rúry a nechaj piecť ďalších 10 minút, kým cesto mierne nezozlatne.",
+		"Po upečení nakrájaj a prípadne pridaj trochu rukoly."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 498,
+			"portions": 2,
+			"macros": {
+				"carbs": 67,
+				"protein": 27,
+				"fat": 12
+			},
+			"ingredients": [
+				{
+					"name": "quinoa",
+					"quantity": 200,
+					"unit": "g"
+				},
+				{
+					"name": "horúca voda"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "cherry paradajky"
+				},
+				{
+					"name": "mozzarella light",
+					"quantity": 125,
+					"unit": "g"
+				},
+				{
+					"name": "paradajkové pyré",
+					"quantity": 100,
+					"unit": "g"
+				},
+				{
+					"name": "baby špenát",
+					"unit": "hrsť"
+				},
+				{
+					"name": "rukola"
+				}
+			]
+		}
+	],
+	"image": "onvia/image155.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image155"
+}

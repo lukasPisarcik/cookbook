@@ -1,0 +1,30 @@
+{
+	"title": "Papája s jogurtom a granolou",
+	"category": "ranajky",
+	"prepTimeMinutes": 15,
+	"steps": [
+		"Papáju rozkroj pozdĺžne na polovicu a vydlab semienka.",
+		"Naplň jogurtom a ozdob ovocím, granolou a chia semienkami.",
+		"Polej sirupom."
+	],
+	"funFact": "Papája je skvelá voľba, keď máš chuť na niečo sladké. Obsahuje enzým papaín ktorý pomáha tráviť bielkoviny, a tiež obsahuje viac vitamínu C ako napr. pomaranče.",
+	"variants": [
+		{
+			"label": "300 kcal",
+			"kcalPerPortion": 302,
+			"portions": 1,
+			"macros": { "carbs": 42, "protein": 12, "fat": 7 },
+			"ingredients": [
+				{ "name": "papája", "quantity": 170, "unit": "g" },
+				{ "name": "odtučnený grécky jogurt", "quantity": 100, "unit": "g" },
+				{ "name": "čerstvé ovocie", "quantity": 30, "unit": "g" },
+				{ "name": "granola", "quantity": 20, "unit": "g" },
+				{ "name": "chia semienka", "quantity": 2, "unit": "g" },
+				{ "name": "javorový sirup", "quantity": 10, "unit": "g" }
+			]
+		}
+	],
+	"image": "ranajky-300-kcal/p15.webp",
+	"source": "Raňajky - 300 kcal.pdf",
+	"sourceRef": "p15"
+}

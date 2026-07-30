@@ -1,0 +1,33 @@
+{
+	"title": "Pumpkin cheesecake",
+	"category": "dezerty",
+	"prepTimeMinutes": 30,
+	"steps": [
+		"Tekvicu Hokkaido prekroj, vydlab semienka a upeč v rúre alebo air fryeri do mäkka. Po vychladnutí odstráň šupku a dužinu vlož do misky.",
+		"K tekvici pridaj 1 tvaroh, 1 vajce, 1 ČL kypriaceho prášku, 1-2 PL medu a polovicu pudingového prášku. Všetko rozmixuj do hladkého krému.",
+		"V druhej miske priprav svetlú zmes: zmiešaj 1 tvaroh, 1 vajce, 1 ČL kypriaceho prášku, 1 PL medu a druhú polovicu pudingového prášku. Tiež rozmixuj dohladka.",
+		"Formu vystel papierom na pečenie. Do stredu formy vlej 1-2 lyžice svetlej zmesi, potom 1-2 lyžice tekvicovej, a takto striedaj, až kým sa obe zmesi neminú (vznikne mramorový efekt).",
+		"Peč v air fryeri pri 165 °C približne 25 minút, alebo v rúre na rovnakej teplote, kým koláč nestuhne a povrch jemne nezhnedne. Po upečení nech cheesecake úplne vychladnúť."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 156,
+			"portions": 8,
+			"macros": { "carbs": 13, "protein": 15, "fat": 5 },
+			"ingredients": [
+				{ "name": "pečená tekvica Hokkaido", "quantity": 300, "unit": "g" },
+				{ "name": "nízkotučný tvaroh v kocke", "quantity": 500, "unit": "g" },
+				{ "name": "ricotta", "quantity": 1, "unit": "ks" },
+				{ "name": "vajce", "quantity": 2, "unit": "ks" },
+				{ "name": "kypriaci prášok", "quantity": 2, "unit": "ČL" },
+				{ "name": "med", "quantity": 60, "unit": "g" },
+				{ "name": "vanilkový pudingový prášok", "quantity": 1, "unit": "balenie" },
+				{ "name": "škorica", "unit": "štipka" }
+			]
+		}
+	],
+	"image": "onvia/image254.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image254"
+}

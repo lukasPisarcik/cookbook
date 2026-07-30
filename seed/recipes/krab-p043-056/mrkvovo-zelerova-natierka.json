@@ -1,0 +1,27 @@
+{
+	"title": "Mrkvovo-zelerová nátierka",
+	"category": "zaklady",
+	"steps": [
+		"Mrkvu a zeler očistite a nastrúhajte najemno a dajte do misky.",
+		"Pridajte jogurt alebo tvaroh, najemno nastrúhaný parmezán a premiešajte.",
+		"Osoľte a okoreňte podľa chuti.",
+		"Podávajte s kvalitným kváskovým pečivom alebo cottage buchičkami."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 2,
+			"ingredients": [
+				{"name": "mrkva", "quantity": 160, "unit": "g"},
+				{"name": "zeler", "quantity": 100, "unit": "g"},
+				{"name": "biely jogurt", "quantity": 260, "unit": "g"},
+				{"name": "parmezán", "quantity": 50, "unit": "g"},
+				{"name": "soľ", "unit": "štipka"},
+				{"name": "čierne korenie"}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p44.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p44"
+}

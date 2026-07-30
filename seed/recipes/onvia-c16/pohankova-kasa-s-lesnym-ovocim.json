@@ -1,0 +1,35 @@
+{
+	"title": "Pohánková kaša s lesným ovocím",
+	"category": "ranajky",
+	"dietTags": ["bezlepkove"],
+	"prepTimeMinutes": 5,
+	"steps": [
+		"Pohánku vhoď do hrnca a niekoľkokrát ju prepláchni vodou.",
+		"Pohánku vlož do rhnca, zalej vodou, aby bola ponorená, pridaj štipku soli a priveď ju do varu.",
+		"Predtým, ako sa pohánka uvarí, vlož lesné ovoce do iného hrnca alebo malej panvice a pridaj trošku vody (ak máš mrazené, vodu nepridávaj). Nechaj povariť. Ak máš rada sladké ovocie, môžeš osladiť čakankovým sirupom alebo použi Unicorn Dust.",
+		"Keď je pohánka mäkká, stiahni ju z ohňa a vmiešaj do nej proteínový prášok podľa vlastného výberu. Ak chceš redšiu kašu, stiahni ju zo sporáka skôr, ako sa voda odparí. Ak chceš hustú kašu, nechaj odpariť čo najviac vody.",
+		"Kašu podávaj s lesným ovocím. Vychutnaj si!"
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 345,
+			"portions": 1,
+			"macros": {"carbs": 44, "protein": 32, "fat": 4},
+			"ingredients": [
+				{"name": "lúpaná pohánka", "quantity": 50, "unit": "g"},
+				{"name": "voda", "quantity": 150, "unit": "ml"},
+				{"name": "soľ", "unit": "štipka"},
+				{"name": "proteínový prášok", "quantity": 30, "unit": "g"},
+				{"name": "lesné ovocie", "quantity": 100, "unit": "g"},
+				{"name": "Unicorn Dust", "quantity": 3, "unit": "g"},
+				{"name": "grécky jogurt (nízkotučný)", "quantity": 2, "unit": "PL"},
+				{"name": "škorica", "unit": "štipka"},
+				{"name": "mlieko", "quantity": 1, "unit": "PL"}
+			]
+		}
+	],
+	"image": "onvia/image311.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image311"
+}

@@ -1,0 +1,37 @@
+{
+	"title": "Tuniakový kebab",
+	"category": "snacky",
+	"prepTimeMinutes": 5,
+	"steps": [
+		"Plochý chlieb rozkrojíme na polovicu a v kontaktnom grile alebo rúre trochu opečieme.",
+		"Medzitým si všetky ostatné suroviny vymiešame v miske, pokým nám nevznikne krémový tuniakový krém.",
+		"Chlieb si ním naplníme a servírujeme."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 250,
+			"portions": 2,
+			"macros": {
+				"carbs": 40,
+				"protein": 17,
+				"fat": 4
+			},
+			"ingredients": [
+				{ "name": "plochý chlieb", "quantity": 1, "unit": "ks" },
+				{ "name": "tuniak", "quantity": 150, "unit": "g" },
+				{ "name": "avokádo", "quantity": 1, "unit": "ks" },
+				{ "name": "zeleninový mix" },
+				{ "name": "olivový olej", "quantity": 1, "unit": "ČL" },
+				{ "name": "limetka", "quantity": 1, "unit": "ks" },
+				{ "name": "soľ" },
+				{ "name": "čierne korenie" },
+				{ "name": "kôpor" },
+				{ "name": "sušený cesnak" }
+			]
+		}
+	],
+	"image": "onvia/image92.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image92"
+}

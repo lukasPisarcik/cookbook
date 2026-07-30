@@ -1,0 +1,37 @@
+{
+	"title": "Zeleninové kura na paprike",
+	"category": "obedy",
+	"steps": [
+		"Mäso nakrájajte na kocky a osoľte.",
+		"Cibuľu a všetku zeleninu nakrájajte nadrobno.",
+		"V hlbokej panvici rozohrejte olej a na ňom orestujte cibuľu. Potom pridajte aj ostatnú zeleninu a tiež poriadne orestujte. Nakoniec pridajte mäso a zo všetkých strán zatiahnite.",
+		"Potom pridajte mletú papriku, passatu, premiešajte a prilejte vývar.",
+		"Do hrnca dajte bobkový list, čierne korenie. Prikryte prikrývkou a duste 20-30 minút do mäkka.",
+		"Potom vyberte kocky mäsa, do omáčky prilejte smotanu a rozmixujte dohladka. Servírujte s cestovinami."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 4,
+			"ingredients": [
+				{"name": "kuracie prsia bez kože", "quantity": 600, "unit": "g"},
+				{"name": "repkový olej", "quantity": 10, "unit": "g"},
+				{"name": "cibuľa", "quantity": 80, "unit": "g"},
+				{"name": "mrkva", "quantity": 130, "unit": "g"},
+				{"name": "petržlen", "quantity": 80, "unit": "g"},
+				{"name": "pór", "quantity": 80, "unit": "g"},
+				{"name": "paradajková passata", "quantity": 140, "unit": "g"},
+				{"name": "bobkový list", "quantity": 1, "unit": "ks"},
+				{"name": "čierne korenie", "quantity": 3, "unit": "guľička"},
+				{"name": "nové korenie", "quantity": 2, "unit": "guľička"},
+				{"name": "mletá sladká paprika", "quantity": 10, "unit": "g"},
+				{"name": "kurací vývar", "quantity": 800, "unit": "ml"},
+				{"name": "krémová smotana 15% tuku", "quantity": 100, "unit": "g"},
+				{"name": "soľ"}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p117.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p117"
+}

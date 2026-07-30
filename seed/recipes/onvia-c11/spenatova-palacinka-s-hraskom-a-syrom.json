@@ -1,0 +1,39 @@
+{
+	"title": "Špenátová palacinka s hráškom a syrom",
+	"category": "ranajky",
+	"prepTimeMinutes": 10,
+	"steps": [
+		"Najprv si priprav cesto. Všetko potrebné (vajce, mlieko, múku, soľ, baby špenát, proteín na pečenie, olivový olej a koreniny) jednoducho vhoď do mixéra a rozmixuj.",
+		"Rozohrej si pánvicu a natri / nastriekaj ju olejom v spreji. Nalej naberačku cesta na panvicu. Opeč z oboch strán.",
+		"Podávaj plnené hráškom, šampiónmi, avokádom a balkánskym syrom.",
+		"Vychutnaj si!"
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 443,
+			"portions": 2,
+			"macros": {"carbs": 40, "protein": 35, "fat": 15},
+			"ingredients": [
+				{"name": "vajce", "quantity": 1, "unit": "ks"},
+				{"name": "mlieko", "quantity": 150, "unit": "ml"},
+				{"name": "baby špenát", "quantity": 50, "unit": "g"},
+				{"name": "múka", "quantity": 80, "unit": "g"},
+				{"name": "proteín na pečenie", "quantity": 30, "unit": "g"},
+				{"name": "olivový olej", "quantity": 15, "unit": "ml"},
+				{"name": "soľ"},
+				{"name": "mletá rasca"},
+				{"name": "čierne korenie"},
+				{"name": "granulovaný cesnak"},
+				{"name": "balkánsky syr", "quantity": 50, "unit": "g"},
+				{"name": "hrášok", "quantity": 30, "unit": "g"},
+				{"name": "šampiňón", "quantity": 2, "unit": "ks"},
+				{"name": "avokádo", "unit": "plátok"},
+				{"name": "korenie"}
+			]
+		}
+	],
+	"image": "onvia/image227.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image227"
+}

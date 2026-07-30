@@ -1,0 +1,40 @@
+{
+	"title": "Gazpacho",
+	"category": "obedy",
+	"prepTimeMinutes": 20,
+	"steps": [
+		"Na lyžičke oleja orestuj na polovice alebo štvrtiny nakrájané paradajky, cibuľu a cesnak.",
+		"Osmaženú zeleninu, soľ, korenie, bylinky, druhú lyžičku olivového oleja, trochu vody a ricottu vhoď do mixéra. Rozmixuj do hladka.",
+		"Pokvapkaj limetkovou alebo citrónovou šťavou, olivovým olejom a pridaj trochu ricotty alebo smotany podľa chuti.",
+		"Servíruj s opečeným chlebom alebo chlebovými krutónmi."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 358,
+			"portions": 2,
+			"macros": {
+				"carbs": 37,
+				"protein": 38,
+				"fat": 7
+			},
+			"ingredients": [
+				{ "name": "olivový olej", "quantity": 1, "unit": "PL" },
+				{ "name": "paradajka", "quantity": 400, "unit": "g" },
+				{ "name": "cibuľa", "quantity": 1, "unit": "ks" },
+				{ "name": "cesnak", "quantity": 1, "unit": "strúčik" },
+				{ "name": "voda", "quantity": 1, "unit": "šálka" },
+				{ "name": "tymián" },
+				{ "name": "soľ" },
+				{ "name": "korenie" },
+				{ "name": "ricotta", "quantity": 1 },
+				{ "name": "kváskový chlieb", "quantity": 100, "unit": "g" },
+				{ "name": "limetková šťava" },
+				{ "name": "olivový olej", "unit": "kvapka" }
+			]
+		}
+	],
+	"image": "onvia/image77.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image77"
+}

@@ -1,0 +1,51 @@
+{
+	"title": "Citrónovo-tvarohová bábovka",
+	"category": "dezerty",
+	"dietTags": ["vegetarianske"],
+	"prepTimeMinutes": 70,
+	"steps": [
+		"Predhrej si rúru na 170 °C. Formu na bábovku poriadne potri maslom a vysyp múkou.",
+		"Do váčšej misky vlož zmäknuté maslo, 30 g gréckeho jogurtu a šľahaj asi 5 minút, kým nevnikne akoby krém.",
+		"Pridaj tvaroh, nastrúhanú kôru z citróna (štavu si ešte nechaj bokom) a kokosový cukor. Všetko spolu vyšľahaj do nadýchanej hmoty.",
+		"Ďalej do cesta zašľahávaj vajcia – jedno po druhom. Nakoniec do zmesi primiešaj aj citrónovú šťavu a mlieko.",
+		"Pridaj múku, proteín spolu s kypriacim práškom a štipkou soli. Múku s proteínom do cesta zapracuj opatrne a len krátko – miešaj len dovtedy, kým nezmiznú posledné stopy múky.",
+		"Cesto nalej do pripravenej bábovkovej formy a vlož ju do rúry.",
+		"Najskôr peč bábovku 10 minút pri 170 °C, potom teplotu zníž na 150 °C a nechaj ju piecť ešte približne 50 minút.",
+		"Po dopečení nechaj bábovku ešte 10 minút odpočívať vo forme.",
+		"Potom ju vyklop na podnos.",
+		"Keď úplne vychladne, jemne ju popráš preosiatym práškovým cukrom.",
+		"Hotovo ;)"
+	],
+	"variants": [
+		{
+			"label": "450 kcal",
+			"kcalPerPortion": 444,
+			"portions": 6,
+			"macros": {
+				"carbs": 49,
+				"protein": 25,
+				"fat": 16
+			},
+			"ingredients": [
+				{ "name": "jemný nízkotučný tvaroh", "quantity": 250, "unit": "g" },
+				{ "name": "polotučné mlieko", "quantity": 250, "unit": "ml" },
+				{ "name": "špaldová múka", "quantity": 200, "unit": "g" },
+				{ "name": "kokosový cukor", "quantity": 120, "unit": "g" },
+				{ "name": "maslo", "quantity": 50, "unit": "g" },
+				{ "name": "grécky jogurt", "quantity": 30, "unit": "g" },
+				{ "name": "soľ", "unit": "štipka" },
+				{ "name": "vajce", "quantity": 3, "unit": "ks" },
+				{ "name": "citrón (štava a kôra)", "quantity": 1, "unit": "ks" },
+				{ "name": "vanilkový proteín", "quantity": 30, "unit": "g" },
+				{ "name": "kypriaci prášok", "quantity": 12, "unit": "g" },
+				{ "name": "maslo na vymastenie formy", "quantity": 10, "unit": "g" },
+				{ "name": "špaldová múka na vymastenie formy", "quantity": 10, "unit": "g" },
+				{ "name": "práškový cukor na posypanie", "quantity": 10, "unit": "g" },
+				{ "name": "grécky jogurt na vrch porcie", "quantity": 30, "unit": "g" }
+			]
+		}
+	],
+	"image": "dezerty-450-kcal/p1.webp",
+	"source": "Dezerty-450 kcal.pdf",
+	"sourceRef": "p1"
+}

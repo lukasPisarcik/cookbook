@@ -1,0 +1,37 @@
+{
+	"title": "Caprese koláč",
+	"category": "obedy",
+	"prepTimeMinutes": 15,
+	"steps": [
+		"Predhrej rúru na 200 °C (horúci vzduch 180 °C).",
+		"Rajčiny nakrájaj na tenké plátky (cca 0,5 cm).",
+		"Na plech vystlaný papierom na pečenie poukladaj rajčiny tak, aby sa jemne prekrývali. Pokvapkaj olivovým olejom, korenie V7X.",
+		"Zakry ich listovým cestom, jemne uhlaď, kraje zatlač a povrch popichaj vidličkou. Môžeš potrieť vajíčkom alebo bielkom.",
+		"Peč 30-35 minút, kým cesto nezíska zlatistú farbu.",
+		"Po upečení koláč otoč rajčinovou stranou nahor, na vrch pridaj natrhanú mozzarellu a lístky bazalky.",
+		"Podávaj."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 245,
+			"portions": 6,
+			"macros": {
+				"carbs": 19,
+				"protein": 7,
+				"fat": 15
+			},
+			"ingredients": [
+				{"name": "listové cesto", "quantity": 1, "unit": "balenie"},
+				{"name": "rajčina", "quantity": 300, "unit": "g"},
+				{"name": "mozzarella light", "quantity": 125, "unit": "g"},
+				{"name": "olivový olej", "unit": "kvapka"},
+				{"name": "korenie V7X"},
+				{"name": "čerstvá bazalka", "quantity": 5, "unit": "list"}
+			]
+		}
+	],
+	"image": "onvia/image243.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image243"
+}

@@ -1,0 +1,30 @@
+{
+	"title": "Cviklový šalát s kozím syrom",
+	"category": "snacky",
+	"steps": [
+		"Cviklu nakrájajte na malé kocky a dajte do misky.",
+		"Cibuľu nakrájajte nadrobno a pridajte k cvikle, prelisujte cesnak, pridajte jogurt, horčicu, soľ a čírene korenie. Premiešajte.",
+		"Do misiek dajte umytú rukolu, na ňu navrstvite cviklový šalát a navrch položte kozí syr.",
+		"Podávajte s kúskom pečiva."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 2,
+			"ingredients": [
+				{"name": "predvarená červená repa", "quantity": 400, "unit": "g"},
+				{"name": "červená cibuľa", "quantity": 1, "unit": "ks"},
+				{"name": "cesnak", "quantity": 1, "unit": "strúčik"},
+				{"name": "smotanový jogurt", "quantity": 100, "unit": "g"},
+				{"name": "dijonská horčica", "quantity": 0.5, "unit": "ČL"},
+				{"name": "soľ"},
+				{"name": "čierne korenie"},
+				{"name": "mäkký kozí syr", "quantity": 100, "unit": "g"},
+				{"name": "rukola", "quantity": 120, "unit": "g"}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p51.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p51"
+}

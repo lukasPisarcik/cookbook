@@ -1,0 +1,27 @@
+{
+	"title": "Párky s cottage",
+	"category": "ranajky",
+	"prepTimeMinutes": 5,
+	"steps": [
+		"Párky uvar a daj na tanier spolu s cottage syrom.",
+		"Na cottage môžeš pridať čierne korenie a mletý cesnak.",
+		"Podávaj s čerstvou zeleninou napr. mrkva, račiny, úhorky…"
+	],
+	"variants": [
+		{
+			"label": "300 kcal",
+			"kcalPerPortion": 322,
+			"portions": 1,
+			"macros": { "carbs": 7, "protein": 23, "fat": 23 },
+			"ingredients": [
+				{ "name": "kuracie párky 80-95% mäsa", "quantity": 2, "unit": "ks" },
+				{ "name": "cottage", "quantity": 100, "unit": "g" },
+				{ "name": "horčica", "quantity": 20, "unit": "g" },
+				{ "name": "čerstvá zelenina" }
+			]
+		}
+	],
+	"image": "ranajky-300-kcal/p7.webp",
+	"source": "Raňajky - 300 kcal.pdf",
+	"sourceRef": "p7"
+}

@@ -1,0 +1,118 @@
+{
+	"title": "Proteínové cestoviny so syrovo smotanovou omáčkou",
+	"category": "obedy",
+	"prepTimeMinutes": 35,
+	"steps": [
+		"Rúru predhrejme na 170°C s funkciou ventilátor.",
+		"Do stredu veľkej zapekacej misy vložíme krémový syr. Na vrch syru položíme mozzarellu.",
+		"Cestoviny, zeleninu a strúhaný syr naukladáme navôkol a okoreníme.",
+		"Pridáme vodu a smotanu, až pokým niesú cestoviny prekryté vodou. Vložíme do rúry.",
+		"Pečieme 20 minút (alebo pokým nám cestoviny nezmäkknú), a nakoniec pred podávaním všetko v zapekacej mise poriadne premiešame. Pokvapkáme šťavou z limetky, dosolíme a ozdobíme koriandrom."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 664,
+			"portions": 3,
+			"macros": {
+				"carbs": 77,
+				"protein": 52,
+				"fat": 13
+			},
+			"ingredients": [
+				{
+					"name": "bielkovinové cestoviny",
+					"quantity": 200,
+					"unit": "g"
+				},
+				{
+					"name": "nízkotučný krémový syr",
+					"quantity": 150,
+					"unit": "g"
+				},
+				{
+					"name": "mozzarella light",
+					"quantity": 125,
+					"unit": "g"
+				},
+				{
+					"name": "strúhaný syr light",
+					"quantity": 40,
+					"unit": "g"
+				},
+				{
+					"name": "červená fazuľa",
+					"quantity": 100,
+					"unit": "g"
+				},
+				{
+					"name": "zelený hrášok",
+					"quantity": 50,
+					"unit": "g"
+				},
+				{
+					"name": "šalotka",
+					"quantity": 50,
+					"unit": "g"
+				},
+				{
+					"name": "paprika",
+					"quantity": 50,
+					"unit": "g"
+				},
+				{
+					"name": "cherry paradajky",
+					"quantity": 50,
+					"unit": "g"
+				},
+				{
+					"name": "kukurica",
+					"quantity": 50,
+					"unit": "g"
+				},
+				{
+					"name": "chilli"
+				},
+				{
+					"name": "limetka",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "smotana na varenie",
+					"quantity": 50,
+					"unit": "ml"
+				},
+				{
+					"name": "voda",
+					"quantity": 325,
+					"unit": "ml"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "čierne korenie"
+				},
+				{
+					"name": "čerstvý cesnak"
+				},
+				{
+					"name": "rasca"
+				},
+				{
+					"name": "sladká paprika"
+				},
+				{
+					"name": "štipľavá paprika"
+				},
+				{
+					"name": "čerstvý koriander"
+				}
+			]
+		}
+	],
+	"image": "onvia/image172.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image172"
+}

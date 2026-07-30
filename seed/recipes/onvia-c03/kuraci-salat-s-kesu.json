@@ -1,0 +1,98 @@
+{
+	"title": "Kurací šalát s kešu",
+	"category": "obedy",
+	"prepTimeMinutes": 40,
+	"steps": [
+		"Najprv mäso uvar. Kuracie prsia nakrájaj na 5 veľkých kociek a vlož ich do vriacej osolenej vody. Bude to trvať približne 15 minút. Po uvarení ho nechaj chvíľu vo vode a medzitým si priprav kešu oriešky.",
+		"Kešu oriešky vhoď do malej misky, ktorá môže ísť do rúry. Pokvapkaj ich trochou olivového oleja, štipkou sladkej papriky a sladkou chilli omáčkou. Premiešaj a vlož piecť na niekoľko minút do rúry.",
+		"Potom si priprav zeleninu. Ošúp mrkvu a nakrájaj ju na tenké plátky. Kapustu nakrájaj na prúžky. Špargľu zbav zdrevnatených častí a očisti ju. Nakrájaj ju na malé kolieska. (V šaláte sa podáva mladá špargľa a mrkva surové, ak to nemáš rada, orestuj ich na pár minút na panvici s kvapkou olivového oleja.",
+		"Teraz vyber mäso z hrnca a natrhaj ho na malé kúsky. V mäsovom vývare uvar quinou podľa návodu na obale.",
+		"Potom si priprav zálievku. V miske zmiešaj na ňu všetky potrebné suroviny.",
+		"Nakoniec všetko zmiešaj dokopy v jednej veľkej mise, zalej zálievkou a vychutnávaj."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 401,
+			"portions": 3,
+			"macros": {
+				"carbs": 33,
+				"protein": 33,
+				"fat": 16
+			},
+			"ingredients": [
+				{
+					"name": "quinoa",
+					"quantity": 100,
+					"unit": "g"
+				},
+				{
+					"name": "kuracie prsia",
+					"quantity": 300,
+					"unit": "g"
+				},
+				{
+					"name": "mrkva",
+					"quantity": 100,
+					"unit": "g"
+				},
+				{
+					"name": "červená kapusta",
+					"quantity": 150,
+					"unit": "g"
+				},
+				{
+					"name": "mladá zelená špargľa",
+					"quantity": 100,
+					"unit": "g"
+				},
+				{
+					"name": "kešu oriešky",
+					"quantity": 45,
+					"unit": "g"
+				},
+				{
+					"name": "sweet chilli omáčka",
+					"quantity": 20,
+					"unit": "g"
+				},
+				{
+					"name": "olivový olej",
+					"quantity": 1,
+					"unit": "ČL"
+				},
+				{
+					"name": "sladká paprika",
+					"unit": "štipka"
+				},
+				{
+					"name": "lupinová omáčka",
+					"quantity": 1,
+					"unit": "ČL"
+				},
+				{
+					"name": "horčica",
+					"quantity": 2,
+					"unit": "ČL"
+				},
+				{
+					"name": "voda",
+					"quantity": 0.25,
+					"unit": "šálka"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "korenie"
+				},
+				{
+					"name": "sušený zázvor"
+				}
+			]
+		}
+	],
+	"image": "onvia/image64.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image64"
+}

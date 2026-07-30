@@ -1,0 +1,38 @@
+{
+	"title": "Jahodový milk shake s kefírom",
+	"category": "smoothies",
+	"steps": [
+		"Všetky ingrediencie rozmixujte do konzistencie jemného milk shaku."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 2,
+			"ingredients": [
+				{
+					"name": "banán",
+					"quantity": 130,
+					"unit": "g"
+				},
+				{
+					"name": "jahody",
+					"quantity": 100,
+					"unit": "g"
+				},
+				{
+					"name": "plnotučné mlieko",
+					"quantity": 260,
+					"unit": "g"
+				},
+				{
+					"name": "kefír",
+					"quantity": 400,
+					"unit": "g"
+				}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p62.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p62"
+}

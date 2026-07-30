@@ -1,0 +1,47 @@
+{
+	"title": "Kuracie nožky v medovej marináde",
+	"category": "obedy",
+	"steps": [
+		"Rúru predhrejte na 180 stupňov.",
+		"V mise zmiešajte med so sójovou omáčkou, passatou a olejom. Všetko dôkladne metličkou premiešajte a namarinadujte nôžky.",
+		"Nožky potom presuňte do zapekacej misky a zalejte ich zvyšnou marinádou.",
+		"Misku prikryte alobalom a dajte piecť na 30 minút. Potom odstráňte alobal, zvýšte teplotu na 190 stupňov a pečte ďalších 10-15 minút.",
+		"Podávajte s ryžou a zeleninou."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 4,
+			"ingredients": [
+				{
+					"name": "kuracie nožičky",
+					"quantity": 12,
+					"unit": "ks"
+				},
+				{
+					"name": "med",
+					"quantity": 35,
+					"unit": "g"
+				},
+				{
+					"name": "sójová omáčka",
+					"quantity": 2,
+					"unit": "PL"
+				},
+				{
+					"name": "paradajková passata",
+					"quantity": 200,
+					"unit": "g"
+				},
+				{
+					"name": "olej",
+					"quantity": 30,
+					"unit": "g"
+				}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p77.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p77"
+}

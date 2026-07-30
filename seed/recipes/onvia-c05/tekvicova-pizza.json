@@ -1,0 +1,80 @@
+{
+	"title": "Tekvicová pizza",
+	"category": "obedy",
+	"prepTimeMinutes": 22,
+	"steps": [
+		"Predhrej si rúru na 200°C ohrev zhora/zdola a priprav si cesto na pizzu: Všetky suroviny na pizza cesto vymies v mise a vytvaruj guľu. S vodou začni opatrne, stále premiešavaj a pomaly prilievaj. Pizza cesto na dobre pomúčenom povrchu poriadne rozvaľkáj.",
+		"Pyré z tekvice ochuť granulovaným cesnakom, rozmarínom, soľou, korením a natri ho na cesto.",
+		"Po povrchu pizze rozlož cibuľové krúžky, posyp syrom a vlož do predhriatej rúry na približne 20 minút.",
+		"Na posledné 2-3 minúty pečenia pridaj na pizzu nakrájané plátky čerstvej figy a sušený rozmarín."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 664,
+			"portions": 1,
+			"macros": {
+				"carbs": 98,
+				"protein": 41,
+				"fat": 11
+			},
+			"ingredients": [
+				{
+					"name": "špaldová múka",
+					"quantity": 100,
+					"unit": "g"
+				},
+				{
+					"name": "proteínový prášok bez príchute",
+					"quantity": 30,
+					"unit": "g"
+				},
+				{
+					"name": "prášok do pečiva",
+					"quantity": 5,
+					"unit": "g"
+				},
+				{
+					"name": "voda",
+					"quantity": 75,
+					"unit": "ml"
+				},
+				{
+					"name": "soľ",
+					"unit": "štipka"
+				},
+				{
+					"name": "tekvicové pyré",
+					"quantity": 100,
+					"unit": "g"
+				},
+				{
+					"name": "červená cibuľa",
+					"quantity": 0.5
+				},
+				{
+					"name": "čerstvá figa",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "strúhaný syr light",
+					"quantity": 50,
+					"unit": "g"
+				},
+				{
+					"name": "granulovaný cesnak"
+				},
+				{
+					"name": "rozmarín"
+				},
+				{
+					"name": "korenie"
+				}
+			]
+		}
+	],
+	"image": "onvia/image107.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image107"
+}

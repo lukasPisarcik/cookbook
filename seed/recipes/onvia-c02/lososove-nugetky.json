@@ -1,0 +1,71 @@
+{
+	"title": "Lososové nugetky",
+	"category": "snacky",
+	"prepTimeMinutes": 28,
+	"steps": [
+		"Filet lososa nakrájaj na nugetky.",
+		"Vytvor si 3 stanovištia, a to stanovište múky + korenia, stanovište s vajíčkom a stanovište panko + korenia.",
+		"Ľavou rukou vezmi nugetku lososa a pridaj ju do stanovišťa s múkou. Dobre ju obal. Potom ju pravou rukou pridaj do vajíčka a obal. Nakoniec ju obal v panko pomocou pravej ruky. Tento postup zopakuj pre všetky nugetky.",
+		"Hotové nugetky daj do fritézy (AirFryer) a postriekaj ich sprejom na varenie. Peč na vzduchu 10 minút na 180°C a po 6 minútach ich otoč.",
+		"Tento postup zopakuj pre všetky nugetky a potom je čas si vychutnať!"
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 25,
+			"macros": {
+				"carbs": 2,
+				"protein": 4,
+				"fat": 1
+			},
+			"ingredients": [
+				{
+					"name": "čerstvý losos",
+					"quantity": 500,
+					"unit": "g"
+				},
+				{
+					"name": "polohrubá múka",
+					"quantity": 30,
+					"unit": "g"
+				},
+				{
+					"name": "vaječné bielky",
+					"quantity": 25,
+					"unit": "g"
+				},
+				{
+					"name": "veľké vajce",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "panko strúhanka",
+					"quantity": 50,
+					"unit": "g"
+				},
+				{
+					"name": "morská soľ"
+				},
+				{
+					"name": "granulovaný cesnak"
+				},
+				{
+					"name": "čierne korenie"
+				},
+				{
+					"name": "chilli"
+				},
+				{
+					"name": "granulovaná cibuľa"
+				},
+				{
+					"name": "červená paprika"
+				}
+			]
+		}
+	],
+	"image": "onvia/image30.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image30"
+}

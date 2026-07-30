@@ -1,0 +1,95 @@
+{
+	"title": "Hovädzie chilli con carne",
+	"category": "vecere",
+	"dietTags": [
+		"bezlepkove"
+	],
+	"prepTimeMinutes": 40,
+	"steps": [
+		"Ryžu si opláchni a var podľa návodu.",
+		"Popritom si nakrájaj cibuľu na drobné kúsky.",
+		"Na oleji opeč nakrájanú cibuľu dozlatista.",
+		"Ďalej k nej pridaj pretlačený cesnak, mleté mäso, korenie, chilli, oregano.",
+		"Kontroluj a opekaj, až kým mäso nezhnedne.",
+		"Potom pridaj paradajkový pretlak, fazuľu, kukuricu a červenú mletá papriku.",
+		"Všetko poriadne premiešaj, zakry pokrievkou a nechaj dusiť cca 20 minút na miernom plameni.",
+		"Počas dusenia ho občasne premiešaj.",
+		"Môžeš podávať s ryžou a poprípade posypať čerstvým koriandrom a pokvapkať limetkou.",
+		"Dobrú chuť ;)"
+	],
+	"funFact": "Úplne pôvodné texaské Chili con carne neobsahuje žiadne fazule?",
+	"variants": [
+		{
+			"label": "500 kcal",
+			"kcalPerPortion": 536,
+			"portions": 4,
+			"macros": {
+				"carbs": 53,
+				"protein": 34,
+				"fat": 20
+			},
+			"ingredients": [
+				{
+					"name": "mleté hovädzie mäso",
+					"quantity": 400,
+					"unit": "g"
+				},
+				{
+					"name": "oregano"
+				},
+				{
+					"name": "cesnak",
+					"quantity": 1,
+					"unit": "strúčik"
+				},
+				{
+					"name": "mletá červená paprika"
+				},
+				{
+					"name": "veľká cibuľa",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "olivový olej",
+					"quantity": 10,
+					"unit": "ml"
+				},
+				{
+					"name": "fazuľa z konzervy",
+					"quantity": 400,
+					"unit": "g"
+				},
+				{
+					"name": "krájané paradajky z konzervy",
+					"quantity": 400,
+					"unit": "g"
+				},
+				{
+					"name": "kukurica z konzervy",
+					"quantity": 340,
+					"unit": "g"
+				},
+				{
+					"name": "korenie na hovädzie mäso"
+				},
+				{
+					"name": "čierne korenie"
+				},
+				{
+					"name": "čerstvý koriander"
+				},
+				{
+					"name": "chilli"
+				},
+				{
+					"name": "ryža",
+					"quantity": 120,
+					"unit": "g"
+				}
+			]
+		}
+	],
+	"source": "Večere - 500 kcal.pdf",
+	"sourceRef": "p19"
+}

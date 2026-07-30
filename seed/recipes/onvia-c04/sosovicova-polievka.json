@@ -1,0 +1,40 @@
+{
+	"title": "Šošovicová polievka",
+	"category": "obedy",
+	"prepTimeMinutes": 50,
+	"steps": [
+		"Na oleji orestuj nakrájanú cibuľu a cesnak. Po chvíli pridaj na malé kúsky nakrájanej mrkvy.",
+		"Potom pridaj prepláchnutú šošovicu a zalej ju vodou alebo vývarom. Var pod pokrievkou, kým nie je mäkká.",
+		"Keď sú šošovica aj mrkva mäkké, pridaj paradajkovú passatu, ochuť koreninami a nechaj chvíľu povariť, aby sa chute spojili.",
+		"Podávaj s čerstvou petržlenovou vňaťou a čerstvým kváskovým chlebom, ak to máš rada."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 355,
+			"portions": 2,
+			"macros": {
+				"carbs": 44,
+				"protein": 25,
+				"fat": 4
+			},
+			"ingredients": [
+				{ "name": "olivový olej", "quantity": 1, "unit": "ČL" },
+				{ "name": "cibuľa", "quantity": 1, "unit": "ks" },
+				{ "name": "cesnak", "quantity": 2, "unit": "strúčik" },
+				{ "name": "červená šošovica", "quantity": 170, "unit": "g" },
+				{ "name": "mrkva", "quantity": 1, "unit": "ks" },
+				{ "name": "paradajková passata", "quantity": 200, "unit": "g" },
+				{ "name": "voda", "quantity": 0.75, "unit": "l" },
+				{ "name": "soľ" },
+				{ "name": "čierne korenie" },
+				{ "name": "mletý koriander" },
+				{ "name": "drvená rasca" },
+				{ "name": "petržlenová vňať" }
+			]
+		}
+	],
+	"image": "onvia/image76.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image76"
+}

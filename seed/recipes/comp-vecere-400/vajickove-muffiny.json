@@ -1,0 +1,75 @@
+{
+	"title": "Vajíčkové muffiny",
+	"category": "vecere",
+	"prepTimeMinutes": 15,
+	"steps": [
+		"Vyšľahaj vajcia.",
+		"Cibuľku, mozzarellu, špenát, sušené paradajky a šunku nakráj a pridaj do vajec.",
+		"Zmes osoľ a okoreň podľa chuti a rozdeľ do formičiek na muffiny.",
+		"Peč v predhriatej rúre pri teplote 170-160 °C 8-10 minút, skontroluj páratkom, že sa cesto nelepí a až potom vytiahni.",
+		"Podávaj s kečupom, chlebíkom a čerstvou zeleninou.",
+		"Vyjdú ti 2 porcie"
+	],
+	"variants": [
+		{
+			"label": "400 kcal",
+			"kcalPerPortion": 403,
+			"portions": 2,
+			"macros": {
+				"carbs": 12,
+				"protein": 35,
+				"fat": 24
+			},
+			"ingredients": [
+				{
+					"name": "vajce",
+					"quantity": 5,
+					"unit": "ks"
+				},
+				{
+					"name": "jarná cibuľka",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "strúhaná mozzarella",
+					"quantity": 60,
+					"unit": "g"
+				},
+				{
+					"name": "čerstvý špenát",
+					"quantity": 1,
+					"unit": "hrsť"
+				},
+				{
+					"name": "sušená paradajka",
+					"quantity": 2,
+					"unit": "ks"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "čierne korenie"
+				},
+				{
+					"name": "kvalitná morčacia šunka",
+					"quantity": 100,
+					"unit": "g"
+				},
+				{
+					"name": "kváskový chlebík",
+					"quantity": 30,
+					"unit": "g"
+				},
+				{
+					"name": "kečup",
+					"quantity": 30,
+					"unit": "g"
+				}
+			]
+		}
+	],
+	"source": "Večere - 400 kcal.pdf",
+	"sourceRef": "p13"
+}

@@ -1,0 +1,115 @@
+{
+	"title": "Zemiakový šalát",
+	"category": "obedy",
+	"prepTimeMinutes": 33,
+	"steps": [
+		"Uvar zemiaky do mäkka a nechaj ich vychladnúť.",
+		"Medzitým priprav dressing zmiešaním všetkých surovín v miske a nakrájaj všetku zeleninu a ovocie na kúsky podľa vlastných preferencií.",
+		"Keď sú zemiaky uvarené a vychladnuté, tiež ich nakrájaj na kúsky, všetko zmiešaj spolu vo veľkej mise, pridaj dressing a ešte raz poriadne premiešaj.",
+		"Podávaj ako prílohu ku grilovanému mäsu alebo vychutnávaj samotný."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 497,
+			"portions": 5,
+			"macros": {
+				"carbs": 56,
+				"protein": 38,
+				"fat": 12
+			},
+			"ingredients": [
+				{
+					"name": "mladé zemiaky",
+					"quantity": 1,
+					"unit": "kg"
+				},
+				{
+					"name": "červená paprika",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "žltá paprika",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "reďkovka",
+					"quantity": 10,
+					"unit": "ks"
+				},
+				{
+					"name": "šalotka",
+					"quantity": 5,
+					"unit": "ks"
+				},
+				{
+					"name": "zaváraná uhorka",
+					"quantity": 10,
+					"unit": "ks"
+				},
+				{
+					"name": "drvené vlašské orechy",
+					"quantity": 50,
+					"unit": "g"
+				},
+				{
+					"name": "zeler",
+					"quantity": 2,
+					"unit": "stonka"
+				},
+				{
+					"name": "jablko",
+					"quantity": 2,
+					"unit": "ks"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "čierne korenie"
+				},
+				{
+					"name": "sladká paprika"
+				},
+				{
+					"name": "čerstvý kôpor"
+				},
+				{
+					"name": "rozmarín"
+				},
+				{
+					"name": "cesnak"
+				},
+				{
+					"name": "majonéza light",
+					"quantity": 80,
+					"unit": "g"
+				},
+				{
+					"name": "šťava z citróna"
+				},
+				{
+					"name": "jablčný ocot",
+					"quantity": 2,
+					"unit": "PL"
+				},
+				{
+					"name": "chili"
+				},
+				{
+					"name": "petržlenová vňať"
+				},
+				{
+					"name": "uhorková šťava",
+					"quantity": 2,
+					"unit": "PL"
+				}
+			]
+		}
+	],
+	"image": "onvia/image51.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image51"
+}

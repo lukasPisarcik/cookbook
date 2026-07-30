@@ -1,0 +1,35 @@
+{
+	"title": "Pečená kokosovo kaša",
+	"category": "ranajky",
+	"prepTimeMinutes": 30,
+	"steps": [
+		"V miske si roztlač pomocou vidličky banán na pyré.",
+		"Pridaj všetky ostatné suroviny (vodu, kokos, proteín, škoricu a kypriaci prášok).",
+		"Cesto premiešaj a vylej do silikónovej formy alebo do sklenenej nádoby vystlanej pečacim papierom.",
+		"Kašu pečieš 20-25 minút pri 180 stupňoch, do zlatista.",
+		"Ako topping na kašu si zmiešaj med s tvarohom a servíruj aj s jahodami."
+	],
+	"funFact": "Ovsené vločky boli považované za jedlo chudobných, zatiaľ čo bohatí jedli pšenicu. Ovsené vločky sa dnes považujú aj za SUPERPOTRAVINU plnú vlákniny.",
+	"variants": [
+		{
+			"label": "450 kcal",
+			"kcalPerPortion": 456,
+			"portions": 1,
+			"macros": {"carbs": 56, "protein": 24, "fat": 14},
+			"ingredients": [
+				{"name": "ovsené vločky", "quantity": 35, "unit": "g"},
+				{"name": "proteín", "quantity": 20, "unit": "g"},
+				{"name": "banán", "quantity": 80, "unit": "g"},
+				{"name": "kokos", "quantity": 15, "unit": "g"},
+				{"name": "voda", "quantity": 45, "unit": "ml"},
+				{"name": "škorica", "unit": "štipka"},
+				{"name": "kypriaci prášok", "unit": "štipka"},
+				{"name": "odtučnený tvaroh", "quantity": 20, "unit": "g"},
+				{"name": "med", "quantity": 10, "unit": "g"},
+				{"name": "jahody", "quantity": 50, "unit": "g"}
+			]
+		}
+	],
+	"source": "Raňajky - 450 kcal.pdf",
+	"sourceRef": "p18"
+}

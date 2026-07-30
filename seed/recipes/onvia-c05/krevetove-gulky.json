@@ -1,0 +1,109 @@
+{
+	"title": "Krevetové guľky",
+	"category": "snacky",
+	"prepTimeMinutes": 25,
+	"steps": [
+		"Uvar si ryžu podľa návodu na obale a nechaj ju vychladnúť. Počas toho ako sa ryža varí pridaj morskú soľ a keď je ryža takmer hotová, pridaj aj niekoľko kvapiek ryžového octu.",
+		"Krevety v miske ochuť koreninami, bylinkami a opeč na panvici z každej strany niekoľko minút. Nechaj ich vychladnúť asi 5-10 minút. Po vychladnutí ich nakrájaj nadrobno.",
+		"Priprav si Bang Bang omáčku. Všetky suroviny na omáčku vlož do misky, vymiešaj do hladkej konzistencie a vlož do chladničky.",
+		"Do ďalšej väčšej misky pridaj uvarenú ryžu, nasekané krevety, jarnú a červenú cibuľu nakrájanú nadrobno, sezamové semienka a približne ½ Bang Bang omáčky. Dávaj pozor, aby si nepridala príliš veľa omáčky, guľky by potom boli príliš vlhké a nedržali by tvar. Radšej pridaj menej ako ½ omáčky. Vždy môžeš neskôr pridať viac.",
+		"Dobre premiešaj všetky suroviny v miske dokopy. Zľahka si navlhči ruky a vytvaruj 15 veľmi pevne stlačených guľôčok. Je veľmi dôležité, aby boli pevné, inak sa rozpadnú.",
+		"Fritézu (AirFryer) postriekaj (vytri) olejom v spreji. Vlož guľky do fritézy a peč na 200°C po dobu 10 minút.",
+		"Keď sú guľky upečené, na každú guľôčku pridaj malý plátok jalaleno papričky, prichystaj si zvyšok Bang Bang omáčky, namáčaj a vychutnávaj tento ázijský gurmánsky skvost."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 85,
+			"portions": 15,
+			"macros": {
+				"carbs": 9,
+				"protein": 7,
+				"fat": 2
+			},
+			"ingredients": [
+				{
+					"name": "krevety",
+					"quantity": 500,
+					"unit": "g"
+				},
+				{
+					"name": "sushi ryža",
+					"quantity": 120,
+					"unit": "g"
+				},
+				{
+					"name": "jarná cibuľka",
+					"quantity": 30,
+					"unit": "g"
+				},
+				{
+					"name": "červená cibuľa",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "čerstvý koriander",
+					"quantity": 1,
+					"unit": "dlaň"
+				},
+				{
+					"name": "sezamové semiačka",
+					"quantity": 1,
+					"unit": "ČL"
+				},
+				{
+					"name": "jalapeños"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "granulovaný cesnak"
+				},
+				{
+					"name": "granulovaná cibuľa"
+				},
+				{
+					"name": "zázvor"
+				},
+				{
+					"name": "limetková šťava"
+				},
+				{
+					"name": "nízkotučný grécky jogurt",
+					"quantity": 110,
+					"unit": "g"
+				},
+				{
+					"name": "med",
+					"quantity": 28,
+					"unit": "g"
+				},
+				{
+					"name": "chilli omáčka (Sriracha)",
+					"quantity": 15,
+					"unit": "g"
+				},
+				{
+					"name": "sojová omáčka",
+					"quantity": 15,
+					"unit": "g"
+				},
+				{
+					"name": "sezamový olej",
+					"quantity": 6,
+					"unit": "g"
+				},
+				{
+					"name": "ryžový ocot",
+					"quantity": 6,
+					"unit": "g"
+				}
+			]
+		}
+	],
+	"image": "onvia/image117.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image117"
+}

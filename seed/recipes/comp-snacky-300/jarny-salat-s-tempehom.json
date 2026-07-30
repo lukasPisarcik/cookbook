@@ -1,0 +1,89 @@
+{
+	"title": "Jarný šalát s tempehom",
+	"category": "snacky",
+	"dietTags": ["bezlepkove"],
+	"prepTimeMinutes": 15,
+	"steps": [
+		"Tempeh pokráj na kocky a zľahka osmahni na pár kvapkách olivového oleja.",
+		"Zeleninu nakrájaj ( reďkovku, cibuľku ), natrhaj hlávkový šalát, a pridaj zrniečka granátového jablka",
+		"Zálievku si priprav z oleja, pretlačeného cesnaku, šťavy z citróna, čierneho korenia, soli a nakrájanej vňatky / pažítky.",
+		"Zalej ňou šalát, zľahka premiešaj a podávaj posypané semienkami."
+	],
+	"funFact": "Tempeh obsahuje okrem bielkovín aj probiotiká! Vďaka fermentačnému procesu, ktorým sa tempeh vyrába, vznikajú baktérie, ktoré podporujú zdravú črevnú mikroflóru.",
+	"variants": [
+		{
+			"label": "300 kcal",
+			"kcalPerPortion": 363,
+			"portions": 2,
+			"macros": {
+				"carbs": 26,
+				"protein": 16,
+				"fat": 21
+			},
+			"ingredients": [
+				{
+					"name": "tempeh",
+					"quantity": 130,
+					"unit": "g"
+				},
+				{
+					"name": "olivový olej",
+					"quantity": 10,
+					"unit": "g"
+				},
+				{
+					"name": "hlávkový šalát",
+					"quantity": 300,
+					"unit": "g"
+				},
+				{
+					"name": "malá červená reďkovka",
+					"quantity": 8,
+					"unit": "ks"
+				},
+				{
+					"name": "mladá cibuľka",
+					"quantity": 2,
+					"unit": "ks"
+				},
+				{
+					"name": "šalotka",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "dužina z granátového jablka",
+					"quantity": 200,
+					"unit": "g"
+				},
+				{
+					"name": "citrón (šťava)",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "čierne korenie"
+				},
+				{
+					"name": "sezamové semienka",
+					"quantity": 10,
+					"unit": "g"
+				},
+				{
+					"name": "cesnak",
+					"quantity": 2,
+					"unit": "strúčik"
+				},
+				{
+					"name": "petržlenová vňatka"
+				}
+			]
+		}
+	],
+	"image": "snacky-300-kcal/p10.webp",
+	"source": "Snacky - 300 kcal.pdf",
+	"sourceRef": "p10"
+}

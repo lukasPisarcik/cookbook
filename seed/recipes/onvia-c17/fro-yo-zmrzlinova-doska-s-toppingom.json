@@ -1,0 +1,33 @@
+{
+	"title": "Fro-Yo zmrzlinová doska s toppingom",
+	"category": "dezerty",
+	"prepTimeMinutes": 195,
+	"steps": [
+		"Jogurt zmiešaj v miske so suchými prísadami, až kým nezískaš hladkú konzistenciu.",
+		"Rovnomerne zmes rozotri na plech vyložený papierom na pečenie.",
+		"Na vrch nalej orechové maslo (ak ho máš tuhé, zrieď ho v miske s trochou vody alebo mandľovým mliekom, aby bolo tekutejšie).",
+		"Na záver ozdob orechmi, praclíkmi a ovocím podľa preferencií.",
+		"Plech vlož do mrazničky aspoň na 3 hodiny.",
+		"Po stuhnutí ju môžeš jednoducho rozlámať na kúsky."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 1,
+			"macros": {"carbs": 104, "protein": 180, "fat": 41},
+			"ingredients": [
+				{"name": "nízkotučný grécky jogurt", "quantity": 500, "unit": "g"},
+				{"name": "arašidové maslo v prášku", "quantity": 60, "unit": "g"},
+				{"name": "proteínový prášok (vanilka, čokoláda)", "quantity": 60, "unit": "g"},
+				{"name": "sladidlo", "quantity": 8, "unit": "g"},
+				{"name": "praclíky", "quantity": 80, "unit": "g"},
+				{"name": "drvené arašidy", "quantity": 50, "unit": "g"},
+				{"name": "orechové maslo", "quantity": 40, "unit": "g"},
+				{"name": "voda"}
+			]
+		}
+	],
+	"image": "onvia/image332.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image332"
+}

@@ -1,0 +1,74 @@
+{
+	"title": "Krémová cesnaková polievka",
+	"category": "obedy",
+	"prepTimeMinutes": 50,
+	"steps": [
+		"V hrnci rozpusti 1 ČL ghee (prepustené maslo) a orestuj nadrobno nakrájanú cibuľu.",
+		"Potom pridaj ošúpané zemiaky nakrájané na kocky, 5 rozdrvených strúčikov cesnaku a zalej mliekom. V prípade potreby pridaj ešte trochu vody, aby boli zemiaky ponorené.",
+		"Var, kým zemiaky nezmäknú, a potom ich rozmixuj tyčovým mixérom.",
+		"V malej miske rozmiešaj ricottu a kvapku vody. Potom ju vlej do polievky. Tým sa zabráni tomu, aby sa ricotta zmenila na hrudky. Chvíľu povar.",
+		"Dochuť soľou a korením.",
+		"Podávaj s opečenými krutónmi."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 430,
+			"portions": 2,
+			"macros": {
+				"carbs": 52,
+				"protein": 20,
+				"fat": 17
+			},
+			"ingredients": [
+				{
+					"name": "zemiaky",
+					"quantity": 200,
+					"unit": "g"
+				},
+				{
+					"name": "cibuľa",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "cesnak",
+					"quantity": 5,
+					"unit": "strúčik"
+				},
+				{
+					"name": "ghee",
+					"quantity": 1,
+					"unit": "ČL"
+				},
+				{
+					"name": "mlieko",
+					"quantity": 300,
+					"unit": "ml"
+				},
+				{
+					"name": "voda"
+				},
+				{
+					"name": "ricotta",
+					"quantity": 200,
+					"unit": "g"
+				},
+				{
+					"name": "toastový chlieb",
+					"quantity": 2,
+					"unit": "plátok"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "rasca"
+				}
+			]
+		}
+	],
+	"image": "onvia/image74.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image74"
+}

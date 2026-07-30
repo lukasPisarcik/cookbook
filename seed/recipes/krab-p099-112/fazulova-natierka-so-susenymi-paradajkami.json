@@ -1,0 +1,24 @@
+{
+	"title": "Fazuľová nátierka so sušenými paradajkami",
+	"category": "zaklady",
+	"steps": [
+		"Všetky ingrediencie dajte do vysokej nádoby od mixéra a rozmixujte dohladka.",
+		"Nátierku presuňte do mištičiek a ozdobte kúskami sušených paradajok a rukolou.",
+		"Podávajte s kúskom kvalitného pečiva."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 4,
+			"ingredients": [
+				{"name": "biele fazule Cannellini", "quantity": 1, "unit": "konzerva"},
+				{"name": "sušené paradajky v oleji", "quantity": 60, "unit": "g"},
+				{"name": "soľ"},
+				{"name": "údená paprika", "quantity": 2, "unit": "ČL"}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p100.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p100"
+}

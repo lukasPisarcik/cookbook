@@ -1,0 +1,33 @@
+{
+	"title": "Zemiak s lososom",
+	"category": "obedy",
+	"prepTimeMinutes": 20,
+	"steps": [
+		"Zemiaky dôkladne umy, popichaj vidličkou a zabaľ do alobalu. Peč v rúre vyhriatej na 200 °C približne 15-20 minút, kým nezmäknú.",
+		"Medzitým nakrájaj lososa na kocky, pridaj korenie V7X a opeč na panvici s trochou olivového oleja alebo vo fritéze dozlatista.",
+		"Kyslú smotanu premiešaj s nasekaným kôprom, kyslými uhorkami a podľa chuti aj s jarnou cibuľkou alebo pažítkou.",
+		"Upečený zemiak rozbaľ z alobalu, jemne narež do kríža a roztvor, aby vznikol priestor na plnku.",
+		"Naplň ho smotanovou zmesou, pridaj kúsky lososa a posyp čerstvým kôprom."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 541,
+			"portions": 1,
+			"macros": { "carbs": 37, "protein": 31, "fat": 30 },
+			"ingredients": [
+				{ "name": "zemiak", "quantity": 200, "unit": "g" },
+				{ "name": "olivový olej", "quantity": 5, "unit": "g" },
+				{ "name": "čerstvý losos", "quantity": 125, "unit": "g" },
+				{ "name": "kyslá smotana", "quantity": 50, "unit": "g" },
+				{ "name": "korenie V7X" },
+				{ "name": "čerstvý kôpor" },
+				{ "name": "kyslá uhorka" },
+				{ "name": "jarná cibuľka" }
+			]
+		}
+	],
+	"image": "onvia/image246.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image246"
+}

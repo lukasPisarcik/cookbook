@@ -1,0 +1,32 @@
+{
+	"title": "Proteínový wrap s vanilkovým proteínovým krémom",
+	"category": "dezerty",
+	"prepTimeMinutes": 10,
+	"steps": [
+		"Najprv si proteínový puding pripravíme v mikrovlnke. Proteínový prášok, vanilkový puding, Unicorn Dust, Xanthan a mlieko zmiešame spolu v miske. Na 800 Wattoch zohrievame 2,5 minúty, priebežne jeden-dvakrát premiešame.",
+		"Puding si môžeme uvariť aj v hrnci. K tomu necháme zovrieť 100 ml mlieka, a v ďalších 100 ml rozmiešame pudingový prášok, proteínový prášok, Unicorn Dust a Xanthan. Akonáhle nám mlieko zovrie vlejeme pudingový mix a miešame pokým puding nemá požadovanú krémovú konzistenciu.",
+		"Medzitým si wrap / tortillu vtlačíme do formy na koláč. Vložíme do rúry a pečieme pri 180°C cca 8-10 minút, pokiaľ nám wrap nestvrdne a drží koláčový tvar.",
+		"Následne necháme wrap vychladnúť, a wrapovú formu naplníme pudingom.",
+		"Koláč dáme na 30 minút do mrazničky pre jeho rýchlejšie podávanie. Ak čas nezohráva úlohu tak v chladničke bude potrebovať cca 2-3 hodiny na úplné stuhnutie a vychladenie."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 297,
+			"portions": 1,
+			"macros": {"carbs": 33, "protein": 30, "fat": 5},
+			"ingredients": [
+				{"name": "proteínový wrap", "quantity": 1, "unit": "ks"},
+				{"name": "proteínový prášok (vanilka)", "quantity": 25, "unit": "g"},
+				{"name": "vanilkový pudingový prášok", "quantity": 20, "unit": "g"},
+				{"name": "nesladené mandľové mlieko", "quantity": 200, "unit": "ml"},
+				{"name": "xantánová guma", "quantity": 0.25, "unit": "ČL"},
+				{"name": "Unicorn Dust", "quantity": 3, "unit": "g"},
+				{"name": "nasekané oriešky"}
+			]
+		}
+	],
+	"image": "onvia/image301.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image301"
+}

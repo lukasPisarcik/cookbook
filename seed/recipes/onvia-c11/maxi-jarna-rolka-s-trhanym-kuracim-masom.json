@@ -1,0 +1,36 @@
+{
+	"title": "Maxi jarná rolka s trhaným kuracím mäsom",
+	"category": "obedy",
+	"prepTimeMinutes": 25,
+	"steps": [
+		"Najprv uvar mäso vo vriacej vode. Potom ho natrhej na vlásky.",
+		"Mäso marinuj v marináde z bieleho jogurtu, chilli omáčky, soli a korenia.",
+		"Plátky ryžového papieru namoč na niekoľko sekúnd do teplej vody. Rozlož ich tak, aby sa aspoň trochu prekrývali. Na ryžový papier daj šalát, na tenké plátky nakrájanú mrkvu, úhorku, cibuľku a marinované mäso. Zabaľ do jednej veľkej rolky.",
+		"Teraz už stačí len nakrájať na niekoľko malých roliek a vychutnať si ich so sójovou alebo teriyaki omáčkou.",
+		"Dobrú chuť"
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 467,
+			"portions": 1,
+			"macros": {"carbs": 67, "protein": 34, "fat": 7},
+			"ingredients": [
+				{"name": "ryžový papier", "quantity": 6, "unit": "plátok"},
+				{"name": "mrkva", "quantity": 1, "unit": "ks"},
+				{"name": "uhorka", "quantity": 100, "unit": "g"},
+				{"name": "jarná cibuľka", "quantity": 1, "unit": "štipka"},
+				{"name": "šalát", "quantity": 6, "unit": "plátok"},
+				{"name": "kuracie mäso", "quantity": 100, "unit": "g"},
+				{"name": "soľ"},
+				{"name": "korenie"},
+				{"name": "sladká chilli omáčka", "quantity": 1, "unit": "PL"},
+				{"name": "biely jogurt (max. 3 % tuku)", "quantity": 1, "unit": "ks"},
+				{"name": "sójová omáčka"}
+			]
+		}
+	],
+	"image": "onvia/image232.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image232"
+}

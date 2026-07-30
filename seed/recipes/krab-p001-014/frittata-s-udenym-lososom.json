@@ -1,0 +1,31 @@
+{
+	"title": "Frittata s údeným lososom",
+	"category": "ranajky",
+	"steps": [
+		"Trúbu predhrejte na 180 stupňov.",
+		"Menšiu zapekaciu formu vymasťte prepusteným maslom a na dno položte kúsky lososy a kúsky sušených paradajok.",
+		"Vajcia rozšľahajte, osoľte a okoreňte. Vylejte ich do formy na lososa a paradajky. Nakoniec pridajte nasekaný petržlen a keď chcete pridať nadrobno nastrúhaný parmezán a dajte piecť na 20 minút.",
+		"Po upečení nechajte trochu vychladnúť, potom pokrájajte na štvrtiny, položte do krabičky a doplňte kúskami šalátovej uhorky, hroznom a nasekanými mandľami."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 1,
+			"ingredients": [
+				{ "name": "prepustené maslo na vymastenie formy" },
+				{ "name": "vajce", "quantity": 3, "unit": "ks" },
+				{ "name": "údený losos", "quantity": 50, "unit": "g" },
+				{ "name": "sušené paradajky v oleji", "quantity": 6, "unit": "ks" },
+				{ "name": "soľ" },
+				{ "name": "peper" },
+				{ "name": "čerstvý petržlen", "unit": "hrsť" },
+				{ "name": "šalátová uhorka", "unit": "kúsok" },
+				{ "name": "hrozno", "unit": "hrsť" },
+				{ "name": "mandle", "quantity": 10, "unit": "g" }
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p12.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p12"
+}

@@ -1,0 +1,38 @@
+{
+	"title": "Oreo Cheesecake s pravými Oreo sušienkami",
+	"category": "dezerty",
+	"prepTimeMinutes": 20,
+	"steps": [
+		"Predhrej rúru na 200°C ohrev zhora/zdola. A vlož do rúry extra formu na pečenie naplnenú vodou. Slúži na to aby cheesecake nepraskol počas celej doby pečenia.",
+		"Do kuchynského mixéra pridaj Oreo a mixuj na pulznom nastavení, kým nezískaš rovnomerne veľké rozlámané kúsky, potom pridaj zvyšné prísady na základ a opäť mixuj na rovnakom nastavení, pokým nezískš na dotyk ešte trochu vlhký základ.",
+		"Cheesecake formu na koláč postriekaj (vytri) kokosovým olejom. Cesto vtlač do formy na cheesecake pomocou špachtle. Základ vo forme daj piecť do rúry na 10 minút.",
+		"Do kuchynského mixéra pridaj všetky suroviny na cheesecake a vymixuj, kým sa zmes dobre neprepojí, potom primiešaj 2 rozdrvené Oreo sušienky. Keď je základ upečený, pridaj cheesecake náplň. Zníž teplotu rúry na 170°C a vlož cheesecake späť do rúry.",
+		"Peč ďalších 25 minút, kým stred cheesecake-u nie je úplne pevný, stačí tak na 80 %. Po dopečení ho vyber, nechaj vychladnúť a vlož do chladničky, aby stuhol.",
+		"Keď je cheesecake vychladený, môžeš si ho vychutnať."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 212,
+			"portions": 8,
+			"macros": {"carbs": 17, "protein": 18, "fat": 8},
+			"ingredients": [
+				{"name": "Oreo sušienky", "quantity": 130, "unit": "g"},
+				{"name": "nízkotučný grécky jogurt", "quantity": 100, "unit": "g"},
+				{"name": "maslo (roztopené)", "quantity": 28, "unit": "g"},
+				{"name": "vanilkový proteínový prášok", "quantity": 15, "unit": "g"},
+				{"name": "raw kakao prášok", "quantity": 15, "unit": "g"},
+				{"name": "Unicorn Dust", "quantity": 3, "unit": "g"},
+				{"name": "nízkotučný smotanový syr", "quantity": 220, "unit": "g"},
+				{"name": "vajce", "quantity": 2, "unit": "ks"},
+				{"name": "nízkotučný grécky jogurt", "quantity": 220, "unit": "g"},
+				{"name": "vanilkový proteínový prášok", "quantity": 60, "unit": "g"},
+				{"name": "Unicorn Dust", "quantity": 9, "unit": "g"},
+				{"name": "Oreo sušienky", "quantity": 2, "unit": "ks"}
+			]
+		}
+	],
+	"image": "onvia/image276.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image276"
+}

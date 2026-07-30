@@ -1,0 +1,33 @@
+{
+	"title": "Zelený chia pudding",
+	"category": "ranajky",
+	"prepTimeMinutes": 40,
+	"steps": [
+		"Vo veľkej miske zmiešaj jogurt s ošúpanou kiwi a niekoľkými kvapkami stevie (volitelné). Druhú kiwi nakrájaj na plátky a nechaj na ozdobu.",
+		"Vmiešaj matcha prášok, chia semienka a proteín. Nechaj chvíľu odstáť.",
+		"Pohár alebo misku vylož plátkami kiwi, pridaj chia puding a ozdob na kocky nakrájaným mangom.",
+		"Navrch môžeš ešte pridať prebiotický topping.",
+		"Nechaj v chladničke 30 minút a potom si vychutnaj!"
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 377,
+			"portions": 2,
+			"macros": { "carbs": 41, "protein": 21, "fat": 16 },
+			"ingredients": [
+				{ "name": "chia semienka", "quantity": 60, "unit": "g" },
+				{ "name": "vanilkový proteín", "quantity": 30, "unit": "g" },
+				{ "name": "stevia drops" },
+				{ "name": "matcha prášok", "quantity": 1, "unit": "ČL" },
+				{ "name": "sedliacky jogurt (3 % tuku)", "quantity": 300, "unit": "g" },
+				{ "name": "kiwi", "quantity": 2, "unit": "ks" },
+				{ "name": "mango", "quantity": 100, "unit": "g" },
+				{ "name": "prebiotic topping", "quantity": 1, "unit": "ČL" }
+			]
+		}
+	],
+	"image": "onvia/image362.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image362"
+}

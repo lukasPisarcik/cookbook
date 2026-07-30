@@ -1,0 +1,32 @@
+{
+	"title": "Probio + prebiotická granolová miska",
+	"category": "ranajky",
+	"prepTimeMinutes": 15,
+	"steps": [
+		"Jogurt zmiešaj s granolou a proteínom.",
+		"Daj do chladničky na celú noc.",
+		"Ráno pridaj čerstvé ovocie a čakankový sirup.",
+		"Môžeš posypať škoricou, ozdob chia semienkami a lyo ovocím."
+	],
+	"funFact": "Probiotiká sú prospešné baktérie, ktoré podporujú zdravie čriev a prebiotiká sú vláknina a nestráviteľné sacharidy, ktoré slúžia ako potrava pre probiotiká.",
+	"variants": [
+		{
+			"label": "450 kcal",
+			"kcalPerPortion": 447,
+			"portions": 1,
+			"macros": {"carbs": 43, "protein": 26, "fat": 18},
+			"ingredients": [
+				{"name": "granola bez cukru", "quantity": 35, "unit": "g"},
+				{"name": "polotučný probio jogurt", "quantity": 145, "unit": "g"},
+				{"name": "proteín", "quantity": 15, "unit": "g"},
+				{"name": "čerstvé ovocie", "quantity": 100, "unit": "g"},
+				{"name": "čakankový sirup", "quantity": 15, "unit": "g"},
+				{"name": "škorica"},
+				{"name": "chia semienka", "quantity": 2, "unit": "g"},
+				{"name": "lyofilizované maliny", "quantity": 15, "unit": "g"}
+			]
+		}
+	],
+	"source": "Raňajky - 450 kcal.pdf",
+	"sourceRef": "p16"
+}

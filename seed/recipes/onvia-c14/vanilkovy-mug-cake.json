@@ -1,0 +1,35 @@
+{
+	"title": "Vanilkový mug cake",
+	"category": "dezerty",
+	"prepTimeMinutes": 5,
+	"steps": [
+		"Vo väčšom hrnčeku rozšľahaj jedno vajce s trochou mlieka.",
+		"Potom pridaj suché suroviny (múku, protein na pečenie, prášok do pečiva, Unicorn Dust).",
+		"Dobre ich vymiešaj do hladkého cesta a vlož do mikrovlnnej rúry na približne 3 minúty.",
+		"Potom ho nechaj chvíľu vychladnúť. Môžeš ho nechať v hrnčeku alebo ho vyklopiť na tanier.",
+		"Navrch daj lyžicu jogurtu, pokvapkaj arašidovým maslom, posyp čučoriedkami a prípadne ešte granolou."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 468,
+			"portions": 1,
+			"macros": {"carbs": 41, "protein": 46, "fat": 14},
+			"ingredients": [
+				{"name": "vajce", "quantity": 1, "unit": "ks"},
+				{"name": "polotučné mlieko", "quantity": 75, "unit": "ml"},
+				{"name": "špaldová múka", "quantity": 40, "unit": "g"},
+				{"name": "proteín na pečenie", "quantity": 30, "unit": "g"},
+				{"name": "prášok do pečiva", "quantity": 1, "unit": "ČL"},
+				{"name": "Unicorn Dust", "quantity": 1, "unit": "odmerka"},
+				{"name": "grécky jogurt", "quantity": 1, "unit": "PL"},
+				{"name": "arašidové maslo", "quantity": 1, "unit": "ČL"},
+				{"name": "čučoriedky"},
+				{"name": "granola"}
+			]
+		}
+	],
+	"image": "onvia/image272.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image272"
+}

@@ -1,0 +1,37 @@
+{
+	"title": "Bang-bang kura",
+	"category": "obedy",
+	"prepTimeMinutes": 15,
+	"steps": [
+		"Priprav si sklenené nádoby, ktoré môžeš vložiť do rúry. Prípadne použi nádobu na pečenie a po upečení rozdeľ na 3 porcie.",
+		"Do každej nádoby vlož 1 porciu ryže (70 g) a zalej ju 1,5-násobným množstvom vody (105 ml). Rozdeľ 1/2 bieleho jogurtu do 3 nádob (zvyšok si nechaj na dip), pridaj na kocky nakrájanú červenú papriku, cesnak, chilli omáčku a korenie. Premiešaj.",
+		"Ako posledné nakrájaj mäso na malé kocky a pridaj ho do ryže.",
+		"Vlož do rúry a peč približne 35 minút na 185°C.",
+		"Po upečení pridaj na vrch lyžičku zvyšného jogurtu s kvapkou čili omáčky, štipkou sladkej papriky a soľou. Posyp jarnou cibuľkou a vychutnaj si!"
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 432,
+			"portions": 3,
+			"macros": {"carbs": 64, "protein": 32, "fat": 5},
+			"ingredients": [
+				{"name": "ryža", "quantity": 210, "unit": "g"},
+				{"name": "kuracie prsa", "quantity": 300, "unit": "g"},
+				{"name": "voda", "quantity": 315, "unit": "ml"},
+				{"name": "červená paprika", "quantity": 1, "unit": "ks"},
+				{"name": "cesnak", "quantity": 2, "unit": "strúčik"},
+				{"name": "biely jogurt (max. 3 % tuku)", "quantity": 0.5, "unit": "ks"},
+				{"name": "jarná cibuľka", "quantity": 1, "unit": "stonka"},
+				{"name": "biely jogurt (max. 3 % tuku) na dressing", "quantity": 0.5, "unit": "ks"},
+				{"name": "soľ", "unit": "štipka"},
+				{"name": "sladká paprika", "unit": "štipka"},
+				{"name": "kari"},
+				{"name": "chilli omáčka"}
+			]
+		}
+	],
+	"image": "onvia/image225.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image225"
+}

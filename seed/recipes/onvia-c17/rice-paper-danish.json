@@ -1,0 +1,35 @@
+{
+	"title": "Rice paper danish",
+	"category": "dezerty",
+	"prepTimeMinutes": 10,
+	"steps": [
+		"V miske rozšľahaj vajce s trochou mlieka a štipkou korenia A5C.",
+		"Ryžový papier do tejto zmesi namoč a polož ho na tanier alebo papier na pečenie.",
+		"V druhej miske zmiešaj grécky jogurt s trochou vanilkového pudingového prášku a Unicorn Dust sladidlom. Zmes nanes do stredu ryžového papiera.",
+		"Okraje papiera opatrne zahnúť smerom k náplni, aby vznikol okraj. Navrch pridaj čučoriedky alebo iné ovocie.",
+		"Vlož do teplovzdušnej fritézy a peč pri 165 °C približne 20 minút, kým dezert nezozlatne.",
+		"Po upečení posyp múčkovým erythritolom alebo iným sladidlom."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 179,
+			"portions": 2,
+			"macros": {"carbs": 18, "protein": 18, "fat": 4},
+			"ingredients": [
+				{"name": "ryžový papier", "quantity": 1, "unit": "ks"},
+				{"name": "vajce", "quantity": 1, "unit": "ks"},
+				{"name": "mlieko", "unit": "kvapka"},
+				{"name": "korenie A5C", "unit": "štipka"},
+				{"name": "Unicorn Dust", "unit": "štipka"},
+				{"name": "grécky jogurt 0%", "quantity": 1, "unit": "ks"},
+				{"name": "vanilkový pudingový prášok", "unit": "štipka"},
+				{"name": "čučoriedky", "unit": "hrsť"},
+				{"name": "múčkový erythritol"}
+			]
+		}
+	],
+	"image": "onvia/image330.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image330"
+}

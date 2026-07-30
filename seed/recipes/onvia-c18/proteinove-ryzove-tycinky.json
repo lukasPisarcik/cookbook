@@ -1,0 +1,35 @@
+{
+	"title": "Proteínové ryžové tyčinky",
+	"category": "snacky",
+	"prepTimeMinutes": 130,
+	"steps": [
+		"Vo veľkej miske najprv rozlám ryžové chlebíky na čo najmenšie kúsky.",
+		"V druhej miske dobre vymiešaj proteín, sladidlo, arašidové maslo a vodu do polotekutej konzistencie.",
+		"Teraz obe zmesi dôkladne zmiešaj dokopy.",
+		"Plech alebo tanier vysteľ papierom na pečenie a presuň naň zmes. Z cesta vytvaruj obdĺžnik vysoký asi 1 - 2 cm.",
+		"Cesto polej kvalitnou rozpustenou čokoládou a posyp nasekanými orechmi.",
+		"Vlož do mrazničky aspoň na 2 hodiny.",
+		"Po stuhnutí si obdĺžnik nasekaj na tyčinky a potom si vychutnaj studené osvieženie."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 212,
+			"portions": 4,
+			"macros": {"carbs": 21, "protein": 10, "fat": 10},
+			"ingredients": [
+				{"name": "ryžový chlebík", "quantity": 4, "unit": "ks"},
+				{"name": "arašidové maslo", "quantity": 50, "unit": "g"},
+				{"name": "vanilkový proteínový prášok", "quantity": 1, "unit": "odmerka"},
+				{"name": "sladidlo"},
+				{"name": "voda"},
+				{"name": "horká čokoláda", "quantity": 20, "unit": "g"},
+				{"name": "nasekané pistácie", "quantity": 10, "unit": "g"},
+				{"name": "nasekané arašidy", "quantity": 10, "unit": "g"}
+			]
+		}
+	],
+	"image": "onvia/image347.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image347"
+}

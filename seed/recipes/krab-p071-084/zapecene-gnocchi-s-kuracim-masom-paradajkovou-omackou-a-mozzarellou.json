@@ -1,0 +1,68 @@
+{
+	"title": "Zapečené gnocchi s kuracím mäsom, paradajkovou omáčkou a mozzarellou",
+	"category": "obedy",
+	"steps": [
+		"Rúru predhrejte na 180 stupňov.",
+		"Kuracie prsia nakrájajte na menšie kúsky, osoľte z obidvoch strán a na oleji ich na panvici zatiahnite.",
+		"Do zapekacej misky položte neuvarené gnocchi.",
+		"Passatu dajte do misky, prelisujte do nej cesnak, pridajte cukor, oregano, štipku soli a olivový olej, premiešajte. Paradajkovú zmes nalejte na gnocchi.",
+		"Nakoniec položte kuracie kúsky, ktoré trošku zatlačte medzi omáčku a gnocchi.",
+		"Dajte piecť na 30 minút do rúry.",
+		"Po 30 minútach pridajte natrhanú mozzarellu, zvýšte teplotu na 200 stupňov, ideálne na funkciu grill. Pečte ďalších 10-15 minút, že sa mozzarella rozpustí.",
+		"Po upečení môžete hneď servírovať alebo nechajte vychladnúť a potom naservírujte do krabičiek."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 4,
+			"ingredients": [
+				{
+					"name": "kuracie prsia",
+					"quantity": 300,
+					"unit": "g"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "slnečnicový olej",
+					"quantity": 1,
+					"unit": "PL"
+				},
+				{
+					"name": "zemiakové gnocchi",
+					"quantity": 500,
+					"unit": "g"
+				},
+				{
+					"name": "paradajková passata",
+					"quantity": 500,
+					"unit": "g"
+				},
+				{
+					"name": "kryštálový cukor",
+					"quantity": 1,
+					"unit": "PL"
+				},
+				{
+					"name": "cesnak",
+					"quantity": 2,
+					"unit": "strúčik"
+				},
+				{
+					"name": "sušené oregano",
+					"quantity": 1,
+					"unit": "PL"
+				},
+				{
+					"name": "mozzarella light",
+					"quantity": 125,
+					"unit": "g"
+				}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p84.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p84"
+}

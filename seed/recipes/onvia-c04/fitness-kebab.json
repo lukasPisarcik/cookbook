@@ -1,0 +1,48 @@
+{
+	"title": "Fitness kebab",
+	"category": "obedy",
+	"prepTimeMinutes": 40,
+	"steps": [
+		"Rúru si predhrejeme na 180°C horný/spodný ohrev.",
+		"Na prípravu cesta si v mise zmiešame všetky suroviny, vymiesime a vytvarujeme si cesto do tvaru placky. Nesmieme cesto rozvaľkať príliš na tenko, aby sme neskôr mohli do cesta vyrezať „taštičku“",
+		"Pečieme v rúre cca 15 minút, alebo pokým nie je chrumkavá vonkajšia strana. Medzitým si mäso nakrájame na tenké plátky a s olejom a koreninami sprudka opečieme.",
+		"Pripravíme si šalát a tzatziki. Na tzatziki nastrúhame uhorku, vytlačíme prebytočnú vodu a zmiešame s ostatnými surovinamii.",
+		"Mäso so šalátom si zmiešame v miske. Upečený kebab chlieb si necháme vychladnúť, a potom vykrojíme „taštičku“, ktorú naplníme surovinami."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 521,
+			"portions": 1,
+			"macros": {
+				"carbs": 62,
+				"protein": 47,
+				"fat": 10
+			},
+			"ingredients": [
+				{ "name": "špaldová múka", "quantity": 60, "unit": "g" },
+				{ "name": "proteínový prášok bez príchute", "quantity": 25, "unit": "g" },
+				{ "name": "prírodný jogurt", "quantity": 30, "unit": "g" },
+				{ "name": "prášok do pečiva", "quantity": 4, "unit": "g" },
+				{ "name": "voda" },
+				{ "name": "soľ" },
+				{ "name": "kuracie prsia", "quantity": 75, "unit": "g" },
+				{ "name": "olivový olej", "quantity": 5, "unit": "g" },
+				{ "name": "šalátový mix" },
+				{ "name": "čierne korenie" },
+				{ "name": "čerstvý cesnak" },
+				{ "name": "tymián" },
+				{ "name": "oregano" },
+				{ "name": "rozmarín" },
+				{ "name": "grécky jogurt", "quantity": 50, "unit": "g" },
+				{ "name": "cesnak", "quantity": 1, "unit": "strúčik" },
+				{ "name": "citrón", "quantity": 0.5, "unit": "ks" },
+				{ "name": "uhorka", "quantity": 50, "unit": "g" },
+				{ "name": "čerstvý petržlen" }
+			]
+		}
+	],
+	"image": "onvia/image97.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image97"
+}

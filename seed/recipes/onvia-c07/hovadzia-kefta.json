@@ -1,0 +1,93 @@
+{
+	"title": "Hovädzia kefta",
+	"category": "obedy",
+	"prepTimeMinutes": 40,
+	"steps": [
+		"Mäso zmiešaj s najemno nakrájanou cibuľou, pretlačeným cesnakom, korením, soľou, majoránkou a bylinkami. Na plechu vystlanom papierom na pečenie vytvaruj zmesi do obdĺžnika hrubého približne 2 cm a rozrež ho na 4 rovnako dlhé valčeky.",
+		"Rajčiny nakrájaj na polmesiačiky, daj na druhú časť plechu, osoľ a pokvapkaj, alebo postriekaj olejom. Vlož všetko do rúry a peč pri 200 °C asi 15 minút.",
+		"V malej miske rozmiešaj tahini s citrónovou šťavou, chilli omáčkou a troškou vody, kým nezískaš krémovú konzistenciu. Dochuť soľou.",
+		"Wrap potri omáčkou, pridaj upečené mäsové valčeky, pečené rajčiny a na plátky nakrájané kyslé uhorky. Zabaľ a krátko opeč nasucho na panvici alebo vo fritéze, aby bol chrumkavý."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 514,
+			"portions": 2,
+			"macros": {
+				"carbs": 47,
+				"protein": 30,
+				"fat": 22
+			},
+			"ingredients": [
+				{
+					"name": "mleté hovädzie mäso",
+					"quantity": 200,
+					"unit": "g"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "čierne korenie"
+				},
+				{
+					"name": "majoránka"
+				},
+				{
+					"name": "čerstvé bylinky"
+				},
+				{
+					"name": "cesnak",
+					"quantity": 1,
+					"unit": "strúčik"
+				},
+				{
+					"name": "cibuľa",
+					"quantity": 100,
+					"unit": "g"
+				},
+				{
+					"name": "wrap",
+					"quantity": 2,
+					"unit": "ks"
+				},
+				{
+					"name": "rajčina",
+					"quantity": 300,
+					"unit": "g"
+				},
+				{
+					"name": "olivový olej",
+					"quantity": 10,
+					"unit": "g"
+				},
+				{
+					"name": "kyslá uhorka",
+					"quantity": 100,
+					"unit": "g"
+				},
+				{
+					"name": "tahini",
+					"quantity": 1,
+					"unit": "PL"
+				},
+				{
+					"name": "citrónová šťava",
+					"quantity": 0.5,
+					"unit": "ks"
+				},
+				{
+					"name": "voda"
+				},
+				{
+					"name": "chilli omáčka",
+					"quantity": 1,
+					"unit": "PL"
+				}
+			]
+		}
+	],
+	"image": "onvia/image161.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image161"
+}

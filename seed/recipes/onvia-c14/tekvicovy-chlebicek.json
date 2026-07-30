@@ -1,0 +1,41 @@
+{
+	"title": "Tekvicový chlebíček",
+	"category": "dezerty",
+	"prepTimeMinutes": 30,
+	"steps": [
+		"Najprv si priprav tekvicové pyré. Môžeš ho urobiť dvoma spôsobmi. Prvý - rýchlejší spôsob: vydlab tekvicu Hokkaido, odstráň šupku, nakrájaj ju na kocky a uvar vo vriacej vode. Potom ju rozmixuj tyčovým mixérom. Druhý - chutnejší spôsob: tekvicu Hokkaido vydlab, nakrájaj na plátky a upeč v rúre pri teplote 180°C do mäkka. Potom odstráň šupku a rozmixuj ako pri prvom spôsobe.",
+		"Keď je pripravené pyré, stačí zmiešať všetky suroviny na cesto.",
+		"Najprv zmiešaj v mise suché suroviny (múku, prášok do pečiva, soľ, škrob, Unicorn Dust a zmes korenín).",
+		"V druhej miske zmiešaj tekuté suroviny (vajcia, tekvicové pyré, roztopené maslo, mlieko) a pridaj suché suroviny. Dôkladne spolu premiešaj.",
+		"Formu na chlebíček vylož papierom na pečenie, nalej do nej cesto a peč približne 60 minút na 180 stupňov ohrev zhora/zdola (upečnosť chlebíčka kontroluj špáratkom).",
+		"Po vychladnutí potri tvarohom zmiešaným s Unicorn Dust a štipkou škorice."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 171,
+			"portions": 12,
+			"macros": {"carbs": 16, "protein": 6, "fat": 9},
+			"ingredients": [
+				{"name": "vajce", "quantity": 2, "unit": "ks"},
+				{"name": "mlieko", "quantity": 65, "unit": "g"},
+				{"name": "roztopené maslo", "quantity": 100, "unit": "g"},
+				{"name": "tekvicové pyré", "quantity": 200, "unit": "g"},
+				{"name": "špaldová múka", "quantity": 200, "unit": "g"},
+				{"name": "prášok do pečiva", "quantity": 2, "unit": "ČL"},
+				{"name": "škrob", "quantity": 1, "unit": "ČL"},
+				{"name": "škorica", "unit": "štipka"},
+				{"name": "muškátový oriešok", "unit": "štipka"},
+				{"name": "sušený zázvor", "unit": "štipka"},
+				{"name": "soľ", "unit": "štipka"},
+				{"name": "Unicorn Dust", "quantity": 1, "unit": "odmerka"},
+				{"name": "nízkotučný tvaroh", "quantity": 1, "unit": "ks"},
+				{"name": "škorica", "unit": "štipka"},
+				{"name": "Unicorn Dust", "quantity": 1, "unit": "odmerka"}
+			]
+		}
+	],
+	"image": "onvia/image10.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image10"
+}

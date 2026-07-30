@@ -1,0 +1,49 @@
+{
+	"title": "Cottage čipsy",
+	"category": "snacky",
+	"dietTags": ["bezlepkove"],
+	"prepTimeMinutes": 50,
+	"steps": [
+		"Otvor cottage cheese a vylej prebytočnú tekutinu.",
+		"Cottage cheese zmiešaj s ostatnými ingredienciami okrem olivového oleja.",
+		"Rozmixuj.",
+		"Priprav si plech, na ktorý dáš papier na pečenie a pokvapkáš ho olejom.",
+		"S lyžicou urob kopčeky z cottage zmesi a daj na plech.",
+		"Zadnou časťou lyžice vyrovnaj zmes na placky.",
+		"Rúru si predhrej na 180 C.",
+		"Čipsy pečieš cca 40-50 minút, dávaj pozor, keď sú dozlatista, môžeš podávať! *Pečenie sa môže líšiť v závislosti od toho, ako tenkú zmes máš."
+	],
+	"variants": [
+		{
+			"label": "300 kcal",
+			"kcalPerPortion": 281,
+			"portions": 1,
+			"macros": {
+				"carbs": 4,
+				"protein": 31,
+				"fat": 15
+			},
+			"ingredients": [
+				{
+					"name": "cottage cheese",
+					"quantity": 260,
+					"unit": "g"
+				},
+				{
+					"name": "olivový olej",
+					"quantity": 5,
+					"unit": "ml"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "korenie"
+				}
+			]
+		}
+	],
+	"image": "snacky-300-kcal/p11.webp",
+	"source": "Snacky - 300 kcal.pdf",
+	"sourceRef": "p11"
+}

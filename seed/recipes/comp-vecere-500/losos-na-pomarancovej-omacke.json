@@ -1,0 +1,69 @@
+{
+	"title": "Losos na pomarančovej omáčke",
+	"category": "vecere",
+	"dietTags": [
+		"bezlepkove",
+		"bezlaktozove"
+	],
+	"prepTimeMinutes": 40,
+	"steps": [
+		"Ryžu si opláchni a var podľa návodu.",
+		"Popritom si priprav lososa.",
+		"Lososa opláchni, osuš servítkou osoľ a okoreň.",
+		"Pomaranč poriadne umy a nastrúhaj z neho kôru.",
+		"Potom ho rozkroj a vytlač z neho šťavu.",
+		"V miske zmiešaj pomarančovú šťavu, kôru, med a sójovú omáčku.",
+		"Lososa vlož do zapekacej misy a podlej ho pomarančovou zmesou.",
+		"Misu ešte môžeš pokryť predierkovaným alobalom, aby ti losos pri pečení nevyschol.",
+		"Pečieš ho v rúre predhriatej na 180°C cca 15 - 20 minút, v závislosti od hrúbky lososa.",
+		"Dobrú chuť ;)"
+	],
+	"funFact": "Keď lososy žijú v oceáne, majú striebornú farbu, ale keď sa vracajú do riek, ich telo mení farbu do červena, ružová alebo dokonca fialova.",
+	"variants": [
+		{
+			"label": "500 kcal",
+			"kcalPerPortion": 552,
+			"portions": 2,
+			"macros": {
+				"carbs": 61,
+				"protein": 31,
+				"fat": 21
+			},
+			"ingredients": [
+				{
+					"name": "losos bez kože",
+					"quantity": 300,
+					"unit": "g"
+				},
+				{
+					"name": "veľký pomaranč",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "med",
+					"quantity": 50,
+					"unit": "g"
+				},
+				{
+					"name": "sójová omáčka",
+					"quantity": 2,
+					"unit": "PL"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "korenie"
+				},
+				{
+					"name": "ryža",
+					"quantity": 80,
+					"unit": "g"
+				}
+			]
+		}
+	],
+	"source": "Večere - 500 kcal.pdf",
+	"sourceRef": "p18"
+}

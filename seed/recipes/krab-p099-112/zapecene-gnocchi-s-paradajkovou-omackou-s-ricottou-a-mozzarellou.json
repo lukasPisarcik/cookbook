@@ -1,0 +1,30 @@
+{
+	"title": "Zapečené gnocchi s paradajkovou omáčkou s ricottou a mozzarellou",
+	"category": "obedy",
+	"steps": [
+		"Cibuľu a cesnak očisťte a nakrájajte nadrobno.",
+		"V panvice rozohrejte olivový olej a na ňom orestujte cibuľu s cesnakom. Potom pridajte passatu, odkvapkaného tuniaka a všetko premiešajte. Nakoniec vmiešajte ricottu a už nevarte. Zmes ochutnajte a podľa chuti osoľte.",
+		"Zmes premiešajte s neuvarenými gnocchi a presuňte do zapekacej misky. Navrch dajte rozdrobenú alebo nakrájanú mozzarellu.",
+		"Dajte do predhriatej trúby na 180 stupňov a pečte 30 minút."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 4,
+			"ingredients": [
+				{"name": "olivový olej", "quantity": 1, "unit": "PL"},
+				{"name": "cibuľa", "quantity": 1, "unit": "ks"},
+				{"name": "cesnak", "quantity": 2, "unit": "strúčik"},
+				{"name": "paradajková passata", "quantity": 500, "unit": "g"},
+				{"name": "ricotta", "quantity": 250, "unit": "g"},
+				{"name": "soľ"},
+				{"name": "tuniak vo vlastnej šťave", "quantity": 170, "unit": "g"},
+				{"name": "mozzarella light", "quantity": 125, "unit": "g"},
+				{"name": "zemiakové gnocchi", "quantity": 500, "unit": "g"}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p108.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p108"
+}

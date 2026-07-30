@@ -1,0 +1,30 @@
+{
+	"title": "Ovocie s horkou čokoládou",
+	"category": "dezerty",
+	"dietTags": ["bezlaktozove", "bezlepkove"],
+	"prepTimeMinutes": 10,
+	"steps": [
+		"Jahody prekroj na polovicu a banán nakrájaj na kolieska.",
+		"Horkú čokoládu nalám na menšie kúsky a roztop vo vodnom kúpeli alebo v mikrovlnnej rúre (v krátkych intervaloch, aby sa nespálila).",
+		"Na tanier daj pripravené ovocie a polej ho roztopenou čokoládou.",
+		"Na záver posyp nakrájanými mandľami."
+	],
+	"funFact": "Aztékovia a Mayovia považovali kakaové bôby za posvätné a často ich používali ako liečivo na rôzne zdravotné problémy, vrátane únavy a zlého trávenia.",
+	"variants": [
+		{
+			"label": "300 kcal",
+			"kcalPerPortion": 328,
+			"portions": 1,
+			"macros": { "carbs": 38, "protein": 6, "fat": 16 },
+			"ingredients": [
+				{ "name": "jahody", "quantity": 100, "unit": "g" },
+				{ "name": "banán", "quantity": 100, "unit": "g" },
+				{ "name": "čučoriedky", "quantity": 50, "unit": "g" },
+				{ "name": "horká čokoláda (85 % kakaa)", "quantity": 20, "unit": "g" },
+				{ "name": "mandle", "quantity": 10, "unit": "g" }
+			]
+		}
+	],
+	"source": "Dezerty-300kcal.pdf",
+	"sourceRef": "p7"
+}

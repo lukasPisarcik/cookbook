@@ -1,0 +1,29 @@
+{
+	"title": "Tvarohovo-jahodový pohár",
+	"category": "dezerty",
+	"prepTimeMinutes": 5,
+	"steps": [
+		"Jahody umy a nakrájaj na menšie kúsky.",
+		"V miske zmiešaj tvaroh, med/javorový sirup a vanilkový extrakt.",
+		"Na dno pohára daj vrstvu tvarohovej zmesi, na to vrstvu jahôd a opakuj až kým sa neminú ingrediencie.",
+		"Ozdob granolou a jahodami."
+	],
+	"funFact": "Jahody sú bohaté na vitamín C, ktorý podporuje náš imunitný systém.",
+	"variants": [
+		{
+			"label": "300 kcal",
+			"kcalPerPortion": 282,
+			"portions": 1,
+			"macros": { "carbs": 36, "protein": 18, "fat": 7 },
+			"ingredients": [
+				{ "name": "nízkotučný tvaroh", "quantity": 125, "unit": "g" },
+				{ "name": "čerstvé jahody", "quantity": 100, "unit": "g" },
+				{ "name": "med", "quantity": 20, "unit": "g" },
+				{ "name": "vanilkový extrakt", "quantity": 1, "unit": "ČL" },
+				{ "name": "granola", "quantity": 20, "unit": "g" }
+			]
+		}
+	],
+	"source": "Dezerty-300kcal.pdf",
+	"sourceRef": "p5"
+}

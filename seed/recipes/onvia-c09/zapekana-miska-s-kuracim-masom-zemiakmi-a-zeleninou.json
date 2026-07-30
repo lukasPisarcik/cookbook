@@ -1,0 +1,41 @@
+{
+	"title": "Zapekaná miska s kuracím mäsom, zemiakmi a zeleninou",
+	"category": "obedy",
+	"prepTimeMinutes": 32,
+	"steps": [
+		"Predhrej rúru na 200°C nastavenie ventilátor.",
+		"Daj zovrieť vodu v rýchlovarnej kanvici, vlož brokolicu a zemiaky do misy a zalej ich vriacou vodou.",
+		"Kuracie mäso nakrájaj na kúsky a okoreň.",
+		"Vezmi si panvicu vhodnú do rúry a opeč na nej mäso. Keď je mäso zlatohnedé, pridaj predvarenú zeleninu a spolu orestuj ďalších 5 minút.",
+		"Pridaj paradajky, ďalšie bylinky, korenie a všetko posyp syrom.",
+		"Vlož do rúry a nechaj zapiecť ďalších 12-15 minút. Po dopečení si vychutnaj tento skvelý pokrm!"
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 507,
+			"portions": 1,
+			"macros": {"carbs": 59, "protein": 49, "fat": 8},
+			"ingredients": [
+				{"name": "varené zemiaky", "quantity": 300, "unit": "g"},
+				{"name": "kuracie prsia (kúsky)", "quantity": 150, "unit": "g"},
+				{"name": "brokolica (čerstvá alebo mrazená)", "quantity": 200, "unit": "g"},
+				{"name": "strúhaný syr light", "quantity": 30, "unit": "g"},
+				{"name": "cherry paradajky", "quantity": 100, "unit": "g"},
+				{"name": "olivový olej", "quantity": 1, "unit": "ČL"},
+				{"name": "kurkuma"},
+				{"name": "morská soľ"},
+				{"name": "sladká paprika"},
+				{"name": "pálivá paprika"},
+				{"name": "zázvor"},
+				{"name": "cesnak"},
+				{"name": "čierne korenie"},
+				{"name": "kmín"},
+				{"name": "kardamón"}
+			]
+		}
+	],
+	"image": "onvia/image2.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image2"
+}

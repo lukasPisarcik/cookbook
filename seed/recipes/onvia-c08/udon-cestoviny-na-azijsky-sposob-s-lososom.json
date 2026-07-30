@@ -1,0 +1,95 @@
+{
+	"title": "Udon cestoviny na ázijský spôsob s lososom",
+	"category": "obedy",
+	"prepTimeMinutes": 30,
+	"steps": [
+		"Ak je to potrebné lososa rozmrazíme. Potom oddelíme od kože a nakrájame na kocky.",
+		"Všetky prísady na marinádu zmiešame s korením a marinujeme lososa. Ak máme čas, necháme lososa cca 1 hodinu odstáť v marináde v chladničke.",
+		"Vo wok panvici sprudka lososa opečieme a po cca 5 minútach pridáme aj zeleninu.",
+		"Následne 3-4 minúty ďalej restujeme a potom zalejeme kokosovým mliekom. Chvíľu dusíme a odstavíme.",
+		"Pridame Udon rezance (najlepšie ponoriť do omáčky) a 10 minút prikryté necháme odstáť. Ak máme rezance suché, najskôr si ich uvaríme podľa návodu na obale a potom pridáme do omáčky s ostatnými surovinami."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 824,
+			"portions": 1,
+			"macros": {
+				"carbs": 55,
+				"protein": 46,
+				"fat": 44
+			},
+			"ingredients": [
+				{
+					"name": "udon rezance",
+					"quantity": 120,
+					"unit": "g"
+				},
+				{
+					"name": "losos",
+					"quantity": 200,
+					"unit": "g"
+				},
+				{
+					"name": "mrazená zelenina - ázijský mix",
+					"quantity": 300,
+					"unit": "g"
+				},
+				{
+					"name": "kokosové mlieko light",
+					"quantity": 100,
+					"unit": "ml"
+				},
+				{
+					"name": "limetka"
+				},
+				{
+					"name": "sójová omáčka",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				{
+					"name": "čilli pasta",
+					"quantity": 5,
+					"unit": "g"
+				},
+				{
+					"name": "šťava a kôra z limetky"
+				},
+				{
+					"name": "med",
+					"quantity": 1,
+					"unit": "ČL"
+				},
+				{
+					"name": "ryžový ocot",
+					"quantity": 1,
+					"unit": "ČL"
+				},
+				{
+					"name": "sezamový olej",
+					"quantity": 5,
+					"unit": "ml"
+				},
+				{
+					"name": "čerstvý zázvor"
+				},
+				{
+					"name": "čili"
+				},
+				{
+					"name": "čerstvý koriander"
+				},
+				{
+					"name": "citrónová tráva"
+				},
+				{
+					"name": "čerstvý cesnak"
+				}
+			]
+		}
+	],
+	"image": "onvia/image175.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image175"
+}

@@ -1,0 +1,36 @@
+{
+	"title": "Snickerdoodle Cookies",
+	"category": "dezerty",
+	"prepTimeMinutes": 15,
+	"steps": [
+		"Predhrej rúru na 180°C nastavenie ventilátor.",
+		"Všetky suché prísady daj do misy a premiešaj. Pridaj mokré prísady a opäť premiešaj, kým sa suroviny dobre neprepoja. Cesto vlož na 10 minút do mrazničky, aby zhustlo.",
+		"Plech vylož papierom na pečenie, vytvaruj 9 guličiek z cesta na sušienky, najlepšie pomocou naberačky na zmrzlinu. Ak ju náhodou nemáš, použi na tvarovanie 2 veľké lyžice.",
+		"Guličky z cesta polož na plech vyložený papierom na pečenie, vlož ich do vyhriatej rúry na 6 minút. Guličky počas procesu pečenia klesnú a vytvoria tvar sušienky. Čas pečenia je tu podstatný, takže sa uisti, že ich vyberieš hneď po 6 minútach.",
+		"Keď sú hotové, vyber plech z rúry a opatrne presuň cookies na chladiacu mriežku. Nechaj ich 1 hodinku vychladnúť a stuhnúť a potom si ich vychutnaj, sú neskutočné!"
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 121,
+			"portions": 9,
+			"macros": {"carbs": 8, "protein": 11, "fat": 5},
+			"ingredients": [
+				{"name": "proteínový prášok (vanilka)", "quantity": 60, "unit": "g"},
+				{"name": "arašidové maslo v prášku", "quantity": 40, "unit": "g"},
+				{"name": "polohrubá múka", "quantity": 30, "unit": "g"},
+				{"name": "mandľová múka", "quantity": 20, "unit": "g"},
+				{"name": "kokosová múka", "quantity": 10, "unit": "g"},
+				{"name": "maslo", "quantity": 20, "unit": "g"},
+				{"name": "Unicorn Dust", "quantity": 6, "unit": "g"},
+				{"name": "mletá škorica", "quantity": 4, "unit": "g"},
+				{"name": "prášok na pečenie", "quantity": 6, "unit": "g"},
+				{"name": "proteínový puding (slaný karamel)", "quantity": 160, "unit": "g"},
+				{"name": "veľké vajce", "quantity": 2, "unit": "ks"}
+			]
+		}
+	],
+	"image": "onvia/image305.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image305"
+}

@@ -1,0 +1,79 @@
+{
+	"title": "Cuketové brownie",
+	"category": "dezerty",
+	"prepTimeMinutes": 60,
+	"steps": [
+		"Cuketu nastrúhaj a jemne vyžmýkaj od vody.",
+		"V miske zmiešaj všetky mokré suroviny aj cuketu a následne do nich vmiešaj suché suroviny.",
+		"Vzniknuté cesto vylej do papierom na pečenie vystlatej formy.",
+		"Brownie pečieš cca 45-50 minút pri 180 stupňoch, do stuhnutia.",
+		"Brownie nechaj vychladnúť aspoň na 1 hodinu.",
+		"Keď brownie vychladne, pridaj tvaroh a na každý kúsok trošku malín.",
+		"Dobrú chuť."
+	],
+	"variants": [
+		{
+			"label": "300 kcal",
+			"kcalPerPortion": 313,
+			"portions": 4,
+			"macros": {
+				"carbs": 42,
+				"protein": 19,
+				"fat": 7
+			},
+			"ingredients": [
+				{
+					"name": "najemno nastrúhaná cuketa",
+					"quantity": 300,
+					"unit": "g"
+				},
+				{
+					"name": "špaldová múka",
+					"quantity": 120,
+					"unit": "g"
+				},
+				{
+					"name": "kakao",
+					"quantity": 25,
+					"unit": "g"
+				},
+				{
+					"name": "grécky jogurt 5%",
+					"quantity": 200,
+					"unit": "g"
+				},
+				{
+					"name": "kokosový cukor",
+					"quantity": 50,
+					"unit": "g"
+				},
+				{
+					"name": "kokosový olej",
+					"quantity": 10,
+					"unit": "g"
+				},
+				{
+					"name": "prášok do pečiva",
+					"quantity": 0.5,
+					"unit": "ČL"
+				},
+				{
+					"name": "nízkotučný tvaroh",
+					"quantity": 250,
+					"unit": "g"
+				},
+				{
+					"name": "flavdrops"
+				},
+				{
+					"name": "maliny",
+					"quantity": 90,
+					"unit": "g"
+				}
+			]
+		}
+	],
+	"image": "cuketove-brownie-300-kcal/p1.webp",
+	"source": "Cuketové brownie - 300 kcal.pdf",
+	"sourceRef": "p1"
+}

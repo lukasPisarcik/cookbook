@@ -1,0 +1,33 @@
+{
+	"title": "Miešané vajíčka",
+	"category": "ranajky",
+	"dietTags": ["bezlaktozove"],
+	"prepTimeMinutes": 10,
+	"steps": [
+		"Na panvicu nastriekaj tenkú vrstvu oleja a zohrej na miernom ohni.",
+		"Šunku nakrájaj na menšie kúsky a krátko orestuj na panvici.",
+		"Vajíčka rozšľahaj v miske, pridaj štipku soli a korenia a vlej na panvicu so šunkou.",
+		"Miešaj, kým vajíčka dosiahnu požadovanú konzistenciu (mäkké alebo viac prepečené).",
+		"Podávaj s plátkom kváskového chleba a ozdob čerstvými bylinkami podľa chuti."
+	],
+	"variants": [
+		{
+			"label": "550 kcal",
+			"kcalPerPortion": 533,
+			"portions": 1,
+			"macros": { "carbs": 37, "protein": 35, "fat": 27 },
+			"ingredients": [
+				{ "name": "vajíčko", "quantity": 3, "unit": "ks" },
+				{ "name": "schwarzwaldská šunka", "quantity": 40, "unit": "g" },
+				{ "name": "kváskový chlieb", "quantity": 70, "unit": "g" },
+				{ "name": "olej v spreji", "quantity": 3, "unit": "g" },
+				{ "name": "soľ", "unit": "štipka" },
+				{ "name": "čierne korenie", "unit": "štipka" },
+				{ "name": "čerstvé bylinky" }
+			]
+		}
+	],
+	"image": "ranajky-550-kcal/p5.webp",
+	"source": "Raňajky - 550 kcal.pdf",
+	"sourceRef": "p5"
+}

@@ -1,0 +1,35 @@
+{
+	"title": "Malinová matcha",
+	"category": "smoothies",
+	"dietTags": ["bezlepkove"],
+	"prepTimeMinutes": 5,
+	"steps": [
+		"Na matchu: V malej miske zmiešaj matcha prášok s horúcou vodou a dobre vyšľahaj (ideálne bambusovou metličkou alebo elektrickým mixérom).",
+		"Maliny roztlač vidličkou a zmiešaj s čakankovým sirupom. Ak chceš hladšiu textúru, prepasíruj ich cez sitko.",
+		"Do pohára pridaj malinovú zmes, potom ľad, zalej rastlinným mliekom a nakoniec opatrne nalej pripravenú matchu."
+	],
+	"funFact": "1 šálka matche obsahuje rovnaké množstvo antioxidantov ako 10 šálok klasického zeleného čaju. Oproti káve môže byť jemnejšou voľbou, ak máš problém so zaspávaním.",
+	"variants": [
+		{
+			"label": "200 kcal",
+			"kcalPerPortion": 131,
+			"portions": 1,
+			"macros": {
+				"carbs": 22,
+				"protein": 4,
+				"fat": 2
+			},
+			"ingredients": [
+				{"name": "matcha prášok", "quantity": 1, "unit": "ČL"},
+				{"name": "horúca voda", "quantity": 200, "unit": "ml"},
+				{"name": "rastlinné mlieko", "quantity": 100, "unit": "ml"},
+				{"name": "maliny", "quantity": 100, "unit": "g"},
+				{"name": "čakankový sirup", "quantity": 10, "unit": "g"},
+				{"name": "ľad"}
+			]
+		}
+	],
+	"image": "smoothie-200-kcal/p9.webp",
+	"source": "Smoothie - 200 kcal.pdf",
+	"sourceRef": "p9"
+}

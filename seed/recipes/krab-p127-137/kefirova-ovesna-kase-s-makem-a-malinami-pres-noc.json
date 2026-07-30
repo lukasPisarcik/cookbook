@@ -1,0 +1,29 @@
+{
+	"title": "Kefírová ovesná kaše s mákem a malinami přes noc",
+	"category": "ranajky",
+	"steps": [
+		"Vločky, mák a semínka nasypte do mísy, zalijte kefírem a promíchejte.",
+		"Přidejte med a maliny a opět promíchejte.",
+		"Dejte do lednice vychladit přes noc.",
+		"Před podáváním ozdobte máslem a sušenými malinami."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 2,
+			"ingredients": [
+				{"name": "ovesné jemné vločky", "quantity": 35, "unit": "g"},
+				{"name": "mletý mák", "quantity": 15, "unit": "g"},
+				{"name": "chia semínka", "quantity": 10, "unit": "g"},
+				{"name": "kefír", "quantity": 230, "unit": "g"},
+				{"name": "med", "quantity": 15, "unit": "g"},
+				{"name": "mražené maliny", "unit": "hrst"},
+				{"name": "oříškové máslo", "quantity": 10, "unit": "g"},
+				{"name": "lyofilizované maliny"}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p132.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p132"
+}

@@ -1,0 +1,37 @@
+{
+	"title": "Šošovicové guľky so syrom",
+	"category": "snacky",
+	"prepTimeMinutes": 70,
+	"steps": [
+		"Šošovicu zalej vodou a nechaj ju namočenú ideálne cez noc (aspoň 4 hodiny).",
+		"Potom vodu sceď a prelož do mixéra. Pridaj soľ, korenie, prášok do pečiva, sladkú papriku a rozmixuj. Ak je cesto príliš tuhé, pridaj trochu vody. Ak ti vznikne riedke cesto, pridaj špaldovú múku.",
+		"Navlhči si ruky, aby sa ti cesto nelepilo na prsty. Rozdeľ si ho na 10 guľôčok. Do každej guľôčky zabaľ štvorec syra, uhlaď ho tak, aby nevznikla žiadna medzera, a obaľ v sezamových semienkach.",
+		"Daj na plech vyložený papierom na pečenie a peč v rúre pri teplote 190°C približne 35-40 minút."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 279,
+			"portions": 10,
+			"macros": {
+				"carbs": 17,
+				"protein": 23,
+				"fat": 11
+			},
+			"ingredients": [
+				{ "name": "červená šošovica", "quantity": 100, "unit": "g" },
+				{ "name": "psyllium", "quantity": 2, "unit": "PL" },
+				{ "name": "prášok do pečiva", "quantity": 1, "unit": "ČL" },
+				{ "name": "špaldová múka", "quantity": 3, "unit": "PL" },
+				{ "name": "eidam 30%", "quantity": 100, "unit": "g" },
+				{ "name": "sezamové semienka", "quantity": 20, "unit": "g" },
+				{ "name": "soľ" },
+				{ "name": "čierne korenie" },
+				{ "name": "sladká paprika" }
+			]
+		}
+	],
+	"image": "onvia/image137.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image137"
+}

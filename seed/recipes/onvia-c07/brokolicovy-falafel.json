@@ -1,0 +1,76 @@
+{
+	"title": "Brokolicový falafel",
+	"category": "obedy",
+	"prepTimeMinutes": 65,
+	"steps": [
+		"Brokolicu a predvarený cícer vhoď do mixéra. Pridaj olivový olej, múku, čerstvé bylinky, soľ a korenie. Rozmixuj na kašu.",
+		"Predhrej rúru na 200 stupňov. Plech vylož papierom na pečenie a z cesta vytvaruj vyššie placky.",
+		"Postriekaj ich olejom v spreji a vlož do rúry na približne 45 - 50 minút. Placky nebudú také zlatisté ako pri vyprážaní, ale ušetríš veľa tuku v strave a navyše si na nich veľmi pochutnáš.",
+		"Na dip zmiešaj grécky jogurt s kôprom, štipkou soli a korenia.",
+		"Podávaj s čerstvým šalátom a namáčaj v dipe."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 368,
+			"portions": 3,
+			"macros": {
+				"carbs": 48,
+				"protein": 22,
+				"fat": 11
+			},
+			"ingredients": [
+				{
+					"name": "brokolica",
+					"quantity": 300,
+					"unit": "g"
+				},
+				{
+					"name": "predvarený cícer",
+					"quantity": 200,
+					"unit": "g"
+				},
+				{
+					"name": "ovsená múka",
+					"quantity": 90,
+					"unit": "g"
+				},
+				{
+					"name": "olivový olej",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				{
+					"name": "bylinky",
+					"unit": "hrsť"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "korenie"
+				},
+				{
+					"name": "čerstvý hlávkový šalát"
+				},
+				{
+					"name": "olej v spreji"
+				},
+				{
+					"name": "grécky jogurt 0%",
+					"quantity": 2,
+					"unit": "balenie"
+				},
+				{
+					"name": "čerstvý kôpor"
+				},
+				{
+					"name": "čierne korenie"
+				}
+			]
+		}
+	],
+	"image": "onvia/image145.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image145"
+}

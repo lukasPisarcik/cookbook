@@ -1,0 +1,78 @@
+{
+	"title": "Tuniakový sendvič",
+	"category": "obedy",
+	"prepTimeMinutes": 15,
+	"steps": [
+		"V miskej zmiešaj tuniaka vo vlastnej šťave, citrónovú šťavu, smotanový syr, horčicu, sušený cesnak nasekanú jarnú cibuľku, kôpor, pridaj, soľ a korenie.",
+		"Podávaj s opečenými plátkami toastového (alebo kváskového) chleba, ktoré oblož plátkami paradajok a avokádom."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 454,
+			"portions": 2,
+			"macros": {
+				"carbs": 53,
+				"protein": 23,
+				"fat": 10
+			},
+			"ingredients": [
+				{
+					"name": "jarná cibuľka",
+					"quantity": 1,
+					"unit": "stonka"
+				},
+				{
+					"name": "čerstvý kôpor",
+					"unit": "hrsť"
+				},
+				{
+					"name": "tuniak vo vlastnej šťave",
+					"quantity": 1,
+					"unit": "konzerva"
+				},
+				{
+					"name": "citrónová šťava",
+					"quantity": 1,
+					"unit": "PL"
+				},
+				{
+					"name": "Gervais light",
+					"quantity": 80,
+					"unit": "g"
+				},
+				{
+					"name": "plnotučná horčica",
+					"quantity": 1,
+					"unit": "PL"
+				},
+				{
+					"name": "sušený cesnak",
+					"unit": "štipka"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "korenie"
+				},
+				{
+					"name": "paradajka",
+					"quantity": 2
+				},
+				{
+					"name": "avokádo",
+					"quantity": 0.5
+				},
+				{
+					"name": "toastový chlieb",
+					"quantity": 200,
+					"unit": "g"
+				}
+			]
+		}
+	],
+	"image": "onvia/image156.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image156"
+}

@@ -1,0 +1,27 @@
+{
+	"title": "Ďatle s arašidovým maslom v čokoláde",
+	"category": "snacky",
+	"steps": [
+		"Ďatle nadrežte a do každej ďatle dajte lyžičku trochu arašidového masla.",
+		"Čokoládu rozpusťte s kokosovým olejom a zalejte každú naplnenú datľu.",
+		"Arašidy nasekajte nadrobno a posypte čokoládové ďatle.",
+		"Dajte do chladničky na hodinu vychladiť a potom presuňte do malých krabičiek.",
+		"Uschovávajte v chlade."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 4,
+			"ingredients": [
+				{"name": "sušená ďatľa", "quantity": 20, "unit": "ks"},
+				{"name": "vysoko percentná čokoláda", "quantity": 100, "unit": "g"},
+				{"name": "kokosový olej", "quantity": 1, "unit": "PL"},
+				{"name": "arašidové maslo"},
+				{"name": "pražené solené arašidy", "unit": "hrsť"}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p47.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p47"
+}

@@ -1,0 +1,30 @@
+{
+	"title": "Pečená ovsená kaša s jablkami",
+	"category": "ranajky",
+	"steps": [
+		"Rúru rozohrejte na 180 stupňov.",
+		"Jablka zbavte šupky a nastrúhajte nahrubo. Pridajte hrozienka, škoricu, med, soľ, citrónovú kôru, vločky a ovsené mlieko, všetko spolu premiešajte.",
+		"Formu vymastite olejom a presuňte do nej vločky. Dajte piecť na 45 minút do rúry.",
+		"Po upečení nechajte vychladnúť, presuňte do misiek, pridaje jogurt alebo skyr a plátky jablka."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 4,
+			"ingredients": [
+				{ "name": "jablko", "quantity": 3, "unit": "ks" },
+				{ "name": "sušené hrozienka", "quantity": 60, "unit": "g" },
+				{ "name": "mletá škorica", "quantity": 2, "unit": "ČL" },
+				{ "name": "med", "quantity": 30, "unit": "g" },
+				{ "name": "soľ", "unit": "štipka" },
+				{ "name": "citrónová kôra", "quantity": 1, "unit": "ks" },
+				{ "name": "jemné ovsené vločky", "quantity": 180, "unit": "g" },
+				{ "name": "ovsené mlieko", "quantity": 400, "unit": "g" },
+				{ "name": "kokosový olej", "quantity": 1, "unit": "PL" }
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p11.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p11"
+}

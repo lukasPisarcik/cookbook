@@ -1,0 +1,37 @@
+{
+	"title": "Červená čočka s vajíčkem",
+	"category": "obedy",
+	"steps": [
+		"Do hlubší pánve nalijte olej a orestujte na něm nadrobno nakrájenou šalotku nebo cibuli. Přidejte čočku, také otestujte a přilijte vývar.",
+		"K čočce přidejte koření - bobkový list a nové koření a vařte do změknutí čočky. Poté dochuťte kurkumou, zázvorem, tymiánem a paprikou a dle chuti dosolte.",
+		"Vejce uvařte ve vroucí vodě 8 minut, poté ihned zchlaďte a nechte 2 minuty ve studené vodě. Poté vejce opatrně oloupejte.",
+		"Semínka nasucho orestujte na pánvi.",
+		"Do krabičky nebo na talíř nandejte čočku, přidejte vajíčka a posypejte semínky, můžete posypat i nasekanou petrželkou a k porci přidejte i kimchi nebo okurku.",
+		"Jako přílohu zvolte kvalitní kváskový chleba."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 2,
+			"ingredients": [
+				{"name": "řepkový olej", "quantity": 1, "unit": "PL"},
+				{"name": "šalotka", "quantity": 1, "unit": "ks"},
+				{"name": "červená čočka", "quantity": 100, "unit": "g"},
+				{"name": "kuřecí vývar", "quantity": 430, "unit": "ml"},
+				{"name": "bobkový list", "quantity": 1, "unit": "ks"},
+				{"name": "nové koření", "quantity": 2, "unit": "ks"},
+				{"name": "sůl"},
+				{"name": "mletá kurkuma", "unit": "štipka"},
+				{"name": "mletý zázvor", "unit": "štipka"},
+				{"name": "sušený tymián", "quantity": 0.33, "unit": "ČL"},
+				{"name": "mletá sladká paprika", "quantity": 1, "unit": "ČL"},
+				{"name": "vejce", "quantity": 2, "unit": "ks"},
+				{"name": "směs semínek", "quantity": 1, "unit": "PL"},
+				{"name": "čerstvá petrželka"}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p129.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p129"
+}

@@ -1,0 +1,38 @@
+{
+	"title": "Strawberry glazed smoothie",
+	"category": "smoothies",
+	"dietTags": ["bezlaktozove", "bezlepkove"],
+	"prepTimeMinutes": 5,
+	"steps": [
+		"Vezmi lyžičku, ktorú omočíš na ozdobu v gréckom jogurte a nanesieš po stranách pohára, aby sa vytvoril obláčikový look.",
+		"Na spodok pohára daj javorový sirup alebo môžeš nahradiť lyžičkou jahodového džemu.",
+		"Zmixuj všetky ingrediencie.",
+		"Môžeš podávať s ľadom."
+	],
+	"funFact": "Toto smoothie je inšpirované smoohie od Hailey Bieber, ktoré sa predáva v USA. Stojí tam okolo 15$ a originál je o dosť kalorickejší a nutrične menej vyváženejší ako táto naša odľahčená homemade verzia.",
+	"variants": [
+		{
+			"label": "200 kcal",
+			"kcalPerPortion": 227,
+			"portions": 1,
+			"macros": {
+				"carbs": 22,
+				"protein": 5,
+				"fat": 12
+			},
+			"ingredients": [
+				{"name": "jahody", "quantity": 100, "unit": "g"},
+				{"name": "avokádo", "quantity": 50, "unit": "g"},
+				{"name": "ďatľa", "quantity": 1, "unit": "ks"},
+				{"name": "kokosové mlieko light", "quantity": 30, "unit": "ml"},
+				{"name": "voda"},
+				{"name": "javorový sirup", "quantity": 1, "unit": "ČL"},
+				{"name": "vanilkový proteín", "quantity": 10, "unit": "g"},
+				{"name": "ifoodie kolagén bez chuti", "quantity": 1, "unit": "PL"}
+			]
+		}
+	],
+	"image": "smoothie-200-kcal/p2.webp",
+	"source": "Smoothie - 200 kcal.pdf",
+	"sourceRef": "p2"
+}

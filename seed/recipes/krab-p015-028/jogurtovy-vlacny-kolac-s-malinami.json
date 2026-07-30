@@ -1,0 +1,31 @@
+{
+	"title": "Jogurtový vláčny koláč s malinami",
+	"category": "dezerty",
+	"steps": [
+		"Rúru predhrejte na 200 stupňov.",
+		"Vajcia vyšľahajte s cukrom do peny, potom zašľahajte jogurt a maslo.",
+		"Nakoniec pridajte múku, štipku soli a kypriaci prášok a premiešajte do ľahko tekutého cesta.",
+		"Formu vymastite trochou masla, vysypte múkou a nalejte do nej cesto.",
+		"Nakoniec koláč posypte malinami, znížte teplotu na 180 stupňov a dajte piecť do rúry na 25 minút.",
+		"Podávajte so skyrom alebo gréckym jogurtom s 0% tuku pre doplnenie bielkovín."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"ingredients": [
+				{"name": "vajce", "quantity": 3, "unit": "ks"},
+				{"name": "trstinový cukor", "quantity": 100, "unit": "g"},
+				{"name": "vanilkový cukor", "quantity": 1, "unit": "ks"},
+				{"name": "rozpustené a schladené maslo", "quantity": 120, "unit": "g"},
+				{"name": "smotanový jogurt s 10 % tuku", "quantity": 150, "unit": "g"},
+				{"name": "hladká pšeničná múka", "quantity": 170, "unit": "g"},
+				{"name": "soľ", "unit": "štipka"},
+				{"name": "kypriaci prášok", "quantity": 9, "unit": "g"},
+				{"name": "mrazené maliny", "quantity": 200, "unit": "g"}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p16.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p16"
+}

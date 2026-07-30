@@ -1,0 +1,61 @@
+{
+	"title": "Pizza taštička",
+	"category": "snacky",
+	"prepTimeMinutes": 18,
+	"steps": [
+		"Rúru predhrej na 180°C. Vylož plech papierom na pečenie a postriekaj ho nepriľnavým olejom v spreji.",
+		"Pizza pocket vytvoríš nasledovne. Vezmi si 1 toast. Stred toastu stlač, aby si vytvorila priehlbinu v tvare jamky do ktorej pridáš suroviny na plnenie.",
+		"Do stredu pridaj 10 g syra, potom 10 kusov salám a potom ďalších 10 g syra na vrch. Na okrajoch nechaj voľný priestor. Okraje toastu potri bielkom. Potom vezmi druhý toast a jeho spodnú časť tiež potri bielkom. Polož ho bielkovou časťou na vrch naplneného toastu a čo najlepšie ho pritlač po okrajoch. Ja som na pritláčanie okrajov použila vidličku, ako pri postupe keď sa robia domáce pirohy.",
+		"Ak chceš vezmi si nožík na pizzu a odrež kôrky, aby kapsičky vyzerali estetickejšie. Potom celú hornú časť toastu potri bielkom. Tento postup zopakuj pre všetkých 5 Pizza pockets.",
+		"Hotové Pizza pockets vlož do rúry na 8 minút (čas sa bude líšiť v závislosti od tvojej rúry, preto ich sleduj, aby sa nepripálili). Keď sú hotové, posyp ich oreganom, bazalkou a vychutnaj si ich!"
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 297,
+			"portions": 5,
+			"macros": {
+				"carbs": 18,
+				"protein": 18,
+				"fat": 17
+			},
+			"ingredients": [
+				{
+					"name": "toast",
+					"quantity": 10,
+					"unit": "ks"
+				},
+				{
+					"name": "vaječné bielky",
+					"quantity": 50,
+					"unit": "g"
+				},
+				{
+					"name": "syr light",
+					"quantity": 100,
+					"unit": "g"
+				},
+				{
+					"name": "nízkotučná saláma",
+					"quantity": 50,
+					"unit": "plátok"
+				},
+				{
+					"name": "olej v spreji"
+				},
+				{
+					"name": "oregano"
+				},
+				{
+					"name": "bazalka"
+				},
+				{
+					"name": "soľ"
+				}
+			]
+		}
+	],
+	"image": "onvia/image111.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image111"
+}

@@ -1,0 +1,54 @@
+{
+	"title": "Bryndzová pšenica s cuketou, špenátom a šunkou alebo tofu",
+	"category": "obedy",
+	"steps": [
+		"Pšenicu uvarte v dvojnásobnom množstve osolenej vody.",
+		"Medzitým umyte cuketu a prepláchnite špenát. Šunku alebo tofu nakrájajte na kocky, cuketu na väčšie kúsky.",
+		"Na panvici rozohrejte prepustené maslo a orestujte na ňom šunku alebo tofu spolu s cuketou a špenátom. Osoľte, prípadne okoreňte podľa svojej chuti.",
+		"Do uvarenej pšenice vmiešajte bryndzu a podľa chuti dosoľte. Pšenicu presuňte do dvoch misiek a navrch pridajte zmes z cukety, špenátu a šunky alebo tofu."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 2,
+			"ingredients": [
+				{
+					"name": "pšenica",
+					"quantity": 170,
+					"unit": "g"
+				},
+				{
+					"name": "kvalitná ovčia bryndza",
+					"quantity": 125,
+					"unit": "g"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "prepustené maslo",
+					"quantity": 1,
+					"unit": "PL"
+				},
+				{
+					"name": "kuracia šunka",
+					"quantity": 200,
+					"unit": "g"
+				},
+				{
+					"name": "cuketa",
+					"quantity": 200,
+					"unit": "g"
+				},
+				{
+					"name": "čerstvý špenát",
+					"quantity": 60,
+					"unit": "g"
+				}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p65.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p65"
+}

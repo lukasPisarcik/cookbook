@@ -1,0 +1,99 @@
+{
+	"title": "Tuniakové burgre",
+	"category": "obedy",
+	"prepTimeMinutes": 30,
+	"steps": [],
+	"variants": [
+		{
+			"label": "najnižšia kalorická skupina",
+			"kcalPerPortion": 416,
+			"portions": 3,
+			"ingredients": [
+				{ "name": "tuniak vo vlastnej šťave", "quantity": 3, "unit": "konzerva" },
+				{ "name": "eidam strúhaný", "quantity": 100, "unit": "g" },
+				{ "name": "vajíčko", "quantity": 1, "unit": "ks" },
+				{ "name": "čerstvý syr", "quantity": 100, "unit": "g" },
+				{ "name": "grécky jogurt", "quantity": 1, "unit": "balenie" },
+				{ "name": "kečup", "quantity": 20, "unit": "g" },
+				{ "name": "soľ" },
+				{ "name": "čierne korenie" },
+				{ "name": "šalát" },
+				{ "name": "uhorka" },
+				{ "name": "paprika" },
+				{ "name": "olivy", "quantity": 30, "unit": "g" },
+				{ "name": "sušené rajčiny", "quantity": 30, "unit": "g" }
+			]
+		},
+		{
+			"label": "stredná kalorická skupina (A: burger žemľa)",
+			"kcalPerPortion": 457,
+			"portions": 3,
+			"ingredients": [
+				{ "name": "tuniak vo vlastnej šťave", "quantity": 3, "unit": "konzerva" },
+				{ "name": "eidam strúhaný", "quantity": 100, "unit": "g" },
+				{ "name": "vajíčko", "quantity": 1, "unit": "ks" },
+				{ "name": "čerstvý syr", "quantity": 100, "unit": "g" },
+				{ "name": "grécky jogurt", "quantity": 1, "unit": "balenie" },
+				{ "name": "kečup", "quantity": 20, "unit": "g" },
+				{ "name": "soľ" },
+				{ "name": "čierne korenie" },
+				{ "name": "burger žemľa", "quantity": 55, "unit": "g" }
+			]
+		},
+		{
+			"label": "stredná kalorická skupina (B: pečené batáty)",
+			"kcalPerPortion": 529,
+			"portions": 3,
+			"ingredients": [
+				{ "name": "tuniak vo vlastnej šťave", "quantity": 3, "unit": "konzerva" },
+				{ "name": "eidam strúhaný", "quantity": 100, "unit": "g" },
+				{ "name": "vajíčko", "quantity": 1, "unit": "ks" },
+				{ "name": "čerstvý syr", "quantity": 100, "unit": "g" },
+				{ "name": "grécky jogurt", "quantity": 1, "unit": "balenie" },
+				{ "name": "kečup", "quantity": 20, "unit": "g" },
+				{ "name": "soľ" },
+				{ "name": "čierne korenie" },
+				{ "name": "batáty", "quantity": 200, "unit": "g" },
+				{ "name": "olivový olej", "quantity": 5, "unit": "ml" }
+			]
+		},
+		{
+			"label": "najvyššia kalorická skupina (A: burger žemľa a batátové hranolky)",
+			"kcalPerPortion": 622,
+			"portions": 3,
+			"ingredients": [
+				{ "name": "tuniak vo vlastnej šťave", "quantity": 3, "unit": "konzerva" },
+				{ "name": "eidam strúhaný", "quantity": 100, "unit": "g" },
+				{ "name": "vajíčko", "quantity": 1, "unit": "ks" },
+				{ "name": "čerstvý syr", "quantity": 100, "unit": "g" },
+				{ "name": "grécky jogurt", "quantity": 1, "unit": "balenie" },
+				{ "name": "kečup", "quantity": 20, "unit": "g" },
+				{ "name": "soľ" },
+				{ "name": "čierne korenie" },
+				{ "name": "burger žemľa", "quantity": 55, "unit": "g" },
+				{ "name": "batáty", "quantity": 150, "unit": "g" },
+				{ "name": "olivový olej", "quantity": 5, "unit": "ml" }
+			]
+		},
+		{
+			"label": "najvyššia kalorická skupina (B: pečené batáty)",
+			"kcalPerPortion": 611,
+			"portions": 3,
+			"ingredients": [
+				{ "name": "tuniak vo vlastnej šťave", "quantity": 3, "unit": "konzerva" },
+				{ "name": "eidam strúhaný", "quantity": 100, "unit": "g" },
+				{ "name": "vajíčko", "quantity": 1, "unit": "ks" },
+				{ "name": "čerstvý syr", "quantity": 100, "unit": "g" },
+				{ "name": "grécky jogurt", "quantity": 1, "unit": "balenie" },
+				{ "name": "kečup", "quantity": 20, "unit": "g" },
+				{ "name": "soľ" },
+				{ "name": "čierne korenie" },
+				{ "name": "batáty", "quantity": 300, "unit": "g" },
+				{ "name": "olivový olej", "quantity": 5, "unit": "ml" }
+			]
+		}
+	],
+	"image": "recepty-ig/p5.webp",
+	"source": "Recepty IG.pdf",
+	"sourceRef": "p5"
+}

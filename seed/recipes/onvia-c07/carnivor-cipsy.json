@@ -1,0 +1,45 @@
+{
+	"title": "Carnivor čipsy",
+	"category": "snacky",
+	"prepTimeMinutes": 50,
+	"steps": [
+		"Do veľkej misy pridaj kuracie mäso, korenie, soľ, sódu bikarbónu a dôkladne premiešaj.",
+		"Zmes prelož na papier na pečenie. Na vrch pridaj ďalší papier na pečenie alebo fóliu a pomocou valčeka zmes rozvaľkaj, kým nebude tenká ako papier (takmer priehľadná).",
+		"Peč 30 až 35 minút na 180 stupňov a potom nechaj 10 minút vychladnúť.",
+		"Rozlám na kúsky.",
+		"Podávaj s kečupom, horčicou, salsou, guacamole alebo quesom."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 148,
+			"portions": 1,
+			"macros": {
+				"carbs": 1,
+				"protein": 18,
+				"fat": 8
+			},
+			"ingredients": [
+				{
+					"name": "mleté kuracie mäso",
+					"quantity": 200,
+					"unit": "g"
+				},
+				{
+					"name": "korenie na kuracie mäso"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "jedlá sóda",
+					"quantity": 1,
+					"unit": "ČL"
+				}
+			]
+		}
+	],
+	"image": "onvia/image154.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image154"
+}

@@ -1,0 +1,33 @@
+{
+	"title": "Zemiakový krém s parmezánom",
+	"category": "snacky",
+	"steps": [
+		"Cibuľu a cesnak olúpte a nakrájajte nadrobno. Zemiaky nakrájajte na kúsky.",
+		"V strednom hrnci rozohrejte prepustené maslo a orestujte na ňom cibuľu a cesnak, pridajte zemiaky a prilejte vývar.",
+		"Pridajte soľ, korenie a bobkový list, varte do zmäknutia zemiakov.",
+		"Prilejte smotanu, pridajte nastrúhaný parmezán a rozmixujte dohladka.",
+		"Ihneď servírujte alebo presuňte do krabičiek a uchovávajte v chladničke. Pred podávaním ozdobte rukolou."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 4,
+			"ingredients": [
+				{"name": "prepustené maslo", "quantity": 1, "unit": "PL"},
+				{"name": "žltá cibuľa", "quantity": 1, "unit": "ks"},
+				{"name": "cesnak", "quantity": 2, "unit": "strúčik"},
+				{"name": "olúpané zemiaky", "quantity": 500, "unit": "g"},
+				{"name": "kurací vývar", "quantity": 1, "unit": "l"},
+				{"name": "nové korenie", "quantity": 2, "unit": "gulička"},
+				{"name": "bobkový list", "quantity": 1, "unit": "ks"},
+				{"name": "krémová smotana s 15 % tuku", "quantity": 200, "unit": "ml"},
+				{"name": "parmezán", "quantity": 50, "unit": "g"},
+				{"name": "čierne korenie"},
+				{"name": "rukola"}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p52.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p52"
+}

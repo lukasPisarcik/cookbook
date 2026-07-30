@@ -1,0 +1,58 @@
+{
+	"title": "Šalát z cvikli s balkánskym syrom a vlašskými orechmi",
+	"category": "snacky",
+	"steps": [
+		"Biely jogurt spolu s majonézou zmiešajte v misky. Potom pridajte na kocky nakrájanú cviklu a balkánsky syr.",
+		"Na panvici nasucho opražte vlašské orechy a potom ich nasekajte nadrobno. Vmiešajte ich ku cvikle.",
+		"Nakoniec osoľte a opražte podľa chuti.",
+		"Na dno misky položte umytú rukolu a potom navrstvite cviklový šalát.",
+		"Podávajte spolu s cottage buchtičkami."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 2,
+			"ingredients": [
+				{
+					"name": "biely jogurt",
+					"quantity": 100,
+					"unit": "g"
+				},
+				{
+					"name": "majonéza",
+					"quantity": 20,
+					"unit": "g"
+				},
+				{
+					"name": "predvarená a olúpaná cvikla",
+					"quantity": 200,
+					"unit": "g"
+				},
+				{
+					"name": "balkánsky syr",
+					"quantity": 60,
+					"unit": "g"
+				},
+				{
+					"name": "vlašské orechy",
+					"quantity": 30,
+					"unit": "g"
+				},
+				{
+					"name": "rukola",
+					"quantity": 50,
+					"unit": "g"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "čierne korenie"
+				}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p64.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p64"
+}

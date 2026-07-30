@@ -1,0 +1,31 @@
+{
+	"title": "Superfood Puding",
+	"category": "dezerty",
+	"prepTimeMinutes": 5,
+	"steps": [
+		"Zemiak uvar so šupkou o vode do mäkka. Keď sa uvarí, nechaj ho pár minút vychladnúť.",
+		"Potom stačí ak ho nakrájaný pridáš so zvyšnými surovinami do mixéra a budeš mixovať cca 2 minúty.",
+		"Hotový puding dporúčam uložiť do chladničky aspoň na 30 minút, ale ak sa nevieš dočkať, môžeš si ho vychutnať aj hneď."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 257,
+			"portions": 2,
+			"macros": {"carbs": 16, "protein": 23, "fat": 11},
+			"ingredients": [
+				{"name": "veľký sladký zemiak", "quantity": 1, "unit": "ks"},
+				{"name": "avokádo", "quantity": 1, "unit": "ks"},
+				{"name": "proteínový prášok (čokoláda alebo vanilka)", "quantity": 60, "unit": "g"},
+				{"name": "Unicorn Dust", "quantity": 6, "unit": "g"},
+				{"name": "raw kakao", "quantity": 25, "unit": "g"},
+				{"name": "mandľové mlieko", "quantity": 50, "unit": "ml"},
+				{"name": "psyllium", "quantity": 5, "unit": "g"},
+				{"name": "xantánová guma", "quantity": 1, "unit": "g"}
+			]
+		}
+	],
+	"image": "onvia/image306.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image306"
+}

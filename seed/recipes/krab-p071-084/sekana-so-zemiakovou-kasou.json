@@ -1,0 +1,83 @@
+{
+	"title": "Sekaná so zemiakovou kašou",
+	"category": "obedy",
+	"steps": [
+		"Rúru predhrejte na 180 stupňov.",
+		"Cibuľu nakrájajte nadrobno a orestujte ju na masle.",
+		"Do väčšej misky presuňte mäso, vajíčko, strúhanku, soľ, horčicu, majoránku a prelisujte cesnak. Všetko rukami premiešajte a prepojte.",
+		"Plech vyložte papierom na pečenie a vytvarujte 2 rolky, dajte do rúry piecť na 45 minút.",
+		"Zemiaky nakrájajte na štvrtiny a dajte do osolenej vody variť, keď už sú mäkké, zlejte vodu.",
+		"Mlieko zahrejte spolu s maslom a potom pridajte k zemiakom a rozštuchajte, nakoniec na miešanie použite metličku aby ste vytvorili jemnú kašu. Podávajte spolu so sekanou."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 4,
+			"ingredients": [
+				{
+					"name": "maslo",
+					"quantity": 8,
+					"unit": "g"
+				},
+				{
+					"name": "cibuľa",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "mix mletého hovädzieho a bravčového mäsa",
+					"quantity": 500,
+					"unit": "g"
+				},
+				{
+					"name": "vajce",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "plnotučná horčica",
+					"quantity": 1.5,
+					"unit": "ČL"
+				},
+				{
+					"name": "strúhanka",
+					"quantity": 50,
+					"unit": "g"
+				},
+				{
+					"name": "cesnak",
+					"quantity": 2,
+					"unit": "strúčik"
+				},
+				{
+					"name": "sušená majoránka",
+					"quantity": 1.5,
+					"unit": "ČL"
+				},
+				{
+					"name": "soľ",
+					"quantity": 6,
+					"unit": "g"
+				},
+				{
+					"name": "zemiaky",
+					"quantity": 800,
+					"unit": "g"
+				},
+				{
+					"name": "maslo",
+					"quantity": 15,
+					"unit": "g"
+				},
+				{
+					"name": "plnotučné mlieko",
+					"quantity": 320,
+					"unit": "g"
+				}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p82.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p82"
+}

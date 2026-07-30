@@ -1,0 +1,38 @@
+{
+	"title": "Syrové rezance",
+	"category": "obedy",
+	"prepTimeMinutes": 20,
+	"steps": [
+		"Na kapke olivového oleja/ghí orestuj najemno nakrájaný cesnak, pridaj paradajkový pretlak, korenie RO0 a nechaj rozvoňať. Podlej sójovou omáčkou a vodou. Ak máš rada pikantné, pridaj aj kapku chilli omáčky.",
+		"Medzitým si priprav vodu, do ktorej namočíš ryžový papier. Vedľa seba polož dva pláty tak, aby sa mierne prekrývali.",
+		"Na kraj poukladaj podlhovasté kúsky mozzarelly a papier zroluj. Vzniknú ti tri dlhé \"rezance\".",
+		"Pridaj ich do omáčky a pár minút prehrej, aby sa syr krásne roztopil.",
+		"Podávaj s čerstvým koriandrom."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 482,
+			"portions": 1,
+			"macros": {
+				"carbs": 16,
+				"protein": 28,
+				"fat": 55
+			},
+			"ingredients": [
+				{"name": "ryžový papier", "quantity": 6, "unit": "plátok"},
+				{"name": "mozzarella light", "quantity": 125, "unit": "g"},
+				{"name": "olivový olej", "quantity": 1, "unit": "ČL"},
+				{"name": "cesnak", "quantity": 1, "unit": "strúčik"},
+				{"name": "paradajkový pretlak", "quantity": 20, "unit": "g"},
+				{"name": "sójová omáčka", "quantity": 2, "unit": "PL"},
+				{"name": "chilli omáčka"},
+				{"name": "korenie RO0"},
+				{"name": "koriander", "quantity": 1, "unit": "hrsť"}
+			]
+		}
+	],
+	"image": "onvia/image239.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image239"
+}

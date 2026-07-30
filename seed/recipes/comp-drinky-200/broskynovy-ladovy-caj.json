@@ -1,0 +1,62 @@
+{
+	"title": "Broskyňový ľadový čaj",
+	"category": "drinky",
+	"steps": [
+		"Zalej 4 sáčky čierneho čaju 500 ml vriacej vody.",
+		"Po 3 minútach lúhovania sáčky vyber, pridaj lyžicu medu a nechaj čaj úplne vychladnúť.",
+		"Medzitým si nakrájaj limetky a broskyne, rozdeľ ich do 2 džbánov.",
+		"Do každého pridaj 5 lístkov medovky.",
+		"Keď čaj vychladne, dolej 200 ml studenej vody a nalej ho do džbánov.",
+		"Pridaj ľad a dobre premiešaj.",
+		"Môžeš podávať."
+	],
+	"variants": [
+		{
+			"label": "200 kcal",
+			"kcalPerPortion": 222,
+			"macros": {
+				"carbs": 48.9,
+				"protein": 2.8,
+				"fat": 0.6
+			},
+			"ingredients": [
+				{
+					"name": "čierny čaj",
+					"quantity": 4,
+					"unit": "vrecúško"
+				},
+				{
+					"name": "voda",
+					"quantity": 700,
+					"unit": "ml"
+				},
+				{
+					"name": "med",
+					"quantity": 1,
+					"unit": "PL"
+				},
+				{
+					"name": "limetka",
+					"quantity": 2,
+					"unit": "ks"
+				},
+				{
+					"name": "broskyňa",
+					"quantity": 300,
+					"unit": "g"
+				},
+				{
+					"name": "čerstvá mäta",
+					"quantity": 10,
+					"unit": "lístok"
+				},
+				{
+					"name": "ľad"
+				}
+			]
+		}
+	],
+	"image": "letne-drinky-200-kcal/p6.webp",
+	"source": "Letné drinky - 200 kcal.pdf",
+	"sourceRef": "p6"
+}

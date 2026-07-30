@@ -1,0 +1,91 @@
+{
+	"title": "Zemiakové placky so šunkou a bylinkovým tvarohom",
+	"category": "vecere",
+	"prepTimeMinutes": 60,
+	"steps": [
+		"Rúru predhrejeme na 180°C horný/spodný ohrev.",
+		"Zemiaky ošúpeme, nastrúhame a scedíme prebytočnú vodu.",
+		"Šťavu z citróna, vajcia, cibuľu a koreniny zmiešame s nastrúhanými zemiakmi.",
+		"Pomocou lyžičky vytvarujeme na papieri na pečenie zo zemiakovej zmesi 5 rovnako veľkých placiek, pečieme 40 minút. Po 20 minútach placky otočíme.",
+		"Šunku vložme do misky na pečenie a pečieme posledných 10 – 15 minút s plackami v rúre, alebo ju orestujeme na panvici cca 3-4 minúty, podľa chuti.",
+		"Medzitým pripravíme dip, potrieme ním placky a vrch placiek ozdobíme šunkou a čerstvou pažítkou."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 527,
+			"portions": 1,
+			"macros": {
+				"carbs": 57,
+				"protein": 38,
+				"fat": 14
+			},
+			"ingredients": [
+				{
+					"name": "zemiaky",
+					"quantity": 300,
+					"unit": "g"
+				},
+				{
+					"name": "vajce",
+					"quantity": 2,
+					"unit": "ks"
+				},
+				{
+					"name": "citrón",
+					"quantity": 0.5,
+					"unit": "ks"
+				},
+				{
+					"name": "cibuľa",
+					"quantity": 40,
+					"unit": "g"
+				},
+				{
+					"name": "pažítka",
+					"quantity": 5,
+					"unit": "g"
+				},
+				{
+					"name": "šunka",
+					"quantity": 50,
+					"unit": "g"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "čierne korenie"
+				},
+				{
+					"name": "muškátový oriešok"
+				},
+				{
+					"name": "sladká paprika"
+				},
+				{
+					"name": "citrón",
+					"quantity": 0.5,
+					"unit": "ks"
+				},
+				{
+					"name": "skyr",
+					"quantity": 100,
+					"unit": "g"
+				},
+				{
+					"name": "čerstvý petržlen"
+				},
+				{
+					"name": "čerstvý kôpor"
+				},
+				{
+					"name": "cesnak"
+				}
+			]
+		}
+	],
+	"image": "onvia/image185.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image185"
+}

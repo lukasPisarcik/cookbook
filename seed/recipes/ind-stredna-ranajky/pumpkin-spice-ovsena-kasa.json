@@ -1,0 +1,85 @@
+{
+	"title": "Pumpkin spice ovsená kaša",
+	"category": "ranajky",
+	"prepTimeMinutes": 30,
+	"steps": [
+		"Tekvicu uvar vo vode cca 10–12 min., sceď a roztlač na pyré.",
+		"Vločky var v sójovom mlieku s vodou, kým nezmäknú cca 5 min.",
+		"Primiešaj tekvicové pyré, koreniny a datľový sirup. ** môžeš samozrejme dochutiť aj stéviou alebo flavdrops ak máš rada viac sladké ako ja haha",
+		"Odstav kašu z ohňa a pridaj tvaroh, ktorý vmiešaš do kaše.",
+		"Kašu nalej do misky, ozdob ovocím, orieškami a čokoládou.",
+		"Tieto raňajky sú ako stvorené pre jesenné obdobie, nezabudni si k tomu spraviť ešte pumpkin spice kávu alebo škoricový čajík."
+	],
+	"funFact": "Tekvica obsahuje veľa betakaroténu (provitamín A), ktorý je dobrý na oči, pokožku a imunitu",
+	"variants": [
+		{
+			"label": "450 kcal",
+			"kcalPerPortion": 457,
+			"portions": 2,
+			"macros": {
+				"carbs": 66,
+				"protein": 18,
+				"fat": 13
+			},
+			"ingredients": [
+				{
+					"name": "malá hokkaido tekvica",
+					"quantity": 150,
+					"unit": "g"
+				},
+				{
+					"name": "ovsené vločky",
+					"quantity": 80,
+					"unit": "g"
+				},
+				{
+					"name": "sójové mlieko",
+					"quantity": 200,
+					"unit": "ml"
+				},
+				{
+					"name": "voda",
+					"quantity": 100,
+					"unit": "ml"
+				},
+				{
+					"name": "datľový sirup",
+					"quantity": 25,
+					"unit": "g"
+				},
+				{
+					"name": "škorica",
+					"unit": "štipka"
+				},
+				{
+					"name": "jemný nízkotučný tvaroh",
+					"quantity": 100,
+					"unit": "g"
+				},
+				{
+					"name": "jablko",
+					"quantity": 80,
+					"unit": "g"
+				},
+				{
+					"name": "čerstvá figa",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "lieskové orechy",
+					"quantity": 15,
+					"unit": "g"
+				},
+				{
+					"name": "horká čokoláda",
+					"quantity": 10,
+					"unit": "g"
+				}
+			]
+		}
+	],
+	"image": "pumpkin-spice-kasa-450-kcal/p1.webp",
+	"source": "Pumpkin spice kaša - 450 kcal.pdf",
+	"sourceRef": "p1"
+}

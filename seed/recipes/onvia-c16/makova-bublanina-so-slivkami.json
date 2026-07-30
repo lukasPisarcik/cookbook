@@ -1,0 +1,36 @@
+{
+	"title": "Maková bublanina so slivkami",
+	"category": "dezerty",
+	"prepTimeMinutes": 15,
+	"steps": [
+		"Vo veľkej miske zmiešaj všetky suché prísady (múku, mletý mak, proteín na pečenie, prášok do pečiva, Unicorn Dust, xylitol, škoricu).",
+		"Do sypkej zmesi pridaj 1 vajce, rozpustené prepustené maslo a biely jogurt. Premiešaj a podľa konzistencie pridaj trochu vody. Cesto by nemalo byť príliš riedke, ale ani príliš tuhé.",
+		"Cesto nalej do maslom vymastenej a múkou vysypanej formy na pečenie alebo vyloženej papierom na pečenie.",
+		"Na cesto pridaj nakrájané slivky a posyp štipkou xylitolu a škorice. Vlož do rúry vyhriatej na 180°C a peč približne 30-35 minút.",
+		"Vychutnaj si!"
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 149,
+			"portions": 12,
+			"macros": {"carbs": 15, "protein": 7, "fat": 7},
+			"ingredients": [
+				{"name": "vajce", "quantity": 1, "unit": "ks"},
+				{"name": "biely jogurt", "quantity": 300, "unit": "ml"},
+				{"name": "prepustené maslo (ghí)", "quantity": 50, "unit": "g"},
+				{"name": "hladká múka", "quantity": 130, "unit": "g"},
+				{"name": "mletý mak", "quantity": 60, "unit": "g"},
+				{"name": "xylitol", "quantity": 60, "unit": "g"},
+				{"name": "prášok do pečiva", "quantity": 6, "unit": "g"},
+				{"name": "Unicorn Dust", "quantity": 1, "unit": "odmerka"},
+				{"name": "proteín na pečenie", "quantity": 1, "unit": "odmerka"},
+				{"name": "škorica", "unit": "štipka"},
+				{"name": "slivka", "quantity": 5, "unit": "ks"}
+			]
+		}
+	],
+	"image": "onvia/image308.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image308"
+}

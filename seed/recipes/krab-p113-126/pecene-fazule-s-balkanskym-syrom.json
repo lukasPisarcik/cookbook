@@ -1,0 +1,24 @@
+{
+	"title": "Pečené fazule s balkánskym syrom",
+	"category": "obedy",
+	"steps": [
+		"Fazule dajte do zapekacej misky.",
+		"Cibuľu očistite, nakrájajte na plátky a položte na fazule.",
+		"Nakoniec posypte rozdrobeným balkánskym syrom a dajte na 20 minút piecť do trúby rozohriatej na 180 stupňov. Potom zvýšte teplotu na 200 stupňov, ideálne na funkciu gril a pečte ešte 10 minút, kým sa syr na niekoľkých miestach nerozpustí.",
+		"Podávajte s pečivom."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 3,
+			"ingredients": [
+				{"name": "fazule v paradajkovej šťave", "quantity": 2, "unit": "konzerva"},
+				{"name": "menšie červené cibule", "quantity": 2, "unit": "ks"},
+				{"name": "balkánsky syr", "quantity": 150, "unit": "g"}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p116.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p116"
+}

@@ -1,0 +1,47 @@
+{
+	"title": "Big Mac Tacos",
+	"category": "obedy",
+	"prepTimeMinutes": 21,
+	"steps": [
+		"Najskôr si priprav Big Mac omáčku tak, že zmiešaš v miske všetky suroviny do hladkej konzistencie.",
+		"Nakrájaj si bielu cibuľu a zmiešaj ju v ďalšej miske s mletým hovädzím mäsom a všetkými koreninami. Mäsovú hmotu rozdeľ rovnomerne na 4 časti a pritlač ju na tortilly, aby sa prilepila.",
+		"\"Tacos\" griluj z mäsovej strany 6 minút buď na panvici, alebo na grile. Medzitým si nakrájaj šalát, červenú cibuľu a uhorky.",
+		"Otoč tacos na 2 minúty zo strany tortilly a na stred polož syr, aby sa roztopil.",
+		"Keď tortilla získa farbu, stiahni ju z ohňa a zostav si lahodné Big Mac Taco! A nezabudni na omáčku!"
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 260,
+			"portions": 4,
+			"macros": {
+				"carbs": 18,
+				"protein": 30,
+				"fat": 6
+			},
+			"ingredients": [
+				{ "name": "malá tortilla", "quantity": 4, "unit": "ks" },
+				{ "name": "chudé mleté hovädzie mäso", "quantity": 300, "unit": "g" },
+				{ "name": "biela cibuľa", "quantity": 1, "unit": "ks" },
+				{ "name": "hlávkový šalát" },
+				{ "name": "červená cibuľa", "quantity": 1, "unit": "ks" },
+				{ "name": "zaváraná uhorka", "quantity": 6, "unit": "ks" },
+				{ "name": "syr light", "quantity": 4, "unit": "plátok" },
+				{ "name": "soľ" },
+				{ "name": "čierne korenie" },
+				{ "name": "rasca" },
+				{ "name": "granulovaný cesnak" },
+				{ "name": "petržlenová vňať" },
+				{ "name": "grécky jogurt", "quantity": 120, "unit": "g" },
+				{ "name": "kečup", "quantity": 40, "unit": "g" },
+				{ "name": "horčica", "quantity": 20, "unit": "g" },
+				{ "name": "šťava z uhoriek", "quantity": 30, "unit": "ml" },
+				{ "name": "sladká paprika" },
+				{ "name": "granulovaná cibuľa" }
+			]
+		}
+	],
+	"image": "onvia/image125.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image125"
+}

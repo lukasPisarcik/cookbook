@@ -1,0 +1,31 @@
+{
+	"title": "Banánové plátky s orieškovým maslom",
+	"category": "dezerty",
+	"dietTags": ["bezlaktozove", "bezlepkove"],
+	"prepTimeMinutes": 5,
+	"steps": [
+		"Banán nakrájaj na plátky.",
+		"Na každý plátok nanes orieškové maslo.",
+		"Pridaj chia semienka/oriešky na vrch každého plátka.",
+		"Ozdob škoricou a čerstvým ovocím."
+	],
+	"funFact": "Banán je vynikajúcim zdrojom draslíka, ktorý spolu so sodíkom reguluje optimálny pomer vody v tkanivách, a draslík je tak kľúčový napríklad aj pre zdravé fungovanie obličiek.",
+	"variants": [
+		{
+			"label": "300 kcal",
+			"kcalPerPortion": 308,
+			"portions": 1,
+			"macros": { "carbs": 40, "protein": 8, "fat": 12 },
+			"ingredients": [
+				{ "name": "zrelý banán", "quantity": 1, "unit": "ks" },
+				{ "name": "orieškové maslo", "quantity": 20, "unit": "g" },
+				{ "name": "med", "quantity": 10, "unit": "g" },
+				{ "name": "chia semienka", "quantity": 5, "unit": "g" },
+				{ "name": "škorica" },
+				{ "name": "čerstvé ovocie", "quantity": 50, "unit": "g" }
+			]
+		}
+	],
+	"source": "Dezerty-300kcal.pdf",
+	"sourceRef": "p2"
+}

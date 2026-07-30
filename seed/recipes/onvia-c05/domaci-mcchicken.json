@@ -1,0 +1,72 @@
+{
+	"title": "Domáci McChicken",
+	"category": "obedy",
+	"prepTimeMinutes": 35,
+	"steps": [
+		"Do misky pridaj mleté kuracie mäso, horčicu a všetky koreniny. Premiešaj a vytvaruj 3 rovnako veľké mäsové guľky.",
+		"Kukuričné vločky spolu s rovnakými koreninami vlož do mixéra a niekoľkokrát rozmixuj pulzovaním.",
+		"Do plytkého taniera pridaj zmes rozmixovaných kukuričných vločiek. Vezmi si jednu mäsovú guľku, pridaj ju do zmesi a dobre ju v nej vyvaľkaj a obal. Potom z nej rukami vytvaruj hamburgerovú placku. Obalenie guličiek pred formovaním do placiek spôsobí, že sa pri formovaní budú oveľa menej lepiť. Rovnako postupuj so všetkými mäsovými guľkamii.",
+		"Opatrne pridaj placky do fritézy (AirFryer) a postriekaj ich olejom v spreji. Peč ich na 200°C 10-12 minút a v polovici času pečenia ich otoč, aby sa dobre prepiekli. Prípadne ich môžeš upiecť aj v rúre pri 180°C po dobu 15 minút nastavenie ventilátor.",
+		"Po dopečení vytvor svoj Mc Chicken burger. Vezmi jemne opečenú spodnú časť žemle, pridaj trochu majonézy, potom Mc Chicken placku, nakrájaný šalát, trochu majonézy a na vrch druhú čašt opečenej žemle."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 334,
+			"portions": 3,
+			"macros": {
+				"carbs": 30,
+				"protein": 40,
+				"fat": 6
+			},
+			"ingredients": [
+				{
+					"name": "chudé mleté kuracie mäso",
+					"quantity": 450,
+					"unit": "g"
+				},
+				{
+					"name": "horčica",
+					"quantity": 20,
+					"unit": "g"
+				},
+				{
+					"name": "kukuričné vločky",
+					"quantity": 30,
+					"unit": "g"
+				},
+				{
+					"name": "žemľa na hamburger",
+					"quantity": 3,
+					"unit": "ks"
+				},
+				{
+					"name": "nízkotučná majonéza",
+					"quantity": 21,
+					"unit": "g"
+				},
+				{
+					"name": "hlávkový šalát"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "granulovaný cesnak"
+				},
+				{
+					"name": "granulovaná cibuľa"
+				},
+				{
+					"name": "čierne korenie"
+				},
+				{
+					"name": "červená paprika"
+				}
+			]
+		}
+	],
+	"image": "onvia/image113.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image113"
+}

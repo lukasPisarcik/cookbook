@@ -1,0 +1,33 @@
+{
+	"title": "Sladké plnené bataty",
+	"category": "dezerty",
+	"prepTimeMinutes": 5,
+	"steps": [
+		"Do zemiakov urob vidličkou niekoľko vpichnutí a peč ich v rúre na 180 °C 40 minút nastavenie ventilátor.",
+		"Vyber zemiaky z rúry, pozdĺžne ich prerež a nechaj trochu vychladnúť.",
+		"Keď trochu vychladnú dužinu opatrne vydlab lyžicou (bez poškodenia šupky) a zmiešaj ju v miskách s prísadami na batay.",
+		"Prvý zemiak priprav v čoko-cookietella štýle a druhý v perníkovom štýle so škoricou.",
+		"Zmes vlož späť do zemiakových šupiek a vychutnávaj!"
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 311,
+			"portions": 2,
+			"macros": {"carbs": 55, "protein": 6, "fat": 8},
+			"ingredients": [
+				{"name": "sladký zemiak", "quantity": 2, "unit": "ks"},
+				{"name": "horká čokoláda (70%)", "quantity": 2, "unit": "ks"},
+				{"name": "Unicorn Dust", "quantity": 1, "unit": "g"},
+				{"name": "nasekané lieskovce", "quantity": 5, "unit": "ks"},
+				{"name": "škorica"},
+				{"name": "perníkové korenie"},
+				{"name": "nasekané pekanové orechy", "quantity": 5, "unit": "ks"},
+				{"name": "Unicorn Dust Vanilla Ecstasy", "quantity": 1, "unit": "g"}
+			]
+		}
+	],
+	"image": "onvia/image271.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image271"
+}

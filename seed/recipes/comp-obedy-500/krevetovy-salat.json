@@ -1,0 +1,35 @@
+{
+	"title": "Krevetový šalát",
+	"category": "obedy",
+	"prepTimeMinutes": 23,
+	"steps": [
+		"Cestoviny uvar podľa návodu.",
+		"Na strednom ohni na panvici rozpusti maslo, pridaj nakrájaný cesnak a opraž ho 1-2 minúty dozlatista, ale dávaj pozor, aby sa nespálil. Pridaj krevety a osmaž ich z oboch stranán kým nebudú úplne prepečené.",
+		"Na konci zakvapni citrónovou šťavu, pridaj soľ a čierne korenie podľa chuti.",
+		"Do bieleho jogurtu primiešaj pretlačený cesnak, soľ a korenie tiež podľa chuti a pridaj cestoviny, syr, krevety a kukuricu.",
+		"Môžeš posypať petržlenovou vňaťou.",
+		"Vyjdú ti 2 porcie."
+	],
+	"variants": [
+		{
+			"label": "500 kcal",
+			"kcalPerPortion": 499,
+			"portions": 2,
+			"macros": {"carbs": 55, "protein": 32, "fat": 15},
+			"ingredients": [
+				{"name": "celozrnné cestoviny", "quantity": 150, "unit": "g"},
+				{"name": "krevety", "quantity": 150, "unit": "g"},
+				{"name": "kukurica", "quantity": 40, "unit": "g"},
+				{"name": "grécky jogurt 0 %", "quantity": 140, "unit": "g"},
+				{"name": "cesnak", "quantity": 1, "unit": "strúčik"},
+				{"name": "eidam", "quantity": 50, "unit": "g"},
+				{"name": "soľ"},
+				{"name": "korenie"},
+				{"name": "citrónová šťava"},
+				{"name": "maslo", "quantity": 20, "unit": "g"}
+			]
+		}
+	],
+	"source": "Obedy - 500 kcal.pdf",
+	"sourceRef": "p14"
+}

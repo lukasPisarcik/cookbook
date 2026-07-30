@@ -1,0 +1,83 @@
+{
+	"title": "Perníčková ovsená kaša",
+	"category": "ranajky",
+	"prepTimeMinutes": 15,
+	"steps": [
+		"Vo väčšom hrnci zohrej mlieko s vodou.",
+		"Do teplého mlieka prisyp ovsené vločky a poriadne premiešaj.",
+		"Pridaj perníkové korenie, vanilkový extrakt a štipku soli.",
+		"Povar na miernom ohni cca 5 minút, kým kaša nezhustne a ovsené vločky nebudú mäkké.",
+		"Potom pridaj proteín.",
+		"Medzitým si na panvicu zohrej mrazené višne spolu s troškou vody, prípadne flavdrops a sladidlo.",
+		"Ak chceš redšiu konzistenciu, pridaj ešte vodu.",
+		"Ovsenú kašu podávaj s horúcimi višňami, mandľovým maslom, horkou čokoládou, javorovým sirupom."
+	],
+	"funFact": "Višne prirodzene obsahujú melatonín, ktorý ovplyvňuje spánkový cyklus.",
+	"variants": [
+		{
+			"label": "550 kcal",
+			"kcalPerPortion": 554,
+			"portions": 1,
+			"macros": {
+				"carbs": 75,
+				"protein": 24,
+				"fat": 15
+			},
+			"ingredients": [
+				{
+					"name": "jemné ovsené vločky",
+					"quantity": 70,
+					"unit": "g"
+				},
+				{
+					"name": "mandľové mlieko",
+					"quantity": 110,
+					"unit": "ml"
+				},
+				{
+					"name": "vanilkový proteín",
+					"quantity": 15,
+					"unit": "g"
+				},
+				{
+					"name": "voda",
+					"quantity": 110,
+					"unit": "ml"
+				},
+				{
+					"name": "javorový sirup",
+					"quantity": 15,
+					"unit": "g"
+				},
+				{
+					"name": "mandľové maslo",
+					"quantity": 10,
+					"unit": "g"
+				},
+				{
+					"name": "horká čokoláda",
+					"quantity": 5,
+					"unit": "g"
+				},
+				{
+					"name": "perníkové korenie"
+				},
+				{
+					"name": "vanilkový extrakt"
+				},
+				{
+					"name": "soľ",
+					"unit": "štipka"
+				},
+				{
+					"name": "mrazené višne",
+					"quantity": 100,
+					"unit": "g"
+				}
+			]
+		}
+	],
+	"image": "pernickova-ovsena-kasa-550-kcal/p1.webp",
+	"source": "Perníčková ovsená kaša - 550 kcal.pdf",
+	"sourceRef": "p1"
+}

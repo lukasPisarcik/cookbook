@@ -1,0 +1,77 @@
+{
+	"title": "Taštička z morských rias s tuniakom",
+	"category": "obedy",
+	"prepTimeMinutes": 15,
+	"steps": [
+		"Ryžu uvar podľa návodu na obale, aby bola jemná a lepkavá. Po uvarení nechaj trochu vychladnúť.",
+		"Uhorku a avokádo nakrájaj na tenké plátky.",
+		"Tuniaka nechaj dobre odkvapkať zo šťavy a premiešaj s majonézou light a srirachou, aby sa vytvorila jemná krémová zmes.",
+		"Na nori riasu polož rovnomerne vrstvu vychladnutej uvarenej ryže. Na vrch ryže pridaj plátky uhorky, avokáda a tuniakovo-majonézovú zmes. Posyp sezamovými semienkami.",
+		"Nori riasu opatrne zroluj, aby vznikol trojuholník. Ak je potrebné, okraje riasy trochu navlhči, aby sa lepšie zlepili. Zabaľ do potravinárskej fólie.",
+		"Tašku nakrájaj na polovicu a podávaj čerstvú, ideálne s trochou sójovej omáčky alebo ďalšou srirachou ako dip."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 398,
+			"portions": 1,
+			"macros": {
+				"carbs": 39,
+				"protein": 33,
+				"fat": 12
+			},
+			"ingredients": [
+				{
+					"name": "nori riasa",
+					"quantity": 10,
+					"unit": "g"
+				},
+				{
+					"name": "uhorka",
+					"quantity": 50,
+					"unit": "g"
+				},
+				{
+					"name": "avokádo",
+					"quantity": 50,
+					"unit": "g"
+				},
+				{
+					"name": "tuniak vo vlastnej šťave",
+					"quantity": 100,
+					"unit": "g"
+				},
+				{
+					"name": "majonéza light",
+					"quantity": 15,
+					"unit": "g"
+				},
+				{
+					"name": "sriracha",
+					"quantity": 15,
+					"unit": "g"
+				},
+				{
+					"name": "sushi ryža",
+					"quantity": 30,
+					"unit": "g"
+				},
+				{
+					"name": "sezamové semienka"
+				},
+				{
+					"name": "citrónová šťava"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "čierne korenie"
+				}
+			]
+		}
+	],
+	"image": "onvia/image159.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image159"
+}

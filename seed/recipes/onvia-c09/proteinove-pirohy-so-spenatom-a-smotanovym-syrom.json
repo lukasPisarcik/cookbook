@@ -1,0 +1,44 @@
+{
+	"title": "Proteínové pirohy so špenátom a smotanovým syrom",
+	"category": "obedy",
+	"prepTimeMinutes": 40,
+	"steps": [
+		"Suroviny na cesto premiesime a zmiešame, na pomúčenom povrchu vyvaľkáme cesto na plocho a pomocou šálky vykrojíme malé kruhy (podľa želanej veľkosti).",
+		"V miske zmiešame suroviny na plnku.",
+		"Pirohy na okraji navlhčíme, plnku vložíme do stredu kruhu, preložíme a konce roztlačíme vidličkou, aby sa cesto zlepilo a vytvorilo tvar pirohov.",
+		"Pirohy osmažíme na panvici z jednej strany tak, aby sa vytvorila chrumkavá zlatistá kôrka (panvicu pred tým môžeme trochu namastiť olejom alebo maslom).",
+		"Následne pridáme do panvice 200-250 ml vody (ešte lepšie, ak je to vývar z kostí alebo bujón zaliaty horúcou vodou), panvicu zakryjeme pokrievkou a varíme pokým sa voda úplne nevyparí.",
+		"Pirohy ozdobíme feta syrom, opečenými cherry paradajkami, jarnou cibuľkou a podávame."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 462,
+			"portions": 1,
+			"macros": {
+				"carbs": 52,
+				"protein": 46,
+				"fat": 7
+			},
+			"ingredients": [
+				{ "name": "špaldová múka", "quantity": 50, "unit": "g" },
+				{ "name": "proteínový prášok bez príchute", "quantity": 30, "unit": "g" },
+				{ "name": "voda", "quantity": 4, "unit": "PL" },
+				{ "name": "soľ" },
+				{ "name": "nízkotučný feta syr", "quantity": 30, "unit": "g" },
+				{ "name": "cherry paradajky", "quantity": 100, "unit": "g" },
+				{ "name": "jarná cibuľka" },
+				{ "name": "mrazený špenát", "quantity": 75, "unit": "g" },
+				{ "name": "nízkotučný krémový syr", "quantity": 50, "unit": "g" },
+				{ "name": "čierne korenie" },
+				{ "name": "červená sladká paprika" },
+				{ "name": "sušený tymian" },
+				{ "name": "muškátový oriešok" },
+				{ "name": "cesnak" }
+			]
+		}
+	],
+	"image": "onvia/image186.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image186"
+}

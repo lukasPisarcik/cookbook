@@ -1,0 +1,34 @@
+{
+	"title": "Banánkové overnight oats",
+	"category": "ranajky",
+	"dietTags": ["bezlepkove", "bezlaktozove"],
+	"prepTimeMinutes": 10,
+	"steps": [
+		"Ovsené vločky zmiešaj v sklenenej nádobke s kakaom a škoricou a zalej horúcou vodou tak, aby sa vytvorila redšia kašovitá konzistencia.",
+		"Dochuť medom alebo agávovým sirupom a zamiešaj.",
+		"Keď kaša vychladne, pridaj roztlačený banán (kúsok si odlož na ozdobenie ráno) daj na noc do chladničky.",
+		"Ráno ozdob orieškovým maslom, chia semienkami, nasekanými orechmi a pár kolieskami banánu."
+	],
+	"funFact": "Kakao je superpotravina, ktorá obsahuje napríklad aj flavonoidy, ktoré môžu pomôcť znížiť riziko chronických ochorení, ako sú srdcové choroby a diabetes.",
+	"variants": [
+		{
+			"label": "550 kcal",
+			"kcalPerPortion": 526,
+			"portions": 1,
+			"macros": { "carbs": 68, "protein": 16, "fat": 19 },
+			"ingredients": [
+				{ "name": "chia semienka", "quantity": 8, "unit": "g" },
+				{ "name": "nasekané orechy", "quantity": 4, "unit": "g" },
+				{ "name": "med", "quantity": 15, "unit": "g" },
+				{ "name": "bezlepkové ovsené vločky", "quantity": 50, "unit": "g" },
+				{ "name": "holandské kakao", "quantity": 15, "unit": "g" },
+				{ "name": "orieškové maslo", "quantity": 15, "unit": "g" },
+				{ "name": "banán", "quantity": 70, "unit": "g" },
+				{ "name": "škorica", "unit": "štipka" }
+			]
+		}
+	],
+	"image": "ranajky-550-kcal/p9.webp",
+	"source": "Raňajky - 550 kcal.pdf",
+	"sourceRef": "p9"
+}

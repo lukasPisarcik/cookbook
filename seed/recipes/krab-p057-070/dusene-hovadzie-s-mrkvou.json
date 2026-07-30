@@ -1,0 +1,65 @@
+{
+	"title": "Dusené hovädzie s mrkvou",
+	"category": "obedy",
+	"steps": [
+		"Mrkvu očistite a nakrájajte na kolieska, cibuľu očistite a nakrájajte nadrobno, mäso nakrájajte na kocky.",
+		"Vo väčšom hrnci rozohrejte olej a orestujte na ňom cibuľu, restujte ju pomaly, až zkaramelizuje. Pozor na pripálenie.",
+		"K cibuli potom prihoďte mäso po častiach, vždy kúsky zarestujte a potom pridajte ďalšie.",
+		"Nakoniec pridajte nové korenie, čierne korenie, soľ, pasírované paradajky a vodu alebo vývar, aby mäso bolo celkom ponorené. Kľudne aby voda siahala 1-2 cm nad mäso.",
+		"Priveďte k varu a potom stlmte plameň na polovicu, prikryte pokrývkou a pomaly duste cca 2-3 hodiny. Záleží na mäse, za ako dlho bude mäkké.",
+		"Keď je mäkké, pridajte mrkvu a duste ďalej, kým nebude mäkká.",
+		"Nakoniec podľa potreby zahustite múkou, ktorú rozmiešajte v troške vody. Rozmiešajte to fakt poriadne, aby sa neurobili v omáčke hrudky. Túto zápražku vmiešajte do hrnca s mäsom a omáčkou a povarte ešte 10 minút.",
+		"Nakoniec vyberte korenie a podľa chuti dosoľte.",
+		"Podávajte s cestovinami, ryžou, zemiakovou kašou, gnochi alebo kvalitným pečivom."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 5,
+			"ingredients": [
+				{
+					"name": "repkový olej",
+					"quantity": 1,
+					"unit": "PL"
+				},
+				{
+					"name": "cibuľa",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "hovädzie zadné",
+					"quantity": 800,
+					"unit": "g"
+				},
+				{
+					"name": "pasírované paradajky",
+					"quantity": 300,
+					"unit": "g"
+				},
+				{
+					"name": "nové korenie",
+					"quantity": 2,
+					"unit": "ks"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "vývar"
+				},
+				{
+					"name": "mrkva",
+					"quantity": 4,
+					"unit": "ks"
+				},
+				{
+					"name": "hladká múka"
+				}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p66.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p66"
+}

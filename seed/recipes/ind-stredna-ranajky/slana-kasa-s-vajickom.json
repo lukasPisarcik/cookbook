@@ -1,0 +1,81 @@
+{
+	"title": "Slaná kaša s vajíčkom",
+	"category": "ranajky",
+	"prepTimeMinutes": 15,
+	"steps": [
+		"Vajíčko si uvar podľa chuti ( buď na tvrdo alebo volské oko).",
+		"Na panvicu pridaj olej a opeč šampiňóny. Osoľ, okoreň tymiánom.",
+		"Opeč do zlatista.",
+		"Potom šampiňóny vyber a do výpeku pridaj vločky, zalej dvojnásobkom vody, okoreň čiernym korením, soľou a podľa chuti môžeš pridať aj sójovú omáčku.",
+		"Povar 5 minút alebo kým nie sú vločky uvarené.",
+		"Nakoniec pridaj nasekanú pažítku. Ak je kaša príliš hustá, pridáj viac vody.",
+		"Servíruj s opečenými hubami, vajíčkom, cherry, pokrájaným avokádom, posyp semienkami a ešte pažítkou podľa chuti."
+	],
+	"variants": [
+		{
+			"label": "450 kcal",
+			"kcalPerPortion": 462,
+			"portions": 1,
+			"macros": {
+				"carbs": 32,
+				"protein": 19,
+				"fat": 27
+			},
+			"ingredients": [
+				{
+					"name": "ovsené vločky",
+					"quantity": 40,
+					"unit": "g"
+				},
+				{
+					"name": "olivový olej",
+					"quantity": 5,
+					"unit": "ml"
+				},
+				{
+					"name": "šampiňóny",
+					"quantity": 70,
+					"unit": "g"
+				},
+				{
+					"name": "voda",
+					"quantity": 80,
+					"unit": "ml"
+				},
+				{
+					"name": "sušený tymián"
+				},
+				{
+					"name": "čerstvá pažítka"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "mleté čierne korenie"
+				},
+				{
+					"name": "avokádo",
+					"quantity": 20,
+					"unit": "g"
+				},
+				{
+					"name": "slnečnicové semienka",
+					"quantity": 20,
+					"unit": "g"
+				},
+				{
+					"name": "cherry"
+				},
+				{
+					"name": "vajíčko",
+					"quantity": 1,
+					"unit": "ks"
+				}
+			]
+		}
+	],
+	"image": "slana-kasa-s-vajickom-450-kcal/p1.webp",
+	"source": "Slaná kaša s vajíčkom - 450 kcal.pdf",
+	"sourceRef": "p1"
+}

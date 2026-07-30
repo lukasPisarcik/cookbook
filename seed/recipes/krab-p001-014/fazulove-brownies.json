@@ -1,0 +1,34 @@
+{
+	"title": "Fazuľové brownies",
+	"category": "ranajky",
+	"steps": [
+		"Rúru rozohrejte na 170 stupňov.",
+		"Menšiu zapekaciu misku alebo koláčovú formu vymastite troškou masla alebo nastriekajte olejom a vysypte ryžovou, pohánkovou alebo špaldovou múkou.",
+		"Vajcia vyšľahajte do peny a čokoládu rozpusťte vo vodnom kúpeli.",
+		"Fazuľu sceďte a rozmixujte spolu s olejom, mandľovým maslom a medom.",
+		"Potom túto zmes presuňte do misky, pridajte rozpustenú čokoládu, kakao a kypriaci prášok, všetko spolu premiešajte.",
+		"Nakoniec pridajte vyšľahané vajíčka a premiešajte.",
+		"Zmes dajte do formy a nechajte piecť na 20 minút.",
+		"Po upečení nechajte vychlanúť.",
+		"Tip: pre doplnenie bielkovín pridajte ku kúsku brownies grécky jogurt, tvaroh alebo skyr a obľúbené ovocie."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 8,
+			"ingredients": [
+				{ "name": "vajce", "quantity": 2, "unit": "ks" },
+				{ "name": "70% čokoláda", "quantity": 160, "unit": "g" },
+				{ "name": "červená fazuľa", "quantity": 1, "unit": "konzerva" },
+				{ "name": "repkový olej", "quantity": 5, "unit": "PL" },
+				{ "name": "mandľové maslo", "quantity": 3, "unit": "PL" },
+				{ "name": "med", "quantity": 3, "unit": "PL" },
+				{ "name": "holandské kakao", "quantity": 3, "unit": "PL" },
+				{ "name": "kypriaci prášok", "quantity": 1, "unit": "ČL" }
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p8.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p8"
+}

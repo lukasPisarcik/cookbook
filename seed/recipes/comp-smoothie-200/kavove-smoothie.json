@@ -1,0 +1,34 @@
+{
+	"title": "Kávové smoothie",
+	"category": "smoothies",
+	"dietTags": ["bezlepkove"],
+	"prepTimeMinutes": 5,
+	"steps": [
+		"Zmixuj všetky ingrediencie.",
+		"Môžeš posypať lyo malinami a podávať s ľadom."
+	],
+	"funFact": "Káva je jedným z najoblúbenejších nápojov na svete a hneď po rope je najobchodovanejšou surovinou. Najoblúbenejšia odroda kávy je Arabica.",
+	"variants": [
+		{
+			"label": "200 kcal",
+			"kcalPerPortion": 238,
+			"portions": 1,
+			"macros": {
+				"carbs": 26,
+				"protein": 15,
+				"fat": 8
+			},
+			"ingredients": [
+				{"name": "mrazený banán", "quantity": 1, "unit": "ks"},
+				{"name": "vychladená káva", "quantity": 1, "unit": "ks"},
+				{"name": "mandľové mlieko", "quantity": 100, "unit": "ml"},
+				{"name": "mandľové maslo", "quantity": 10, "unit": "g"},
+				{"name": "vanilkový proteín", "quantity": 15, "unit": "g"},
+				{"name": "ľad"}
+			]
+		}
+	],
+	"image": "smoothie-200-kcal/p8.webp",
+	"source": "Smoothie - 200 kcal.pdf",
+	"sourceRef": "p8"
+}

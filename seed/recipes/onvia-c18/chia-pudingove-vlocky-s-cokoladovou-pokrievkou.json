@@ -1,0 +1,37 @@
+{
+	"title": "Chia Pudingové vločky s čokoládovou pokrievkou",
+	"category": "ranajky",
+	"prepTimeMinutes": 250,
+	"steps": [
+		"Všetky suroviny (okrem čokolády) zmiešame v nádobe, kým nevznikne celistvá hmota a dáme odstáť do chladničky.",
+		"Keď zmes začne hustnúť (cca 30-60 min), rozpustíme si čokoládu vo vodnom kúpeli a rovnomerne ju vylejeme na náš chia puding, na povrchu vznikne čokoládová pokrievka.",
+		"Opäť chia puding vložíme do chladničky, aby čokoláda stuhla a puding ešte viac odstál.",
+		"Najlepšie je pripraviť puding večer a nechať ho cez noc v chladničke.",
+		"Na druhý deň stačí pridať podľa chuti napríklad čerstvé ovocie a domácu granolu."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 459,
+			"portions": 1,
+			"macros": {"carbs": 35, "protein": 40, "fat": 16},
+			"ingredients": [
+				{"name": "ovsené vločky", "quantity": 20, "unit": "g"},
+				{"name": "chia semienka", "quantity": 10, "unit": "g"},
+				{"name": "drvené ľanové semienka", "quantity": 10, "unit": "g"},
+				{"name": "psyllium", "quantity": 5, "unit": "g"},
+				{"name": "škoricový proteínový prášok", "quantity": 30, "unit": "g"},
+				{"name": "sladidlo", "quantity": 3, "unit": "g"},
+				{"name": "nastrúhané jablko", "quantity": 0.5, "unit": "ks"},
+				{"name": "nastrúhaná mrkva", "quantity": 0.5, "unit": "ks"},
+				{"name": "mandľové mlieko", "quantity": 200, "unit": "ml"},
+				{"name": "horká čokoláda", "quantity": 10, "unit": "g"},
+				{"name": "škorica", "unit": "štipka"},
+				{"name": "soľ", "unit": "štipka"}
+			]
+		}
+	],
+	"image": "onvia/image350.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image350"
+}

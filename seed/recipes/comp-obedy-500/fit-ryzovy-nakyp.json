@@ -1,0 +1,37 @@
+{
+	"title": "Fit ryžový nákyp",
+	"category": "obedy",
+	"dietTags": ["bezlepkove", "bezlaktozove"],
+	"prepTimeMinutes": 60,
+	"steps": [
+		"Ryžu prepláchni a var ju približne 8-10 minút vo vode. Po uvarení ju sceď, aby si z nej dostala čo najviac vody. Do horúcej ryže primiešaj maslo.",
+		"V troške mlieka zmiešaj proteín a oslaď sladidlom, potom túto zmes pridaj k 300 ml horúceho mlieka a zalej ňou ryžu.",
+		"Var, kým ryža nezmäkne a neabsorbuje mlieko (čas závisí od druhu ryže).",
+		"Po uvarení nechaj ryžu trochu vychladnúť, následne rozdeľ vajíčka na žĺtky a bielky a žĺtky do ryže pridaj.",
+		"Bielky vyšľahaj do hustej peny a jemne ich vmiešaj do ryže.",
+		"Do zapekacej misy nalej polovicu ryže, do stredu rozlož ovocie a zalej druhou polovicou ryže.",
+		"Na vrch môžeš ešte pridať trochu ovocia.",
+		"Peč v predhriatej rúre na 160 °C približne 45 minút, alebo kým povrch neni dozlatista.",
+		"Vrch ozdob orieškovým maslom."
+	],
+	"variants": [
+		{
+			"label": "500 kcal",
+			"kcalPerPortion": 476,
+			"portions": 4,
+			"macros": {"carbs": 36, "protein": 17, "fat": 28},
+			"ingredients": [
+				{"name": "jasmínová ryža", "quantity": 300, "unit": "g"},
+				{"name": "mandľové mlieko", "quantity": 300, "unit": "ml"},
+				{"name": "vanilkový proteín", "quantity": 30, "unit": "g"},
+				{"name": "maslo", "quantity": 50, "unit": "g"},
+				{"name": "vajíčko", "quantity": 2, "unit": "ks"},
+				{"name": "javorový sirup", "quantity": 40, "unit": "g"},
+				{"name": "ovocie", "quantity": 150, "unit": "g"},
+				{"name": "mandľové maslo", "quantity": 75, "unit": "g"}
+			]
+		}
+	],
+	"source": "Obedy - 500 kcal.pdf",
+	"sourceRef": "p12"
+}

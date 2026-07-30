@@ -1,0 +1,53 @@
+{
+	"title": "Tortillová pizza",
+	"category": "vecere",
+	"prepTimeMinutes": 15,
+	"steps": [
+		"Predhrej rúru na 180 °C.",
+		"Tortillu pomaž omáčkou alebo kečupom.",
+		"Na tortillu polož nakrájanú mozzarellu a šunku.",
+		"Na vrch pridaj kukuricu.",
+		"Tortillu daj piecť do rúry na 5 – 10 minút, kým syr nezačne jemne hnednúť."
+	],
+	"variants": [
+		{
+			"label": "500 kcal",
+			"kcalPerPortion": 499,
+			"portions": 1,
+			"macros": {
+				"carbs": 43,
+				"protein": 47,
+				"fat": 16
+			},
+			"ingredients": [
+				{
+					"name": "celozrnná tortilla",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "kvalitná šunka",
+					"quantity": 120,
+					"unit": "g"
+				},
+				{
+					"name": "mozzarella",
+					"quantity": 90,
+					"unit": "g"
+				},
+				{
+					"name": "rajčinová omáčka",
+					"quantity": 30,
+					"unit": "g"
+				},
+				{
+					"name": "sterilizovaná kukurica",
+					"quantity": 50,
+					"unit": "g"
+				}
+			]
+		}
+	],
+	"source": "Večere - 500 kcal.pdf",
+	"sourceRef": "p9"
+}

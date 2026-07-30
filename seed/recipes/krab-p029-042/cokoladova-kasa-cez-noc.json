@@ -1,0 +1,32 @@
+{
+	"title": "Čokoládová kaša cez noc",
+	"category": "ranajky",
+	"steps": [
+		"Banány v strednej miske roztlačte vidličkou.",
+		"Pridajte vločky, tvaroh a mlieko a poriadne všetko premiešajte.",
+		"Pridajte orechové maslo, kakao, škoricu, sirup a čokoládové kúsky.",
+		"Ochutnajte a podľa potreby ešte doslaďte.",
+		"Kašu presuňte do uzatvárateľných mištičiek a nechajte cez noc v chladničke.",
+		"Ráno ozdobte čerstvým ovocím a jedzte."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 2,
+			"ingredients": [
+				{"name": "ovsené vločky", "quantity": 100, "unit": "g"},
+				{"name": "nízkotučný tvaroh", "quantity": 300, "unit": "g"},
+				{"name": "polotučné mlieko", "quantity": 240, "unit": "ml"},
+				{"name": "arašidové maslo so slaným karamelom", "quantity": 60, "unit": "g"},
+				{"name": "holandské kakao", "quantity": 25, "unit": "g"},
+				{"name": "zrelý banán", "quantity": 250, "unit": "g"},
+				{"name": "čakankový sirup s príchuťou slaný karamel", "quantity": 1, "unit": "PL"},
+				{"name": "mletá škorica", "quantity": 0.5, "unit": "ČL"},
+				{"name": "nasekaná 70 % čokoláda", "quantity": 30, "unit": "g"}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p33.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p33"
+}

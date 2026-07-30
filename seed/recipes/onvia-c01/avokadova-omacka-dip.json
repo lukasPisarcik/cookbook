@@ -1,0 +1,77 @@
+{
+	"title": "Avokádová omáčka/dip",
+	"category": "zaklady",
+	"prepTimeMinutes": 5,
+	"steps": [
+		"Všetky suroviny vlož do kuchynského mixéra a rozmixuj pokým ti nevznikne hladká konzistencia.",
+		"Dressing použi ihneď do akéhokoľvek šalátu, cestovín alebo si priprav väčšiu dávku a skladuj ho v uzavretej sklenenej nádobe v chladničke až 5 dní."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 159,
+			"portions": 4,
+			"macros": {
+				"carbs": 10,
+				"protein": 8,
+				"fat": 11
+			},
+			"ingredients": [
+				{
+					"name": "stredne veľké avokádo",
+					"quantity": 2,
+					"unit": "ks"
+				},
+				{
+					"name": "čerstvý koriander",
+					"quantity": 1,
+					"unit": "hrsť"
+				},
+				{
+					"name": "cesnak",
+					"quantity": 3,
+					"unit": "strúčik"
+				},
+				{
+					"name": "nízkotučný grécky jogurt",
+					"quantity": 250,
+					"unit": "g"
+				},
+				{
+					"name": "light majonéza",
+					"quantity": 50,
+					"unit": "g"
+				},
+				{
+					"name": "limetka",
+					"quantity": 2,
+					"unit": "ks"
+				},
+				{
+					"name": "voda",
+					"quantity": 100,
+					"unit": "ml"
+				},
+				{
+					"name": "morská soľ"
+				},
+				{
+					"name": "čierne korenie"
+				},
+				{
+					"name": "čili",
+					"unit": "štipka"
+				},
+				{
+					"name": "granulovaný cesnak"
+				},
+				{
+					"name": "granulovaná cibuľa"
+				}
+			]
+		}
+	],
+	"image": "onvia/image25.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image25"
+}

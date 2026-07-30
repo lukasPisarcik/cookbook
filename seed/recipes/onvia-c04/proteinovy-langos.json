@@ -1,0 +1,48 @@
+{
+	"title": "Proteínový langoš",
+	"category": "snacky",
+	"prepTimeMinutes": 28,
+	"steps": [
+		"Rúru si predhrejme na 180°C s funkciou ventilátor. Strúčiky cesnaku rozdrvíme (šupku môžeme nechať) a pečieme v rúre 15-20 minút.",
+		"Všetky suroviny na cesto (okrem oleja) si vymiesime a pridáme trochu vody tak, aby nám vznikla dobrá konzistencia cesta.",
+		"Cesto poriadne rukami porozťahujeme a vytvoríme si placku.",
+		"Náš tip: najlepšie pracovať bez valčeka a cesto spracovávať rukami, aby nebolo moc tenké.",
+		"Na panvici si rozpálime olej a langoš na strednom ohni opečieme do zlatista z oboch strán.",
+		"Medzitým si krémový syr okoreníme a zmiešame s bylinkami a kefírom.",
+		"Strúčiky cesnaku vytiahneme z rúry, odstránime šupu a vidličkou si cesnak roztlačíme na konzistenciu pasty.",
+		"Langoš si otočíme a na tenko potrieme cesnakovou pastou, nakoniec pridáme krémový syr s bylinkami, strúhaný syr a vrch posypeme jarnou cibuľkou."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 371,
+			"portions": 1,
+			"macros": {
+				"carbs": 31,
+				"protein": 13,
+				"fat": 11
+			},
+			"ingredients": [
+				{ "name": "špaldová múka", "quantity": 30, "unit": "g" },
+				{ "name": "proteínový prášok bez príchute", "quantity": 20, "unit": "g" },
+				{ "name": "cmar", "quantity": 50, "unit": "g" },
+				{ "name": "prášok do pečenia", "quantity": 2, "unit": "g" },
+				{ "name": "olivový olej", "quantity": 5, "unit": "g" },
+				{ "name": "soľ", "unit": "štipka" },
+				{ "name": "nízkotučný krémový syr", "quantity": 40, "unit": "g" },
+				{ "name": "cmar", "quantity": 10, "unit": "g" },
+				{ "name": "cesnak", "quantity": 2, "unit": "strúčik" },
+				{ "name": "jarná cibuľka", "quantity": 1, "unit": "ks" },
+				{ "name": "strúhaný syr light", "quantity": 25, "unit": "g" },
+				{ "name": "soľ" },
+				{ "name": "čierne korenie" },
+				{ "name": "sušená cibuľa" },
+				{ "name": "čerstvá petržlen" },
+				{ "name": "čerstvá pažítka" }
+			]
+		}
+	],
+	"image": "onvia/image90.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image90"
+}

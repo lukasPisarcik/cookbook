@@ -1,0 +1,33 @@
+{
+	"title": "Pečený losos so šalátom z pečenej zeleniny",
+	"category": "obedy",
+	"steps": [
+		"Trúbu rozohrejeme na 180 stupňov. Lososa umyte a osušte, osoľte a dajte do zapekacej misky kožou dolu.",
+		"Šampióny, mrkvu a cuketu umyte, mrkvu zabavte šupky a všetko nakrájajte na kúsky – šampióny na polovičky, cuketu na polmesiačiky a mrkvu na hranolky. Ľahko osoľte a dajte piecť na 20 minút.",
+		"Rukolu umyte, dajte do misky a pripravte dresing – v mištičke zmiešajte med, horčicu, ocot a trochu vody.",
+		"Po upečení nechajte zeleninu ľahko vychladnúť a potom ju pridajte k rukole a zalejte ju zálievkou.",
+		"Do 2 krabičiek rozdeľte lososa – bez kože a pridajte šalát.",
+		"Podávajte s kvalitným pečivom alebo zemiakmi."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 2,
+			"ingredients": [
+				{"name": "čerstvý losos", "quantity": 260, "unit": "g"},
+				{"name": "šampióny", "quantity": 250, "unit": "g"},
+				{"name": "cuketa", "quantity": 300, "unit": "g"},
+				{"name": "mrkva", "quantity": 1, "unit": "ks"},
+				{"name": "soľ"},
+				{"name": "čerstvá rukola", "quantity": 3, "unit": "hrsť"},
+				{"name": "med", "quantity": 2, "unit": "ČL"},
+				{"name": "dijonská horčica", "quantity": 1, "unit": "ČL"},
+				{"name": "jablčný ocot", "quantity": 2, "unit": "ČL"},
+				{"name": "voda"}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p106.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p106"
+}

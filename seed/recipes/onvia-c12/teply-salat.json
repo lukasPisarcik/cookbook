@@ -1,0 +1,37 @@
+{
+	"title": "Teplý šalát",
+	"category": "obedy",
+	"prepTimeMinutes": 20,
+	"steps": [
+		"Zemiaky umy a nakrájaj na mesiačiky. Polož ich na plech, pokvapkaj olivovým olejom, osoľ, okoreň a posyp údenou paprikou. Peč pri 200 °C asi 25 minút, kým budú dozlatista opečené – alebo použi air fryer.",
+		"Medzitým si priprav zálievku: v miske zmiešaj olivový olej, citrónovú šťavu, horčicu, cesnak, soľ a korenie V7X.",
+		"Cherry paradajky prekroj na polovice a na chvíľu ich pridaj k zemiakom, aby sa mierne ohriali.",
+		"Do veľkej misy daj upečené zemiaky, uvarenú šošovicu a cherry paradajky. Zalej zálievkou a jemne premiešaj.",
+		"Podávaj ešte teplé, posypané čerstvými bylinkami (napr. petržlen, bazalka alebo rukola)."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 460,
+			"portions": 2,
+			"macros": { "carbs": 70, "protein": 20, "fat": 11 },
+			"ingredients": [
+				{ "name": "zemiak", "quantity": 400, "unit": "g" },
+				{ "name": "šošovica", "quantity": 100, "unit": "g" },
+				{ "name": "cherry paradajka", "quantity": 300, "unit": "g" },
+				{ "name": "olivový olej", "quantity": 10, "unit": "g" },
+				{ "name": "soľ" },
+				{ "name": "čierne korenie" },
+				{ "name": "údená paprika", "unit": "štipka" },
+				{ "name": "olivový olej (zálievka)", "quantity": 10, "unit": "g" },
+				{ "name": "citrón", "quantity": 0.5, "unit": "ks" },
+				{ "name": "dijonská horčica", "quantity": 10, "unit": "g" },
+				{ "name": "cesnak", "quantity": 1, "unit": "strúčik" },
+				{ "name": "korenie V7X" }
+			]
+		}
+	],
+	"image": "onvia/image245.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image245"
+}

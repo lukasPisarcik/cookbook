@@ -1,0 +1,29 @@
+{
+	"title": "Malinový pohár",
+	"category": "snacky",
+	"steps": [
+		"Skyr premiešajte s tvarohom a oslaďte čakankovým sirupom podľa chuti. Nakoniec vmiešajte aj kakao.",
+		"Maliny rozmixujte. Čerstvé pôjdu super, mrazené budete musieť nariediť s vodou. Do malinového pyré vmiešajte chia semienka.",
+		"Vezmite uzatvárateľný pohár alebo krabičku. Do nej dajte prvú vrstvu malín, na to kakaový krém, potom zase vrstvu malín, zase kakaový krém a nakoniec ozdobte pistáciami a kúsky malín.",
+		"Nechajte vychladiť cez noc v chladničke."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 2,
+			"ingredients": [
+				{"name": "plnotučný tvaroh", "quantity": 1, "unit": "vanička"},
+				{"name": "skyr", "quantity": 1, "unit": "kelímok"},
+				{"name": "čakankový karamelový sirup"},
+				{"name": "holandské kakao", "quantity": 2, "unit": "PL"},
+				{"name": "mrazené maliny", "quantity": 250, "unit": "g"},
+				{"name": "chia semienka", "quantity": 10, "unit": "g"},
+				{"name": "čerstvé maliny"},
+				{"name": "nasekané pistácie"}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p49.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p49"
+}

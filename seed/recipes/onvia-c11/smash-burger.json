@@ -1,0 +1,44 @@
+{
+	"title": "Smash Burger",
+	"category": "obedy",
+	"prepTimeMinutes": 15,
+	"steps": [
+		"Cibuľu nakrájaj na tenké prúžky, zmiešaj so soľou, korením RO0, octom, medom a zalej horúcou vodou, priklop a nechaj odležať.",
+		"Mäso okořeň a rozdeľ na 4 časti. Na rozpálenej panvici opeč z oboch strán. Použi papier na pečenie a pritlač, aby vznikol tenký plátok.",
+		"Plátky potri zmesou z medu, korenie H3T a chilli omáčky a polož plátky cheddaru. Nechaj chvíľu roztopiť.",
+		"Potom si zmiešaj grécky jogurt s korením a chilli omáčkou.",
+		"Žemľu opeč v rúre alebo v AirFryeri.",
+		"Obe časti potri dipom, na spodnú časť pridaj šalát, voliteľne plátky uhorky, nakladanú cibuľku, pridaj 2 plátky mäsa a priklop vrchnou žemľou.",
+		"Dobrú chuť!"
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 688,
+			"portions": 2,
+			"macros": {"carbs": 50, "protein": 45, "fat": 27},
+			"ingredients": [
+				{"name": "mleté kuracie mäso", "quantity": 300, "unit": "g"},
+				{"name": "soľ"},
+				{"name": "korenie"},
+				{"name": "korenie na kuracie mäso"},
+				{"name": "cheddar (plátky)", "quantity": 80, "unit": "g"},
+				{"name": "med", "quantity": 1, "unit": "ČL"},
+				{"name": "chilli omáčka", "quantity": 1, "unit": "ČL"},
+				{"name": "žemľa", "quantity": 2, "unit": "ks"},
+				{"name": "šalát", "quantity": 1, "unit": "hrsť"},
+				{"name": "červená cibuľa", "quantity": 0.25, "unit": "ks"},
+				{"name": "ocot"},
+				{"name": "horúca voda"},
+				{"name": "korenie RO0"},
+				{"name": "grécky jogurt 0%", "quantity": 70, "unit": "g"},
+				{"name": "sušený cesnak"},
+				{"name": "korenie H3T"},
+				{"name": "chilli omáčka (do dipu)", "unit": "kvapka"}
+			]
+		}
+	],
+	"image": "onvia/image236.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image236"
+}

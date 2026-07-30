@@ -1,0 +1,81 @@
+{
+	"title": "Lososová rolka",
+	"category": "obedy",
+	"prepTimeMinutes": 30,
+	"steps": [
+		"Rúru si predhrejeme na 170°C s funkciou ventilátor.",
+		"Vajcia oddelíme a z oboch bielkov pomocou ručného mixéra vyšľaháme tuhý sneh, žĺtky zmixujeme s tvarohom, koreninami a práškom do pečiva. Zmes so žĺtkami vmiešame jemne do snehu.",
+		"Na plech vložíme papier na pečenie a potom naň rovnomerne rozotrieme vzniknuté cesto po celej dĺžke a šírke pomocou stierky. Pečieme 15 minút v rúre.",
+		"Hneď ako je cesto hotové, necháme ho vychladnúť na papieri na pečenie, pod ktorý prestrieme kuchynskú útierku (dôležité, aby sa nám upečené cesto neskôr pri rolovaní nelámalo).",
+		"Nízkotučny krémový syr zmiešame s nasekaným kôprom, citrónovou šťavou, citrónovou kôrou a potrieme ním povrch upečeného cesta.",
+		"Rukolu a udený losos tiež rovnomerne porozdeľujeme na povrch upečeného cesta. Na záver posypeme nakrájanou jarnou cibuľkou. Opatrne rolku zrolujeme. Pre extra chuť rolku pokvapkaj tekvicovým olejom a pikantnou čili omáčkou Sriracha."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 634,
+			"portions": 1,
+			"macros": {
+				"carbs": 15,
+				"protein": 83,
+				"fat": 27
+			},
+			"ingredients": [
+				{
+					"name": "nízkotučný tvaroh jemný",
+					"quantity": 250,
+					"unit": "g"
+				},
+				{
+					"name": "vajce",
+					"quantity": 2,
+					"unit": "ks"
+				},
+				{
+					"name": "prášok do pečiva",
+					"quantity": 1,
+					"unit": "ČL"
+				},
+				{
+					"name": "rukola"
+				},
+				{
+					"name": "nízkotučný krémový syr",
+					"quantity": 100,
+					"unit": "g"
+				},
+				{
+					"name": "údený losos",
+					"quantity": 100,
+					"unit": "g"
+				},
+				{
+					"name": "šťava a kôra z ½ citróna"
+				},
+				{
+					"name": "jarná cibuľka",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "čerstvý kôpor"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "čierne korenie"
+				},
+				{
+					"name": "chili"
+				},
+				{
+					"name": "sušený cesnak"
+				}
+			]
+		}
+	],
+	"image": "onvia/image100.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image100"
+}

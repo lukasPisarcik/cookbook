@@ -1,0 +1,35 @@
+{
+	"title": "Krémová tiramisu ovsená kaša cez noc",
+	"category": "ranajky",
+	"steps": [
+		"Vločky zmiešajte v miske s chia semienkami, mliekom, jogurtom, espressom a rozmixovaným banánom. Ak to bude pre vás málo sladké, pridajte ešte jednu alebo 2 lyžičky medu.",
+		"Vločkovú zmes presuňte do 2 misiek, dajte na 1-2 hodiny vychladiť do chladničky.",
+		"Potom spolu premiešajte ricottu, tvaroh, rozmixovaný banán a med. Túto zmes potom navrstvite na vločkový základ.",
+		"Nakoniec posypte cez jemné sitko kakaom.",
+		"Nechajte cez noc v chladničke.",
+		"Ozdobiť môžete obľúbeným orieškovým maslom a sušenými malinami."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 2,
+			"ingredients": [
+				{"name": "ovsené jemné vločky", "quantity": 100, "unit": "g"},
+				{"name": "ovsené mlieko", "quantity": 200, "unit": "ml"},
+				{"name": "grécky jogurt", "quantity": 150, "unit": "g"},
+				{"name": "chia semienka", "quantity": 7, "unit": "g"},
+				{"name": "zrelý banán", "quantity": 100, "unit": "g"},
+				{"name": "espresso", "quantity": 45, "unit": "ml"},
+				{"name": "med", "quantity": 1, "unit": "ČL"},
+				{"name": "ricotta na krém", "quantity": 130, "unit": "g"},
+				{"name": "nízkotučný tvaroh na krém", "quantity": 160, "unit": "g"},
+				{"name": "med na krém", "quantity": 25, "unit": "g"},
+				{"name": "zrelý banán na krém", "quantity": 100, "unit": "g"},
+				{"name": "holandské kakao na posypanie"}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p38.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p38"
+}

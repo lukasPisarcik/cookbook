@@ -1,0 +1,41 @@
+{
+	"title": "Šakšuka",
+	"category": "ranajky",
+	"dietTags": ["vegetarianske"],
+	"prepTimeMinutes": 10,
+	"steps": [
+		"Rúru predhrej na 180° horný/spodný ohrev a ideálne použi panvicu vhodnú do rúry. Recept sa dá zhotoviť aj bez rúry, ale z rúry chutí najlepšie.",
+		"Zeleninu umy, zbav jadierok a nakrájaj na kocky. Najskôr na olivovom oleji orestuj nadrobno nakrájanú cibuľu a cesnak, pridaj zvyšok nakrájanej zeleniny a niekoľko minút ju podus. Potom primiešaj scedené paradajky. Pridaj 50 ml vody a výdatne ochuť korením.",
+		"Celé vajíčka opatrne nalej na paradajkovú omáčku, posyp ich trochou soli, korenia a peč v dobre vyhriatej rúre asi 8 minút.",
+		"Pred podávaním posyp čerstvou petržlenovou vňaťou a prípadne pridaj trochu jogurtu alebo rozdrobeného feta syra."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 413,
+			"portions": 1,
+			"macros": {
+				"carbs": 38,
+				"protein": 25,
+				"fat": 19
+			},
+			"ingredients": [
+				{ "name": "vajce", "quantity": 2, "unit": "ks" },
+				{ "name": "cibuľa", "quantity": 1, "unit": "ks" },
+				{ "name": "cesnak", "quantity": 1, "unit": "strúčik" },
+				{ "name": "zeleninová zmes", "quantity": 250, "unit": "g" },
+				{ "name": "olivový olej", "quantity": 1, "unit": "ČL" },
+				{ "name": "scedené paradajky z konzervy", "quantity": 300, "unit": "g" },
+				{ "name": "soľ" },
+				{ "name": "korenie" },
+				{ "name": "mletá rasca" },
+				{ "name": "sladká mletá paprika" },
+				{ "name": "chilli" },
+				{ "name": "čerstvá petržlenová vňať" }
+			]
+		}
+	],
+	"image": "onvia/image195.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image195"
+}

@@ -1,0 +1,97 @@
+{
+	"title": "Kuracia burrito mieska s limetkovou ryžou",
+	"category": "obedy",
+	"prepTimeMinutes": 30,
+	"steps": [
+		"V miske zmiešaj soľ, korenie, limetkovú šťavu (opcia: trochu postrúhanej kôry z limetky), mletú papriku, granulovaný cesnak a rascu. Vzniknutou zmesou namarinuj kuracie prsia.",
+		"Ryžu uvar podľa návodu na obale.",
+		"Zeleninu a avokádo nakrájaj na kocky, vlož do misky, pridaj citrónovou šťavu, soľ, korenie a dobre premiešaj.",
+		"Vymasti panvicu a opeč namarinované kuracie prsia. Keď sa kura zvonka pekne opečie pridaj fazuľu a dobre spolu premiešaj.",
+		"Opäť dochuť koreninami a pridaj šťavu z limetky.",
+		"Do misky vlož kuracie mäso s fazuľou, ryžu a pridaj zeleninovú zmes.",
+		"Na záver celé jedlo pokvapkaj limetkou, prípadne pridaj salsa omáčku a kyslú smotanu."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 460,
+			"portions": 1,
+			"macros": {
+				"carbs": 68,
+				"protein": 31,
+				"fat": 8
+			},
+			"ingredients": [
+				{
+					"name": "kuracie prsia",
+					"quantity": 100,
+					"unit": "g"
+				},
+				{
+					"name": "ryža",
+					"quantity": 60,
+					"unit": "g"
+				},
+				{
+					"name": "avokádo",
+					"quantity": 0.5,
+					"unit": "ks"
+				},
+				{
+					"name": "fazuľa z konzervy",
+					"quantity": 80,
+					"unit": "g"
+				},
+				{
+					"name": "červená paprika",
+					"quantity": 0.5,
+					"unit": "ks"
+				},
+				{
+					"name": "červená cibuľa",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "šalátová uhorka",
+					"quantity": 0.33,
+					"unit": "ks"
+				},
+				{
+					"name": "jarná cibuľka",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "limetka",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "olivový olej"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "korenie"
+				},
+				{
+					"name": "sladká mletá paprika"
+				},
+				{
+					"name": "granulovaný cesnak"
+				},
+				{
+					"name": "mletá rasca"
+				},
+				{
+					"name": "koriander"
+				}
+			]
+		}
+	],
+	"image": "onvia/image57.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image57"
+}

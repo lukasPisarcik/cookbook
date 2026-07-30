@@ -1,0 +1,27 @@
+{
+	"title": "Pečený losos s kešu bylinkovou krustou",
+	"category": "obedy",
+	"steps": [
+		"Troubu předehřejte na 180 stupňů.",
+		"Kešu rozmixujte s omytou petrželkou a lahůdkovým droždím.",
+		"Lososa osolte a na každý filet položte bylinkovou směs z kešu ořechů, položte do pekáčku vystlaného pečícím papírem.",
+		"Dejte péct na 20 minut do trouby.",
+		"Podávejte s bramborovou kaší."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 4,
+			"ingredients": [
+				{"name": "filety lososa", "quantity": 4, "unit": "ks"},
+				{"name": "kešu ořechy", "quantity": 30, "unit": "g"},
+				{"name": "lahůdkové droždí", "quantity": 15, "unit": "g"},
+				{"name": "listová petrželka", "quantity": 1, "unit": "hrst"},
+				{"name": "sůl"}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p123.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p123"
+}

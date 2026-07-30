@@ -1,0 +1,31 @@
+{
+	"title": "Tvarohová feta nátierka s pečenými paradajkami",
+	"category": "zaklady",
+	"steps": [
+		"Paradajky dôkladne umyť, prekrojte a dajte do zapekacej misky, pokvapkajte olejom, osoľte a dajte do predhriatej rúry na 180 stupňov piecť na 20 minút.",
+		"Medzitým vo vysokej misky rozdrobte fetu a k nej pridajte ricottu, tvaroh a jogurt, všetko spolu premixujte dohladka.",
+		"Mandľové plátky nasucho orestujte.",
+		"Tvarohový krém premiestnite do mištičiek, na krém položte pečené paradajky, ozdobte bazalkou a posypte plátkami mandlí. Môžete pokvapkať ešte trochou olivového oleja.",
+		"Podávajte s pečivom."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 4,
+			"ingredients": [
+				{"name": "cherry paradajky", "quantity": 30, "unit": "ks"},
+				{"name": "olivový olej", "quantity": 2, "unit": "PL"},
+				{"name": "soľ", "unit": "štipka"},
+				{"name": "feta", "quantity": 200, "unit": "g"},
+				{"name": "ricotta", "quantity": 250, "unit": "g"},
+				{"name": "polotučný tvaroh", "quantity": 250, "unit": "g"},
+				{"name": "grécky jogurt 0% tuku", "quantity": 150, "unit": "g"},
+				{"name": "mandľové plátky", "quantity": 25, "unit": "g"},
+				{"name": "čerstvá bazalka"}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p113.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p113"
+}

@@ -1,0 +1,115 @@
+{
+	"title": "Tuniakové poké",
+	"category": "obedy",
+	"dietTags": ["bezlepkove"],
+	"prepTimeMinutes": 25,
+	"steps": [
+		"Ryžu uvar podľa návodu a osoľ.",
+		"Mrkvu, kapustu a jarnú cibuľku nakrájaj na tenké prúžky, reďkovku a uhorku na kolieska, avokádo na plátky, granátové jablko si olúp a edamame uvar do mäkka.",
+		"Priprav si misku, kde dáš ryžu, a tú pokvapkáš sójovou omáčkou.",
+		"Ďalej do misky navrstvi všetku pokrájanú zeleninu, granátové jablko a pridaj tuniaka.",
+		"Následne všetko prelej dresingom, ktorý pripravíš zmiešaním majonézy, odtučnený, srirache a limetkovej šťavy podľa chuti.",
+		"Nakoniec poké posypeš sezamom a pridáš riasu nori.",
+		"Dobrú chuť :)"
+	],
+	"funFact": "Tradičné havajské poké sa podávali len ako samotné kúsky ochutenej surovej ryby.",
+	"variants": [
+		{
+			"label": "600 kcal",
+			"kcalPerPortion": 621,
+			"portions": 2,
+			"macros": {
+				"carbs": 80,
+				"protein": 33,
+				"fat": 18
+			},
+			"ingredients": [
+				{
+					"name": "sushi ryža",
+					"quantity": 160,
+					"unit": "g"
+				},
+				{
+					"name": "tuniak vo vlastnej šťave",
+					"quantity": 1,
+					"unit": "konzerva"
+				},
+				{
+					"name": "edamame",
+					"quantity": 100,
+					"unit": "g"
+				},
+				{
+					"name": "červená kapusta v náleve",
+					"quantity": 80,
+					"unit": "g"
+				},
+				{
+					"name": "uhorka",
+					"quantity": 50,
+					"unit": "g"
+				},
+				{
+					"name": "mrkva",
+					"quantity": 50,
+					"unit": "g"
+				},
+				{
+					"name": "avokádo",
+					"quantity": 50,
+					"unit": "g"
+				},
+				{
+					"name": "červená reďkovka",
+					"quantity": 2,
+					"unit": "ks"
+				},
+				{
+					"name": "jarná cibuľka",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "granátové jablko",
+					"quantity": 35,
+					"unit": "g"
+				},
+				{
+					"name": "sezam",
+					"quantity": 5,
+					"unit": "g"
+				},
+				{
+					"name": "riasa nori"
+				},
+				{
+					"name": "sójová omáčka",
+					"quantity": 2,
+					"unit": "PL"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "light majonéza",
+					"quantity": 10,
+					"unit": "g"
+				},
+				{
+					"name": "grécky jogurt odtučnený",
+					"quantity": 30,
+					"unit": "g"
+				},
+				{
+					"name": "sriracha omáčka"
+				},
+				{
+					"name": "limetková šťava"
+				}
+			]
+		}
+	],
+	"image": "tuniakove-poke-600-kcal/p1.webp",
+	"source": "Tuniakové poké - 600 kcal.pdf",
+	"sourceRef": "p1"
+}

@@ -1,0 +1,35 @@
+{
+	"title": "Matcha ovsený koláč",
+	"category": "dezerty",
+	"prepTimeMinutes": 85,
+	"steps": [
+		"Najprv namoč datle na 15 minút do vody. Daj ich do malej misky a pridaj toľko vody, aby boli celé ponorené pod vodou.",
+		"Potom si priprav zelený krém. V miske jednoducho zmiešaj tvaroh s čajom matcha a sladidlom. Daj na chvíľu do chladničky.",
+		"Medzitým do mixéra vhoď datle a vodu, vločky, kokos, ľanové semienka, mandľové maslo a podľa konzistencie pridávaj vodu.",
+		"Rozmixuj na tuhšiu pastu.",
+		"Formu vylož papierom na pečenie a na dno rozotri rozmixovanú zmes. Na zmes natri krém a posyp kokosom.",
+		"Vlož do mrazničky aspoň na hodinu"
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 199,
+			"portions": 9,
+			"macros": {"carbs": 16, "protein": 11, "fat": 10},
+			"ingredients": [
+				{"name": "datle bez jadier", "quantity": 6, "unit": "ks"},
+				{"name": "ovsené vločky", "quantity": 100, "unit": "g"},
+				{"name": "strúhaný kokos", "quantity": 60, "unit": "g"},
+				{"name": "mleté ľanové semienka", "quantity": 60, "unit": "g"},
+				{"name": "mandľové maslo", "quantity": 2, "unit": "PL"},
+				{"name": "voda", "quantity": 100, "unit": "ml"},
+				{"name": "nízkotučný tvaroh", "quantity": 500, "unit": "g"},
+				{"name": "čaj matcha", "quantity": 1, "unit": "PL"},
+				{"name": "sladidlo"}
+			]
+		}
+	],
+	"image": "onvia/image355.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image355"
+}

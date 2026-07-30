@@ -1,0 +1,95 @@
+{
+	"title": "Green Goddness šalát",
+	"category": "zaklady",
+	"prepTimeMinutes": 15,
+	"steps": [
+		"Všetky prísady na šalát nakrájaj nadrobno a daj ich do veľkej misy. Ver mi, zvoľ veľkú misu (tú najväčšiu akú doma máš).",
+		"Potom pridaj všetky prísady na dresing do mixéra. Mixuj pokým nezískaš hladkú konzistenciu.",
+		"Vymixovaný dresing pridaj do šalátu a premiešaj, kým sa všetko dobre neprepojí.",
+		"Šalát použi ako prílohu so zdrojom bielkovín podľa vlastného výberu."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 144,
+			"portions": 8,
+			"macros": {
+				"carbs": 15,
+				"protein": 8,
+				"fat": 5
+			},
+			"ingredients": [
+				{
+					"name": "zelená kapusta",
+					"quantity": 1,
+					"unit": "hlávka"
+				},
+				{
+					"name": "uhorka",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "pažítka",
+					"quantity": 15,
+					"unit": "g"
+				},
+				{
+					"name": "jarná cibuľa",
+					"quantity": 1,
+					"unit": "zväzok"
+				},
+				{
+					"name": "zelená paprika",
+					"quantity": 2,
+					"unit": "ks"
+				},
+				{
+					"name": "zeler",
+					"quantity": 2,
+					"unit": "stonka"
+				},
+				{
+					"name": "avokádo",
+					"quantity": 2,
+					"unit": "ks"
+				},
+				{
+					"name": "limetka",
+					"quantity": 2,
+					"unit": "ks"
+				},
+				{
+					"name": "voda",
+					"quantity": 0.25,
+					"unit": "šálka"
+				},
+				{
+					"name": "čerstvý koriander",
+					"quantity": 15,
+					"unit": "g"
+				},
+				{
+					"name": "šalotka",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "čierne korenie"
+				},
+				{
+					"name": "cesnak"
+				},
+				{
+					"name": "čerstvá mäta"
+				}
+			]
+		}
+	],
+	"image": "onvia/image53.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image53"
+}

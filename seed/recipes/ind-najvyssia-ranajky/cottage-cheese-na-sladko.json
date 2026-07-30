@@ -1,0 +1,59 @@
+{
+	"title": "Cottage cheese na sladko",
+	"category": "ranajky",
+	"prepTimeMinutes": 10,
+	"steps": [
+		"Chlebík môžeš jemne opiecť na panvici alebo v toastovači, aby bol chrumkavý.",
+		"Cottage zmiešaj so sladidlom ( napr. Stévia ) a pridaj škoricu alebo perníkové korenie.",
+		"Na teplý chlieb rovnomerne natri cottage cheese.",
+		"Na vrch pridaj figový džem.",
+		"Do stredu alebo na vrch pokvapaj mandľovým maslom.",
+		"Ozdob čerstvými figami."
+	],
+	"variants": [
+		{
+			"label": "550 kcal",
+			"kcalPerPortion": 550,
+			"portions": 1,
+			"macros": {
+				"carbs": 29,
+				"protein": 42,
+				"fat": 27
+			},
+			"ingredients": [
+				{
+					"name": "proteínový chlebík",
+					"quantity": 2,
+					"unit": "ks"
+				},
+				{
+					"name": "cottage cheese",
+					"quantity": 180,
+					"unit": "g"
+				},
+				{
+					"name": "figový džem",
+					"quantity": 25,
+					"unit": "g"
+				},
+				{
+					"name": "mandľové maslo",
+					"quantity": 25,
+					"unit": "g"
+				},
+				{
+					"name": "čerstvá figa",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "škorica",
+					"unit": "štipka"
+				}
+			]
+		}
+	],
+	"image": "cottage-cheese-na-sladko-550-kcal/p1.webp",
+	"source": "Cottage cheese na sladko - 550 kcal.pdf",
+	"sourceRef": "p1"
+}

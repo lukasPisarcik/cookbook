@@ -1,0 +1,68 @@
+{
+	"title": "Plnená palacinka z ryžového papiera",
+	"category": "obedy",
+	"prepTimeMinutes": 20,
+	"steps": [
+		"Najprv si priprav zeleninu a tofu. Tofu nastrúhaj, mrkvu a kapustu nakrájaj na tenké rezance. Kapustu môžeš naškrabať škrabkou, aby bola naozaj tenká.",
+		"Na panvici rozohrej olej. V hlbokom tanieri alebo na inej panvici nechaj ryžový papier niekoľko sekúnd nasiaknuť vo vode a potom ho polož na rozpálenú panvicu. Na papier navrstvi tofu, zeleninu, nakrájanú cibuľku a korenie.",
+		"Prikry ďalším namočeným ryžovým papierom a nechaj smažiť na polovičnom ohni. Po chvíli otoč a opeč aj z druhej strany.",
+		"Po upečení ho nakrájaj na kocky a namoč do sójovej alebo tamari omáčky. Ak sa ti zvyšok zeleniny nezmestí do palaciniek, zjedz ju samostatne."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 369,
+			"portions": 1,
+			"macros": {
+				"carbs": 48,
+				"protein": 17,
+				"fat": 12
+			},
+			"ingredients": [
+				{
+					"name": "ryžový papier",
+					"quantity": 4,
+					"unit": "plátok"
+				},
+				{
+					"name": "červená kapusta",
+					"quantity": 100,
+					"unit": "g"
+				},
+				{
+					"name": "mrkva",
+					"quantity": 1
+				},
+				{
+					"name": "olivový olej",
+					"quantity": 1,
+					"unit": "PL"
+				},
+				{
+					"name": "jarná cibuľka",
+					"quantity": 1
+				},
+				{
+					"name": "tofu natural",
+					"quantity": 90,
+					"unit": "g"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "korenie"
+				},
+				{
+					"name": "sójová omáčka"
+				},
+				{
+					"name": "sezamové semienka"
+				}
+			]
+		}
+	],
+	"image": "onvia/image147.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image147"
+}

@@ -1,0 +1,38 @@
+{
+	"title": "Broskyňovo krémové smoothie",
+	"category": "smoothies",
+	"dietTags": ["bezlepkove"],
+	"prepTimeMinutes": 5,
+	"steps": [
+		"Vezmi lyžičku, ktorú omočíš na ozdobu v gréckom jogurte a nanesieš po stranách pohára, aby sa vytvoril obláčikový look.",
+		"Zmixuj všetky ingrediencie.",
+		"Môžeš podávať s ľadom."
+	],
+	"funFact": "Toto smoothie je inšpirované smoohie od Kendal Jenner, ktoré sa predáva v USA. Tento originál má takmer 1000 kcal :D, ale mal by chutiť dosť podobne ako naša verzia.",
+	"variants": [
+		{
+			"label": "200 kcal",
+			"kcalPerPortion": 219,
+			"portions": 1,
+			"macros": {
+				"carbs": 30,
+				"protein": 11,
+				"fat": 6
+			},
+			"ingredients": [
+				{"name": "broskyne", "quantity": 150, "unit": "g"},
+				{"name": "broskyňová kombucha", "quantity": 50, "unit": "ml"},
+				{"name": "light kokosové mlieko", "quantity": 30, "unit": "ml"},
+				{"name": "goji", "quantity": 6, "unit": "g"},
+				{"name": "javorový sirup", "quantity": 3, "unit": "g"},
+				{"name": "vanilkový proteín", "quantity": 10, "unit": "g"},
+				{"name": "grécky jogurt", "quantity": 50, "unit": "g"},
+				{"name": "ifoodie kolagén bez chuti", "quantity": 1, "unit": "PL"},
+				{"name": "flavdrops"}
+			]
+		}
+	],
+	"image": "smoothie-200-kcal/p3.webp",
+	"source": "Smoothie - 200 kcal.pdf",
+	"sourceRef": "p3"
+}

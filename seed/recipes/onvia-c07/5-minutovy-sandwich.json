@@ -1,0 +1,57 @@
+{
+	"title": "5 minútový sandwich",
+	"category": "ranajky",
+	"prepTimeMinutes": 15,
+	"steps": [
+		"Na panvici rozohrej olivový olej v spreji a vylej vyšlahané vajce. Na omeletu polož 2 plátky toastového chleba.",
+		"Toasty potri bazalkovým pestom, pridaj šunku, eidam, zeleninu a ohni rohy omelety na toastový chlieb.",
+		"Celé podober a prehni, aby ti vznikol sendvič.",
+		"Ešte môžeš oba plátky toastu postriekať olejom v spreji a opiecť do zlatista z každej strany.",
+		"Sendvič prekroj na polovicu a podávaj ihneď, ideálne s obľúbeným dipom alebo čerstvou zeleninou."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 424,
+			"portions": 1,
+			"ingredients": [
+				{
+					"name": "toastový chlieb",
+					"quantity": 2,
+					"unit": "plátok"
+				},
+				{
+					"name": "vajce",
+					"quantity": 1
+				},
+				{
+					"name": "eidam 30%",
+					"quantity": 20,
+					"unit": "g"
+				},
+				{
+					"name": "vysokoprocentná šunka",
+					"quantity": 30,
+					"unit": "g"
+				},
+				{
+					"name": "bazalkové pesto",
+					"quantity": 10,
+					"unit": "g"
+				},
+				{
+					"name": "uhorka"
+				},
+				{
+					"name": "paradajka"
+				},
+				{
+					"name": "olivový olej v spreji"
+				}
+			]
+		}
+	],
+	"image": "onvia/image158.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image158"
+}

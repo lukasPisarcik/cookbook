@@ -1,0 +1,24 @@
+{
+	"title": "Čokoládová torta bez múky",
+	"category": "dezerty",
+	"steps": [
+		"Rúry si predhrejte na 180 stupňov.",
+		"Banány roztlačte, pridajte arašidové maslo, kakao a všetko premiešajte. Nakoniec pridajte čokoládové lupienky alebo nasekanú čokoládu.",
+		"Zmes prelejte do koláčovej formy a dajte do rúry piecť na 20 minút.",
+		"Po upečení nechajte vychladnúť, podávajte s gréckym jogurtom s 0% tuku a ovocím."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"ingredients": [
+				{"name": "zrelý banán", "quantity": 330, "unit": "g"},
+				{"name": "arašidové maslo", "quantity": 110, "unit": "g"},
+				{"name": "holandské kakao", "quantity": 30, "unit": "g"},
+				{"name": "čokoládové lupienky", "quantity": 50, "unit": "g"}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p40.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p40"
+}

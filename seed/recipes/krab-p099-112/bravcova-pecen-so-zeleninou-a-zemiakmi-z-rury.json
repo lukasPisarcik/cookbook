@@ -1,0 +1,30 @@
+{
+	"title": "Bravčová pečeň so zeleninou a zemiakmi z rúry",
+	"category": "obedy",
+	"steps": [
+		"Rúru predhrejte na 180 stupňov.",
+		"Zemiaky ošúpete a nakrájajte na kúsky, dajte do zapekacej misky, pridajte zeleninu, 1 lyžicu oleja, soľ a grilovacie korenie a všetko premiešajte.",
+		"Plátky mäsa osoľte, opeprite a posypte rascou a na 1 lyžici oleja ich prudko opečte. Zmes pridajte do zeleniny a zemiakov.",
+		"Dajte piecť do rúry na 40-45 minút.",
+		"Po upečení rozdeľte porcie do krabičiek."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 3,
+			"ingredients": [
+				{"name": "plátky bravčovej pečene", "quantity": 500, "unit": "g"},
+				{"name": "zemiaky", "quantity": 450, "unit": "g"},
+				{"name": "obľúbená zelenina", "quantity": 400, "unit": "g"},
+				{"name": "olivový olej", "quantity": 2, "unit": "PL"},
+				{"name": "soľ"},
+				{"name": "biely peper"},
+				{"name": "mletá rasca", "unit": "štipka"},
+				{"name": "grilovacie korenie na zeleninu"}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p101.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p101"
+}

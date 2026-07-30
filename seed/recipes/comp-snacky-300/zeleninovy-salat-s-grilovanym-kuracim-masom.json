@@ -1,0 +1,71 @@
+{
+	"title": "Zeleninový šalát s grilovaným kuracím mäsom",
+	"category": "snacky",
+	"dietTags": ["bezlepkove", "bezlaktozove"],
+	"prepTimeMinutes": 20,
+	"steps": [
+		"Kuracie prsia dochuť soľou a korením, potom griluj na rozpálenej panvičke cca 5-7 minút.",
+		"Zeleninu nakrájaj a priprav na tanier.",
+		"Kuracie prsia nakráj na tenké plátky a polož na šalát.",
+		"Dochuť olivovým olejom a balsamikovým octom."
+	],
+	"funFact": "K tomuto receptu nemám, žiadny fun fact. :( Ale fun fact je, že kuracie mäso je moje najoblúbenejšie :D.",
+	"variants": [
+		{
+			"label": "300 kcal",
+			"kcalPerPortion": 317,
+			"portions": 1,
+			"macros": {
+				"carbs": 10,
+				"protein": 26,
+				"fat": 19
+			},
+			"ingredients": [
+				{
+					"name": "kuracie prsia",
+					"quantity": 100,
+					"unit": "g"
+				},
+				{
+					"name": "miešaná zelenina",
+					"quantity": 1.5,
+					"unit": "šálka"
+				},
+				{
+					"name": "kukurica",
+					"quantity": 30,
+					"unit": "g"
+				},
+				{
+					"name": "olivy",
+					"quantity": 20,
+					"unit": "g"
+				},
+				{
+					"name": "sušené rajčiny",
+					"quantity": 20,
+					"unit": "g"
+				},
+				{
+					"name": "olivový olej",
+					"quantity": 15,
+					"unit": "g"
+				},
+				{
+					"name": "balsamikový ocot",
+					"quantity": 1,
+					"unit": "ČL"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "čierne korenie"
+				}
+			]
+		}
+	],
+	"image": "snacky-300-kcal/p3.webp",
+	"source": "Snacky - 300 kcal.pdf",
+	"sourceRef": "p3"
+}

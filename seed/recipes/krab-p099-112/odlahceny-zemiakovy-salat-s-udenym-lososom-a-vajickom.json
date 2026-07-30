@@ -1,0 +1,29 @@
+{
+	"title": "Odľahčený zemiakový šalát s údeným lososom a vajíčkom",
+	"category": "obedy",
+	"steps": [
+		"Zemiaky nakrájajte na kúsky, cibuľu rozpoľte a nakrájajte ju na polkolieska.",
+		"Obe veci dajte do misky, pridajte kukuricu, nasekanú pažítku, majonézu, horčicu, tvaroh a soľ, všetko spolu premiešajte.",
+		"Šalát rozdeľte do krabičiek a do každej krabičky pridajte ako zdroj bielkovín ešte 50 g údeného lososa a rozpolené vajce."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 3,
+			"ingredients": [
+				{"name": "uvarené a olúpané zemiaky", "quantity": 600, "unit": "g"},
+				{"name": "červená cibuľa", "quantity": 1, "unit": "ks"},
+				{"name": "sterilizovaná kukurica", "quantity": 140, "unit": "g"},
+				{"name": "majonéza", "quantity": 30, "unit": "g"},
+				{"name": "nízkotučný tvaroh", "quantity": 200, "unit": "g"},
+				{"name": "hrubozrnná horčica", "quantity": 1, "unit": "ČL"},
+				{"name": "pažítka", "quantity": 1, "unit": "zväzok"},
+				{"name": "údený losos", "quantity": 150, "unit": "g"},
+				{"name": "uvarené vajíčko", "quantity": 3, "unit": "ks"}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p104.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p104"
+}

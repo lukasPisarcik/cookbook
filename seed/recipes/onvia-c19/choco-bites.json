@@ -1,0 +1,27 @@
+{
+	"title": "Choco bites",
+	"category": "snacky",
+	"prepTimeMinutes": 50,
+	"steps": [
+		"Na panvici na sucho opraž quinou, kým nebude zlatistá a nezačne voňať.",
+		"Potom si priprav plech a papier na pečenie. Vytvor 6 koliesok z quinoy, ktoré rovnomerne polej roztopenou čokoládou s kokosovým olejom a pridaj plátok jahody.",
+		"Nechaj minimálne 30 minút v mrazničke."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 87,
+			"portions": 6,
+			"macros": { "carbs": 9, "protein": 2, "fat": 5 },
+			"ingredients": [
+				{ "name": "quinoa", "quantity": 25, "unit": "g" },
+				{ "name": "horká čokoláda", "quantity": 60, "unit": "g" },
+				{ "name": "kokosový olej", "quantity": 10, "unit": "g" },
+				{ "name": "jahoda", "quantity": 50, "unit": "g" }
+			]
+		}
+	],
+	"image": "onvia/image364.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image364"
+}

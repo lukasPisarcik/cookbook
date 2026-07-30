@@ -1,0 +1,40 @@
+{
+	"title": "Kórejské marinované vajcia",
+	"category": "vecere",
+	"prepTimeMinutes": 135,
+	"steps": [
+		"Vajíčka uvar vo vriacej osolenej vode. (Ak ich veľa osolíš, budú sa dobre šúpať.)",
+		"Potom ich hoď do ľadovej vody a ošúp.",
+		"Na marinádu zmiešaj v miske nadrobno nakrájanú jarnú cibuľku, cesnak a nakrájané baranie rohy. Pridaj vodu, sezamový olej, sójovú omáčku, sezamové semienka a premiešaj.",
+		"Potom do misky pridaj uvarené vajíčka. Misku prikry potravinovou fóliou alebo tanierom. Nechaj marinovať aspoň 2 hodiny. Najlepšie cez noc.",
+		"Uvar si ryžu podľa návodu na obale.",
+		"Pri podávaní vajíčok ich prekroj na polovicu a polož na dusenú ryžu. Celé to zalej niekoľkými lyžicami marinády."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 473,
+			"portions": 3,
+			"macros": {
+				"carbs": 61,
+				"protein": 21,
+				"fat": 14
+			},
+			"ingredients": [
+				{ "name": "vajce", "quantity": 6, "unit": "ks" },
+				{ "name": "cesnak", "quantity": 3, "unit": "strúčik" },
+				{ "name": "jarná cibuľka", "quantity": 1, "unit": "hrsť" },
+				{ "name": "baraní roh", "quantity": 2, "unit": "ks" },
+				{ "name": "sezamové semienka", "quantity": 1, "unit": "PL" },
+				{ "name": "sójová omáčka Tamari", "quantity": 1, "unit": "odmerka" },
+				{ "name": "biely vínny ocot", "quantity": 1, "unit": "odmerka" },
+				{ "name": "voda", "quantity": 2, "unit": "odmerka" },
+				{ "name": "sezamový olej", "quantity": 1, "unit": "PL" },
+				{ "name": "jasmínová ryža", "quantity": 200, "unit": "g" }
+			]
+		}
+	],
+	"image": "onvia/image188.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image188"
+}

@@ -1,0 +1,40 @@
+{
+	"title": "Proteínový Cheesecake s malinami",
+	"category": "dezerty",
+	"prepTimeMinutes": 20,
+	"steps": [
+		"Zmiešame všetky suroviny na základ a vyložíme ním dno formy (najprv ju však potrieme kokosovým olejom).",
+		"Všetky prísady na Cheesecake zmiešame ručným mixérom a vylejeme na základ.",
+		"Cheesecake pečieme 50 minút pri teplote 150 °C ohrev zhora/zdola. Tip: do rúry vlož zapekaciu misku s vodou! Vďaka tomu Cheesecake nepraskne.",
+		"Najlepšie je nechať upečený Cheesecake cez noc vychladiť v chladničke.",
+		"Topping, ktorý zvolíš je na tebe, buď kreatívna!"
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 185,
+			"portions": 6,
+			"macros": {"carbs": 12, "protein": 24, "fat": 5},
+			"ingredients": [
+				{"name": "ovsené vločky", "quantity": 30, "unit": "g"},
+				{"name": "mandľová múka", "quantity": 30, "unit": "g"},
+				{"name": "maslo", "quantity": 20, "unit": "g"},
+				{"name": "mandľové mlieko", "quantity": 50, "unit": "ml"},
+				{"name": "proteínový prášok (vanilka)", "quantity": 30, "unit": "g"},
+				{"name": "prášok do pečiva", "quantity": 3, "unit": "g"},
+				{"name": "soľ", "unit": "štipka"},
+				{"name": "nízkotučný tvaroh bez hrudiek", "quantity": 400, "unit": "g"},
+				{"name": "nízkotučný krémový syr", "quantity": 200, "unit": "g"},
+				{"name": "pudingový prášok (vanilka)", "quantity": 20, "unit": "g"},
+				{"name": "proteínový prášok (vanilka)", "quantity": 40, "unit": "g"},
+				{"name": "citrón", "quantity": 1, "unit": "ks"},
+				{"name": "Unicorn Dust", "quantity": 15, "unit": "g"},
+				{"name": "prášok do pečiva", "quantity": 3, "unit": "g"},
+				{"name": "soľ", "unit": "štipka"}
+			]
+		}
+	],
+	"image": "onvia/image302.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image302"
+}

@@ -1,0 +1,86 @@
+{
+	"title": "Muhamara krémový dip",
+	"category": "zaklady",
+	"prepTimeMinutes": 45,
+	"steps": [
+		"Na plech rozlož očistené polovice papriky, polovice paradajok, cibuľu a postriekaj olivovým olejom, pridaj tymián a vlož do rúry piecť na 180 stupňov približne 30 minút, kým paprika takmer nezhnedne.",
+		"Medzitým, kým sa ti zelenina pečie, na panvici orestuj roztlačený cesnak a paradajkový pretlak. Miešaj, kým zmes nestmavne.",
+		"Z pečených paprík ošúp šupku a všetko hoď do mixéra. K zelenine v mixéry pridaj vlašské orechy, olivový olej, balzamikový ocot, pretlačený cesnak a zmes z panvice.",
+		"Rozmixuj a podávaj v miske alebo na hlbokom tanieri.",
+		"Pokvapkaj olivovým olejom a posyp nasekanou petržlenovou vňaťou, prípadne ďalšími vlašskými orechmi.",
+		"Vychutnaj si s čerstvým chlebom."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 330,
+			"portions": 2,
+			"macros": {
+				"carbs": 41,
+				"protein": 7,
+				"fat": 14
+			},
+			"ingredients": [
+				{
+					"name": "veľká paradajka",
+					"quantity": 4,
+					"unit": "ks"
+				},
+				{
+					"name": "červená paprika",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "cibuľa",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "tymián"
+				},
+				{
+					"name": "vlašské orechy",
+					"quantity": 20,
+					"unit": "g"
+				},
+				{
+					"name": "olivový olej",
+					"quantity": 2,
+					"unit": "PL"
+				},
+				{
+					"name": "balzamikový ocot",
+					"quantity": 2,
+					"unit": "PL"
+				},
+				{
+					"name": "olivový olej",
+					"quantity": 1,
+					"unit": "ČL"
+				},
+				{
+					"name": "cesnak",
+					"quantity": 3,
+					"unit": "strúčik"
+				},
+				{
+					"name": "paradajkový pretlak",
+					"quantity": 2,
+					"unit": "PL"
+				},
+				{
+					"name": "opečený chlieb",
+					"quantity": 4,
+					"unit": "plátok"
+				},
+				{
+					"name": "čerstvé bylinky"
+				}
+			]
+		}
+	],
+	"image": "onvia/image44.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image44"
+}

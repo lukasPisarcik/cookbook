@@ -1,0 +1,36 @@
+{
+	"title": "Extra čokoládový chlebíček",
+	"category": "dezerty",
+	"steps": [
+		"Rúry predhrejte na 170 stupňov.",
+		"V jednej miske zmiešajte suché suroviny – múku, cukor, kakao, kypriaci prášok, sódu, škoricu a soľ.",
+		"V druhej miske vyšľahajte vajíčka s jogurtom, mliekom a olejom. Suché suroviny potom pridajte k mokrým a premiešajte.",
+		"Čokoládu nasekajte nadrobno. ¾ čokolády pridajte do cesta.",
+		"Formu na chlieb vymastite olejom a vysypte múkou, cestom potom presuňte do formy. Vrch posypte zvyšnou čokoládou a dajte piecť na 45 minút.",
+		"Po upečení nechajte hodinu vychladnúť potom opatrne vyklopte.",
+		"K chlebíku pridajte grécky jogurt s 0 % tuku alebo skyr pre doplnenie bielkovín."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 1,
+			"ingredients": [
+				{"name": "hladká múka", "quantity": 200, "unit": "g"},
+				{"name": "holandské kakao", "quantity": 50},
+				{"name": "soľ", "unit": "štipka"},
+				{"name": "mletá škorica", "unit": "štipka"},
+				{"name": "kypriaci prášok", "quantity": 1, "unit": "ČL"},
+				{"name": "jedlá sóda", "quantity": 0.5, "unit": "ČL"},
+				{"name": "trstinový cukor", "quantity": 90, "unit": "g"},
+				{"name": "vajíčko", "quantity": 2, "unit": "ks"},
+				{"name": "grécky jogurt s 0 % tuku", "quantity": 150, "unit": "g"},
+				{"name": "rozpustený kokosový olej", "quantity": 80, "unit": "g"},
+				{"name": "plnotučné mlieko", "quantity": 270, "unit": "g"},
+				{"name": "70 % čokoláda", "quantity": 100, "unit": "g"}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p29.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p29"
+}

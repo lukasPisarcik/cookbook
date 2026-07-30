@@ -1,0 +1,24 @@
+{
+	"title": "Horúca čokoláda",
+	"category": "drinky",
+	"prepTimeMinutes": 5,
+	"steps": [],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 271,
+			"portions": 1,
+			"macros": { "carbs": 46, "protein": 10, "fat": 5 },
+			"ingredients": [
+				{ "name": "puding", "quantity": 1, "unit": "balenie" },
+				{ "name": "mlieko", "quantity": 300, "unit": "ml" },
+				{ "name": "voda", "quantity": 300, "unit": "ml" },
+				{ "name": "bezkalorické sladidlo" },
+				{ "name": "škorica" }
+			]
+		}
+	],
+	"image": "recepty-ig/p4.webp",
+	"source": "Recepty IG.pdf",
+	"sourceRef": "p4"
+}

@@ -1,0 +1,67 @@
+{
+	"title": "Melón-jahoda šalát",
+	"category": "obedy",
+	"prepTimeMinutes": 15,
+	"steps": [
+		"Melón zbav zelenej šupky a nakrájaj na kocky.",
+		"Jahody očisti a nakrájaj na menšie kúsky. Uhorku nakrájaj na polmesiačiky.",
+		"Všetko zmiešaj vo veľkej mise, pokvapkaj olivovým olejom, balzamikovým octom a pridaj koreniny podľa vlastných preferencií.",
+		"Na vrch polož feta alebo balkánsky syr, vlašské orechy a prípadne čerstvú bazalku.",
+		"Premiešaj a vychutnaj si!"
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 391,
+			"portions": 1,
+			"macros": {
+				"carbs": 32,
+				"protein": 15,
+				"fat": 25
+			},
+			"ingredients": [
+				{
+					"name": "červený melón",
+					"quantity": 250,
+					"unit": "g"
+				},
+				{
+					"name": "jahody",
+					"quantity": 50,
+					"unit": "g"
+				},
+				{
+					"name": "uhorka",
+					"quantity": 100,
+					"unit": "g"
+				},
+				{
+					"name": "feta syr",
+					"quantity": 50,
+					"unit": "g"
+				},
+				{
+					"name": "olivový olej",
+					"quantity": 1,
+					"unit": "PL"
+				},
+				{
+					"name": "balzamikový ocot",
+					"quantity": 1,
+					"unit": "PL"
+				},
+				{
+					"name": "vlašské orechy",
+					"quantity": 15,
+					"unit": "g"
+				},
+				{
+					"name": "bazalka"
+				}
+			]
+		}
+	],
+	"image": "onvia/image65.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image65"
+}

@@ -1,0 +1,104 @@
+{
+	"title": "Miska s kuskusom, krevetami a ázijským korením",
+	"category": "obedy",
+	"prepTimeMinutes": 20,
+	"steps": [
+		"Krevety marinujeme vo veľkej mise Umami marinádou z korenín, omáčiek a byliniek.",
+		"Necháme zovrieť 120 ml vody a kuskus zalejeme v miske spolu s bujónom, premiešame a necháme zakrytý odstáť 10 minút.",
+		"Medzitým si krevety spolu so zeleninou sprudka opečieme vo wok panvici.",
+		"Hneď ako je kuskus hotový, pridáme krevetovú zmes, zeleninu a premiešame.",
+		"Misku necháme prikrytú ešte chvíľu odstáť, nech sa chute pekne prepoja, nakoniec pridáme dlaň plnú nasekaných čerstvých byliniek, limetkovú šťavu a podávame."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 605,
+			"portions": 1,
+			"macros": {
+				"carbs": 62,
+				"protein": 48,
+				"fat": 17
+			},
+			"ingredients": [
+				{
+					"name": "kuskus",
+					"quantity": 60,
+					"unit": "g"
+				},
+				{
+					"name": "bujón",
+					"quantity": 0.5,
+					"unit": "ČL"
+				},
+				{
+					"name": "krevety",
+					"quantity": 200,
+					"unit": "g"
+				},
+				{
+					"name": "mrazený zeleninový mix",
+					"quantity": 300,
+					"unit": "g"
+				},
+				{
+					"name": "koriander"
+				},
+				{
+					"name": "pažítka"
+				},
+				{
+					"name": "limetka"
+				},
+				{
+					"name": "sójová omáčka",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				{
+					"name": "teriyaki omáčka",
+					"quantity": 15,
+					"unit": "ml"
+				},
+				{
+					"name": "sezamový olej",
+					"quantity": 5,
+					"unit": "ml"
+				},
+				{
+					"name": "med",
+					"quantity": 1,
+					"unit": "ČL"
+				},
+				{
+					"name": "čili pasta",
+					"quantity": 1,
+					"unit": "ČL"
+				},
+				{
+					"name": "čerstvý cesnak",
+					"quantity": 2,
+					"unit": "strúčik"
+				},
+				{
+					"name": "zázvor",
+					"quantity": 0.5,
+					"unit": "ks"
+				},
+				{
+					"name": "čerstvý koriander"
+				},
+				{
+					"name": "sezamové semiačka",
+					"quantity": 1,
+					"unit": "ČL"
+				},
+				{
+					"name": "šťava a kôra z limetky"
+				}
+			]
+		}
+	],
+	"image": "onvia/image181.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image181"
+}

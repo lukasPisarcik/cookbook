@@ -1,0 +1,76 @@
+{
+	"title": "Proteínový hummus",
+	"category": "zaklady",
+	"prepTimeMinutes": 5,
+	"steps": [
+		"Vlož všetky suroviny do misky a rozmixuj ich mixérom, kým nezískaš hladkú konzistenciu.",
+		"Dochuť natrhaným čerstvým koriandrom, mätou a kvapkou olivového oleja.",
+		"Podávaj ho len tak so zeleninovými tyčinkami, krekrami, natri na wrap, chlieb alebo k akémukoľvek mäsu či falafelu.",
+		"Hummus môžeš skladovať v chladničke až týždeň.",
+		"Množstvo postačuje ako príloha k večeri až pre 6 osôb."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 135,
+			"portions": 6,
+			"macros": {
+				"carbs": 4.2,
+				"protein": 10,
+				"fat": 9.2
+			},
+			"ingredients": [
+				{
+					"name": "cottage syr",
+					"quantity": 400,
+					"unit": "g"
+				},
+				{
+					"name": "tahini",
+					"quantity": 50,
+					"unit": "g"
+				},
+				{
+					"name": "cesnak",
+					"quantity": 2,
+					"unit": "strúčik"
+				},
+				{
+					"name": "šťava z citróna",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "studená voda",
+					"quantity": 50,
+					"unit": "ml"
+				},
+				{
+					"name": "koriander",
+					"unit": "hrsť"
+				},
+				{
+					"name": "mäta"
+				},
+				{
+					"name": "mletá rasca"
+				},
+				{
+					"name": "čierne korenie"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "granulovaná cibuľa"
+				},
+				{
+					"name": "sladká paprika"
+				}
+			]
+		}
+	],
+	"image": "onvia/image34.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image34"
+}

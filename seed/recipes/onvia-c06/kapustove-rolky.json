@@ -1,0 +1,42 @@
+{
+	"title": "Kapustové rolky",
+	"category": "snacky",
+	"prepTimeMinutes": 35,
+	"steps": [
+		"Kapustné listy vhoď do hrnca a zalej horúcou vodou. Nechaj ich chvíľu zmäknúť pod pokrievkou.",
+		"Medzitým na panvici na 1 ČL olivového oleja opeč udené tofu nakrájané na rezance.",
+		"Zeleninu (mrkvu, uhorku, papriku, šalát) tiež nakrájaj na rezance a odlož bokom.",
+		"Posledná vec, ktorú zostáva pripraviť, je dressing. Jogurt zmiešaj so soľou a korením.",
+		"Teraz prichádza na rad balenie. Vezmi 1 kapustný list a do stredu pozdĺžne navrstvi zeleninu, na ňu polož tofu a vrch pokvapkaj dressingom. Potom prelož pravý a ľavý roh dovnútra a začni stáčať odspodu hore, kým nezabalíš celú rolku.",
+		"Rolku môžeš rozdeliť na polovicu a vychutnať si ju so zvyškom dressingu."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 97,
+			"portions": 1,
+			"macros": {
+				"carbs": 5,
+				"protein": 8,
+				"fat": 5
+			},
+			"ingredients": [
+				{ "name": "kapustový list", "quantity": 8, "unit": "ks" },
+				{ "name": "mrkva", "quantity": 1, "unit": "ks" },
+				{ "name": "paprika", "quantity": 1, "unit": "ks" },
+				{ "name": "uhorka", "quantity": 0.5, "unit": "ks" },
+				{ "name": "hlávkový šalát", "quantity": 1, "unit": "hrsť" },
+				{ "name": "údené tofu", "quantity": 1, "unit": "balenie" },
+				{ "name": "olivový olej", "quantity": 1, "unit": "ČL" },
+				{ "name": "biely jogurt do 3 % tuku", "quantity": 2, "unit": "ks" },
+				{ "name": "soľ", "unit": "štipka" },
+				{ "name": "sladká paprika" },
+				{ "name": "čierne korenie" },
+				{ "name": "sušený cesnak" }
+			]
+		}
+	],
+	"image": "onvia/image134.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image134"
+}

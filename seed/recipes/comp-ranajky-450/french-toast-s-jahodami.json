@@ -1,0 +1,33 @@
+{
+	"title": "French toast s jahodami",
+	"category": "ranajky",
+	"prepTimeMinutes": 15,
+	"steps": [
+		"V hlbšom tanieri si rozmiešaj vajíčko, mlieko a škoricu.",
+		"Chlieb si obalíš v zmesi.",
+		"Panvicu pokvapkáš olejom a rozohreješ ju.",
+		"Toasty opečieš z obidvoch strán, ak ti zostane trochu zmesi, nalej ju na toasty na panvici.",
+		"Servíruj opečené toasty na tanieri, na vrch / vedľa si daj tvaroh s jahodami a čakankovým sirupom."
+	],
+	"funFact": "French toast nepochádza z Francúzka, ale zo starovekého Ríma. Tradične sa pripravoval zo staršieho chleba, ktorý by už inak nebol jedlý. Hoci ho väčšina ľudí pozná v sladkej verzii s ovocím a sirupom, existujú aj slané varianty s vajíčkami, syrom či slaninou.",
+	"variants": [
+		{
+			"label": "450 kcal",
+			"kcalPerPortion": 416,
+			"portions": 1,
+			"macros": {"carbs": 34, "protein": 26, "fat": 17},
+			"ingredients": [
+				{"name": "toastový celozrnný chlieb", "quantity": 50, "unit": "g"},
+				{"name": "vajíčko", "quantity": 1, "unit": "ks"},
+				{"name": "olivový olej", "quantity": 4, "unit": "ml"},
+				{"name": "škorica", "unit": "štipka"},
+				{"name": "mlieko", "quantity": 25, "unit": "ml"},
+				{"name": "jahody", "quantity": 80, "unit": "g"},
+				{"name": "čakankový sirup", "quantity": 15, "unit": "g"},
+				{"name": "polotučný tvaroh", "quantity": 125, "unit": "g"}
+			]
+		}
+	],
+	"source": "Raňajky - 450 kcal.pdf",
+	"sourceRef": "p17"
+}

@@ -1,0 +1,28 @@
+{
+	"title": "Banánové Sushi s proteínovým wrapom",
+	"category": "snacky",
+	"prepTimeMinutes": 5,
+	"steps": [
+		"Zmiešaj v miske smotanový syr so sladidlom a rovnomerne ho natri na celý povrch wrapu. Rozotri len cca 80g smotanového syra a zvyšok nechaj na polevu.",
+		"Polož banán na wrap a zroluj ho.",
+		"Na vrch banánovej rolky natri zvyšok smotanového syra a ozdob toppingom, napr. kokosom a lyofilizovanými malinami.",
+		"Wrap s banánom nakrájaj na hrubšie kolieska v tvare sushi."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 406,
+			"portions": 1,
+			"macros": {"carbs": 46, "protein": 21, "fat": 16},
+			"ingredients": [
+				{"name": "proteinový wrap", "quantity": 1, "unit": "ks"},
+				{"name": "banán", "quantity": 1, "unit": "ks"},
+				{"name": "smotanový syr light", "quantity": 100, "unit": "g"},
+				{"name": "sladidlo", "quantity": 1.5, "unit": "g"}
+			]
+		}
+	],
+	"image": "onvia/image333.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image333"
+}

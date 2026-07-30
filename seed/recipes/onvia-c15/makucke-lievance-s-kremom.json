@@ -1,0 +1,40 @@
+{
+	"title": "Mäkučké lievance s krémom",
+	"category": "ranajky",
+	"prepTimeMinutes": 10,
+	"steps": [
+		"Všetký suché suroviny zmiešame v miske s mliekom, pokým nevznikne homogénne husté cesto.",
+		"Oddelíme bielko a žĺtko. Žĺtko vmiešame do cesta.",
+		"Bielko si vyšľaháme na sneh a primiešame do cesta.",
+		"Rozohriatu panvicu vymastíme kokosovým olejom a pri nízkej teplote vlievame cesto a vytvárame lievance. Panvicu prikryjeme pokrievkou a každý lievanec opekáme 2-3 minúty z každej strany v závislosti od toho akú máme panvicu. Pripravené cesto vystačí podľa veľkosti na 3 väčšie/8 menších lievancov.",
+		"Na krém si pripravíme všetky suroviny, ktoré zmixujeme pokým nám nezvnikne požadovaná krémová konzistencia."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 595,
+			"portions": 1,
+			"macros": {"carbs": 21, "protein": 71, "fat": 19},
+			"ingredients": [
+				{"name": "vajce", "quantity": 1, "unit": "ks"},
+				{"name": "kypriaci prášok do pečiva", "quantity": 3, "unit": "g"},
+				{"name": "mandľové mlieko (nesladené)", "quantity": 250, "unit": "ml"},
+				{"name": "proteínový prášok", "quantity": 30, "unit": "g"},
+				{"name": "mandľová múka", "quantity": 30, "unit": "g"},
+				{"name": "psyllium", "quantity": 5, "unit": "g"},
+				{"name": "Unicorn Dust", "quantity": 3, "unit": "g"},
+				{"name": "kokosový olej", "quantity": 5, "unit": "g"},
+				{"name": "krémový syr light", "quantity": 75, "unit": "g"},
+				{"name": "proteínový prášok (vanilka, krém)", "quantity": 15, "unit": "g"},
+				{"name": "jahody (čerstvé alebo mrazené)", "quantity": 150, "unit": "g"},
+				{"name": "Unicorn Dust (krém)", "quantity": 3, "unit": "g"},
+				{"name": "soľ", "unit": "štipka"},
+				{"name": "škorica", "unit": "štipka"},
+				{"name": "citrónová kôra"}
+			]
+		}
+	],
+	"image": "onvia/image291.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image291"
+}

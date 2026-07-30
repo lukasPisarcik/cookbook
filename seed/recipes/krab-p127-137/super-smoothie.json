@@ -1,0 +1,24 @@
+{
+	"title": "Super smoothie",
+	"category": "smoothies",
+	"steps": [
+		"Špenát omyjte a všechny ingredience dejte do mixéru a rozmixujte dohladka."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 1,
+			"ingredients": [
+				{"name": "mražené maliny", "quantity": 80, "unit": "g"},
+				{"name": "mražené borůvky", "quantity": 40, "unit": "g"},
+				{"name": "sušené datle", "quantity": 2, "unit": "ks"},
+				{"name": "čerstvý špenát", "unit": "hrst"},
+				{"name": "rostlinné mléko", "quantity": 250, "unit": "g"},
+				{"name": "protein", "quantity": 1, "unit": "odměrka"}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p135.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p135"
+}

@@ -1,0 +1,30 @@
+{
+	"title": "Ricottové lievance s citrónovou kôrou",
+	"category": "ranajky",
+	"steps": [
+		"Všetky suroviny okrem bielkov dajte do mixéra a rozmixujte do hladkého cesta a nakoniec vmiešajte sneh z bielkov.",
+		"Lievancovú panvicu vymastite trochou oleja a z obidvoch strán pečte lievanca.",
+		"Podávajte s medom, ovocím a jogurtom."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"ingredients": [
+				{"name": "ricotta", "quantity": 250, "unit": "g"},
+				{"name": "hladká pšeničná múka", "quantity": 175, "unit": "g"},
+				{"name": "plnotučné mlieko", "quantity": 185, "unit": "g"},
+				{"name": "žĺtok", "quantity": 2, "unit": "ks"},
+				{"name": "bielok", "quantity": 2, "unit": "ks"},
+				{"name": "kryštálový cukor", "quantity": 40, "unit": "g"},
+				{"name": "kypriaci prášok", "quantity": 1, "unit": "ČL"},
+				{"name": "jedlá sóda", "quantity": 1, "unit": "ČL"},
+				{"name": "soľ", "unit": "štipka"},
+				{"name": "najemno nastrúhaná kôra z citróna", "quantity": 1, "unit": "ks"},
+				{"name": "olej na vymastenie panvice"}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p31.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p31"
+}

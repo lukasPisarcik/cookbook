@@ -1,0 +1,42 @@
+{
+	"title": "Čokoládový krém",
+	"category": "dezerty",
+	"steps": [
+		"Banán rozmixujte spolu s kakaom a jogurtom do krému.",
+		"Krém dajte do krabičiek a ozdobte kúskami sušených malín a nasekanými kúskami čokolády."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 2,
+			"ingredients": [
+				{
+					"name": "banán",
+					"quantity": 200,
+					"unit": "g"
+				},
+				{
+					"name": "holandské kakao",
+					"quantity": 20,
+					"unit": "g"
+				},
+				{
+					"name": "grécky jogurt s 5 % tuku",
+					"quantity": 300,
+					"unit": "g"
+				},
+				{
+					"name": "sušené maliny"
+				},
+				{
+					"name": "čokoláda",
+					"quantity": 2,
+					"unit": "ks"
+				}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p63.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p63"
+}

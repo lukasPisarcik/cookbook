@@ -1,0 +1,40 @@
+{
+	"title": "Thajské kari",
+	"category": "obedy",
+	"dietTags": ["bezlaktozove", "bezlepkove"],
+	"prepTimeMinutes": 35,
+	"steps": [
+		"Ryžu uvar podľa návodu a osoľ.",
+		"V hlbšom hrnci rozohrej olej, pridaj nadrobno nakrájanú cibuľu a nasekaný cesnak.",
+		"Smaž do zlatista, potom pridaj na pásiky nakrájanú papriku a smaž, kým nezmäkne (cca 5 minút).",
+		"Pridaj kari pastu a následne morčacie mäso nakrájané na kocky.",
+		"Var, kým mäso nezmäkne.",
+		"Nakoniec prilej kokosové mlieko, premiešaj a var na miernom ohni približne 15 minút.",
+		"Podávaj s ryžou a ozdob koriandrom.",
+		"Dobrú chuť."
+	],
+	"funFact": "Niektoré ingrediencie v ari paste majú antibakteriálne a protizápalové účinky, napr. Kurkuma, či čili.",
+	"variants": [
+		{
+			"label": "400 kcal",
+			"kcalPerPortion": 391,
+			"portions": 5,
+			"macros": { "carbs": 38, "protein": 24, "fat": 15 },
+			"ingredients": [
+				{ "name": "jazmínová ryža", "quantity": 200, "unit": "g" },
+				{ "name": "cibuľa", "quantity": 100, "unit": "g" },
+				{ "name": "olivový olej", "quantity": 8, "unit": "ml" },
+				{ "name": "zelená paprika", "quantity": 100, "unit": "g" },
+				{ "name": "červená paprika", "quantity": 100, "unit": "g" },
+				{ "name": "cesnak", "quantity": 2, "unit": "ks" },
+				{ "name": "kokosové mlieko light z konzervy", "quantity": 400, "unit": "ml" },
+				{ "name": "červená kari pasta", "quantity": 60, "unit": "g" },
+				{ "name": "morčacie prsia", "quantity": 400, "unit": "g" },
+				{ "name": "čerstvý koriander" }
+			]
+		}
+	],
+	"image": "thajske-kari-400-kcal/p1.webp",
+	"source": "Thajské kari - 400 kcal.pdf",
+	"sourceRef": "p1"
+}

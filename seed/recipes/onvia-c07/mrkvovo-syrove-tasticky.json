@@ -1,0 +1,78 @@
+{
+	"title": "Mrkvovo-syrové taštičky",
+	"category": "obedy",
+	"prepTimeMinutes": 30,
+	"steps": [
+		"Nastrúhaj eidam a mrkvu nahrubo.",
+		"Následne ich zmiešaj s vajcom a korením.",
+		"Na panvici rozpusti olej a zo zmesi vytvaruj malé placky. Smaž ich z oboch strán.",
+		"Hotové tacos naplň šunkou a čerstvým šalátom.",
+		"Namáčaj ich do kečupu a kyslej smotany."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 413,
+			"portions": 2,
+			"macros": {
+				"carbs": 22,
+				"protein": 31,
+				"fat": 23
+			},
+			"ingredients": [
+				{
+					"name": "vajce",
+					"quantity": 1
+				},
+				{
+					"name": "eidam 30%",
+					"quantity": 100,
+					"unit": "g"
+				},
+				{
+					"name": "mrkva",
+					"quantity": 130,
+					"unit": "g"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "korenie"
+				},
+				{
+					"name": "oregano"
+				},
+				{
+					"name": "avokádový olej",
+					"quantity": 10,
+					"unit": "g"
+				},
+				{
+					"name": "morčacia šunka",
+					"quantity": 100,
+					"unit": "g"
+				},
+				{
+					"name": "hlávkový šalát"
+				},
+				{
+					"name": "paradajka"
+				},
+				{
+					"name": "kyslá smotana 8 %",
+					"quantity": 150,
+					"unit": "g"
+				},
+				{
+					"name": "kečup",
+					"quantity": 5,
+					"unit": "PL"
+				}
+			]
+		}
+	],
+	"image": "onvia/image146.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image146"
+}

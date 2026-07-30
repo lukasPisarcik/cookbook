@@ -1,0 +1,35 @@
+{
+	"title": "Scrambled oats",
+	"category": "ranajky",
+	"prepTimeMinutes": 10,
+	"steps": [
+		"V miske zmiešaj jemné alebo minutové vločiky so štipkou škorice a vanilkový proteinovým práškom.",
+		"Pridaj 1 vajce, 1 lyžičku medu (alebo 1/2 rozmačkaného banánu) a 30 ml mlieka. Všetko dobre premiešaj, aby sa ingrediencie spojili.",
+		"Na panvicu nastriekaj štipku kokosového oleja a zohrievaj na strednej teplote.",
+		"Zmes z misky vylej na panvicu a restuj na miernom ohni, stále miešaj, asi 3-5 minút. Zmes by mala byť opečená, ale zvnútra stále vláčna.",
+		"Keď sú vločky hotové, naservíruj ich na tanier a pridaj hrozno a grécký jogurt 0%.",
+		"A hotovo! Môžeš si užívať zdravé a chutné raňajky."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 460,
+			"portions": 1,
+			"macros": {"carbs": 45, "protein": 37, "fat": 15},
+			"ingredients": [
+				{"name": "jemné vločky", "quantity": 30, "unit": "g"},
+				{"name": "škorica", "unit": "štipka"},
+				{"name": "vanilkový proteínový prášok", "quantity": 15, "unit": "g"},
+				{"name": "vajce", "quantity": 1, "unit": "ks"},
+				{"name": "med", "quantity": 1, "unit": "ČL"},
+				{"name": "mlieko", "quantity": 30, "unit": "ml"},
+				{"name": "kokosový olej v spreji", "quantity": 5, "unit": "g"},
+				{"name": "hrozno", "quantity": 30, "unit": "g"},
+				{"name": "grécky jogurt 0%", "quantity": 140, "unit": "g"}
+			]
+		}
+	],
+	"image": "onvia/image319.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image319"
+}

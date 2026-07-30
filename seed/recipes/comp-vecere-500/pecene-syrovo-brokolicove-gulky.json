@@ -1,0 +1,81 @@
+{
+	"title": "Pečené syrovo-brokolicové guľky",
+	"category": "vecere",
+	"dietTags": [
+		"bezlepkove"
+	],
+	"prepTimeMinutes": 50,
+	"steps": [
+		"Brokolicu pokrájaš na ružičky (stonku odložíš na iný recept), ktoré nasypeš do vriacej vody a povaríš pokým kúsky brokolice nebudú mäkké.",
+		"Potom brokolicu zleješ a dáš do misky, kde ju pomocou vidličky popučíš na menšie kúsky alebo ju môžeš nasekať na doske.",
+		"K brokolici pridáš strúhaný syr, ovsené vločky, pretlačený cesnak (väčší strúčik alebo dva menšie), celé vajíčka, soľ a čierne korenie.",
+		"Zo surovín vymiešaš celistvé cesto.",
+		"Z brokolicovo-syrového cesta tvaruješ v dlaniach malé guľky , ktoré poukladáš na plech vystlaný papierom na pečenie.",
+		"Brokolicové guľky zľahka potrieš olejom a dáš piecť do rúry vyhriatej na 190°C na zhruba 20 až 25 minút.",
+		"Podávaš s dresingom vytvoreným zmiešaním jogurtu, soľou, korením a cesnakom.",
+		"Dobrú chuť!"
+	],
+	"funFact": "Brokolica obsahuje viac vitamínu C ako pomaranč. Je to vzdialená sesternica kapusty a karfiolu. Všetky patria do rovnakej rodiny (Brassicaceae), takže keď ju ješ, je to ako keby si jedla zeleninových príbuzných. ;) :D",
+	"variants": [
+		{
+			"label": "500 kcal",
+			"kcalPerPortion": 517,
+			"portions": 2,
+			"macros": {
+				"carbs": 41,
+				"protein": 31,
+				"fat": 25
+			},
+			"ingredients": [
+				{
+					"name": "olivový olej",
+					"quantity": 5,
+					"unit": "g"
+				},
+				{
+					"name": "cibuľa",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "cesnak",
+					"quantity": 1,
+					"unit": "strúčik"
+				},
+				{
+					"name": "brokolica",
+					"quantity": 250,
+					"unit": "g"
+				},
+				{
+					"name": "jemné ovsené vločky",
+					"quantity": 80,
+					"unit": "g"
+				},
+				{
+					"name": "strúhaná mozzarella",
+					"quantity": 100,
+					"unit": "g"
+				},
+				{
+					"name": "vajíčko",
+					"quantity": 2,
+					"unit": "ks"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "čierne korenie"
+				},
+				{
+					"name": "biely jogurt",
+					"quantity": 35,
+					"unit": "g"
+				}
+			]
+		}
+	],
+	"source": "Večere - 500 kcal.pdf",
+	"sourceRef": "p16"
+}

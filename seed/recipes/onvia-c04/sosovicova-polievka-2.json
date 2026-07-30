@@ -1,0 +1,45 @@
+{
+	"title": "Šošovicová polievka",
+	"category": "obedy",
+	"prepTimeMinutes": 50,
+	"steps": [
+		"Na olivovom oleji orestuj nadrobno nakrájanú cibuľu, mrkvu a petržlen.",
+		"Zalej vývarom alebo vodou, pridaj korenie a paradajkové pyré alebo krájané paradajky.",
+		"Pridaj vopred namočenú a prepláchnutú šošovicu, prikry pokrievkou a var na miernom ohni, kým úplne nezmäkne.",
+		"Dochuť soľou a korením, prípadne pridaj majoránku alebo bobkový list.",
+		"Podávaj horúcu s celozrnným pečivom."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 453,
+			"portions": 2,
+			"macros": {
+				"carbs": 70,
+				"protein": 21,
+				"fat": 5
+			},
+			"ingredients": [
+				{ "name": "šošovica", "quantity": 100, "unit": "g" },
+				{ "name": "olivový olej", "quantity": 10, "unit": "g" },
+				{ "name": "mrkva", "quantity": 150, "unit": "g" },
+				{ "name": "zeleninový vývar", "quantity": 300, "unit": "ml" },
+				{ "name": "koreňový petržlen", "quantity": 150, "unit": "g" },
+				{ "name": "cibuľa", "quantity": 1, "unit": "ks" },
+				{ "name": "paradajkové pyré", "quantity": 200, "unit": "g" },
+				{ "name": "soľ" },
+				{ "name": "koriander" },
+				{ "name": "kari" },
+				{ "name": "chili" },
+				{ "name": "bazalka" },
+				{ "name": "cesnak" },
+				{ "name": "muškátový oriešok" },
+				{ "name": "škorica" },
+				{ "name": "toastový chlieb", "quantity": 2, "unit": "ks" }
+			]
+		}
+	],
+	"image": "onvia/image83.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image83"
+}

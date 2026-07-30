@@ -1,0 +1,41 @@
+{
+	"title": "Tofu miešané vajíčka",
+	"category": "ranajky",
+	"dietTags": ["vegan"],
+	"prepTimeMinutes": 15,
+	"steps": [
+		"Vymiešaj lahôdkové droždie s mliekom, tak aby nezostali žiadne hrudky.",
+		"Rozmačkaj tofu pridaj k vytvorenej zmesi a pridaj ostatné korenie.",
+		"Na rozohriatu panvicu daj olej.",
+		"Šalotku nakrájaj na menšie kúsky a krátko orestuj na panvici.",
+		"Pridaj zmes na panvicu.",
+		"Miešaj, kým dosiahnu požadovanú konzistenciu ako miešané vajíčka.",
+		"Môžeš podávať s chlebíkom a zeleninou a poprípade ozdobiť čerstvými bylinkami podľa chuti.",
+		"Dobrú chuť :)"
+	],
+	"funFact": "TOFU sa používa aj na prípravu vegánskych dezertov ako napríklad cheesecake a v Ázii sa z neho vyrábajú aj pleťové masky a krémy.",
+	"variants": [
+		{
+			"label": "300 kcal",
+			"kcalPerPortion": 326,
+			"portions": 1,
+			"macros": { "carbs": 12, "protein": 26, "fat": 19 },
+			"ingredients": [
+				{ "name": "tofu", "quantity": 160, "unit": "g" },
+				{ "name": "šalotka", "quantity": 1, "unit": "ks" },
+				{ "name": "olivový olej", "quantity": 5, "unit": "g" },
+				{ "name": "soľ", "unit": "štipka" },
+				{ "name": "čierne korenie", "unit": "štipka" },
+				{ "name": "sušený cesnak", "unit": "štipka" },
+				{ "name": "ovsené mlieko", "quantity": 50, "unit": "ml" },
+				{ "name": "lahôdkové droždie", "quantity": 5, "unit": "g" },
+				{ "name": "kurkuma", "unit": "štipka" },
+				{ "name": "červená paprika", "unit": "štipka" },
+				{ "name": "kváskový chlebík", "quantity": 20, "unit": "g" }
+			]
+		}
+	],
+	"image": "ranajky-300-kcal/p19.webp",
+	"source": "Raňajky - 300 kcal.pdf",
+	"sourceRef": "p19"
+}

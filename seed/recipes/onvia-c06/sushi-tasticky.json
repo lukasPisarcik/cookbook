@@ -1,0 +1,37 @@
+{
+	"title": "Sushi taštičky",
+	"category": "vecere",
+	"prepTimeMinutes": 35,
+	"steps": [
+		"Najskôr omoč z oboch strán ryžový papier v hlbokom tanieri s teplou vodou (nie horúcou). Neboj sa, ak je po namočení stále tuhý, zmäkne.",
+		"Potom ho polož na morské riasy a rozrež ho do polovice. (viď. foto)",
+		"Umiestni suroviny tak, ako je to vidieť na obrázku, a tašku trikrát prelož, ako je to vidieť na videu.",
+		"Vzniknutú tašku rozrež do kríža na polovicu, aby ti vznikli 2 trojuholníky, namoč do sójovej omáčky, posyp sezamovými semienkami, ochuť Srirachou a zamiluješ sa!"
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 135,
+			"portions": 4,
+			"macros": {
+				"carbs": 15,
+				"protein": 11,
+				"fat": 3
+			},
+			"ingredients": [
+				{ "name": "morské riasy", "quantity": 4, "unit": "list" },
+				{ "name": "ryžový papier", "quantity": 4, "unit": "list" },
+				{ "name": "uhorka", "quantity": 0.5 },
+				{ "name": "avokádo", "quantity": 1, "unit": "ks" },
+				{ "name": "údený losos", "quantity": 160, "unit": "g" },
+				{ "name": "sushi ryža", "quantity": 60, "unit": "g" },
+				{ "name": "sójová omáčka" },
+				{ "name": "sezamové semienka" },
+				{ "name": "sriracha" }
+			]
+		}
+	],
+	"image": "onvia/image119.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image119"
+}

@@ -1,0 +1,76 @@
+{
+	"title": "Marocký šalát s quinoou",
+	"category": "obedy",
+	"prepTimeMinutes": 30,
+	"steps": [
+		"Najprv uvar quinou podľa návodu.",
+		"Medzitým ošúp mrkvu a pomocou škrabky z nej vytvor pásiky/plátky.",
+		"Potom si priprav zálievku. Zmiešaj olivový olej, citrónovú šťavu, med, soľ, škoricu a koriander a premiešaj. Prihoď goji a nechaj nasiaknuť.",
+		"Posledným bodom je nasekanie orechov a čerstvých byliniek.",
+		"Teraz už stačí len premiešať a vychutnať si.",
+		"Ak chceš z tohto šalátu urobiť jedlo, ktoré má viac bielkovín, môžeš do šalátu pridať restované kuracie mäso alebo udené tofu nakrájané na kocky."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 534,
+			"portions": 2,
+			"macros": {
+				"carbs": 75,
+				"protein": 5,
+				"fat": 20
+			},
+			"ingredients": [
+				{
+					"name": "quinoa",
+					"quantity": 150,
+					"unit": "g"
+				},
+				{
+					"name": "mrkva",
+					"quantity": 3,
+					"unit": "ks"
+				},
+				{
+					"name": "lieskové orechy",
+					"quantity": 20,
+					"unit": "g"
+				},
+				{
+					"name": "goji",
+					"quantity": 20
+				},
+				{
+					"name": "med",
+					"quantity": 20,
+					"unit": "g"
+				},
+				{
+					"name": "olivový olej",
+					"quantity": 20,
+					"unit": "g"
+				},
+				{
+					"name": "citrónová šťava",
+					"quantity": 20,
+					"unit": "g"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "škorica"
+				},
+				{
+					"name": "koriander"
+				},
+				{
+					"name": "čerstvá petržlenová vňať"
+				}
+			]
+		}
+	],
+	"image": "onvia/image62.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image62"
+}

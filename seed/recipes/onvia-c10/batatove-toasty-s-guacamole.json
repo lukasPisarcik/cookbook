@@ -1,0 +1,36 @@
+{
+	"title": "Batátové toasty s guacamole",
+	"category": "ranajky",
+	"prepTimeMinutes": 10,
+	"steps": [
+		"Predhrej rúru na 185°C ohrev zhora/zdola.",
+		"Sladký zemiak nakrájaj na plátky, rozlož ich na plech vystlaný papierom na pečenie, pokvapkaj trochou olivového oleja a posyp štipkou soli.",
+		"Peč v rúre, kým nie sú plátky mäkké.",
+		"Medzitým si priprav quacamole. V miske roztlač avokádo s korením, soľou, nasekanou jarnou cibuľkou, koriandrom, roztlačeným cesnakom a limetkovou šťavou.",
+		"Keď sú sladké zemiaky upečené, naservíruj na ne quacamole, cherry paradajky a posyp feta syrom."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 410,
+			"portions": 1,
+			"macros": {"carbs": 49, "protein": 12, "fat": 19},
+			"ingredients": [
+				{"name": "veľký sladký zemiak", "quantity": 1, "unit": "ks"},
+				{"name": "olivový olej", "quantity": 1, "unit": "ČL"},
+				{"name": "soľ", "unit": "štipka"},
+				{"name": "avokádo", "quantity": 0.5, "unit": "ks"},
+				{"name": "cherry paradajky", "quantity": 1, "unit": "hrsť"},
+				{"name": "jarná cibuľka"},
+				{"name": "cesnak", "quantity": 0.33, "unit": "strúčik"},
+				{"name": "šťava z limetky", "quantity": 0.5, "unit": "ks"},
+				{"name": "čerstvý koriander", "quantity": 1, "unit": "hrsť"},
+				{"name": "korenie", "unit": "štipka"},
+				{"name": "feta syr", "quantity": 30, "unit": "g"}
+			]
+		}
+	],
+	"image": "onvia/image214.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image214"
+}

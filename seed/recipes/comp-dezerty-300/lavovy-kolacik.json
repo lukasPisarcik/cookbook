@@ -1,0 +1,39 @@
+{
+	"title": "Lávový koláčik",
+	"category": "dezerty",
+	"prepTimeMinutes": 15,
+	"steps": [
+		"Čokoládu roztopíš s 50 ml mlieka v mikrovlnke a vymiešaš až do rozpustenia čokolády.",
+		"Následne pridaj vajíčko a jablkovú výživu.",
+		"V ďalšej miske zmiešaj múku, kakao, proteín, prášok do pečiva a stéviu/čakankový sirup.",
+		"Následne vmiešaš do misky všetko ostatné (čokoládovú zmes a zvyšok mlieka).",
+		"Cesto by malo byť polotekutej konzistencie (ak sa ti zdá husté prilej ešte trochu mlieka)",
+		"Budeš potrebovať dve menšie zapekacie misky, ktoré si vymastíš kokosovým olejom a vysypeme kakaom, aby sa nám koláčik dal pekne vyklopiť.",
+		"Cesto vylieš do misiek a pečieš pri teplote 180°C 12 minút (stred musí zostať tekutý).",
+		"Po upečení vyklop z misiek a podávaj s jahodami.."
+	],
+	"funFact": "Lávový koláčik bol takzvane neplánovaný dezert. Francúzsky šéfkuchár náhodou vytiahol čokoládový koláč z rúry príliš skoro. A presne tak vznikol dezert, ktorý si všetci zamilovali.",
+	"variants": [
+		{
+			"label": "300 kcal",
+			"kcalPerPortion": 293,
+			"portions": 2,
+			"macros": { "carbs": 21, "protein": 20, "fat": 13 },
+			"ingredients": [
+				{ "name": "čokoláda 70%", "quantity": 30, "unit": "g" },
+				{ "name": "proteín", "quantity": 25, "unit": "g" },
+				{ "name": "jablková výživa bez pridaného cukru", "quantity": 20, "unit": "g" },
+				{ "name": "kakao", "quantity": 20, "unit": "g" },
+				{ "name": "mlieko", "quantity": 100, "unit": "ml" },
+				{ "name": "kypriaci prášok", "quantity": 1, "unit": "ČL" },
+				{ "name": "kokosový olej", "quantity": 2, "unit": "g" },
+				{ "name": "špaldová múka", "quantity": 20, "unit": "g" },
+				{ "name": "vajíčko", "quantity": 1, "unit": "ks" },
+				{ "name": "stévia" },
+				{ "name": "ovocie", "quantity": 50, "unit": "g" }
+			]
+		}
+	],
+	"source": "Dezerty-300kcal.pdf",
+	"sourceRef": "p12"
+}

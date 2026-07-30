@@ -1,0 +1,57 @@
+{
+	"title": "Tortillky s hummusom",
+	"category": "snacky",
+	"dietTags": ["vegan", "bezlepkove", "bezlaktozove"],
+	"prepTimeMinutes": 10,
+	"steps": [
+		"Tortilu rozrež alebo rozstrihaj na menšie kúsky/trojuholníky",
+		"Rozlož na pečiaci papier, postriekaj olejom v spreji, prípadne potri olejom a osoľ/okoreň.",
+		"Daj piect na 180 stupňov cca 10 minút, dozlatista.",
+		"Zeleninu nakráj na tyčinky a podávaj s hummusom a tortillami.",
+		"Vyjdú 2 porcie, takže 1 porcia je polovičné množstvo všetkého uvedeného."
+	],
+	"variants": [
+		{
+			"label": "300 kcal",
+			"kcalPerPortion": 328,
+			"portions": 2,
+			"macros": {
+				"carbs": 24,
+				"protein": 7,
+				"fat": 22
+			},
+			"ingredients": [
+				{
+					"name": "celozrnná tortilla",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "hummus",
+					"quantity": 160,
+					"unit": "g"
+				},
+				{
+					"name": "uhorka"
+				},
+				{
+					"name": "červená paprika"
+				},
+				{
+					"name": "olivový olej",
+					"quantity": 5,
+					"unit": "g"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "čierne korenie"
+				}
+			]
+		}
+	],
+	"image": "snacky-300-kcal/p5.webp",
+	"source": "Snacky - 300 kcal.pdf",
+	"sourceRef": "p5"
+}

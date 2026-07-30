@@ -1,0 +1,33 @@
+{
+	"title": "Piña Colada smoothie",
+	"category": "smoothies",
+	"dietTags": ["vegan", "bezlepkove", "bezlaktozove"],
+	"prepTimeMinutes": 5,
+	"steps": [
+		"Zmixuj všetky ingrediencie do hladka.",
+		"Môžeš podávať s ľadom a vychutnať si tropickú chuť smoothie."
+	],
+	"funFact": "Každý kúsok kokosovej palmy, na ktorej rastú kokosy, sa dá využiť . Všetko od vody vo vnútri orecha, cez škrupinu ktorá sa používa napr. na výrobu misiek až po listy, ktoré sa používajú na výrobu striech či košíkov!",
+	"variants": [
+		{
+			"label": "200 kcal",
+			"kcalPerPortion": 209,
+			"portions": 1,
+			"macros": {
+				"carbs": 41,
+				"protein": 2,
+				"fat": 2
+			},
+			"ingredients": [
+				{"name": "banán", "quantity": 90, "unit": "g"},
+				{"name": "kokosový rastlinný nápoj", "quantity": 200, "unit": "ml"},
+				{"name": "mrazený ananás", "quantity": 200, "unit": "g"},
+				{"name": "limetka"},
+				{"name": "ľad"}
+			]
+		}
+	],
+	"image": "smoothie-200-kcal/p10.webp",
+	"source": "Smoothie - 200 kcal.pdf",
+	"sourceRef": "p10"
+}

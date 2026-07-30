@@ -1,0 +1,35 @@
+{
+	"title": "Čučoriedková kaša s mandľami a banánom",
+	"category": "ranajky",
+	"prepTimeMinutes": 5,
+	"steps": [
+		"Najprv daj čučoriedky a polovicu vody do hrnca. Nechaj chvíľu variť a potom ich roztlač vidličkou alebo rozmixuj tyčovým mixérom.",
+		"Potom pridaj minútkové vločky, dolej zvyškom vody a nechaj na miernom ohni prebublávať.",
+		"Keď získaš kašovitú konzistenciu, stiahni z ohňa a vmiešaj proteín.",
+		"Kašu rozdeľ do 2 misiek, pridaj nakrájaný banán, plátky mandlí, jogurt a obyčajné alebo práškové arašidové maslo. Ak sa rozhodneš pre práškové arašidové maslo, nezabudni ho vymiešať s trochou vody.",
+		"Vychutnaj si!"
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 461,
+			"portions": 2,
+			"macros": {"carbs": 55, "protein": 40, "fat": 8},
+			"ingredients": [
+				{"name": "jemné ovsené vločky", "quantity": 80, "unit": "g"},
+				{"name": "vanilkový proteín", "quantity": 2, "unit": "odmerka"},
+				{"name": "voda", "quantity": 250, "unit": "ml"},
+				{"name": "čučoriedky", "quantity": 100, "unit": "g"},
+				{"name": "Unicorn Dust", "quantity": 3, "unit": "g"},
+				{"name": "banán", "quantity": 1, "unit": "ks"},
+				{"name": "arašidové maslo v prášku", "quantity": 20, "unit": "g"},
+				{"name": "voda", "quantity": 1, "unit": "PL"},
+				{"name": "grécky jogurt 0%", "quantity": 1, "unit": "ks"},
+				{"name": "mandľové plátky", "quantity": 5, "unit": "g"}
+			]
+		}
+	],
+	"image": "onvia/image312.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image312"
+}

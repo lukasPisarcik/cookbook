@@ -1,0 +1,33 @@
+{
+	"title": "Pečené hrušky s vanilkovým tvarohom",
+	"category": "dezerty",
+	"prepTimeMinutes": 15,
+	"steps": [
+		"Rúru predhrej na 175°C.",
+		"Rozpolenú hrušku vlož do pekáča vnútornou stranou nahor.",
+		"Hrušku polej rozpusteným maslom, posyp škoricou a sušeným zázvorom a podlej trochou vody.",
+		"Vlož do rúry približne na 40 minút.",
+		"Po upečení vydlab nejedlý stred hrušky a pridaj tvaroh zmiešaný s vanilkovým sladidlom Unicorn dust.",
+		"Vychutnaj si túto dokonalosť ešte teplú!"
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 270,
+			"portions": 2,
+			"macros": {"carbs": 30, "protein": 15, "fat": 11},
+			"ingredients": [
+				{"name": "hruška", "quantity": 300, "unit": "g"},
+				{"name": "Unicorn Dust", "quantity": 3, "unit": "g"},
+				{"name": "nízkotučný tvaroh (krémový)", "quantity": 1, "unit": "ks"},
+				{"name": "vlašské orechy", "quantity": 10, "unit": "g"},
+				{"name": "ghí", "quantity": 15, "unit": "g"},
+				{"name": "škorica"},
+				{"name": "sušený zázvor"}
+			]
+		}
+	],
+	"image": "onvia/image310.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image310"
+}

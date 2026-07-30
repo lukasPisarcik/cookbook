@@ -1,0 +1,29 @@
+{
+	"title": "Medové kuracie nožky",
+	"category": "vecere",
+	"steps": [
+		"V miske zmiešajte med, olej, sójovú omáčku a prelisovaný cesnak. Premiešajte a pridajte do marinády jemne osolené kuracie nožky.",
+		"Zakryte potravinárskou fóliou a dajte ideálne cez noc alebo aspoň na 2 hodiny do chladničky odpočinúť.",
+		"Nožky aj s marinádou dajte do väčšej zapekacej misky a dajte piecť do trúby, ktorá je rozohriata na 180 stupňov na 60 minút.",
+		"Ak sa bude marináda rýchlo odparovať, môžete nožky zľahka podliať vodou.",
+		"Podávajte s ryžou alebo obľúbenými upravenými zemiakmi."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 4,
+			"ingredients": [
+				{"name": "kuracie nožky", "quantity": 800, "unit": "g"},
+				{"name": "med", "quantity": 60, "unit": "g"},
+				{"name": "olivový olej", "quantity": 30, "unit": "g"},
+				{"name": "cesnak", "quantity": 3, "unit": "strúčik"},
+				{"name": "sójová omáčka", "quantity": 40, "unit": "g"},
+				{"name": "soľ"},
+				{"name": "voda"}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p98.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p98"
+}

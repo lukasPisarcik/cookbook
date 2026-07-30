@@ -1,0 +1,54 @@
+{
+	"title": "Cordon bleu toast",
+	"category": "vecere",
+	"prepTimeMinutes": 25,
+	"steps": [
+		"Najskôr umiestni dva taniere vedľa seba. Na prvý tanier daj rozšľahané vajce a na druhý rozdrvené kukuričné lupienky.",
+		"Do stredu toastu polož polovicu šunky a syra a to isté urob s druhým toastom.",
+		"Teraz ich prikry \"pokrievkou\" (druhým plátkom toastu), dbaj na to aby si rohy toastov mala prázdne nakoľko budeš okraje uzatvárať stlačením toastov vidličkou k sebe aby syr nevytiekol (ako domáce pirohy).",
+		"Celé ich obal vo vajíčku, potom v kukuričných lupienkoch a peč vo fritéze (AirFryer) pri teplote 180° cca 8 minút alebo v rúre pri teplote 200° cca 10 minút.",
+		"Predtým, ako sa do nich s radosťou zahryzneš ich nechaj krátko vychladnúť."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 324,
+			"portions": 2,
+			"macros": {
+				"carbs": 35,
+				"protein": 25,
+				"fat": 8
+			},
+			"ingredients": [
+				{
+					"name": "toastový plátok",
+					"quantity": 4,
+					"unit": "ks"
+				},
+				{
+					"name": "chudá šunka",
+					"quantity": 100,
+					"unit": "g"
+				},
+				{
+					"name": "mozzarella light",
+					"quantity": 60,
+					"unit": "g"
+				},
+				{
+					"name": "celé vajce",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "nesladené kukuričné lupienky",
+					"quantity": 50,
+					"unit": "g"
+				}
+			]
+		}
+	],
+	"image": "onvia/image168.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image168"
+}

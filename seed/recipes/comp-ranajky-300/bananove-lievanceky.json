@@ -1,0 +1,34 @@
+{
+	"title": "Banánové lievančeky",
+	"category": "ranajky",
+	"dietTags": ["bezlepkove"],
+	"prepTimeMinutes": 10,
+	"steps": [
+		"Banán roztlač vidličkou v miske, pridaj vajíčka a dobre premiešaj.",
+		"Pridaj kypriaci prášok a škoricu.",
+		"Všetko dôkladne premiešaj, aby vznikla hladká zmes.",
+		"Na strednom ohni rozohrej panvicu, na ktorú pridaj kvapku oleja, (ideálne ak máš olej v spreji).",
+		"Nalej zmes na panvicu a smaž malé lievance, asi 2-3 minúty z každej strany, dozlatista.",
+		"Podávaj s ovocím, jogurtom a prelej javorovým sirupom."
+	],
+	"variants": [
+		{
+			"label": "300 kcal",
+			"kcalPerPortion": 314,
+			"portions": 1,
+			"macros": { "carbs": 28, "protein": 22, "fat": 13 },
+			"ingredients": [
+				{ "name": "vajíčko", "quantity": 2, "unit": "ks" },
+				{ "name": "zrelý banán", "quantity": 1, "unit": "ks" },
+				{ "name": "kypriaci prášok", "quantity": 0.5, "unit": "ČL" },
+				{ "name": "škorica", "quantity": 0.5, "unit": "ČL" },
+				{ "name": "odtučnený grécky jogurt", "quantity": 70, "unit": "g" },
+				{ "name": "bobuľové ovocie", "quantity": 30, "unit": "g" },
+				{ "name": "javorový sirup", "quantity": 5, "unit": "g" }
+			]
+		}
+	],
+	"image": "ranajky-300-kcal/p11.webp",
+	"source": "Raňajky - 300 kcal.pdf",
+	"sourceRef": "p11"
+}

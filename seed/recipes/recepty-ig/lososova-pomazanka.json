@@ -1,0 +1,26 @@
+{
+	"title": "Lososová pomazánka",
+	"category": "snacky",
+	"steps": [],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 328,
+			"portions": 2,
+			"macros": { "carbs": 8, "protein": 32, "fat": 18 },
+			"ingredients": [
+				{ "name": "údený losos", "quantity": 100, "unit": "g" },
+				{ "name": "červená cibuľa", "quantity": 0.5, "unit": "ks" },
+				{ "name": "ricotta", "quantity": 30, "unit": "g" },
+				{ "name": "citrón", "quantity": 0.5, "unit": "ks" },
+				{ "name": "paradajkové pesto", "quantity": 20, "unit": "g" },
+				{ "name": "soľ" },
+				{ "name": "čierne korenie" },
+				{ "name": "proteínový chlebík", "quantity": 4, "unit": "ks" }
+			]
+		}
+	],
+	"image": "recepty-ig/p3.webp",
+	"source": "Recepty IG.pdf",
+	"sourceRef": "p3"
+}

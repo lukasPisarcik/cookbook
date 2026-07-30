@@ -1,0 +1,29 @@
+{
+	"title": "Azijská palacinka",
+	"category": "dezerty",
+	"prepTimeMinutes": 2,
+	"steps": [
+		"Na nepriľnavú panvicu nastriekaj trochu oleja v spreji na varenie a polož naň ryžový papier.",
+		"Nakrájaj banán na plátky a polož ho na ryžový papier (pozri foto).",
+		"Posyp ho čokopecičkami a potom môžeš palacinku v strede preložiť tak, ako to vidíš na fotke.",
+		"Prelož ju aj druhýkrát (pozri foto) a smaž ju ešte cca 1 minútu.",
+		"Nechaj ju chvíľu vychladnúť a vychutnaj si ju!"
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 191,
+			"portions": 1,
+			"macros": {"carbs": 37, "protein": 2, "fat": 5},
+			"ingredients": [
+				{"name": "ryžový papier", "quantity": 1, "unit": "ks"},
+				{"name": "banán", "quantity": 1, "unit": "ks"},
+				{"name": "čokopecičky", "quantity": 10, "unit": "g"},
+				{"name": "olej v spreji na varenie"}
+			]
+		}
+	],
+	"image": "onvia/image286.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image286"
+}

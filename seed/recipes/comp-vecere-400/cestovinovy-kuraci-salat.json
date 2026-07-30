@@ -1,0 +1,101 @@
+{
+	"title": "Cestovinový kurací šalát",
+	"category": "vecere",
+	"prepTimeMinutes": 25,
+	"steps": [
+		"Cestoviny uvar podľa návodu.",
+		"Kuracie mäso nakrájaj na kocky, osoľ, okoreň a opeč na olivovom oleji dozlatista.",
+		"Zeleninu nakrájaj.",
+		"Do bieleho jogurtu primiešaj pretlačený cesnak, pridaj soľ a korenie podľa chuti.",
+		"Cestoviny zmiešaj s jogurtom, syrom a opečeným kuracím mäsom. Do misky pridaj nakrájanú zeleninu, rukolu a všetko poriadne premiešaj.",
+		"Môžeš posypať petržlenovou vňaťou.",
+		"Vyjdú ti 2 porcie."
+	],
+	"variants": [
+		{
+			"label": "400 kcal",
+			"kcalPerPortion": 399,
+			"portions": 2,
+			"macros": {
+				"carbs": 54,
+				"protein": 26,
+				"fat": 8
+			},
+			"ingredients": [
+				{
+					"name": "celozrnné cestoviny",
+					"quantity": 150,
+					"unit": "g"
+				},
+				{
+					"name": "kuracie prsia",
+					"quantity": 100,
+					"unit": "g"
+				},
+				{
+					"name": "majonéza",
+					"quantity": 5,
+					"unit": "g"
+				},
+				{
+					"name": "červená paprika",
+					"quantity": 0.25,
+					"unit": "ks"
+				},
+				{
+					"name": "kukurica",
+					"quantity": 30,
+					"unit": "g"
+				},
+				{
+					"name": "cherry paradajka",
+					"quantity": 3,
+					"unit": "ks"
+				},
+				{
+					"name": "reďkovka",
+					"quantity": 2,
+					"unit": "ks"
+				},
+				{
+					"name": "rukola",
+					"quantity": 1,
+					"unit": "hrsť"
+				},
+				{
+					"name": "biely jogurt",
+					"quantity": 40,
+					"unit": "g"
+				},
+				{
+					"name": "cesnak",
+					"quantity": 1,
+					"unit": "strúčik"
+				},
+				{
+					"name": "Eidam",
+					"quantity": 20,
+					"unit": "g"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "korenie"
+				},
+				{
+					"name": "olivový olej",
+					"quantity": 5,
+					"unit": "g"
+				},
+				{
+					"name": "petržlenová vňať",
+					"quantity": 1,
+					"unit": "ČL"
+				}
+			]
+		}
+	],
+	"source": "Večere - 400 kcal.pdf",
+	"sourceRef": "p4"
+}

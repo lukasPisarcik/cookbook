@@ -1,0 +1,38 @@
+{
+	"title": "Šalát s grilovanou nektárinkou a burratou",
+	"category": "obedy",
+	"dietTags": ["bezlepkove"],
+	"prepTimeMinutes": 20,
+	"steps": [
+		"Nakrájaj dve nektárinky na prúžky a na masle ich opeč, pokým nebudú dozlatista.",
+		"Do misky daj ľadový šalát a rukolu.",
+		"Na šalát polož pokrájanú burratu alebo mini mozzarellky a pridaj opečené nektárinky.",
+		"V mixéri zmiešaj pól nektárinky, štvrť červenej cibule, štipku soli, olivový olej a rozmixuj do hladka.",
+		"Pripraveným dresingom polej šalát a posyp vlašskými orechami.",
+		"Máš hotový šalát ako stvorený na jarné počasie."
+	],
+	"funFact": "Nektarinka obsahuje až 87% vody, čo ju robí ideálnym ovocím na leto.",
+	"variants": [
+		{
+			"label": "600 kcal",
+			"kcalPerPortion": 623,
+			"portions": 1,
+			"macros": {"carbs": 28, "protein": 19, "fat": 48},
+			"ingredients": [
+				{"name": "stredná nektárinka", "quantity": 2, "unit": "ks"},
+				{"name": "burrata", "quantity": 125, "unit": "g"},
+				{"name": "ľadový šalát"},
+				{"name": "rukola"},
+				{"name": "maslo", "quantity": 5, "unit": "g"},
+				{"name": "vlašské orechy", "quantity": 15, "unit": "g"},
+				{"name": "nektárinka", "quantity": 50, "unit": "g"},
+				{"name": "červená cibuľa", "quantity": 30, "unit": "g"},
+				{"name": "soľ"},
+				{"name": "čierne korenie"},
+				{"name": "olivový olej", "quantity": 5, "unit": "g"}
+			]
+		}
+	],
+	"source": "Obedy - 600 kcal.pdf",
+	"sourceRef": "p19"
+}

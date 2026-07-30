@@ -1,0 +1,45 @@
+{
+	"title": "Malinové Čoko Pop Tarts",
+	"category": "dezerty",
+	"prepTimeMinutes": 30,
+	"steps": [
+		"Do misky nasyp všetky suché suroviny na Pop Tarts a dobre premiešaj, aby sa zabránilo zhlukovaniu.",
+		"Potom k suchým surovinám pridaj grécky jogurt a miešaj kým ti nevznikne hladké cesto.",
+		"Cesto vlož do mrazničky počas doby ako si budeš chystať plnku do Pop Tarts.",
+		"Všetky suché suroviny na plnku pridáš do misky a premiešaš, aby sa zabránilo ich zhlukovaniu. Pomaly pridávaj trošku studej vody a miešaj, kým ti nevznikne husté cesto ako na sušienky. Potom pridaj grécky jogurt a premiešaj. Hmota by mala byť hustá a mokrá, nie suchá. Ak je stále suchá, pridaj malé množstvo vody a znovu premiešaj. Vlož do chladničky, aby sa plnka udržala v chlade.",
+		"Dosku na vaľkanie cesta posyp trochou polohrubej múky, aby sa ti cesto na Pop Tarts ľahšie vaľkalo. Vezmi 1/3 cesta a rozvaľkaj ho na tenko. S cestom pracuj trpezlivo a jemne.",
+		"Keď sa cesto začne lepiť na valček, pridaj ešte trochu múky.",
+		"Po vyvaľkaní kusu cesta použi krájač na pizzu (alebo nôž) a vykroj z neho obdĺžnik (15cm x 10cm) v tvare Pop Tart. To bude predloha pre ďalšie kúsky. Vezmi tento obdĺžnikový kus cesta a odlož ho bokom, aby si mohla dôsledne vykrajovať rovnako veľké Pop Tarts. Dva obdĺžnikové kúsky tvoria jeden Pop Tart. Z 8-10 obdĺžnikov vznikne 4-5 Pop Tarts!",
+		"Tento postup opakuj, kým nespotrebuješ všetko cesto. Teraz si vezmi jeden obdĺžnik cesta a do stredu pridaj plnku, pričom nechaj aspoň 1 cm okolo okrajov voľný, aby si mohla pop tart pekne zatvoriť vrchným dielom cesta (1/3 plnky nechaj ako topping na vrch Pop Tarts po dopečení). Zvyšok plnky po rozdelení na Pop Tarts vlož do chladničky, aby sa udržala studená.",
+		"Okraje obdĺžnika s plnkou potri bielkom. Potom pridaj vrchný kus cesta a zatlač okraje. Potom celý vrch Pop Tart taštičky potri bielkom.",
+		"Nerovnomerné okraje odrež nožom. Potom dodatočne pritlač okraje cesta vidličkou a do vrchnej časti urob 2-3 vpichy, aby Pop Tarts mohli v rúre dýchať a nepraskli.",
+		"Vlož do vyhriatej rúry na 7 minút a peč na nastavení ventilátor pri 190°C. Po dopečení vyber z rúry a polož na chladiacu mriežku.",
+		"Po vychladnutí pridaj na vrch zvyšok polevy a iný topping podľa vlastných preferencií."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 232,
+			"portions": 4,
+			"macros": {"carbs": 29, "protein": 20, "fat": 4},
+			"ingredients": [
+				{"name": "polohrubá múka", "quantity": 70, "unit": "g"},
+				{"name": "čokoládový proteínový prášok", "quantity": 45, "unit": "g"},
+				{"name": "extra čierny kakaový prášok", "quantity": 24, "unit": "g"},
+				{"name": "mandľová múka", "quantity": 20, "unit": "g"},
+				{"name": "Unicorn Dust", "quantity": 9, "unit": "g"},
+				{"name": "nízkotučný grécky jogurt", "quantity": 140, "unit": "g"},
+				{"name": "malinový džem", "quantity": 120, "unit": "g"},
+				{"name": "čokoládový proteínový prášok", "quantity": 20, "unit": "g"},
+				{"name": "extra čierny kakaový prášok", "quantity": 10, "unit": "g"},
+				{"name": "xantánová guma", "quantity": 1, "unit": "g"},
+				{"name": "Unicorn Dust", "quantity": 2, "unit": "g"},
+				{"name": "čerstvé maliny", "quantity": 100, "unit": "g"},
+				{"name": "čokopecičky", "quantity": 15, "unit": "g"}
+			]
+		}
+	],
+	"image": "onvia/image265.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image265"
+}
