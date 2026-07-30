@@ -52,3 +52,6 @@ browser-results.xml
 
 # extraction intermediates
 .extract-cache/
+
+# UI-verification screenshots
+.verify/
