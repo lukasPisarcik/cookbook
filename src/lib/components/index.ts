@@ -22,6 +22,13 @@ export * as Sidebar from './ui/sidebar';
 export * as Breadcrumb from './ui/breadcrumb';
 export { Skeleton } from './ui/skeleton';
 
+export { default as TopBar } from './TopBar.svelte';
+export { default as TabBar } from './TabBar.svelte';
+export { default as RecipeCard } from './RecipeCard.svelte';
+export { default as VariantSwitcher } from './VariantSwitcher.svelte';
+export { default as CategoryChips } from './CategoryChips.svelte';
+export { default as ShoppingSection } from './ShoppingSection.svelte';
+
 export { Button } from './ui/button';
 export { Avatar, AvatarFallback } from './ui/avatar';
 export { Badge } from './ui/badge';

@@ -33,9 +33,9 @@ export type TextDirection = z.infer<typeof TextDirection>;
  * - Language uses ISO 639-1 (2 chars) when available; otherwise ISO 639-2/3.
  * - Country uses ISO 3166-1 alpha-2 (2 chars).
  */
-export const MeetingLanguageCode = z.enum(['en_us']);
+export const MeetingLanguageCode = z.enum(['sk_sk', 'en_us']);
 export type MeetingLanguageCode = z.infer<typeof MeetingLanguageCode>;
-export const DEFAULT_MEETING_LANGUAGE_CODE: MeetingLanguageCode = 'en_us';
+export const DEFAULT_MEETING_LANGUAGE_CODE: MeetingLanguageCode = 'sk_sk';
 
 export const LanguageConfigEntry = z.object({
 	label: z.string(),
@@ -83,3 +83,87 @@ export interface ErrorMetadata {
 // Convention: every Zod schema lives in this file (one source of truth).
 // See `.claude/docs/schemas.md` for details.
 // =============================================================================
+
+// =============================================================================
+// Auth (shared-password gate).
+// =============================================================================
+
+export const LoginInput = z.object({
+	password: z.string().min(1)
+});
+export type LoginInput = z.infer<typeof LoginInput>;
+
+// =============================================================================
+// Recipes (seed contract + shared enums).
+//
+// `RecipeSeedSchema` is the contract the offline extraction pipeline must
+// satisfy (`seed/recipes/*.json`). The import script refuses any file that
+// fails it, so extraction errors surface before the database. Matching keys
+// (slug, searchText, nameNorm) are computed by the import script, not by
+// extraction — they are deliberately absent here.
+// =============================================================================
+
+export const RecipeCategory = z.enum([
+	'ranajky',
+	'obedy',
+	'vecere',
+	'snacky',
+	'smoothies',
+	'drinky',
+	'dezerty',
+	'zaklady'
+]);
+export type RecipeCategory = z.infer<typeof RecipeCategory>;
+
+export const MacrosSchema = z.object({
+	/** Sacharidy, grams per portion. */
+	carbs: z.number().min(0).max(500),
+	/** Bielkoviny, grams per portion. */
+	protein: z.number().min(0).max(500),
+	/** Tuky, grams per portion. */
+	fat: z.number().min(0).max(500)
+});
+export type Macros = z.infer<typeof MacrosSchema>;
+
+export const IngredientSeedSchema = z.object({
+	name: z.string().min(1),
+	quantity: z.number().positive().optional(),
+	/** g | ml | ks | konzerva | PL | ČL | … as printed in the source. */
+	unit: z.string().min(1).optional(),
+	/** Druh produktu — grouping key; filled from the workbook taxonomy when absent. */
+	productType: z.string().min(1).optional()
+});
+export type IngredientSeed = z.infer<typeof IngredientSeedSchema>;
+
+export const VariantSeedSchema = z.object({
+	/** "400 kcal" | "500 kcal" | "600 kcal" | "štandard". */
+	label: z.string().min(1),
+	kcalPerPortion: z.number().min(50).max(1500).optional(),
+	portions: z.number().positive().max(50).optional(),
+	macros: MacrosSchema.optional(),
+	ingredients: z.array(IngredientSeedSchema).min(1)
+});
+export type VariantSeed = z.infer<typeof VariantSeedSchema>;
+
+export const RecipeSeedSchema = z.object({
+	title: z.string().min(1),
+	category: RecipeCategory,
+	/** bezlepkove | bezlaktozove | vegan | … normalized, diacritics stripped. Absent = none. */
+	dietTags: z.array(z.string().min(1)).default([]),
+	prepTimeMinutes: z
+		.number()
+		.positive()
+		.max(24 * 60)
+		.optional(),
+	steps: z.array(z.string().min(1)),
+	/** „Vedela si, že…" box when present. */
+	funFact: z.string().optional(),
+	variants: z.array(VariantSeedSchema).min(1),
+	/** Path of the cover photo inside seed/images/, when one was extracted. */
+	image: z.string().optional(),
+	/** Source document filename. */
+	source: z.string().min(1),
+	/** Page / blueprint code (R1…R129) inside the source. */
+	sourceRef: z.string().optional()
+});
+export type RecipeSeed = z.infer<typeof RecipeSeedSchema>;

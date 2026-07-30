@@ -49,3 +49,11 @@ browser-results.xml
 
 # Plans (dev-cycle artifacts)
 .plans/
+
+# extraction intermediates
+.extract-cache/
+
+# UI-verification screenshots
+.verify/
+
+.verify-headed/

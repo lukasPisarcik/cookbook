@@ -10,3 +10,6 @@ bun.lockb
 
 # Openapi
 *.hbs
+# generated extraction output (one-time data, not hand-edited)
+seed/
+.extract-cache/

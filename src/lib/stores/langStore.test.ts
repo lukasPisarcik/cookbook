@@ -65,7 +65,7 @@ describe('langStore', { timeout: 20_000 }, () => {
 
 		langStore.init();
 
-		expect(langStore.locale).toBe('en_us');
+		expect(langStore.locale).toBe('sk_sk');
 	});
 
 	it('persists the chosen locale to localStorage on set', async () => {

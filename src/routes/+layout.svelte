@@ -1,9 +1,12 @@
 <script lang="ts">
 	import favicon from '$lib/assets/favicon.svg';
-	import { Tooltip, Toaster } from '$lib/components';
+	import { Tooltip, Toaster, TopBar, TabBar } from '$lib/components';
+	import { initConvex } from '$lib/convex';
 	import '../app.css';
 
-	let { children } = $props();
+	let { children, data } = $props();
+
+	initConvex();
 </script>
 
 <svelte:head>
@@ -11,13 +14,17 @@
 </svelte:head>
 
 <Tooltip.Provider>
-	<div class="flex h-screen w-full flex-col">
-		<div class="flex w-full flex-1 items-center justify-center overflow-auto">
-			<div class="text-text flex h-full w-full items-center justify-center">
+	{#if data.authed}
+		<div class="flex min-h-dvh w-full flex-col">
+			<TopBar />
+			<main class="mx-auto w-full max-w-lg flex-1 px-4 pt-4 pb-28">
 				{@render children?.()}
-			</div>
+			</main>
+			<TabBar />
 		</div>
-	</div>
+	{:else}
+		{@render children?.()}
+	{/if}
 </Tooltip.Provider>
 
 <Toaster richColors closeButton position="top-center" />
