@@ -4,13 +4,14 @@ import type { Doc } from './_generated/dataModel';
 import { requireToken } from './lib';
 import { normalizeName } from '../src/lib/helpers/normalize';
 
-/** Card projection for the Recepty grid. */
+/** Card projection for the Recepty list. */
 async function toCard(ctx: QueryCtx, recipe: Doc<'recipes'>) {
 	return {
 		slug: recipe.slug,
 		title: recipe.title,
 		category: recipe.category,
 		dietTags: recipe.dietTags,
+		prepTimeMinutes: recipe.prepTimeMinutes,
 		kcalOptions: recipe.variants
 			.map((variant) => variant.kcalPerPortion)
 			.filter((kcal): kcal is number => kcal !== undefined),

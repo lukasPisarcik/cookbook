@@ -44,7 +44,7 @@
 				type="search"
 				placeholder={d.searchPlaceholder}
 				bind:value={search}
-				class="rounded-full pl-9"
+				class="rounded-full border-transparent bg-card pl-9 shadow-sm"
 			/>
 		</div>
 	</div>
@@ -56,10 +56,10 @@
 			type="button"
 			onclick={() => (favoritesOnly = !favoritesOnly)}
 			class={cn(
-				'flex shrink-0 items-center gap-1 rounded-full border px-3 py-1.5 text-xs font-semibold transition-colors',
+				'flex shrink-0 items-center gap-1.5 rounded-full border px-3.5 py-2 text-xs font-semibold transition-colors',
 				favoritesOnly
-					? 'border-transparent bg-primary text-primary-foreground'
-					: 'bg-card text-muted-foreground hover:text-foreground'
+					? 'border-transparent bg-primary text-primary-foreground shadow-sm'
+					: 'border-transparent bg-card text-muted-foreground shadow-sm hover:text-foreground'
 			)}
 		>
 			<Heart class={cn('h-3.5 w-3.5', favoritesOnly && 'fill-current')} />
@@ -70,10 +70,10 @@
 				type="button"
 				onclick={() => (dietTag = dietTag === tag ? null : tag)}
 				class={cn(
-					'shrink-0 rounded-full border px-3 py-1.5 text-xs font-semibold transition-colors',
+					'shrink-0 rounded-full border px-3.5 py-2 text-xs font-semibold transition-colors',
 					dietTag === tag
-						? 'border-transparent bg-primary text-primary-foreground'
-						: 'bg-card text-muted-foreground hover:text-foreground'
+						? 'border-transparent bg-primary text-primary-foreground shadow-sm'
+						: 'border-transparent bg-card text-muted-foreground shadow-sm hover:text-foreground'
 				)}
 			>
 				{tag}
@@ -86,7 +86,7 @@
 	{:else if (recipes.data ?? []).length === 0}
 		<p class="py-16 text-center text-sm text-muted-foreground">{d.emptyRecipes}</p>
 	{:else}
-		<div class="grid grid-cols-2 gap-3">
+		<div class="space-y-2">
 			{#each recipes.data ?? [] as recipe (recipe.slug)}
 				<RecipeCard
 					slug={recipe.slug}
@@ -94,6 +94,7 @@
 					imageUrl={recipe.imageUrl}
 					kcalOptions={recipe.kcalOptions}
 					isFavorite={recipe.isFavorite}
+					prepTimeMinutes={recipe.prepTimeMinutes}
 				/>
 			{/each}
 		</div>

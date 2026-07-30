@@ -51,16 +51,16 @@
 	<div class="flex justify-center py-16"><Spinner /></div>
 {:else if (flagged.data ?? []).length === 0}
 	<div class="space-y-2 py-16 text-center">
-		<p class="text-sm font-medium">{d.dnesEmpty}</p>
+		<p class="font-display text-base font-bold">{d.dnesEmpty}</p>
 		<p class="mx-auto max-w-xs text-sm text-muted-foreground">{d.dnesEmptyHint}</p>
 	</div>
 {:else}
 	<div class="space-y-3">
 		{#each flagged.data ?? [] as recipe (recipe.slug)}
-			<div class="flex gap-3 rounded-xl border bg-card p-3">
+			<div class="flex gap-3 rounded-2xl bg-card p-3 shadow-sm">
 				<a
 					href={resolve('/recepty/[slug]', { slug: recipe.slug })}
-					class="h-16 w-16 shrink-0 overflow-hidden rounded-lg bg-muted"
+					class="h-16 w-16 shrink-0 overflow-hidden rounded-xl bg-muted"
 				>
 					{#if recipe.imageUrl}
 						<img src={recipe.imageUrl} alt={recipe.title} class="h-full w-full object-cover" />
@@ -72,7 +72,7 @@
 					<div class="flex items-start justify-between gap-2">
 						<a
 							href={resolve('/recepty/[slug]', { slug: recipe.slug })}
-							class="text-sm leading-snug font-semibold"
+							class="font-display text-sm leading-snug font-bold"
 						>
 							{recipe.title}
 						</a>
@@ -103,11 +103,11 @@
 									recipe.cookingToday.variantIndex,
 									recipe.cookingToday.portionMultiplier - 0.5
 								)}
-							class="rounded-full border p-1 transition-colors hover:bg-muted"
+							class="rounded-full bg-primary/10 p-1.5 text-primary transition-colors hover:bg-primary/20"
 						>
 							<Minus class="h-3.5 w-3.5" />
 						</button>
-						<span class="w-8 text-center font-semibold tabular-nums">
+						<span class="w-8 text-center font-display font-bold tabular-nums">
 							{recipe.cookingToday.portionMultiplier}
 						</span>
 						<button
@@ -119,7 +119,7 @@
 									recipe.cookingToday.variantIndex,
 									recipe.cookingToday.portionMultiplier + 0.5
 								)}
-							class="rounded-full border p-1 transition-colors hover:bg-muted"
+							class="rounded-full bg-primary/10 p-1.5 text-primary transition-colors hover:bg-primary/20"
 						>
 							<Plus class="h-3.5 w-3.5" />
 						</button>
@@ -129,7 +129,12 @@
 		{/each}
 
 		<div class="space-y-2 pt-2">
-			<Button class="w-full rounded-full" size="lg" onclick={generate} disabled={generating}>
+			<Button
+				class="w-full rounded-full shadow-lg"
+				size="lg"
+				onclick={generate}
+				disabled={generating}
+			>
 				<ShoppingCart class="mr-2 h-5 w-5" />
 				{d.dnesGenerate}
 			</Button>

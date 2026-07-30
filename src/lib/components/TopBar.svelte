@@ -29,7 +29,7 @@
 	<div class="mx-auto flex w-full max-w-lg items-center justify-between px-4 py-2">
 		<a href={resolve('/')} class="flex items-center gap-2 transition-opacity hover:opacity-80">
 			<img src={logo} alt={d.appTitle} class="h-8 w-8" />
-			<span class="text-lg font-bold tracking-tight">{title}</span>
+			<span class="font-display text-lg font-bold tracking-tight">{title}</span>
 		</a>
 
 		<div class="flex items-center gap-1">
