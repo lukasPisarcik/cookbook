@@ -16,7 +16,8 @@ const baseProps = {
 	title: 'Thajské kari',
 	imageUrl: null,
 	kcalOptions: [391, 493, 589],
-	isFavorite: false
+	isFavorite: false,
+	prepTimeMinutes: 25
 };
 
 describe('RecipeCard.svelte', () => {
@@ -24,6 +25,21 @@ describe('RecipeCard.svelte', () => {
 		const screen = render(RecipeCard, { props: baseProps });
 		await expect.element(screen.getByText('Thajské kari')).toBeVisible();
 		await expect.element(screen.getByText('391 / 493 / 589 kcal')).toBeVisible();
+	});
+
+	it('renders the prep-time meta when provided', async () => {
+		const screen = render(RecipeCard, { props: baseProps });
+		await expect.element(screen.getByText('Thajské kari')).toBeVisible();
+		expect(screen.container.textContent).toContain('25');
+		expect(screen.container.textContent).toContain('min');
+	});
+
+	it('omits the prep-time meta when absent but keeps kcal', async () => {
+		const screen = render(RecipeCard, {
+			props: { ...baseProps, prepTimeMinutes: undefined }
+		});
+		await expect.element(screen.getByText('391 / 493 / 589 kcal')).toBeVisible();
+		expect(screen.container.textContent).not.toContain('min');
 	});
 
 	it('links to the recipe detail', async () => {

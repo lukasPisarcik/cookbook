@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { enhance } from '$app/forms';
+	import logo from '$lib/assets/logo.svg';
 	import { d } from '$lib';
 	import { Button, Input, Label } from '$lib/components';
 
@@ -12,15 +13,17 @@
 </svelte:head>
 
 <div class="flex min-h-dvh w-full items-center justify-center p-6">
-	<div class="w-full max-w-sm space-y-8">
-		<div class="space-y-2 text-center">
-			<h1 class="text-3xl font-bold tracking-tight">{d.appTitle}</h1>
+	<div class="w-full max-w-sm space-y-6">
+		<div class="space-y-3 text-center">
+			<!-- Decorative: the adjacent heading is the accessible app title. -->
+			<img src={logo} alt="" class="mx-auto h-16 w-16" />
+			<h1 class="font-display text-3xl font-bold tracking-tight">{d.appTitle}</h1>
 			<p class="text-muted-foreground">{d.loginSubtitle}</p>
 		</div>
 
 		<form
 			method="POST"
-			class="space-y-4"
+			class="space-y-4 rounded-3xl bg-card p-6 shadow-sm"
 			use:enhance={() => {
 				submitting = true;
 				return async ({ update }) => {
@@ -45,7 +48,7 @@
 				<p class="text-sm text-destructive" role="alert">{d.loginIncorrectPassword}</p>
 			{/if}
 
-			<Button type="submit" class="w-full" disabled={submitting}>
+			<Button type="submit" class="w-full rounded-full" disabled={submitting}>
 				{d.loginSubmit}
 			</Button>
 		</form>

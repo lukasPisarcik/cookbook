@@ -80,7 +80,7 @@
 			{d.backToList}
 		</a>
 
-		<div class="relative -mx-4 aspect-[4/3] overflow-hidden bg-muted sm:mx-0 sm:rounded-2xl">
+		<div class="relative aspect-[4/3] overflow-hidden rounded-3xl bg-muted shadow-sm">
 			{#if data.imageUrl}
 				<img src={data.imageUrl} alt={data.title} class="h-full w-full object-cover" />
 			{:else}
@@ -89,18 +89,18 @@
 		</div>
 
 		<div class="flex items-start justify-between gap-3">
-			<h1 class="text-2xl leading-tight font-bold tracking-tight">{data.title}</h1>
+			<h1 class="font-display text-2xl leading-tight font-bold tracking-tight">{data.title}</h1>
 			<button
 				type="button"
 				onclick={toggleFavorite}
 				aria-label={d.favoriteToggle}
 				aria-pressed={data.isFavorite}
-				class="rounded-full border bg-card p-2.5 transition-colors hover:bg-muted"
+				class="shrink-0 rounded-full bg-card p-2.5 shadow-sm transition-colors hover:bg-accent"
 			>
 				<Heart
 					class={cn(
 						'h-5 w-5',
-						data.isFavorite ? 'fill-destructive text-destructive' : 'text-muted-foreground'
+						data.isFavorite ? 'fill-primary text-primary' : 'text-muted-foreground'
 					)}
 				/>
 			</button>
@@ -125,40 +125,46 @@
 		/>
 
 		{#if variant}
-			<div class="grid grid-cols-3 gap-2 rounded-xl border bg-card p-3 text-center">
-				<div>
-					<p class="text-lg font-bold tabular-nums">{variant.kcalPerPortion ?? '–'}</p>
+			<div class="grid grid-cols-3 gap-2 text-center">
+				<div class="rounded-2xl bg-card py-3 shadow-sm">
+					<p class="font-display text-xl font-bold tabular-nums">{variant.kcalPerPortion ?? '–'}</p>
 					<p class="text-[11px] text-muted-foreground">{d.kcalPerPortionLabel}</p>
 				</div>
-				<div class="flex flex-col items-center justify-center">
+				<div class="flex flex-col items-center justify-center rounded-2xl bg-card py-3 shadow-sm">
 					{#if variant.portions}
-						<p class="flex items-center gap-1 text-lg font-bold tabular-nums">
-							<Users class="h-4 w-4 text-muted-foreground" />{variant.portions}
+						<p class="flex items-center gap-1 font-display text-xl font-bold tabular-nums">
+							<Users class="h-4 w-4 text-primary" />{variant.portions}
 						</p>
+						<p class="text-[11px] text-muted-foreground">{d.portionsLabel}</p>
+					{:else}
+						<p class="font-display text-xl font-bold">–</p>
 						<p class="text-[11px] text-muted-foreground">{d.portionsLabel}</p>
 					{/if}
 				</div>
-				<div class="flex flex-col items-center justify-center">
+				<div class="flex flex-col items-center justify-center rounded-2xl bg-card py-3 shadow-sm">
 					{#if data.prepTimeMinutes}
-						<p class="flex items-center gap-1 text-lg font-bold tabular-nums">
-							<Clock class="h-4 w-4 text-muted-foreground" />{data.prepTimeMinutes}
+						<p class="flex items-center gap-1 font-display text-xl font-bold tabular-nums">
+							<Clock class="h-4 w-4 text-primary" />{data.prepTimeMinutes}
 						</p>
 						<p class="text-[11px] text-muted-foreground">{d.minutesShort} · {d.prepTimeLabel}</p>
+					{:else}
+						<p class="font-display text-xl font-bold">–</p>
+						<p class="text-[11px] text-muted-foreground">{d.prepTimeLabel}</p>
 					{/if}
 				</div>
 			</div>
 
 			{#if variant.macros}
 				<div class="grid grid-cols-3 gap-2 text-center text-sm">
-					<div class="rounded-lg bg-secondary py-2">
+					<div class="rounded-xl bg-secondary py-2">
 						<span class="font-semibold tabular-nums">{variant.macros.carbs} g</span>
 						<span class="block text-[11px] text-muted-foreground">{d.macrosCarbs}</span>
 					</div>
-					<div class="rounded-lg bg-secondary py-2">
+					<div class="rounded-xl bg-secondary py-2">
 						<span class="font-semibold tabular-nums">{variant.macros.protein} g</span>
 						<span class="block text-[11px] text-muted-foreground">{d.macrosProtein}</span>
 					</div>
-					<div class="rounded-lg bg-secondary py-2">
+					<div class="rounded-xl bg-secondary py-2">
 						<span class="font-semibold tabular-nums">{variant.macros.fat} g</span>
 						<span class="block text-[11px] text-muted-foreground">{d.macrosFat}</span>
 					</div>
@@ -166,12 +172,12 @@
 			{/if}
 
 			<section class="space-y-2">
-				<h2 class="text-sm font-bold tracking-wider text-muted-foreground uppercase">
+				<h2 class="font-display text-xs font-bold tracking-widest text-muted-foreground uppercase">
 					{d.ingredientsHeading}
 				</h2>
-				<ul class="divide-y rounded-xl border bg-card">
+				<ul class="divide-y rounded-2xl bg-card px-1 shadow-sm">
 					{#each variant.ingredients as ingredient, index (`${index}|${ingredient.nameNorm}|${ingredient.unit ?? ''}`)}
-						<li class="flex items-baseline justify-between gap-3 px-3 py-2 text-sm">
+						<li class="flex items-baseline justify-between gap-3 px-3 py-2.5 text-sm">
 							<span>{ingredient.name}</span>
 							<span class="shrink-0 text-xs text-muted-foreground tabular-nums">
 								{ingredient.quantity ?? ''}
@@ -185,14 +191,14 @@
 
 		{#if data.steps.length > 0}
 			<section class="space-y-2">
-				<h2 class="text-sm font-bold tracking-wider text-muted-foreground uppercase">
+				<h2 class="font-display text-xs font-bold tracking-widest text-muted-foreground uppercase">
 					{d.stepsHeading}
 				</h2>
 				<ol class="space-y-3">
 					{#each data.steps as step, index (index)}
 						<li class="flex gap-3 text-sm leading-relaxed">
 							<span
-								class="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-primary text-xs font-bold text-primary-foreground"
+								class="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-primary font-display text-xs font-bold text-primary-foreground shadow-sm"
 							>
 								{index + 1}
 							</span>
@@ -205,9 +211,9 @@
 
 		{#if data.funFact}
 			<aside
-				class="rounded-xl border border-sky-200 bg-sky-50 p-4 text-sm leading-relaxed dark:border-sky-900 dark:bg-sky-950"
+				class="rounded-2xl border border-primary/20 bg-accent p-4 text-sm leading-relaxed text-accent-foreground"
 			>
-				<p class="mb-1 font-semibold">💡 {d.funFactHeading}</p>
+				<p class="mb-1 font-display font-bold">💡 {d.funFactHeading}</p>
 				<p>{data.funFact}</p>
 			</aside>
 		{/if}
