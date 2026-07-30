@@ -1,0 +1,31 @@
+{
+	"title": "Odľahčené tiramisu",
+	"category": "dezerty",
+	"prepTimeMinutes": 10,
+	"steps": [
+		"V miske zmiešaj tvaroh alebo grécky jogurt, sladidlo, (vanilkový extrakt), kým nevznikne hladká zmes.",
+		"Piškóty namoč do kávy, len na chvíľku, aby sa nerozmočili.",
+		"Na dno pohára vrstvi namočené piškóty a potom polovicu tvarohovej zmesi.",
+		"Opakuj s druhou vrstvou piškót a zvyškom tvarohovej zmesi.",
+		"Posyp kakaom a nechaj vychladnúť v chladničke aspoň 2 hodiny pred podávaním."
+	],
+	"funFact": "Názov tiramisu vznikol z talianskej frázy \"tira mi su\", čo znamená \"povzbuď ma\" alebo \"rozveseľ ma\", čo môže poukazovať aj na povzbudzujúce účinky kávy a kakaa, ktoré tiramisu obsahuje.",
+	"variants": [
+		{
+			"label": "300 kcal",
+			"kcalPerPortion": 288,
+			"portions": 1,
+			"macros": { "carbs": 36, "protein": 25, "fat": 4 },
+			"ingredients": [
+				{ "name": "odtučnený tvaroh", "quantity": 200, "unit": "g" },
+				{ "name": "sladidlo" },
+				{ "name": "vanilkový extrakt", "quantity": 1, "unit": "ČL" },
+				{ "name": "špaldové okrúhle piškóty", "quantity": 40, "unit": "g" },
+				{ "name": "silná káva", "quantity": 50, "unit": "ml" },
+				{ "name": "kakao", "quantity": 5, "unit": "g" }
+			]
+		}
+	],
+	"source": "Dezerty-300kcal.pdf",
+	"sourceRef": "p8"
+}

@@ -1,0 +1,36 @@
+{
+	"title": "Wrap s hummusom",
+	"category": "obedy",
+	"dietTags": ["bezlaktozove"],
+	"prepTimeMinutes": 20,
+	"steps": [
+		"Zeleninu (cuketu, papriku, baklažán) umy a nakrájaj na tenké plátky.",
+		"Rozohrej panvicu na strednom ohni, pridajte olivový olej nakrájané kuracie prsia a orestuj.",
+		"Následne pridaj zeleninu 3-4 minúty z každej strany, kým nezíska zlatistú farbu.",
+		"Osoľ a okoreň podľa chuti.",
+		"Na celozrnný wrap natri hummus rovnomernou vrstvou. Grilovanú zeleninu a mäso naukladaj na hummus a podľa chuti pridaj čerstvé bylinky.",
+		"Wrap pevne zroluj, prípadne ho prekroj na polovicu a podávaj."
+	],
+	"variants": [
+		{
+			"label": "400 kcal",
+			"kcalPerPortion": 419,
+			"portions": 1,
+			"macros": { "carbs": 37, "protein": 31, "fat": 17 },
+			"ingredients": [
+				{ "name": "celozrnná tortilla", "quantity": 1, "unit": "ks" },
+				{ "name": "kuracie mäso", "quantity": 100, "unit": "g" },
+				{ "name": "hummus", "quantity": 30, "unit": "g" },
+				{ "name": "cuketa", "quantity": 50, "unit": "g" },
+				{ "name": "paprika", "quantity": 50, "unit": "g" },
+				{ "name": "baklažán", "quantity": 30, "unit": "g" },
+				{ "name": "olivový olej", "quantity": 1, "unit": "ČL" },
+				{ "name": "soľ" },
+				{ "name": "čierne korenie" },
+				{ "name": "čerstvé bylinky" }
+			]
+		}
+	],
+	"source": "Obedy - 400 kcal.pdf",
+	"sourceRef": "p6"
+}

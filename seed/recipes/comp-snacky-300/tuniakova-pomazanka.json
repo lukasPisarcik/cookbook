@@ -1,0 +1,73 @@
+{
+	"title": "Tuniaková pomazánka",
+	"category": "snacky",
+	"prepTimeMinutes": 10,
+	"steps": [
+		"Cibuľu nakrájaš na malé kúsky.",
+		"Pridáš tuniaka, ktorého s vidličkou zmiešaš s tvarohom a horčicou.",
+		"Cesnak pretlačíš a primiešaš k tuniakovi.",
+		"Nakoniec už len dochutíš citrónovou šťavou, soľou, bazalkou a korením.",
+		"Chlebíky dáš do hriankovača a môžeš podávať s pomazánkou.",
+		"Dobrú chuť ;)"
+	],
+	"variants": [
+		{
+			"label": "300 kcal",
+			"kcalPerPortion": 307,
+			"portions": 1,
+			"macros": {
+				"carbs": 24,
+				"protein": 32,
+				"fat": 7
+			},
+			"ingredients": [
+				{
+					"name": "tuniak vo vlastnej šťave",
+					"quantity": 120,
+					"unit": "g"
+				},
+				{
+					"name": "jemný polotučný tvaroh",
+					"quantity": 75,
+					"unit": "g"
+				},
+				{
+					"name": "horčica",
+					"quantity": 12,
+					"unit": "g"
+				},
+				{
+					"name": "ražný kváskový chlieb",
+					"quantity": 60,
+					"unit": "g"
+				},
+				{
+					"name": "malá červená cibuľa",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "cesnak",
+					"quantity": 1,
+					"unit": "strúčik"
+				},
+				{
+					"name": "citrónová šťava"
+				},
+				{
+					"name": "sušená bazalka",
+					"unit": "štipka"
+				},
+				{
+					"name": "mleté čierne korenie"
+				},
+				{
+					"name": "soľ"
+				}
+			]
+		}
+	],
+	"image": "snacky-300-kcal/p12.webp",
+	"source": "Snacky - 300 kcal.pdf",
+	"sourceRef": "p12"
+}

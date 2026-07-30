@@ -1,0 +1,28 @@
+{
+	"title": "Pšeničná kaša s hruškou a škoricou",
+	"category": "ranajky",
+	"steps": [
+		"Kašu uvarte v horúcom mlieku, ja kašu robím v 200 ml mlieka, postupne pridávam kašu, kým nie som spokojná s hustotou.",
+		"Hrušku olúpte, nakrájajte na kocky, orestujte na prepustenom masle, aby zmäkla a ochuťte škoricou.",
+		"Kašu presuňte do misky, na ňu položte kúsky hrušiek, pridajte jogurt, orieškové maslo a nakoniec ozdobte kúskami čokolády."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 1,
+			"ingredients": [
+				{"name": "jáhlová kaša Nominal"},
+				{"name": "obľúbené rastlinné mlieko"},
+				{"name": "prepustené maslo", "quantity": 1, "unit": "PL"},
+				{"name": "hruška", "quantity": 1, "unit": "ks"},
+				{"name": "mletá škorica", "quantity": 0.5, "unit": "ČL"},
+				{"name": "orechové maslo arašid a slaný karamel od Alvin"},
+				{"name": "sójový jogurt"},
+				{"name": "kvalitná vysoko percentná čokoláda", "quantity": 2, "unit": "kocka"}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p18.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p18"
+}

@@ -1,0 +1,31 @@
+{
+	"title": "Frittata s paradajkami a prosciuttom",
+	"category": "ranajky",
+	"steps": [
+		"Rúry rozohrejte na 180 stupňov.",
+		"Menšiu zapekaciu misku alebo koláčovú formu vymastite trochou ghí.",
+		"Vajcia rozšľahajte a osoľte. Paradajky rozrežte na polovicu.",
+		"Do formy položte plátky prosciutta, vajcia prilejte na prosciutto a nakoniec položte na vajcia cherry paradajky.",
+		"Dajte piecť do rúry na 15 minút.",
+		"Frittatu nechajte chvíľu vychladnúť, rozkrojte ju na kúsky a presuňte ju do krabičky. Frittatu doplňte rukolou, ktorú trošku polejete olivovým olejom a balsamikom.",
+		"Pri bez sacharidovej verzii pridajte ešte orechy a fermentovanú zeleninu. Pri klasickej verzií podávajte s kúskom celozrnného pečiva."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"ingredients": [
+				{"name": "vajíčko", "quantity": 3, "unit": "ks"},
+				{"name": "prosciutto", "quantity": 3, "unit": "plátok"},
+				{"name": "cherry paradajka", "quantity": 4, "unit": "ks"},
+				{"name": "soľ", "unit": "štipka"},
+				{"name": "čerstvo namleté čierne korenie"},
+				{"name": "ghí na vymastenie formy"},
+				{"name": "rukola"},
+				{"name": "olivový olej"}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p20.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p20"
+}

@@ -1,0 +1,31 @@
+{
+	"title": "Kuracie kúsky s ananásom",
+	"category": "obedy",
+	"steps": [
+		"Kuracie prsia nakrájajte na kúsky, premiestnite ich do misky a pridajte k nim bielky, soľ a škrob rozmiešaný v troche vody.",
+		"Vo wok panvici rozohrejte olej a po čiastkach orestujte mäso dozlata, vždy hotovú časť vyberte a pridajte ďalšiu.",
+		"Keď je všetko mäso orestované, pridajte ananás aj so šťavou a vývar, mäso vráťte do panvice a všetko spolu povarte.",
+		"Nakoniec pridajte sójovú omáčku.",
+		"Hotové jedno premiestnite do krabičiek spolu s jazmínovou alebo basmati ryžou.",
+		"Nakoniec pridajte aj nasucho opražené kešu oriešky."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 6,
+			"ingredients": [
+				{"name": "kuracie prsia", "quantity": 900, "unit": "g"},
+				{"name": "soľ"},
+				{"name": "bielok", "quantity": 2, "unit": "ks"},
+				{"name": "tapiokový škrob", "quantity": 3, "unit": "PL"},
+				{"name": "kurací vývar", "quantity": 500, "unit": "ml"},
+				{"name": "ananás v ananásovej šťave", "quantity": 430, "unit": "g"},
+				{"name": "sójová omáčka", "quantity": 5, "unit": "PL"},
+				{"name": "kešu oriešky", "quantity": 100, "unit": "g"}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p102.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p102"
+}

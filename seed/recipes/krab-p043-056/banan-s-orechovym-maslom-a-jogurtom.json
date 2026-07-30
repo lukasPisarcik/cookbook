@@ -1,0 +1,26 @@
+{
+	"title": "Banán s orechovým maslom a jogurtom",
+	"category": "snacky",
+	"steps": [
+		"Banán nakrájajte na štvrtiny a vložte do misky.",
+		"Pridajte jogurt, pridajte vločky, chia semienka a jahody.",
+		"Nakoniec pokvapkajte orechovým maslom."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 1,
+			"ingredients": [
+				{"name": "banán", "quantity": 90, "unit": "g"},
+				{"name": "biely jogurt", "quantity": 150, "unit": "g"},
+				{"name": "arašidové maslo s čokoládou", "quantity": 1, "unit": "PL"},
+				{"name": "ovsené vločky", "quantity": 1, "unit": "PL"},
+				{"name": "chia semienka", "quantity": 0.5, "unit": "ČL"},
+				{"name": "sušené jahody", "quantity": 1, "unit": "PL"}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p45.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p45"
+}

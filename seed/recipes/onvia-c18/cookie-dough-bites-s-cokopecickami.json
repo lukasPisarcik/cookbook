@@ -1,0 +1,30 @@
+{
+	"title": "Cookie Dough Bites s čokopecičkami",
+	"category": "snacky",
+	"prepTimeMinutes": 70,
+	"steps": [
+		"Do kuchynského mixéra pridaj všetky suché prísady a pulzovaním všetko spolu vymixuj.",
+		"Pridaj grécky jogurt a niekoľkokrát premixuj v mixéry. Zníž rýchlosť mixovania, kým sa vytvorí cesto. To bude trvať cca 20-30 sekúnd.",
+		"Keď sa cesto vytvorí, pridaj čokopecičky a vmiešaj ich do cesta pomocou špachtle.",
+		"Cesto daj na 45-60 minút vychladiť do chladničky kým nestuhne, potom z neho vytvaruj malé guličky a vychutnaj si ich!"
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 90,
+			"portions": 12,
+			"macros": {"carbs": 7, "protein": 11, "fat": 3},
+			"ingredients": [
+				{"name": "vanilkový proteínový prášok", "quantity": 45, "unit": "g"},
+				{"name": "arašidové maslo v prášku", "quantity": 45, "unit": "g"},
+				{"name": "kokosová múka", "quantity": 25, "unit": "g"},
+				{"name": "sladidlo"},
+				{"name": "nízkotučný grécky jogurt", "quantity": 110, "unit": "g"},
+				{"name": "čokopecičky", "quantity": 30, "unit": "g"}
+			]
+		}
+	],
+	"image": "onvia/image346.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image346"
+}

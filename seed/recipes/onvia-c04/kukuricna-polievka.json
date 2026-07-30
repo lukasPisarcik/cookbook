@@ -1,0 +1,43 @@
+{
+	"title": "Kukuričná polievka",
+	"category": "obedy",
+	"prepTimeMinutes": 40,
+	"steps": [
+		"Na oleji speň cibuľu nakrájanú na mesiačiky a roztlačený cesnak.",
+		"Potom pridaj na kúsky nakrájanú žltú papriku a konzervovanú kukuricu alebo ju zbav tvrdého vnútra.",
+		"Do hrnca nalej vodu a jablčný ocot, prikry pokrievkou a nechaj variť do mäkka.",
+		"Po uvarení polievku rozmixuj tyčovým mixérom.",
+		"Potom v miske/hrnci rozšľahaj ricottu s trochou vody a vlej ju do polievky.",
+		"Polievku dochuť soľou, korením a podľa potreby pridaj bylinky. Chvíľu povar.",
+		"Polievku podávaj pokvapkanú limetkovou šťavou s prípadne ďalšími bylinkami."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 296,
+			"portions": 2,
+			"macros": {
+				"carbs": 30,
+				"protein": 14,
+				"fat": 15
+			},
+			"ingredients": [
+				{ "name": "žltá paprika", "quantity": 200, "unit": "g" },
+				{ "name": "kukurica", "quantity": 200, "unit": "g" },
+				{ "name": "biela cibuľa", "quantity": 1, "unit": "ks" },
+				{ "name": "cesnak", "quantity": 2, "unit": "strúčik" },
+				{ "name": "olivový olej", "quantity": 1, "unit": "PL" },
+				{ "name": "jablčný ocot", "quantity": 1, "unit": "ČL" },
+				{ "name": "voda" },
+				{ "name": "ricotta", "quantity": 200, "unit": "g" },
+				{ "name": "limetková šťava", "quantity": 2, "unit": "PL" },
+				{ "name": "čerstvé bylinky" },
+				{ "name": "soľ" },
+				{ "name": "čierne korenie" }
+			]
+		}
+	],
+	"image": "onvia/image78.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image78"
+}

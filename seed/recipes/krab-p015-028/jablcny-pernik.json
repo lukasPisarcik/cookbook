@@ -1,0 +1,39 @@
+{
+	"title": "Jablčný perník",
+	"category": "dezerty",
+	"steps": [
+		"Rúru predhrejte na 170 stupňov.",
+		"Jablká nastrúhajte najemno.",
+		"V misky zmiešajte múku, kakao, soľ, cukor, perníkové korenie a prášok do pečiva.",
+		"V druhej miske premiešajte spolu vajcia s mliekom a olejom.",
+		"Tekutú zmes nalejte k múke, pridajte jablká a všetko premiešajte. Nakoniec pridajte nasekanú čokoládu.",
+		"Plech alebo koláčovú formu s rozmermi 24x34 cm vymastite maslom alebo trochou oleja a vysypte polohrubou múkou. Potom do plechu nalejte cesto.",
+		"Dajte piecť na 30 minút. Špajľou vyskúšajte či je koláč hotová, ak bude špinavá/mokrá od cesta, pečte ďalej.",
+		"Vo vodnom kúpeli rozpustite čokoládu a polejte ňou perník, následne posypte kokosom.",
+		"Nechajte vychladnúť, jednu porciu presuňte do krabičky a dajte si k perníku nízkotučný tvaroh, skyr alebo grécky jogurt s 9% tuku pre doplnenie bielkovín."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"ingredients": [
+				{"name": "stredné jablko", "quantity": 3, "unit": "ks"},
+				{"name": "hladká špaldová múka", "quantity": 150, "unit": "g"},
+				{"name": "polohrubá pšeničná múka", "quantity": 150, "unit": "g"},
+				{"name": "holandské kakao", "quantity": 20, "unit": "g"},
+				{"name": "trstinový cukor", "quantity": 100, "unit": "g"},
+				{"name": "soľ", "unit": "štipka"},
+				{"name": "kypriaci prášok", "quantity": 10, "unit": "g"},
+				{"name": "perníkové korenie", "quantity": 7, "unit": "g"},
+				{"name": "vysoko percentná čokoláda", "quantity": 70, "unit": "g"},
+				{"name": "olej", "quantity": 130, "unit": "g"},
+				{"name": "vajíčko", "quantity": 2, "unit": "ks"},
+				{"name": "plnotučné mlieko", "quantity": 150, "unit": "g"},
+				{"name": "vysoko percentná čokoláda na polevu", "quantity": 100, "unit": "g"},
+				{"name": "strúhaný kokos"}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p21.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p21"
+}

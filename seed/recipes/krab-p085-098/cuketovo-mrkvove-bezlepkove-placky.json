@@ -1,0 +1,35 @@
+{
+	"title": "Cuketovo-mrkvové bezlepkové placky",
+	"category": "vecere",
+	"dietTags": ["bezlepkove"],
+	"steps": [
+		"Jáhly dajte variť do osolenej vody.",
+		"Cuketu zbavte šupky a nastrúhajte do misky na jemno. Osoľte a nechajte pustiť vodu asi 10-15 minút.",
+		"Trúbu predhrejte na 180 stupňov.",
+		"Vodu z cukety zlejte a pridajte nahrubo nastrúhanú mrkvu a tiež nahrubo nastrúhaného syra Halloumi.",
+		"Pridajte aj kurkumu, rascu, pretlačený cesnak a vajcia.",
+		"Uvarené jáhly rozmixujte na kašu a pridajte ich ku zmesi. Všetko premiešajte do hustej konzistencie. Ak je konzistencia riedka, vezmite cedítko, položte ho na misku a presuňte do neho cuketovú zmes. Voda odkvapne a zostane vám len hustá časť.",
+		"Vezmite nepriľnavý plech alebo plech vystlite papierom na pečenie a vytvorte naň placky. Tie dajte piecť na 20 minút do trúby.",
+		"Podávajte ideálne so zemiakovou kašou a listovým šalátom alebo rukolou."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 3,
+			"ingredients": [
+				{"name": "cuketa", "quantity": 330, "unit": "g"},
+				{"name": "mrkva", "quantity": 100, "unit": "g"},
+				{"name": "syr Halloumi", "quantity": 150, "unit": "g"},
+				{"name": "jáhly", "quantity": 100, "unit": "g"},
+				{"name": "mletá kurkuma", "quantity": 0.5, "unit": "ČL"},
+				{"name": "drvená rasca", "quantity": 1, "unit": "ČL"},
+				{"name": "cesnak", "quantity": 2, "unit": "strúčik"},
+				{"name": "vajce", "quantity": 2, "unit": "ks"},
+				{"name": "soľ"}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p87.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p87"
+}

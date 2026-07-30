@@ -1,0 +1,29 @@
+{
+	"title": "Kuracie rezníky z trúby",
+	"category": "vecere",
+	"steps": [
+		"Trúbu predhrejme na 180 stupňov, vložky rozmixujeme na štruktúru strúhanky a zmiešame s lahôdkovým droždím, cesnakom a mletou paprikou.",
+		"Kuracie prsia očistíme a nakrájame na malé rezníky a osolíme ich.",
+		"Každý kúsok obalíme v zmesi z vločiek a korenia.",
+		"Plech postriekame olejom a položíme naňho rezníky, každý rezníček potom postriekame olejom a dáme piecť na 20-25 minút do trúby.",
+		"Podávame so zemiakovou kašou a restovanou zeleninou alebo šalátom. Ja som si k rezníkom na olivovom oleji orestovala na kolieska nakrájanú mrkvu spolu s mrazenými fazuľkami."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 3,
+			"ingredients": [
+				{"name": "kuracie prsia", "quantity": 500, "unit": "g"},
+				{"name": "soľ"},
+				{"name": "jáhlové vločky", "quantity": 80, "unit": "g"},
+				{"name": "lahôdkové droždie", "quantity": 2, "unit": "PL"},
+				{"name": "sušený mletý cesnak", "quantity": 1, "unit": "ČL"},
+				{"name": "mletá paprika", "quantity": 2, "unit": "ČL"},
+				{"name": "olivový olej v spreji"}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p85.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p85"
+}

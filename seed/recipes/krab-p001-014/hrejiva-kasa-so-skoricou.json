@@ -1,0 +1,30 @@
+{
+	"title": "Hrejivá kaša so škoricou",
+	"category": "ranajky",
+	"steps": [
+		"Do menšieho hrnca nasypte vločky a chia semienka. Pridajte mlieko a vodu, pridajte škoricu, kurkumu a štipku soli. Na miernom plameni varte do zmäknutia a do vytvorenia kaše.",
+		"Kašu presuňte do misky, pridajte jogurt, lyžičku masla a ozdobte jahodami."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 1,
+			"ingredients": [
+				{ "name": "jemné ovsené vločky", "quantity": 50, "unit": "g" },
+				{ "name": "chia semienka", "quantity": 10, "unit": "g" },
+				{ "name": "banán", "quantity": 1, "unit": "ks" },
+				{ "name": "mletá škorica", "quantity": 0.5, "unit": "ČL" },
+				{ "name": "soľ", "unit": "štipka" },
+				{ "name": "mletá kurkuma", "unit": "štipka" },
+				{ "name": "mandľové mlieko", "quantity": 140, "unit": "g" },
+				{ "name": "voda", "quantity": 160, "unit": "g" },
+				{ "name": "kokosový jogurt" },
+				{ "name": "lyofilizované jahody" },
+				{ "name": "orechové maslo" }
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p14.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p14"
+}

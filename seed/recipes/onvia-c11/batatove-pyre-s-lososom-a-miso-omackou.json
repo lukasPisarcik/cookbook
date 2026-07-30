@@ -1,0 +1,33 @@
+{
+	"title": "Batatové pyré s lososom a miso omáčkou",
+	"category": "obedy",
+	"prepTimeMinutes": 20,
+	"steps": [
+		"V teplovzdušnej fritéze (alebo v rúre) peč filet z lososa pokvapkaného citrónovou šťavou a potretého štipkou soli približne 7 minút. Môžeš pridať bylinky, napríklad rozmarín.",
+		"Sladké zemiaky nakrájané na malé kocky uvar do mäkka a potom ich rozmixuj s teplou kokosovou smotanou. Dochuť soľou.",
+		"Posledným bodom je miso omáčka. V malej miske zohrej 1 čajovú lyžičku miso pasty a 50 ml kokosové smotany.",
+		"Na tanieri podávaj nasledovne: pyré zo sladkých zemiakov - losos - miso omáčka - čerstvo nasekaná petržlenová vňať."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 549,
+			"portions": 1,
+			"macros": {"carbs": 35, "protein": 35, "fat": 30},
+			"ingredients": [
+				{"name": "losos", "quantity": 150, "unit": "g"},
+				{"name": "citrónová šťava", "quantity": 1, "unit": "PL"},
+				{"name": "sladké zemiaky", "quantity": 150, "unit": "g"},
+				{"name": "kokosová smotana 9%", "quantity": 50, "unit": "ml"},
+				{"name": "miso pasta", "quantity": 1, "unit": "ČL"},
+				{"name": "kokosová smotana 9%", "quantity": 50, "unit": "ml"},
+				{"name": "soľ"},
+				{"name": "rozmarín"},
+				{"name": "čerstvá petržlenová vňať"}
+			]
+		}
+	],
+	"image": "onvia/image220.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image220"
+}

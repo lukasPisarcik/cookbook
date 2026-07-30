@@ -1,0 +1,29 @@
+{
+	"title": "Tapiokový pudink s malinami",
+	"category": "dezerty",
+	"steps": [
+		"Perly smíchejte s mlékem, medem a solí a nechte 1 hodinu nabobtnat.",
+		"Poté směs přelijte do hlubší pánve a za stáleho míchání pomalu zahřívejte, až směs zhoustne do podoby pudinku.",
+		"Pudink přelijte do 3 misek.",
+		"Maliny zahřejte s vodou a chia semínky. Přidejte med a rozmixujte. Poté směs rovnoměrně naneste na pudink a dejte do lednice minimálně na 2 hodiny vychladit."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 3,
+			"ingredients": [
+				{"name": "tapiokové perly", "quantity": 70, "unit": "g"},
+				{"name": "ovesné mléko", "quantity": 500, "unit": "ml"},
+				{"name": "med", "quantity": 60, "unit": "g"},
+				{"name": "sůl", "unit": "štipka"},
+				{"name": "mražené maliny", "quantity": 100, "unit": "g"},
+				{"name": "voda", "quantity": 150, "unit": "ml"},
+				{"name": "chia semínka", "quantity": 8, "unit": "g"},
+				{"name": "med", "quantity": 10, "unit": "g"}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p124.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p124"
+}

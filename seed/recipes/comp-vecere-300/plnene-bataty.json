@@ -1,0 +1,77 @@
+{
+	"title": "Plnené batáty",
+	"category": "vecere",
+	"dietTags": [
+		"bezlepkove"
+	],
+	"prepTimeMinutes": 45,
+	"steps": [
+		"Batát prekrojíš na polovicu.",
+		"Položíš na plech vyložený papierom na pečenie, pokvapkáš olivovým olejom, posolíš a dáš piecť do vyhriatej rúry na 200 °C.",
+		"Pečieš približne 45 minút.",
+		"Schwarzwaldskú šunku a cibuľu nakrájaš a opečieš ich na panvici s rozohriatym olejom.",
+		"Keď sú batáty upečené, necháš ich chvíľu vychladnúť a potom ich polievkovou lyžicou vydlabeš, pričom necháš okraj asi 0,5 cm od šupky.",
+		"Vydlabanú dužinu roztlačíš vidličkou a zmiešaš s bryndzou a nasekanou pažítkou. Touto zmesou naplníš vydlabané batáty.",
+		"Dáš ešte zapiecť na približne 10 minút.",
+		"Po zapečení posypeš opečenou cibuľkou, šunkou a ozdobíš petržlenovou vňaťou a podávaš s gréckym jogurtom."
+	],
+	"funFact": "Bryndza by naozaj mala pochádzať zo Slovenska. V Detve vznikla koncom 18. storočia aj prvá bryndziareň. Vtedy však išlo o tvrdý syr podobný parmezánu.",
+	"variants": [
+		{
+			"label": "300 kcal",
+			"kcalPerPortion": 297,
+			"portions": 2,
+			"macros": {
+				"carbs": 21,
+				"protein": 17,
+				"fat": 16
+			},
+			"ingredients": [
+				{
+					"name": "batát",
+					"quantity": 200,
+					"unit": "g"
+				},
+				{
+					"name": "olivový olej",
+					"quantity": 5,
+					"unit": "g"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "čierne korenie"
+				},
+				{
+					"name": "schwarzwaldská šunka",
+					"quantity": 30,
+					"unit": "g"
+				},
+				{
+					"name": "červená cibuľa",
+					"quantity": 0.25,
+					"unit": "ks"
+				},
+				{
+					"name": "bryndza",
+					"quantity": 70,
+					"unit": "g"
+				},
+				{
+					"name": "pažítka"
+				},
+				{
+					"name": "petržlenová vňať"
+				},
+				{
+					"name": "grécky jogurt",
+					"quantity": 140,
+					"unit": "g"
+				}
+			]
+		}
+	],
+	"source": "Večere - 300 kcal.pdf",
+	"sourceRef": "p7"
+}

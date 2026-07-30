@@ -1,0 +1,40 @@
+{
+	"title": "Burger so strúhaným vajíčkom",
+	"category": "obedy",
+	"prepTimeMinutes": 15,
+	"steps": [
+		"Mleté mäso na hamburger stačí ochutiť soľou, korením a majoránkou (alebo oreganom).",
+		"Mäso vlož na panvicu postriekanú avokádovým olejom (alebo iným tukom). Keď je mäso opečené z oboch strán, nechaj na ňom roztopiť 1 plátok sendvičového syra.",
+		"Potom si uvar vajíčko. Vlož ho do vriacej osolenej vody na približne 7 minút.",
+		"Medzitým hamburgerovú žemľu rozrež na polovicu a vlož na pár minút do vyhriatej rúry opiecť.",
+		"Potom si priprav omáčku. Na to stačí zmiešať horčicu, kečup, majonézu a uhorkovú šťavu.",
+		"Teraz je čas podávať. Obe polovice hamburgerovej žemle potri omáčkou. Na spodok pridaj mäso, na vrch nastrúhaj uvarené vajce, osoľ a okoreň.",
+		"Ďalej pridaj šalát, plátky paradajok, prikry vrchnou žemľou a vychutnaj si!"
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 569,
+			"macros": {"carbs": 61, "protein": 38, "fat": 20},
+			"ingredients": [
+				{"name": "mleté hovädzie mäso (max. 10 % tuku)", "quantity": 100, "unit": "g"},
+				{"name": "hamburgerová žemľa", "quantity": 1, "unit": "ks"},
+				{"name": "vajce", "quantity": 1, "unit": "ks"},
+				{"name": "horčica", "quantity": 1, "unit": "PL"},
+				{"name": "kečup", "quantity": 1, "unit": "PL"},
+				{"name": "light majonéza", "quantity": 1, "unit": "PL"},
+				{"name": "voda z kyslých uhoriek", "quantity": 1, "unit": "PL"},
+				{"name": "sendvičový syr", "quantity": 1, "unit": "plátok"},
+				{"name": "paradajka", "quantity": 1, "unit": "ks"},
+				{"name": "šalát", "quantity": 1, "unit": "hrsť"},
+				{"name": "olej v spreji"},
+				{"name": "soľ"},
+				{"name": "korenie"},
+				{"name": "majoránka"}
+			]
+		}
+	],
+	"image": "onvia/image224.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image224"
+}

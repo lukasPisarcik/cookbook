@@ -1,0 +1,39 @@
+{
+	"title": "Špenátové wafle",
+	"category": "ranajky",
+	"prepTimeMinutes": 25,
+	"steps": [
+		"Najskôr si priprav cesto na vafle. Všetko potrebné (vajcia, mlieko, múku, soľ, baby špenát, proteín na pečenie) jednoducho vhoď do mixéra a rozmixuj.",
+		"Rozohrej si vaflovač a nastriekaj ho olejovým sprejom. Do vaflovača nalej naberačku cesta. Prikry a upeč. Otvor veko, pretože vafle budú stúpať.",
+		"Kým sa vafle pečú, na panvici opeč 2 vajcia a 2 plátky slaniny.",
+		"Podávaj s čerstvou zeleninou."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 451,
+			"portions": 2,
+			"macros": {
+				"carbs": 35,
+				"protein": 33,
+				"fat": 19
+			},
+			"ingredients": [
+				{ "name": "špaldová múka", "quantity": 80, "unit": "g" },
+				{ "name": "vajce", "quantity": 1, "unit": "ks" },
+				{ "name": "mlieko", "quantity": 150, "unit": "ml" },
+				{ "name": "baby špenát", "quantity": 50, "unit": "g" },
+				{ "name": "proteín na pečenie", "quantity": 1, "unit": "odmerka" },
+				{ "name": "avokádový olej v spreji" },
+				{ "name": "soľ" },
+				{ "name": "vajce", "quantity": 2, "unit": "ks" },
+				{ "name": "čierne korenie" },
+				{ "name": "slanina", "quantity": 2, "unit": "plátok" },
+				{ "name": "reďkovky" }
+			]
+		}
+	],
+	"image": "onvia/image141.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image141"
+}

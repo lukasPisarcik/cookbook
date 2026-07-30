@@ -1,0 +1,68 @@
+{
+	"title": "Bezlepková sekaná",
+	"category": "obedy",
+	"dietTags": ["bezlepkove"],
+	"steps": [
+		"Rúru predhrejte na 180 stupňov.",
+		"Cibuľu a cesnak nakrájajte nadrobno a orestujte na olivovom oleji.",
+		"Mäso presuňte do misky, pridajte orestovanú cibuľu a cesnak a všetky ostatné suroviny, rukami zapracujte v celistvú zmes.",
+		"Vytvarujte šišku, ktorú dáte na plech, podlejte troškou vody a dajte piecť na 40-45 minút.",
+		"Podávajte s pečenými zemiakmi alebo zemiakovou kašou."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 4,
+			"ingredients": [
+				{
+					"name": "biela cibuľa",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "cesnak",
+					"quantity": 2,
+					"unit": "strúčik"
+				},
+				{
+					"name": "olivový olej",
+					"quantity": 1,
+					"unit": "PL"
+				},
+				{
+					"name": "mleté hovädzie mäso",
+					"quantity": 480,
+					"unit": "g"
+				},
+				{
+					"name": "vajce",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "mandľová múka",
+					"quantity": 100,
+					"unit": "g"
+				},
+				{
+					"name": "soľ",
+					"quantity": 5,
+					"unit": "g"
+				},
+				{
+					"name": "hrubozrnná horčica",
+					"quantity": 1,
+					"unit": "ČL"
+				},
+				{
+					"name": "sušená majoránka",
+					"quantity": 1,
+					"unit": "ČL"
+				}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p71.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p71"
+}

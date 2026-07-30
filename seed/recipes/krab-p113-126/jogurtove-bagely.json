@@ -1,0 +1,28 @@
+{
+	"title": "Jogurtové bagely",
+	"category": "zaklady",
+	"steps": [
+		"Do misky od robota nasypte múku, pridajte soľ, kypriaci prášok a jogurt, zapracujte cesto.",
+		"Rúru predhrejte na 180 stupňov.",
+		"Cesto rozdeľte na 4 kúsky, z ktorých vypracujte guľatú buchtičku a prstami v strede roztiahnite, aby vznikol tvar bagelu.",
+		"Potrite mliekom alebo vajíčkom, posypte semienkami a dajte piecť na 20 minút do rúry. Potom zvýšte teplotu na 220 stupňov a pečte ďalších 5 minút.",
+		"Po upečení nechajte vychladnúť."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 4,
+			"ingredients": [
+				{"name": "hladká pšeničná múka", "quantity": 150, "unit": "g"},
+				{"name": "soľ", "unit": "štipka"},
+				{"name": "kypriaci prášok", "quantity": 1, "unit": "ČL"},
+				{"name": "biely jogurt", "quantity": 150, "unit": "g"},
+				{"name": "mlieko"},
+				{"name": "semienka"}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p118.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p118"
+}

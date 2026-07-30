@@ -1,0 +1,28 @@
+{
+	"title": "Chia boost",
+	"category": "ranajky",
+	"prepTimeMinutes": 35,
+	"steps": [
+		"Chia semienka zmiešaj s kokosovým mliekom, proteínom a podľa potreby pridaj trochu vody.",
+		"Nechaj minimálne 30 minút v chladničke.",
+		"Potom ozdob ovocím a vychutnávaj."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 411,
+			"portions": 1,
+			"macros": { "carbs": 27, "protein": 21, "fat": 25 },
+			"ingredients": [
+				{ "name": "chia semienka", "quantity": 30, "unit": "g" },
+				{ "name": "kokosové mlieko v plechovke (light)", "quantity": 100, "unit": "g" },
+				{ "name": "proteínový prášok s príchuťou vanilka", "quantity": 20, "unit": "g" },
+				{ "name": "voda", "quantity": 70, "unit": "ml" },
+				{ "name": "granátové jablko", "quantity": 50, "unit": "g" }
+			]
+		}
+	],
+	"image": "onvia/image366.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image366"
+}

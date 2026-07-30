@@ -1,0 +1,38 @@
+{
+	"title": "Peanut Butter Donuts",
+	"category": "dezerty",
+	"prepTimeMinutes": 15,
+	"steps": [
+		"Predhrej si rúru na 170°C funkcia ventilátor. Do misky nasyp suché suroviny na donuty a premiešaj, aby si zabránila zlhukovaniu. To isté urob s mokrými surovinami v samostatnej miske. Potom spoj suché suroviny s mokrými a miešaj, kým nevznikne husté cesto.",
+		"Vezmi formu na donuty a každú formu na donut vystriekaj olejom v spreji (vytri olejom, alebo maslom). Do všetkých foriem rovnomerne nalej cesto. Vlož do rúry a peč 10 minút. Po dopečení opatrne vyklop a nechaj asi 30 min chladnúť na chladiacej mriežke, kým nebudú mať izbovú teplotu.",
+		"Kým sa donuty chladia, priprav si arašidovú proteínovú polevu tým, že všetky suché suroviny pridáš do misky a premiešaš. Pridaj 45 g nízkotučného gréckeho jogurtu a premiešaj. Potom pomaličky prilievaj studenú vodu po 10 ml a miešaj, kým ti nevznikne konzistencia podobná poleve. Hotovú polevu vlož do chladničky aby sa udržala studená počas chladenia donutov.",
+		"Keď sú donuty vychladené, pridaj na vrch polevu, trochu nasekaných slaných arašidov alebo čokopecičiek a potom si vychutnaj tento nebeský skvost!"
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 99,
+			"portions": 4,
+			"macros": {"carbs": 8, "protein": 10, "fat": 3},
+			"ingredients": [
+				{"name": "vanilkový proteínový prášok", "quantity": 30, "unit": "g"},
+				{"name": "arašidové maslo v prášku", "quantity": 15, "unit": "g"},
+				{"name": "kokosová múka", "quantity": 15, "unit": "g"},
+				{"name": "Unicorn Dust", "quantity": 5, "unit": "g"},
+				{"name": "prášok na pečenie", "quantity": 5, "unit": "g"},
+				{"name": "nízkotučný grécky jogurt", "quantity": 45, "unit": "g"},
+				{"name": "jablkové pyré", "quantity": 45, "unit": "g"},
+				{"name": "tekuté vaječné bielky", "quantity": 50, "unit": "g"},
+				{"name": "vanilkový proteínový prášok", "quantity": 15, "unit": "g"},
+				{"name": "arašidové maslo v prášku", "quantity": 12, "unit": "g"},
+				{"name": "kokosová múka", "quantity": 5, "unit": "g"},
+				{"name": "Unicorn Dust", "quantity": 3, "unit": "g"},
+				{"name": "studená voda", "quantity": 45, "unit": "ml"},
+				{"name": "nasekané arašidy"}
+			]
+		}
+	],
+	"image": "onvia/image270.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image270"
+}

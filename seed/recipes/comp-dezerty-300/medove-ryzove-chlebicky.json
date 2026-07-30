@@ -1,0 +1,30 @@
+{
+	"title": "Medové ryžové chlebíčky",
+	"category": "dezerty",
+	"dietTags": ["bezlepkove"],
+	"prepTimeMinutes": 5,
+	"steps": [
+		"Na každý ryžový chlebíček natri rovnomernú vrstvu gréckeho jogurtu.",
+		"Pokvapkaj medom.",
+		"Ovocie nakrájaj na menšie kúsky a rozlož ho na vrch jogurtovej vrstvy.",
+		"Podľa chuti môžeš posypať štipkou škorice.",
+		"Tento snack je ideálny pred cvičením alebo behom."
+	],
+	"variants": [
+		{
+			"label": "300 kcal",
+			"kcalPerPortion": 288,
+			"portions": 1,
+			"macros": { "carbs": 38, "protein": 15, "fat": 8 },
+			"ingredients": [
+				{ "name": "ryžové chlebíčky", "quantity": 32, "unit": "g" },
+				{ "name": "grécky jogurt (5 %)", "quantity": 140, "unit": "g" },
+				{ "name": "med", "quantity": 10, "unit": "g" },
+				{ "name": "čerstvé ovocie", "quantity": 50, "unit": "g" },
+				{ "name": "škorica", "unit": "štipka" }
+			]
+		}
+	],
+	"source": "Dezerty-300kcal.pdf",
+	"sourceRef": "p9"
+}

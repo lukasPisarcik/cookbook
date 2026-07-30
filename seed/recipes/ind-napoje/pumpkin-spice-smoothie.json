@@ -1,0 +1,71 @@
+{
+	"title": "Pumpkin Spice Smoothie",
+	"category": "smoothies",
+	"prepTimeMinutes": 5,
+	"steps": ["Zmixuj všetky ingrediencie do hladka", "Môžeš podávať s ľadom."],
+	"funFact": "Vôňa pumpkin spice má v štúdiách preukázané, že u ľudí vyvoláva nostalgiu a pocit domova, pretože pripomína pečenie koláčov a rodinné sviatky.",
+	"variants": [
+		{
+			"label": "200 kcal",
+			"kcalPerPortion": 170,
+			"portions": 2,
+			"macros": {
+				"carbs": 21,
+				"protein": 8,
+				"fat": 7
+			},
+			"ingredients": [
+				{
+					"name": "mrazený banán",
+					"quantity": 100,
+					"unit": "g"
+				},
+				{
+					"name": "odtučnený grécky jogurt",
+					"quantity": 120,
+					"unit": "g"
+				},
+				{
+					"name": "tekvicové pyré",
+					"quantity": 120,
+					"unit": "g"
+				},
+				{
+					"name": "nesladené mandľové mlieko",
+					"quantity": 120,
+					"unit": "ml"
+				},
+				{
+					"name": "mandľové maslo",
+					"quantity": 15,
+					"unit": "g"
+				},
+				{
+					"name": "vanilkový extrakt",
+					"quantity": 1,
+					"unit": "ČL"
+				},
+				{
+					"name": "mletá škorica",
+					"quantity": 0.5,
+					"unit": "ČL"
+				},
+				{
+					"name": "muškátový oriešok",
+					"unit": "štipka"
+				},
+				{
+					"name": "zázvor",
+					"unit": "štipka"
+				},
+				{
+					"name": "nové korenie",
+					"unit": "štipka"
+				}
+			]
+		}
+	],
+	"image": "pumpkin-suice-200-kcal/p1.webp",
+	"source": "Pumpkin súice - 200 kcal.pdf",
+	"sourceRef": "p1"
+}

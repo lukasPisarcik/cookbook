@@ -1,0 +1,99 @@
+{
+	"title": "Batátová polievka",
+	"category": "vecere",
+	"dietTags": [
+		"bezlepkove"
+	],
+	"prepTimeMinutes": 20,
+	"steps": [
+		"Do hrnca daj olej, na ktorom opraž nakrájanú cibuľu a cesnak. Potom pridaj mrkvu a batáty a krátko opeč.",
+		"Zalej horúcou vodou a var cca 10 minút.",
+		"Polievku rozmixuj tyčovým mixérom a následne pridaj kokosové mlieko.",
+		"Dochuť soľou, mletým čiernym korením, bazalkou a rascou. Premiešaj a všetko spolu ešte krátko povar.",
+		"Semienka a chlebík nakrájaný na kocky ( krutónky ) zrýchla opraž na suchej panvici a svoju porciu posyp.",
+		"Vrch polievky pokvapkaj 5 g olivového oleja."
+	],
+	"variants": [
+		{
+			"label": "500 kcal",
+			"kcalPerPortion": 490,
+			"portions": 3,
+			"macros": {
+				"carbs": 45,
+				"protein": 21,
+				"fat": 22
+			},
+			"ingredients": [
+				{
+					"name": "olivový olej",
+					"quantity": 5,
+					"unit": "g"
+				},
+				{
+					"name": "cibuľa",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "cesnak",
+					"quantity": 1,
+					"unit": "strúčik"
+				},
+				{
+					"name": "mrkva",
+					"quantity": 100,
+					"unit": "g"
+				},
+				{
+					"name": "batát",
+					"quantity": 600,
+					"unit": "g"
+				},
+				{
+					"name": "vývar",
+					"quantity": 400,
+					"unit": "ml"
+				},
+				{
+					"name": "vegeta",
+					"quantity": 1,
+					"unit": "ČL"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "čierne korenie"
+				},
+				{
+					"name": "bazalka"
+				},
+				{
+					"name": "rasca"
+				},
+				{
+					"name": "kokosové mlieko light",
+					"quantity": 50,
+					"unit": "ml"
+				},
+				{
+					"name": "tekvicové semienka",
+					"quantity": 20,
+					"unit": "g"
+				},
+				{
+					"name": "proteínový chlebík",
+					"quantity": 1,
+					"unit": "plátok"
+				},
+				{
+					"name": "tekvicový olej",
+					"quantity": 5,
+					"unit": "g"
+				}
+			]
+		}
+	],
+	"source": "Večere - 500 kcal.pdf",
+	"sourceRef": "p15"
+}

@@ -1,0 +1,39 @@
+{
+	"title": "Caprese šalátik",
+	"category": "snacky",
+	"steps": [
+		"Cherry umyte, prekrojte napoly a dajte do misky.",
+		"K paradajkám pridajte mozzarelly a pesto, všetko premiešajte a rozdeľte do dvoch mištičiek.",
+		"Nakoniec ozdobte rukolou alebo bazalkou.",
+		"Podávajte s kúskom pečiva, napríklad s cottage buchtičkou."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 2,
+			"ingredients": [
+				{
+					"name": "cherry paradajky",
+					"quantity": 220,
+					"unit": "g"
+				},
+				{
+					"name": "mini mozzarelly",
+					"quantity": 130,
+					"unit": "g"
+				},
+				{
+					"name": "bazalkové pesto",
+					"quantity": 30,
+					"unit": "g"
+				},
+				{
+					"name": "rukola"
+				}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p60.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p60"
+}

@@ -1,0 +1,68 @@
+{
+	"title": "Sloppy Joe",
+	"category": "obedy",
+	"prepTimeMinutes": 25,
+	"steps": [
+		"Rúru predhrej na 200°C funkcia ventilátor a panvicu rozhorej na teplotnú úroveň 6/10 . Mleté hovädzie mäso dochuť v miske morskou soľou a cesnakovým práškom. Cibuľu nakrájaj na malé kocky. Mleté hovädzie mäso a cibuľu pridaj na predhriatu panvicu.",
+		"Restuj a miešaj, kým mäso nezačne hnednúť. Pridaj kečup a worčestrovú omáčku. Dobre premiešaj.",
+		"Teraz si priprav 1 kus chleba a pridaj plátok syra. Z panvice vyber mleté hovädzie mäso a pridaj ho na vrch. Potom na mäso pridaj ďalší plátok syra a prikry druhým kusom chleba.",
+		"Peč v rúre 5-6 minút, kým chlieb nie je zlatistý, a potom už len vychutnávaj!"
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 309,
+			"portions": 1,
+			"macros": {
+				"carbs": 36,
+				"protein": 30,
+				"fat": 5
+			},
+			"ingredients": [
+				{
+					"name": "chlieb",
+					"quantity": 2,
+					"unit": "ks"
+				},
+				{
+					"name": "chudé mleté hovädzie mäso",
+					"quantity": 100,
+					"unit": "g"
+				},
+				{
+					"name": "kečup",
+					"quantity": 50,
+					"unit": "g"
+				},
+				{
+					"name": "worčestrová omáčka",
+					"quantity": 5,
+					"unit": "g"
+				},
+				{
+					"name": "nízkotučný syr",
+					"quantity": 2,
+					"unit": "plátok"
+				},
+				{
+					"name": "cibuľa",
+					"quantity": 30,
+					"unit": "g"
+				},
+				{
+					"name": "granulovaný cesnak v prášku",
+					"quantity": 3,
+					"unit": "g"
+				},
+				{
+					"name": "morská soľ",
+					"quantity": 2,
+					"unit": "g"
+				}
+			]
+		}
+	],
+	"image": "onvia/image114.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image114"
+}

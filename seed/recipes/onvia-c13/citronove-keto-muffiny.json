@@ -1,0 +1,40 @@
+{
+	"title": "Citrónové keto muffiny",
+	"category": "dezerty",
+	"prepTimeMinutes": 15,
+	"steps": [
+		"Predhrej rúru na 180 ℃ funkcia ventilátor.",
+		"V stredne veľkej miske spolu vymiešaj suché suroviny na základ. Pridaj mokré suroviny na základ a miešaj stierkou, kým sa nevytvorí cesto.",
+		"Rozdeľ cesto na 6 rovnakých častí a vytvaruj z nich guľky.",
+		"Zvoľ si formu na muffiny do každej vlož guľku z cesta a vtlač ju prstami smerom von tak, aby pokryla dno formy na muffin. Základ pečieš približne 7 minút. Počas pečenia začni pripravovať náplň.",
+		"V stredne veľkej miske vymiešaj mokré suroviny na náplň, kým nevznikne krémová konzistencia.",
+		"Potom pridaj suché suroviny na náplň a znova premiešaj. Plnka by mala byť \"mokrá\". Náplň nalej na vrch upečených muffinových základov.",
+		"Celé muffiny peč ďalších 15 minút.",
+		"Po dopečení nechaj muffiny vychladnúť. Po vychladnutí vlož do chladničky aspoň na hodinu. Potom už len vychutnávaj tento dokonalý citrónový dezert.",
+		"Muffiny sa najlepšie podávajú vychladené. Skladuj ich zakryté v chladničke."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 222,
+			"portions": 6,
+			"macros": {"carbs": 5, "protein": 23, "fat": 12},
+			"ingredients": [
+				{"name": "maslo (roztopené)", "quantity": 50, "unit": "g"},
+				{"name": "čistý vanilkový extrakt", "quantity": 0.5, "unit": "ČL"},
+				{"name": "vaječný žĺtok", "quantity": 1, "unit": "ks"},
+				{"name": "mandľová múka", "quantity": 100, "unit": "g"},
+				{"name": "Unicorn Dust", "quantity": 6, "unit": "g"},
+				{"name": "vajce", "quantity": 3, "unit": "ks"},
+				{"name": "citrónová šťava", "quantity": 80, "unit": "g"},
+				{"name": "citrónová kôra", "quantity": 0.5, "unit": "ks"},
+				{"name": "erythritol", "quantity": 60, "unit": "g"},
+				{"name": "mandľová múka", "quantity": 100, "unit": "g"},
+				{"name": "Unicorn Dust Vanilla Ecstasy", "quantity": 3, "unit": "g"}
+			]
+		}
+	],
+	"image": "onvia/image9.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image9"
+}

@@ -1,0 +1,87 @@
+{
+	"title": "Cestoviny so šošovicovým krémovým ragú",
+	"category": "obedy",
+	"steps": [
+		"Cibuľu a cesnak očisťte a nakrájajte nadrobno, cherry na polovičky a všetko orestujte na olivovom oleji v hlbokej panvici.",
+		"Pridajte šošovicu, orestujte a zalejte polovicou vývaru. Osoľte a pridajte bobkové listy.",
+		"Po 10 minútach pridajte aj passatu a pretlak.",
+		"Až bude v panvici málo tekutiny, dolejte zvyšný vývar a varte až kým šošovica nezmäkne.",
+		"Nakoniec pridajte med a mascarpone – už nevarte, len nechajte rozpustiť a premiešajte. Zo zmesi vyberte bobkové listy.",
+		"Cestoviny uvarte v osolenej vode a zmiešajte s ragú.",
+		"Presuňte do krabičiek a ozdobte klíčkami."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 3,
+			"ingredients": [
+				{
+					"name": "olivový olej",
+					"quantity": 2,
+					"unit": "PL"
+				},
+				{
+					"name": "cibuľa",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "cesnak",
+					"quantity": 2,
+					"unit": "strúčik"
+				},
+				{
+					"name": "klasická šošovica",
+					"quantity": 170,
+					"unit": "g"
+				},
+				{
+					"name": "cherry paradajky",
+					"quantity": 10,
+					"unit": "ks"
+				},
+				{
+					"name": "zeleninový vývar",
+					"quantity": 1,
+					"unit": "l"
+				},
+				{
+					"name": "bobkový list",
+					"quantity": 2,
+					"unit": "ks"
+				},
+				{
+					"name": "paradajková passata",
+					"quantity": 200,
+					"unit": "g"
+				},
+				{
+					"name": "paradajkový pretlak",
+					"quantity": 2,
+					"unit": "PL"
+				},
+				{
+					"name": "mascarpone",
+					"quantity": 100,
+					"unit": "g"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "med",
+					"quantity": 2,
+					"unit": "PL"
+				},
+				{
+					"name": "cestoviny",
+					"quantity": 280,
+					"unit": "g"
+				}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p80.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p80"
+}

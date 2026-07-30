@@ -1,0 +1,33 @@
+{
+	"title": "Banánové lievančeky",
+	"category": "ranajky",
+	"dietTags": ["bezlepkove"],
+	"prepTimeMinutes": 10,
+	"steps": [
+		"Banán roztlač vidličkou v miske, pridaj vajíčka a dobre premiešaj.",
+		"Pridaj kypriaci prášok a škoricu.",
+		"Všetko dôkladne premiešaj, aby vznikla hladká zmes.",
+		"Na strednom ohni rozohrej panvicu, na ktorú pridaj kvapku oleja, (ideálne ak máš olej v spreji).",
+		"Nalej zmes na panvicu a smaž malé lievance, asi 2-3 minúty z každej strany, dozlatista.",
+		"Podávaj s ovocím, jogurtom a prelej javorovým sirupom."
+	],
+	"variants": [
+		{
+			"label": "450 kcal",
+			"kcalPerPortion": 447,
+			"portions": 1,
+			"macros": {"carbs": 40, "protein": 27, "fat": 20},
+			"ingredients": [
+				{"name": "vajíčko", "quantity": 2, "unit": "ks"},
+				{"name": "banán", "quantity": 65, "unit": "g"},
+				{"name": "kypriaci prášok", "quantity": 0.5, "unit": "ČL"},
+				{"name": "škorica", "quantity": 0.5, "unit": "ČL"},
+				{"name": "grécky jogurt 5%", "quantity": 140, "unit": "g"},
+				{"name": "bobuľové ovocie", "quantity": 75, "unit": "g"},
+				{"name": "javorový sirup", "quantity": 5, "unit": "g"}
+			]
+		}
+	],
+	"source": "Raňajky - 450 kcal.pdf",
+	"sourceRef": "p11"
+}

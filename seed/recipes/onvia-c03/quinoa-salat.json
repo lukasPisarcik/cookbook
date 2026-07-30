@@ -1,0 +1,86 @@
+{
+	"title": "Quinoa šalát",
+	"category": "obedy",
+	"prepTimeMinutes": 35,
+	"steps": [
+		"Najprv uvar quinou do mäkka.",
+		"Vo veľkej mise zmiešaj rukolu, na kocky nakrájaný pomaranč, semienka granátového jablka, na kocky nakrájaný balkánsky syr, lieskové orechy a vychladnutú quinou. Suroviny spolu premiešaj.",
+		"V menšej miske priprav zálievku. Zmiešaj citrónovú šťavu, med, olivový olej, vodu a korenie.",
+		"Šalát polej zálievkou, premiešaj, podávaj a vychutnávaj."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 516,
+			"portions": 2,
+			"macros": {
+				"carbs": 64,
+				"protein": 22,
+				"fat": 19
+			},
+			"ingredients": [
+				{
+					"name": "quinoa",
+					"quantity": 140,
+					"unit": "g"
+				},
+				{
+					"name": "rukola",
+					"quantity": 2,
+					"unit": "hrsť"
+				},
+				{
+					"name": "pomaranč",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "semienka granátového jablka",
+					"quantity": 30,
+					"unit": "g"
+				},
+				{
+					"name": "balkánsky syr",
+					"quantity": 100,
+					"unit": "g"
+				},
+				{
+					"name": "lieskové oriešky",
+					"quantity": 10,
+					"unit": "g"
+				},
+				{
+					"name": "citrón",
+					"quantity": 0.5,
+					"unit": "ks"
+				},
+				{
+					"name": "med",
+					"quantity": 1,
+					"unit": "ČL"
+				},
+				{
+					"name": "olivový olej",
+					"quantity": 1,
+					"unit": "ČL"
+				},
+				{
+					"name": "voda",
+					"quantity": 1,
+					"unit": "PL"
+				},
+				{
+					"name": "soľ",
+					"unit": "štipka"
+				},
+				{
+					"name": "korenie",
+					"unit": "štipka"
+				}
+			]
+		}
+	],
+	"image": "onvia/image60.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image60"
+}

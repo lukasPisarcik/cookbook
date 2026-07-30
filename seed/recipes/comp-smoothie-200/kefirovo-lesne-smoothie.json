@@ -1,0 +1,33 @@
+{
+	"title": "Kefírovo - lesné smoothie",
+	"category": "smoothies",
+	"prepTimeMinutes": 5,
+	"steps": [
+		"Zmixuj všetky ingrediencie do hladka.",
+		"Môžeš podávať s ľadom a vychutnať si smoothie."
+	],
+	"funFact": "Fermentované mliečne nápoje, obsahujú široké spektrum probiotík!",
+	"variants": [
+		{
+			"label": "200 kcal",
+			"kcalPerPortion": 241,
+			"portions": 1,
+			"macros": {
+				"carbs": 21,
+				"protein": 23,
+				"fat": 4
+			},
+			"ingredients": [
+				{"name": "acidko Rajo biele 1%", "quantity": 200, "unit": "ml"},
+				{"name": "voda", "quantity": 100, "unit": "ml"},
+				{"name": "mrazené lesné ovocie", "quantity": 150, "unit": "g"},
+				{"name": "proteín vanilka", "quantity": 20, "unit": "g"},
+				{"name": "ľad"},
+				{"name": "stévia"}
+			]
+		}
+	],
+	"image": "smoothie-200-kcal/p11.webp",
+	"source": "Smoothie - 200 kcal.pdf",
+	"sourceRef": "p11"
+}

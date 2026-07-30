@@ -1,0 +1,35 @@
+{
+	"title": "Vláčny jablkový koláč bez lepku a laktózy",
+	"category": "dezerty",
+	"dietTags": ["bezlepkove", "bezlaktozove"],
+	"steps": [
+		"Rúru predhrejte na 180 stupňov.",
+		"Jablká olúpte a nakrájajte na tenké plátky, ktoré dajte do misky a pokvapkajte citrónovou šťavou a pridajte najemno nastrúhanú kôru z citróna.",
+		"Vajcia vyšľahajte spolu s cukrom do peny, potom pridajte jogurt, olej, múku, kypriaci prášok a vanilku, všetko dobre premiešajte.",
+		"Nakoniec pridajte aj 2/3 jabĺk a premiešajte.",
+		"Formu na koláč s priemerom 28-32 cm vymastite trochou oleja a vysypte múkou. Do formy nalejte cesto a navrch naukladajte zvyšné plátky jabĺk.",
+		"Dajte piecť do rúry na 35 minút.",
+		"Po upečení nechajte vychladnúť.",
+		"Tip: ak nemáte problém s laktózou, môžete namiesto kešu jogurtu použiť klasický jogurt a porciu doplniť skyrom alebo gréckym jogurtom s 0% tuku. Ak sa nevyhýbate lepku môžete namiesto ryžovej múky použiť klasickú špaldovú alebo pšeničnú múku."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"ingredients": [
+				{"name": "stredné jablko", "quantity": 6, "unit": "ks"},
+				{"name": "citrón", "quantity": 1, "unit": "ks"},
+				{"name": "vajce", "quantity": 3, "unit": "ks"},
+				{"name": "trstinový cukor", "quantity": 100, "unit": "g"},
+				{"name": "ryžová múka", "quantity": 200, "unit": "g"},
+				{"name": "kypriaci prášok", "quantity": 10, "unit": "g"},
+				{"name": "soľ", "unit": "štipka"},
+				{"name": "rastlinný olej", "quantity": 100, "unit": "g"},
+				{"name": "kešu jogurt", "quantity": 160, "unit": "g"},
+				{"name": "mletá vanilka", "quantity": 0.5, "unit": "ČL"}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p22.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p22"
+}

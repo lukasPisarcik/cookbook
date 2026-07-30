@@ -1,0 +1,26 @@
+{
+	"title": "Melónové smoothie",
+	"category": "smoothies",
+	"prepTimeMinutes": 13,
+	"steps": [
+		"Melón bez jadierok a zelenej šupy vhoď do mixéra. Potom pridaj mrazený banán. Ak nemáš mrazený banán, pridaj aj niekoľko kociek ľadu. Pridaj proteín a mlieko.",
+		"Rozmixuj a rozdeľ do 2 pohárov."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 345,
+			"portions": 2,
+			"macros": {"carbs": 60, "protein": 22, "fat": 4},
+			"ingredients": [
+				{"name": "melón bez jadierok", "quantity": 300, "unit": "g"},
+				{"name": "mrazený banán", "quantity": 1, "unit": "ks"},
+				{"name": "vanilkový proteínový prášok", "quantity": 20, "unit": "g"},
+				{"name": "mandľové mlieko", "quantity": 150, "unit": "ml"}
+			]
+		}
+	],
+	"image": "onvia/image352.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image352"
+}

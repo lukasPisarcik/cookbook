@@ -1,0 +1,44 @@
+{
+	"title": "Ryžový šalát s tuniakom",
+	"category": "obedy",
+	"prepTimeMinutes": 15,
+	"steps": [
+		"Uvar ryžu podľa návodu na obale a odlož ju bokom.",
+		"Umy a nakrájaj zeleninu na kocky. Odstráň z konzervy z tuniakom vodu a zmiešaj všetky suroviny (okrem feta syru a rukoly) v miske dokopy.",
+		"Nakrájaj feta syr na kocky a opláchni rukolu. K zvyšku šalátu pridaj ešte teplú ryžu.",
+		"V malej miske si zmiešaj vodu z uhoriek, jablčný ocot, olej, citrónovú šťavu, korenie, bylinky a vylej do šalátu. Pridaj rukolu a feta syr.",
+		"Všetko poriadne premiešaj a v prípade potreby ešte raz dochuť soľou a korením."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 654,
+			"portions": 1,
+			"macros": {
+				"carbs": 45,
+				"protein": 61,
+				"fat": 25
+			},
+			"ingredients": [
+				{ "name": "tuniak vo vlastnej šťave", "quantity": 1, "unit": "konzerva" },
+				{ "name": "cherry paradajky", "quantity": 200, "unit": "g" },
+				{ "name": "ryža basmati", "quantity": 40, "unit": "g" },
+				{ "name": "feta syr light", "quantity": 60, "unit": "g" },
+				{ "name": "jarná cibuľka", "quantity": 2, "unit": "ks" },
+				{ "name": "zavárané uhorky", "quantity": 4, "unit": "ks" },
+				{ "name": "červená cibuľa", "quantity": 0.5, "unit": "ks" },
+				{ "name": "rukola", "quantity": 30, "unit": "g" },
+				{ "name": "voda z uhoriek", "quantity": 3, "unit": "PL" },
+				{ "name": "jablčný ocot", "quantity": 1, "unit": "PL" },
+				{ "name": "citrón", "quantity": 1, "unit": "ks" },
+				{ "name": "olivový olej", "quantity": 1, "unit": "PL" },
+				{ "name": "morská soľ" },
+				{ "name": "čierne korenie" },
+				{ "name": "petržlenová vňať" }
+			]
+		}
+	],
+	"image": "onvia/image194.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image194"
+}

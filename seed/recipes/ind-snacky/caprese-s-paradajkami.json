@@ -1,0 +1,58 @@
+{
+	"title": "Caprese s paradajkami",
+	"category": "snacky",
+	"prepTimeMinutes": 5,
+	"steps": [
+		"Mozzarellu aj paradajky nakrájaj na tenké plátky.",
+		"Na plytký tanier striedavo ulož plátky mozzarelly a paradajok.",
+		"Ochuť ich soľou a mletým čiernym korením.",
+		"Pokvapkaj balzamikovým octom a olivovým olejom.",
+		"Na záver ozdob čerstvými lístkami bazalky.",
+		"Dobrú chuť!"
+	],
+	"funFact": "Mozzarella oproti iným syrom je jemnejšia a ľahšie stráviteľná.",
+	"variants": [
+		{
+			"label": "300 kcal",
+			"kcalPerPortion": 336,
+			"portions": 1,
+			"macros": {
+				"carbs": 9,
+				"protein": 23,
+				"fat": 23
+			},
+			"ingredients": [
+				{
+					"name": "mozzarella",
+					"quantity": 125,
+					"unit": "g"
+				},
+				{
+					"name": "paradajka",
+					"quantity": 150,
+					"unit": "g"
+				},
+				{
+					"name": "čerstvá bazalka"
+				},
+				{
+					"name": "olivový olej",
+					"quantity": 3,
+					"unit": "ml"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "čierne korenie"
+				},
+				{
+					"name": "balzamikový ocot"
+				}
+			]
+		}
+	],
+	"image": "caprese-s-paradajkami-300-kcal/p1.webp",
+	"source": "Caprese s paradajkami - 300 kcal.pdf",
+	"sourceRef": "p1"
+}

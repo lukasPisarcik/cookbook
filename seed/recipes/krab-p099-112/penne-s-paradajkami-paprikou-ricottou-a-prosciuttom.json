@@ -1,0 +1,36 @@
+{
+	"title": "Penne s paradajkami, paprikou, ricottou a prosciuttom",
+	"category": "obedy",
+	"steps": [
+		"Cesnak nakrájajte nadrobno. Cherry rozkrojte na polovicu a papriku nakrájajte na malé kocky.",
+		"V hlbšej panvici rozohrejte olej a orestujte na ňom cesnak. Pridajte cherry a papriku, orestujte a zalejte vodou.",
+		"Zmes osoľte, pridajte údenú papriku, pretlak, smotanu a povarte. Nakoniec pridajte ricottu, ale nevarte, aby sa ricotta nezrazila. Pridajte lahôdkové droždie a premiešajte.",
+		"Prosciutto nakrájajte nadrobno, dajte do menšej zapekacej misky a dajte do trúby, ktorá je predhriata na 180 stupňov, aby sa vypiekol tuk a vytvorili sa chrumkavé kúsky.",
+		"Cestoviny uvarte v osolenej vode a zmiešajte s paradajkovou zmesou.",
+		"Jednotlivé porcie premiestnite do krabičiek, ozdobte rukolou a nakoniec pridajte chrumkavé kúsky prosciutta."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 4,
+			"ingredients": [
+				{"name": "olivový olej", "quantity": 1, "unit": "PL"},
+				{"name": "cesnak", "quantity": 2, "unit": "strúčik"},
+				{"name": "cherry paradajky", "quantity": 12, "unit": "ks"},
+				{"name": "červená kápia", "quantity": 1, "unit": "ks"},
+				{"name": "voda", "quantity": 250, "unit": "ml"},
+				{"name": "paradajkový pretlak", "quantity": 2, "unit": "PL"},
+				{"name": "smotana s 15 % tukom", "quantity": 150, "unit": "g"},
+				{"name": "ricotta", "quantity": 250, "unit": "g"},
+				{"name": "údená paprika", "quantity": 4, "unit": "ČL"},
+				{"name": "soľ"},
+				{"name": "lahôdkové droždie", "quantity": 1, "unit": "PL"},
+				{"name": "prosciutto", "quantity": 100, "unit": "g"},
+				{"name": "cestoviny penne", "quantity": 280, "unit": "g"}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p99.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p99"
+}

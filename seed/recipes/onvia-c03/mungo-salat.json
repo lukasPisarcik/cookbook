@@ -1,0 +1,79 @@
+{
+	"title": "Mungo šalát",
+	"category": "obedy",
+	"prepTimeMinutes": 40,
+	"steps": [
+		"Fazuľu mungo nechaj cez noc namočenú vo vode. Alebo aspoň 4 hodiny pred varením. Pred varením vodu z fazule sceď a v novej vode uvar do mäkka. Trvá to približne 30 minút.",
+		"Medzitým si nakrájaj uhorky a cherry paradajky na polmesiačiky, a cibuľu na pásiky.",
+		"Potom si v malej miske priprav zálievku. Stačí zmiešať olivový olej, citrónovú šťavu, vodu, med alebo iné sladidlo a korenie (soľ, korenie).",
+		"Keď je fazuľa uvarená, zlej z nej prebytočnú vodu, zmiešaj ju s nakrájanou zeleninou vo veľkej mise, zalej zálivkou a navrch pridaj rozdrobený syr."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 424,
+			"portions": 3,
+			"macros": {
+				"carbs": 52,
+				"protein": 24,
+				"fat": 15
+			},
+			"ingredients": [
+				{
+					"name": "mungo fazuľa",
+					"quantity": 200,
+					"unit": "g"
+				},
+				{
+					"name": "cherry paradajky",
+					"quantity": 100,
+					"unit": "g"
+				},
+				{
+					"name": "červená cibuľa",
+					"quantity": 0.5,
+					"unit": "ks"
+				},
+				{
+					"name": "uhorka",
+					"quantity": 100,
+					"unit": "g"
+				},
+				{
+					"name": "balkánsky syr",
+					"quantity": 100,
+					"unit": "g"
+				},
+				{
+					"name": "citrón",
+					"quantity": 0.5,
+					"unit": "ks"
+				},
+				{
+					"name": "med",
+					"quantity": 20,
+					"unit": "g"
+				},
+				{
+					"name": "olivový olej",
+					"quantity": 20,
+					"unit": "g"
+				},
+				{
+					"name": "voda",
+					"quantity": 2,
+					"unit": "PL"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "čierne korenie"
+				}
+			]
+		}
+	],
+	"image": "onvia/image61.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image61"
+}

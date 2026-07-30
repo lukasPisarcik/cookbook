@@ -1,0 +1,67 @@
+{
+	"title": "Gnocchi s cherry paradajkami, mozzarellou a krémovou omáčkou",
+	"category": "obedy",
+	"steps": [
+		"Cesnak očistite a nakrájajte nadrobno, cherry paradajky umyte a rozkrojte napoly.",
+		"V hlbokej panvici rozohrejte olivový olej a orestujte na ňom cesnak, potom pridajte aj paradajky, orestujte a zalejte vodou alebo vývarom. Ak ste zvolili vodu, pridajte lyžicu bujónu.",
+		"Prilejte smotanu a pridajte gnocchi, opäť povarte, kým gnocchi nezmäknú. Nakoniec podľa chuti dosoľte.",
+		"Gnocchi s omáčkou rozdeľte do 3 krabičiek, ozdobte nasekanou bazalkou a pridajte natrhanou mozzarellou."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 3,
+			"ingredients": [
+				{
+					"name": "olivový olej",
+					"quantity": 1,
+					"unit": "PL"
+				},
+				{
+					"name": "cesnak",
+					"quantity": 2,
+					"unit": "strúčik"
+				},
+				{
+					"name": "cherry paradajky",
+					"quantity": 10,
+					"unit": "ks"
+				},
+				{
+					"name": "voda",
+					"quantity": 150,
+					"unit": "ml"
+				},
+				{
+					"name": "kurací bujón",
+					"quantity": 1,
+					"unit": "PL"
+				},
+				{
+					"name": "smotana na varenie",
+					"quantity": 200,
+					"unit": "g"
+				},
+				{
+					"name": "zemiakové gnocchi",
+					"quantity": 500,
+					"unit": "g"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "čerstvá bazalka"
+				},
+				{
+					"name": "mozzarella light",
+					"quantity": 250,
+					"unit": "g"
+				}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p72.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p72"
+}

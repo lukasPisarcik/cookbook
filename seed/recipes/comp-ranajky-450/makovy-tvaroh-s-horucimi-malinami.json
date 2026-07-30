@@ -1,0 +1,32 @@
+{
+	"title": "Makový tvaroh s horúcimi malinami",
+	"category": "ranajky",
+	"dietTags": ["bezlepkove"],
+	"prepTimeMinutes": 10,
+	"steps": [
+		"V miske zmiešaj tvaroh vanilkový extrakt a mak, kým nevznikne hladký krém.",
+		"Mrazené ovocie si rozmraz na panvičke, podlej troškou vody a pridaj sladidlo.",
+		"Ovocie miešaj až kým sa nevyparí väčšina vody a nevznikne hustejšia konzistencia.",
+		"Naservíruj do misky makový tvaroh a na vrch daj horúce maliny.",
+		"Ozdob orieškovým maslom a polej javorovým sirupom na záver."
+	],
+	"variants": [
+		{
+			"label": "450 kcal",
+			"kcalPerPortion": 450,
+			"portions": 1,
+			"macros": {"carbs": 35, "protein": 37, "fat": 16},
+			"ingredients": [
+				{"name": "nízkotučný tvaroh", "quantity": 250, "unit": "g"},
+				{"name": "mletý mak", "quantity": 15, "unit": "g"},
+				{"name": "vanilkový extrakt", "quantity": 0.5, "unit": "ČL"},
+				{"name": "javorový sirup", "quantity": 15, "unit": "g"},
+				{"name": "bezkalorické sladidlo"},
+				{"name": "mrazené maliny", "quantity": 100, "unit": "g"},
+				{"name": "orieškové maslo", "quantity": 15, "unit": "g"}
+			]
+		}
+	],
+	"source": "Raňajky - 450 kcal.pdf",
+	"sourceRef": "p12"
+}

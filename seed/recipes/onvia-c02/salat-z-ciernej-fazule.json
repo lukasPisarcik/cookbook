@@ -1,0 +1,115 @@
+{
+	"title": "Šalát z čiernej fazule",
+	"category": "obedy",
+	"prepTimeMinutes": 10,
+	"steps": [
+		"Najlepšie je, ak čiernu fazuľu namočíš deň vopred cez noc. (Fazuľa je dvojnásobne veľká po namočení, takže potrebuješ 100 g suchej fazule. Niekoľkokrát ju prepláchni čerstvou vodou a nechaj ju namočenú v miske cez noc).",
+		"Na druhý deň ju môžeš variť vo vode 60-80 minút, kým nezmäkne.",
+		"Potom je zvyšok veľmi jednoduchý. Stačí, ak všetky suroviny zmiešaš vo veľkej mise.",
+		"To isté urob aj s prísadami na dressing. Pridaj ich do šalátu, všetko dobre premiešaj a vychutnaj si! Tento šalát je perfektný samostatne, ale aj ako skvelá príloha k mäsu."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 552,
+			"portions": 3,
+			"macros": {
+				"carbs": 48,
+				"protein": 30,
+				"fat": 27
+			},
+			"ingredients": [
+				{
+					"name": "čierna fazuľa (uvarená)",
+					"quantity": 200,
+					"unit": "g"
+				},
+				{
+					"name": "žltá paprika",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "feta syr light",
+					"quantity": 1,
+					"unit": "balenie"
+				},
+				{
+					"name": "malá červená cibuľa",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "jalapeños",
+					"quantity": 50,
+					"unit": "g"
+				},
+				{
+					"name": "miešaný šalát",
+					"quantity": 100,
+					"unit": "g"
+				},
+				{
+					"name": "kukurica z konzervy",
+					"quantity": 50,
+					"unit": "g"
+				},
+				{
+					"name": "cherry paradajky",
+					"quantity": 200,
+					"unit": "g"
+				},
+				{
+					"name": "cvikla (varená)",
+					"quantity": 100,
+					"unit": "g"
+				},
+				{
+					"name": "avokádo",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "čierne korenie"
+				},
+				{
+					"name": "granulovaný cesnak"
+				},
+				{
+					"name": "rasca"
+				},
+				{
+					"name": "údená paprika"
+				},
+				{
+					"name": "sladká paprika"
+				},
+				{
+					"name": "čerstvý koriander",
+					"unit": "hrsť"
+				},
+				{
+					"name": "olivový olej",
+					"quantity": 20,
+					"unit": "ml"
+				},
+				{
+					"name": "jablčný ocot",
+					"quantity": 2,
+					"unit": "PL"
+				},
+				{
+					"name": "šťava z limetky",
+					"quantity": 2,
+					"unit": "ks"
+				}
+			]
+		}
+	],
+	"image": "onvia/image48.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image48"
+}

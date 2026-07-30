@@ -1,0 +1,33 @@
+{
+	"title": "Kel s parmezánom",
+	"category": "zaklady",
+	"prepTimeMinutes": 40,
+	"steps": [
+		"Ružičkový kel umy a vrchné listy, ak sú nepekné, vyhoď. Potom ho prekroj na polovicu.",
+		"Plech vyložený papierom na pečenie vysyp nastrúhaným parmezánom a kel poukladaj reznou stranou nadol.",
+		"Pokvapkaj olivovým olejom a peč v rúre pri teplote 190°C ohrev zhora/zdola približne 30 minút. Kým kel nezmäkne a syr pod ním nebude chrumkavý.",
+		"Po upečení rozdeľ a vychutnaj si s horčicovým dipom."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 458,
+			"portions": 1,
+			"macros": {
+				"carbs": 11,
+				"protein": 25,
+				"fat": 33
+			},
+			"ingredients": [
+				{ "name": "ružičkový kel", "quantity": 250, "unit": "g" },
+				{ "name": "parmezán", "quantity": 50, "unit": "g" },
+				{ "name": "olivový olej", "quantity": 2, "unit": "PL" },
+				{ "name": "soľ", "unit": "štipka" },
+				{ "name": "hrubozrnná horčica", "quantity": 2, "unit": "PL" }
+			]
+		}
+	],
+	"image": "onvia/image129.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image129"
+}

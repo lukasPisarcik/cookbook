@@ -1,0 +1,97 @@
+{
+	"title": "Jablkový koláč",
+	"category": "dezerty",
+	"prepTimeMinutes": 110,
+	"steps": [
+		"CESTO: V mixéri zmiešaj múku, maslo, kokosový cukor a škoricu. Pridaj žĺtok a opäť mixuj, kým sa cesto nespojí. Ak je potrebné, pridaj asi 1/2 polievkovej lyžice studenej vody. Potom cesto zabaľ, nechaj chladiť minimálne 30 minút",
+		"PLNKA: Medzitým daj nakrájané jablká s citrónovou šťavou, 50 g cukru, škoricu a 2 lyžice vody do hrnca. Dus 10-15 minút, kým sa jablká čiastočne nerozpadnú na pyré, ale niektoré kúsky jabĺk nech zostanú tak, že sú rozpoznateľné. Var do hustejšej konzistencie, nech nemáš príliš vodnaté pyré, ktoré by potom mohlo premočiť korpus. Po uvarení nechaj vychladnúť.",
+		"KORPUS: Rozvaľkaj vychladené cesto na hrúbku cca 1,5 - 2cm. Vlož ho do otváracej formy na koláč (priemer cca 23 cm), pritlač na spodok a po bokoch. Daj formu s cestom opäť schladiť 10-15 minút. Medzitým rozohrej rúru na 180 - 200 °C.",
+		"KORPUS: Cesto zakry papierom na pečenie a peč 10 minút. Potom odstráň papier a peč ďalších 5-10 minút, až kým cesto nebude zlatisté a suché.",
+		"Naplň predpečený korpus plnkou a rozotri rovnomerne. Olúp a nakrájaj zvyšné 4 sladké jablká na tenké plátky. Na vrch poukladaj plátky jabĺk tak, že sa mierne prekrývajú. Posyp zvyšným cukrom a rozlož po vrchu kocky masla. Peč 30-35 minút, kým plátky jabĺk nezmäknú a nezískajú zlatistú farbu.",
+		"Nechaj koláč asi 10 minút odstáť, potom nakrájaj. Môžeš podávať spolu s gréckym jogurtom.",
+		"Dobrú chuť"
+	],
+	"funFact": "Jablko obsahuje 80% vody, takže prirodzene pomáha s hydratáciou",
+	"variants": [
+		{
+			"label": "300 kcal",
+			"kcalPerPortion": 355,
+			"portions": 8,
+			"macros": {
+				"carbs": 50,
+				"protein": 10,
+				"fat": 12
+			},
+			"ingredients": [
+				{
+					"name": "špaldová múka",
+					"quantity": 150,
+					"unit": "g"
+				},
+				{
+					"name": "studené maslo",
+					"quantity": 75,
+					"unit": "g"
+				},
+				{
+					"name": "kokosový cukor",
+					"quantity": 50,
+					"unit": "g"
+				},
+				{
+					"name": "mletá škorica",
+					"quantity": 1,
+					"unit": "ČL"
+				},
+				{
+					"name": "žĺtok",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "studená voda",
+					"quantity": 0.5,
+					"unit": "PL"
+				},
+				{
+					"name": "sladké jablko",
+					"quantity": 8,
+					"unit": "ks"
+				},
+				{
+					"name": "citrón",
+					"quantity": 0.5,
+					"unit": "ks"
+				},
+				{
+					"name": "kokosový cukor do plnky",
+					"quantity": 50,
+					"unit": "g"
+				},
+				{
+					"name": "kokosový cukor na vrch",
+					"quantity": 20,
+					"unit": "g"
+				},
+				{
+					"name": "mletá škorica do plnky",
+					"quantity": 0.5,
+					"unit": "ČL"
+				},
+				{
+					"name": "studené maslo na vrch",
+					"quantity": 25,
+					"unit": "g"
+				},
+				{
+					"name": "odtučnený grécky jogurt",
+					"quantity": 70,
+					"unit": "g"
+				}
+			]
+		}
+	],
+	"image": "jablkovy-kolac-300-kcal/p1.webp",
+	"source": "Jablkový koláč - 300 kcal.pdf",
+	"sourceRef": "p1"
+}

@@ -1,0 +1,34 @@
+{
+	"title": "Šúľance s makom a slivkami",
+	"category": "obedy",
+	"prepTimeMinutes": 18,
+	"steps": [
+		"Všetky suroviny na cesto vymiesime v miske (alebo hneď na ľahko pomúčenej ploche) do homogénneho cesta.",
+		"Z cesta vyvaľkáme 4 rovnako hrubé hady a nakrájame ich na požadovanú dĺžku (4-5cm).",
+		"Šúlance varíme 90 sekúnd (nie dlhšie!) v mierne vriacej vode.",
+		"Na rozpálenej panvici rozpustíme maslo, pridáme pomletý mak zmiešaný s Unicorn Dust a nakoniec pridáme uvarené šúľance. Dobre premiešame kým sa šúľance rovnomerne neobalia makovou zmesou a ľahko nezhnednú.",
+		"Podávaj priamo na tanieri a vychutnaj si tento netradične tradičný skvost!"
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 646,
+			"portions": 1,
+			"macros": {"carbs": 63, "protein": 41, "fat": 25},
+			"ingredients": [
+				{"name": "zemiaky (surové a ošúpané)", "quantity": 100, "unit": "g"},
+				{"name": "špaldová múka", "quantity": 60, "unit": "g"},
+				{"name": "proteínový prášok (neutrálny / vanilka)", "quantity": 30, "unit": "g"},
+				{"name": "vajce", "quantity": 1, "unit": "ks"},
+				{"name": "Unicorn Dust", "quantity": 6, "unit": "g"},
+				{"name": "soľ", "unit": "štipka"},
+				{"name": "maslo", "quantity": 20, "unit": "g"},
+				{"name": "mak (pomletý bez cukru)", "quantity": 12, "unit": "g"},
+				{"name": "Unicorn Dust (topping)", "quantity": 3, "unit": "g"}
+			]
+		}
+	],
+	"image": "onvia/image288.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image288"
+}

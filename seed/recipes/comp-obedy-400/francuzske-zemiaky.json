@@ -1,0 +1,43 @@
+{
+	"title": "Francúzske zemiaky",
+	"category": "obedy",
+	"prepTimeMinutes": 90,
+	"steps": [
+		"Zemiaky v šupke umyješ a dáš variť do osolenej vody na cca 30 minút, záleží od veľkosti. ( nevaríš ich do mäkka, keďže ich budeme ešte zapekať, ale nesmú byť ani tvrdé. )",
+		"Potom vodu zlejéš a necháš vychladnúť.",
+		"Následne vychladnuté zemiaky ošúpeš a pretlačíš.",
+		"3 vajíčka uvaríš natvrdo, ošúpeš a pretlačíš.",
+		"Párky si uvar a nakrájaj spolu aj so šunkou.",
+		"V miske zmiešaj všetky suroviny na zálievku dohromady.",
+		"Do zapekacej misy rozlož polovicu zemiakov. Potom rozlož mix párky a šunku, a nakoniec na vrch pridáš pretlačeného vajíčka.",
+		"Poleješ to celé zálievkou.",
+		"Zakryješ alobalom a dáš piecť do vyhriatej rúry na 200 stupňov na 25 minút.",
+		"Po 25 minútach vyber, daj preč alobal a na vrch daj mozzarellu.",
+		"A pečieš ďalších 20 minút do zlatista.",
+		"Hotovo. Dobrú chuť ;)"
+	],
+	"funFact": "Francúzke zemiaky nie sú francúzke! Ide o tradičné jedlo v strednej Európe, hlavne na Slovensku a v Maďarsku.",
+	"variants": [
+		{
+			"label": "400 kcal",
+			"kcalPerPortion": 403,
+			"portions": 5,
+			"macros": { "carbs": 41, "protein": 22, "fat": 16 },
+			"ingredients": [
+				{ "name": "zemiaky", "quantity": 1, "unit": "kg" },
+				{ "name": "kvalitná šunka", "quantity": 75, "unit": "g" },
+				{ "name": "párky s vysokým obsahom mäsa", "quantity": 100, "unit": "g" },
+				{ "name": "vajce", "quantity": 3, "unit": "ks" },
+				{ "name": "strúhaná mozzarella", "quantity": 125, "unit": "g" },
+				{ "name": "biely jogurt 3%", "quantity": 150, "unit": "g" },
+				{ "name": "polotučné mlieko", "quantity": 100, "unit": "ml" },
+				{ "name": "cesnak", "quantity": 2, "unit": "strúčik" },
+				{ "name": "bazalka" },
+				{ "name": "soľ" },
+				{ "name": "čierne korenie" }
+			]
+		}
+	],
+	"source": "Obedy - 400 kcal.pdf",
+	"sourceRef": "p17"
+}

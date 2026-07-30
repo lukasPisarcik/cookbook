@@ -1,0 +1,87 @@
+{
+	"title": "Dokonalý cuketový nákyp",
+	"category": "obedy",
+	"steps": [
+		"Túru predhrejte na 180 stupňov.",
+		"Cuketu olúpte, vydlabte semienka a nastrúhajte nahrubo do misky. Pridajte soľ a nechajte 10 minút odležať. Potom sceďte prebytočnú vodu.",
+		"Cibuľu nakrájajte najemno a šunku na kocky, parmezán nastrúhajte najemno.",
+		"V panvici rozohrejte olej a orestujte na ňom cibuľu spolu so šunkou, potom to presuňte do misky k cukete.",
+		"Teraz pridajte aj ďalšie ingrediencie – vajcia, vločky, krupicu, nastrúhaný parmezán, semienka a korenie. Všetko premiešajte.",
+		"Formu s priemerom 20 cm vymastite troškou oleja, presuňte do nej cesto a pečte 45 minút.",
+		"Podávajte so zeleninou alebo zeleninovým šalátom. Ak budete chcieť zvoliť ako prílohu zemiakovú kašu alebo pečené zemiaky, rozdeľte nákyp na 4 porcie."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 2,
+			"ingredients": [
+				{
+					"name": "cuketa",
+					"quantity": 300,
+					"unit": "g"
+				},
+				{
+					"name": "soľ",
+					"quantity": 0.25,
+					"unit": "ČL"
+				},
+				{
+					"name": "repkový olej",
+					"quantity": 1,
+					"unit": "ČL"
+				},
+				{
+					"name": "cibuľa",
+					"quantity": 60,
+					"unit": "g"
+				},
+				{
+					"name": "morčacia šunka",
+					"quantity": 150,
+					"unit": "g"
+				},
+				{
+					"name": "vajce",
+					"quantity": 2,
+					"unit": "ks"
+				},
+				{
+					"name": "ovsené jemné vločky",
+					"quantity": 2,
+					"unit": "PL"
+				},
+				{
+					"name": "detská krupica",
+					"quantity": 3,
+					"unit": "PL"
+				},
+				{
+					"name": "parmezán",
+					"quantity": 100,
+					"unit": "g"
+				},
+				{
+					"name": "slnečnicové semienka",
+					"quantity": 1,
+					"unit": "PL"
+				},
+				{
+					"name": "mletá kurkuma",
+					"quantity": 0.5,
+					"unit": "ČL"
+				},
+				{
+					"name": "sušená majoránka",
+					"quantity": 1,
+					"unit": "ČL"
+				},
+				{
+					"name": "olej na vymastenie formy"
+				}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p79.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p79"
+}

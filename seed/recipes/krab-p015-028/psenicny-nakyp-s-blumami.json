@@ -1,0 +1,32 @@
+{
+	"title": "Pšeničný nákyp s blumami",
+	"category": "dezerty",
+	"steps": [
+		"Rúru predhrejte na 180 stupňov.",
+		"Pšenicu uvarte domäkka.",
+		"Vajcia rozdeľte na žĺtky a bielky. Bielky vyšľahajte do snehu a žĺtky dajte do misky, pridajte k nim med, ghí a kokosové alebo rastlinné mlieko, premiešajte. Potom pridajte uvarenú pšenicu, škoricu a vanilku. Všetko spolu premiešajte.",
+		"Blumy dôkladne umyte, rozpoľte, odkôstkuje a nakrájajte na kúsky (ak by ste použili hrušky, určite ich zbavte šupky), polovicu blúm primiešajte do pšeničnej zmesi. Nakoniec opatrne primiešajte bielky.",
+		"Zapekaciu misku vymastite trochou prepusteného masla a presuňte pšeničnú zmes do misky. Navrch potom položte zvyšné blumy a dajte piecť na 30-35 minút.",
+		"Po upečení nechajte chvíľu schladiť a potom presunúť do krabičiek.",
+		"Ak nemáte problém s mliekom, môžete podávať s kyslom smotanou."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 4,
+			"ingredients": [
+				{"name": "pšenica v suchom stave", "quantity": 220, "unit": "g"},
+				{"name": "prepustené maslo", "quantity": 2, "unit": "PL"},
+				{"name": "vajce", "quantity": 3, "unit": "ks"},
+				{"name": "kokosové mlieko", "quantity": 2, "unit": "PL"},
+				{"name": "med", "quantity": 130, "unit": "g"},
+				{"name": "mletá škorica", "quantity": 2, "unit": "ČL"},
+				{"name": "mletá vanilka", "unit": "štipka"},
+				{"name": "stredná bluma", "quantity": 7, "unit": "ks"}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p23.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p23"
+}

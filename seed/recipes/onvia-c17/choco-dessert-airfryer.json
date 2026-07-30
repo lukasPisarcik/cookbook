@@ -1,0 +1,36 @@
+{
+	"title": "Choco dessert airfryer",
+	"category": "dezerty",
+	"prepTimeMinutes": 10,
+	"steps": [
+		"V miske zmiešaj ovsenú múku, kakao, kypriaci prášok a soľ.",
+		"Pridaj mlieko, olivový olej, kokosový cukor a Unicorn Dust sladidlo. Všetko vymiešaj na hladké cesto.",
+		"Horkú čokoládu nasekaj nadrobno a jemne ju zapracuj do zmesi.",
+		"Cesto vylej do menšej formy vhodnej do airfryera.",
+		"Peč pri teplote 170 °C približne 12 - 15 minút. Stred by mal zostať mierne vláčny.",
+		"Nechaj krátko vychladnúť, doplň jogurtom a môžeš si vychutnávať."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 363,
+			"portions": 1,
+			"macros": {"carbs": 40, "protein": 21, "fat": 13},
+			"ingredients": [
+				{"name": "ovsená múka", "quantity": 30, "unit": "g"},
+				{"name": "olivový olej", "quantity": 5, "unit": "g"},
+				{"name": "kokosový cukor", "quantity": 5, "unit": "g"},
+				{"name": "polotučné mlieko", "quantity": 75, "unit": "ml"},
+				{"name": "horká čokoláda (70 %)", "quantity": 10, "unit": "g"},
+				{"name": "kakao", "quantity": 5, "unit": "g"},
+				{"name": "soľ", "unit": "štipka"},
+				{"name": "kypriaci prášok", "quantity": 2, "unit": "g"},
+				{"name": "Unicorn Dust"},
+				{"name": "biely grécky jogurt (0 %)", "quantity": 140, "unit": "g"}
+			]
+		}
+	],
+	"image": "onvia/image12.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image12"
+}

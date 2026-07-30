@@ -1,0 +1,34 @@
+{
+	"title": "Mini mozzarelly z fritézy",
+	"category": "snacky",
+	"prepTimeMinutes": 25,
+	"steps": [
+		"Najskôr v trojitej vrstve obal mini mozzarelly. Najprv v múke s paprikou, potom vo vajci a nakoniec v poriadnej dávke strúhanky, aby mozzarelly nevytiekli.",
+		"Mozzarelly vlož do horúcej teplovzdušnej fritézy (AirFryer) alebo na plech vyložený papierom na pečenie a upeč do zlatista.",
+		"Podávaj s kečupom bez pridaného cukru alebo obľúbeným dipom. Vhodná by bola aj čerstvo nakrájaná zelenina, alebo ako topping na šalát."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 438,
+			"portions": 1,
+			"macros": {
+				"carbs": 44,
+				"protein": 23,
+				"fat": 18
+			},
+			"ingredients": [
+				{ "name": "hladká múka", "quantity": 1, "unit": "PL" },
+				{ "name": "vajce", "quantity": 0.5, "unit": "ks" },
+				{ "name": "mini mozzarella", "quantity": 80, "unit": "g" },
+				{ "name": "panko strúhanka", "quantity": 20, "unit": "g" },
+				{ "name": "soľ" },
+				{ "name": "sladká paprika" },
+				{ "name": "kečup bez pridaného cukru", "quantity": 50, "unit": "g" }
+			]
+		}
+	],
+	"image": "onvia/image135.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image135"
+}

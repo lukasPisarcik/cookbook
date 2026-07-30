@@ -1,0 +1,33 @@
+{
+	"title": "Cuketové placky so syrom a pažítkovým dipom",
+	"category": "obedy",
+	"steps": [
+		"Cuketu umyte, odkrojte konce a nastrúhajte nahrubo do misky. Pridajte soľ a nechajte pustiť vodu, trvá to asi 20 minút.",
+		"Potom vyžmýkajte a zlejte vodu a k cukete pridajte vajce, strúhanku, prelisovaný cesnak, rozdrobte fetu a pridajte najemno nastrúhaný syr parmezán.",
+		"Všetko dôkladne prepojte a vytvarujte na nepriľnavý plech alebo na plech vystlaný papierom na pečenie 9 placiek.",
+		"Pečte v predhriatej rúre na 190 stupňov 25 minút.",
+		"Medzitým pripravte dip – v miske zmiešajte smotanu, tvaroh, soľ a nasekanú pažítku.",
+		"Placky podávajte so zemiakovou kašou alebo pečenými zemiakmi a dipom."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 3,
+			"ingredients": [
+				{"name": "cuketa", "quantity": 370, "unit": "g"},
+				{"name": "soľ", "quantity": 0.5, "unit": "ČL"},
+				{"name": "feta", "quantity": 70, "unit": "g"},
+				{"name": "parmezán", "quantity": 30, "unit": "g"},
+				{"name": "vajíčko", "quantity": 2, "unit": "ks"},
+				{"name": "strúhanka", "quantity": 80, "unit": "g"},
+				{"name": "cesnak", "quantity": 1, "unit": "strúčik"},
+				{"name": "kyslá smotana", "quantity": 90, "unit": "g"},
+				{"name": "nízkotučný tvaroh", "quantity": 60, "unit": "g"},
+				{"name": "pažítka"}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p112.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p112"
+}

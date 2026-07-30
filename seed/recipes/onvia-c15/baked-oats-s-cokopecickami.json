@@ -1,0 +1,32 @@
+{
+	"title": "Baked Oats s čokopecičkami",
+	"category": "ranajky",
+	"prepTimeMinutes": 5,
+	"steps": [
+		"Rúru predhrej na 180°C nastavenie ventilátor. Do misky daj suché prísady (okrem čokopecičiek) a premiešaj. Potom pridaj mokré prísady a opäť dobre premiešaj. Nakoniec pridaj čokopecičky (časť si nechaj na neskôr ako topping).",
+		"Vezmi liatinovú panvicu vhodnú do rúry na pečenie (16,5 cm) / alebo formu na pečenie a postriekaj (vytri) ju kokosovým olejom alebo maslom. Pridaj ovsené cesto a rovnomerne ho lyžicou pritlač, kým nepokryje celý povrch dna. Vlož do vyhriatej rúry na 10-12 minút.",
+		"Po upečení nechaj niekoľko minút vychladnúť, posyp zvyšnými čokopecičkami, ľubovoľnou polevu, alebo iným topping a vychutnaj si túto zdravú šialenú chuťovú bombu!"
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 575,
+			"portions": 1,
+			"macros": {"carbs": 79, "protein": 37, "fat": 12},
+			"ingredients": [
+				{"name": "jemné ovsené vločky", "quantity": 60, "unit": "g"},
+				{"name": "vanilkový proteínový prášok", "quantity": 30, "unit": "g"},
+				{"name": "kokosová múka", "quantity": 18, "unit": "g"},
+				{"name": "Unicorn Dust", "quantity": 6, "unit": "g"},
+				{"name": "tekuté vaječné bielky", "quantity": 50, "unit": "g"},
+				{"name": "nesladené jablkové pyré", "quantity": 50, "unit": "g"},
+				{"name": "nízkotučný grécky jogurt", "quantity": 50, "unit": "g"},
+				{"name": "mandľové mlieko", "quantity": 50, "unit": "ml"},
+				{"name": "čokopecičky", "quantity": 15, "unit": "g"}
+			]
+		}
+	],
+	"image": "onvia/image287.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image287"
+}

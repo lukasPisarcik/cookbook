@@ -1,0 +1,32 @@
+{
+	"title": "Omeleta s feta syrom",
+	"category": "ranajky",
+	"prepTimeMinutes": 12,
+	"steps": [
+		"Olej zohrej na panvičke a zatiaľ si v miske rozklep vajíčka, pridaj soľ a korenie.",
+		"Na panvicu vylej vajecnú zmes a nechaj variť niekoľko minút na menšom ohni.",
+		"Na jednu polovicu omelety pridaj feta syr, špenát a paradajky a druhú polovicu prelož cez plnku.",
+		"Podávaj s chlebíkom a ak chceš, aj s ďalšou porciou čerstvej zeleniny."
+	],
+	"funFact": "Vajíčka sú vynikajúcim zdrojom bielkovín, pričom obsahujú všetky esenciálne aminokyseliny, ktoré si telo nedokáže vyprodukovať?",
+	"variants": [
+		{
+			"label": "450 kcal",
+			"kcalPerPortion": 454,
+			"portions": 1,
+			"macros": {"carbs": 22, "protein": 28, "fat": 28},
+			"ingredients": [
+				{"name": "vajce", "quantity": 3, "unit": "ks"},
+				{"name": "feta syr", "quantity": 30, "unit": "g"},
+				{"name": "špenát", "quantity": 30, "unit": "g"},
+				{"name": "cherry paradajky", "quantity": 40, "unit": "g"},
+				{"name": "olivový olej", "quantity": 3, "unit": "ml"},
+				{"name": "soľ"},
+				{"name": "čierne korenie"},
+				{"name": "kváskový chlebík", "quantity": 40, "unit": "g"}
+			]
+		}
+	],
+	"source": "Raňajky - 450 kcal.pdf",
+	"sourceRef": "p10"
+}

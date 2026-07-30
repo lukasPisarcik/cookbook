@@ -1,0 +1,67 @@
+{
+	"title": "Jemné praclíky",
+	"category": "zaklady",
+	"prepTimeMinutes": 30,
+	"steps": [
+		"Predhrej rúru na 200°C funkcia ventilátor.",
+		"Do misky nasyp polohrubú múku, kokosovú múku, prášok do pečiva a granulovaný cesnak. Všetky suroviny spolu premiešaj, aby sa pri pridávaní mokrých surovín zabránilo ich zhlukovaniu.",
+		"Potom pridaj grécky jogurt a dôkladne premiešaj.",
+		"Keď sa cesto spojí, zľahka si navlhči ruky a spracuj cesto rukami. Čím viac s ním budeš pracovať v rukách, tým bude lepšie. Na túto činnosť si vyhraď niekoľko minút. Tvoje cesto by už malo byť super hladké.",
+		"Rozdeľ cesto na 4 rovnaké guľôčky, ktoré môžeš vyvaľkať. Každá guľôčka cesta by mala vážiť približne 60-65 g.",
+		"Vezmi jednu z guľôčok cesta a začni ju váľať na doske do tvaru povrazu. Vyvaľkaj ho čo najdlhšie, pričom povraz z cesta musí mať hrúbku približne jeden centimeter.",
+		"Vezmi cestový povraz a vytvor z neho tvar písmena U a potom konce na vrchu prekríž. Potom ich ešte raz prekríž. Nakoniec konce prelož smerom na dol k pôvodnému tvaru U a pritlač ich.",
+		"Tento postup zopakuj aj pri ďalších 3 praclíkoch.",
+		"Vonkajšie strany praclíkov potri vajíčkom. Na vrch pridaj vločky morskej soli a polož na plech vystlaný papierom na pečenie. Potom vlož do rúry na 8-10 minút.",
+		"Po dopečení ich vyber a vychutnaj si ich!"
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 121,
+			"portions": 4,
+			"macros": {
+				"carbs": 21,
+				"protein": 7,
+				"fat": 1
+			},
+			"ingredients": [
+				{
+					"name": "polohrubá múka",
+					"quantity": 90,
+					"unit": "g"
+				},
+				{
+					"name": "kokosová múka",
+					"quantity": 16,
+					"unit": "g"
+				},
+				{
+					"name": "nízkotučný grécky jogurt",
+					"quantity": 140,
+					"unit": "g"
+				},
+				{
+					"name": "prášok do pečiva",
+					"quantity": 6,
+					"unit": "g"
+				},
+				{
+					"name": "granulovaný cesnak",
+					"quantity": 4,
+					"unit": "g"
+				},
+				{
+					"name": "vajíčko na potretie",
+					"quantity": 10,
+					"unit": "ml"
+				},
+				{
+					"name": "vločky morskej soli"
+				}
+			]
+		}
+	],
+	"image": "onvia/image29.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image29"
+}

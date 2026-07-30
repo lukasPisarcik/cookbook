@@ -1,0 +1,32 @@
+{
+	"title": "Kokosová Panna Cotta",
+	"category": "dezerty",
+	"dietTags": ["bezlaktozove"],
+	"prepTimeMinutes": 15,
+	"steps": [
+		"Kokosové mlieko vo verzii light nalej do hrnca. Použi to z plechovky.",
+		"Pridaj sladidlo a proteínový prášok. Premiešaj a vmiešaj želatínový prášok.",
+		"Daj na sporák a nechaj variť na miernom ohni. Zmes by nemala vrieť ani bublať.",
+		"Nalej do pohárov alebo misiek a nechaj vychladnúť. Potom ju presuň do chladničky a nechaj úplne stuhnúť. Bude to trvať najmenej 4 hodiny.",
+		"Po stuhnutí vyklop na tanier a polej vareným horúcim ovocím.",
+		"Vychutnaj si!"
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 276,
+			"portions": 3,
+			"macros": {"carbs": 10, "protein": 19, "fat": 17},
+			"ingredients": [
+				{"name": "kokosové mlieko light", "quantity": 400, "unit": "ml"},
+				{"name": "proteínový prášok (vanilka)", "quantity": 30, "unit": "g"},
+				{"name": "erytritol", "quantity": 50, "unit": "g"},
+				{"name": "želatína v prášku", "quantity": 1, "unit": "vrecko"},
+				{"name": "jahody", "quantity": 150, "unit": "g"}
+			]
+		}
+	],
+	"image": "onvia/image315.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image315"
+}

@@ -1,0 +1,38 @@
+{
+	"title": "Rybie prsty",
+	"category": "snacky",
+	"prepTimeMinutes": 20,
+	"steps": [
+		"Predhrej rúru na 200 stupňov.",
+		"Odstráň väčšinu vody z tuniaka vo vlastnej šťave zmiešaj v miske spolu s jedným vajcom, strúhaným syrom a strúhankou panko.",
+		"Na plechu vystlanom papierom na pečenie vytvaruj z hmoty tyčinky. Môže ti pomôcť, ak si ruky navlhčíš vodou, aby sa hmota na prsty pri tvarovaní nelepila.",
+		"Peč v horúcej rúre alebo fritéze (AirFryer) cca 10 minút, alebo kým nie sú tyčinky zlatohnedé.",
+		"Vychutnaj si ich s dipom a s prílohou podľa vlastných preferencií."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 54,
+			"portions": 11,
+			"macros": {
+				"carbs": 1,
+				"protein": 6,
+				"fat": 3
+			},
+			"ingredients": [
+				{ "name": "tuniak vo vlastnej šťave", "quantity": 125, "unit": "g" },
+				{ "name": "vajce", "quantity": 1, "unit": "ks" },
+				{ "name": "syr Eidam 30%", "quantity": 100, "unit": "g" },
+				{ "name": "panko strúhanka", "quantity": 20, "unit": "g" },
+				{ "name": "soľ" },
+				{ "name": "čierne korenie" },
+				{ "name": "cesnak" },
+				{ "name": "biely jogurt", "quantity": 150, "unit": "g" },
+				{ "name": "provensalské korenie" }
+			]
+		}
+	],
+	"image": "onvia/image122.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image122"
+}

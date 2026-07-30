@@ -1,0 +1,30 @@
+{
+	"title": "Chia puding s malinami",
+	"category": "ranajky",
+	"dietTags": ["vegan", "bezlaktozove", "bezlepkove"],
+	"prepTimeMinutes": 5,
+	"steps": [
+		"V miske zmiešaj chia semienka s kokosovým mliekom a javorovým sirupom. Poriadne premiešaj.",
+		"Vlož do chladničky aspoň na 2-3 hodiny/cez noc, aby vznikla pudingová konzistencia.",
+		"Pred podávaním pridaj orieškové maslo a môžeš ozdobiť malinami, či lístkami mäty."
+	],
+	"funFact": "Chia semienka dokážu nasať vodu až do 12-násobku svojej hmotnosti, vďaka čomu získajú pudingovú/ gélovú konzistenciu, a tak jedlá zahusťujú a tiež podporujú pocit sýtosti.",
+	"variants": [
+		{
+			"label": "450 kcal",
+			"kcalPerPortion": 447,
+			"portions": 1,
+			"macros": {"carbs": 20, "protein": 11, "fat": 34},
+			"ingredients": [
+				{"name": "chia semienka", "quantity": 30, "unit": "g"},
+				{"name": "kokosové mlieko light", "quantity": 120, "unit": "ml"},
+				{"name": "javorový sirup", "quantity": 10, "unit": "ml"},
+				{"name": "čerstvé alebo mrazené maliny", "quantity": 50, "unit": "g"},
+				{"name": "orieškové maslo", "quantity": 15, "unit": "g"},
+				{"name": "lístky mäty"}
+			]
+		}
+	],
+	"source": "Raňajky - 450 kcal.pdf",
+	"sourceRef": "p2"
+}

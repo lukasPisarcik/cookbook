@@ -1,0 +1,36 @@
+{
+	"title": "Zemiakové guľky s mletým mäsom",
+	"category": "obedy",
+	"prepTimeMinutes": 30,
+	"steps": [
+		"Zemiaky ošúp a uvar vo vriacej vode do mäkka. Uvarené zemiaky roztlač so soľou, petržlenovou vňaťou a maslom na kašu.",
+		"V hrnci na lyžičke oleja orestuj nadrobno nakrájanú cibuľu. Potom pridaj mleté hovädzie mäso, aby sa zatiahlo. Po niekoľkých minútach podlej passatou alebo prepasírovanými paradajkami a okoreň (korenie, sušený cesnak, soľ).",
+		"Zo zemiakovej kaše vytvaruj 6 guliek. Do každej urob palcom jamku v mieste, kde sa bude nachádzať mäsová zmes.",
+		"Guľky vlož do zapekacej misy, naplň ich mäsovou zmesou a posyp strúhaným syrom.",
+		"Vlož do vyhriatej rúry a peč na 180°C približne 30 minút a potom už len vychutnávaj."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 366,
+			"portions": 2,
+			"macros": {"carbs": 39, "protein": 17, "fat": 16},
+			"ingredients": [
+				{"name": "zemiaky", "quantity": 400, "unit": "g"},
+				{"name": "maslo", "quantity": 20, "unit": "g"},
+				{"name": "cibuľa", "quantity": 0.5, "unit": "ks"},
+				{"name": "mleté hovädzie mäso", "quantity": 100, "unit": "g"},
+				{"name": "paradajkový pretlak", "quantity": 100, "unit": "g"},
+				{"name": "olivový olej", "quantity": 1, "unit": "PL"},
+				{"name": "syr eidam 30%", "quantity": 10, "unit": "g"},
+				{"name": "soľ", "unit": "štipka"},
+				{"name": "sušená petržlenová vňať"},
+				{"name": "sušený granulovaný cesnak"},
+				{"name": "čierne korenie"}
+			]
+		}
+	],
+	"image": "onvia/image207.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image207"
+}

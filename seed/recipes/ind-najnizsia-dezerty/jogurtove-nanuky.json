@@ -1,0 +1,47 @@
+{
+	"title": "Jogurtové nanuky",
+	"category": "dezerty",
+	"prepTimeMinutes": 5,
+	"steps": [
+		"Zmiešaj si všetky suroviny, poprípade rozmixuj.",
+		"Následne to vlej do formičiek na nanuky ( Ak nemáš formičky, použi muffinové formy, kde naleješ zmes a zapichneš paličky/špajdľu, môžeš jesť aj lyžičkou. )",
+		"Daj zamraziť aspoň na 4 až 6 hodín, ideálne cez noc.",
+		"A máš zdravé nanuky na leto hotové."
+	],
+	"funFact": "Nanuk vznikol náhodou, keď 11–ročný chlapec, nechal omylom limonádu s miešacou paličkou cez noc na verande, kde zamrzla.",
+	"variants": [
+		{
+			"label": "300 kcal",
+			"kcalPerPortion": 247,
+			"portions": 2,
+			"macros": {
+				"carbs": 38,
+				"protein": 14,
+				"fat": 3
+			},
+			"ingredients": [
+				{
+					"name": "maliny",
+					"quantity": 300,
+					"unit": "g"
+				},
+				{
+					"name": "grécky jogurt",
+					"quantity": 280,
+					"unit": "g"
+				},
+				{
+					"name": "vanilkový extrakt"
+				},
+				{
+					"name": "med",
+					"quantity": 25,
+					"unit": "g"
+				}
+			]
+		}
+	],
+	"image": "jogurtove-nanuky-300-kcal/p1.webp",
+	"source": "Jogurtové nanuky - 300 kcal.pdf",
+	"sourceRef": "p1"
+}

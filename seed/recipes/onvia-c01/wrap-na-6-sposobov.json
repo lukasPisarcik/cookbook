@@ -1,0 +1,31 @@
+{
+	"title": "Wrap na 6 spôsobov",
+	"category": "obedy",
+	"steps": [
+		"Mexický wrap: 1 celozrnná tortilla, ½ šálky mleté hovädzie mäso, 2 lyžice guacamole, ¼ šálky kukurice, ¼ šálky červenej cibule, ¼ šálky čiernej fazule, ¼ šálky baranie rohy (papričky), soľ, biele korenie, rasca, cesnak, údená paprika, koriander, limetková šťava.",
+		"Grécky wrap: 1 celozrnná tortilla, ½ šálky syr fety, 2-3 plátky veľkých paradajok, ½ šálky čalamády, 5-6 plátkov uhorky, ¼ šálky gréckeho jogurtu, soľ, čierne korenie, oregano, cesnak, sladká paprika, limetková šťava, olivový olej.",
+		"Taliansky wrap: 1 celozrnná tortilla, ¼ šálky pesta, 3-4 kúsky prosciutto šunky, 3 srdiečka artičokov, pečená červená paprika, lístky bazalky, 4-5 malých guličiek mozzarelly, soľ, čierne korenie, olivový olej, oregano, bazalka, sušené paradajky.",
+		"Klasický wrap: 1 celozrnná tortilla, 3 plátky organická morčacia šunka, ¼ šálky strúhaný syr light, ¼ šálky avokáda, ¼ šálky bielej cibule nakrájanej na kocky, 2-3 plátky veľkých paradajok, pár listov hlávkového šalátu, soľ, čierne korenie, horčica.",
+		"Thajský arašidový wrap: 1 celozrnná tortilla, grilované kuracie kúsky, ¼ šálky čínskej kapusty, ¼ šálky nastrúhanej mrkvy, 1 PL arašidov, ½ šálky červenej papriky, sójové klíčky, sezamový olej, koriander, kokosová amino omáčka (alebo sójová omáčka), limetková šťava, sriracha.",
+		"Raňajkový wrap: 1 celozrnná tortilla, 1 uvarené vajce, 1 lyžica smotanového syra, hrsť špenátu, 3 plátky údeného lososa, 4-5 plátkov varenej červenej repy, ¼ šálky jarnej cibuľky, soľ, čierne korenie, citrónová šťava, kôpor.",
+		"Neexistuje jediný správny spôsob, ako zabaliť wrap. Pokiaľ ti nič nevypadne, si na správnej ceste!",
+		"Ak použiješ hummus, pesto alebo roztlačené avokádo, natri ich na tortillu ako prvý krok.",
+		"Potom pridaj ostatné suroviny podľa vlastnej chuti.",
+		"Zroluj a vychutnávaj!"
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"ingredients": [
+				{
+					"name": "celozrnná tortilla",
+					"quantity": 1,
+					"unit": "ks"
+				}
+			]
+		}
+	],
+	"image": "onvia/image17.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image17"
+}

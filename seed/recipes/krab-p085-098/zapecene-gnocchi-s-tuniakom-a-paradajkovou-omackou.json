@@ -1,0 +1,31 @@
+{
+	"title": "Zapečené gnocchi s tuniakom a paradajkovou omáčkou",
+	"category": "vecere",
+	"steps": [
+		"Trúbu predhrejeme na 180 stupňov.",
+		"Do zapekacej misky dáme gnocchi.",
+		"Passatu zmiešame s trochou soli, talianskymi bylinkami a sušeným cesnakom. Omáčku prelejeme na gnocchi.",
+		"Potom pridáme tuniaka aj s olivovým olejom, premiešame.",
+		"Nakoniec na gnocchi rozložte mozzarelly.",
+		"Dajte piecť do trúby na 30 minút.",
+		"Po upečení nechajte trochu vychladnúť, potom rozdeľte do krabičiek a ozdobte rukolou."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 3,
+			"ingredients": [
+				{"name": "zemiakové gnocchi", "quantity": 500, "unit": "g"},
+				{"name": "paradajková passata", "quantity": 580, "unit": "g"},
+				{"name": "soľ"},
+				{"name": "talianske bylinky", "quantity": 1, "unit": "ČL"},
+				{"name": "sušený cesnak", "quantity": 0.5, "unit": "ČL"},
+				{"name": "tuniak v olivovom oleji", "quantity": 3, "unit": "konzerva"},
+				{"name": "mini mozzarella", "quantity": 150, "unit": "g"}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p95.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p95"
+}

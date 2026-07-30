@@ -1,0 +1,36 @@
+{
+	"title": "Špaldové mini pizzky",
+	"category": "obedy",
+	"prepTimeMinutes": 30,
+	"steps": [
+		"V mise zmiešaj špaldovú múku, cottage syr, vajce, prášok do pečiva a soľ. Vymiešaj hladké cesto. Vytvaruj malé mini pizzky.",
+		"Pizzky potri rozšľahaným vajcom.",
+		"Na vrch natri tenkú vrstvu kečupu, posyp mozzarellou, pridaj kúsky šunky, schwarzwaldskej šunky, mozzarellu a kukuricu.",
+		"Mini pizzky poukladaj na plech vystlaný papierom na pečenie.",
+		"Peč v rúre predhriatej na 175 °C približne 20 minút, kým cesto pekne zozlatne a syr sa roztopí."
+	],
+	"funFact": "Pizza bola pôvodne jedlom chudobných, ktorí si ju kupovali na ulici a jedli zloženú na štvrtiny bez príboru. Až keď taliansky kráľovský pár ochutnal pizzu Margherita (na počesť kráľovnej Margherity), získala popularitu aj medzi vyššou spoločenskou vrstvou.",
+	"variants": [
+		{
+			"label": "600 kcal",
+			"kcalPerPortion": 595,
+			"portions": 3,
+			"macros": {"carbs": 53, "protein": 45, "fat": 21},
+			"ingredients": [
+				{"name": "hladká špaldová múka", "quantity": 200, "unit": "g"},
+				{"name": "cottage syr", "quantity": 200, "unit": "g"},
+				{"name": "vajce", "quantity": 1, "unit": "ks"},
+				{"name": "prášok do pečiva", "quantity": 1, "unit": "ČL"},
+				{"name": "soľ", "quantity": 0.25, "unit": "ČL"},
+				{"name": "kečup", "quantity": 50, "unit": "g"},
+				{"name": "strúhaná mozzarella", "quantity": 120, "unit": "g"},
+				{"name": "kukurica", "quantity": 80, "unit": "g"},
+				{"name": "šunka", "quantity": 100, "unit": "g"},
+				{"name": "schwarzwaldská šunka", "quantity": 60, "unit": "g"},
+				{"name": "mäkká mozzarella", "quantity": 0.5, "unit": "balenie"}
+			]
+		}
+	],
+	"source": "Obedy - 600 kcal.pdf",
+	"sourceRef": "p15"
+}

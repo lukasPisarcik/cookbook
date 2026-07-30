@@ -1,0 +1,76 @@
+{
+	"title": "Vajíčková nátierka",
+	"category": "vecere",
+	"prepTimeMinutes": 15,
+	"steps": [
+		"Vajcia uvar natvrdo (cca 8-10 minút) a potom nakrájaj, či nastrúhaj najemno.",
+		"V miske zmiešaj cottage s vajcami, Lučinou, horčicou, majonézou, šunkou a nasekanou pažítkou.",
+		"Dochuť soľou, cesnakom a korením podľa chuti.",
+		"Celozrnný toast opeč na suchej panvici alebo v toastovači a posyp pažítkou.",
+		"Vyjdú 2 porcie."
+	],
+	"funFact": "Cottage je skvelý zdroj bielkovín! Obsahuje aj vápnik, vitamíny a je to aj prírodný zdroj probiotík.",
+	"variants": [
+		{
+			"label": "500 kcal",
+			"kcalPerPortion": 470,
+			"portions": 2,
+			"macros": {
+				"carbs": 25,
+				"protein": 30,
+				"fat": 27
+			},
+			"ingredients": [
+				{
+					"name": "cottage",
+					"quantity": 1,
+					"unit": "balenie"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "čierne korenie"
+				},
+				{
+					"name": "sušený cesnak"
+				},
+				{
+					"name": "vajce",
+					"quantity": 4,
+					"unit": "ks"
+				},
+				{
+					"name": "pažítka"
+				},
+				{
+					"name": "plnotučná horčica",
+					"quantity": 10,
+					"unit": "g"
+				},
+				{
+					"name": "majonéza",
+					"quantity": 15,
+					"unit": "g"
+				},
+				{
+					"name": "Lučina",
+					"quantity": 40,
+					"unit": "g"
+				},
+				{
+					"name": "šunka",
+					"quantity": 100,
+					"unit": "g"
+				},
+				{
+					"name": "celozrnný toastový chlieb",
+					"quantity": 4,
+					"unit": "plátok"
+				}
+			]
+		}
+	],
+	"source": "Večere - 500 kcal.pdf",
+	"sourceRef": "p2"
+}

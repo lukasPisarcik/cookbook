@@ -1,0 +1,47 @@
+{
+	"title": "Tuniakové poké",
+	"category": "obedy",
+	"dietTags": ["bezlepkove"],
+	"prepTimeMinutes": 25,
+	"steps": [
+		"Ryžu uvar podľa návodu a osoľ.",
+		"Mrkvu, kapustu a jarnú cibuľku nakrájaj na tenké prúžky, reďkovku a uhorku na kolieska, avokádo na plátky, granátové jablko si olúp a edamame uvar do mäkka.",
+		"Príprav si misku, kde dáš ryžu, a tú pokvapkáš sójovou omáčkou.",
+		"Ďalej do misky navrstvi všetku pokrájanú zeleninu, granátové jablko a pridaj tuniaka.",
+		"Následne všetko prelej dresingom, ktorý pripravíš zmiešaním majonézy, jogurtu, srirache a limetkovej šťavy, prípadne soli, podľa chuti.",
+		"Nakoniec poké posypeš sezamom a pridáš riasu nori.",
+		"Dobrú chuť :)"
+	],
+	"funFact": "Tradičné havajské poké sa podávali len ako samotné kúsky ochutenej surovej ryby.",
+	"variants": [
+		{
+			"label": "400 kcal",
+			"kcalPerPortion": 406,
+			"portions": 3,
+			"macros": { "carbs": 58, "protein": 21, "fat": 9 },
+			"ingredients": [
+				{ "name": "sushi ryža", "quantity": 180, "unit": "g" },
+				{ "name": "tuniak vo vlastnej šťave", "quantity": 1, "unit": "konzerva" },
+				{ "name": "edamame", "quantity": 100, "unit": "g" },
+				{ "name": "červená kapusta v náleve", "quantity": 80, "unit": "g" },
+				{ "name": "uhorka", "quantity": 50, "unit": "g" },
+				{ "name": "mrkva", "quantity": 50, "unit": "g" },
+				{ "name": "avokádo", "quantity": 50, "unit": "g" },
+				{ "name": "červená reďkovka", "quantity": 2, "unit": "ks" },
+				{ "name": "jarná cibuľka", "quantity": 1, "unit": "ks" },
+				{ "name": "granátové jablko", "quantity": 35, "unit": "g" },
+				{ "name": "sezam", "quantity": 5, "unit": "g" },
+				{ "name": "riasa nori" },
+				{ "name": "sójová omáčka", "quantity": 1, "unit": "PL" },
+				{ "name": "soľ" },
+				{ "name": "light majonéza", "quantity": 20, "unit": "g" },
+				{ "name": "odtučnený grécky jogurt", "quantity": 20, "unit": "g" },
+				{ "name": "sriracha omáčka" },
+				{ "name": "šťava z limetky" }
+			]
+		}
+	],
+	"image": "tuniakove-poke-400-kcal/p1.webp",
+	"source": "Tuniakové poké - 400 kcal.pdf",
+	"sourceRef": "p1"
+}

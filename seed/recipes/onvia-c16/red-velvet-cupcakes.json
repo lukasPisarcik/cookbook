@@ -1,0 +1,35 @@
+{
+	"title": "Red Velvet Cupcakes",
+	"category": "dezerty",
+	"prepTimeMinutes": 15,
+	"steps": [
+		"Všetky suché prísady (okrem potravinárskeho farbiva) daj do misky a premiešaj, aby sa zabránilo ich zhlukovaniu, potom pridaj mokré prísady. Miešaj, kým nevznikne konzistencia koláčového cesta. Potom primiešaj potravinárske farbivo, kým cesto nezíska červenú zamatovú farbu.",
+		"Vezmi si silikónové formy, vystriekaj (vymaž) ich kokosovým olejom, potom vezmi naberačku a naplň cestom každú formu na koláčiky. Vlož ich do fritézy (Airfryer), do mojej sa ich zmestí len 8, takže som musela dávku rozdeliť.",
+		"Peč ich vo fritéze 18 minút pri teplote 120°C. Keď sú hotové, vyber ich a polož na chladiacu mriežku. Tento postup zopakuj aj pri druhej várke.",
+		"Nechaj koláčiky chvíľu vychladnúť a potom je čas na ich ozdobenie polevou! Všetky podrobnosti nájdeš v recepte na PROTEÍNOVÚ CHEESECAKE POLEVU.",
+		"Na vrch pridaj topping podľa vlastnej chuti (nepovinné a nezahrnuté v makroživinách) a potom už len vychutnávaj tento zamatový skvost!"
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 148,
+			"portions": 12,
+			"macros": {"carbs": 12, "protein": 16, "fat": 4},
+			"ingredients": [
+				{"name": "vanilkový proteínový prášok", "quantity": 75, "unit": "g"},
+				{"name": "polohrubá múka", "quantity": 75, "unit": "g"},
+				{"name": "kokosová múka", "quantity": 10, "unit": "g"},
+				{"name": "Unicorn Dust", "quantity": 12, "unit": "g"},
+				{"name": "prášok do pečiva", "quantity": 12, "unit": "g"},
+				{"name": "nízkotučný grécky jogurt", "quantity": 270, "unit": "g"},
+				{"name": "tekuté vaječné bielky", "quantity": 270, "unit": "g"},
+				{"name": "nesladené jablkové pyré", "quantity": 100, "unit": "g"},
+				{"name": "červené potravinárske farbivo"},
+				{"name": "proteínová cheesecake poleva"}
+			]
+		}
+	],
+	"image": "onvia/image298.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image298"
+}

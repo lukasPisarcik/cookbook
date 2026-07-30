@@ -1,0 +1,39 @@
+{
+	"title": "Nadýchaná focaccia",
+	"category": "zaklady",
+	"prepTimeMinutes": 300,
+	"steps": [
+		"Zmiešaj vlažnú vodu s 1 lyžicou medu a sušeným droždím. Zmes nechaj chvíľu aktivovať. V miske zmiešaj múku s lyžičkou soli. Vmiešaj aktivované droždie, rozmarín a dôkladne premiešaj.",
+		"Cesto zalej 3 lyžicami olivového oleja, trochu premiešaj, prikry utierkou a nechaj kysnúť 3-4 hodiny.",
+		"Na plech nalej 2 lyžice olivového oleja, rozotri a vylej naň cesto. Cesto nechaj kysnúť ďalších 30 minút.",
+		"Predhrej rúru na 200 °C teplovzdušný ohrev.",
+		"Na cesto nalej ďalšie 2 lyžice olivového oleja a prstami urob do cesta dôlky. Posyp nakrájanými cherry paradajkami, vločkami soli a vlož do rúry piecť na 30 minút."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 300,
+			"portions": 10,
+			"macros": {
+				"carbs": 43,
+				"protein": 8,
+				"fat": 10
+			},
+			"ingredients": [
+				{ "name": "hladká špaldová múka", "quantity": 540, "unit": "g" },
+				{ "name": "chlebová múka", "quantity": 200, "unit": "g" },
+				{ "name": "vlažná voda", "quantity": 600, "unit": "ml" },
+				{ "name": "sušené droždie", "quantity": 7, "unit": "g" },
+				{ "name": "med", "quantity": 1, "unit": "PL" },
+				{ "name": "soľ", "quantity": 1, "unit": "ČL" },
+				{ "name": "olivový olej", "quantity": 6, "unit": "PL" },
+				{ "name": "cherry paradajky", "quantity": 1, "unit": "hrsť" },
+				{ "name": "soľ" },
+				{ "name": "rozmarín" }
+			]
+		}
+	],
+	"image": "onvia/image139.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image139"
+}

@@ -1,0 +1,38 @@
+{
+	"title": "Paprikové gnocchi",
+	"category": "obedy",
+	"prepTimeMinutes": 20,
+	"steps": [
+		"Rúru predhrej na 200 °C. Nakrájanú papriku, cibuľu a cesnak rozlož na plech, pokvapkaj olivovým olejom a peč približne 45-50 minút, kým zelenina nezmäkne a nezíska jemne karamelizované okraje.",
+		"Gnocchi uvar podľa návodu na obale, sceď ich a presuň na panvicu.",
+		"Upečenú zeleninu rozmixuj s tofu, cottage syrom, citrónovou šťavou a kvapkou vody alebo vody z gnocchi do hladkého krému.",
+		"Dochuť soľou, čiernym korením alebo korením V7X. Voliteľne pridaj lahôdkové droždie - zvýrazní „syrovú“ chuť a zvýši obsah bielkovín.",
+		"Gnocchi zmiešaj s omáčkou a krátko spolu ohrej, aby sa chute prepojili.",
+		"Podávaj posypané nastrúhaným syrom a čerstvou bazalkou."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 486,
+			"portions": 3,
+			"macros": { "carbs": 66, "protein": 25, "fat": 13 },
+			"ingredients": [
+				{ "name": "zemiakové gnocchi", "quantity": 500, "unit": "g" },
+				{ "name": "červená paprika", "quantity": 300, "unit": "g" },
+				{ "name": "cibuľa", "quantity": 100, "unit": "g" },
+				{ "name": "cesnak", "quantity": 2, "unit": "strúčik" },
+				{ "name": "olivový olej", "quantity": 10, "unit": "g" },
+				{ "name": "cottage syr light", "quantity": 150, "unit": "g" },
+				{ "name": "tofu natural", "quantity": 180, "unit": "g" },
+				{ "name": "citrónová šťava", "unit": "kvapka" },
+				{ "name": "mozzarella", "quantity": 30, "unit": "g" },
+				{ "name": "korenie V7X" },
+				{ "name": "čerstvá bazalka" },
+				{ "name": "lahôdkové droždie", "quantity": 1, "unit": "PL" }
+			]
+		}
+	],
+	"image": "onvia/image249.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image249"
+}

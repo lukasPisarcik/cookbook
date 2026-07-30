@@ -1,0 +1,44 @@
+{
+	"title": "Domáci jablkový koláč s mandľami",
+	"category": "dezerty",
+	"prepTimeMinutes": 15,
+	"steps": [
+		"Predhrejeme rúru funkcia ventilátor na 160°C a rozpustíme si maslo.",
+		"Všetky prísady na základ zmiešame pokým nevznikne homogénna zmes a vtlačíme do tortovej formy, pričom cesto vytiahneme až na steny formy.",
+		"Z jabĺk odstránime jadierka (prípadne ošúpeme), nastrúhame nahrubo a zmiešame v mise s ostatnými surovinami (okrem mandlí).",
+		"Nakoniec naplníme tortový základ vzniknutou zmesou a posypeme mandľami.",
+		"Pečieme 45 minút, po dopečení necháme mierne vychladnúť a vychutnáme."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 210,
+			"portions": 6,
+			"macros": {"carbs": 26, "protein": 14, "fat": 6},
+			"ingredients": [
+				{"name": "jemné ovsené vločky", "quantity": 80, "unit": "g"},
+				{"name": "maslo", "quantity": 20, "unit": "g"},
+				{"name": "jablkové pyré (nesladené)", "quantity": 50, "unit": "g"},
+				{"name": "proteínový prášok (vanilka, škorica, neutrálny)", "quantity": 30, "unit": "g"},
+				{"name": "prášok do pečiva", "quantity": 3, "unit": "g"},
+				{"name": "škorica", "unit": "štipka"},
+				{"name": "soľ", "unit": "štipka"},
+				{"name": "veľké jablko", "quantity": 3, "unit": "ks"},
+				{"name": "šťava z citróna", "quantity": 1, "unit": "ks"},
+				{"name": "pudingový prášok (vanilka)", "quantity": 1, "unit": "balenie"},
+				{"name": "proteínový prášok (plnka)", "quantity": 30, "unit": "g"},
+				{"name": "jablkové pyré (plnka)", "quantity": 120, "unit": "g"},
+				{"name": "Unicorn Dust", "quantity": 12, "unit": "g"},
+				{"name": "prášok do pečiva (plnka)", "quantity": 3, "unit": "g"},
+				{"name": "soľ (plnka)", "unit": "štipka"},
+				{"name": "škorica (plnka)", "unit": "štipka"},
+				{"name": "sušený zázvor", "unit": "štipka"},
+				{"name": "jablčný ocot", "quantity": 2, "unit": "PL"},
+				{"name": "mandle nakrájané na plátky", "quantity": 20, "unit": "g"}
+			]
+		}
+	],
+	"image": "onvia/image290.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image290"
+}

@@ -1,0 +1,35 @@
+{
+	"title": "Riccotová dvojfarebná bábovka",
+	"category": "dezerty",
+	"steps": [
+		"Rúru rozohrejte na 170 stupňov.",
+		"Bielky vyšľahajte so štipkou soli do snehu.",
+		"Potom vyšľahajte žĺtky s cukrom a ricottou, pridajte mlieko a schladené maslo, zašľahajte a pridajte preosiatu múku s kypriacim práškom a kokos.",
+		"Polovicu cesta teraz prelejte do formy a do zvýšenej polky ešte primiešajte kakao. Premiešajte a nalejte na svetlé cesto.",
+		"Dajte piecť na 40 minút.",
+		"Po upečení nechajte vychladnúť, vyklopte bábovku a nechajte ju úplne vychladiť.",
+		"K bábovke pridajte skyr, grécky jogurt alebo iný zdroj bielkovín, lyofilizované alebo čerstvé ovocie, lyžičku orechového masla."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"ingredients": [
+				{"name": "vajce", "quantity": 2, "unit": "ks"},
+				{"name": "soľ", "unit": "štipka"},
+				{"name": "trstinový cukor", "quantity": 130, "unit": "g"},
+				{"name": "ricotta", "quantity": 250, "unit": "g"},
+				{"name": "plnotučné mlieko", "quantity": 110, "unit": "g"},
+				{"name": "rozpustené a schladené maslo", "quantity": 130, "unit": "g"},
+				{"name": "hladká pšeničná múka", "quantity": 200, "unit": "g"},
+				{"name": "strúhaný kokos", "quantity": 50, "unit": "g"},
+				{"name": "kypriaci prášok", "quantity": 1, "unit": "ČL"},
+				{"name": "kvalitné holandské kakao", "quantity": 1, "unit": "PL"},
+				{"name": "rozpustené maslo na vymastenie formy"},
+				{"name": "detská krupica na vysypanie formy"}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p15.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p15"
+}

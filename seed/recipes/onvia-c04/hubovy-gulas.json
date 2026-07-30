@@ -1,0 +1,43 @@
+{
+	"title": "Hubový guláš",
+	"category": "obedy",
+	"prepTimeMinutes": 45,
+	"steps": [
+		"Na oleji alebo ghí orestuj na jemno nakrájanú cibuľu, prelisovaný cesnak a na plátky nakrájané ošúpané šampióny.",
+		"Potom podlej vodou alebo vývarom, pridaj korenie, zemiaky nakrájané na kocky, prikry pokrievkou a nechaj variť pokým zemiaky nezmäknú.",
+		"Keď budú zemiaky takmer mäkké, pridaj prepláchnuté uvarené fazule, smotanu a chvíľu povar, kým guláš jemne neprebuble.",
+		"Dochuť a podávaj s opečeným alebo čerstvým chlebom."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 387,
+			"portions": 3,
+			"macros": {
+				"carbs": 27,
+				"protein": 21,
+				"fat": 25
+			},
+			"ingredients": [
+				{ "name": "zemiak", "quantity": 220, "unit": "g" },
+				{ "name": "biela fazuľa", "quantity": 240, "unit": "g" },
+				{ "name": "olivový olej", "quantity": 1, "unit": "ČL" },
+				{ "name": "cibuľa", "quantity": 100, "unit": "g" },
+				{ "name": "cesnak", "quantity": 2, "unit": "strúčik" },
+				{ "name": "šampión", "quantity": 200, "unit": "g" },
+				{ "name": "smotana 12%", "quantity": 180, "unit": "g" },
+				{ "name": "soľ" },
+				{ "name": "korenie" },
+				{ "name": "oregano" },
+				{ "name": "mletý kmín" },
+				{ "name": "bobkový list" },
+				{ "name": "vývar" },
+				{ "name": "sojová omáčka", "quantity": 1, "unit": "PL" },
+				{ "name": "chlieb", "quantity": 150, "unit": "g" }
+			]
+		}
+	],
+	"image": "onvia/image81.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image81"
+}

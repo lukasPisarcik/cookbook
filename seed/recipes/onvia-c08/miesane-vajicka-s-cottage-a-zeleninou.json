@@ -1,0 +1,95 @@
+{
+	"title": "Miešané vajíčka s cottage a zeleninou",
+	"category": "ranajky",
+	"prepTimeMinutes": 17,
+	"steps": [
+		"Pri nízkej teplote rozohrejeme maslo na panvici.",
+		"Vajíčka rozšľaháme, vylejeme na panvicu a na malom ohni za neustáleho miešania varíme.",
+		"Medzitým si môžeme nakrájať všetku zeleninu na malé kúsky a v miske zmiešame s olivovým olejom a koreninami. Zelenina je našou prílohou.",
+		"Keď sú vajíčka hotové, odstavíme ich pridáme do nich cottage syr, premiešame a podávame.",
+		"Ak si chceš postup uľahčiť môžeš si pripraviť vajíčko-cottage mix a na konci vmiešať aj zeleninu."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 579,
+			"portions": 1,
+			"macros": {
+				"carbs": 27,
+				"protein": 39,
+				"fat": 35
+			},
+			"ingredients": [
+				{
+					"name": "vajce",
+					"quantity": 2,
+					"unit": "ks"
+				},
+				{
+					"name": "cottage syr",
+					"quantity": 150,
+					"unit": "g"
+				},
+				{
+					"name": "maslo",
+					"quantity": 3,
+					"unit": "g"
+				},
+				{
+					"name": "červená cibuľa",
+					"quantity": 30,
+					"unit": "g"
+				},
+				{
+					"name": "cherry paradajky",
+					"quantity": 100,
+					"unit": "g"
+				},
+				{
+					"name": "uhorka",
+					"quantity": 50,
+					"unit": "g"
+				},
+				{
+					"name": "kaleráb",
+					"quantity": 50,
+					"unit": "g"
+				},
+				{
+					"name": "reďkovka",
+					"quantity": 50,
+					"unit": "g"
+				},
+				{
+					"name": "olivový olej",
+					"quantity": 10,
+					"unit": "ml"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "čierne korenie"
+				},
+				{
+					"name": "pažítka"
+				},
+				{
+					"name": "čili"
+				},
+				{
+					"name": "cesnak"
+				},
+				{
+					"name": "sladká paprika"
+				},
+				{
+					"name": "bazalka"
+				}
+			]
+		}
+	],
+	"image": "onvia/image184.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image184"
+}

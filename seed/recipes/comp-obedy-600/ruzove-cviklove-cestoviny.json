@@ -1,0 +1,39 @@
+{
+	"title": "Ružové cviklové cestoviny",
+	"category": "obedy",
+	"dietTags": ["bezlepkove"],
+	"prepTimeMinutes": 15,
+	"steps": [
+		"Cviklu ošúpeme a nakrájame na kocky.",
+		"Uvaríme ju v osolenej vode, až kým nebude mäkká (cca 20-25 minút). * alebo kúpime už uvarenú",
+		"Cícerové cestoviny uvaríme podľa návodu na obale. Po uvarení ich scedíme, ale nezabudneme si nechať trochu vody z varených cestovín.",
+		"Cviklu rozmixujeme na hladkú omáčku, olivový olej, pridáme ricottu, syr cottage a balzamiko.",
+		"Podľa potreby zriedime troškou vody z cestovín, aby omáčka mala požadovanú konzistenciu.",
+		"Omáčku zahrejeme, ochutíme soľou a premiešame s uvarenými cestovinami.",
+		"Na záver posypeme parmezánom.",
+		"Z receptu vyjdú 2 porcie."
+	],
+	"funFact": "Cvikla je vynikajúcim zdrojom vitamínu C, a tak pomáha posilňovať imunitný systém a chrániť telo pred infekciami.",
+	"variants": [
+		{
+			"label": "600 kcal",
+			"kcalPerPortion": 608,
+			"portions": 2,
+			"macros": {"carbs": 53, "protein": 40, "fat": 25},
+			"ingredients": [
+				{"name": "cícerové cestoviny", "quantity": 150, "unit": "g"},
+				{"name": "cvikla", "quantity": 250, "unit": "g"},
+				{"name": "ricotta", "quantity": 130, "unit": "g"},
+				{"name": "syr cottage", "quantity": 200, "unit": "g"},
+				{"name": "olivový olej", "quantity": 10, "unit": "g"},
+				{"name": "balzamiko", "quantity": 1, "unit": "PL"},
+				{"name": "soľ"},
+				{"name": "čierne korenie"},
+				{"name": "sušený cesnak"},
+				{"name": "parmezán", "quantity": 40, "unit": "g"}
+			]
+		}
+	],
+	"source": "Obedy - 600 kcal.pdf",
+	"sourceRef": "p3"
+}

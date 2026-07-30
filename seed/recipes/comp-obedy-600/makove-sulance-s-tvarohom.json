@@ -1,0 +1,35 @@
+{
+	"title": "Makové šúlance s tvarohom",
+	"category": "obedy",
+	"dietTags": ["bezlepkove"],
+	"prepTimeMinutes": 25,
+	"steps": [
+		"Priveď do varu veľký hrniec mierne osolenej vody.",
+		"V miske zmiešaj všetky suroviny na cesto a vypracuj ho tak, aby bolo pevné a husté. Z pripraveného cesta vytvaruj dva dlhé valčeky.",
+		"Polož ich na pomúčenú dosku a nakrájaj nožom na menšie kúsky (šúlance). Ak sa cesto lepí, posyp ho trochou múky.",
+		"Šúlance vložte do vriacej vody a var ich, kým nevyplávajú na povrch.",
+		"V miske priprav posýpku zmiešaním mletého maku a nastrúhanej citrónovej kôry.",
+		"Posyp makovou zmesou, oslaď medom."
+	],
+	"funFact": "Mak je superpotravina a obsahuje vápnik, bielkoviny ale aj ďalšie vitamíny, minerály, či zdravé tuky. V minulosti bol tiež využívaný ako prírodný prostriedok na zlepšenie spánku.",
+	"variants": [
+		{
+			"label": "600 kcal",
+			"kcalPerPortion": 595,
+			"portions": 2,
+			"macros": {"carbs": 52, "protein": 43, "fat": 23},
+			"ingredients": [
+				{"name": "hrudkovitý tvaroh", "quantity": 250, "unit": "g"},
+				{"name": "bezlepkové ovsené vločky", "quantity": 100, "unit": "g"},
+				{"name": "vanilkový proteín", "quantity": 20, "unit": "g"},
+				{"name": "vajce", "quantity": 1, "unit": "ks"},
+				{"name": "mletý mak", "quantity": 35, "unit": "g"},
+				{"name": "med", "quantity": 25, "unit": "g"},
+				{"name": "nastrúhaná citrónová kôra", "quantity": 1, "unit": "ČL"},
+				{"name": "maslo", "quantity": 15, "unit": "g"}
+			]
+		}
+	],
+	"source": "Obedy - 600 kcal.pdf",
+	"sourceRef": "p5"
+}

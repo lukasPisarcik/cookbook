@@ -1,0 +1,38 @@
+{
+	"title": "Hubová omáčka s gnocchi",
+	"category": "obedy",
+	"dietTags": ["vegan"],
+	"prepTimeMinutes": 45,
+	"steps": [
+		"Čerstvé hríby a cibuľu očisti a nakrájaj.",
+		"Cibuľu opraž na oleji, pridaj mletú červenú papriku.",
+		"Potom pridaj hríby, rozmačkaný cesnak a podlej trochou vody a var do mäkka.",
+		"Múku rozmiešaj v mlieku a smotane, aby neostali hrudky. (môžeš ju aj precediť).",
+		"Vytvorenú zálievku prilej k hubám.",
+		"Omáčku dochuť podľa seba.",
+		"Do vriacej vody pridaj gnocchi, keď začnú plávať hore, vyber ich.",
+		"Môžeš podávať s omáčkou."
+	],
+	"funFact": "V Taliansku je tradícia jesť gnocchi každý štvrtok.",
+	"variants": [
+		{
+			"label": "600 kcal",
+			"kcalPerPortion": 609,
+			"portions": 1,
+			"macros": {"carbs": 75, "protein": 21, "fat": 24},
+			"ingredients": [
+				{"name": "hladká špaldová múka", "quantity": 20, "unit": "g"},
+				{"name": "čerstvé hríby", "quantity": 300, "unit": "g"},
+				{"name": "vegan sójová smotana", "quantity": 60, "unit": "g"},
+				{"name": "mletá červená paprika", "unit": "štipka"},
+				{"name": "soľ"},
+				{"name": "korenie"},
+				{"name": "olivový olej", "quantity": 8, "unit": "g"},
+				{"name": "sójové mlieko", "quantity": 150, "unit": "ml"},
+				{"name": "gnocchi", "quantity": 150, "unit": "g"}
+			]
+		}
+	],
+	"source": "Obedy - 600 kcal.pdf",
+	"sourceRef": "p18"
+}

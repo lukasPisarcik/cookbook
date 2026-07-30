@@ -23,6 +23,7 @@ const svelteKitVirtualAliases = {
 	'$app/state': resolve(stubsDir, 'app-state.ts'),
 	'$app/stores': resolve(stubsDir, 'app-stores.ts'),
 	'$app/navigation': resolve(stubsDir, 'app-navigation.ts'),
+	'$app/paths': resolve(stubsDir, 'app-paths.ts'),
 	'$env/dynamic/private': resolve(stubsDir, 'env-dynamic-private.ts'),
 	'$env/dynamic/public': resolve(stubsDir, 'env-dynamic-public.ts'),
 	'$env/static/private': resolve(stubsDir, 'env-static-private.ts'),

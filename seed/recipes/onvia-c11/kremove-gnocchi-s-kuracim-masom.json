@@ -1,0 +1,36 @@
+{
+	"title": "Krémové gnocchi s kuracím mäsom",
+	"category": "obedy",
+	"prepTimeMinutes": 10,
+	"steps": [
+		"Na panvici zohrej ghee alebo maslo.",
+		"Kuracie prsia nakrájaj na kocky a hoď ich do panvice, osoľ a opeč zo všetkých strán. Potom pridaj sladkú papriku, paradajkový pretlak, passatu a dusené paradajky. Nechaj niekoľko minút povariť.",
+		"Celú omáčku zjemni ryžovou smotanou, pridaj parmezán.",
+		"Gnocchi uvar podľa návodu na obale.",
+		"Hotovú omácku s kuracím podávaj s uvarenými gnocchi a čerstvou nasekanou bazalkou."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 404,
+			"portions": 3,
+			"macros": {"carbs": 47, "protein": 31, "fat": 11},
+			"ingredients": [
+				{"name": "kuracie prsa", "quantity": 300, "unit": "g"},
+				{"name": "zemiakové gnocchi", "quantity": 300, "unit": "g"},
+				{"name": "ryžová smotana", "quantity": 150, "unit": "ml"},
+				{"name": "ghee", "quantity": 1, "unit": "ČL"},
+				{"name": "paradajkový pretlak", "quantity": 50, "unit": "g"},
+				{"name": "dusené paradajky", "quantity": 250, "unit": "g"},
+				{"name": "paradajková passata", "quantity": 150, "unit": "g"},
+				{"name": "parmezán", "quantity": 10, "unit": "g"},
+				{"name": "soľ"},
+				{"name": "sladká paprika"},
+				{"name": "čerstvá bazalka"}
+			]
+		}
+	],
+	"image": "onvia/image221.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image221"
+}

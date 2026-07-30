@@ -1,0 +1,28 @@
+{
+	"title": "Pečené kuracie kúsky so zeleninou a šošovicovými cestovinami",
+	"category": "obedy",
+	"steps": [
+		"Trúbu rozohrejte na 180 stupňov.",
+		"Cuketu nakrájajte na kúsky, cherry prekrojte na policu a dajte do zapekacej misky, prsia nakrájajte na väčšie kúsky a dajte piecť na 30 minút.",
+		"10 minút pred koncom pečenia uvarte cestoviny.",
+		"Hotové jedlo presuňte do krabičiek a môžete pridať ešte rukolu, špenát alebo polníček."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 4,
+			"ingredients": [
+				{"name": "kuracie prsia", "quantity": 500, "unit": "g"},
+				{"name": "olúpaná cuketa", "quantity": 300, "unit": "g"},
+				{"name": "cherry paradajky", "quantity": 200, "unit": "g"},
+				{"name": "olivový olej", "quantity": 2, "unit": "PL"},
+				{"name": "sušené oregano", "quantity": 1, "unit": "ČL"},
+				{"name": "soľ"},
+				{"name": "šošovicové cestoviny", "quantity": 320, "unit": "g"}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p107.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p107"
+}

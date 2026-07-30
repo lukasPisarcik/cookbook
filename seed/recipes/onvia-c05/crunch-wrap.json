@@ -1,0 +1,51 @@
+{
+	"title": "Crunch Wrap",
+	"category": "obedy",
+	"prepTimeMinutes": 15,
+	"steps": [
+		"Predhrej rúru na 200 stupňov funkcia ventilátor.",
+		"Polož tortillu na rovnú plochu a do stredu tortilly pridaj rozlačené avokádo zmiešané s koreninami a citrónom, potom pridaj plátok syra a morčaciu šunku.",
+		"Zabaľ tortillu ako na videu, otoč ju, aby zložená časť bola dole a aby sa neotvorila. Potom celý wrap potri bielkom. Vďaka tomu bude chrumkavý! Vlož do rúry na 10-12 minút, a peč kým nie je zlatistý! Môžeš ho tiež upiecť vo fritéze (AirFryer) na 200°C po dobu 4-6 minút.",
+		"Po upečení vyber, nakrájaj a vychutnávaj!"
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 341,
+			"portions": 1,
+			"macros": {
+				"carbs": 30,
+				"protein": 44,
+				"fat": 5
+			},
+			"ingredients": [
+				{
+					"name": "veľká tortilla",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "chudá morčacia šunka",
+					"quantity": 120,
+					"unit": "g"
+				},
+				{
+					"name": "nízkotučný syr",
+					"quantity": 1,
+					"unit": "plátok"
+				},
+				{
+					"name": "roztlačené avokádo",
+					"quantity": 30,
+					"unit": "g"
+				},
+				{
+					"name": "vaječný bielok"
+				}
+			]
+		}
+	],
+	"image": "onvia/image115.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image115"
+}

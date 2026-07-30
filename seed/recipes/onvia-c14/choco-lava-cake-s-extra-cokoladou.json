@@ -1,0 +1,38 @@
+{
+	"title": "Choco Lava Cake s extra čokoládou",
+	"category": "dezerty",
+	"prepTimeMinutes": 10,
+	"steps": [
+		"Rúru predhrejeme na 160°C horný/spodný ohrev.",
+		"Cuketu nastrúhame, jemne osolíme, krátko necháme odstáť (5min) a potom z nej dôkladne vyžmýkame vodu.",
+		"Pridáme všetky ostatné suroviny a miešame, kým nevznikne pomerne homogénna zmes.",
+		"Do malej formy na pečenie nalejeme asi 2/3 zmesi a uprostred urobíme jamku.",
+		"Vložíme do nej proteínový puding, kúsky čokolády a \"prikryjeme\" zvyškom zmesi.",
+		"Vložíme do rúry na 40-45 minút, kým sa nedosiahne požadovaná konzistencia. Pred podávaním ho necháme aspoň 5 minút vychladnúť (ľahšie sa bude vyberať z formy)."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 886,
+			"portions": 1,
+			"macros": {"carbs": 86, "protein": 59, "fat": 31},
+			"ingredients": [
+				{"name": "cuketa", "quantity": 80, "unit": "g"},
+				{"name": "ovsené vločky", "quantity": 30, "unit": "g"},
+				{"name": "mandľová múka", "quantity": 20, "unit": "g"},
+				{"name": "proteínový prášok (čokoláda / vanilka)", "quantity": 30, "unit": "g"},
+				{"name": "Unicorn Dust", "quantity": 7, "unit": "g"},
+				{"name": "čokoládový pudingový prášok", "quantity": 10, "unit": "g"},
+				{"name": "tvaroh", "quantity": 50, "unit": "g"},
+				{"name": "ovsené mlieko", "quantity": 100, "unit": "ml"},
+				{"name": "kakaový prášok", "quantity": 15, "unit": "g"},
+				{"name": "prášok do pečiva", "quantity": 3, "unit": "g"},
+				{"name": "čokoládový proteínový puding", "quantity": 40, "unit": "g"},
+				{"name": "horká čokoláda", "quantity": 10, "unit": "g"}
+			]
+		}
+	],
+	"image": "onvia/image279.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image279"
+}

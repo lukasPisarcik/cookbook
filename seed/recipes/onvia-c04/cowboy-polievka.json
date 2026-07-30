@@ -1,0 +1,44 @@
+{
+	"title": "Cowboy polievka",
+	"category": "obedy",
+	"prepTimeMinutes": 40,
+	"steps": [
+		"Na olivovom oleji orestuj nadrobno nakrájanú cibuľu dozlatista.",
+		"Pridaj mleté mäso a opekaj ho, kým sa nezatiahne a jemne nezhnedne.",
+		"Prisyp nakrájanú mrkvu a stonkový zeler a krátko ich spolu orestuj.",
+		"Primiešaj paradajkový pretlak a nechaj ho chvíľu zarestovať, aby sa zvýraznila jeho chuť.",
+		"Zmes zalej passatou a podľa potreby dolej trochu vody (podľa toho, akú hustú polievku preferuješ).",
+		"Pridaj bobkové listy, soľ a všetky korenia.",
+		"Var na miernom ohni približne 25 - 30 minút, kým zelenina nezmäkne a chute sa dokonale neprepoja.",
+		"Pred podávaním nezabudni vybrať bobkové listy."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 314,
+			"portions": 3,
+			"macros": {
+				"carbs": 18,
+				"protein": 29,
+				"fat": 13
+			},
+			"ingredients": [
+				{ "name": "mleté hovädzie mäso", "quantity": 360, "unit": "g" },
+				{ "name": "stonkový zeler", "quantity": 200, "unit": "g" },
+				{ "name": "mrkva", "quantity": 200, "unit": "g" },
+				{ "name": "paradajkový pretlak", "quantity": 30, "unit": "g" },
+				{ "name": "passata", "quantity": 200, "unit": "g" },
+				{ "name": "cibuľa", "quantity": 100, "unit": "g" },
+				{ "name": "bobkový list", "quantity": 2, "unit": "ks" },
+				{ "name": "soľ" },
+				{ "name": "mleté čierne korenie" },
+				{ "name": "olivový olej", "quantity": 5, "unit": "g" },
+				{ "name": "sušená paprika" },
+				{ "name": "granulovaný cesnak" }
+			]
+		}
+	],
+	"image": "onvia/image85.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image85"
+}

@@ -1,0 +1,66 @@
+{
+	"title": "BBQ sendvič",
+	"category": "ranajky",
+	"prepTimeMinutes": 10,
+	"steps": [
+		"Na panvici rozohrej trochu masla a krátko orestuj šampióny s hráškom a korením. Medzitým môžeš v miske vyšľahať vajcia a okoreniť ich.",
+		"Zo zeleniny vytvor na panvici vedľa seba dve malé kôpky vzdialené cca 5 cm, zalej ich vaječnou zmesou a na každú kôpku zeleniny zaliatu vajíčkom polož opečený toast.",
+		"Toasty môžeš pred tým opiecť v hriankovači alebo v rúre do chrumkava.",
+		"Keď sú vajcia hotové, môžeš omeletu zapečenú so zeleninou a toastami otočiť a vypnúť teplotu pod panvicou.",
+		"Obe polovice toastu potri BBQ omáčkou a navrch jednej polovice polož šunku.",
+		"Prelož \"boky\" omelety do vnútra a toasty zavri tým, že položíš jeden toast na druhý."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 442,
+			"portions": 1,
+			"macros": {
+				"carbs": 33,
+				"protein": 38,
+				"fat": 15
+			},
+			"ingredients": [
+				{
+					"name": "veľký celozrnný toast",
+					"quantity": 2,
+					"unit": "ks"
+				},
+				{
+					"name": "vajce",
+					"quantity": 2,
+					"unit": "ks"
+				},
+				{
+					"name": "chudá šunka",
+					"quantity": 75,
+					"unit": "g"
+				},
+				{
+					"name": "mrazený hrášok",
+					"quantity": 30,
+					"unit": "g"
+				},
+				{
+					"name": "šampión",
+					"quantity": 2,
+					"unit": "ks"
+				},
+				{
+					"name": "BBQ omáčka",
+					"quantity": 2,
+					"unit": "PL"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "čierne korenie"
+				}
+			]
+		}
+	],
+	"image": "onvia/image108.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image108"
+}

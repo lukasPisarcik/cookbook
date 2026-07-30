@@ -1,0 +1,37 @@
+{
+	"title": "Piškótový koláč v pohári",
+	"category": "dezerty",
+	"prepTimeMinutes": 25,
+	"steps": [
+		"Rúru predhrej na 160°C.",
+		"Zmiešaj v mise hladkú múku s Unicorn Dustom, štipkou soli a vaječnými žĺtkami.",
+		"Bielka vyšľahaj s trochou vody do hustej peny.",
+		"Potom obe zmesi spoj do hladkého cesta. Ak sa ti vytvoria hrudky, použi sito/cedidlo.",
+		"Piškótové cesto prenes na plech vystlaný papierom na pečenie a vytvor štvrtinu s rozmermi 15 x 15 cm. Peč maximálne 10 minút. Hotový a vychladnutý piškót natrhaj na malé kúsky.",
+		"V menšej miske spolu zmiešaj tvaroh s Unicorn Dustom.",
+		"Teraz prichádza zábavná časť - vrstvenie v pohári: vrstvu bude tvoriť natrhaný piškót, vrstvu tvaroh, vrstvu červené ríbezle.",
+		"Celé to zopakuj ešte raz a poslednú vrstvu bude tvoriť zvyšok rozdrobeného piškótového cesta.",
+		"Vychlaď v chladničke (min 2-3h) najlepšie cez noc a môžeš si pochutnať."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 390,
+			"portions": 2,
+			"macros": {"carbs": 48, "protein": 31, "fat": 9},
+			"ingredients": [
+				{"name": "hladká špaldová múka", "quantity": 100, "unit": "g"},
+				{"name": "Unicorn Dust", "quantity": 1, "unit": "odmerka"},
+				{"name": "vajce", "quantity": 3, "unit": "ks"},
+				{"name": "voda", "quantity": 3, "unit": "PL"},
+				{"name": "soľ", "unit": "štipka"},
+				{"name": "červené ríbezle", "quantity": 100, "unit": "g"},
+				{"name": "nízkotučný tvaroh", "quantity": 250, "unit": "g"},
+				{"name": "Unicorn Dust", "quantity": 0.5, "unit": "odmerka"}
+			]
+		}
+	],
+	"image": "onvia/image275.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image275"
+}

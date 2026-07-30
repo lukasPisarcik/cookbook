@@ -1,0 +1,42 @@
+{
+	"title": "Zeleninová polievka",
+	"category": "obedy",
+	"prepTimeMinutes": 40,
+	"steps": [
+		"V hrnci rozohrej olivový olej a orestuj nadrobno nakrájanú cibuľu, kým nezosklovatie.",
+		"Pridaj pretlačený cesnak a krátko orestuj, aby sa rozvoňal.",
+		"Pridaj nakrájané šampiňóny a restuj niekoľko minút.",
+		"Vhoď nakrájanú tekvicu a kučeravý kel zbavený tvrdých stredov, podlej vodou alebo vývarom a var približne 20–30 minút na miernom plameni.",
+		"Dochuť soľou, korením a bylinkami, potom vlej smotanu a ešte pár minút jemne povar.",
+		"Podávaj horúce, posypané nastrúhaným syrom."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 275,
+			"portions": 2,
+			"macros": {
+				"carbs": 17,
+				"protein": 15,
+				"fat": 17
+			},
+			"ingredients": [
+				{ "name": "olivový olej", "quantity": 10, "unit": "g" },
+				{ "name": "cibuľa", "quantity": 100, "unit": "g" },
+				{ "name": "cesnak", "quantity": 2, "unit": "strúčik" },
+				{ "name": "šampiňón", "quantity": 100, "unit": "g" },
+				{ "name": "tekvica", "quantity": 200, "unit": "g" },
+				{ "name": "voda", "quantity": 800, "unit": "ml" },
+				{ "name": "kučeravý kel", "quantity": 2, "unit": "hrsť" },
+				{ "name": "soľ" },
+				{ "name": "čierne korenie" },
+				{ "name": "zmes byliniek" },
+				{ "name": "smotana na varenie", "quantity": 100, "unit": "ml" },
+				{ "name": "nastrúhaný syr", "quantity": 70, "unit": "g" }
+			]
+		}
+	],
+	"image": "onvia/image82.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image82"
+}

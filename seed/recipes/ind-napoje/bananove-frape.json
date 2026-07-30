@@ -1,0 +1,57 @@
+{
+	"title": "Banánové frapé",
+	"category": "smoothies",
+	"prepTimeMinutes": 5,
+	"steps": ["Zmixuj všetky ingrediencie do hladka", "Môžeš podávať s ľadom."],
+	"funFact": "Vôňa škorice môže stimulovať mozgovú aktivitu, a tak zlepšiť pozornosť a pracovnú pamäť.",
+	"variants": [
+		{
+			"label": "200 kcal",
+			"kcalPerPortion": 179,
+			"portions": 2,
+			"macros": {
+				"carbs": 22,
+				"protein": 17,
+				"fat": 2
+			},
+			"ingredients": [
+				{
+					"name": "káva bez mlieka",
+					"quantity": 100,
+					"unit": "ml"
+				},
+				{
+					"name": "ovsené mlieko",
+					"quantity": 150,
+					"unit": "ml"
+				},
+				{
+					"name": "vanilkový proteín",
+					"quantity": 1,
+					"unit": "odmerka"
+				},
+				{
+					"name": "odtučnený tvaroh",
+					"quantity": 80,
+					"unit": "g"
+				},
+				{
+					"name": "škorica",
+					"quantity": 0.5,
+					"unit": "ČL"
+				},
+				{
+					"name": "zrelý banán",
+					"quantity": 110,
+					"unit": "g"
+				},
+				{
+					"name": "ľad"
+				}
+			]
+		}
+	],
+	"image": "bananove-frape-200-kcal/p1.webp",
+	"source": "Banánové frapé - 200 kcal.pdf",
+	"sourceRef": "p1"
+}

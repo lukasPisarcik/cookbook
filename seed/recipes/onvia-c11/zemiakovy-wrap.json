@@ -1,0 +1,32 @@
+{
+	"title": "Zemiakový wrap",
+	"category": "obedy",
+	"dietTags": ["bezlepkove"],
+	"prepTimeMinutes": 15,
+	"steps": [
+		"Veľké zemiaky umy a nakrájaj na veľmi tenké plátky (12 plátkov = 1 obal).",
+		"Plátky zemiakov poukladaj vedľa seba (4 kusy a 3 rady) tak, aby boli všetky mierne nad sebou a vytvorili pevnú placku.",
+		"Posyp nastrúhaným syrom a vlož na 10 minút do rúry vyhriatej na 210 °C. Potom ich otoč a peč opäť 10 minút.",
+		"Na polovicu wrapu bez syra polož šalát, kuraciu šunku a syr. Pokvapkaj voliteľne BBQ omáčkou.",
+		"Prelož a vychutnaj si."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 268,
+			"portions": 2,
+			"macros": {"carbs": 11, "protein": 28, "fat": 12},
+			"ingredients": [
+				{"name": "zemiaky", "quantity": 100, "unit": "g"},
+				{"name": "strúhaný syr 20-30%", "quantity": 80, "unit": "g"},
+				{"name": "balkánsky syr", "quantity": 50, "unit": "g"},
+				{"name": "kuracia šunka", "quantity": 100, "unit": "g"},
+				{"name": "rukola"},
+				{"name": "BBQ omáčka"}
+			]
+		}
+	],
+	"image": "onvia/image234.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image234"
+}

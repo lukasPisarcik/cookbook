@@ -1,0 +1,36 @@
+{
+	"title": "Fudgy fazuľový koláč s čučoriedkami",
+	"category": "dezerty",
+	"prepTimeMinutes": 10,
+	"steps": [
+		"Rúru si predhrejeme na 170°C s funkciou ventilátor.",
+		"Všetky suroviny si zmiešame v miske a ručným mixérom zmixujeme pokým nám nevznikne tuhé homogénne cesto.",
+		"Formu na koláč vytrieme trochou kokosového oleja (alebo vyložíme papierom na pečenie) a cesto vlejeme do formy.",
+		"Koláč pečieme asi 45 minút. Po 20 minútach ho prikryjeme alobalom. Či je koláč už hotový môžeme overiť vpichom špáratka. Ak sa hmota na špáratko stále lepí pečieme ešte pár minút.",
+		"Odporúčame nechať cez noc odstáť, vychladnuť a podávať na druhý deň. Ak si nedočkavá, stačí ak koláč necháš aspoň vychladnúť, aby si si vedela vychutnať jeho famóznu chuť."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 117,
+			"portions": 10,
+			"macros": {"carbs": 10, "protein": 11, "fat": 3},
+			"ingredients": [
+				{"name": "biela fazuľa", "quantity": 500, "unit": "g"},
+				{"name": "zrelý banán", "quantity": 2, "unit": "ks"},
+				{"name": "vajce", "quantity": 2, "unit": "ks"},
+				{"name": "kokosová múka", "quantity": 50, "unit": "g"},
+				{"name": "proteínový prášok (vanilka)", "quantity": 50, "unit": "g"},
+				{"name": "prášok do pečiva", "quantity": 5, "unit": "g"},
+				{"name": "čučoriedky", "quantity": 150, "unit": "g"},
+				{"name": "kokosový olej", "quantity": 2, "unit": "g"},
+				{"name": "Unicorn Dust", "quantity": 12, "unit": "g"},
+				{"name": "soľ", "unit": "štipka"},
+				{"name": "škorica"}
+			]
+		}
+	],
+	"image": "onvia/image300.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image300"
+}

@@ -1,0 +1,60 @@
+{
+	"title": "Celozrnné knedle",
+	"category": "zaklady",
+	"prepTimeMinutes": 20,
+	"steps": [
+		"Rožok nakrájaj na malé kocky a zalej ho mliekom. Nechaj ho nasiaknuť.",
+		"Potom pridaj vajcia, múku, prášok do pečiva a soľ.",
+		"Hrnčeky vymaž olejom, zmes vlož asi do ½ až ¾ hrnčekov.",
+		"Vlož do mikrovlnnej rúry na 7-8 minút.",
+		"Potom vyklop, nechaj chvíľu vychladnúť a nakrájaj."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 249,
+			"portions": 2,
+			"macros": {
+				"carbs": 36,
+				"protein": 11,
+				"fat": 6
+			},
+			"ingredients": [
+				{
+					"name": "ražný rožok",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "mlieko",
+					"quantity": 125,
+					"unit": "ml"
+				},
+				{
+					"name": "vajce",
+					"quantity": 2,
+					"unit": "ks"
+				},
+				{
+					"name": "špaldová múka",
+					"quantity": 125,
+					"unit": "g"
+				},
+				{
+					"name": "prášok do pečiva",
+					"quantity": 1,
+					"unit": "ČL"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "olej na vymastenie hrnčekov"
+				}
+			]
+		}
+	],
+	"image": "onvia/image45.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image45"
+}

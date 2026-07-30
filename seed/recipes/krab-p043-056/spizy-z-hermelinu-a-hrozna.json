@@ -1,0 +1,23 @@
+{
+	"title": "Špízy z hermelínu a hrozna",
+	"category": "snacky",
+	"steps": [
+		"Hrozno dôkladne umyte, hermelín nakrájajte na trojuholníky.",
+		"Z nakrájaného hermelínu a hrozna vytvorte špízy a naskladajte ich do krabičky.",
+		"Pridajte hrsť orechov a super desiata je na svete. Kľudne doplňte ešte malým kúskom pečiva."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 1,
+			"ingredients": [
+				{"name": "hermelín light", "quantity": 50, "unit": "g"},
+				{"name": "hrozno", "quantity": 80, "unit": "g"},
+				{"name": "vlašské orechy", "quantity": 15, "unit": "g"}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p56.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p56"
+}

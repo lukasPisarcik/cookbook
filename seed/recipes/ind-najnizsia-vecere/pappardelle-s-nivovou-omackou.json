@@ -1,0 +1,93 @@
+{
+	"title": "Pappardelle s nivovou omáčkou",
+	"category": "vecere",
+	"prepTimeMinutes": 45,
+	"steps": [
+		"Najprv si daj variť cestoviny, riaď sa inštrukciami na obale a nezabudni vodu osoliť.",
+		"Občas ich premiešaj, aby sa ti nezlepili.",
+		"Medzitým si na panvici zohrej olej a pridaj na kocky nakrájané kuracie prsia. Ochuť ich soľou a korením.",
+		"Ďalej pridaj na drobno nasekanú cibuľu a chvíľu ju spolu s mäsom opraž.",
+		"Potom podlej vývarom a nechaj chvíľu podusiť. Prilej smotanu a nastrúhaj do zmesi kúsky nivy. Omáčku var, kým nezhustne podľa tvojej predstavy.",
+		"Nakoniec brokolicu si rozdeľ na menšie kúsky a na novej panvici si ju orestuj na masle.",
+		"Dochuť ju soľou, korením a troškou čili.",
+		"Na záver brokolicu zamiešaj do omáčky a môžeš podávať.",
+		"Na vrch si omáčku vylepši ešte nasekanou pažítkou.",
+		"Dobrú chuť !"
+	],
+	"funFact": "Tradične sa Niva nechávala dozrievať v jaskyniach v oblasti Českomoravskej vrchoviny, kde bol ideálny chlad a vlhkosť pre vývoj jedlej modrej plesne, ktorá na Nive je.",
+	"variants": [
+		{
+			"label": "300 kcal",
+			"kcalPerPortion": 337,
+			"portions": 4,
+			"macros": {
+				"carbs": 23,
+				"protein": 27,
+				"fat": 15
+			},
+			"ingredients": [
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "čierne korenie"
+				},
+				{
+					"name": "cestoviny pappardelle",
+					"quantity": 100,
+					"unit": "g"
+				},
+				{
+					"name": "kuracie prsia",
+					"quantity": 300,
+					"unit": "g"
+				},
+				{
+					"name": "maslo",
+					"quantity": 10,
+					"unit": "g"
+				},
+				{
+					"name": "cibuľa",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "kurací vývar",
+					"quantity": 50,
+					"unit": "ml"
+				},
+				{
+					"name": "smotana na šľahanie 12 %",
+					"quantity": 100,
+					"unit": "ml"
+				},
+				{
+					"name": "syr niva",
+					"quantity": 100,
+					"unit": "g"
+				},
+				{
+					"name": "brokolica",
+					"quantity": 100,
+					"unit": "g"
+				},
+				{
+					"name": "olivový olej",
+					"quantity": 10,
+					"unit": "ml"
+				},
+				{
+					"name": "čili",
+					"unit": "štipka"
+				},
+				{
+					"name": "pažítka"
+				}
+			]
+		}
+	],
+	"image": "papardele-s-nivou-300-kcal/p1.webp",
+	"source": "Papardele s nivou - 300 kcal.pdf",
+	"sourceRef": "p1"
+}

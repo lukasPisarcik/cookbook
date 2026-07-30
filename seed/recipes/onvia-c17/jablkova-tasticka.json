@@ -1,0 +1,33 @@
+{
+	"title": "Jablková taštička",
+	"category": "dezerty",
+	"prepTimeMinutes": 10,
+	"steps": [
+		"V miske rozšľahaj vajce s mliekom a štipkou korenia A5C. Do zmesi namoč ryžový papier a polož ho na plech vystlaný papierom na pečenie.",
+		"V malom hrnci krátko podus nakrájané jablko spolu s maslom, korením A5C, Unicorn Dust a vanilkovým pudingovým práškom rozmiešaným v troche vody alebo mlieka, kým zmes jemne nezhustne.",
+		"Na ryžový papier rozlož jablkovú náplň, prehni okraje zo všetkých strán a zroluj do tvaru taštičky.",
+		"Vlož do horúcovzdušnej fritézy a peč pri 170 °C približne 15-20 minút, kým taštička nezozlatne."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 137,
+			"portions": 2,
+			"macros": {"carbs": 18, "protein": 4, "fat": 5},
+			"ingredients": [
+				{"name": "vajce", "quantity": 1, "unit": "ks"},
+				{"name": "polotučné mlieko", "quantity": 50, "unit": "ml"},
+				{"name": "ryžový papier", "quantity": 2, "unit": "ks"},
+				{"name": "jablko", "quantity": 125, "unit": "g"},
+				{"name": "korenie A5C", "unit": "štipka"},
+				{"name": "Unicorn Dust", "unit": "štipka"},
+				{"name": "maslo", "quantity": 5, "unit": "g"},
+				{"name": "vanilkový pudingový prášok", "unit": "štipka"},
+				{"name": "voda", "unit": "kvapka"}
+			]
+		}
+	],
+	"image": "onvia/image11.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image11"
+}

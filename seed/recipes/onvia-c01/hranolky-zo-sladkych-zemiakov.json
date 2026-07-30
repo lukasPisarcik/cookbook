@@ -1,0 +1,54 @@
+{
+	"title": "Hranolky zo sladkých zemiakov",
+	"category": "zaklady",
+	"prepTimeMinutes": 46,
+	"steps": [
+		"Predhrej rúru na 220°C nastavenie ventilátor.",
+		"Sladké zemiaky ošúp a nakrájaj na hranolky.",
+		"Do hrnca pridaj 1 liter vody, 40 ml octu a 6 g soli a priveď do varu.",
+		"Potom pridaj do hrnca nakrájané kúsky zemiakov a var 6 minút.",
+		"Po predvarení budú zemiaky pevnejšie a lepšie sa ochutia.",
+		"Do veľkej misy pridaj 80 ml vody, 50 g kukuričného škrobu a vymiešaj. Potom pridaj predvarené hranolky zo sladkých zemiakov a jemne premiešaj.",
+		"Hranolky polož na mriežku vyloženú papierom na pečenie. Dbaj na to, aby sa nedotýkali a aby mali všetky dostatok priestoru na pečenie.",
+		"Potom ich postriekaj olivovým olejom v spreji a vlož do rúry na 15 minút. Po 15 minútach ich otoč a peč ďalších 15 minút.",
+		"Po upečení vlož hranolky do misy, posyp ich morskou soľou a čiernym korením."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 418,
+			"portions": 2,
+			"macros": {
+				"carbs": 92,
+				"protein": 6,
+				"fat": 3
+			},
+			"ingredients": [
+				{
+					"name": "veľký sladký zemiak",
+					"quantity": 2,
+					"unit": "ks"
+				},
+				{
+					"name": "ocot",
+					"quantity": 40,
+					"unit": "ml"
+				},
+				{
+					"name": "kukuričný škrob",
+					"quantity": 50,
+					"unit": "g"
+				},
+				{
+					"name": "olivový olej v spreji"
+				},
+				{
+					"name": "morská soľ"
+				}
+			]
+		}
+	],
+	"image": "onvia/image23.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image23"
+}

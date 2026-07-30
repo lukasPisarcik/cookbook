@@ -1,0 +1,32 @@
+{
+	"title": "Kokosový chia puding s drobným ovocím",
+	"category": "dezerty",
+	"prepTimeMinutes": 5,
+	"steps": [
+		"Všetky suroviny okrem chia semiačok si zmiešame v shakeri spolu s kokosovým mliekom.",
+		"Chia semiačka nasypeme do misky a zalejeme vzniknutou tekutou zmesou. Všetko spolu poriadne premiešame.",
+		"Misku necháme cez noc odstáť v chladničke, o zvyšok sa postarajú semiačka.",
+		"Druhý deň ozdobíme puding topingom podľa vlastnej chuti, alebo podľa nami odporúčanej kombinácie."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 520,
+			"portions": 1,
+			"macros": {"carbs": 20, "protein": 40, "fat": 28},
+			"ingredients": [
+				{"name": "chia semiačka", "quantity": 30, "unit": "g"},
+				{"name": "kolagénový prášok", "quantity": 10, "unit": "g"},
+				{"name": "kokosový proteínový prášok", "quantity": 20, "unit": "g"},
+				{"name": "nesladené kokosové mlieko", "quantity": 200, "unit": "ml"},
+				{"name": "sladidlo"},
+				{"name": "kokosové chipsy", "quantity": 10, "unit": "g"},
+				{"name": "čučoriedky", "quantity": 80, "unit": "g"},
+				{"name": "orechové maslo", "quantity": 20, "unit": "g"}
+			]
+		}
+	],
+	"image": "onvia/image345.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image345"
+}

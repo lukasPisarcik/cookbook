@@ -1,0 +1,33 @@
+{
+	"title": "Bounty Balls v čoko župane",
+	"category": "dezerty",
+	"prepTimeMinutes": 20,
+	"steps": [
+		"Všetky suroviny na bounty balls vymiešame v miske kuchynským mixérom pokým nevznikne jednotná lepkavá zmes.",
+		"Rukami vytvoríme malé guličky a necháme ich chladiť aspoň 30 minút v chladničke.",
+		"Medzitým si vo vodnom kúpeli rozpustíme čokoládu a namáčame do nej guličky (celé alebo polovičné, podľa preferencie, namáčali sme ich pomocou špáratka).",
+		"Prípadne ešte rozpustíme bielu čokoládu a zľahka ňou pokvapkáme čokoládové guličky ako bonus.",
+		"Vrch guličiek posyp strúhaným kokosom."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 80,
+			"portions": 18,
+			"macros": {"carbs": 2.4, "protein": 3, "fat": 6},
+			"ingredients": [
+				{"name": "strúhaný kokos", "quantity": 100, "unit": "g"},
+				{"name": "kokosový proteínový prášok", "quantity": 40, "unit": "g"},
+				{"name": "kokosové pyré", "quantity": 40, "unit": "g"},
+				{"name": "kokosové mlieko", "quantity": 100, "unit": "ml"},
+				{"name": "sladidlo"},
+				{"name": "soľ", "unit": "štipka"},
+				{"name": "horká čokoláda", "quantity": 50, "unit": "g"},
+				{"name": "biela čokoláda", "quantity": 20, "unit": "g"}
+			]
+		}
+	],
+	"image": "onvia/image339.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image339"
+}

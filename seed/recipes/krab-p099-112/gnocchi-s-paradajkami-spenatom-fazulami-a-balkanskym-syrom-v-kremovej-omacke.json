@@ -1,0 +1,33 @@
+{
+	"title": "Gnocchi s paradajkami špenátom, fazuľami a balkánskym syrom v krémovej omáčke",
+	"category": "obedy",
+	"steps": [
+		"Cibuľu a strúčik očisťte a nakrájate nadrobno. Paradajky prekrojte na polovicu, špenát umyjeme.",
+		"V hlbšej panvici rozohrejte olivový olej a orestujte na čom cesnak s cibuľom, pridajte cherry paradajky, špenát, odkvapkané fazule a gnocchi. Zalejte to vývarom. Osoľte podľa chuti.",
+		"Pridajte pretlak, smotanu a povarte do zmäknutia gnocchi.",
+		"Gnocchi presuňte do misiek alebo na tanier, posypte syrom."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 4,
+			"ingredients": [
+				{"name": "olivový olej", "quantity": 1, "unit": "ČL"},
+				{"name": "žltá cibuľa", "quantity": 65, "unit": "g"},
+				{"name": "cesnak", "quantity": 2, "unit": "strúčik"},
+				{"name": "cherry paradajky", "quantity": 10, "unit": "ks"},
+				{"name": "čerstvý špenát", "quantity": 2, "unit": "hrsť"},
+				{"name": "maslové fazule", "quantity": 1, "unit": "konzerva"},
+				{"name": "zemiakové gnocchi", "quantity": 500, "unit": "g"},
+				{"name": "kurací vývar", "quantity": 220, "unit": "g"},
+				{"name": "smotana na šľahanie", "quantity": 100, "unit": "g"},
+				{"name": "paradajkový pretlak", "quantity": 3, "unit": "PL"},
+				{"name": "soľ"},
+				{"name": "balkánsky syr", "quantity": 120, "unit": "g"}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p105.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p105"
+}

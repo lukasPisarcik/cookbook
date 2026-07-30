@@ -1,0 +1,76 @@
+{
+	"title": "Kuracie kúsky v mangovej kari omáčke",
+	"category": "obedy",
+	"steps": [
+		"Cibuľa a cesnak očistite a nakrájajte nadrobno. Mango zbavte šupky a nakrájajte na kúsky.",
+		"Kuracie prsia nakrájajte na menšie kocky.",
+		"V hlbokej panvici rozohrejte maslo a orastuje na ňom mäsom, potom ho vyberte a orestujte cibuľu s cesnakom, pridajte mango a 200 ml vody.",
+		"Povarte a pridajte kari, zázvor, škoricu, pretlak, soľ a keď je mango mäkké, pridajte kokosové mlieko a rozmixujte všetko na hladkú omáčku.",
+		"Potom pridajte do omáčky mäso a ešte povarte, kým nebude mäso vnútri urobené.",
+		"Podávajte s jazmínovou alebo basmati ryžou."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 4,
+			"ingredients": [
+				{
+					"name": "maslo",
+					"quantity": 1,
+					"unit": "PL"
+				},
+				{
+					"name": "červená cibuľa",
+					"quantity": 0.5,
+					"unit": "ks"
+				},
+				{
+					"name": "cesnak",
+					"quantity": 2,
+					"unit": "ks"
+				},
+				{
+					"name": "zrelé mango",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "kuracie prsia",
+					"quantity": 500,
+					"unit": "g"
+				},
+				{
+					"name": "kari korenie",
+					"quantity": 2,
+					"unit": "ČL"
+				},
+				{
+					"name": "mletý zázvor",
+					"quantity": 0.5,
+					"unit": "ČL"
+				},
+				{
+					"name": "mletá škorica",
+					"quantity": 0.5,
+					"unit": "ČL"
+				},
+				{
+					"name": "paradajkový pretlak",
+					"quantity": 2,
+					"unit": "PL"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "kokosové mlieko",
+					"quantity": 400,
+					"unit": "g"
+				}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p69.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p69"
+}

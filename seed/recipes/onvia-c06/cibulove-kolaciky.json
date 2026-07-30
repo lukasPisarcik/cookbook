@@ -1,0 +1,44 @@
+{
+	"title": "Cibuľové koláčiky",
+	"category": "zaklady",
+	"prepTimeMinutes": 22,
+	"steps": [
+		"Rúru predhrej na 180°C funkcia ventilátor.",
+		"Vyber plech na pečenie a vylož ho papierom na pečenie.",
+		"Povrch papiera na pečenie pokvapkaj olivovým olejom, balzamikovým octom, medom, worcestrovou omáčkou tak, že vytvoríš 8 stanovíšť rovnomerne vzdialených od seba a na každé stanovište polož krúžky nakrájanej cibule.",
+		"Cibuľu posyp koreninami a syrom a všetko zakry celým lístkovým cestom tak, že okraje cesta pritlačš na papier na pečenie.",
+		"Potom cesto rozkroj na polovicu po dlžke a na šírku tak aby ti vzniklo 8 menších štvorcov na plechu. Tie by mali prekrývať tvojich 8 cibuľových stanovíšť.",
+		"Povrch cesta potri bielkom a peč v rozohriatej rúre 15 minút.",
+		"Po dopečení, lístkové koláčiky pootáčaj na plechu a nechaj ešte 5 minút odstáť vo vypnutej rúre.",
+		"Môžeš ich jesť samotné, potrieť ich smotanovým syrom alebo ich podávaj ako prílohu k čerstvému šalátu."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 246,
+			"portions": 8,
+			"macros": {
+				"carbs": 26,
+				"protein": 4,
+				"fat": 14
+			},
+			"ingredients": [
+				{ "name": "lístkové cesto", "quantity": 1, "unit": "balenie" },
+				{ "name": "biela cibuľa", "quantity": 1, "unit": "ks" },
+				{ "name": "olivový olej", "quantity": 4, "unit": "ČL" },
+				{ "name": "balzamikový ocot", "quantity": 4, "unit": "ČL" },
+				{ "name": "worcestrová omáčka", "quantity": 2, "unit": "ČL" },
+				{ "name": "med", "quantity": 2, "unit": "ČL" },
+				{ "name": "strúhaný parmezán", "quantity": 40, "unit": "g" },
+				{ "name": "soľ" },
+				{ "name": "čierne korenie" },
+				{ "name": "granulovaný cesnak" },
+				{ "name": "granulovaná cibuľa" },
+				{ "name": "sušený tymián" }
+			]
+		}
+	],
+	"image": "onvia/image120.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image120"
+}

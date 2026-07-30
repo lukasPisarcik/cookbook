@@ -1,0 +1,58 @@
+{
+	"title": "Čokoládový puding",
+	"category": "dezerty",
+	"dietTags": ["bezlaktozove", "vegan", "vegetarianske"],
+	"prepTimeMinutes": 10,
+	"steps": [
+		"Rozkroj avokádo a lyžicou vydlab vnútro.",
+		"Dužinu daj do shakera alebo do hlbokej misky.",
+		"Pridaj banány a dôkladne všetko rozmixuj s mixérom.",
+		"Potom pridaj med a kakao, a všetko dôkladne znova rozmixuj.",
+		"Vzniknutý čokoládový puding rozdeľ do menších pohárov a nechaj zachladiť v chladničke, aby získal ideálnu konzistenciu a chuť.",
+		"Podávaj s jahodami.",
+		"Dobrú chuť :)"
+	],
+	"funFact": "Avokádo nie je zelenina, ale ovocie.",
+	"variants": [
+		{
+			"label": "300 kcal",
+			"kcalPerPortion": 262,
+			"portions": 3,
+			"macros": {
+				"carbs": 29,
+				"protein": 4,
+				"fat": 12
+			},
+			"ingredients": [
+				{
+					"name": "zrelé avokádo",
+					"quantity": 250,
+					"unit": "g"
+				},
+				{
+					"name": "banán",
+					"quantity": 180,
+					"unit": "g"
+				},
+				{
+					"name": "kakao",
+					"quantity": 28,
+					"unit": "g"
+				},
+				{
+					"name": "med",
+					"quantity": 25,
+					"unit": "g"
+				},
+				{
+					"name": "jahody",
+					"quantity": 150,
+					"unit": "g"
+				}
+			]
+		}
+	],
+	"image": "cokoladovy-puding-300-kcal/p1.webp",
+	"source": "Čokoládový puding - 300 kcal.pdf",
+	"sourceRef": "p1"
+}

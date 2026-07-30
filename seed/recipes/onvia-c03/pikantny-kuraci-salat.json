@@ -1,0 +1,103 @@
+{
+	"title": "Pikantný kurací šalát",
+	"category": "obedy",
+	"prepTimeMinutes": 28,
+	"steps": [
+		"Uvar cestoviny a nechaj ich vychladnúť. Potom rozohrej panvicu na strednom ohni a pridaj do nej kukuricu. Restuj ju, pokým nezačne zlatnúť. Ja som ju ochutila len trochou soľou. Nechaj ju tiež bokom vychladnúť v miske.",
+		"Teraz si orestuj kuracie prsia podľa vlastných preferencií. Odporúčam byť mierna s korením už len preto, že cestovinový šalát bude mať veľký šmrnc!",
+		"Potom vymiešaj v miske všetky suroviny na dressing pokým sa dobre neprepoja.",
+		"Cestovinový šalát pripravíš tak, že všetky hotové suroviny, zeleninu, parmezán a koreniny vložíš do veľkej misy, zaleješ dressingom a dobre premiešaš."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 694,
+			"portions": 3,
+			"macros": {
+				"carbs": 84,
+				"protein": 74,
+				"fat": 8
+			},
+			"ingredients": [
+				{
+					"name": "cestoviny",
+					"quantity": 250,
+					"unit": "g"
+				},
+				{
+					"name": "kukurica z konzervy",
+					"quantity": 350,
+					"unit": "g"
+				},
+				{
+					"name": "kuracie prsia",
+					"quantity": 700,
+					"unit": "g"
+				},
+				{
+					"name": "červená cibuľa",
+					"quantity": 100,
+					"unit": "g"
+				},
+				{
+					"name": "zavárané uhorky",
+					"quantity": 100,
+					"unit": "g"
+				},
+				{
+					"name": "jalapeño",
+					"quantity": 40,
+					"unit": "g"
+				},
+				{
+					"name": "koriander",
+					"quantity": 15,
+					"unit": "g"
+				},
+				{
+					"name": "parmezán",
+					"quantity": 20,
+					"unit": "g"
+				},
+				{
+					"name": "cesnak",
+					"quantity": 2,
+					"unit": "strúčik"
+				},
+				{
+					"name": "morská soľ"
+				},
+				{
+					"name": "čierne korenie"
+				},
+				{
+					"name": "granulovaný cesnak"
+				},
+				{
+					"name": "kajenské korenie"
+				},
+				{
+					"name": "prírodný nízkotučný grécky jogurt",
+					"quantity": 250,
+					"unit": "g"
+				},
+				{
+					"name": "sriracha",
+					"quantity": 30,
+					"unit": "g"
+				},
+				{
+					"name": "limetka",
+					"quantity": 2,
+					"unit": "ks"
+				},
+				{
+					"name": "limetková kôra"
+				}
+			]
+		}
+	],
+	"image": "onvia/image58.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image58"
+}

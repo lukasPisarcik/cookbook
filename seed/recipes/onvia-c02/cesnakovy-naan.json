@@ -1,0 +1,82 @@
+{
+	"title": "Cesnakový Naan",
+	"category": "zaklady",
+	"prepTimeMinutes": 20,
+	"steps": [
+		"Najskôr vezmi hlavičku cesnaku, odrež jej vrchnú časť (čiapočku), nalej na ňu trochu olivového oleja, pridaj soľ, zabaľ ju celú do alobalu a vlož do rúry na 20 minút pri teplote 200°C funkcia ventilátor.",
+		"Do misky pridaj všetky suché suroviny na naan chlieb a premiešaj, aby sa zabránilo ich zhlukovaniu. Potom pridaj grécky jogurt. Všetko spolu vymiešaj, rukami vytvor z cesta veľkú guľu (cca 250g).",
+		"Cesto rozdeľ na 8 rovnakých malých guličiek a vyvaľkaj z nich tenké placky. Ak chceš hrubšie a väčšie naan chleby, rozdeľ cesto na 4 guľky a vyvaľkaj ich.",
+		"Na prípravu cesnakového masla zmiešaj v miske všetky suroviny a nezabudni na cesnak. Strúčiky upečeného cesnaku len vytlač do misky a všetko spolu zmiešaj.",
+		"Rozpáľ panvicu na strednom ohni a rozotri trochu cesnakového masla silikónovým štetcom na jednu stranu naanu. Polož ho na panvicu maslovou stranou a na vrchnú stranu natri ešte ďalšiu trochu masla.",
+		"Opeč na tejto strane, kým sa nevytvoria bublinky (cca 1-2min), potom naan otoč na druhú stranu a opeč ďalších 40-50 sekúnd."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 80,
+			"portions": 8,
+			"macros": {
+				"carbs": 8,
+				"protein": 5,
+				"fat": 3
+			},
+			"ingredients": [
+				{
+					"name": "polohrubá múka",
+					"quantity": 60,
+					"unit": "g"
+				},
+				{
+					"name": "prášok do pečiva",
+					"quantity": 2,
+					"unit": "g"
+				},
+				{
+					"name": "proteín bez príchute",
+					"quantity": 30,
+					"unit": "g"
+				},
+				{
+					"name": "kokosová múka",
+					"quantity": 18,
+					"unit": "g"
+				},
+				{
+					"name": "nízkotučný grécky jogurt",
+					"quantity": 140,
+					"unit": "g"
+				},
+				{
+					"name": "soľ",
+					"unit": "štipka"
+				},
+				{
+					"name": "maslo (izbová teplota)",
+					"quantity": 50,
+					"unit": "g"
+				},
+				{
+					"name": "petržlenová vňať",
+					"unit": "hrsť"
+				},
+				{
+					"name": "cesnak",
+					"quantity": 1,
+					"unit": "hlavička"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "korenie"
+				},
+				{
+					"name": "granulovaná cibuľa"
+				}
+			]
+		}
+	],
+	"image": "onvia/image31.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image31"
+}

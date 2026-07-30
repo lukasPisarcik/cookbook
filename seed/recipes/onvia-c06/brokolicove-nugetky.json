@@ -1,0 +1,38 @@
+{
+	"title": "Brokolicové nugetky",
+	"category": "snacky",
+	"prepTimeMinutes": 40,
+	"steps": [
+		"Brokolicu var 6-8 minút vo vriacej vode.",
+		"Predhrej rúru na 200°C (horný / spodný ohrev).",
+		"Po uvarení odstráň ružičky brokolice od stonky. Vlož ružičky do kuchynského mixéra.",
+		"Pridaj do mixéra vajce, smotanový syr a stúhaný syr. Kúsky slaninky môžeš pridať do brokolicovej zmesi teraz (potom bude trochu krémovejšia) alebo po rozmixovaní, potom budú nugetky trochu chrumkavejšie.",
+		"Dochuť soľou, korením a premiešaj.",
+		"Plech na pečenie vylož papierom na pečenie. Zo zmesi vytvor pomocou polievkovej lyžice nugetky a rozlož ich na plech.",
+		"Peč vo vyhriatej rúre 20-25 minút."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 297,
+			"portions": 2,
+			"macros": {
+				"carbs": 8,
+				"protein": 35,
+				"fat": 13
+			},
+			"ingredients": [
+				{ "name": "brokolica", "quantity": 350, "unit": "g" },
+				{ "name": "vajce", "quantity": 1, "unit": "ks" },
+				{ "name": "smotanový syr", "quantity": 80, "unit": "g" },
+				{ "name": "strúhaný syr", "quantity": 100, "unit": "g" },
+				{ "name": "kúsky slaniny", "quantity": 75, "unit": "g" },
+				{ "name": "soľ", "quantity": 0.5, "unit": "ČL" },
+				{ "name": "korenie", "quantity": 0.5, "unit": "ČL" }
+			]
+		}
+	],
+	"image": "onvia/image121.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image121"
+}

@@ -1,0 +1,44 @@
+{
+	"title": "Syrovo-zemiakové bomby s karamelizovanou cibuľkou",
+	"category": "snacky",
+	"prepTimeMinutes": 60,
+	"steps": [
+		"Zemiaky ošúp, rozštvrť a uvar v osolenej vode do mäkka.",
+		"Cibuľu nakrájaj na krúžky a orestuj ju s trochou soli na oleji (alebo masle).",
+		"Zníž teplotu a spolu s ostatnými surovinamu ju dus 30 minút na miernom ohni, kým nezmäkne. Nezabudni cibuľu občas premiešať.",
+		"Keď sú zemiaky uvarené a mäkké, môžeš ich scediť a nechať krátko vychladnúť. Pretlač ich cez sito na zemiaky a zmiešaj ich s ostatnými prísadami, kým nevznikne homogénne cesto. Cesto nechaj 10-15 minút chladiť v chladničke, aby bolo ľahšie spracovateľné.",
+		"Medzitým nakrájaj syr na kocky (približne 3x3 cm).",
+		"Vyber cesto z chladničky, trochu si navlhči ruky a vytvor guľky. Palcom potom urob do každej guľky jamku, vlož do nej syr a jamku opäť uzavri stlačením cesta dokopy. Tento postup opakuj, kým nespracuješ celé cesto.",
+		"Guľky sme robili tromi spôsobmi a všetky tri fungujú: môžeš ich piecť v rúre pri 200°C počas 10 minút funkcia ventilátor, vo fritéze (AirFryer) pri 160°C počas 10 minút alebo ich môžeš smažiť na panvici s ďalším olejom alebo maslom na strednom ohni 12 minút, kým nebudú zo všetkých strán zlatohnedé.",
+		"Teraz už len na vrch pridaj cibuľu a vychutnávaj túto explóziu chuti!"
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 389,
+			"portions": 15,
+			"macros": {"carbs": 48, "protein": 23, "fat": 11},
+			"ingredients": [
+				{"name": "zemiaky", "quantity": 1000, "unit": "g"},
+				{"name": "proteínový prášok bez príchute", "quantity": 100, "unit": "g"},
+				{"name": "zemiakový škrob", "quantity": 50, "unit": "g"},
+				{"name": "polohrubá múka", "quantity": 100, "unit": "g"},
+				{"name": "petržlenová vňať", "quantity": 1, "unit": "hrsť"},
+				{"name": "vajce", "quantity": 1, "unit": "ks"},
+				{"name": "blok syr light", "quantity": 300, "unit": "g"},
+				{"name": "veľká biela cibuľa", "quantity": 5, "unit": "ks"},
+				{"name": "med", "quantity": 1, "unit": "ČL"},
+				{"name": "worcesterská omáčka", "quantity": 1, "unit": "PL"},
+				{"name": "biely vínny ocot", "quantity": 1, "unit": "PL"},
+				{"name": "maslo", "quantity": 10, "unit": "g"},
+				{"name": "biele víno", "quantity": 100, "unit": "ml"},
+				{"name": "soľ"},
+				{"name": "korenie"},
+				{"name": "muškátový oriešok"}
+			]
+		}
+	],
+	"image": "onvia/image204.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image204"
+}

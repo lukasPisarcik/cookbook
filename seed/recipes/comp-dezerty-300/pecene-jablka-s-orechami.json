@@ -1,0 +1,31 @@
+{
+	"title": "Pečené jablká s orechami",
+	"category": "dezerty",
+	"dietTags": ["bezlaktozove"],
+	"prepTimeMinutes": 38,
+	"steps": [
+		"Rúru predohrej na 180°C a priprav plech s papierom na pečenie.",
+		"Jablká umy a odstráň stred (jadrovník- POZOR NA PRSTY :D), aby vznikol priestor pre náplň.",
+		"Do jabĺk daj orieškové maslo, polej medom a posyp škoricou.",
+		"Peč cca 20-30 minút, až kým jablká nezmäknú a nezačnú jemne hnednúť. Po upečení ozdob nasekanými orechami.",
+		"Jedna porcia = 1 plnené jablko."
+	],
+	"funFact": "Jablká sú vynikajúcim zdrojom vlákniny, ktorá podporuje zdravé trávenie a pomáha udržiavať stabilnú hladinu cukru v krvi.",
+	"variants": [
+		{
+			"label": "300 kcal",
+			"kcalPerPortion": 311,
+			"portions": 2,
+			"macros": { "carbs": 42, "protein": 6, "fat": 13 },
+			"ingredients": [
+				{ "name": "stredné jablko", "quantity": 2, "unit": "ks" },
+				{ "name": "med", "quantity": 30, "unit": "g" },
+				{ "name": "orieškové maslo", "quantity": 30, "unit": "g" },
+				{ "name": "škorica" },
+				{ "name": "nasekané orechy", "quantity": 15, "unit": "g" }
+			]
+		}
+	],
+	"source": "Dezerty-300kcal.pdf",
+	"sourceRef": "p6"
+}

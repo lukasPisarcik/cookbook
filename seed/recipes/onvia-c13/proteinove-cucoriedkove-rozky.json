@@ -1,0 +1,35 @@
+{
+	"title": "Proteínové čučoriedkové rožky",
+	"category": "dezerty",
+	"prepTimeMinutes": 20,
+	"steps": [
+		"Zapni rúru na 170°C aby sa dobre rozohriala.",
+		"Všetky suché suroviny pridaj do misy a premiešaj, aby sa zabránilo ich zhlukovaniu.",
+		"Potom do misy pridaj grécky jogurt a miešaj, kým nevznikne konzistencia podobná drobenke. Do vzniknutej hmoty pridaj čučoriedky. Najprv som na vymiešanie použila stierku a potom som si pomohla rukami, aby som vytvorila cesto zo zhluku drobenky a čučoriedok.",
+		"Povrch na valkanie si posyp múkou, aby sa cesto lepšie formovalo. Na pomúčenú plochu pridaj cesto a rozvalkaj ho do okrúhleho tvaru s hrúbkou asi 1,5 cm.",
+		"Vzniknuté vyvaľkané cesto nakrájaj na 8 rovnako veľkých kusov (ako pizza) a potom vlož na plech vyložený papierom na pečenie.",
+		"Koláčiky postriekaj olejom v spreji a peč vo vyhriatej rúre 8 minút na 170°C funkcia ventiláor.",
+		"Po upečení nechaj 2 minúty vychladnúť a potom na vrch pridaj trochu práškového cukru, ak potrebuješ trošku tradičného šmrncu! Dobrú chuť!"
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 136,
+			"portions": 8,
+			"macros": {"carbs": 19, "protein": 11, "fat": 2},
+			"ingredients": [
+				{"name": "polohrubá múka", "quantity": 150, "unit": "g"},
+				{"name": "prášok do pečiva", "quantity": 3, "unit": "g"},
+				{"name": "vanilkový proteínový prášok", "quantity": 60, "unit": "g"},
+				{"name": "kokosová múka", "quantity": 30, "unit": "g"},
+				{"name": "Unicorn Dust", "quantity": 9, "unit": "g"},
+				{"name": "nízkotučný grécky jogurt", "quantity": 250, "unit": "g"},
+				{"name": "mrazené čučoriedky", "quantity": 100, "unit": "g"},
+				{"name": "olej v spreji"}
+			]
+		}
+	],
+	"image": "onvia/image263.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image263"
+}

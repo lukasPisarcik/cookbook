@@ -1,0 +1,105 @@
+{
+	"title": "Čokoládový puding",
+	"category": "dezerty",
+	"dietTags": ["bezlaktozove", "vegan", "vegetarianske"],
+	"prepTimeMinutes": 10,
+	"steps": [
+		"Rozkroj avokádo a lyžicou vydlab vnútro.",
+		"Dužinu daj do shakera alebo do hlbokej misky.",
+		"Pridaj banány a dôkladne všetko rozmixuj s mixérom.",
+		"Potom pridaj med a kakao, a všetko dôkladne znova rozmixuj.",
+		"Vzniknutý čokoládový puding rozdeľ do menších pohárov a nechaj zachladiť v chladničke, aby získal ideálnu konzistenciu a chuť.",
+		"Podávaj s jahodami a orechami.",
+		"Dobrú chuť :)"
+	],
+	"funFact": "Avokádo nie je zelenina, ale ovocie.",
+	"variants": [
+		{
+			"label": "450 kcal",
+			"kcalPerPortion": 447,
+			"portions": 2,
+			"macros": {
+				"carbs": 45,
+				"protein": 8,
+				"fat": 23
+			},
+			"ingredients": [
+				{
+					"name": "zrelé avokádo",
+					"quantity": 250,
+					"unit": "g"
+				},
+				{
+					"name": "banán",
+					"quantity": 180,
+					"unit": "g"
+				},
+				{
+					"name": "kakao",
+					"quantity": 28,
+					"unit": "g"
+				},
+				{
+					"name": "med",
+					"quantity": 25,
+					"unit": "g"
+				},
+				{
+					"name": "vlašské orechy",
+					"quantity": 15,
+					"unit": "g"
+				},
+				{
+					"name": "jahody",
+					"quantity": 150,
+					"unit": "g"
+				}
+			]
+		},
+		{
+			"label": "550 kcal",
+			"kcalPerPortion": 548,
+			"portions": 1,
+			"macros": {
+				"carbs": 49,
+				"protein": 10,
+				"fat": 31
+			},
+			"ingredients": [
+				{
+					"name": "zrelé avokádo",
+					"quantity": 150,
+					"unit": "g"
+				},
+				{
+					"name": "banán",
+					"quantity": 90,
+					"unit": "g"
+				},
+				{
+					"name": "kakao",
+					"quantity": 14,
+					"unit": "g"
+				},
+				{
+					"name": "med",
+					"quantity": 12,
+					"unit": "g"
+				},
+				{
+					"name": "jahody",
+					"quantity": 100,
+					"unit": "g"
+				},
+				{
+					"name": "vlašské orechy",
+					"quantity": 15,
+					"unit": "g"
+				}
+			]
+		}
+	],
+	"image": "cokoladovy-puding-450-kcal/p1.webp",
+	"source": "Čokoládový puding - 450 kcal.pdf",
+	"sourceRef": "p1"
+}

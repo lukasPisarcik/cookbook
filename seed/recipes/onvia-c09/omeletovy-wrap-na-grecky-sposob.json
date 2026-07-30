@@ -1,0 +1,47 @@
+{
+	"title": "Omeletový wrap na grécky spôsob",
+	"category": "obedy",
+	"prepTimeMinutes": 10,
+	"steps": [
+		"Kuracie mäso s cibuľou a fazuľkami opeč na panvici (môžeš použiť aj predvarené kuracie mäso). Podľa potreby dochuť rovnakou zmesou korenia ako tzatziky. Po opečení daj bokom.",
+		"Vyšľahaj v miske dve vajcia, okoreň a vylej na panvicu, kým nezačne tuhnúť, potom zľahka polož wrap na omeletu. Medzitým v miske zmiešaj skyr so všetkými ostatnými surovinami, korením a bylinkami na tzatziki.",
+		"Keď sa vajce uvarí, wrap s vajíčkom otoč na druhú stranu",
+		"Na hotovú omeletu daj tzatziki, fazuľky s kuracím mäsom a vrch posyp feta syrom. Prelož wrapovú omeletu na polovicu a vychutnaj."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 590,
+			"portions": 1,
+			"macros": {
+				"carbs": 36,
+				"protein": 64,
+				"fat": 20
+			},
+			"ingredients": [
+				{ "name": "proteínový wrap", "quantity": 1, "unit": "ks" },
+				{ "name": "vajce", "quantity": 2, "unit": "ks" },
+				{ "name": "skyr", "quantity": 100, "unit": "g" },
+				{ "name": "citrón", "quantity": 0.5, "unit": "ks" },
+				{ "name": "nastrúhaná uhorka", "quantity": 50, "unit": "g" },
+				{ "name": "olivový olej", "quantity": 1, "unit": "ČL" },
+				{ "name": "soľ" },
+				{ "name": "korenie" },
+				{ "name": "cesnak", "quantity": 1, "unit": "strúčik" },
+				{ "name": "oregano" },
+				{ "name": "petržlen" },
+				{ "name": "zelená uhorka", "quantity": 20, "unit": "g" },
+				{ "name": "cherry paradajky", "quantity": 6, "unit": "ks" },
+				{ "name": "kuracie prsia", "quantity": 80, "unit": "g" },
+				{ "name": "červená cibuľa", "quantity": 1, "unit": "ks" },
+				{ "name": "biele fazuľky z konzervy", "quantity": 80, "unit": "g" },
+				{ "name": "feta syr light", "quantity": 20, "unit": "g" },
+				{ "name": "rozmarín" },
+				{ "name": "granulovaný cesnak" }
+			]
+		}
+	],
+	"image": "onvia/image191.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image191"
+}

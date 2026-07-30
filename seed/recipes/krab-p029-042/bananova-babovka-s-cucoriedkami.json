@@ -1,0 +1,35 @@
+{
+	"title": "Banánová bábovka s čučoriedkami",
+	"category": "dezerty",
+	"steps": [
+		"Rúry predhrejte na 180 stupňov.",
+		"Banány rozmixujte, pridajte k nim vajce, olej, med a ešte premixujte.",
+		"Do misky nasypte múku, pridajte soľ, škoricu a kypriaci prášok, premiešajte.",
+		"K suchej zmesi nalejte tekutú zmes a všetko prepojte do hladkého ľahko tekutého cesta. Pridajte čučoriedky a opäť premiešajte.",
+		"Menšiu formu na bábovku vymastite maslom a vysypte múkou. Do formy nalejte cesto.",
+		"Dajte piecť na 40 minút.",
+		"Po upečení nechajte vychladnúť.",
+		"K bábovke si pridajte skyr alebo grécky jogurt pre doplnenie bielkovín."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"ingredients": [
+				{"name": "veľký zrelý banán", "quantity": 2, "unit": "ks"},
+				{"name": "vajce", "quantity": 1, "unit": "ks"},
+				{"name": "repkový olej", "quantity": 80, "unit": "ml"},
+				{"name": "med", "quantity": 4, "unit": "PL"},
+				{"name": "soľ", "unit": "štipka"},
+				{"name": "mletá škorica", "quantity": 1, "unit": "ČL"},
+				{"name": "kypriaci prášok", "quantity": 1.5, "unit": "ČL"},
+				{"name": "čučoriedky", "quantity": 0.75, "unit": "hrnček"},
+				{"name": "hladká múka", "quantity": 1, "unit": "hrnček"},
+				{"name": "maslo na vymastenie formy"},
+				{"name": "múka na vysypanie formy"}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p36.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p36"
+}

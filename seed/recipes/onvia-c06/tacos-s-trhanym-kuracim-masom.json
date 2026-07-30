@@ -1,0 +1,43 @@
+{
+	"title": "Tacos s trhaným kuracím mäsom",
+	"category": "obedy",
+	"prepTimeMinutes": 40,
+	"steps": [
+		"Najprv si priprav trhané mäso. Na panvici rozohrej kvapku oleja a kuracie mäso na väčšie kúsky opeč. Osoľ a okoreň.",
+		"Keď je mäso hotové, vyber ho, do panvice pridaj papriku a pridaj trošku vody. Nechaj dusiť.",
+		"Keď sú papriky polomäkké, pridaj korenie, omáčky, kukuricu a na pásiky natrhané kuracie prsia. Premiešaj.",
+		"Teraz už len nalož mini tortily zmesou, prelož ich a opeč na panvici z oboch strán. Posyp čerstvým korianderom."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 493,
+			"portions": 2,
+			"macros": {
+				"carbs": 65,
+				"protein": 33,
+				"fat": 11
+			},
+			"ingredients": [
+				{ "name": "mini tortilla", "quantity": 8, "unit": "ks" },
+				{ "name": "kuracie prsia", "quantity": 200, "unit": "g" },
+				{ "name": "olivový olej", "quantity": 1, "unit": "ČL" },
+				{ "name": "červená paprika", "quantity": 200, "unit": "g" },
+				{ "name": "kukurica", "quantity": 30, "unit": "g" },
+				{ "name": "sladká chilli omáčka", "quantity": 1, "unit": "ČL" },
+				{ "name": "kečup", "quantity": 1, "unit": "PL" },
+				{ "name": "sójová omáčka" },
+				{ "name": "nastrúhaná mozzarella light", "quantity": 40, "unit": "g" },
+				{ "name": "sladká paprika" },
+				{ "name": "sušený cesnak" },
+				{ "name": "bylinky" },
+				{ "name": "nasekaný koriander" },
+				{ "name": "soľ" },
+				{ "name": "čierne korenie" }
+			]
+		}
+	],
+	"image": "onvia/image142.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image142"
+}

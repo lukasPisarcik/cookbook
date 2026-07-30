@@ -1,0 +1,33 @@
+{
+	"title": "Jablkovo mandľová mliečna ryža",
+	"category": "ranajky",
+	"prepTimeMinutes": 20,
+	"steps": [
+		"Zmiešaj všetky suroviny okrem jablka a zalej ich vriacou vodou.",
+		"Dobre vymiešaj, aby sa vytvorila celistvá hmota.",
+		"Nastrúhaj jablko na malé kúsky a navrstvi kašovitú hmotu a jablko do pohára ako na obrázku.",
+		"Nechaj 15 minút odstáť, aby zmes trochu stuhla, a potom už len vychutnávaj!"
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 461,
+			"portions": 1,
+			"macros": {"carbs": 56, "protein": 35, "fat": 11},
+			"ingredients": [
+				{"name": "jablko", "quantity": 1, "unit": "ks"},
+				{"name": "instantná ryžová kaša", "quantity": 30, "unit": "g"},
+				{"name": "vanilkový proteínový prášok", "quantity": 30, "unit": "g"},
+				{"name": "mandľová múka", "quantity": 20, "unit": "g"},
+				{"name": "nasekané mandle", "quantity": 20, "unit": "g"},
+				{"name": "sladidlo"},
+				{"name": "škorica", "unit": "štipka"},
+				{"name": "soľ", "unit": "štipka"},
+				{"name": "vriaca voda", "quantity": 250, "unit": "ml"}
+			]
+		}
+	],
+	"image": "onvia/image344.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image344"
+}

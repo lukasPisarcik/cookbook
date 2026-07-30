@@ -1,0 +1,37 @@
+{
+	"title": "Bananarama Vafle s čímkoľvek chceš",
+	"category": "ranajky",
+	"prepTimeMinutes": 5,
+	"steps": [
+		"Predhrejeme vaflovač.",
+		"Medzitým roztlačíme banán vidličkou (1/4 banánu si necháme!), pridáme vajce, miešame kým nevznikne homogénna zmes.",
+		"Pridáme všetky práškové suroviny, ovsené vločky a nakoniec kefír. Premiešame a necháme krátko odstáť (5-10 min), aby ovsené vločky absorbovali tekutinu.",
+		"Nakoniec pridáme zvyšný banán nakrájaný na kocky, čokopecičky a zo vzniknutej hmoty upečieme vafle.",
+		"Ako topping zvoľ čokoľvek, na čo máš chuť!"
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 479,
+			"portions": 1,
+			"macros": {"carbs": 43, "protein": 43, "fat": 14},
+			"ingredients": [
+				{"name": "banán", "quantity": 100, "unit": "g"},
+				{"name": "proteínový prášok (vanilka)", "quantity": 30, "unit": "g"},
+				{"name": "ovsené vločky", "quantity": 30, "unit": "g"},
+				{"name": "kefír", "quantity": 50, "unit": "ml"},
+				{"name": "vajce", "quantity": 1, "unit": "ks"},
+				{"name": "čokopecičky", "quantity": 8, "unit": "g"},
+				{"name": "Unicorn Dust", "quantity": 6, "unit": "g"},
+				{"name": "prášok do pečiva", "quantity": 2, "unit": "g"},
+				{"name": "soľ", "unit": "štipka"},
+				{"name": "banán (topping)", "quantity": 0.5, "unit": "ks"},
+				{"name": "drobné ovocie"},
+				{"name": "domáca granola"}
+			]
+		}
+	],
+	"image": "onvia/image293.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image293"
+}

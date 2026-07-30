@@ -1,0 +1,38 @@
+{
+	"title": "Apple Pie Pizza",
+	"category": "dezerty",
+	"prepTimeMinutes": 15,
+	"steps": [
+		"Rúru predhrej na 200°C funkcia ventilátor. Všetky suché suroviny pridaj do jednej misy a mokré suroviny do druhej. Suché suroviny spolu premiešaj, aby sa zabránilo ich zhlukovaniu. Potom urob to isté s mokrými surovinami. Spoj dokopy suché a mokré suroviny v jednej mise a miešaj, kým sa úplne neprepoja.",
+		"Vezmi plech a vylož ho papierom na pečenie. Vzniknuté cesto na pizzu rozotri na papier do požadovaného tvaru pizze. Odporúčam rozotrieť cesto tak, aby v strede bolo cesto tenšie a na okrajoch trošku hrubšie. Zabezpečíš tým správne pečenie a na okrajoch vznikne hrubšia kôrka. Daj pizzu piecť do rúry na 8 až 10 minút (pozoruj ju) a po opečení ju vyber.",
+		"Kým sa pizza pečie, nakrájaj si jablko na malé kocky a opeč ho na vymastenej panvici na miernom ohni so škoricou, Unicorn Dustom a troškou vody (20ml). V malej miske si vymiešaj jablkové pyré so škrobom a pridaj k jablku na panvici a dobre premiešaj. Opeč jablkovú zmes kým sa nevytvorí šťavnatá štruktúra.",
+		"Pizza základ vyber z rúry, pridaj na vrch jablkovú zmes z panvice a vlož späť do rúry na ďalších 4-6 minút. Po dopečení vyber z rúry, ozdob obľúbeným orechovým maslom a vychutnávaj."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 527,
+			"portions": 1,
+			"macros": {"carbs": 83, "protein": 42, "fat": 3},
+			"ingredients": [
+				{"name": "polohrubá múka", "quantity": 30, "unit": "g"},
+				{"name": "kokosová múka", "quantity": 8, "unit": "g"},
+				{"name": "vanilkový srvátkový proteínový prášok", "quantity": 15, "unit": "g"},
+				{"name": "Unicorn Dust", "quantity": 3, "unit": "g"},
+				{"name": "mletá škorica", "quantity": 5, "unit": "g"},
+				{"name": "prášok do pečiva", "quantity": 4, "unit": "g"},
+				{"name": "nízkotučný grécky jogurt", "quantity": 100, "unit": "g"},
+				{"name": "tekuté vaječné bielky", "quantity": 50, "unit": "g"},
+				{"name": "veľké jablko", "quantity": 1, "unit": "ks"},
+				{"name": "škorica", "quantity": 2, "unit": "g"},
+				{"name": "citrón (šťava)", "quantity": 0.5, "unit": "ks"},
+				{"name": "jablkové pyré", "quantity": 100, "unit": "g"},
+				{"name": "kukuričný škrob", "quantity": 10, "unit": "g"},
+				{"name": "orechové maslo", "quantity": 30, "unit": "g"}
+			]
+		}
+	],
+	"image": "onvia/image8.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image8"
+}

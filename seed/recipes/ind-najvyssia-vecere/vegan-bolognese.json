@@ -1,0 +1,118 @@
+{
+	"title": "Vegan bolognese",
+	"category": "vecere",
+	"dietTags": ["vegan"],
+	"prepTimeMinutes": 55,
+	"steps": [
+		"Nechaj šošovicu namočenú vo vode na 30 minút.",
+		"Medzitým si zohrej olivový olej v hlbokej panvici.",
+		"Keď je olej horúci, pridaj nakrájanú cibuľu a tiež nastrúhanú alebo na malé kocky nakrájanú mrkvu a restuj ich spolu, kým obe nezmäknú a nezačnú voňať.",
+		"Potom pridaj pretlačený cesnak, následne bylinky, soľ a čierne korenie.",
+		"Pridaj celú tubu paradajkového pretlaku. Nechaj ho pár minút restovať a skaramelizovať. (Spoznáš to podľa toho, že zmení farbu na tmavšiu červenú.)",
+		"Ak používaš červené víno, teraz je čas ním zaliať panvicu.",
+		"Nechaj víno chvíľu variť, kým sa nestratí alkoholová vôňa a zmes nebude mať hustú konzistenciu.",
+		"Prilej vývar, pridaj namočenú šošovicu a nadrobno nasekaného vlašské orechy. Premiešaj a prived’ k varu.",
+		"Po 20 minútach pridaj drvené paradajky. Pokračuj vo varení, kým šošovica nie je „al dente“. ( V tomto bode by mala byť omáčka hustá.)",
+		"Ochutnaj a podľa potreby dolaď korenie, bylinky, soľ či čierne korenie.",
+		"Na záver primiešaj balzamikový ocot.",
+		"Ozdob čerstvou petržlenovou vňaťou alebo bazalkou.",
+		"Dobrú chuť."
+	],
+	"funFact": "V Taliansku v meste Boloňa je špeciálne združenie, ktoré chráni originálny recept na bolognese omáčku.",
+	"variants": [
+		{
+			"label": "500 kcal",
+			"kcalPerPortion": 503,
+			"portions": 5,
+			"macros": {
+				"carbs": 75,
+				"protein": 20,
+				"fat": 8
+			},
+			"ingredients": [
+				{
+					"name": "olivový olej",
+					"quantity": 15,
+					"unit": "g"
+				},
+				{
+					"name": "cibuľa",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "mrkva",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "cesnak",
+					"quantity": 4,
+					"unit": "strúčik"
+				},
+				{
+					"name": "sušené oregano",
+					"quantity": 1,
+					"unit": "ČL"
+				},
+				{
+					"name": "sušený tymián",
+					"quantity": 1,
+					"unit": "ČL"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "mleté čierne korenie"
+				},
+				{
+					"name": "paradajkový pretlak",
+					"quantity": 150,
+					"unit": "g"
+				},
+				{
+					"name": "suché červené víno",
+					"quantity": 120,
+					"unit": "ml"
+				},
+				{
+					"name": "zeleninový vývar",
+					"quantity": 720,
+					"unit": "ml"
+				},
+				{
+					"name": "červená šošovica",
+					"quantity": 185,
+					"unit": "g"
+				},
+				{
+					"name": "vlašské orechy",
+					"quantity": 20,
+					"unit": "g"
+				},
+				{
+					"name": "drvené paradajky",
+					"quantity": 410,
+					"unit": "g"
+				},
+				{
+					"name": "špagety",
+					"quantity": 300,
+					"unit": "g"
+				},
+				{
+					"name": "balzamikový ocot",
+					"quantity": 1,
+					"unit": "PL"
+				},
+				{
+					"name": "petržlen"
+				}
+			]
+		}
+	],
+	"image": "veganske-bolognese-500-kcal/p1.webp",
+	"source": "Vegánske bolognese - 500 kcal.pdf",
+	"sourceRef": "p1"
+}

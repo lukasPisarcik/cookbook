@@ -1,0 +1,33 @@
+{
+	"title": "Malinové brownies so straciatellou",
+	"category": "dezerty",
+	"dietTags": ["bezlepkove"],
+	"prepTimeMinutes": 45,
+	"steps": [],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 258,
+			"portions": 6,
+			"macros": { "carbs": 20, "protein": 15, "fat": 12 },
+			"ingredients": [
+				{ "name": "červená fazuľa", "quantity": 400, "unit": "g" },
+				{ "name": "banán", "quantity": 1, "unit": "ks" },
+				{ "name": "vajíčko", "quantity": 1, "unit": "ks" },
+				{ "name": "bezkalorické sladidlo" },
+				{ "name": "kakao", "quantity": 20, "unit": "g" },
+				{ "name": "čoko proteín", "quantity": 30, "unit": "g" },
+				{ "name": "voda", "quantity": 50, "unit": "ml" },
+				{ "name": "kypriaci prášok do perníka", "quantity": 1, "unit": "ČL" },
+				{ "name": "horká čokoláda", "quantity": 100, "unit": "g" },
+				{ "name": "polotučný tvaroh", "quantity": 250, "unit": "g" },
+				{ "name": "rozmrazené maliny", "quantity": 150, "unit": "g" },
+				{ "name": "chia semienka", "quantity": 5, "unit": "g" },
+				{ "name": "javorový sirup", "quantity": 20, "unit": "ml" }
+			]
+		}
+	],
+	"image": "recepty-ig/p2.webp",
+	"source": "Recepty IG.pdf",
+	"sourceRef": "p2"
+}

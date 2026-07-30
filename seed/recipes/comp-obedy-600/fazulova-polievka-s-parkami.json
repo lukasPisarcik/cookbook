@@ -1,0 +1,43 @@
+{
+	"title": "Fazuľová polievka s párkami",
+	"category": "obedy",
+	"dietTags": ["bezlaktozove"],
+	"prepTimeMinutes": 35,
+	"steps": [
+		"Cibuľu, zemiaky a mrkvu očisti a nakrájaj na drobno.",
+		"V hrnci zohrej olivový olej, pridaj cibuľu a cesnak a opraž do sklovita (asi 3 minúty).",
+		"Pridaj nakrájanú mrkvu a zemiaky, premiešaj, podlej trošku vodou a var ďalších 5 minút, kým zelenina mierne zmäkne.",
+		"Prisyp majorán a pridaj zeleninový vývar, bobkový list a priveď k varu.",
+		"Zníž teplotu a var 10-15 minút, aby sa chute spojili a zelenina zmäkla.",
+		"Na záver pridaj fazuľu (scedenú a opláchnutú), ochutnaj a dosoľ alebo okoreň podľa chuti.",
+		"Pre hustejšiu konzistenciu môžeš časť polievky rozmixovať ponorným mixérom a vrátiť späť do hrnca.",
+		"Nakrájané párky vkladáme do polievky cca 5 minút pred dovarením. Podávaj teplé, podľa chuti ozdobené čerstvými bylinkami (napr. petržlenová vňať).",
+		"Vyjdú 4 porcie, nutričné hodnoty sú uvedené na 1 porciu."
+	],
+	"funFact": "Surová fazuľa obsahuje lektíny, ktoré pre nás nie sú strávitelné a konzumácia surovej fazule vyvoláva tráviace problémy? Našťastie sa varením plne zničia a my tak môžeme z konzumácie benefitovať. Fazuľa je totižto bohatá nielen na vlákninu, ale obsahuje aj veľa bielkovín, čo z nej robí skvelý zdroj rastlinných bielkovín aj pre vegetariánov, či vegánov.",
+	"variants": [
+		{
+			"label": "600 kcal",
+			"kcalPerPortion": 560,
+			"portions": 3,
+			"macros": {"carbs": 42, "protein": 34, "fat": 26},
+			"ingredients": [
+				{"name": "fazuľa v rajčinovej omáčke", "quantity": 1, "unit": "konzerva"},
+				{"name": "veľká cibuľa", "quantity": 1, "unit": "ks"},
+				{"name": "mrkva", "quantity": 2, "unit": "ks"},
+				{"name": "cesnak", "quantity": 2, "unit": "strúčik"},
+				{"name": "olivový olej", "quantity": 40, "unit": "g"},
+				{"name": "zeleninový vývar", "quantity": 750, "unit": "ml"},
+				{"name": "bobkový list", "quantity": 1, "unit": "ks"},
+				{"name": "soľ"},
+				{"name": "čierne korenie"},
+				{"name": "sušený majorán a oregano", "quantity": 1, "unit": "ČL"},
+				{"name": "zemiaky", "quantity": 200, "unit": "g"},
+				{"name": "párky", "quantity": 4, "unit": "ks"},
+				{"name": "proteínový chlebík", "quantity": 4, "unit": "plátok"}
+			]
+		}
+	],
+	"source": "Obedy - 600 kcal.pdf",
+	"sourceRef": "p2"
+}

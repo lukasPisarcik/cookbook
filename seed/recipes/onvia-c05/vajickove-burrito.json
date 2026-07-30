@@ -1,0 +1,100 @@
+{
+	"title": "Vajíčkové burrito",
+	"category": "ranajky",
+	"prepTimeMinutes": 18,
+	"steps": [
+		"Šunku krátko opeč na panvici, len aby získala trochu farby.",
+		"Pridaj k šunke vyšlahané vajíčko s bielkami, koreniny a nakrájanú mozzarellu. Dobre premiešaj a vytvor miešané vajíčka. Miešaj, kým sa nevyparí prebytočná tekutina.",
+		"Medzitým si zmiešaj v miske nakrájané avokádo, paradajky, papriku, cibuľu, bylinky a koreniny.",
+		"Potom si polož tortillu na tanier a pridaj avokádo mix, vajcia a zroluj do tvaru burrita.",
+		"Opeč burrito na panvici z každej strany cca 2 min, pokým nezhnedne.",
+		"Opečené burrito prerež na polovicu a jemne pokvapkaj chilli omáčkou!"
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 349,
+			"portions": 2,
+			"macros": {
+				"carbs": 27,
+				"protein": 31,
+				"fat": 13
+			},
+			"ingredients": [
+				{
+					"name": "proteínový wrap",
+					"quantity": 2,
+					"unit": "ks"
+				},
+				{
+					"name": "tekuté vaječné bielky",
+					"quantity": 80,
+					"unit": "g"
+				},
+				{
+					"name": "vajce",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "chudá šunka",
+					"quantity": 4,
+					"unit": "plátok"
+				},
+				{
+					"name": "malé avokádo",
+					"quantity": 0.5
+				},
+				{
+					"name": "pečená paprika",
+					"quantity": 30,
+					"unit": "g"
+				},
+				{
+					"name": "cherry paradajka",
+					"quantity": 4,
+					"unit": "ks"
+				},
+				{
+					"name": "malá červená cibuľa",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "strúhaná mozzarella light",
+					"quantity": 40,
+					"unit": "g"
+				},
+				{
+					"name": "sriracha",
+					"quantity": 20,
+					"unit": "g"
+				},
+				{
+					"name": "olivový olej"
+				},
+				{
+					"name": "koriander"
+				},
+				{
+					"name": "petržlenová vňať"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "čierne korenie"
+				},
+				{
+					"name": "granulovaný cesnak"
+				},
+				{
+					"name": "sladká paprika"
+				}
+			]
+		}
+	],
+	"image": "onvia/image106.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image106"
+}

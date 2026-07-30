@@ -1,0 +1,82 @@
+{
+	"title": "Cviklový šalát s fetou",
+	"category": "obedy",
+	"prepTimeMinutes": 45,
+	"steps": [
+		"Rúru predhrej na 200°C ohrev zhora/zdola.",
+		"Na plech nahádž cibuľu nakrájanú na rezance, potom na kocky nakrájanú červenú repu, mrkvu a petržlen. Pokvapkaj olivovým olejom, posyp soľou a vlož do rúry. Peč kým zelenina nezmäkne.",
+		"Medzitým si priprav zálievku. Do misky vhoď nasekanú petržlenovú vňať a pokvapkaj olivovým olejom, balzamikovým octom, dochut soľou a korením.",
+		"Nakoniec do veľkej misy vhoď hrsť čerstvého šalátu (napr. hrsť poľného šalátu), premiešaj so zálievkou a nasekanou petržlenovou vňaťou, pridaj opečenú zeleninu, nasekané vlašské orechy a feta syr."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 462,
+			"portions": 1,
+			"macros": {
+				"carbs": 47,
+				"protein": 17,
+				"fat": 24
+			},
+			"ingredients": [
+				{
+					"name": "červená repa",
+					"quantity": 200,
+					"unit": "g"
+				},
+				{
+					"name": "mrkva",
+					"quantity": 100,
+					"unit": "g"
+				},
+				{
+					"name": "petržlen",
+					"quantity": 100,
+					"unit": "g"
+				},
+				{
+					"name": "cibuľa",
+					"quantity": 0.5,
+					"unit": "ks"
+				},
+				{
+					"name": "olivový olej",
+					"quantity": 1,
+					"unit": "PL"
+				},
+				{
+					"name": "poľný šalát",
+					"unit": "hrsť"
+				},
+				{
+					"name": "petržlenová vňať",
+					"unit": "hrsť"
+				},
+				{
+					"name": "balzamikový ocot",
+					"quantity": 1,
+					"unit": "PL"
+				},
+				{
+					"name": "vlašské orechy",
+					"quantity": 10,
+					"unit": "g"
+				},
+				{
+					"name": "feta syr",
+					"quantity": 50,
+					"unit": "g"
+				},
+				{
+					"name": "čierne korenie"
+				},
+				{
+					"name": "soľ"
+				}
+			]
+		}
+	],
+	"image": "onvia/image52.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image52"
+}

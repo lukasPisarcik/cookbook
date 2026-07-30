@@ -1,0 +1,28 @@
+{
+	"title": "Čokoládové košíčky Reeses's",
+	"category": "dezerty",
+	"dietTags": ["bezlepkove", "bezlaktozove", "vegan"],
+	"prepTimeMinutes": 15,
+	"steps": [
+		"Čokoládu nálam do hrnca a nad parou rozpusti.",
+		"Do každého papierového ( silikónoého ) košíčka daj 2 lyžičky rozpustenej čokolády a košíčky daj do mrazničky aspoň na 10 minút.",
+		"Košíčky výber z mrazničky a do stredu každého z nich daj lyžičku arašidového masla.",
+		"Polej ďalšími 2 lyžičkami čokolády a vráť späť do mrazničky na ďalších 10 minút."
+	],
+	"funFact": "Reese's sú jednou z najpredávanejších čokoládových sladkostí v USA.",
+	"variants": [
+		{
+			"label": "300 kcal",
+			"kcalPerPortion": 287,
+			"portions": 6,
+			"macros": { "carbs": 13, "protein": 6, "fat": 22 },
+			"ingredients": [
+				{ "name": "čokoláda 70%+", "quantity": 200, "unit": "g" },
+				{ "name": "arašidové maslo", "quantity": 90, "unit": "g" },
+				{ "name": "soľ", "unit": "štipka" }
+			]
+		}
+	],
+	"source": "Dezerty-300kcal.pdf",
+	"sourceRef": "p10"
+}

@@ -1,0 +1,38 @@
+{
+	"title": "Tofu s batátovými hranolkami",
+	"category": "obedy",
+	"dietTags": ["vegan", "bezlaktozove", "bezlepkove"],
+	"prepTimeMinutes": 45,
+	"steps": [
+		"Údené tofu nakrájaj na kocky a vlož ho do misky so sójovou omáčkou, zázvorom a korením.",
+		"Nechaj marinovať a medzitým batáty očisti a nakrájaj na tenké hranolky.",
+		"Daj na pečiaci papier, pokvapkaj olejom a peč v predhriatej rúre na 200 °C približne 25-30 minút alebo ak máš horkovzdušnú fritézu peč 200 °C na cca 20 minút.",
+		"Mrkvu nakrájaj na tenké prúžky (môžeš aj škrabkou), jarnú cibuľku nakrájaj na malé kúsky.",
+		"Na panvici rozohrej sezamový olej a orestuj zeleninu.",
+		"Potom pridaj marinované tofu a opeč na panvičke cca 3 minútky, kým zelenina nezmäkne.",
+		"Na záver posyp sezamovými semienkami."
+	],
+	"funFact": "Batáty majú nižší glykemický index ako klasické zemiaky napriek tomu, že sú chuťovo sladšie.",
+	"variants": [
+		{
+			"label": "600 kcal",
+			"kcalPerPortion": 575,
+			"portions": 2,
+			"macros": {"carbs": 56, "protein": 22, "fat": 28},
+			"ingredients": [
+				{"name": "údené tofu", "quantity": 1, "unit": "balenie"},
+				{"name": "batát", "quantity": 600, "unit": "g"},
+				{"name": "sójová omáčka", "quantity": 2, "unit": "PL"},
+				{"name": "čerstvý zázvor"},
+				{"name": "korenie"},
+				{"name": "sezamový olej", "quantity": 15, "unit": "g"},
+				{"name": "jarná cibuľka", "quantity": 2, "unit": "ks"},
+				{"name": "mrkva", "quantity": 1, "unit": "ks"},
+				{"name": "sezamové semienka", "quantity": 25, "unit": "g"},
+				{"name": "olivový olej", "quantity": 10, "unit": "g"}
+			]
+		}
+	],
+	"source": "Obedy - 600 kcal.pdf",
+	"sourceRef": "p4"
+}

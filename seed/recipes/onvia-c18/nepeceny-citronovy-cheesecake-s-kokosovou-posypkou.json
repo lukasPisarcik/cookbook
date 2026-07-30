@@ -1,0 +1,37 @@
+{
+	"title": "Nepečený citrónový cheesecake s kokosovou posýpkou",
+	"category": "ranajky",
+	"prepTimeMinutes": 45,
+	"steps": [
+		"Rúru predhrejeme na 170°C s funkciou ventilátor.",
+		"Všetky suroviny na cheesecake okrem želatíny, spolu zmiešame. Použijeme šťavu z limetky a aj jej kôru. S ručným mixérom niekoľko minút mixujeme pokým nám nevznikne nadýchaný krém.",
+		"Želatínu si pripravíme podľa návodu a potom ju zmiešame s krémom.",
+		"Misku s krémom necháme odstáť v chladničke pokým urobíme posýpku.",
+		"Na posýpku si zmiešame všetky suroviny v jednej miske. Najjednoduchšie rovno s rukami vytvárať malé hrudky.",
+		"Hrudky si rozložíme na plech pokrytý papierom na pečenie, vložíme do rúry a pečieme 15 minút. Po 7 minútach hrudky nakrojíme. (ako vo videu)",
+		"Cheesecake posypeme posýpkou a dáme ešte raz odstáť do chladničky ak je to potrebné."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 344,
+			"portions": 1,
+			"macros": {"carbs": 15, "protein": 45, "fat": 17},
+			"ingredients": [
+				{"name": "nízkotučný krémový syr", "quantity": 100, "unit": "g"},
+				{"name": "nízkotučný tvaroh jemný", "quantity": 100, "unit": "g"},
+				{"name": "limetka", "quantity": 1, "unit": "ks"},
+				{"name": "agar", "quantity": 4, "unit": "g"},
+				{"name": "vanilkový proteínový prášok", "quantity": 15, "unit": "g"},
+				{"name": "sladidlo"},
+				{"name": "kokosový proteínový prášok", "quantity": 5, "unit": "g"},
+				{"name": "kokosová múka", "quantity": 5, "unit": "g"},
+				{"name": "erythritol", "quantity": 20, "unit": "g"},
+				{"name": "kokosový olej", "quantity": 10, "unit": "g"}
+			]
+		}
+	],
+	"image": "onvia/image340.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image340"
+}

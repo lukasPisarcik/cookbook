@@ -1,0 +1,30 @@
+{
+	"title": "Pečené zemiaky s fazuľami, sušenými paradajkami a balkánskym syrom",
+	"category": "vecere",
+	"steps": [
+		"Trúbu predhrejeme na 180 stupňov.",
+		"Zemiaky očiste, nakrájajte na kúsky a dajte do misy, pridajte k nim olej, korenie a soľ. Premiešajte.",
+		"Zemiaky presuňte do zapekacej misy, pridajte na polkoliečka nakrájanú cibuľu a dajte piecť na 30 minút.",
+		"Potom pridajte fazule, na kúsky pokrájané paradajky a rozdrobte syr a pečte ďalších 15 minút.",
+		"Po upečení presuňte do misiek, ozdobte rukolou a ak chcete, pridajte ešte 2 kúsky sušených paradajok."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 2,
+			"ingredients": [
+				{"name": "zemiak", "quantity": 550, "unit": "g"},
+				{"name": "červená cibuľa", "quantity": 1, "unit": "ks"},
+				{"name": "červená fazuľa v slanom náleve", "quantity": 1, "unit": "konzerva"},
+				{"name": "sušené paradajky", "quantity": 8, "unit": "ks"},
+				{"name": "olivový olej", "quantity": 1, "unit": "PL"},
+				{"name": "korenie na zemiaky", "quantity": 2, "unit": "ČL"},
+				{"name": "soľ"},
+				{"name": "rukola"}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p96.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p96"
+}

@@ -1,0 +1,44 @@
+{
+	"title": "Šošovicové placky",
+	"category": "zaklady",
+	"prepTimeMinutes": 10,
+	"steps": [
+		"Šošovicu namoč v miske s vodou na minimálne 3 hodiny.",
+		"Potom ju pridaj do mixéra spolu s 500ml vody a soľou rozmixuj do hladka.",
+		"Hotovú šošovicovú zmes dávkuj pomocou žufane na panvicu vymastenú olejom, orestuj niekoľko minút z každej strany a vychutnaj si placky s obľúbeným toppingom."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 68,
+			"portions": 10,
+			"macros": {
+				"carbs": 12,
+				"protein": 5,
+				"fat": 0
+			},
+			"ingredients": [
+				{
+					"name": "červená šošovica (surová)",
+					"quantity": 150,
+					"unit": "g"
+				},
+				{
+					"name": "voda",
+					"quantity": 500,
+					"unit": "ml"
+				},
+				{
+					"name": "soľ",
+					"unit": "štipka"
+				},
+				{
+					"name": "kokosový olej"
+				}
+			]
+		}
+	],
+	"image": "onvia/image28.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image28"
+}

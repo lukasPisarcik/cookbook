@@ -1,0 +1,95 @@
+{
+	"title": "Veľkonočný burger",
+	"category": "obedy",
+	"prepTimeMinutes": 60,
+	"steps": [
+		"Predhrej rúru na 150°C funkcia ventilátor.",
+		"V miske rozmixuj ručným mixérom cottage syr, pridaj 9 vajec, kloreniny a všetko spolu dobre premiešaj.",
+		"Vezmi si misku na pečenie (ja som použila silikónovú formu na pečenie chleba). Vylož ju papierom na pečenie, jemne postriekaj olejom v spreji (alebo vymasti olejom), nalej dnu zmes z vajec a cottage syru. Potom zmes posyp jarnou cibuľkou, prikry alobalom a vlož do väčšej zapekacej misky naplnenej vodou. Vytvotíš v podsate kúpeľ pre zapekaciu misku s vajíčkovou zmesou. Pečieš 1 hodinu. Medzitým si priprav vafle zo zemiakov.",
+		"Ošúp si zemiaky. Potom ich nastrúhaj na strúhadle a pridaj ich do misy s ľadovou vodou. Nechaj ich 15-20 minút odmočiť. Namáčanie pomáha zbaviť zemiaky prebytočného škrobu a tiež zabraňuje tomu, aby zemiaky získali škaredú hnedú farbu.",
+		"Po 15-20 minútach zemiaky sceď v cedníku, aby si z nich dostala väčšinu vody. Potom zvyšok zemiakov vlož do čistej textilnej útierky a vyžmýkaj z nich zvyšok prebytočnej vody. Toto je nevyhnutné, aby boli zemiaky veľmi chrumkavé.",
+		"Vyžmýkané zemiaky vráť do misy a pridaj kukuričný škrob, morskú soľ, vajce a granulovaný cesnak. Dobre premiešaj.",
+		"Predhrej si vaflovač a postriekaj (vymasti) ho olejom v spreji. Do vaflovača pridaj časť zemiakovej zmesi a nechaj zapiecť asi 6 až 8 minút alebo dovtedy, kým vafle nezostanú upečené pohromade.",
+		"Tento postup zopakuj pre všetky zemiakové vafle. Keď ich máš všetky hotové alebo keď ich máš dosť na naplnenie fritézy (AirFryer), pridaj ich do fritézy a peč na 200°C 8 minút. Po 4 minútach ich otoč (pozri si TIP pre pečenie v rúre).",
+		"Po hodine varenia vo vodnom kúpeli vyber vajíčka z rúry. Nechaj ich chvíľu vychladnúť a potom nakrájaj na 3 rovnaké kusy, ktoré budú slúžiť ako základ pre burgre.",
+		"Teraz je čas vytvoriť burger: na spodnú zemiakovú vaflu polož plátok syra, potom vajíčkový kus a na vrch nakvapkaj trochu chilli omáčky. Potom prelož druhou zemiakovou vaflou a burger je hotový."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 512,
+			"portions": 3,
+			"macros": {
+				"carbs": 38,
+				"protein": 36,
+				"fat": 26
+			},
+			"ingredients": [
+				{
+					"name": "zemiaky",
+					"quantity": 800,
+					"unit": "g"
+				},
+				{
+					"name": "kukuričný škrob",
+					"quantity": 20,
+					"unit": "g"
+				},
+				{
+					"name": "vajce",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "morská soľ"
+				},
+				{
+					"name": "čierne korenie"
+				},
+				{
+					"name": "granulovaný cesnak"
+				},
+				{
+					"name": "olej v spreji"
+				},
+				{
+					"name": "vajce",
+					"quantity": 9,
+					"unit": "ks"
+				},
+				{
+					"name": "cottage syr",
+					"quantity": 200,
+					"unit": "g"
+				},
+				{
+					"name": "jarná cibuľka",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "vegeta",
+					"quantity": 1,
+					"unit": "ČL"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "korenie"
+				},
+				{
+					"name": "sladká paprika"
+				},
+				{
+					"name": "štvorcový plátok syra",
+					"quantity": 3,
+					"unit": "ks"
+				}
+			]
+		}
+	],
+	"image": "onvia/image170.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image170"
+}

@@ -1,0 +1,40 @@
+{
+	"title": "Jablková roláda",
+	"category": "dezerty",
+	"prepTimeMinutes": 15,
+	"steps": [
+		"Predhrej rúru na 170°C.",
+		"Najprv si priprav jablká. Ošúp a nastrúhaj tri stredne veľké jablká. Do misky pridaj čajovú lyžičku škorice a 1 odmerku Unicorn Dust.",
+		"Jablkovú zmes rozlož na plech vystlaný papierom na pečenie. Zmes rovnomerne rozotri po celom povrchu.",
+		"Na cesto vymixuj v mixéry vajcia a mozzarellu bez nálevu (pozri video).",
+		"V ďalšej miske zmiešaj múku, erytritol, prášok do pečiva, Unicorn Dust a zapracuj tekutú zmes (z predchádzajúceho kroku).",
+		"Celé cesto vylej na plech s jablkami a opäť rovnomerne rozotri.",
+		"Peč 20 minút.",
+		"To, že je cesto upečené, zistíš, keď sa na povrchu začnú objavovať tmavé škvrny.",
+		"Roládu nechaj 3 minúty vychladnúť a potom ju opatrne vyklop na dosku na krájanie. Uisti sa, že máš na vrchu papier na pečenie. Opatrne ho odlep.",
+		"Roládu zroluj a nechaj vychladnúť. Môžeš ju prikryť utierkou, aby sa nerozpadla.",
+		"Potom si už len vychutnaj."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 136,
+			"portions": 8,
+			"macros": {"carbs": 16, "protein": 8, "fat": 4},
+			"ingredients": [
+				{"name": "mozzarella", "quantity": 1, "unit": "ks"},
+				{"name": "vajce", "quantity": 4, "unit": "ks"},
+				{"name": "hladká múka", "quantity": 80, "unit": "g"},
+				{"name": "erythritol v prášku", "quantity": 40, "unit": "g"},
+				{"name": "Unicorn Dust", "quantity": 6, "unit": "g"},
+				{"name": "prášok do pečiva", "quantity": 12, "unit": "g"},
+				{"name": "jablko", "quantity": 3, "unit": "ks"},
+				{"name": "škorica", "quantity": 1, "unit": "ČL"},
+				{"name": "Unicorn Dust", "quantity": 3, "unit": "g"}
+			]
+		}
+	],
+	"image": "onvia/image307.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image307"
+}

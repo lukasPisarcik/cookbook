@@ -1,0 +1,38 @@
+{
+	"title": "Zapečené biela fazuľa so syrom",
+	"category": "obedy",
+	"prepTimeMinutes": 10,
+	"steps": [
+		"Na panvici, ktorá môže ísť do rúry, rozpusti olej. Na oleji osmaž nadrobno nakrájanú cibuľu a rozdrvený cesnak.",
+		"Po minúte pridaj nakrájané paradajky a paradajkovú passatu. Fazuľu z konzervy prepláchni cez sito a vmiešaj do zmesi na panvici.",
+		"Dochut soľou, korením, sladkou paprikou a oreganom.",
+		"Dobre premiešaj a na vrch rozlož rozdrobenú mozzarellu.",
+		"Vlož do rúry a peč na 185°C na približne 30 minút.",
+		"Vychutnaj si s čerstvým ražným alebo kváskovým chlebom."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 459,
+			"portions": 3,
+			"macros": {"carbs": 50, "protein": 30, "fat": 14},
+			"ingredients": [
+				{"name": "biela fazuľa v konzerve", "quantity": 400, "unit": "g"},
+				{"name": "paradajka", "quantity": 2, "unit": "ks"},
+				{"name": "paradajková passata", "quantity": 500, "unit": "g"},
+				{"name": "cibuľa", "quantity": 1, "unit": "ks"},
+				{"name": "olivový olej", "quantity": 1, "unit": "PL"},
+				{"name": "cesnak", "quantity": 2, "unit": "strúčik"},
+				{"name": "mozzarella light", "quantity": 2, "unit": "balenie"},
+				{"name": "soľ"},
+				{"name": "korenie"},
+				{"name": "oregano"},
+				{"name": "sladká paprika"},
+				{"name": "žitný chlieb", "quantity": 1, "unit": "plátok"}
+			]
+		}
+	],
+	"image": "onvia/image226.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image226"
+}

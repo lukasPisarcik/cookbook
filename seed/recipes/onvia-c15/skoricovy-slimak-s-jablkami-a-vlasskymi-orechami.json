@@ -1,0 +1,38 @@
+{
+	"title": "Škoricový slimák s jablkami a vlašskými orechami",
+	"category": "dezerty",
+	"prepTimeMinutes": 20,
+	"steps": [
+		"Predhrejeme rúru na 160°C a rozpustíme maslo.",
+		"Všetky suroviny na cesto vymiesime v miske (alebo na ľahko pomúčenej ploche) do homogénneho cesta.",
+		"Pomocou valčeka ho vyvaľkáme na čo najtenšie (nemusí byť dokonale okrúhle ani štvorcové).",
+		"Roztopené maslo zmiešame so škoricou a Unicorn Dust a rovnomerne rozotrieme na cesto.",
+		"Vlašské orechy nasekáme a rovnomerne rozložíme na maslom potretý povrch cesta.",
+		"Najlepšie je použiť krájač na pizzu (alebo nôž), ktorým cesto pozdĺžne nakrájame na pásy hrubé asi 5 cm a jeden po druhom ich zrolujeme do seba v tvare slimáka.",
+		"Pečieme v malej zapekacej miske v rúre 20 minút, po dopečení necháme mierne vychladnúť a vychutnáme si ešte teplého slimáka. Na vrch odporúčame čerstvé jablkové pyré alebo kopček zmrzliny!"
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 884,
+			"portions": 1,
+			"macros": {"carbs": 52, "protein": 76, "fat": 38},
+			"ingredients": [
+				{"name": "jablkové pyré (nesladené)", "quantity": 120, "unit": "g"},
+				{"name": "špaldová múka", "quantity": 50, "unit": "g"},
+				{"name": "mandľová múka", "quantity": 50, "unit": "g"},
+				{"name": "proteínový prášok (vanilka / neutrálny)", "quantity": 50, "unit": "g"},
+				{"name": "prášok do pečiva", "quantity": 3, "unit": "g"},
+				{"name": "Unicorn Dust", "quantity": 9, "unit": "g"},
+				{"name": "soľ", "unit": "štipka"},
+				{"name": "škorica", "quantity": 4, "unit": "g"},
+				{"name": "maslo", "quantity": 30, "unit": "g"},
+				{"name": "vlašské orechy", "quantity": 30, "unit": "g"},
+				{"name": "Unicorn Dust (plnka)", "quantity": 2, "unit": "g"}
+			]
+		}
+	],
+	"image": "onvia/image294.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image294"
+}

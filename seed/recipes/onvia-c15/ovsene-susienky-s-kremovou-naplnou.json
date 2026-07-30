@@ -1,0 +1,40 @@
+{
+	"title": "Ovsené sušienky s krémovou náplňou",
+	"category": "dezerty",
+	"prepTimeMinutes": 20,
+	"steps": [
+		"Predhrej rúru na 170°C nastavenie ventilátor. Suché a mokré suroviny daj do samostatných misiek oddelene. Každú misku so surovinami premiešaj, kým sa prísady nespoja. Tým zabezpečíš, že pri pridávaní suchej zmesi do mokrej nedôjde k ich zlepeniu.",
+		"Primiešaj suché suroviny k mokrým, kým nevznikne konzistencia podobná hustému cestu. Zmes vlož do mrazničky na 5 až 10 minút, aby trochu ztuhla.",
+		"Po 5 až 10 minútach, vyber zmes z mrzaničky, s naberačkou na zmrzlinu vytvaruj 10 guličiek z cesta. Sušieny polož na plech vyložený papierom na pečenie. Daj piecť do vyhriatej rúry na 170°C.",
+		"Po upečení prelož sušienky na chladiacu mriežku. Kým sa chladia, priprav si náplň.",
+		"Do misky pridaj suroviny na náplň a premiešaj, aby sa nezrazili. Potom k suchým surovinám pomaly primiešavaj studenú vodu aby vznikla nie príliš riedka homogénna hmota bez hrudiek. Pridaj grécky jogurt a premiešaj. Teraz by už mala vzniknúť pekná hustá poleva. Ak je príliš riedka, vlož ju na chvíľu do mrazničky, aby viac ztuhla. Ak má správnu konzistenciu, vlož ju do chladničky, aby zostala chladná.",
+		"Po vychladnutí sušienok pridaj plnku na spodnú sušienku a potom prelož vrchnou sušienkou! Teraz si vytvorila proteínové sušienky s vanilkovým krémom, mňam!"
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 121,
+			"portions": 5,
+			"macros": {"carbs": 16, "protein": 12, "fat": 1},
+			"ingredients": [
+				{"name": "vanilkový proteínový prášok", "quantity": 30, "unit": "g"},
+				{"name": "kokosová múka", "quantity": 10, "unit": "g"},
+				{"name": "ovsená múka (rozmixované vločky)", "quantity": 70, "unit": "g"},
+				{"name": "Unicorn Dust", "quantity": 6, "unit": "g"},
+				{"name": "prášok do pečiva", "quantity": 4, "unit": "g"},
+				{"name": "tekuté vaječné bielky", "quantity": 50, "unit": "g"},
+				{"name": "nesladené jablkové pyré", "quantity": 70, "unit": "g"},
+				{"name": "nízkotučný grécky jogurt", "quantity": 70, "unit": "g"},
+				{"name": "vanilkový extrakt", "quantity": 2, "unit": "g"},
+				{"name": "vanilkový proteínový prášok (náplň)", "quantity": 20, "unit": "g"},
+				{"name": "vanilkový pudingový prášok", "quantity": 7, "unit": "g"},
+				{"name": "Unicorn Dust (náplň)", "quantity": 5, "unit": "g"},
+				{"name": "nízkotučný grécky jogurt (náplň)", "quantity": 45, "unit": "g"},
+				{"name": "studená voda"}
+			]
+		}
+	],
+	"image": "onvia/image295.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image295"
+}

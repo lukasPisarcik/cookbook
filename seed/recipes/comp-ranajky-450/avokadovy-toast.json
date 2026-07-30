@@ -1,0 +1,37 @@
+{
+	"title": "Avokádový toast",
+	"category": "ranajky",
+	"dietTags": ["bezlaktozove"],
+	"prepTimeMinutes": 10,
+	"steps": [
+		"Kváskový chlieb pokvapkaj/postriekaj olejom a jemne opeč na panvici.",
+		"Avokádo roztlač vidličkou a dochuť soľou, korením a prípadne kvapkou citrónovej šťavy.",
+		"Natri na opečený chlieb.",
+		"Pridaj plátok šunky.",
+		"Na panvici zahrej olej a priprav volské oko (alebo miešané vajíčka podľa preferencie).",
+		"Vajce polož na avokádový toast a.",
+		"Ozdob štipkou chilli vločiek a podávaj."
+	],
+	"funFact": "Avokádo je skvelý zdroj zdravých tukov, ale aj vitamínu E, ktorý prispieva aj ku prevencii starnutia pokožky.",
+	"variants": [
+		{
+			"label": "450 kcal",
+			"kcalPerPortion": 425,
+			"portions": 1,
+			"macros": {"carbs": 31, "protein": 17, "fat": 24},
+			"ingredients": [
+				{"name": "kváskový chlieb", "quantity": 70, "unit": "g"},
+				{"name": "zrelé avokádo", "quantity": 100, "unit": "g"},
+				{"name": "vajíčko", "quantity": 1, "unit": "ks"},
+				{"name": "šunka 80%+", "quantity": 20, "unit": "g"},
+				{"name": "soľ", "unit": "štipka"},
+				{"name": "čierne korenie", "unit": "štipka"},
+				{"name": "citrónová šťava"},
+				{"name": "chilli vločky", "unit": "štipka"},
+				{"name": "olej v spreji"}
+			]
+		}
+	],
+	"source": "Raňajky - 450 kcal.pdf",
+	"sourceRef": "p4"
+}

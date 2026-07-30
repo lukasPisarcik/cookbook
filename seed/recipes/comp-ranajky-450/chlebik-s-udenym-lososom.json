@@ -1,0 +1,32 @@
+{
+	"title": "Chlebík s údeným lososom",
+	"category": "ranajky",
+	"prepTimeMinutes": 15,
+	"steps": [
+		"Na plátok chleba natri smotanový syr (napr. Lučinu).",
+		"Na chlieb polož údený losos, na vrch pridaj nakrájané avokádo a plátky červenej cibule.",
+		"Osoľ a okoreň podľa chuti a zakvapni citrónovou šťavou.",
+		"Môžeš podávať s porciou čerstvej zeleniny."
+	],
+	"funFact": "Losos je vynikajúcim zdrojom omega-3 mastných kyselín, ktoré sú prospešné pre naše srdce.",
+	"variants": [
+		{
+			"label": "450 kcal",
+			"kcalPerPortion": 435,
+			"portions": 1,
+			"macros": {"carbs": 39, "protein": 22, "fat": 20},
+			"ingredients": [
+				{"name": "kváskový chlebík", "quantity": 70, "unit": "g"},
+				{"name": "údený losos", "quantity": 70, "unit": "g"},
+				{"name": "avokádo", "quantity": 50, "unit": "g"},
+				{"name": "smotanový syr", "quantity": 30, "unit": "g"},
+				{"name": "červená cibuľa", "quantity": 0.25, "unit": "ks"},
+				{"name": "citrónová šťava"},
+				{"name": "soľ"},
+				{"name": "čierne korenie"}
+			]
+		}
+	],
+	"source": "Raňajky - 450 kcal.pdf",
+	"sourceRef": "p8"
+}

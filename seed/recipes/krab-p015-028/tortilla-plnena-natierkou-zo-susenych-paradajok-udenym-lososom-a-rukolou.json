@@ -1,0 +1,22 @@
+{
+	"title": "Tortilla plnená nátierkou zo sušených paradajok, údeným lososom a rukolou",
+	"category": "snacky",
+	"steps": [
+		"Tortillu potrite nátierkou, na ňu položte plátky lososa, pridajte rukolu a zrolujte. Rozkrojte na 2 polovice a dajte do krabičky."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 1,
+			"ingredients": [
+				{"name": "pšeničná tortilla", "quantity": 1, "unit": "ks"},
+				{"name": "nátierka zo sušených paradajok", "quantity": 50, "unit": "g"},
+				{"name": "údený losos", "quantity": 50, "unit": "g"},
+				{"name": "rukola", "unit": "hrsť"}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p25.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p25"
+}

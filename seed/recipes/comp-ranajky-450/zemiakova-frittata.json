@@ -1,0 +1,40 @@
+{
+	"title": "Zemiaková frittata",
+	"category": "ranajky",
+	"dietTags": ["bezlepkove"],
+	"prepTimeMinutes": 30,
+	"steps": [
+		"Zemiaky očisti a pokrájaj na malé kúsky, daj ich predvariť do osolenej vody.",
+		"Zemiaky sceď a nechaj ich vychladnúť.",
+		"Nastrúhaj syr a spolu s ním v miske rozšľahaj vajcia a nadrobno nastrúhanú cibuľu.",
+		"Rúru rozohrej na 200°C a sklenenú misu na pečenie vymasti olejom.",
+		"Vychladnuté zemiaky pridaj do misky s vajecnou zmesou a premiešaj.",
+		"Potom zmes vylej do sklenej misy a peč cca 20 až 30 minút.",
+		"Na hotovú frittatu daj pokrájanú vňať a môžeš vychutnávať."
+	],
+	"funFact": "FRITTATA je talianska verzia omelety.",
+	"variants": [
+		{
+			"label": "450 kcal",
+			"kcalPerPortion": 422,
+			"portions": 3,
+			"macros": {"carbs": 30, "protein": 27, "fat": 21},
+			"ingredients": [
+				{"name": "vajce", "quantity": 6, "unit": "ks"},
+				{"name": "cibuľa", "quantity": 1, "unit": "ks"},
+				{"name": "olivový olej", "quantity": 1, "unit": "PL"},
+				{"name": "soľ"},
+				{"name": "čierne korenie"},
+				{"name": "mletá sladká paprika"},
+				{"name": "oravská slanina", "quantity": 20, "unit": "g"},
+				{"name": "morčacia šunka", "quantity": 50, "unit": "g"},
+				{"name": "eidam 30%", "quantity": 50, "unit": "g"},
+				{"name": "zemiaky", "quantity": 450, "unit": "g"},
+				{"name": "červená paprika", "unit": "štipka"},
+				{"name": "petržlenová vňať"}
+			]
+		}
+	],
+	"source": "Raňajky - 450 kcal.pdf",
+	"sourceRef": "p20"
+}

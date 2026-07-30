@@ -1,0 +1,34 @@
+{
+	"title": "Mangové smoothie",
+	"category": "smoothies",
+	"dietTags": ["vegan", "bezlaktozove", "bezlepkove"],
+	"prepTimeMinutes": 5,
+	"steps": [
+		"Zmixuj všetky ingrediencie.",
+		"Môžeš podávať s ľadom."
+	],
+	"funFact": "Chia semienka sú zdrojom vlákniny, omega-3 mastných kyselín, vitamínov a minerálov a sú považované za superpotravinu.",
+	"variants": [
+		{
+			"label": "200 kcal",
+			"kcalPerPortion": 230,
+			"portions": 1,
+			"macros": {
+				"carbs": 30,
+				"protein": 12,
+				"fat": 7
+			},
+			"ingredients": [
+				{"name": "mrazené mango", "quantity": 100, "unit": "g"},
+				{"name": "karamelový proteín", "quantity": 10, "unit": "g"},
+				{"name": "voda", "quantity": 200, "unit": "ml"},
+				{"name": "banán", "quantity": 50, "unit": "g"},
+				{"name": "kešu maslo", "quantity": 10, "unit": "g"},
+				{"name": "chia semienka", "quantity": 5, "unit": "g"}
+			]
+		}
+	],
+	"image": "smoothie-200-kcal/p6.webp",
+	"source": "Smoothie - 200 kcal.pdf",
+	"sourceRef": "p6"
+}

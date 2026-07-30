@@ -1,0 +1,28 @@
+{
+	"title": "Pistachio ice cream",
+	"category": "dezerty",
+	"prepTimeMinutes": 140,
+	"steps": [
+		"Do mixéra daj všetky potrebné ingrediencie a rozmixuj ich do hladkej konzistencie.",
+		"Potom zmes premiestni do formy alebo dózy a daj na 2 hodiny do mrazničky.",
+		"Zmrzlina nesmie úplne zamrznúť – ak sa tak stane, pred podávaním ju nechaj 30 minút povoliť.",
+		"Servíruj s nasekanými pistáciami."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 269,
+			"portions": 2,
+			"macros": { "carbs": 19, "protein": 28, "fat": 10 },
+			"ingredients": [
+				{ "name": "cottage cheese light", "quantity": 200, "unit": "g" },
+				{ "name": "pistácie", "quantity": 30, "unit": "g" },
+				{ "name": "med", "quantity": 10, "unit": "g" },
+				{ "name": "grécky jogurt 0 %", "quantity": 280, "unit": "g" }
+			]
+		}
+	],
+	"image": "onvia/image368.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image368"
+}

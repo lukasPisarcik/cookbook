@@ -1,0 +1,41 @@
+{
+	"title": "Krémové gnocchi s mäsovými guľkami",
+	"category": "obedy",
+	"prepTimeMinutes": 10,
+	"steps": [
+		"Uvar gnocchi podľa návodu na obale alebo jednoducho kúp hotové.",
+		"Vlož do misky mleté mäso, pridaj soľ a korenie, dobre premiešaj a vytvor malé guľôčky. Potom ich orestuj na panvici spolu s nakrájanými šampiónmi.",
+		"V malej miske zmiešaj smotanu na varenie, smotanový syr s trochou vody, koreninami, horčicou, worcester omáčkaou a pridaj do panvice k mäsu.",
+		"Potom pridaj uvarené gnocchi.",
+		"Všetko spolu premiešaj a nakoniec pridaj nakrájanú mozzarellu.",
+		"Prikry pokrievkou a krátko povar na miernom ohni pokým sa mozzarella neroztopí."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 493,
+			"portions": 2,
+			"macros": {"carbs": 40, "protein": 53, "fat": 11},
+			"ingredients": [
+				{"name": "mleté hovädzie mäso so zníženým obsahom tuku (5%)", "quantity": 300, "unit": "g"},
+				{"name": "nevarené gnocchi", "quantity": 100, "unit": "g"},
+				{"name": "smotanový syr light", "quantity": 100, "unit": "g"},
+				{"name": "šampiňóny", "quantity": 400, "unit": "g"},
+				{"name": "smotana na varenie 7%", "quantity": 100, "unit": "ml"},
+				{"name": "mozzarella light", "quantity": 60, "unit": "g"},
+				{"name": "červená cibuľa", "quantity": 1, "unit": "ks"},
+				{"name": "horčica", "quantity": 1, "unit": "PL"},
+				{"name": "worcester omáčka", "quantity": 2, "unit": "ČL"},
+				{"name": "tymián"},
+				{"name": "soľ"},
+				{"name": "čierne korenie"},
+				{"name": "muškátový oriešok"},
+				{"name": "pikantná paprika"},
+				{"name": "granulovaná cibuľa"}
+			]
+		}
+	],
+	"image": "onvia/image213.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image213"
+}

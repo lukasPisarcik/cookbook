@@ -1,0 +1,44 @@
+{
+	"title": "Pečený cícerový snack",
+	"category": "snacky",
+	"dietTags": ["vegan", "bezlaktozove", "bezlepkove"],
+	"prepTimeMinutes": 38,
+	"steps": [
+		"Rúru predhrej na 200 °C (horúci vzduch) alebo ak máš horkovzdušnú fritézu, môžeš dať na 180 °C.",
+		"Cícer prepláchni a nechaj poriadne scediť.",
+		"Na plech polož papier na pečenie a rozlož naň cícer.",
+		"Pokvapkaj olivovým olejom, posyp soľou, korením a bylinkami, a dobre premiešaj",
+		"Peč 30-35 minút v rúre alebo 15-20 minút v horkovzdušnej fritéze a občas premiešaj, aby sa cícer opekal rovnomerne."
+	],
+	"funFact": "Cícer je strukovina, ktorá je okrem zdroju vlákniny aj super zdroj rastlinných bielkovín.",
+	"variants": [
+		{
+			"label": "300 kcal",
+			"kcalPerPortion": 301,
+			"portions": 2,
+			"macros": {
+				"carbs": 30,
+				"protein": 13,
+				"fat": 11
+			},
+			"ingredients": [
+				{
+					"name": "cícer",
+					"quantity": 1,
+					"unit": "konzerva"
+				},
+				{
+					"name": "olivový olej",
+					"quantity": 15,
+					"unit": "g"
+				},
+				{
+					"name": "zmes korenia"
+				}
+			]
+		}
+	],
+	"image": "snacky-300-kcal/p4.webp",
+	"source": "Snacky - 300 kcal.pdf",
+	"sourceRef": "p4"
+}

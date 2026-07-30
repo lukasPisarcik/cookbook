@@ -1,0 +1,62 @@
+{
+	"title": "Syrovo cesnakový chlieb",
+	"category": "zaklady",
+	"prepTimeMinutes": 40,
+	"steps": [
+		"Rúru predhrej na 220°C. Do misky nasyp suché suroviny a premiešaj, aby sa zabránilo ich zhlukovaniu.",
+		"Do druhej misky pridaj mokré suroviny a premiešaj ich. Potom nasyp suché suroviny k mokrým a miešaj, kým ti nevznikne hustá konzistencia podobná paste.",
+		"Vezmi si plech a vylož ho papierom na pečenie. Uisti sa, že je dostatočne veľký, aby si na ňom vytvorila veľký obdĺžnik z cesta. Pridaj cesto na papier a pomocou špachtle ho rozotri čo najrovnomernejšie do tvaru obdĺžnika. Rozotieranie pôjde ľahšie ak si vždy namočíš špachtlu do pohára so studenou vodou. Cesto trochu vykysne, takže sa dá rozotrieť pomerne tenko. Keď vznikne veľký obdĺžnik, vlož ho do rúry a peč po dobu 10 minút, kým nezozlatne, a potom ho vyber.",
+		"Celé opečené cesto postriekaj olejom v spreji (alebo potri tenkou vrstvou masla) a vrch posyp ešte granulovaným cesnakovým práškom. Potom chlieb rovnomerne posyp syrom. Vlož späť do rúry na 4-6 minút, aby sa syr roztopil. Nakoniec nakrájaj na plátky, ako na fotke, vytvor si dip podľa vlastnej chutí a potom už len dobrú chuť!"
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 15,
+			"ingredients": [
+				{
+					"name": "polohrubá múka",
+					"quantity": 135,
+					"unit": "g"
+				},
+				{
+					"name": "kokosová múka",
+					"quantity": 24,
+					"unit": "g"
+				},
+				{
+					"name": "prášok do pečiva",
+					"quantity": 12,
+					"unit": "g"
+				},
+				{
+					"name": "nízkotučný grécky jogurt",
+					"quantity": 300,
+					"unit": "g"
+				},
+				{
+					"name": "vaječné bielky",
+					"quantity": 150,
+					"unit": "g"
+				},
+				{
+					"name": "strúhaná mozzarella light",
+					"quantity": 100,
+					"unit": "g"
+				},
+				{
+					"name": "morská soľ",
+					"quantity": 6,
+					"unit": "g"
+				},
+				{
+					"name": "granulovaný cesnak",
+					"quantity": 12,
+					"unit": "g"
+				}
+			]
+		}
+	],
+	"image": "onvia/image32.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image32"
+}

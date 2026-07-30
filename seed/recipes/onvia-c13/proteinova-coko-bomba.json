@@ -1,0 +1,34 @@
+{
+	"title": "Proteínová čoko bomba",
+	"category": "dezerty",
+	"prepTimeMinutes": 5,
+	"steps": [
+		"Všetky suroviny zmiešaj dokopy v miske pokým nevznikne krémová konzistencia. Teraz môžeš pridať aj čokopecičky. Nalej hotovú zmes do misky vhodnej do mikrovlnnej rúry.",
+		"Peč v mikrovlnnej rúre pri výkone 600 Wattov 2-3 minúty pre jemnejšiu štruktúru až 4 minúty ak máš rada pevnejšie koláčiky.",
+		"Ak pripravuješ recept v rúre, peč zmes v malej forme na pečenie 12 minút pri 180°C funkcia ventilátor.",
+		"Pred vyklopením z formy nechaj koláčik krátko vychladnúť."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 337,
+			"portions": 1,
+			"macros": {"carbs": 19, "protein": 43, "fat": 9},
+			"ingredients": [
+				{"name": "proteínový prášok (čokoláda)", "quantity": 40, "unit": "g"},
+				{"name": "Unicorn Dust", "quantity": 3, "unit": "g"},
+				{"name": "erythritol", "quantity": 20, "unit": "g"},
+				{"name": "psyllium (vláknina)", "quantity": 2.5, "unit": "g"},
+				{"name": "raw kakao na pečenie", "quantity": 10, "unit": "g"},
+				{"name": "prášok do pečiva", "quantity": 1, "unit": "g"},
+				{"name": "mandľové mlieko", "quantity": 30, "unit": "ml"},
+				{"name": "vaječný bielok", "quantity": 1, "unit": "ks"},
+				{"name": "pudingový prášok", "quantity": 10, "unit": "g"},
+				{"name": "čokopecičky", "quantity": 15, "unit": "g"}
+			]
+		}
+	],
+	"image": "onvia/image260.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image260"
+}

@@ -1,0 +1,27 @@
+{
+	"title": "Najlepšia mrkvová nátierka",
+	"category": "ranajky",
+	"steps": [
+		"Na panvici rozohrejte maslo a orestujte na ňom nastrúhanú mrkvu.",
+		"Orestovanú vychladnutú mrkvu dajte do misky, pridajte parmezán a maslo, premiešajte.",
+		"Nakoniec podľa chuti osoľte a pridajte citrónovú šťavu.",
+		"Podávajte s kvalitným čerstvým pečivom."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 2,
+			"ingredients": [
+				{ "name": "najemno nastrúhaná mrkva", "quantity": 150, "unit": "g" },
+				{ "name": "maslo", "quantity": 5, "unit": "g" },
+				{ "name": "najemno nastrúhaný parmezán", "quantity": 30, "unit": "g" },
+				{ "name": "Lučina so skyrom", "quantity": 160, "unit": "g" },
+				{ "name": "čerstvá citrónová šťava", "quantity": 5, "unit": "kvapka" },
+				{ "name": "soľ" }
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p7.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p7"
+}

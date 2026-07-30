@@ -1,0 +1,33 @@
+{
+	"title": "Čučoriedková ovsená kaša",
+	"category": "ranajky",
+	"prepTimeMinutes": 15,
+	"steps": [
+		"V hrnci priveď mlieko do varu, pridaj ovsené vločky a chia a var na miernom ohni, kým kaša nezhustne (cca 5-7 minút).",
+		"Odstav kašu z ohňa, nechaj 2-3 minútky vychladnúť a až potom vmiešaj proteínový prášok.",
+		"Ak je potrebné, pridaj trochu vody na zriedenie (ale niekedy nemusíš, pretože niektoré proteíny kašu sami rozriedia).",
+		"Primiešaj čučoriedky, časť môžeš roztlačiť priamo do kaše, a niektoré môžeš vmiešať do nej.",
+		"Podávaj v miske, ozdobené orieškovým maslom, zvyšnými čučoriedkami a medom."
+	],
+	"funFact": "Čučoriedky sú považované za superpotravinu, nakoľko sú bohaté na antioxidanty, ktoré majú protizápalové účinky a chránia naše telo pred oxidačným stresom.",
+	"variants": [
+		{
+			"label": "550 kcal",
+			"kcalPerPortion": 552,
+			"portions": 1,
+			"macros": { "carbs": 63, "protein": 31, "fat": 18 },
+			"ingredients": [
+				{ "name": "ovsené vločky", "quantity": 50, "unit": "g" },
+				{ "name": "odtučnené mlieko", "quantity": 170, "unit": "ml" },
+				{ "name": "proteínový prášok", "quantity": 20, "unit": "g" },
+				{ "name": "orieškové maslo", "quantity": 15, "unit": "g" },
+				{ "name": "čučoriedky", "quantity": 50, "unit": "g" },
+				{ "name": "med", "quantity": 15, "unit": "g" },
+				{ "name": "chia semienka", "quantity": 5, "unit": "g" }
+			]
+		}
+	],
+	"image": "ranajky-550-kcal/p6.webp",
+	"source": "Raňajky - 550 kcal.pdf",
+	"sourceRef": "p6"
+}

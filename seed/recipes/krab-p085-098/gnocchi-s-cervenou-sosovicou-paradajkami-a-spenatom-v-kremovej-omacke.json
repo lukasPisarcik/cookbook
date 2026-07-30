@@ -1,0 +1,34 @@
+{
+	"title": "Gnocchi s červenou šošovicou, paradajkami a špenátom v krémovej omáčke",
+	"category": "vecere",
+	"steps": [
+		"Cibuľu nakrájajte nadrobno a orestujte ju v hlbokej panvici na olivovom oleji.",
+		"Pridajte šošovicu, orestujte aby sa obalila tukom a zalejte všetko vodou alebo vývarom. Pridajte passatu, soľ a povarte.",
+		"Keď je šošovica mäkká, pridajte gnocchi, paradajky, špenát, kokosové mlieko alebo smotanu, kurkumu a povarte, kým nebudú gnocchi mäkké.",
+		"Gnocchi dajte do misky a ozdobte bazalkou a plátkami parmezánu."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 3,
+			"ingredients": [
+				{"name": "olivový olej", "quantity": 1, "unit": "PL"},
+				{"name": "cibuľa", "quantity": 0.5, "unit": "ks"},
+				{"name": "červená šošovica", "quantity": 100, "unit": "g"},
+				{"name": "voda", "quantity": 500, "unit": "ml"},
+				{"name": "paradajková passata", "quantity": 150, "unit": "g"},
+				{"name": "soľ"},
+				{"name": "mletá kurkuma", "quantity": 0.5, "unit": "ČL"},
+				{"name": "zemiakové gnocchi", "quantity": 500, "unit": "g"},
+				{"name": "cherry paradajka", "quantity": 8, "unit": "ks"},
+				{"name": "čerstvý špenát", "quantity": 1, "unit": "hrsť"},
+				{"name": "kokosové mlieko", "quantity": 100, "unit": "g"},
+				{"name": "parmezán"},
+				{"name": "čerstvá bazalka"}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p90.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p90"
+}

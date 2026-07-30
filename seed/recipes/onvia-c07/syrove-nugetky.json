@@ -1,0 +1,60 @@
+{
+	"title": "Syrové nugetky",
+	"category": "obedy",
+	"prepTimeMinutes": 25,
+	"steps": [
+		"Kuracie prsia nakrájaj na väčšie kúsky, osol a okoreň. Do každého narež malý otvor a vlož kocku syra.",
+		"Najprv obaľ kúsky v hladkej múke so sladkou paprikou, potom ich ponor do rozšľahaného vajca a nakoniec obaľ v rozdrvených cornflakes.",
+		"Nugetky poukladaj do košíka horúco-vzdušnej fritézy a peč pri 195 °C približne 10 minút, kým nie sú chrumkavé a zlatisté.",
+		"Podávaj s obľúbeným dipom alebo zeleninou."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 372,
+			"portions": 2,
+			"macros": {
+				"carbs": 24,
+				"protein": 46,
+				"fat": 10
+			},
+			"ingredients": [
+				{
+					"name": "kuracie prsia",
+					"quantity": 300,
+					"unit": "g"
+				},
+				{
+					"name": "tvrdý syr",
+					"quantity": 40,
+					"unit": "g"
+				},
+				{
+					"name": "hladká múka",
+					"quantity": 20,
+					"unit": "g"
+				},
+				{
+					"name": "vajce",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "cornflakes",
+					"quantity": 40,
+					"unit": "g"
+				},
+				{
+					"name": "sladká paprika",
+					"unit": "štipka"
+				},
+				{
+					"name": "soľ"
+				}
+			]
+		}
+	],
+	"image": "onvia/image164.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image164"
+}

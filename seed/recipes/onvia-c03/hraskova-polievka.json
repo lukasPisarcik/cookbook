@@ -1,0 +1,75 @@
+{
+	"title": "Hrášková polievka",
+	"category": "obedy",
+	"prepTimeMinutes": 50,
+	"steps": [
+		"Do hrnca nalej olej, pridaj nadrobno nakrájanú cibuľu a orestuj ju. Potom pridaj nakrájané stonky zeleru a mrazený hrášok. Zalej vodou alebo vývarom a priveď do varu.",
+		"Keď je zelenina mäkká, pridaj rozmiešanú ricottu a mlieko. Osol a priaj sušený cesnak. Rozmixuj tyčovým mixérom do hladkej konzistencie.",
+		"Podávaj s opečenou kukuricou na prepusteném masle (ghee) alebo len tak ak bez úpravy.",
+		"Ozdob ešte petržlenovou vňaťou a vychutnaj si."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 384,
+			"portions": 2,
+			"macros": {
+				"carbs": 40,
+				"protein": 23,
+				"fat": 16
+			},
+			"ingredients": [
+				{
+					"name": "hrášok",
+					"quantity": 300,
+					"unit": "g"
+				},
+				{
+					"name": "zelerové stonky",
+					"quantity": 200,
+					"unit": "g"
+				},
+				{
+					"name": "cibuľa",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "olivový olej",
+					"quantity": 1,
+					"unit": "PL"
+				},
+				{
+					"name": "ricotta",
+					"quantity": 200,
+					"unit": "g"
+				},
+				{
+					"name": "mlieko",
+					"quantity": 200,
+					"unit": "ml"
+				},
+				{
+					"name": "voda"
+				},
+				{
+					"name": "kukurica",
+					"quantity": 100,
+					"unit": "g"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "sušený cesnak"
+				},
+				{
+					"name": "petržlenová vňať"
+				}
+			]
+		}
+	],
+	"image": "onvia/image75.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image75"
+}

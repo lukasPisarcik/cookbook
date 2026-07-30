@@ -1,0 +1,27 @@
+{
+	"title": "Tvarohový dezert s malinami",
+	"category": "snacky",
+	"steps": [
+		"V hrnci rozvarte maliny s trochou vody, rozmixujte a ochuťte medom, nechajte úplne vychladiť. Kľudne vychlaďte aj v chladničke.",
+		"V miske premiešajte smotanu s tvarohom a medom.",
+		"Do dvoch misiek najprv dajte tvarohovú zmes a navrch navrstvite malinovú zmes.",
+		"Nechajte vychladiť a pred servírovaním ozdobte granolou."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 2,
+			"ingredients": [
+				{"name": "kyslá smotana", "quantity": 200, "unit": "g"},
+				{"name": "nízkotučný tvaroh", "quantity": 250, "unit": "g"},
+				{"name": "med", "quantity": 2, "unit": "PL"},
+				{"name": "mrazené maliny", "quantity": 140, "unit": "g"},
+				{"name": "voda"},
+				{"name": "granola"}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p53.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p53"
+}

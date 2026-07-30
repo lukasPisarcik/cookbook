@@ -1,0 +1,31 @@
+{
+	"title": "Probio + prebiotická granolová miska",
+	"category": "ranajky",
+	"prepTimeMinutes": 15,
+	"steps": [
+		"Jogurt zmiešaj s granolou a proteínom.",
+		"Daj do chladničky na celú noc.",
+		"Ráno pridaj čerstvé ovocie a čakankový sirup.",
+		"Môžeš posypať škoricou."
+	],
+	"funFact": "Probiotiká sú prospešné baktérie, ktoré podporujú zdravie čriev a prebiotiká sú vláknina a nestráviteľné sacharidy, ktoré slúžia ako potrava pre probiotiká.",
+	"variants": [
+		{
+			"label": "300 kcal",
+			"kcalPerPortion": 345,
+			"portions": 1,
+			"macros": { "carbs": 31, "protein": 23, "fat": 14 },
+			"ingredients": [
+				{ "name": "granola bez cukru", "quantity": 25, "unit": "g" },
+				{ "name": "probio jogurt polotučný", "quantity": 145, "unit": "g" },
+				{ "name": "proteín", "quantity": 15, "unit": "g" },
+				{ "name": "čerstvé ovocie", "quantity": 100, "unit": "g" },
+				{ "name": "čakankový sirup", "quantity": 15, "unit": "g" },
+				{ "name": "škorica" }
+			]
+		}
+	],
+	"image": "ranajky-300-kcal/p16.webp",
+	"source": "Raňajky - 300 kcal.pdf",
+	"sourceRef": "p16"
+}

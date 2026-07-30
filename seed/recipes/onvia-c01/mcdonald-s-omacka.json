@@ -1,0 +1,80 @@
+{
+	"title": "McDonald’s omáčka",
+	"category": "zaklady",
+	"prepTimeMinutes": 5,
+	"steps": [
+		"Nakrájaj uhorky nadrobno a zmiešaj ich s ostatnými surovinami v miske, kým nevytvoríš omáčku.",
+		"Skladuj ju v uzavretej sklenenej nádobe v chladničke až 5 dní."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 20,
+			"macros": {
+				"carbs": 1,
+				"protein": 1,
+				"fat": 1
+			},
+			"ingredients": [
+				{
+					"name": "light majonéza",
+					"quantity": 60,
+					"unit": "g"
+				},
+				{
+					"name": "nízkotučný grécky jogurt",
+					"quantity": 150,
+					"unit": "g"
+				},
+				{
+					"name": "kečup",
+					"quantity": 70,
+					"unit": "g"
+				},
+				{
+					"name": "horčica",
+					"quantity": 30,
+					"unit": "g"
+				},
+				{
+					"name": "jablčný ocot",
+					"quantity": 5,
+					"unit": "g"
+				},
+				{
+					"name": "šťava zo zaváraných uhoriek",
+					"quantity": 20,
+					"unit": "ml"
+				},
+				{
+					"name": "zaváraná uhorka",
+					"quantity": 3,
+					"unit": "ks"
+				},
+				{
+					"name": "údená paprika",
+					"quantity": 0.25,
+					"unit": "ČL"
+				},
+				{
+					"name": "granulovaná cibuľa",
+					"quantity": 1,
+					"unit": "ČL"
+				},
+				{
+					"name": "granulovaný cesnak",
+					"quantity": 0.5,
+					"unit": "ČL"
+				},
+				{
+					"name": "soľ",
+					"quantity": 0.5,
+					"unit": "ČL"
+				}
+			]
+		}
+	],
+	"image": "onvia/image26.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image26"
+}

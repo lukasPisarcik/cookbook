@@ -1,0 +1,31 @@
+{
+	"title": "Pistáciové tiramisu",
+	"category": "dezerty",
+	"steps": [
+		"Puding uvarte v mlieku, oslaďte ho a hneď po uvarení vmiešajte ricottu a premiešajte do hladkého krému.",
+		"Pripravte si 2 alebo 3 mištičky, prvú polovicu piškót namočte v káve a dajte na spodok misiek.",
+		"Na piškóty navrstvite polovicu krému, potom opäť položte namočené piškóty v káve, znovu vrstvu krému a nakoniec posypte kakaom cez sitko.",
+		"Dajte do chladničky na noc vychladiť.",
+		"Pred podávaním ozdobte pistáciovým maslom a malinami."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 2,
+			"ingredients": [
+				{"name": "espresso", "quantity": 1, "unit": "ks"},
+				{"name": "špaldové dlhé piškóty", "quantity": 125, "unit": "g"},
+				{"name": "plnotučné mlieko", "quantity": 400, "unit": "ml"},
+				{"name": "pistáciový puding od Dr. Oetker", "quantity": 1, "unit": "balenie"},
+				{"name": "práškový cukor", "quantity": 1, "unit": "PL"},
+				{"name": "ricotta", "quantity": 250, "unit": "g"},
+				{"name": "holandské kakao na posypanie"},
+				{"name": "pistáciové maslo na ozdobenie"},
+				{"name": "rozdrvené sušené maliny na ozdobenie"}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p42.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p42"
+}

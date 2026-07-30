@@ -1,0 +1,42 @@
+{
+	"title": "Tekvicové placky s bylinkovým tvarohom",
+	"category": "obedy",
+	"prepTimeMinutes": 20,
+	"steps": [
+		"Rúru predhrej na 200°C funkcia ventilátor a priprav si plech na pečenie.",
+		"Tekvicu aj zemiaky ošúp a nastrúhaj nahrubo. Cuketu si tiež nastrúhaj nahrubo do druhej misky. Osoľ ju, nechaj 5 minút odstáť a dobre z nej vyžmýkaj vodu rukami.",
+		"Vajcia v miske rozšľahaj so soľou, korením, granulovaným cesnakom a muškátovým orieškom. Potom pridaj nasekanú petržlenovú vňať a vmiešaj nastrúhanú zeleninu. Pridaj psyllium, opäť dobre premiešaj a nechaj krátko odstáť.",
+		"Bylinky nakrájaj nadrobno a zmiešaj v miske s tvarohom, šťavou z limetky a koreninami.",
+		"Na papier na pečenie vytvaruj 4-5 veľkých placiek a vlož do predhriatej rúry na približne 25 minút.",
+		"Podávaj s bylinkovým tvarohom."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 488,
+			"portions": 1,
+			"macros": {
+				"carbs": 46,
+				"protein": 44,
+				"fat": 9
+			},
+			"ingredients": [
+				{ "name": "maslová tekvica", "quantity": 175, "unit": "g" },
+				{ "name": "cuketa", "quantity": 150, "unit": "g" },
+				{ "name": "zemiaky", "quantity": 100, "unit": "g" },
+				{ "name": "vajce", "quantity": 2, "unit": "ks" },
+				{ "name": "psyllium husk", "quantity": 25, "unit": "g" },
+				{ "name": "nízkotučný tvaroh", "quantity": 200, "unit": "g" },
+				{ "name": "soľ" },
+				{ "name": "korenie" },
+				{ "name": "granulovaný cesnak" },
+				{ "name": "muškátový oriešok" },
+				{ "name": "petržlenová vňať" },
+				{ "name": "limetková šťava" }
+			]
+		}
+	],
+	"image": "onvia/image189.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image189"
+}

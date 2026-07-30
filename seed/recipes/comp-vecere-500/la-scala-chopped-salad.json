@@ -1,0 +1,87 @@
+{
+	"title": "La Scala chopped salad",
+	"category": "vecere",
+	"dietTags": [
+		"bezlepkove"
+	],
+	"prepTimeMinutes": 15,
+	"steps": [
+		"Na dresing zmiešaj olej, vínny ocot, prelisovaný cesnak, horčicu, soľ a čierne korenie.",
+		"Do velkej misy daj jemne nasekaný ľadový a rímsky šalát, pridaj scedený a opláchnutý cícer, nakrájanú salámu a strúhany syr.",
+		"Polej pripraveným dresingom a dôkladne premiešaj.",
+		"Posyp parmezánom."
+	],
+	"funFact": "Recept na tento šalát pochádza z luxusnej reštaurácie LA SCALA, z Beverly Hills a je jedným z najoblúbenejších aj u Kim Kardashian. :D",
+	"variants": [
+		{
+			"label": "500 kcal",
+			"kcalPerPortion": 505,
+			"portions": 1,
+			"macros": {
+				"carbs": 20,
+				"protein": 39,
+				"fat": 32
+			},
+			"ingredients": [
+				{
+					"name": "ľadový šalát",
+					"quantity": 0.5,
+					"unit": "ks"
+				},
+				{
+					"name": "rímsky šalát",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "cícer",
+					"quantity": 120,
+					"unit": "g"
+				},
+				{
+					"name": "saláma",
+					"quantity": 50,
+					"unit": "g"
+				},
+				{
+					"name": "strúhaná mozzarella",
+					"quantity": 40,
+					"unit": "g"
+				},
+				{
+					"name": "olivový olej",
+					"quantity": 10,
+					"unit": "g"
+				},
+				{
+					"name": "červený vínny ocot",
+					"quantity": 2,
+					"unit": "ČL"
+				},
+				{
+					"name": "cesnak",
+					"quantity": 1,
+					"unit": "strúčik"
+				},
+				{
+					"name": "polotučná horčica",
+					"quantity": 10,
+					"unit": "g"
+				},
+				{
+					"name": "parmezán",
+					"quantity": 20,
+					"unit": "g"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "čierne korenie"
+				}
+			]
+		}
+	],
+	"source": "Večere - 500 kcal.pdf",
+	"sourceRef": "p14"
+}

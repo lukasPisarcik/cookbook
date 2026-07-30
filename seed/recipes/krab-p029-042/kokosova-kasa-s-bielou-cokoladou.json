@@ -1,0 +1,29 @@
+{
+	"title": "Kokosová kaša s bielou čokoládou",
+	"category": "ranajky",
+	"steps": [
+		"Vločky nasypte do misky, pridajte skyr, kokosové mlieko, vodu, rozmixovaný banán a med. Všetko premiešajte a dajte do 3 misiek.",
+		"Čokoládu rozpusťte vo vodnom kúpeli, keď je rozpustená premiešajte ju so skyrom. Polevu nalejte na kašu vo všetkých 3 miskách.",
+		"Nechajte uležať cez noc.",
+		"Ráno môžete ozdobiť Rafaelom a nasekanou bielou čokoládou."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 3,
+			"ingredients": [
+				{"name": "jemné ovsené vločky", "quantity": 120, "unit": "g"},
+				{"name": "skyr", "quantity": 2, "unit": "balenie"},
+				{"name": "kokosové mlieko", "quantity": 150, "unit": "ml"},
+				{"name": "voda", "quantity": 100, "unit": "ml"},
+				{"name": "zrelý banán", "quantity": 1, "unit": "ks"},
+				{"name": "med", "quantity": 15, "unit": "g"},
+				{"name": "biela čokoláda na polevu", "quantity": 50},
+				{"name": "skyr na polevu", "quantity": 1, "unit": "ks"}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p35.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p35"
+}

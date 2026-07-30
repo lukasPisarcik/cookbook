@@ -1,0 +1,28 @@
+{
+	"title": "Tvarohové tiramisu",
+	"category": "snacky",
+	"steps": [
+		"Polovicu piškót vložte/rozlomte na dno mištičiek a piškóty ľahko pokvapkajte kávou.",
+		"Vymiešajte tvaroh s ricottou a cukrom dohladka. Prvú polovicu krému nanesete do krabičiek na piškóty.",
+		"Teraz znova na krém položte piškóty, pokvapkajte kávou a ne nich dajte druhú vrstvu krému.",
+		"Nakoniec zasypte cez sitko kakaom.",
+		"Nechajte ideálne cez noc odležať v chladničke."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 4,
+			"ingredients": [
+				{"name": "cukrárenské dlhé piškóty", "quantity": 12, "unit": "ks"},
+				{"name": "espresso", "quantity": 1, "unit": "ks"},
+				{"name": "polotučný tvaroh", "quantity": 500, "unit": "g"},
+				{"name": "ricotta", "quantity": 250, "unit": "g"},
+				{"name": "práškový cukor", "quantity": 30, "unit": "g"},
+				{"name": "holandské kakao"}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p50.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p50"
+}

@@ -1,0 +1,39 @@
+{
+	"title": "Hruškový koláč s tvarohom a škoricovou mrveničkou",
+	"category": "dezerty",
+	"steps": [
+		"Rúru rozohrejte na 180 stupňov. Plech vymastite maslom a vysypte múkou.",
+		"Vyšľahajte vajcia s cukrom do peny, potom zašľahajte olej, jogurt a kyslú smotanu. Nakoniec primiešajte múku, kypriaci prášok a citrónovú kôru. Cesto prelejte na plech.",
+		"Zmiešajte tvaroh s vanilkovým cukrom a najemno nastrúhanou citrónovou kôrou a lyžicou rozotrite na cesto.",
+		"Hrušky umyte, zbavte šupky a dužiny, nakrájajte na tučnejšie plátky. Potom ich rozložte na tvaroh.",
+		"Nakoniec vytvorte mrveničku z múky, cukru, masla a škorice. Posypte ňou koláč.",
+		"Dajte piecť, po 20 minútach znížte teplotu na 160 stupňov a pečte ďalších 15 minút.",
+		"Po upečení nechajte vychladnúť."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"ingredients": [
+				{"name": "trstinový cukor", "quantity": 130, "unit": "g"},
+				{"name": "olej", "quantity": 100, "unit": "g"},
+				{"name": "kyslá smotana", "quantity": 200, "unit": "g"},
+				{"name": "biely jogurt", "quantity": 150, "unit": "g"},
+				{"name": "hladká pšeničná múka", "quantity": 300, "unit": "g"},
+				{"name": "kypriaci prášok", "quantity": 8, "unit": "g"},
+				{"name": "citrónová kôra", "quantity": 1, "unit": "ks"},
+				{"name": "polotučný tvaroh vo vaničke", "quantity": 500, "unit": "g"},
+				{"name": "vanilkový cukor", "quantity": 1, "unit": "ks"},
+				{"name": "hruška", "quantity": 8, "unit": "ks"},
+				{"name": "trstinový cukor na mrveničku", "quantity": 30, "unit": "g"},
+				{"name": "hladká pšeničná múka na mrveničku", "quantity": 30, "unit": "g"},
+				{"name": "maslo na mrveničku", "quantity": 45, "unit": "g"},
+				{"name": "mletá škorica", "quantity": 1, "unit": "ČL"},
+				{"name": "maslo na vymastenie plechu"},
+				{"name": "hladká múka na vysypanie plechu"}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p17.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p17"
+}

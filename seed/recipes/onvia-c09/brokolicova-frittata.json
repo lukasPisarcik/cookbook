@@ -1,0 +1,38 @@
+{
+	"title": "Brokolicová Frittata",
+	"category": "vecere",
+	"prepTimeMinutes": 15,
+	"steps": [
+		"Predhrej si rúru na 200°C funkcia ventilátor. Vezmi si hrniec, napusti ho do polovice vodou, pridaj soľ a daj ju zovrieť. Po zovretí pridaj mrazenú (alebo čerstvú brokolicu) a var ju prikrytú pod pokrievkou, kým nezačne mäknúť (pozor nie veľmi, budeš ju ešte piecť v rúre).",
+		"V miske si vyšľahaj vajcia s oreganom, cesnakom, soľou a bazalkou.",
+		"Teraz vymasti/vystriekaj liatinovú panvicu (zapekaciu misku) olejom v spreji a pridaj do nej predvarenú brokolicu. Vyšlahané vajcia rovnomerne vylej na brokolicu v liatinovej panvici.",
+		"Vlož liatinovú panvicu do rúry na 25 minút. Po dopečení ju vyber, na vrch rovnomerne pridaj passatu a mozzarellu nakrájanú na kúsky. Vlož späť do rúry na ďalších 8-10 minút.",
+		"Po dopečení panvicu vyber, dochuť ešte trochou oregana, bazalky a cesnaku podľa preferencií. Potom už len vychutnávaj!"
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 130,
+			"portions": 8,
+			"macros": {
+				"carbs": 8,
+				"protein": 12,
+				"fat": 6
+			},
+			"ingredients": [
+				{ "name": "mrazená brokolica", "quantity": 600, "unit": "g" },
+				{ "name": "vajce", "quantity": 6, "unit": "ks" },
+				{ "name": "kokosová múka", "quantity": 10, "unit": "g" },
+				{ "name": "paradajková passata", "quantity": 180, "unit": "g" },
+				{ "name": "mozzarella light", "quantity": 125, "unit": "g" },
+				{ "name": "soľ" },
+				{ "name": "oregano" },
+				{ "name": "granulovaný cesnak" },
+				{ "name": "bazalka" }
+			]
+		}
+	],
+	"image": "onvia/image197.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image197"
+}

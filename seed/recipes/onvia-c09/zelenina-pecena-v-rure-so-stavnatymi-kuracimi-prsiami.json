@@ -1,0 +1,43 @@
+{
+	"title": "Zelenina pečená v rúre so šťavnatými kuracími prsiami",
+	"category": "obedy",
+	"prepTimeMinutes": 70,
+	"steps": [
+		"Rúru predhrejeme na 180° horný/spodný ohrev.",
+		"Zeleninu dôkladne umyjeme, ak je potrebné ošúpeme a nakrájame na preferovanú veľkosť.",
+		"Vo veľkej mise zmiešame zeleninu s olivovým olejom, ajvarom a koreninami a rozložíme na papier na pečenie. Pečieme 40-50 min.",
+		"Medzitým zľahka potrieme kuracie prsia olivovým olejom, okoreníme a opečieme na panvici na strednej teplote. Panvicu odstavíme.",
+		"Na posledných 20 minút pečenia posypeme zeleninu feta syrom a bylinkami.",
+		"Zeleninu vytiahneme z rúry, servírujeme s kuracími prsiami na veľkom tanieri.",
+		"Na záver pridáme pár kvapiek citrónovej šťavy a podávame."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 521,
+			"portions": 1,
+			"macros": {
+				"carbs": 32,
+				"protein": 52,
+				"fat": 21
+			},
+			"ingredients": [
+				{ "name": "kuracie prsia", "quantity": 150, "unit": "g" },
+				{ "name": "nízkotučný feta syr", "quantity": 60, "unit": "g" },
+				{ "name": "ajvar", "quantity": 30, "unit": "g" },
+				{ "name": "olivový olej", "quantity": 10, "unit": "ml" },
+				{ "name": "mix zeleniny", "quantity": 400, "unit": "g" },
+				{ "name": "soľ" },
+				{ "name": "čierne korenie" },
+				{ "name": "cesnak" },
+				{ "name": "tymian" },
+				{ "name": "rozmarín" },
+				{ "name": "štipľavá paprika" },
+				{ "name": "sladká paprika" }
+			]
+		}
+	],
+	"image": "onvia/image187.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image187"
+}

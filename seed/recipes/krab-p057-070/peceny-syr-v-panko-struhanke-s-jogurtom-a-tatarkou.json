@@ -1,0 +1,51 @@
+{
+	"title": "Pečený syr v panko strúhanke s jogurtom a tatárkou",
+	"category": "obedy",
+	"steps": [
+		"Rúru predhrejte na 180 stupňov.",
+		"Vajcia rozšľahajte v hlbokom tanieri alebo v miske, panko strúhanku nasypte na plytký tanier. Ako nemáte nepriľnavý plech, vyložte ho papierom na pečenie.",
+		"Syr obaľte vo vajíčku, potom v strúhanke a znovu vo vajíčku a v strúhanke a dajte ho na plech. Obaľte takto všetky syry.",
+		"Dajte piecť do rúry na 15-20 minút.",
+		"Medzitým zmiešajte majonézu s jogurtom a nadrobno nakrájanými uhorkami. Ak je to nutné, tatárku osoľte.",
+		"Upečený syr podávajte ideálne s zemiakovou kašou a doplňte o zeleninový šalát alebo obľúbenou surovou zeleninou alebo kimchi."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 4,
+			"ingredients": [
+				{
+					"name": "syr na panvicu do Madely",
+					"quantity": 400,
+					"unit": "g"
+				},
+				{
+					"name": "vajce",
+					"quantity": 6,
+					"unit": "ks"
+				},
+				{
+					"name": "panko strúhanka"
+				},
+				{
+					"name": "majonéza",
+					"quantity": 3,
+					"unit": "PL"
+				},
+				{
+					"name": "jogurt",
+					"quantity": 3,
+					"unit": "PL"
+				},
+				{
+					"name": "nakladaná uhorka",
+					"quantity": 4,
+					"unit": "ks"
+				}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p67.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p67"
+}

@@ -1,0 +1,29 @@
+{
+	"title": "Cestovinový šalát s paradajkami, mozzarellou a bazalkou",
+	"category": "vecere",
+	"steps": [
+		"Uvarené cestoviny dajte do misky, pridajte nakrájané paradajky, mozzarellu a najemno nasekanú bazalku.",
+		"Pridajte kyslú smotanu, horčicu, soľ a čierne korenie a všetko premiešajte.",
+		"Šalát pridajte do misky, ozdobte ho klíčkami a dajte vychladiť do chladničky."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 2,
+			"ingredients": [
+				{"name": "uvarené cestoviny", "quantity": 400, "unit": "g"},
+				{"name": "kyslá smotana", "quantity": 190, "unit": "g"},
+				{"name": "cherry paradajka", "quantity": 8, "unit": "ks"},
+				{"name": "mozzarella light", "quantity": 125, "unit": "g"},
+				{"name": "čerstvá bazalka", "quantity": 1, "unit": "hrsť"},
+				{"name": "dijonská horčica", "quantity": 1, "unit": "ČL"},
+				{"name": "soľ"},
+				{"name": "čierne korenie"},
+				{"name": "klíčky"}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p94.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p94"
+}

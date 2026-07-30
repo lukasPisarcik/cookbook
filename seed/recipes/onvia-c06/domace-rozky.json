@@ -1,0 +1,42 @@
+{
+	"title": "Domáce rožky",
+	"category": "zaklady",
+	"prepTimeMinutes": 180,
+	"steps": [
+		"Najskôr aktivuj štartér. Sušené droždie pridaj do vody a primiešaj 1 PL medu. Nechaj ho pôsobiť aspoň 10 minút.",
+		"Medzitým v druhej miske zmiešaj múku so soľou. Vmiešaj aktivovaný kvások (štartér), zmäknuté maslo a spracuj. Môžeš použiť kuchynský robot, ale cesto bude mať rado aj teplo tvojich rúk.",
+		"Celé cesto vlož do múkou vysypanej misy, posyp trochou múky, prikry a nechaj kysnúť na teplom mieste aspoň 2 hodiny.",
+		"Keď je cesto polovičnej veľkosti, prelož ho na drevenú dosku a rozdel na 12 kúskov.",
+		"Ak je cesto príliš lepkavé, pridaj trochu múky. Každý kúsok rozvaľkaj na trojuholník a začni ho stáčať od najširšej strany k najužšej. Zroluj do tvaru poloblúku a polož na plech na pečenie.",
+		"Rožky nechaj kysnúť ďalších 20 - 25 minút.",
+		"Rúru rozohrej na 220°C, rožky potri rozšľahaným vajcom, posyp makom alebo kmínom a peč 15 - 20 minút do zlatista.",
+		"Vychutnaj si ich ešte teplé naslano alebo nasladko."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 181,
+			"portions": 12,
+			"macros": {
+				"carbs": 30,
+				"protein": 5,
+				"fat": 4
+			},
+			"ingredients": [
+				{ "name": "hladká múka", "quantity": 300, "unit": "g" },
+				{ "name": "chlebová múka", "quantity": 200, "unit": "g" },
+				{ "name": "soľ", "quantity": 1, "unit": "ČL" },
+				{ "name": "sušené droždie", "quantity": 10, "unit": "g" },
+				{ "name": "med", "quantity": 1, "unit": "ČL" },
+				{ "name": "vlažná voda", "quantity": 300, "unit": "ml" },
+				{ "name": "maslo", "quantity": 50, "unit": "g" },
+				{ "name": "vajce", "quantity": 1, "unit": "ks" },
+				{ "name": "mak" },
+				{ "name": "rasca" }
+			]
+		}
+	],
+	"image": "onvia/image131.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image131"
+}

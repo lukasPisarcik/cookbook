@@ -1,0 +1,51 @@
+{
+	"title": "Chrumkavé rezníky v corngflakes",
+	"category": "obedy",
+	"steps": [
+		"Kuracie prsia očistite a nakrájajte na menšie plátky.",
+		"V miske zmiešajte kyslú smotanu s prelisovaným cesnakom, soľou a paprikou. Kuracie kúsky naložte v tejto marinády a dajte do chladničky odležať. Ideálne cez noc.",
+		"Druhý deň rozmeľte cornflakes a rezníky v nich obaľte. Dajte na nepriľnavý plech alebo plech vyložený papierom na pečenie a dajte do predhriatej rúry na 180 stupňov na 20-25 minút.",
+		"Podávajte so zemiakovou kašou."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 3,
+			"ingredients": [
+				{
+					"name": "kuracie prsia",
+					"quantity": 400,
+					"unit": "g"
+				},
+				{
+					"name": "cesnak",
+					"quantity": 1,
+					"unit": "strúčik"
+				},
+				{
+					"name": "soľ",
+					"quantity": 0.5,
+					"unit": "ČL"
+				},
+				{
+					"name": "mletá paprika",
+					"quantity": 0.5,
+					"unit": "ČL"
+				},
+				{
+					"name": "kyslá smotana",
+					"quantity": 200,
+					"unit": "g"
+				},
+				{
+					"name": "cornflakes",
+					"quantity": 150,
+					"unit": "g"
+				}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p76.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p76"
+}

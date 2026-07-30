@@ -1,0 +1,30 @@
+{
+	"title": "Energy balls",
+	"category": "dezerty",
+	"dietTags": ["vegan", "bezlaktozove"],
+	"prepTimeMinutes": 10,
+	"steps": [
+		"Všetky ingredie zmixuj, kým zmes nie je jemne nasekaná a lepivá.",
+		"Na jednu guličku potrebuješ približne 1PL zmesi.",
+		"Opakuj, kým sa zmes neminie.",
+		"Vyjde približne na 10-12 guľôčok",
+		"Jedna porcia = 2 guľôčky"
+	],
+	"funFact": "Ďatle sú vynikajúce ako prírodné sladidlo, pretože jedlám dodávajú prirodzenú sladkosť a energiu, vďaka čomu sú tieto guličky ideálne ako rýchly zdroj energie napríklad pred cvičením.",
+	"variants": [
+		{
+			"label": "300 kcal",
+			"kcalPerPortion": 301,
+			"portions": 11,
+			"macros": { "carbs": 28, "protein": 6, "fat": 18 },
+			"ingredients": [
+				{ "name": "ďatle bez kôstok", "quantity": 150, "unit": "g" },
+				{ "name": "nasekané vlašské orechy", "quantity": 120, "unit": "g" },
+				{ "name": "ovsené vločky", "quantity": 30, "unit": "g" },
+				{ "name": "mandľové maslo", "quantity": 30, "unit": "g" }
+			]
+		}
+	],
+	"source": "Dezerty-300kcal.pdf",
+	"sourceRef": "p3"
+}

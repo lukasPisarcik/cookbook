@@ -1,0 +1,84 @@
+{
+	"title": "Tvarohový kuskus",
+	"category": "vecere",
+	"dietTags": [
+		"vegetarianske"
+	],
+	"prepTimeMinutes": 45,
+	"steps": [
+		"Očisti a nahrubo nastrúhaj jablká, pridaj škoricu podľa chuti. ( rukami vyžmýkaj z jabĺk prebytočnú šťavu)",
+		"Opláchni kuskus.",
+		"Potom daj do hrnca kuskus a zalej vriacim mliekom, zakry pokrievkou a nechaj napučať.",
+		"Zatiaľ si v miske zmiešaj tvaroh, proteín, citrónovú kôru, 3 žĺtka, šťavu z citróna a oslaď s čakankovým sirupom.",
+		"V ďalšej miske si vyšľahaj bielka do snehu a pridaj tvarohovú zmes.",
+		"Hotovú zmes primiešaj do vychladnutého kuskusu.",
+		"Plech pokry pečiacim papierom alebo postriekaj olejom v spreji.",
+		"Na spodok plechu vylej polovicu kuskusovej zmesi, na ňu poukladaj nastrúhané jablká a posyp škoricou podľa chuti.",
+		"Nakoniec navrch vylej zvyšnú kuskusovú zmes.",
+		"Peč cca 30-35 minút pri 200 stupňoch.",
+		"Dobrú chuť :)"
+	],
+	"funFact": "Kuskus sa na prvý pohľad môže tváriť ako obilnina, ale v skutočnosti je to drobná forma cestovín, vyrobená z pšeničnej krupice.",
+	"variants": [
+		{
+			"label": "300 kcal",
+			"kcalPerPortion": 322,
+			"portions": 5,
+			"macros": {
+				"carbs": 46,
+				"protein": 22,
+				"fat": 5
+			},
+			"ingredients": [
+				{
+					"name": "nízkotučné mlieko",
+					"quantity": 350,
+					"unit": "ml"
+				},
+				{
+					"name": "nízkotučnený jemný tvaroh",
+					"quantity": 250,
+					"unit": "g"
+				},
+				{
+					"name": "citrónová kôra"
+				},
+				{
+					"name": "šťava z citróna"
+				},
+				{
+					"name": "kuskus",
+					"quantity": 200,
+					"unit": "g"
+				},
+				{
+					"name": "vanilkový proteín",
+					"quantity": 30,
+					"unit": "g"
+				},
+				{
+					"name": "vajíčko",
+					"quantity": 3,
+					"unit": "ks"
+				},
+				{
+					"name": "čakankový sirup"
+				},
+				{
+					"name": "olej v spreji"
+				},
+				{
+					"name": "jablko",
+					"quantity": 4,
+					"unit": "ks"
+				},
+				{
+					"name": "škorica"
+				}
+			]
+		}
+	],
+	"image": "tvarohovy-kuskus-300-kcal/p1.webp",
+	"source": "Tvarohový kuskus - 300 kcal.pdf",
+	"sourceRef": "p1"
+}

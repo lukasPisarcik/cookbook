@@ -1,0 +1,26 @@
+{
+	"title": "Jahodový chia puding",
+	"category": "snacky",
+	"steps": [
+		"Chia semienka nasypte do misky, pridajte med a zalejte mliekom. Všetko premiešajte a presuňte do dvoch misiek, ktoré uzavriete a dajte do chladničky ideálne na noc.",
+		"Druhý deň rozmixujte jahody s medom len trochu, aby ste zachovali kúsky jahôd a navrstvite túto zmes do misiek na chia puding.",
+		"Nakoniec ozdobte plátkami mandlí."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 2,
+			"ingredients": [
+				{"name": "chia semienka", "quantity": 45, "unit": "g"},
+				{"name": "ovsené mlieko", "quantity": 215, "unit": "g"},
+				{"name": "med", "quantity": 20, "unit": "g"},
+				{"name": "mrazené jahody", "quantity": 200, "unit": "g"},
+				{"name": "med", "quantity": 1, "unit": "PL"},
+				{"name": "plátkové mandle"}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p48.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p48"
+}

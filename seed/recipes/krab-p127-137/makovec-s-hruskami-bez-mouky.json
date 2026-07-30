@@ -1,0 +1,34 @@
+{
+	"title": "Makovec s hruškami bez mouky",
+	"category": "dezerty",
+	"steps": [
+		"Troubu rozehřejte na 170 stupňů.",
+		"Hrušky oloupejte a nastoruhejte nahrubo.",
+		"Oddělte bílky od žloutků a z bílků vyšlehejte se špetkou soli sníh.",
+		"Žloutky prošlehejte s medem, poté přidejte i nastrouhané hrušky, mák, mandlovou mouku a kypřící prášek a taky plátky mandlí. Vše promíchejte a nakonec vmíchejte sníh z bílků.",
+		"Chlebovou formu vymažte olejem a vysypte mandlovou moukou a přemístěte do něj těsto.",
+		"Dejte péct na 30 minut.",
+		"Po upečení nechte vychladnout a pak vyklopte z formy.",
+		"Podávejte se Skyrem nebo rostlinnou variantou a lyofilizovanými malinami."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 5,
+			"ingredients": [
+				{"name": "vejce", "quantity": 2, "unit": "ks"},
+				{"name": "med", "quantity": 70, "unit": "g"},
+				{"name": "hruška", "quantity": 3, "unit": "ks"},
+				{"name": "mandlové plátky", "quantity": 25, "unit": "g"},
+				{"name": "mletý mák", "quantity": 180, "unit": "g"},
+				{"name": "mandlová mouka", "quantity": 30, "unit": "g"},
+				{"name": "kypřící prášek", "quantity": 7, "unit": "g"},
+				{"name": "sůl", "unit": "štipka"},
+				{"name": "kokosový olej"}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p131.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p131"
+}

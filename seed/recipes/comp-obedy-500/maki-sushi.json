@@ -1,0 +1,39 @@
+{
+	"title": "Maki sushi",
+	"category": "obedy",
+	"dietTags": ["bezlepkove", "bezlaktozove"],
+	"prepTimeMinutes": 35,
+	"steps": [
+		"Sushi ryžu prepláchni a následne daj do hrnca a var do zmäknutia.",
+		"Počas varenia ryže si priprav hrniec, do ktorého daj ryžový ocot, trstinový cukor a soľ. Všetko spolu priveď k varu a nechaj vychladnúť. Túto zálievku nalej do hotovej ryže a dôkladne premiešaj.",
+		"Uhorku nakrájaj na tenké prúžky a nori riasu polož lesklou stranou dole a navlhčenými prstami na ňu daj vrstvu ryže.",
+		"V hornej časti nechaj asi 3 cm voľný pás. Na ryžu v spodnej časti daj uhorku a tuniaka",
+		"Pomocou bambusovej podložky (alebo papieru na pečenie) sushi pevne roluj do rolky od strany, kde máš náplň.",
+		"Keď je hotovo, rolku rozkrájaj na sushi.",
+		"Podávaj so sójovou omáčkou, wasabi a nakladaným zázvorom."
+	],
+	"funFact": "Sushi pôvodne vzniklo ako spôsob konzervovania rýb. Ryba bola nakladaná do fermentovanej ryže, aby vydržala dlhší čas. Ryža sa pôvodne nejedla a slúžila len ako konzervačný prostriedok.",
+	"variants": [
+		{
+			"label": "500 kcal",
+			"kcalPerPortion": 475,
+			"portions": 2,
+			"macros": {"carbs": 90, "protein": 23, "fat": 2},
+			"ingredients": [
+				{"name": "voda", "quantity": 300, "unit": "ml"},
+				{"name": "sushi ryža", "quantity": 200, "unit": "g"},
+				{"name": "tuniak vo vlastnej šťave", "quantity": 120, "unit": "g"},
+				{"name": "ryžový ocot", "quantity": 50, "unit": "ml"},
+				{"name": "trstinový cukor", "quantity": 25, "unit": "g"},
+				{"name": "nori riasa", "quantity": 4, "unit": "plátok"},
+				{"name": "uhorka", "quantity": 1, "unit": "ks"},
+				{"name": "soľ"},
+				{"name": "sójová omáčka"},
+				{"name": "nakladaný zázvor"},
+				{"name": "wasabi"}
+			]
+		}
+	],
+	"source": "Obedy - 500 kcal.pdf",
+	"sourceRef": "p13"
+}

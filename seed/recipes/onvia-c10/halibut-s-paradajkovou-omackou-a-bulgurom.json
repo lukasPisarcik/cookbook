@@ -1,0 +1,35 @@
+{
+	"title": "Halibut s paradajkovou omáčkou a bulgurom",
+	"category": "obedy",
+	"prepTimeMinutes": 5,
+	"steps": [
+		"Bulgur uvar v hrnci podľa návodu na obale. Trochu ho osoľ.",
+		"Medzitým do panvice vlož ČL ghí. Dobre osolenú rybu opeč z oboch strán. Ku koncu môžeš pridať čerstvý alebo sušený rozmarín.",
+		"Rybu vyber z panvice. Do tej istej panvice vlož dusené paradajky a pridaj passatu. Dochuť korením V7X. Nechaj chvíľu dusiť.",
+		"Keď je bulgur mäkký a omáčka hotová, podávaj.",
+		"Na tanier daj najprv omáčku, potom bulgur a nakoniec rybu.",
+		"Vychutnaj si!"
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 527,
+			"portions": 2,
+			"macros": {"carbs": 63, "protein": 49, "fat": 9},
+			"ingredients": [
+				{"name": "bulgur", "quantity": 70, "unit": "g"},
+				{"name": "halibut", "quantity": 200, "unit": "g"},
+				{"name": "dusené paradajky", "quantity": 200, "unit": "g"},
+				{"name": "passata", "quantity": 250, "unit": "g"},
+				{"name": "prepustené maslo (ghí)", "quantity": 1, "unit": "ČL"},
+				{"name": "korenie V7X"},
+				{"name": "rozmarín"},
+				{"name": "sušený cesnak"},
+				{"name": "petržlenová vňať"}
+			]
+		}
+	],
+	"image": "onvia/image218.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image218"
+}

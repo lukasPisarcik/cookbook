@@ -1,0 +1,36 @@
+{
+	"title": "Overnight Cookie Dough Oats s marhuľovým džemom",
+	"category": "ranajky",
+	"prepTimeMinutes": 15,
+	"steps": [
+		"Najskôr by si si mala pripraviť džem. Postupuj rovnako ako pri iných domácich džemoch. Ovocie uvar na miernom ohni do mäkka, rozmixuj ho mixérom, pridaj všetky prášky, premiešaj a prelej do sklenenej nádoby. Najlepšie je, ak si ho pripravíš už deň vopred, aby džem mohol cez noc stuhnúť a vychladnúť. Na tento recept budeš potrebovať len 30-40 g džemu. Zvyšok môžeš použiť nasledujúce dni na čokoľvek, na čo máš chuť.",
+		"Pripravíme si Cookie Dough Oats: všetky suroviny vlož do malého mixéra a rozmixuj do hladka.",
+		"Rozmixovanú zmes vysyp do misky a pomaly pridávaj studenú vodu a miešaj, kým nezískaš konzistenciu podobnú cestu. Možno o niečo redšiu ako cesto len preto, že cez noc bude viac tuhnúť.",
+		"Polovicu cesta rozdeľ do tebou zvolenej misky, na vrch natri hrubšiu vrstvu džemu, pridaj nasekané arašidy a prikry ho zvyškom cesta.",
+		"Daj do chladničky na noc alebo pre rýchle stuhnutie vlož na približne hodinu do mrazničky.",
+		"Na druhý deň ráno si vychutnaj svoje nové obľúbené raňajky."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 465,
+			"portions": 1,
+			"macros": {"carbs": 46, "protein": 39, "fat": 14},
+			"ingredients": [
+				{"name": "ovsené vločky", "quantity": 40, "unit": "g"},
+				{"name": "vanilkový proteínový prášok", "quantity": 30, "unit": "g"},
+				{"name": "arašidové maslo v prášku", "quantity": 20, "unit": "g"},
+				{"name": "sladidlo"},
+				{"name": "nasekané arašidy", "quantity": 20, "unit": "g"},
+				{"name": "mletá škorica", "quantity": 3, "unit": "g"},
+				{"name": "morská soľ", "unit": "štipka"},
+				{"name": "marhule", "quantity": 500, "unit": "g"},
+				{"name": "tortová poleva", "quantity": 1, "unit": "balenie"},
+				{"name": "xantán", "quantity": 1.5, "unit": "g"}
+			]
+		}
+	],
+	"image": "onvia/image341.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image341"
+}

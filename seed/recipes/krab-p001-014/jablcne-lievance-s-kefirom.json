@@ -1,0 +1,32 @@
+{
+	"title": "Jablčné lievance s kefírom",
+	"category": "ranajky",
+	"steps": [
+		"Jablká olúpte a nastrúhajte nahrubo a dajte do misky.",
+		"Pridajte kefír, žĺtky, med, múku, soľ, kypriaci prášok, chia semienka a škoricu, všetko premiešajte.",
+		"Z bielkov vyšľahajte sneh, ktorý opatrne zamiešajte do cesta.",
+		"Lievance opekajte na panvici z obidvoch strán.",
+		"Do krabičky potom pridajte čerstvé jablko, 15 g arašidového masla s bielou čokoládou od Lucky Alvin a skyr, grécky jogurt 0% tuku alebo rastlinný jogurt."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 4,
+			"ingredients": [
+				{ "name": "zelené jablko", "quantity": 2, "unit": "ks" },
+				{ "name": "vajce", "quantity": 2, "unit": "ks" },
+				{ "name": "kefír", "quantity": 230, "unit": "ml" },
+				{ "name": "med", "quantity": 65, "unit": "g" },
+				{ "name": "pohánková múka", "quantity": 60, "unit": "g" },
+				{ "name": "hladká pšeničná múka", "quantity": 120, "unit": "g" },
+				{ "name": "soľ", "unit": "štipka" },
+				{ "name": "kypriaci prášok", "quantity": 8, "unit": "g" },
+				{ "name": "chia semienka", "quantity": 8, "unit": "g" },
+				{ "name": "mletá škorica", "quantity": 0.5, "unit": "ČL" }
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p6.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p6"
+}

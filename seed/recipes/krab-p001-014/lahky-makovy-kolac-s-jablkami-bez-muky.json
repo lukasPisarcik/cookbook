@@ -1,0 +1,31 @@
+{
+	"title": "Ľahký makový koláč s jablkami bez múky",
+	"category": "ranajky",
+	"steps": [
+		"Rúru rozohrejte na 170 stupňov.",
+		"Vajcia vyšľahajte, pridajte mak, kokos, kypriaci prášok a jogurt, všetko spolu premiešajte.",
+		"Jablka umyte, zbavte šupky. Jedno jablko nastrúhajte najemno a druhé nakrájajte na malé kúsky. Jablka potom primiešajte do cesta.",
+		"Koláčovú formu s priemerom 20 cm vymastite ghíčkom a vysypte kokosom.",
+		"Cesto dajte do formy a pečte 45 minút.",
+		"Do krabičky pridajte ku koláču lyofilizované ovocie a kokosový jogurt, skyr alebo grécky jogurt."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"ingredients": [
+				{ "name": "mletý mak", "quantity": 170, "unit": "g" },
+				{ "name": "strúhaný kokos", "quantity": 30, "unit": "g" },
+				{ "name": "vajce", "quantity": 4, "unit": "ks" },
+				{ "name": "kypriaci prášok", "quantity": 8, "unit": "g" },
+				{ "name": "javorový sirup", "quantity": 3, "unit": "PL" },
+				{ "name": "kokosový jogurt", "quantity": 150, "unit": "g" },
+				{ "name": "veľké jablko", "quantity": 2, "unit": "ks" },
+				{ "name": "ghí na vymastenie formy" },
+				{ "name": "strúhaný kokos na vysypanie formy" }
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p13.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p13"
+}

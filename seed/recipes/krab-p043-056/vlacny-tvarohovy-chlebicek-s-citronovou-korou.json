@@ -1,0 +1,36 @@
+{
+	"title": "Vláčny tvarohový chlebíček s citrónovou kôrou",
+	"category": "ranajky",
+	"steps": [
+		"Rúry rozohrejte na 180 stupňov.",
+		"Formu na chlebík vyložte papierom na pečenie.",
+		"Oddeľte bielky od žĺtkov.",
+		"Do misky od robota dajte maslo a cukor. Zvoľte nástavec typu k a zmes vyšľahajte dohladka.",
+		"Potom pridajte žĺtky a opäť dôkladne zašľahajte.",
+		"Teraz pridajte tvaroh a znovu zašľahajte.",
+		"Nakoniec pridajte aj bielky, tiež zašľahajte.",
+		"Teraz je na čase pridať múku s kypriacim práškom a citrónovou kôrou.",
+		"Cesto nalejte do formy a dajte do rúry piecť. Teplotu znížte na 170 stupňov a pečte 35 minút.",
+		"Pred tým ako koláč vyberiete skúste špajľou cesto, ak je upečené ostane čistá. Môžete chlebíček vybrať.",
+		"Chlebíček nechajte cca 30 minút vychladnúť a potom môžete krájať.",
+		"Porciu doplňte obľúbeným ovocím a nízkotučným tvarohom, gréckym jogurtom alebo skyrom."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"ingredients": [
+				{"name": "polohrubá múka", "quantity": 125, "unit": "g"},
+				{"name": "jemný tvaroh na pečenie", "quantity": 250, "unit": "g"},
+				{"name": "maslo", "quantity": 100, "unit": "g"},
+				{"name": "vajíčko", "quantity": 2, "unit": "ks"},
+				{"name": "soľ", "unit": "štipka"},
+				{"name": "citrónová kôra", "quantity": 1, "unit": "ks"},
+				{"name": "trstinový cukor", "quantity": 100, "unit": "g"},
+				{"name": "prášok do pečiva", "quantity": 0.5}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p43.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p43"
+}

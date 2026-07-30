@@ -1,0 +1,85 @@
+{
+	"title": "Špenátový wrap",
+	"category": "obedy",
+	"prepTimeMinutes": 20,
+	"steps": [
+		"Špenát necháme rozmraziť a dobre ho vyžmýkame.",
+		"Rúru si predhrejme na 180°C s funkciou ventilátor a pripravíme si plech s papierom na pečenie.",
+		"Špenát, syr a vajíčka rozmixujeme v mixéry. Okoreníme a vzniknutú zmes rovnomerne potrieme na papier na pečenie. V predhriatej rúre pečieme 10 minút.",
+		"Plech vytiahneme a špenátový podklad necháme vychladnúť.",
+		"V miske si zmiešame krémový syr, tuniaka, korenie, citrónovú šťavu a rovnomerne potrieme na špenátový podklad (1 cm od okraja necháme voľný).",
+		"Dozdobíme zeleninou a špenátovo-tuniakový wrap zrolujeme. Najlepšie je zrolovať ho do papiera na pečenie a obaliť alobalom."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 523,
+			"portions": 1,
+			"macros": {
+				"carbs": 15,
+				"protein": 64,
+				"fat": 19
+			},
+			"ingredients": [
+				{
+					"name": "mrazený listový špenát",
+					"quantity": 100,
+					"unit": "g"
+				},
+				{
+					"name": "struhaný syr light",
+					"quantity": 30,
+					"unit": "g"
+				},
+				{
+					"name": "vajce",
+					"quantity": 2,
+					"unit": "ks"
+				},
+				{
+					"name": "krémový syr light",
+					"quantity": 100,
+					"unit": "g"
+				},
+				{
+					"name": "šťava z ½ citróna"
+				},
+				{
+					"name": "červená cibuľa"
+				},
+				{
+					"name": "reďkovka"
+				},
+				{
+					"name": "uhorka"
+				},
+				{
+					"name": "nakladaná uhorka"
+				},
+				{
+					"name": "tuniak vo vlastnej šťave",
+					"quantity": 1,
+					"unit": "konzerva"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "čierne korenie"
+				},
+				{
+					"name": "sušený cesnak"
+				},
+				{
+					"name": "muškátový orech"
+				},
+				{
+					"name": "čerstvá pažítka"
+				}
+			]
+		}
+	],
+	"image": "onvia/image99.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image99"
+}

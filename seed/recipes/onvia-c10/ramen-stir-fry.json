@@ -1,0 +1,38 @@
+{
+	"title": "Ramen Stir Fry",
+	"category": "obedy",
+	"prepTimeMinutes": 10,
+	"steps": [
+		"Všetky suroviny na omáčku daj do misky, vymiešaj do hladka a odlož nabok.",
+		"Nakrájaj kuracie prsia na kocky. Pridaj ich do misky a dobre ochuť morskou soľou a cesnakovým práškom. Potom ich daj na panvicu predhriatu na teplote 7/10 a restuj, kým nezačnú získavať zlatistú farbu. Potom do panvice prilej polovicou omáčky a miešaj, kým sa kuracie kúsky neobalia v omáčke. Kuracie mäso odlož bokom na tanier.",
+		"Na tú istú panvicu pridaj mrazenú zeleninu. Prilej trošku vody a prikry pokrievkou, aby sa zelenina rýchlo uvarila. Keď zelenina zmäkne pridaj prelisovaný čerstvý cesnak a jarnú cibuľku. Zníž teplotu pod panvicou na miernu a pridaj zvyšok omáčky. Dobre premiešaj.",
+		"Kým sa zelenina varí na panvici, uvar si instatntné Ramen rezance podľa návodu na obale.",
+		"Uvarené rezance pridaj na panvicu k zelenine. Potom pridaj kuracie mäso. Všetko spolu dobre premiešaj a podávaj!"
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 445,
+			"portions": 4,
+			"macros": {"carbs": 42, "protein": 40, "fat": 13},
+			"ingredients": [
+				{"name": "kuracie prsia", "quantity": 700, "unit": "g"},
+				{"name": "mrazená zeleninová zmes (ázijská)", "quantity": 300, "unit": "g"},
+				{"name": "jarná cibuľka", "quantity": 30, "unit": "g"},
+				{"name": "instantné ramen rezance", "quantity": 2, "unit": "blok"},
+				{"name": "čerstvý cesnak", "quantity": 1, "unit": "strúčik"},
+				{"name": "chilli omáčka (Sriracha)", "quantity": 50, "unit": "g"},
+				{"name": "med", "quantity": 50, "unit": "g"},
+				{"name": "sójová omáčka", "quantity": 30, "unit": "ml"},
+				{"name": "ryžový ocot", "quantity": 14, "unit": "ml"},
+				{"name": "sezamový olej", "quantity": 7, "unit": "ml"},
+				{"name": "kukuričný škrob", "quantity": 7, "unit": "g"},
+				{"name": "morská soľ"},
+				{"name": "granulovaný cesnakový prášok"}
+			]
+		}
+	],
+	"image": "onvia/image208.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image208"
+}

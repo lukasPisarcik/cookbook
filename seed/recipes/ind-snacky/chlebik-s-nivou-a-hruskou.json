@@ -1,0 +1,61 @@
+{
+	"title": "Chlebík s nivou a hruškou",
+	"category": "snacky",
+	"prepTimeMinutes": 20,
+	"steps": [
+		"Chliebík opeč z oboch strán a opeč na panvici, kým nebude chrumkavý. Ak máš hriankovač, ideálne na hriankovači.",
+		"Hrušku nakrájaj na tenké plátky a krátko opeč na suchej panvici, aby sa skaramelizovala a pustila vôňu.",
+		"Na opečený chliebík poukladaj plátky nivy a daj ešte na chvíľku pod gril (alebo prikry panvicou), aby sa syr mierne roztopil.",
+		"Potom posyp opečenými orechmi, naukladaj skaramelizovanú hrušku, pokvapkaj medom a ak máš pridaj trochu čerstvého tymiánu.",
+		"Na vrch môžeš ozdobiť pár lístkami rukoly.",
+		"Dobrú chuť ;)"
+	],
+	"variants": [
+		{
+			"label": "300 kcal",
+			"kcalPerPortion": 320,
+			"portions": 1,
+			"macros": {
+				"carbs": 19,
+				"protein": 17,
+				"fat": 19
+			},
+			"ingredients": [
+				{
+					"name": "proteínový chlebík",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "zrelá hruška",
+					"quantity": 0.5,
+					"unit": "ks"
+				},
+				{
+					"name": "niva",
+					"quantity": 30,
+					"unit": "g"
+				},
+				{
+					"name": "vlašské orechy",
+					"quantity": 10,
+					"unit": "g"
+				},
+				{
+					"name": "tekutý med",
+					"quantity": 5,
+					"unit": "g"
+				},
+				{
+					"name": "čerstvý tymián"
+				},
+				{
+					"name": "rukola"
+				}
+			]
+		}
+	],
+	"image": "chlebik-s-nivou-a-hruskou/p1.webp",
+	"source": "Chlebík s nivou a hruškou.pdf",
+	"sourceRef": "p1"
+}

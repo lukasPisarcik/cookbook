@@ -1,0 +1,32 @@
+{
+	"title": "Krémová kaša",
+	"category": "ranajky",
+	"prepTimeMinutes": 5,
+	"steps": [
+		"V hrnci priveď vodu alebo rastlinné mlieko k varu a pridaj ovsené vločky. Var 3-5 minút, kým nezačnú mäknúť.",
+		"Primiešaj tekvicové pyré a var ešte 2-3 minúty, kým sa kaša nespojí do hladkej, krémovej konzistencie.",
+		"Odstav z ohňa, pridaj škoricu alebo korenie A5C a proteínový prášok a premiešaj. Podľa potreby uprav hustotu trochou vody alebo mlieka.",
+		"Kašu nalej do misky, navrch pridaj plátky banánu, lyžičku arašidového masla a posyp tekvicovými semienkami."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 452,
+			"portions": 1,
+			"macros": {"carbs": 58, "protein": 27, "fat": 13},
+			"ingredients": [
+				{"name": "tekvicové pyré", "quantity": 175, "unit": "g"},
+				{"name": "ovsené vločky", "quantity": 45, "unit": "g"},
+				{"name": "voda", "quantity": 200, "unit": "ml"},
+				{"name": "proteínový prášok", "quantity": 20, "unit": "g"},
+				{"name": "mletá škorica", "unit": "štipka"},
+				{"name": "tekvicové semienka", "quantity": 10, "unit": "g"},
+				{"name": "arašidové maslo", "quantity": 10, "unit": "g"},
+				{"name": "banán", "quantity": 0.5, "unit": "ks"}
+			]
+		}
+	],
+	"image": "onvia/image326.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image326"
+}

@@ -1,0 +1,25 @@
+{
+	"title": "Pečené kuracie prsia v jogurte",
+	"category": "vecere",
+	"steps": [
+		"Kuracie prsia osoľte a okoreňte zo všetkých strán a dajte do misky. Pridajte jogurt a premiešajte.",
+		"Nechajte cez noc odležať v chladničke.",
+		"Na druhý deň stačí prsia aj s jogurtom premiestniť do zapekacej misky a piecť 40-50 minút na 180 stupňov.",
+		"Po upečení nakrájajte na plátky. K mäsu sa hodia cestoviny a listový šalát."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 4,
+			"ingredients": [
+				{"name": "kuracie prsia", "quantity": 4, "unit": "ks"},
+				{"name": "kari korenie", "quantity": 2, "unit": "ČL"},
+				{"name": "soľ"},
+				{"name": "grécky jogurt", "quantity": 500, "unit": "g"}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p91.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p91"
+}

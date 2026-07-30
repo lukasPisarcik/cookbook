@@ -1,0 +1,44 @@
+{
+	"title": "Lentil bolognese",
+	"category": "zaklady",
+	"prepTimeMinutes": 20,
+	"steps": [
+		"Mrkvu, cibuľu a stonkový zeler nakrájaj nadrobno.",
+		"Na väčšej panvici alebo v hrnci rozohrej olivový olej a orestuj cibuľu (asi 2 - 3 minúty).",
+		"Pridaj mrkvu so zelerom a restuj ešte pár minút, kým zelenina mierne zmäkne.",
+		"Šampiňóny nastrúhaj nahrubo a pridaj ich k zelenine. Krátko ich opeč, kým nepustia šťavu a nezmenšia svoj objem.",
+		"Prisyp prepláchnutú červenú šošovicu, pridaj bobkový list, bylinky a korenie RO0.",
+		"Zalej vývarom, pridaj paradajkové pyré a sójovú omáčku. Premiešaj a nechaj variť 15 - 20 minút, kým šošovica nezmäkne a omáčka nezhustne.",
+		"Nakoniec primiešaj mlieko, ktoré omáčku krásne zjemní. Podľa chuti ešte dolaď soľou a korením.",
+		"Podávaj s obľúbenými cestovinami a navrch nastrúhaj parmezán."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 270,
+			"portions": 3,
+			"macros": { "carbs": 35, "protein": 15, "fat": 7 },
+			"ingredients": [
+				{ "name": "olivový olej", "quantity": 10, "unit": "g" },
+				{ "name": "mrkva", "quantity": 200, "unit": "g" },
+				{ "name": "cibuľa", "quantity": 1, "unit": "ks" },
+				{ "name": "šampiňóny", "quantity": 100, "unit": "g" },
+				{ "name": "stonkový zeler", "quantity": 100, "unit": "g" },
+				{ "name": "červená šošovica", "quantity": 100, "unit": "g" },
+				{ "name": "zeleninový vývar", "quantity": 400, "unit": "ml" },
+				{ "name": "bobkový list", "quantity": 1, "unit": "ks" },
+				{ "name": "rozmarín" },
+				{ "name": "korenie RO0" },
+				{ "name": "soľ" },
+				{ "name": "mleté čierne korenie" },
+				{ "name": "mlieko", "quantity": 100, "unit": "ml" },
+				{ "name": "sójová omáčka", "quantity": 1, "unit": "PL" },
+				{ "name": "paradajkové pyré", "quantity": 200, "unit": "g" },
+				{ "name": "parmezán", "quantity": 20, "unit": "g" }
+			]
+		}
+	],
+	"image": "onvia/image253.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image253"
+}

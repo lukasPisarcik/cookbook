@@ -1,0 +1,77 @@
+{
+	"title": "Karfiolová polenta",
+	"category": "zaklady",
+	"prepTimeMinutes": 25,
+	"steps": [
+		"Najskôr nakrájaj karfiol na malé kúsky.",
+		"V hrnci alebo malej panvici rozpusti lyžičku oleja a orestuj na ňom nadrobno nakrájanú cibuľu a roztlačený strúčik cesnaku.",
+		"Potom pridaj karfiol, zalej vodou tak aby bol karfiol úplne pod vodou a chvíľu povar.",
+		"Na posledných 5 minút pridaj polentu.",
+		"Keď sa voda vyparí a ty získaš hustejšiu kašu, vmiešaj do nej nastrúhaný eidam a parmezán.",
+		"Podávaj s nasekanou jarnou cibuľkou a trochou parmezánu."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 236,
+			"portions": 2,
+			"macros": {
+				"carbs": 28,
+				"protein": 12,
+				"fat": 8
+			},
+			"ingredients": [
+				{
+					"name": "karfiol",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "cibuľa",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "cesnak",
+					"quantity": 0.5,
+					"unit": "strúčik"
+				},
+				{
+					"name": "olivový olej",
+					"quantity": 1,
+					"unit": "ČL"
+				},
+				{
+					"name": "kukuričná polenta",
+					"quantity": 60,
+					"unit": "g"
+				},
+				{
+					"name": "eidam syr",
+					"quantity": 30,
+					"unit": "g"
+				},
+				{
+					"name": "parmezán",
+					"quantity": 20,
+					"unit": "g"
+				},
+				{
+					"name": "jarná cibuľka"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "čierne korenie"
+				},
+				{
+					"name": "sladká paprika"
+				}
+			]
+		}
+	],
+	"image": "onvia/image40.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image40"
+}

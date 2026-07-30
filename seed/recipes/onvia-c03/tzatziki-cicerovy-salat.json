@@ -1,0 +1,92 @@
+{
+	"title": "Tzatziki cícerový šalát",
+	"category": "obedy",
+	"prepTimeMinutes": 25,
+	"steps": [
+		"Cícer opláchni od nálevu, cuketu nakrájaj na plátky a obaľ v korení a oleji.",
+		"Poukladaj na plech a peč v rúre pri 200 °C približne 15 minút.",
+		"Medzitým ošúp uhorku a nastrúhaj ju najemno.",
+		"V miske ju zmiešaj s pretlačeným cesnakom s ingredienciami na tzatziki.",
+		"Pečený cícer a cuketu podávaj na tzatziki. Ak chceš, pridaj aj kúsok pečiva."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 269,
+			"portions": 2,
+			"macros": {
+				"carbs": 19,
+				"protein": 28,
+				"fat": 10
+			},
+			"ingredients": [
+				{
+					"name": "grécky jogurt 0 %",
+					"quantity": 2
+				},
+				{
+					"name": "soľ",
+					"unit": "štipka"
+				},
+				{
+					"name": "korenie",
+					"unit": "štipka"
+				},
+				{
+					"name": "cesnak",
+					"quantity": 1,
+					"unit": "strúčik"
+				},
+				{
+					"name": "uhorka hadovka",
+					"quantity": 0.5,
+					"unit": "ks"
+				},
+				{
+					"name": "kôpor",
+					"unit": "hrsť"
+				},
+				{
+					"name": "pažítka",
+					"unit": "hrsť"
+				},
+				{
+					"name": "petržlenová vňať",
+					"unit": "hrsť"
+				},
+				{
+					"name": "olivový olej",
+					"quantity": 1,
+					"unit": "ČL"
+				},
+				{
+					"name": "predvarený cícer",
+					"quantity": 1,
+					"unit": "konzerva"
+				},
+				{
+					"name": "cuketa",
+					"quantity": 200,
+					"unit": "g"
+				},
+				{
+					"name": "avokádový olej",
+					"quantity": 1,
+					"unit": "ČL"
+				},
+				{
+					"name": "sladká paprika"
+				},
+				{
+					"name": "mletý koriander"
+				},
+				{
+					"name": "mletý rímsky kmín"
+				}
+			]
+		}
+	],
+	"image": "onvia/image69.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image69"
+}

@@ -1,0 +1,39 @@
+{
+	"title": "Špenátové syrové halušky",
+	"category": "obedy",
+	"dietTags": ["vegetarianske"],
+	"prepTimeMinutes": 60,
+	"steps": [
+		"Špenát si rozmraz a preceď cez sitko, aby si ho zbavil prebytočnej vody.",
+		"V miske si zmiešaj špenát s múkou, vajíčkami, soľou a vypracuj z toho cesto.",
+		"Pomocou sitka a stierky na halušky do nej pretláč pripravené cesto a haádž do vriacej vody.",
+		"Keď vyplávajú na povrch, môžeš ich vybrať z vody.",
+		"Omáčku si priprav tak, že na panvicu daj nivu s trochou smotany a zohrej, kým sa syr neroztopí.",
+		"Prilej mlieko, pridaj štipku čierneho korenia, prípadne sušeného cesnaku a var pri stálom miešaní.",
+		"Rozdeľ porcie halušiek aj omáčky a podávaj.",
+		"Dobrú chuť ;)"
+	],
+	"funFact": "Mrazený špenát si zachová viac vitamínu C než čerstvý skladovaný v chladničke, pretože sa spracuje krátko po zbere.",
+	"variants": [
+		{
+			"label": "400 kcal",
+			"kcalPerPortion": 414,
+			"portions": 4,
+			"macros": { "carbs": 36, "protein": 20, "fat": 20 },
+			"ingredients": [
+				{ "name": "mrazený špenát", "quantity": 175, "unit": "g" },
+				{ "name": "špaldová múka", "quantity": 200, "unit": "g" },
+				{ "name": "vajce", "quantity": 1, "unit": "ks" },
+				{ "name": "soľ", "unit": "štipka" },
+				{ "name": "čierne korenie", "unit": "štipka" },
+				{ "name": "sušený cesnak", "unit": "štipka" },
+				{ "name": "syr Niva", "quantity": 190, "unit": "g" },
+				{ "name": "smotana na šľahanie 30%", "quantity": 70, "unit": "ml" },
+				{ "name": "mlieko 3,5%", "quantity": 100, "unit": "ml" }
+			]
+		}
+	],
+	"image": "spenatove-syrove-halusky-400-kcal/p1.webp",
+	"source": "Špenátové syrové halušky - 400 kcal.pdf",
+	"sourceRef": "p1"
+}

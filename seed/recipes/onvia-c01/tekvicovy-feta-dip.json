@@ -1,0 +1,79 @@
+{
+	"title": "Tekvicový feta dip",
+	"category": "zaklady",
+	"prepTimeMinutes": 40,
+	"steps": [
+		"Tekvicu ošúp, odstráň semienka a nakrájaj.",
+		"Posyp tymiánom a upeč ju do mäkka.",
+		"Po upečení ju daj do misky s koreninami, medom, jogurtom a balkánskym syrom.",
+		"Pomocou tyčového mixéra rozmixuj dohladka.",
+		"Podávaj spolu s chlebom, posypané nasekanými orechmi, rozdrobeným syrom a pokvapkané medom."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 460,
+			"portions": 2,
+			"macros": {
+				"carbs": 44,
+				"protein": 22,
+				"fat": 21
+			},
+			"ingredients": [
+				{
+					"name": "varená tekvica",
+					"quantity": 300,
+					"unit": "g"
+				},
+				{
+					"name": "tymián",
+					"unit": "štipka"
+				},
+				{
+					"name": "korenie",
+					"unit": "štipka"
+				},
+				{
+					"name": "soľ",
+					"unit": "štipka"
+				},
+				{
+					"name": "med",
+					"quantity": 1,
+					"unit": "PL"
+				},
+				{
+					"name": "grécky jogurt 0 %",
+					"quantity": 150,
+					"unit": "g"
+				},
+				{
+					"name": "balkánsky syr",
+					"quantity": 50,
+					"unit": "g"
+				},
+				{
+					"name": "vlašské orechy",
+					"quantity": 30,
+					"unit": "g"
+				},
+				{
+					"name": "med",
+					"quantity": 1,
+					"unit": "ČL"
+				},
+				{
+					"name": "tymián"
+				},
+				{
+					"name": "celozrnný chlieb",
+					"quantity": 100,
+					"unit": "g"
+				}
+			]
+		}
+	],
+	"image": "onvia/image13.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image13"
+}

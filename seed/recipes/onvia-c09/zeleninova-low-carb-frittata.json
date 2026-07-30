@@ -1,0 +1,34 @@
+{
+	"title": "Zeleninová low carb frittata",
+	"category": "ranajky",
+	"prepTimeMinutes": 30,
+	"steps": [
+		"Zeleninu nakrájaj na kocky, rúru predhrej na 180°C ohrev zhora/zdola a na panvici vhodnej na pečenie v rúre (približne 22 cm) rozohrej olivový olej. Zeleninu v ňom na miernom ohni orestuj. V miske si vyšľahaj vajcia, pridaj soľ, korenie a vmiešaj nasekanú bazalku.",
+		"Zeleninu na panvici zalej vaječnou zmesou a na vrch pridaj zvolený syr.",
+		"Panvicu vlož do rozohriatej rúry a peč na 180°C na strednej polici približne 15-20 minút.",
+		"Po dopečení, vyber z rúry a vychutnávaj. Pozor panvica je veľmi horúca, nepopáľ sa!"
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 384,
+			"portions": 2,
+			"macros": {"carbs": 21, "protein": 29, "fat": 13},
+			"ingredients": [
+				{"name": "vajce", "quantity": 4, "unit": "ks"},
+				{"name": "syr podľa vlastných preferencií", "quantity": 50, "unit": "g"},
+				{"name": "cuketa", "quantity": 0.5, "unit": "ks"},
+				{"name": "červená paprika", "quantity": 0.5, "unit": "ks"},
+				{"name": "jarná cibuľka", "quantity": 1, "unit": "ks"},
+				{"name": "mladý hrášok (z konzervy alebo mrazený)", "quantity": 100, "unit": "g"},
+				{"name": "olivový olej", "quantity": 1, "unit": "PL"},
+				{"name": "soľ"},
+				{"name": "korenie"},
+				{"name": "čerstvé listy bazalky"}
+			]
+		}
+	],
+	"image": "onvia/image201.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image201"
+}

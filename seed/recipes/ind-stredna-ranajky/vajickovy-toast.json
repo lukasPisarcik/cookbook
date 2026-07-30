@@ -1,0 +1,61 @@
+{
+	"title": "Vajíčkový toast",
+	"category": "ranajky",
+	"dietTags": ["vegetarianske"],
+	"prepTimeMinutes": 15,
+	"steps": [
+		"Na tanieri pritlač lyžicu do chlebíka tak, aby si vytvoril obdĺžnik. (Pomocou lyžičky pevne zatlač, aby sa vytvoril ostrý okraj v toaste. Pozor, aby sa chlieb stlačil bez roztrhnutia.)",
+		"Chliebík osoľ a okoreň.",
+		"Opatrne rozbi vajíčko a vlej ho do obdĺžnika v chlebíku, dávaj si pozor, aby si neporušil žĺtok.",
+		"Vajce na vrchu tiež dochuť.",
+		"Opatrne natri maslo po okrajoch chlebíka.",
+		"Na natreté okraje posyp strúhaný syr. (Ak ti zostane syr, môžeš posypať aj vrch chlebíka.)",
+		"Chliebík s vajíčkom a syrom polož na plech, a peč pri 175 °C asi 10 minút. Sleduj to, aby sa nič nepripálilo a vajíčko sa uvarilo podľa tvojej chuti.",
+		"Zatiaľ si na panvici urob z druhého vajíčka volské oko zvlášť, aby si mala dostatok bielkovín na raňajky.",
+		"Dobrú chuť."
+	],
+	"funFact": "Pštrosie vajice váži až 1,4 kg a má objem asi ako 24 slepačích vajec. Uvariť ho natvrdo trvá aj 1,5 hodiny!",
+	"variants": [
+		{
+			"label": "450 kcal",
+			"kcalPerPortion": 439,
+			"portions": 1,
+			"macros": {
+				"carbs": 12,
+				"protein": 26,
+				"fat": 32
+			},
+			"ingredients": [
+				{
+					"name": "celozrnný toast",
+					"quantity": 25,
+					"unit": "g"
+				},
+				{
+					"name": "maslo",
+					"quantity": 10,
+					"unit": "g"
+				},
+				{
+					"name": "vajíčko",
+					"quantity": 2,
+					"unit": "ks"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "čierne korenie"
+				},
+				{
+					"name": "strúhaná mozzarella",
+					"quantity": 40,
+					"unit": "g"
+				}
+			]
+		}
+	],
+	"image": "vajickovy-toast-450-kcal/p1.webp",
+	"source": "Vajíčkový toast - 450 kcal.pdf",
+	"sourceRef": "p1"
+}

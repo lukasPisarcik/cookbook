@@ -1,0 +1,85 @@
+{
+	"title": "Pizza 2.0",
+	"category": "obedy",
+	"prepTimeMinutes": 33,
+	"steps": [
+		"Predhrej si rúru na 220°C funkcia ventilátor.",
+		"Do misky pridaj suché suroviny a premiešaj ich, aby sa zabránilo ich zhlukovaniu. Potom pridaj mokré suroviny a dobre vymiešaj, kým nevznikne hustá hmota.",
+		"Cesto vlož na plech vyložený papierom na pečenie. Cesto by si mala rozortieť na tenko do tvaru pizze. Roztieranie cesta vyžaduje trošku zručnosti a trpezlisvosti, praxou sa v tom zlepšíš. Roztieraj cesto zvnútra von krúživým pohybom, aby si zabezpečila, že okraje pizze budú trošku hrubšie.",
+		"Teraz vlož plech s pizzou do rúry a peč na 220°C približne 10 minút alebo kým cesto nie je zlatisté.",
+		"Po dopečení vyber základ na pizzu von z rúry. Pridaj na vrch topping a vlož späť do rúry na cca 8 minút pri teplote 220°C funkcia ohrev zhora/zdola. Peč kým sa syr nerozpustí a nezapečie.",
+		"Po dopečení ozdob vrch pizze pažítkou alebo vločkami soli, je to na tebe."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 649,
+			"portions": 1,
+			"macros": {
+				"carbs": 74,
+				"protein": 59,
+				"fat": 13
+			},
+			"ingredients": [
+				{
+					"name": "celozrnná múka",
+					"quantity": 70,
+					"unit": "g"
+				},
+				{
+					"name": "prášok do pečiva",
+					"quantity": 4,
+					"unit": "g"
+				},
+				{
+					"name": "kokosová múka",
+					"quantity": 12,
+					"unit": "g"
+				},
+				{
+					"name": "nízkotučný grécky jogurt",
+					"quantity": 150,
+					"unit": "g"
+				},
+				{
+					"name": "vaječné bielky",
+					"quantity": 75,
+					"unit": "g"
+				},
+				{
+					"name": "granulovaný cesnak"
+				},
+				{
+					"name": "sušená bazalka"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "paradajková passata",
+					"quantity": 120,
+					"unit": "g"
+				},
+				{
+					"name": "strúhaný syr light",
+					"quantity": 60,
+					"unit": "g"
+				},
+				{
+					"name": "šunka",
+					"quantity": 100,
+					"unit": "g"
+				},
+				{
+					"name": "oregano"
+				},
+				{
+					"name": "bazalka"
+				}
+			]
+		}
+	],
+	"image": "onvia/image109.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image109"
+}

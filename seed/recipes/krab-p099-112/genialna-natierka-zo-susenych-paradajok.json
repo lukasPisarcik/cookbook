@@ -1,0 +1,23 @@
+{
+	"title": "Geniálna nátierka zo sušených paradajok",
+	"category": "zaklady",
+	"steps": [
+		"Všetko dajte do mixovacej nádoby a rozmixujte. Nemusí to byť úplne dohladka.",
+		"Podávajte s pečivom a zeleninou."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 1,
+			"ingredients": [
+				{"name": "grécky jogurt 0% tuku", "quantity": 150, "unit": "g"},
+				{"name": "sušené paradajky v oleji", "quantity": 55, "unit": "g"},
+				{"name": "soľ"},
+				{"name": "čierne korenie"}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p103.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p103"
+}

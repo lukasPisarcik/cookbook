@@ -1,0 +1,34 @@
+{
+	"title": "Losos s medovou marinádou s pečenými batátmi a zemiakmi",
+	"category": "vecere",
+	"steps": [
+		"Trúbu predhrejte na 170 stupňov.",
+		"Lososa zbavte kože a nakrájajte na jednotlivé filety.",
+		"Zemiaky a batáty zbavte šupiek a nakrájajte ich na menšie kocky alebo tenké plátky.",
+		"Do misy dajte med, olej, horčicu, pridajte pretlačený cesnak a premiešajte.",
+		"Filety lososa osoľte a okoreňte a dajte do marinády.",
+		"Zemiaky a batáty osolte a položte na nepriľnavý alebo pečiacim papierom vystlaný plech. Medzi zemiaky alebo na ne položte filety lososa. Potrite ešte marinádou, ak vám nejaká v miske ostala.",
+		"Dajte piecť na 25-30 minút.",
+		"Po upečení presuňte do krabičiek alebo ihneď podávajte. Ideálne ku každej porcii pridajte ešte miešaný šalát alebo obľúbenú zeleninu."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 6,
+			"ingredients": [
+				{"name": "čerstvý lososový filet", "quantity": 1, "unit": "kg"},
+				{"name": "dijonská horčica", "quantity": 1, "unit": "ČL"},
+				{"name": "med", "quantity": 2, "unit": "PL"},
+				{"name": "olivový olej", "quantity": 3, "unit": "PL"},
+				{"name": "cesnak", "quantity": 2, "unit": "strúčik"},
+				{"name": "soľ"},
+				{"name": "čierne mleté korenie"},
+				{"name": "batát", "quantity": 2, "unit": "ks"},
+				{"name": "zemiak", "quantity": 5, "unit": "ks"}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p88.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p88"
+}

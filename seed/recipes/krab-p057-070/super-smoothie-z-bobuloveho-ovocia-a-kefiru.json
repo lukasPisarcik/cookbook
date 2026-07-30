@@ -1,0 +1,54 @@
+{
+	"title": "Super smoothie z bobuľového ovocia a kefíru",
+	"category": "smoothies",
+	"steps": [
+		"Banán olúpte, rozkrojte napoly a dajte do nádoby od mixéru.",
+		"Pridajte všetky ostatné ingrediencie a rozmixujte dohladka."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 1,
+			"ingredients": [
+				{
+					"name": "banán",
+					"quantity": 120,
+					"unit": "g"
+				},
+				{
+					"name": "mrazené černice",
+					"quantity": 50,
+					"unit": "g"
+				},
+				{
+					"name": "čučoriedky",
+					"quantity": 60,
+					"unit": "g"
+				},
+				{
+					"name": "ovsené vločky",
+					"quantity": 15,
+					"unit": "g"
+				},
+				{
+					"name": "kefír",
+					"quantity": 215,
+					"unit": "g"
+				},
+				{
+					"name": "voda",
+					"quantity": 120,
+					"unit": "g"
+				},
+				{
+					"name": "match prášok",
+					"quantity": 2,
+					"unit": "g"
+				}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p58.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p58"
+}

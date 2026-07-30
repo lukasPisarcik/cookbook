@@ -1,0 +1,26 @@
+{
+	"title": "Čokoládová pěna/termix",
+	"category": "dezerty",
+	"dietTags": ["bezlaktozove", "vegan"],
+	"steps": [
+		"Ve vodní lázni rozpusťte čokoládu.",
+		"Tofu, med, kakao a špetku soli dejte do mixovací nádoby, přidejte rozpuštěnou čokoládu a rozmixujte do hladké konzistence.",
+		"Rozdělte do krabiček a ozdobte oblíbeným ovocem."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 4,
+			"ingredients": [
+				{"name": "silken tofu", "quantity": 400, "unit": "g"},
+				{"name": "70% čokoláda", "quantity": 130, "unit": "g"},
+				{"name": "med", "quantity": 40, "unit": "g"},
+				{"name": "holandské kakao", "quantity": 25, "unit": "g"},
+				{"name": "sůl", "unit": "štipka"}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p126.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p126"
+}

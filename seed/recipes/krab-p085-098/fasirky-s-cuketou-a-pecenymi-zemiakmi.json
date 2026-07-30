@@ -1,0 +1,38 @@
+{
+	"title": "Fašírky s cuketou a pečenými zemiakmi",
+	"category": "vecere",
+	"steps": [
+		"Trúbu predhrejeme na 170 stupňov.",
+		"Na oleji orestujeme na drobno nakrájanú cibuľu.",
+		"Do veľkej misky nastrúhame cuketu, trochu ju osoľte a nechajte pustiť vodu, tú potom vytlačte a pridajte mäso, vajcia, všetko korenie, soľ, múku a prelisovaný cesnak. Zapracujte to rukami na fašírky a poukladajte ich na plech vystlaný pečiacim papierom.",
+		"Zemiaky ošúpte a nakrájajte na menšie kúsky, cuketu rozpoľte a nakrájajte ju na mesiačiky. Zemiaky a cuketu zmiešajte s olejom a korením a premiešajte. Potom ich dajte na rovnaký plech medzi fašírky.",
+		"Dajte piecť na 35 minút. Po upečení skúste, či sú zemiaky mäkké a fašírky vnútri hotové. Ak nie, pečte ich ešte ďalších 5-10 minút.",
+		"Podávajte s listovým šalátom."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 4,
+			"ingredients": [
+				{"name": "olivový olej", "quantity": 1, "unit": "ČL"},
+				{"name": "cibuľa", "quantity": 1, "unit": "ks"},
+				{"name": "hovädzie mleté mäso", "quantity": 600, "unit": "g"},
+				{"name": "olúpaná cuketa", "quantity": 300, "unit": "g"},
+				{"name": "vajce", "quantity": 1, "unit": "ks"},
+				{"name": "mletá sladká paprika", "quantity": 1, "unit": "ČL"},
+				{"name": "mletá kurkuma", "quantity": 0.5, "unit": "ČL"},
+				{"name": "mletá rasca", "quantity": 1, "unit": "ČL"},
+				{"name": "cesnak", "quantity": 2, "unit": "strúčik"},
+				{"name": "soľ", "quantity": 1, "unit": "ČL"},
+				{"name": "špaldová hladká múka", "quantity": 110, "unit": "g"},
+				{"name": "zemiak", "quantity": 800, "unit": "g"},
+				{"name": "olúpaná cuketa na zemiaky", "quantity": 300, "unit": "g"},
+				{"name": "olivový olej na zemiaky", "quantity": 2, "unit": "ČL"},
+				{"name": "korenie Poklad Aztékov s medvedím cesnakom"}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p92.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p92"
+}

@@ -1,0 +1,38 @@
+{
+	"title": "Pečeň s ryžou",
+	"category": "obedy",
+	"prepTimeMinutes": 15,
+	"steps": [
+		"V hrnci zohrej olej, orestuj cibuľu a cesnak. Pridaj kocky bravčovej pečene a opeč do svetlohnedá.",
+		"Na druhej panvici krátko orestuj jarnú cibuľku, petržlen a bazalku, nechaj chvíľu podusiť.",
+		"Pridaj mäso k zelenine a pridaj korenie RO0.",
+		"Prilej vodu alebo vývar, prikry a nechaj dusiť minimálne 45 minút (alebo peč v rúre pri 180 °C cca 1 hodinu), kým pečeň nezmäkne.",
+		"Asi 5 minút pred koncom pridaj predvarenú fazuľu.",
+		"Ryžu uvar v osolenej vode podľa návodu.",
+		"Na tanier naservíruj ryžu a na ňu dušenú pečeň s omáčkou."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 482,
+			"portions": 3,
+			"macros": { "carbs": 46, "protein": 34, "fat": 18 },
+			"ingredients": [
+				{ "name": "bravčová pečeň", "quantity": 400, "unit": "g" },
+				{ "name": "cibuľa", "quantity": 1, "unit": "ks" },
+				{ "name": "cesnak", "quantity": 2, "unit": "strúčik" },
+				{ "name": "olivový olej", "quantity": 1, "unit": "PL" },
+				{ "name": "jarná cibuľka", "quantity": 2, "unit": "ks" },
+				{ "name": "petržlenová vňať", "quantity": 1, "unit": "hrsť" },
+				{ "name": "čerstvá bazalka", "quantity": 1, "unit": "hrsť" },
+				{ "name": "voda", "quantity": 500, "unit": "ml" },
+				{ "name": "predvarená fazuľa", "quantity": 100, "unit": "g" },
+				{ "name": "suchá ryža", "quantity": 120, "unit": "g" },
+				{ "name": "korenie RO0" }
+			]
+		}
+	],
+	"image": "onvia/image244.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image244"
+}

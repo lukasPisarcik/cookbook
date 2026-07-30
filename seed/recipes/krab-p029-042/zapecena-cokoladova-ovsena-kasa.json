@@ -1,0 +1,28 @@
+{
+	"title": "Zapečená čokoládová ovsená kaša",
+	"category": "ranajky",
+	"steps": [
+		"Rúru rozohrejeme na 200 stupňov.",
+		"Ovsené vločky pomeľte na múky a presuňte ich do misky, pridajte mlieko, med, kakao, kypriaci prášok a všetko dôkladne premiešajte.",
+		"Dve malé sklenené krabičky, ktoré sú vhodné do rúry alebo zapekacie misky vymažte maslom a prelejte do nich ovsenú zmes. Navrch potom nalámte sušienku a dajte piecť na 12 minút do rúry.",
+		"Po upečení nechajte vychladnúť. Podávajte so skyrom, nízkotučným tvarohom alebo gréckym jogurtom s 0 až 5% tuku a obľúbeným ovocím."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 2,
+			"ingredients": [
+				{"name": "jemné ovsené vločky", "quantity": 60, "unit": "g"},
+				{"name": "ovsené mlieko", "quantity": 180, "unit": "g"},
+				{"name": "med", "quantity": 40, "unit": "g"},
+				{"name": "holandské kakao", "quantity": 20, "unit": "g"},
+				{"name": "kypriaci prášok", "quantity": 3, "unit": "g"},
+				{"name": "sušienka s čokoládovou polevou", "quantity": 2, "unit": "ks"},
+				{"name": "maslo na vymastenie krabičiek"}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p32.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p32"
+}

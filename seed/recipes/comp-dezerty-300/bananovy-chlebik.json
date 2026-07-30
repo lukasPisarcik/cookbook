@@ -1,0 +1,39 @@
+{
+	"title": "Banánový chlebík",
+	"category": "dezerty",
+	"prepTimeMinutes": 33,
+	"steps": [
+		"Predohrej rúru na 180°C a daj na plech papier na pečenie.",
+		"V miske roztlač 2 banány.",
+		"Potom pridaj mokré ingrediencie a pomaly vmiešavaj tie suché.",
+		"Nalej zmes do formy na pečenie. Na vrch polož celý banán prerezaný na polovicu alebo kolieska.",
+		"Peč v predhriatej rúre cca 20-25 minút do zlatista (kým špajdľa nie je po zapichnutí do chlebíku čistá).",
+		"Podávaj s gréckym jogurtom ozdobením bobuľovým ovocím, kakaom a javorovým sirupom."
+	],
+	"funFact": "Med má okrem protizápalových aj antibakteriálne vlastnosti, a tak môže byť vhodný pomocník nielen pri nachladnutí, ale aj pri hojení drobných rán.",
+	"variants": [
+		{
+			"label": "300 kcal",
+			"kcalPerPortion": 316,
+			"portions": 10,
+			"macros": { "carbs": 44, "protein": 13, "fat": 8 },
+			"ingredients": [
+				{ "name": "stredný banán", "quantity": 2, "unit": "ks" },
+				{ "name": "kokosový olej", "quantity": 60, "unit": "g" },
+				{ "name": "med", "quantity": 70, "unit": "g" },
+				{ "name": "vajíčko", "quantity": 2, "unit": "ks" },
+				{ "name": "celozrnná špaldová múka hladká", "quantity": 300, "unit": "g" },
+				{ "name": "mletá škorica", "quantity": 1, "unit": "ČL" },
+				{ "name": "polotučné mlieko", "quantity": 190, "unit": "ml" },
+				{ "name": "prášok do pečiva", "quantity": 2, "unit": "ČL" },
+				{ "name": "soľ", "unit": "štipka" },
+				{ "name": "stredný banán na ozdobenie", "quantity": 1, "unit": "ks" },
+				{ "name": "odtučnený grécky jogurt", "quantity": 70, "unit": "g" },
+				{ "name": "bobuľové ovocie", "quantity": 50, "unit": "g" },
+				{ "name": "javorový sirup", "quantity": 15, "unit": "g" }
+			]
+		}
+	],
+	"source": "Dezerty-300kcal.pdf",
+	"sourceRef": "p4"
+}

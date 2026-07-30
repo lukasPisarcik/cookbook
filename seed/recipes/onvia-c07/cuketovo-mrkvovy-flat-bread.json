@@ -1,0 +1,70 @@
+{
+	"title": "Cuketovo-mrkvový flat bread",
+	"category": "snacky",
+	"prepTimeMinutes": 75,
+	"steps": [
+		"Cuketu a mrkvu ošúp a nastrúhaj na hrubo.",
+		"Vo veľkej miske zmiešaj s nastrúhaným parmezánom, múku, olivový olej, soľ, korenie a vajce.",
+		"Predhrej rúru na 170 stupňov, funkcia ventilátor.",
+		"Plech vylož papierom na pečenie a vylej naň zmes. Daj piecť približne na 1 hodinu. Placka by mala byť zlatistá.",
+		"Po upečení ju nakrájaj na plátky a podávaj s kečupom alebo obľúbeným jogurtovým dipom."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 299,
+			"portions": 3,
+			"macros": {
+				"carbs": 37,
+				"protein": 14,
+				"fat": 10
+			},
+			"ingredients": [
+				{
+					"name": "vajce",
+					"quantity": 1
+				},
+				{
+					"name": "hladká múka",
+					"quantity": 100,
+					"unit": "g"
+				},
+				{
+					"name": "parmezán",
+					"quantity": 50,
+					"unit": "g"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "korenie"
+				},
+				{
+					"name": "korenie na pizzu"
+				},
+				{
+					"name": "olivový olej",
+					"quantity": 10,
+					"unit": "g"
+				},
+				{
+					"name": "cuketa",
+					"quantity": 200,
+					"unit": "g"
+				},
+				{
+					"name": "mrkva",
+					"quantity": 200,
+					"unit": "g"
+				},
+				{
+					"name": "kečup"
+				}
+			]
+		}
+	],
+	"image": "onvia/image148.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image148"
+}

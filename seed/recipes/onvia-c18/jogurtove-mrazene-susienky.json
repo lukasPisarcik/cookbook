@@ -1,0 +1,32 @@
+{
+	"title": "Jogurtové mrazené sušienky",
+	"category": "snacky",
+	"prepTimeMinutes": 65,
+	"steps": [
+		"Čučoriedky vhoď do hrnca, oslaď sirupom, pridaj trošku vody a nechaj niekoľko minút zohriať. Ak máš zmrazené, vodu nepridávaj.",
+		"Potom pridaj chia semienka a nechaj ich 10 minút odstáť v ohriatych čučoriedkach.",
+		"V miske zmiešaj jogurt s proteínom.",
+		"Priprav si plech alebo tanier a vylož ho papierom na pečenie.",
+		"Z čučoriedkovej zmesi vytvaruj placky a polož ich na plech. Vlož do mrazničky na 15 minút.",
+		"Keď trochu zmrznú, obal ich v jogurtovej poleve a daj ich zmrznúť do mrazničky.",
+		"Po stuhnutí už len vychutnávaj."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 81,
+			"portions": 9,
+			"macros": {"carbs": 9, "protein": 5, "fat": 3},
+			"ingredients": [
+				{"name": "čučoriedky", "quantity": 300, "unit": "g"},
+				{"name": "chia semienka", "quantity": 30, "unit": "g"},
+				{"name": "čakankový sirup", "quantity": 15, "unit": "g"},
+				{"name": "biely jogurt Hollandia", "quantity": 400, "unit": "g"},
+				{"name": "vanilkový proteínový prášok", "quantity": 30, "unit": "g"}
+			]
+		}
+	],
+	"image": "onvia/image359.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image359"
+}

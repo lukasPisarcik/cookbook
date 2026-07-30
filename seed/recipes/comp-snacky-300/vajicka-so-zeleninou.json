@@ -1,0 +1,51 @@
+{
+	"title": "Vajíčka so zeleninou",
+	"category": "snacky",
+	"dietTags": ["bezlepkove"],
+	"prepTimeMinutes": 18,
+	"steps": [
+		"Vajíčka daj do hrnca s vriacou vodou a var 8-10 minút (vajíčka natvrdo, ak chceš makkšie, môžeš menej ).",
+		"Vajíčka schlaď a olúp. Rozkroj ich na polovičku a osoľ a okoreň podľa chuti.",
+		"Na tanier daj Lučinu, môžeš ozdobiť bylinkami.",
+		"Zeleninu nakrájaj na hranolky."
+	],
+	"variants": [
+		{
+			"label": "300 kcal",
+			"kcalPerPortion": 293,
+			"portions": 1,
+			"macros": {
+				"carbs": 3,
+				"protein": 17,
+				"fat": 24
+			},
+			"ingredients": [
+				{
+					"name": "vajíčko",
+					"quantity": 2,
+					"unit": "ks"
+				},
+				{
+					"name": "zelenina"
+				},
+				{
+					"name": "Lučina",
+					"quantity": 50,
+					"unit": "g"
+				},
+				{
+					"name": "čerstvé bylinky"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "korenie"
+				}
+			]
+		}
+	],
+	"image": "snacky-300-kcal/p9.webp",
+	"source": "Snacky - 300 kcal.pdf",
+	"sourceRef": "p9"
+}

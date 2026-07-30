@@ -1,0 +1,41 @@
+{
+	"title": "Quinoa šalát s pečenou tekvicou",
+	"category": "obedy",
+	"dietTags": ["vegetarianske", "bezlaktozove"],
+	"prepTimeMinutes": 35,
+	"steps": [
+		"Poriadne prepláchni quinou a daj do hrnca so štipkou soli. Pridaj vodu podľa návodu (voda : quinoa 2:1) a var približne 15 minút.",
+		"Tekvicu nakrájaj na kocky daj na plech s pečiacim papierom. Polej tekvicu 10 g olivovým olejom, soľou, korením a rozmarínom a pridaj 1-3 strúčiky cesnaku ak máš rada.",
+		"Peč pri 180 °C cca 25-30 minút, pokým nezmäkne. Pozor na cesnak, aby nezhorel, keď tak ho vyber skôr.",
+		"Na panvici rozohrej 5 g olivového oleja, pridaj cibuľu a restuj na strednom až nižšom ohni cca 10 minút. Pozor, nech nezhorí, zhorkla by.",
+		"Potom môžeš pridať javorový sirup alebo med, nech sa cibuľka pekne skaramelizuje.",
+		"Ďalej na suchej panvici opraž kešu do zlatista. Znova pozor, nech nezhoria.",
+		"Nakoniec zmiešaj všetko dokopy v jednej mise. Nakoniec pridaj špenát a kešu oriešky.",
+		"Dobrú chuť ;)"
+	],
+	"variants": [
+		{
+			"label": "400 kcal",
+			"kcalPerPortion": 444,
+			"portions": 2,
+			"macros": { "carbs": 60, "protein": 11, "fat": 16 },
+			"ingredients": [
+				{ "name": "tekvica hokkaido", "quantity": 250, "unit": "g" },
+				{ "name": "quinoa", "quantity": 100, "unit": "g" },
+				{ "name": "cibuľa", "quantity": 1, "unit": "ks" },
+				{ "name": "baby špenát", "quantity": 30, "unit": "g" },
+				{ "name": "kešu oriešky", "quantity": 25, "unit": "g" },
+				{ "name": "sušené brusnice", "quantity": 20, "unit": "g" },
+				{ "name": "olivový olej", "quantity": 15, "unit": "g" },
+				{ "name": "javorový sirup", "quantity": 10, "unit": "g" },
+				{ "name": "soľ" },
+				{ "name": "cesnak", "quantity": 2, "unit": "ks" },
+				{ "name": "čierne korenie" },
+				{ "name": "sušený rozmarín" }
+			]
+		}
+	],
+	"image": "quinoa-salat-s-pecenou-tekvicou-400-kcal/p1.webp",
+	"source": "Quinoa šalát s pečenou tekvicou - 400 kcal.pdf",
+	"sourceRef": "p1"
+}

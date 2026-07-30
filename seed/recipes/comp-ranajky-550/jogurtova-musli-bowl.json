@@ -1,0 +1,31 @@
+{
+	"title": "Jogurtová müsli bowl",
+	"category": "ranajky",
+	"prepTimeMinutes": 5,
+	"steps": [
+		"Do misky daj grécky jogurt. Ak chceš, môžeš osladiť flavdorops.",
+		"Na jogurt pridaj müsli, čerstvé ovocie a orieškové maslo.",
+		"Polej medom alebo javorovým sirupom podľa chuti.",
+		"Ozdob štipkou škorice a podávaj."
+	],
+	"funFact": "Grécky jogurt je bohatý na bielkoviny, ktoré sú skvelé pri budovaní svalov, a zároveň bielkoviny skvele zasýtia.",
+	"variants": [
+		{
+			"label": "550 kcal",
+			"kcalPerPortion": 526,
+			"portions": 1,
+			"macros": { "carbs": 46, "protein": 20, "fat": 28 },
+			"ingredients": [
+				{ "name": "grécky jogurt 5%", "quantity": 140, "unit": "g" },
+				{ "name": "müsli bez pridaného cukru", "quantity": 50, "unit": "g" },
+				{ "name": "čerstvé ovocie", "quantity": 100, "unit": "g" },
+				{ "name": "med", "quantity": 15, "unit": "g" },
+				{ "name": "orieškové maslo", "quantity": 10, "unit": "g" },
+				{ "name": "škorica", "unit": "štipka" }
+			]
+		}
+	],
+	"image": "ranajky-550-kcal/p3.webp",
+	"source": "Raňajky - 550 kcal.pdf",
+	"sourceRef": "p3"
+}

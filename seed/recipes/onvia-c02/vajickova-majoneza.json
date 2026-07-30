@@ -1,0 +1,61 @@
+{
+	"title": "Vajíčková majonéza",
+	"category": "zaklady",
+	"prepTimeMinutes": 5,
+	"steps": [
+		"Vlož vajcia do vriacej vody na cca 8 minút",
+		"Uvarené vajcia ošúp a vlož do mixéra s ostatnými surovinami. Mixuj pokým nezískaš hladkú konzistenciu.",
+		"Hotovú majonézu skladuj v chladničke až 5 dní.",
+		"Používaj ju ako hummus, guacamole alebo akúkoľvek inú nátierku či dip k zelenine, zemiakom, alebo čomukoľvek chceš."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 30,
+			"macros": {
+				"carbs": 0.5,
+				"protein": 3,
+				"fat": 3
+			},
+			"ingredients": [
+				{
+					"name": "vajce",
+					"quantity": 10,
+					"unit": "ks"
+				},
+				{
+					"name": "cesnak",
+					"quantity": 3,
+					"unit": "strúčik"
+				},
+				{
+					"name": "olivový olej",
+					"quantity": 3,
+					"unit": "PL"
+				},
+				{
+					"name": "horčica",
+					"quantity": 3,
+					"unit": "ČL"
+				},
+				{
+					"name": "šťava z limetky",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "čierne korenie"
+				},
+				{
+					"name": "čerstvá petržlenová vňať"
+				}
+			]
+		}
+	],
+	"image": "onvia/image35.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image35"
+}

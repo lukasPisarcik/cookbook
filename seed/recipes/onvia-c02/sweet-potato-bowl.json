@@ -1,0 +1,68 @@
+{
+	"title": "Sweet Potato Bowl",
+	"category": "obedy",
+	"prepTimeMinutes": 35,
+	"steps": [
+		"Rozohrej panvicu na sporáku na úroveň tepla 7/10. Sladké zemiaky dôkladne umy, osuš a 3-4-krát prepichni vidličkou. Potom ich polož na tanier vhodný do mikrovlnnej rúry a ohrievaj v mikrovlnnej rúre 5 minút pri 800W, pričom v polovici ohrevu ich otoč. Ak zemiaky nie sú po 5 minútach mäkké (skús do nich pichnúť vidličku aby si zistila v akom stave sú), pokračuj v ohrievaní v mikrovlnnej rúre v 30-sekundových intervaloch až pokým nedosiahnu požadovanú makkosť.",
+		"Kuracie prsia nakrájaj na malé nugetky. Ochuť ich cesnakovým práškom a morskou soľou.",
+		"Panvicu postriekaj sprejom na varenie a pridaj kuracie mäso a sladké zemiaky. Restuj, kým nie sú hotové.",
+		"Potom si pekne vyskladaj svoju bowl pridáním zvyšných surovín."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 499,
+			"portions": 1,
+			"macros": {
+				"carbs": 53,
+				"protein": 48,
+				"fat": 11
+			},
+			"ingredients": [
+				{
+					"name": "kuracie prsia",
+					"quantity": 180,
+					"unit": "g"
+				},
+				{
+					"name": "surové sladké zemiaky so šupou",
+					"quantity": 150,
+					"unit": "g"
+				},
+				{
+					"name": "čalamáda",
+					"quantity": 150,
+					"unit": "g"
+				},
+				{
+					"name": "mix šalátových listov",
+					"quantity": 30,
+					"unit": "g"
+				},
+				{
+					"name": "avokádo",
+					"quantity": 0.5,
+					"unit": "ks"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "granulovaný cesnak"
+				},
+				{
+					"name": "sladká paprika"
+				},
+				{
+					"name": "kari"
+				},
+				{
+					"name": "čili vločky"
+				}
+			]
+		}
+	],
+	"image": "onvia/image50.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image50"
+}

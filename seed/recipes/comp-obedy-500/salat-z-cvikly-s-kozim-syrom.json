@@ -1,0 +1,37 @@
+{
+	"title": "Šalát z cvikly s kozím syrom",
+	"category": "obedy",
+	"prepTimeMinutes": 20,
+	"steps": [
+		"Červenú repu umy a var v osolenej vode asi 20 minút, až kým nezmäkne.",
+		"Po uvarení ju olúp a nakrájaj na tenké plátky.",
+		"V miske si priprav zálievku: zmiešaj balzamikový ocot, med, olivový olej, tymián, zázvor (voliteľné), soľ a korenie.",
+		"Kozí syr si opeč na oleji.",
+		"Na tanier polož vrstvu šalátu, na ktorý rozlož červenú repu, kozí syr, pokvapkaj zálievkou, a opraženými slnečnicovými semienkami."
+	],
+	"funFact": "Kozí syr je ľahšie strávitelný ako ten kravský a obsahuje aj menej laktózy, a tak môže byť niekedy vhodnejšou alternatívou, ak má človek citlivý žalúdok.",
+	"variants": [
+		{
+			"label": "500 kcal",
+			"kcalPerPortion": 487,
+			"portions": 2,
+			"macros": {"carbs": 23, "protein": 28, "fat": 31},
+			"ingredients": [
+				{"name": "červená repa", "quantity": 300, "unit": "g"},
+				{"name": "šalát", "quantity": 50, "unit": "g"},
+				{"name": "olivový olej", "quantity": 10, "unit": "g"},
+				{"name": "balzamikový ocot", "quantity": 15, "unit": "g"},
+				{"name": "med", "quantity": 10, "unit": "g"},
+				{"name": "zázvor"},
+				{"name": "kozí syr", "quantity": 150, "unit": "g"},
+				{"name": "tymián"},
+				{"name": "slnečnicové semienka", "quantity": 15, "unit": "g"},
+				{"name": "soľ"},
+				{"name": "čierne korenie"},
+				{"name": "proteínový chlebík", "quantity": 2, "unit": "ks"}
+			]
+		}
+	],
+	"source": "Obedy - 500 kcal.pdf",
+	"sourceRef": "p8"
+}

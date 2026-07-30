@@ -1,0 +1,40 @@
+{
+	"title": "Lososové kari s karfiolovou ryžou",
+	"category": "obedy",
+	"prepTimeMinutes": 15,
+	"steps": [
+		"Predhrej rúru na 180 °C funkcia ventilátor.",
+		"Karfiol rozmixuj v mixéri (alebo ho jednoducho nastrúhaj na strúhadle) a najprv ho trochu opraž vo woku (alebo na panvici) na oleji so všetkými koreninami.",
+		"Na prípravu lososa stačí, ak ho okoreníš soľou, korením, limetkovou šťavou a vložíš do rúry na 15 min.",
+		"Vráť sa ku karfiolu: po 2-3min pridaj zvyšnú zeleninu a nechaj ju restovať ďalšie 2-3min.",
+		"Pridaj kokosové mlieko a nechaj ho 5min povariť.",
+		"V prípade potreby ešte dochuť zmesou korenia, trochou sójovej omáčky a restuj 10 minút.",
+		"Kari podávaj v hlbokom tanieri a na vrch polož natrhané lososové kúsky. Nakoniec pridaj koriander, sezamovvé semienka a limetkovou šťavu."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 387,
+			"portions": 2,
+			"macros": {"carbs": 30, "protein": 22, "fat": 19},
+			"ingredients": [
+				{"name": "karfiol", "quantity": 400, "unit": "g"},
+				{"name": "kokosové mlieko", "quantity": 400, "unit": "ml"},
+				{"name": "filé z divokého lososa", "quantity": 250, "unit": "g"},
+				{"name": "asia zeleninový mix (mrazený)", "quantity": 300, "unit": "g"},
+				{"name": "ananás", "quantity": 100, "unit": "g"},
+				{"name": "sezamový olej", "quantity": 1, "unit": "ČL"},
+				{"name": "sójová omáčka", "quantity": 2, "unit": "PL"},
+				{"name": "kurkuma", "quantity": 2, "unit": "ČL"},
+				{"name": "kari korenie", "quantity": 2, "unit": "ČL"},
+				{"name": "morská soľ"},
+				{"name": "čierne korenie"},
+				{"name": "sušený zázvor"},
+				{"name": "granulovaný cesnak"}
+			]
+		}
+	],
+	"image": "onvia/image217.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image217"
+}

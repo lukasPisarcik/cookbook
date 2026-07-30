@@ -1,0 +1,33 @@
+{
+	"title": "Golden smoothie",
+	"category": "smoothies",
+	"prepTimeMinutes": 6,
+	"steps": [
+		"Do mixéra vhoď olúpaný pomaranč bez jadierok, potom broskyňu bez kôstky, mrkvu, odmerku proteínu/kolagénu, citrónovú šťavu, štipku škorice, kurkumu a soľ.",
+		"Prilej trošku vody a rozmixuj do hladka.",
+		"V miske roztlač maliny/ ríbezle alebo čerešne a vlož ich na dno pohára.",
+		"Zmes z mixéra nalej do pohára a vychutnaj si smoothie ihneď alebo vychladený z chladničky neskôr."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 275,
+			"portions": 1,
+			"macros": { "carbs": 55, "protein": 14, "fat": 1 },
+			"ingredients": [
+				{ "name": "pomaranč", "quantity": 1, "unit": "ks" },
+				{ "name": "broskyňa", "quantity": 1, "unit": "ks" },
+				{ "name": "mrkva", "quantity": 0.5, "unit": "ks" },
+				{ "name": "kolagén", "quantity": 1, "unit": "odmerka" },
+				{ "name": "šťava z citróna", "quantity": 0.5, "unit": "ks" },
+				{ "name": "čerešne", "quantity": 100, "unit": "g" },
+				{ "name": "škorica", "unit": "štipka" },
+				{ "name": "kurkuma", "unit": "štipka" },
+				{ "name": "soľ", "unit": "štipka" }
+			]
+		}
+	],
+	"image": "onvia/image361.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image361"
+}

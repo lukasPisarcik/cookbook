@@ -1,0 +1,47 @@
+{
+	"title": "Proteínová taštička",
+	"category": "snacky",
+	"prepTimeMinutes": 15,
+	"steps": [
+		"Špaldovú múku, proteínový prášok, prášok do pečenia a soľ si zmiešame spolu v miske.",
+		"Do prísad v miske vlejeme vodu, bielok a šľaháme. Cesto by malo byť pekne krémové a nie moc husté, či riedke.",
+		"Panvicu rozohrejme na strednom ohni a orestujeme si wrap. Použijeme panvicu s nelepivým povrchom, ak takú nemáme použijeme trochu oleja na vymastenie.",
+		"Medzitým si šalát, šunku a zeleninu nakrájame na malé kúsky.",
+		"Hotový wrap si rozkrojíme od stredu po vonkajšiu stranu a každú štvrtinu wrapu si obložíme jednou z prísad na plnku.",
+		"Následne si wrap štvrtinu po štvrtine poprekladáme a servírujeme."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 206,
+			"portions": 1,
+			"macros": {
+				"carbs": 15,
+				"protein": 23,
+				"fat": 7
+			},
+			"ingredients": [
+				{ "name": "špaldová múka", "quantity": 15, "unit": "g" },
+				{ "name": "proteínový prášok bez príchute", "quantity": 10, "unit": "g" },
+				{ "name": "bielok", "quantity": 1, "unit": "ks" },
+				{ "name": "prášok do pečiva", "quantity": 2, "unit": "g" },
+				{ "name": "voda", "quantity": 100, "unit": "ml" },
+				{ "name": "soľ" },
+				{ "name": "čierne korenie" },
+				{ "name": "sušený cesnak" },
+				{ "name": "sušené oregano" },
+				{ "name": "chili" },
+				{ "name": "sušený petržlen" },
+				{ "name": "chudá šunka", "quantity": 40, "unit": "g" },
+				{ "name": "avokádo", "quantity": 30, "unit": "g" },
+				{ "name": "zeleninový mix" },
+				{ "name": "čerstvá bazalka" },
+				{ "name": "čerstvá pažítka" },
+				{ "name": "limetková šťava" }
+			]
+		}
+	],
+	"image": "onvia/image94.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image94"
+}

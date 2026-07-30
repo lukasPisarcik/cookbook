@@ -1,0 +1,41 @@
+{
+	"title": "Lososová Pinsa",
+	"category": "obedy",
+	"prepTimeMinutes": 15,
+	"steps": [
+		"Predhrej rúru na 200°C.",
+		"Zmiešaj všetky suroviny na omáčku zo smotanového syra a nakrájaj si cuketu a cibuľu na malé kúsky.",
+		"Natri omáčku po celom povrchu Pinsi a oblož zeleninou.",
+		"Vlož do vyhriatej rúry a peč 10-12 minút.",
+		"Potom ju vyber, na pinsu polož plátky udeného lososa, kapary, čerstvý kôpor a koriander.",
+		"Nakoniec pokvapkaj citrónovou šťavou a vychutnaj si tento skvost!"
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 835,
+			"macros": {"carbs": 98, "protein": 63, "fat": 20},
+			"ingredients": [
+				{"name": "Pinsa", "quantity": 1, "unit": "ks"},
+				{"name": "údený losos", "quantity": 150, "unit": "g"},
+				{"name": "malá cuketa", "quantity": 0.5, "unit": "ks"},
+				{"name": "červená cibuľa", "quantity": 1, "unit": "ks"},
+				{"name": "kapary", "quantity": 1, "unit": "PL"},
+				{"name": "čerstvý koriander"},
+				{"name": "čerstvý kôpor"},
+				{"name": "smotanový syr light", "quantity": 100, "unit": "g"},
+				{"name": "chren", "quantity": 20, "unit": "g"},
+				{"name": "šťava z citróna", "quantity": 0.5, "unit": "ks"},
+				{"name": "horčica", "quantity": 1, "unit": "ČL"},
+				{"name": "med", "quantity": 1, "unit": "ČL"},
+				{"name": "lahôdkové droždie", "quantity": 10, "unit": "g"},
+				{"name": "soľ"},
+				{"name": "korenie"},
+				{"name": "čili vločky"}
+			]
+		}
+	],
+	"image": "onvia/image215.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image215"
+}

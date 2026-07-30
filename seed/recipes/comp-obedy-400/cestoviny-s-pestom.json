@@ -1,0 +1,31 @@
+{
+	"title": "Cestoviny s pestom",
+	"category": "obedy",
+	"prepTimeMinutes": 20,
+	"steps": [
+		"Uvar celozrnné cestoviny podľa návodu na obale.",
+		"Kuracie prsia osoľ, okoreň a opeč na olivovom oleji",
+		"Nakrájaj kuracie prsia na tenké plátky.",
+		"Po uvarení cestoviny premiešaj s pestom",
+		"Cestoviny podávaj s kuracím mäsom, prípadne posyp parmezánom."
+	],
+	"variants": [
+		{
+			"label": "400 kcal",
+			"kcalPerPortion": 439,
+			"portions": 1,
+			"macros": { "carbs": 35, "protein": 28, "fat": 20 },
+			"ingredients": [
+				{ "name": "celozrnné cestoviny", "quantity": 50, "unit": "g" },
+				{ "name": "kuracie prsia", "quantity": 70, "unit": "g" },
+				{ "name": "pesto", "quantity": 20, "unit": "g" },
+				{ "name": "olivový olej", "quantity": 5, "unit": "g" },
+				{ "name": "soľ" },
+				{ "name": "čierne korenie" },
+				{ "name": "parmezán", "quantity": 15, "unit": "g" }
+			]
+		}
+	],
+	"source": "Obedy - 400 kcal.pdf",
+	"sourceRef": "p9"
+}

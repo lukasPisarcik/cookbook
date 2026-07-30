@@ -1,0 +1,33 @@
+{
+	"title": "Omeleta z kapusty",
+	"category": "vecere",
+	"prepTimeMinutes": 15,
+	"steps": [
+		"Začni strúhaním kapusty na tenké rezance. Potom ich zmiešaj s korením, soľou a vajcom a nechaj chvíľu odpočívať.",
+		"Na panvici rozohrej olivový alebo avokádový olej. Pridaj zmes na omeletu, zníž teplotu na polovičný výkon. Nechaj ju niekoľko minút opekať a potom ju obráť.",
+		"Akú náplň si vyberieš, je na tebe. Skvelé bude natrieť ju kečupom, dať na ňu strúhaný syr, nakrájanú šunku a nejakú zeleninu.",
+		"Prelož a vychutnaj si!"
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 460,
+			"macros": {"carbs": 33, "protein": 33, "fat": 24},
+			"ingredients": [
+				{"name": "červená kapusta", "quantity": 300, "unit": "g"},
+				{"name": "vajce", "quantity": 1, "unit": "ks"},
+				{"name": "soľ"},
+				{"name": "oregano"},
+				{"name": "olivový olej", "quantity": 10, "unit": "ml"},
+				{"name": "šunka", "quantity": 40, "unit": "g"},
+				{"name": "strúhaný syr", "quantity": 40, "unit": "g"},
+				{"name": "hrášok", "quantity": 30, "unit": "g"},
+				{"name": "kečup", "quantity": 1, "unit": "PL"},
+				{"name": "rukola"}
+			]
+		}
+	],
+	"image": "onvia/image231.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image231"
+}

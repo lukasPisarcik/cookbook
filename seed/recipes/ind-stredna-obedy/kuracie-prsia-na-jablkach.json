@@ -1,0 +1,79 @@
+{
+	"title": "Kuracie prsia na jablkách",
+	"category": "obedy",
+	"dietTags": ["bezlaktozove", "bezlepkove"],
+	"prepTimeMinutes": 50,
+	"steps": [
+		"Predhrej rúru na 200 °C.",
+		"Zemiaky umy a nakrájaj na mesiačiky alebo na obdĺžniky (tvar hranoliek).",
+		"Premiešaj ich s olejom, soľou, korením a rozmarínom alebo tymiánom.",
+		"Daj na plech a peč približne 30-35 minút, kým nebudú zlatisté a chrumkavé, občas ich premiešaj.",
+		"Kuracie mäso nakrájaj na plátky a osoľ ho, okoreň.",
+		"Na panvici rozohrej olej a opeč mäso z oboch strán do zlatista, cca 5 minút na každej strane.",
+		"Pridaj nakrájané jablká a cibuľu, nechaj restovať asi 5 minút, kým jablká nezmäknú.",
+		"Pridaj šalviu a javorový sirup, nechaj 2 minúty prepojiť chute.",
+		"Ak je mäso hrubšie, môžeš ho zakrytiť a ešte chvíľu dusiť, aby sa úplne prepieklo.",
+		"Dobrú chuť ;)"
+	],
+	"variants": [
+		{
+			"label": "500 kcal",
+			"kcalPerPortion": 550,
+			"portions": 2,
+			"macros": {
+				"carbs": 58,
+				"protein": 39,
+				"fat": 17
+			},
+			"ingredients": [
+				{
+					"name": "kuracie prsia",
+					"quantity": 300,
+					"unit": "g"
+				},
+				{
+					"name": "jablko",
+					"quantity": 250,
+					"unit": "g"
+				},
+				{
+					"name": "cibuľa",
+					"quantity": 70,
+					"unit": "g"
+				},
+				{
+					"name": "čerstvá šalvia",
+					"quantity": 7,
+					"unit": "lístok"
+				},
+				{
+					"name": "olivový olej",
+					"quantity": 30,
+					"unit": "g"
+				},
+				{
+					"name": "javorový sirup",
+					"quantity": 10,
+					"unit": "g"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "čierne korenie"
+				},
+				{
+					"name": "zemiaky",
+					"quantity": 400,
+					"unit": "g"
+				},
+				{
+					"name": "rozmarín"
+				}
+			]
+		}
+	],
+	"image": "kura-na-jablkach-500-kcal/p1.webp",
+	"source": "Kura na jablkách - 500 kcal.pdf",
+	"sourceRef": "p1"
+}

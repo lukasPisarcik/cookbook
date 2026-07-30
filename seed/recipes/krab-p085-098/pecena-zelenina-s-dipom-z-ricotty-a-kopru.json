@@ -1,0 +1,35 @@
+{
+	"title": "Pečená zelenina s dipom z ricotty a kôpru",
+	"category": "vecere",
+	"steps": [
+		"Zeleninu zbavte šupky a nakrájajte na rezanky alebo kúsky. Tie presuňte do misky.",
+		"Pridajte olivový olej, soľ a tymian a premiešajte.",
+		"Zeleninu potom presuňte do zapekacej misky a dajte piecť na 180 stupňov po dobu 25 minút. 5 minút pred koncom zvýšte teplotu na 200 stupňov.",
+		"Medzitým pripravte dip - ricottu dajte do misky, pridajte olej, jemne nasekaný kôpor, soľ a korenie (peper). Nakoniec pridajte trošku jemne nastrúhanej kôry a šťavy z polovice citróna. Dôkladne premiešajte.",
+		"Po upečení dajte zeleninu do dvoch misiek, pridajte lyžičku alebo dve lyžičky pesta a ozdobte plátkami reďkvičiek. Dip oddeľte alebo dajte do misky zvlášť"
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 2,
+			"ingredients": [
+				{"name": "zemiak", "quantity": 4, "unit": "ks"},
+				{"name": "mrkva", "quantity": 4, "unit": "ks"},
+				{"name": "petržlen", "quantity": 2, "unit": "ks"},
+				{"name": "extra panenský olivový olej", "quantity": 2, "unit": "PL"},
+				{"name": "soľ"},
+				{"name": "sušený tymian", "quantity": 0.5, "unit": "ČL"},
+				{"name": "ricotta", "quantity": 250, "unit": "g"},
+				{"name": "čerstvý kôpor", "quantity": 1, "unit": "hrsť"},
+				{"name": "olivový olej", "quantity": 1, "unit": "PL"},
+				{"name": "citrón", "quantity": 1, "unit": "ks"},
+				{"name": "korenie"},
+				{"name": "bazalkové pesto"},
+				{"name": "reďkvička", "quantity": 4, "unit": "ks"}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p86.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p86"
+}

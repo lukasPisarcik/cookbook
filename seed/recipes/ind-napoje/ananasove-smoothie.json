@@ -1,0 +1,57 @@
+{
+	"title": "Ananásové smoothie",
+	"category": "smoothies",
+	"prepTimeMinutes": 5,
+	"steps": ["Zmixuj všetky ingrediencie do hladka", "Môžeš podávať s ľadom."],
+	"funFact": "Čerstvý ananás obsahuje bromelaín, ktorý môže rozkladať bielkoviny v ústach, preto niekedy cítime pichanie.",
+	"variants": [
+		{
+			"label": "200 kcal",
+			"kcalPerPortion": 200,
+			"portions": 1,
+			"macros": {
+				"carbs": 33,
+				"protein": 14,
+				"fat": 1
+			},
+			"ingredients": [
+				{
+					"name": "mrazený ananás",
+					"quantity": 100,
+					"unit": "g"
+				},
+				{
+					"name": "olúpaná mandarinka",
+					"quantity": 50,
+					"unit": "g"
+				},
+				{
+					"name": "banán",
+					"quantity": 50,
+					"unit": "g"
+				},
+				{
+					"name": "nízkotučný tvaroh jemný",
+					"quantity": 100,
+					"unit": "g"
+				},
+				{
+					"name": "voda",
+					"quantity": 125,
+					"unit": "ml"
+				},
+				{
+					"name": "med",
+					"quantity": 5,
+					"unit": "g"
+				},
+				{
+					"name": "ľad"
+				}
+			]
+		}
+	],
+	"image": "ananasove-smoothie-200-kcal/p1.webp",
+	"source": "Ananásové smoothie - 200 kcal.pdf",
+	"sourceRef": "p1"
+}

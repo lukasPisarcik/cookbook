@@ -1,0 +1,32 @@
+{
+	"title": "Mäkké a vláčne tekvicové koláčiky",
+	"category": "dezerty",
+	"prepTimeMinutes": 10,
+	"steps": [
+		"Všetky suché suroviny daj do misy a premiešaj, aby sa zabránilo ich zhlukovaniu. Pridaj tekvicu (ak je uvarená v kúskoch, tak ju najskôr rozmixuj ručným mixérom na pyré). Pridaj jablkové pyré a vajcia spolu k suchým surovinám, dobre vymiešaj kým nevznikne husté cesto.",
+		"Formu na pečenie (20 cm) postriekaj (vymaž) kokosovým olejom a potom do nej rovnomerne pridaj cesto, kým nebude pokryté celé dno.",
+		"Formu naplnenú cestom vlož do fritézy (Air Fryer) na 135°C na 20 minút! Po dokončení formu s koláčom vyber, nechaj vychladnúť a vychutnaj si!"
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 252,
+			"portions": 9,
+			"macros": {"carbs": 28, "protein": 26, "fat": 4},
+			"ingredients": [
+				{"name": "polohrubá múka", "quantity": 100, "unit": "g"},
+				{"name": "vanilkový proteínový prášok", "quantity": 150, "unit": "g"},
+				{"name": "mandľová múka", "quantity": 100, "unit": "g"},
+				{"name": "Unicorn Dust", "quantity": 18, "unit": "g"},
+				{"name": "tekvicové korenie (pumpkin spice)", "quantity": 2, "unit": "g"},
+				{"name": "prášok do pečiva", "quantity": 8, "unit": "g"},
+				{"name": "maslová tekvica", "quantity": 500, "unit": "g"},
+				{"name": "nesladené jablkové pyré", "quantity": 150, "unit": "g"},
+				{"name": "veľké vajce", "quantity": 4, "unit": "ks"}
+			]
+		}
+	],
+	"image": "onvia/image277.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image277"
+}

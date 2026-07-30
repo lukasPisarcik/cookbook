@@ -1,0 +1,39 @@
+{
+	"title": "Obrátený pomarančový koláč",
+	"category": "dezerty",
+	"prepTimeMinutes": 15,
+	"steps": [
+		"Rúru predhrej na 180 stupňov.",
+		"Hlbokú panvicu alebo liatinový hrniec (vhodné do rúry na pečenie) postriekaj olejom alebo ghí. Postav na sporák a poukladaj na ňu plátky pomaranča. Nezabudni ošúpať šupku. Zapráš/pokvapkaj štipkou sladidla a nechaj niekoľko sekúnd karamelizovať. Odstav z ohňa.",
+		"Na cesto vyšľahaj všetky potrebné prísady do hladkého cesta.",
+		"Cesto nalej na plátky pomaranča a vlož do rúry na približne 20 minút.",
+		"Cesto by malo byť na povrchu zlatisté. Prepečenie otestuj špáratkom.",
+		"Po upečení nechaj chvíľu vychladnúť a potom vyklop na tanier.",
+		"Vychutnaj si ešte teplý!"
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 262,
+			"portions": 8,
+			"macros": {"carbs": 36, "protein": 8, "fat": 11},
+			"ingredients": [
+				{"name": "pomaranč", "quantity": 1, "unit": "ks"},
+				{"name": "ghí", "quantity": 1, "unit": "ČL"},
+				{"name": "sladidlo"},
+				{"name": "vajce", "quantity": 1, "unit": "ks"},
+				{"name": "mlieko", "quantity": 200, "unit": "ml"},
+				{"name": "olivový olej", "quantity": 80, "unit": "g"},
+				{"name": "xylitol", "quantity": 80, "unit": "g"},
+				{"name": "hladká múka", "quantity": 200, "unit": "g"},
+				{"name": "vanilkový proteín", "quantity": 30, "unit": "g"},
+				{"name": "prášok do pečiva", "quantity": 1, "unit": "PL"},
+				{"name": "vanilkový extrakt"},
+				{"name": "šťava z pomaranča", "quantity": 1, "unit": "ks"}
+			]
+		}
+	],
+	"image": "onvia/image316.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image316"
+}

@@ -1,0 +1,41 @@
+{
+	"title": "Hovädzie rizoto so zeleninou a parmezánom",
+	"category": "obedy",
+	"prepTimeMinutes": 10,
+	"steps": [
+		"Cesnak a cibulu nakrájaj nadrobno a spolu s hovadzím nakrájaným na kúsky opeč na olivovom oleji v panvici. Hneď ako sa mäso trochu opečie, pridaj zvyšok nakrájanej zeleniny a krátko všetko spolu orestuj. Dochuť soľou, korením, oreganom a pridaj do panvice opláchnutú ryžu.",
+		"Vmiešaj paradajkovú pastu a zalej zeleninovým vývarom.",
+		"Panvicu prikry pokrievkou a pri strednej teplote var asi 10-12 minút, aby sa ryža uvarila.",
+		"Tesne pred koncom pridaj nasekanú petržlenovú vňať a parmezán."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 488,
+			"portions": 1,
+			"macros": {
+				"carbs": 64,
+				"protein": 34,
+				"fat": 11
+			},
+			"ingredients": [
+				{ "name": "ryža basmati", "quantity": 65, "unit": "g" },
+				{ "name": "hovädzie mäso", "quantity": 125, "unit": "g" },
+				{ "name": "cesnak", "quantity": 1, "unit": "strúčik" },
+				{ "name": "cibuľa", "quantity": 0.5, "unit": "ks" },
+				{ "name": "zmes zeleniny" },
+				{ "name": "olivový olej", "quantity": 1, "unit": "ČL" },
+				{ "name": "paradajková pasta", "quantity": 2, "unit": "PL" },
+				{ "name": "parmezán", "quantity": 1, "unit": "PL" },
+				{ "name": "zeleninový vývar", "quantity": 150, "unit": "ml" },
+				{ "name": "morská soľ" },
+				{ "name": "čierne korenie" },
+				{ "name": "oregano" },
+				{ "name": "petržlenová vňať" }
+			]
+		}
+	],
+	"image": "onvia/image196.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image196"
+}

@@ -1,0 +1,34 @@
+{
+	"title": "Banánové cookies",
+	"category": "dezerty",
+	"dietTags": ["bezlaktozove"],
+	"prepTimeMinutes": 25,
+	"steps": [
+		"Rozmixuj si banány a pridaj k nim celé vajíčko.",
+		"Potom vmiešaj vločky, kokos a ďalšie suroviny.",
+		"Plech vystelieš papierom na pečenie.",
+		"Zmes naberieš na lyžičku, uložíš na plech guličku a urobíš z nej placku.",
+		"Pečieš pri 170 stupňoch cca 15-20 minút.",
+		"Hotovo.",
+		"Dobrú chuť :)."
+	],
+	"variants": [
+		{
+			"label": "300 kcal",
+			"kcalPerPortion": 278,
+			"portions": 4,
+			"macros": { "carbs": 22, "protein": 6, "fat": 18 },
+			"ingredients": [
+				{ "name": "banán", "quantity": 180, "unit": "g" },
+				{ "name": "ovsené vločky", "quantity": 40, "unit": "g" },
+				{ "name": "strúhaný kokos", "quantity": 40, "unit": "g" },
+				{ "name": "vajíčko", "quantity": 1, "unit": "ks" },
+				{ "name": "nasekaná 70% horká čokoláda", "quantity": 40, "unit": "g" },
+				{ "name": "lieskové oriešky", "quantity": 30, "unit": "g" },
+				{ "name": "škorica" }
+			]
+		}
+	],
+	"source": "Dezerty-300kcal.pdf",
+	"sourceRef": "p11"
+}

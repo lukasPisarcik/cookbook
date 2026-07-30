@@ -1,0 +1,30 @@
+{
+	"title": "Choco Cake zo 4 surovín",
+	"category": "dezerty",
+	"prepTimeMinutes": 20,
+	"steps": [
+		"Rozpusti si čokoládu v horúcom kúpeli.",
+		"Zmiešaj smotanový syr, vajcia, sladidlo alebo med a rozpustenú čokoládu.",
+		"Dôkladne premiešaj, aby sa všetky prísady spojili.",
+		"Zmes nalej do pripravenej formy na pečenie (cca 10–15 cm) vystlanej papierom na pečenie.",
+		"Vlož do predhriatej rúry na 170 stupňov, peč približne 20–25 minút.",
+		"Po upečení nechaj chvíľu vychladnúť, posyp strúhanou čokoládou a vychutnaj si!"
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 345,
+			"portions": 3,
+			"macros": {"carbs": 24, "protein": 11, "fat": 20},
+			"ingredients": [
+				{"name": "smotanový syr light", "quantity": 100, "unit": "g"},
+				{"name": "vajce", "quantity": 3, "unit": "ks"},
+				{"name": "sladidlo", "quantity": 2, "unit": "ČL"},
+				{"name": "70% čokoláda bez pridaného cukru", "quantity": 100, "unit": "g"}
+			]
+		}
+	],
+	"image": "onvia/image318.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image318"
+}

@@ -1,0 +1,31 @@
+{
+	"title": "Krém z červenej šošovice",
+	"category": "vecere",
+	"steps": [
+		"Cibuľu nakrájajte nadrobno a orestujte ju na prepustenom malse.",
+		"Šošovicu prepláchnite a pridajte ju do hrnca.",
+		"Prilejte vývar, zázvor, kurkumu a mletú papriku. Varte do zmäknutia šošovice.",
+		"Pridajte passatu a kokosové mlieko, rozmixujte dohladka.",
+		"Podávajte s krutónmi a klíčkami."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 4,
+			"ingredients": [
+				{"name": "prepustené maslo", "quantity": 1, "unit": "PL"},
+				{"name": "cibuľa", "quantity": 1, "unit": "ks"},
+				{"name": "červená šošovica", "quantity": 250, "unit": "g"},
+				{"name": "zeleninový vývar", "quantity": 900, "unit": "ml"},
+				{"name": "mletý zázvor", "quantity": 0.5, "unit": "ČL"},
+				{"name": "mletá kurkuma", "quantity": 1, "unit": "ČL"},
+				{"name": "mletá paprika", "quantity": 2, "unit": "ČL"},
+				{"name": "paradajková passata", "quantity": 100, "unit": "g"},
+				{"name": "kokosové mlieko", "quantity": 400, "unit": "g"}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p97.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p97"
+}

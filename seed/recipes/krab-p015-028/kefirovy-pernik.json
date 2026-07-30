@@ -1,0 +1,34 @@
+{
+	"title": "Kefírový perník",
+	"category": "dezerty",
+	"steps": [
+		"Rúru predhrejte na 170 stupňov.",
+		"Formu s rozmermi 24x34 cm vymastite maslom a vysypte trochou múky.",
+		"V jednej misky zmiešajte tekuté suroviny a v druhej premiešajte suché, potom k suchým pridajte mokré a premiešajte spolu.",
+		"Hotové cesto prelejte do formy a dajte piecť na 25 minút. Ak máte menšiu formu, pečte dlhšie, kľudne 40 minút. Vyskúšajte špajľou či je koláč upečený.",
+		"Po upečení nechajte vychladnúť. Každý kúsok potom môžete prekrojiť na polovicu a potrieť džemom z lesného ovocia alebo rozrežte celý perník na polovicu a pomastite ho džemom a zase ho prikryte druhou polovicou.",
+		"K perníku pridajte grécky jogurt s 0% tuku alebo skyr."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"ingredients": [
+				{"name": "rozpustené maslo", "quantity": 100, "unit": "g"},
+				{"name": "kefír", "quantity": 270, "unit": "g"},
+				{"name": "med", "quantity": 50, "unit": "g"},
+				{"name": "vajíčko", "quantity": 2, "unit": "ks"},
+				{"name": "džem z lesných plodov", "quantity": 1, "unit": "PL"},
+				{"name": "polohrubá pšeničná múka", "quantity": 250, "unit": "g"},
+				{"name": "holandské kakao", "quantity": 20, "unit": "g"},
+				{"name": "trstinový cukor", "quantity": 70, "unit": "g"},
+				{"name": "soľ", "unit": "štipka"},
+				{"name": "perníkové korenie", "quantity": 12, "unit": "g"},
+				{"name": "kypriaci prášok", "quantity": 6, "unit": "g"},
+				{"name": "sóda bikarbóna", "quantity": 4, "unit": "g"}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p24.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p24"
+}

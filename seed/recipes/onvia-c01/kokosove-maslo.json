@@ -1,0 +1,65 @@
+{
+	"title": "Kokosové maslo",
+	"category": "zaklady",
+	"prepTimeMinutes": 10,
+	"steps": [
+		"Všetky suroviny spolu vymixuj v mixéri približne 5-6 minút, kým nezískaš hladkú maslovú konzistenciu.",
+		"Kokosové maslo skladuj v uzavretej nádobe v chladničke, vydrží 5-7 dní."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 40,
+			"macros": {
+				"carbs": 0.6,
+				"protein": 2,
+				"fat": 3
+			},
+			"ingredients": [
+				{
+					"name": "kokosová múka",
+					"quantity": 100,
+					"unit": "g"
+				},
+				{
+					"name": "proteínový prášok",
+					"quantity": 60,
+					"unit": "g"
+				},
+				{
+					"name": "strúhaný kokos",
+					"quantity": 50,
+					"unit": "g"
+				},
+				{
+					"name": "sladidlo",
+					"quantity": 9,
+					"unit": "g"
+				},
+				{
+					"name": "light kokosové mlieko z konzervy",
+					"quantity": 200,
+					"unit": "ml"
+				},
+				{
+					"name": "kokosové pyré",
+					"quantity": 80,
+					"unit": "g"
+				},
+				{
+					"name": "nesladené mandľové mlieko",
+					"quantity": 500,
+					"unit": "ml"
+				},
+				{
+					"name": "xantánová guma",
+					"quantity": 7,
+					"unit": "g"
+				}
+			]
+		}
+	],
+	"image": "onvia/image24.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image24"
+}

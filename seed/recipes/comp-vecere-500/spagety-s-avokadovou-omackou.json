@@ -1,0 +1,86 @@
+{
+	"title": "Špagety s avokádovou omáčkou",
+	"category": "vecere",
+	"dietTags": [
+		"vegan"
+	],
+	"prepTimeMinutes": 25,
+	"steps": [
+		"Uvar cestoviny podľa pokynov na obale.",
+		"Tesne pred tým, ako ich scediš, si bokom odlož 1/2 šálky vody z cestovín.",
+		"Do mixéra pridaj všetky ostatné ingrediencie spolu s 1/4 šálky vody z cestovín.",
+		"Mixuj, kým nevznikne hladká zmes, podľa potreby pridaj viac vody.",
+		"Zmiešaj omáčku s uvarenými cestovinami",
+		"Ak nie si vegan, opeč si na suchej panvičke šunku a posyp cestoviny.",
+		"Vyjdú ti 2 porcie."
+	],
+	"funFact": "Ľahôdkové droždie je skvelý vegetariánsky/vegánsky doplnok, ktorý jedlo nielen ochutí, ale do jedla doplní aj bielkoviny, vlákninu, vitamíny skupiny B (najmä B12), železo a ďalšie.",
+	"variants": [
+		{
+			"label": "500 kcal",
+			"kcalPerPortion": 501,
+			"portions": 2,
+			"macros": {
+				"carbs": 46,
+				"protein": 17,
+				"fat": 25
+			},
+			"ingredients": [
+				{
+					"name": "celozrnné špagety",
+					"quantity": 110,
+					"unit": "g"
+				},
+				{
+					"name": "citrón",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "cesnak",
+					"quantity": 1,
+					"unit": "strúčik"
+				},
+				{
+					"name": "lahôdkové droždie",
+					"quantity": 15,
+					"unit": "g"
+				},
+				{
+					"name": "avokádo",
+					"quantity": 280,
+					"unit": "g"
+				},
+				{
+					"name": "baby špenát",
+					"quantity": 1,
+					"unit": "hrsť"
+				},
+				{
+					"name": "olivový olej",
+					"quantity": 10,
+					"unit": "g"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "korenie"
+				},
+				{
+					"name": "bazalka"
+				},
+				{
+					"name": "oregano"
+				},
+				{
+					"name": "šunka",
+					"quantity": 4,
+					"unit": "plátok"
+				}
+			]
+		}
+	],
+	"source": "Večere - 500 kcal.pdf",
+	"sourceRef": "p5"
+}

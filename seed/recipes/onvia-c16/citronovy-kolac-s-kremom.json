@@ -1,0 +1,42 @@
+{
+	"title": "Citrónový koláč s krémom",
+	"category": "dezerty",
+	"prepTimeMinutes": 30,
+	"steps": [
+		"Najskôr si priprav cesto na korpus. V miske zmiešaj múku, sladidlo, proteín, prášok do pečiva a citrónovú kôru. Potom do zmesi pridaj vajcia, rozpustené mlieko, ghí, citrónovú šťavu a vypracuj hladké cesto.",
+		"Zapni rúru na 170°C ohrev zhora / zdola.",
+		"Cesto nalej do formy na pečenie vyloženej papierom na pečenie s rozmermi cca 20x40 cm a peč asi 25 minút. Peč ho, kým nie je na povrchu mierne zlatisté.",
+		"Medzitým si priprav polevu a krém. Na krém zmiešaj v miske tvaroh so šťavou z citróna a odmerkou Unicorn Dustu. Na polevu zmiešaj mlieko a proteín v šejkri a pridaj 2 PL krému.",
+		"Keď korpus vychladne, urob do neho niekoľko dier. Potom ho zalej polevou a nechaj vsiaknuť.",
+		"Nakoniec natri krém a ozdob plátkami citróna a citrónovou kôrou."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 136,
+			"portions": 15,
+			"macros": {"carbs": 10, "protein": 10, "fat": 6},
+			"ingredients": [
+				{"name": "špaldová hladká múka", "quantity": 130, "unit": "g"},
+				{"name": "proteín na pečenie", "quantity": 30, "unit": "g"},
+				{"name": "xylitol", "quantity": 60, "unit": "g"},
+				{"name": "prášok do pečiva", "quantity": 1, "unit": "ČL"},
+				{"name": "Unicorn Dust", "quantity": 6, "unit": "g"},
+				{"name": "mlieko", "quantity": 200, "unit": "ml"},
+				{"name": "vajce", "quantity": 1, "unit": "ks"},
+				{"name": "rozpustené maslo", "quantity": 60, "unit": "g"},
+				{"name": "bio citrón", "quantity": 1, "unit": "ks"},
+				{"name": "mlieko", "quantity": 100, "unit": "ml"},
+				{"name": "vanilkový proteín", "quantity": 30, "unit": "g"},
+				{"name": "krémový tvaroh", "quantity": 2, "unit": "PL"},
+				{"name": "nízkotučný tvaroh", "quantity": 250, "unit": "g"},
+				{"name": "polotučný krémový tvaroh", "quantity": 250, "unit": "g"},
+				{"name": "citrónová šťava", "quantity": 1, "unit": "PL"},
+				{"name": "Unicorn Dust", "quantity": 1, "unit": "odmerka"}
+			]
+		}
+	],
+	"image": "onvia/image309.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image309"
+}

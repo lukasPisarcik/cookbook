@@ -1,0 +1,40 @@
+{
+	"title": "Vegie lasagne z jednej panvice",
+	"category": "obedy",
+	"dietTags": ["vegetarianske"],
+	"prepTimeMinutes": 15,
+	"steps": [
+		"Pred varením nechaj šošovicu 2 hodiny namočenú. Stačí ju zaliať vodou, prikryť a nechať odpočívať.",
+		"Pred varením šošovicu zbav prebytočnej vody.",
+		"Na panvici zahrej olej a orestuj na ňom nadrobno nakrájanú cibuľu a roztlačený cesnak.",
+		"Po chvíli pridaj šampiňóny alebo hlivu ustricovú nakrájanú na malé kocky. Pridaj šošovicu, passatu, dusené alebo čerstvé paradajky a korenie RO0.",
+		"Var do mäkka.",
+		"Predhrej si rúru na 180°C ohrev zhora / zdola.",
+		"Keď je šošovica mäkká, pridaj do zmesi kúsky lasagní a premiešaj. Vrch posyp strúhaným syrom a vlož do rúry. Pozor: Uisti sa, že panvica môže ísť do rúry!",
+		"Po upečení môžeš posypať čerstvými bylinkami a pochutnať si."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 396,
+			"portions": 3,
+			"macros": {"carbs": 59, "protein": 24, "fat": 7},
+			"ingredients": [
+				{"name": "lasagne", "quantity": 100, "unit": "g"},
+				{"name": "šošovica", "quantity": 100, "unit": "g"},
+				{"name": "šampiňóny", "quantity": 500, "unit": "g"},
+				{"name": "paradajková passata", "quantity": 500, "unit": "g"},
+				{"name": "cherry paradajky", "quantity": 250, "unit": "g"},
+				{"name": "olivový olej", "quantity": 1, "unit": "ČL"},
+				{"name": "cesnak", "quantity": 1, "unit": "strúčik"},
+				{"name": "strúhaný syr", "quantity": 50, "unit": "g"},
+				{"name": "korenie RO0"},
+				{"name": "korenie"},
+				{"name": "oregano"}
+			]
+		}
+	],
+	"image": "onvia/image222.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image222"
+}

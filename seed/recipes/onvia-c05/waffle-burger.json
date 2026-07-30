@@ -1,0 +1,116 @@
+{
+	"title": "Waffle Burger",
+	"category": "obedy",
+	"prepTimeMinutes": 26,
+	"steps": [
+		"Všetky suroviny na prípravu mäsa zmiešaj v miske vidličkou a krátko odlož na bok, nech sa chute prepoja.",
+		"Suroviny na vafľové cesto zmiešaj dokopy a pridaj trochu vody, kým nevznikne krémové cesto.",
+		"Vo vaflovači urob dve vafle. Pokým sa budú robiť, vytvaruj mäsovú placku a opeč ju na panvici z oboch strán na troche oleja. Nakoniec na vrch opečenej placky pridaj plátok syru, aby sa roztopil.",
+		"Na jednu polovicu vafle natri horčicu, pridaj šalát, paradajku, mäsovú placku, červenú cibuľu a druhú polovicu vafle potri kečupom a vytvor burger."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 353,
+			"portions": 1,
+			"macros": {
+				"carbs": 32,
+				"protein": 37,
+				"fat": 7
+			},
+			"ingredients": [
+				{
+					"name": "špaldová múka",
+					"quantity": 25,
+					"unit": "g"
+				},
+				{
+					"name": "proteínový prášok bez chuti",
+					"quantity": 15,
+					"unit": "g"
+				},
+				{
+					"name": "nízkotučný prírodný jogurt",
+					"quantity": 50,
+					"unit": "g"
+				},
+				{
+					"name": "vajce",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "prášok do pečiva",
+					"quantity": 1,
+					"unit": "ČL"
+				},
+				{
+					"name": "soľ",
+					"unit": "štipka"
+				},
+				{
+					"name": "sušený rozmarín",
+					"unit": "štipka"
+				},
+				{
+					"name": "voda",
+					"quantity": 65,
+					"unit": "ml"
+				},
+				{
+					"name": "mleté hovädzie mäso",
+					"quantity": 100,
+					"unit": "g"
+				},
+				{
+					"name": "horčica",
+					"quantity": 1,
+					"unit": "PL"
+				},
+				{
+					"name": "kečup",
+					"quantity": 1,
+					"unit": "PL"
+				},
+				{
+					"name": "korenie"
+				},
+				{
+					"name": "rasca"
+				},
+				{
+					"name": "mletá paprika"
+				},
+				{
+					"name": "nasekaná petržlenová vňať"
+				},
+				{
+					"name": "granulovaný cesnak"
+				},
+				{
+					"name": "granulovaná cibuľa"
+				},
+				{
+					"name": "syr light",
+					"quantity": 1,
+					"unit": "plátok"
+				},
+				{
+					"name": "hlávkový šalát"
+				},
+				{
+					"name": "paradajka"
+				},
+				{
+					"name": "červená cibuľa"
+				},
+				{
+					"name": "zaváraná uhorka"
+				}
+			]
+		}
+	],
+	"image": "onvia/image110.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image110"
+}

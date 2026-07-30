@@ -1,0 +1,37 @@
+{
+	"title": "Krémové Feta Pasta",
+	"category": "obedy",
+	"prepTimeMinutes": 7,
+	"steps": [
+		"Obľúbené cestoviny uvar ako zvyčajne podľa návodu na obale (len si nechaj 2-3 PL vody z varenia, budeš ich pridávať do omáčky).",
+		"Medzitým rozmixuj v miske cottage syr do hladka.",
+		"Pridaj do misky feta syr a opäť rozmixuj.",
+		"Pridaj všetky koreniny, citrónovú šťavu a dobre premiešaj.",
+		"Na panvici orestuj špenát na troche oleja alebo masla, pridaj uvarené cestoviny, pridaj feta omáčku, 2-3 PL vody z varenia cestovín a všetko dobre premiešaj.",
+		"Podávaj a vychutnávaj!"
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 581,
+			"portions": 4,
+			"macros": {"carbs": 76, "protein": 36, "fat": 12},
+			"ingredients": [
+				{"name": "cestoviny", "quantity": 300, "unit": "g"},
+				{"name": "nízkotučný cottage syr", "quantity": 400, "unit": "g"},
+				{"name": "feta syr light", "quantity": 360, "unit": "g"},
+				{"name": "čerstvý špenát", "quantity": 100, "unit": "g"},
+				{"name": "cherry paradajky", "quantity": 200, "unit": "g"},
+				{"name": "šťava z citróna", "quantity": 1, "unit": "ks"},
+				{"name": "soľ"},
+				{"name": "korenie"},
+				{"name": "provensálske bylinky"},
+				{"name": "granulovaný cesnak"},
+				{"name": "granulovaná cibuľa"}
+			]
+		}
+	],
+	"image": "onvia/image219.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image219"
+}

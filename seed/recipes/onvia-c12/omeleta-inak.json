@@ -1,0 +1,36 @@
+{
+	"title": "Omeleta inak",
+	"category": "ranajky",
+	"prepTimeMinutes": 5,
+	"steps": [
+		"Na kvapku olivového oleja polož ryžový papier, na ktorý vyklepni 2 vajcia, pridaj korenie H3T.",
+		"Potom pridaj baby špenát, plátky rjačín a nadrobený syr.",
+		"Zníž teplotu na polovicu a prikry pokrievkou. Nechaj piecť pár minút, kým sa vajíčka neupečú.",
+		"Omeletu prehni, pokvapkaj chilli omáčkou (voliteľné) a podávaj s čerstvou zeleninou."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 316,
+			"portions": 1,
+			"macros": {
+				"carbs": 13,
+				"protein": 23,
+				"fat": 19
+			},
+			"ingredients": [
+				{"name": "ryžový papier", "quantity": 1, "unit": "plátok"},
+				{"name": "olivový olej", "unit": "kvapka"},
+				{"name": "balkánsky syr", "quantity": 40, "unit": "g"},
+				{"name": "baby špenát", "quantity": 1, "unit": "hrsť"},
+				{"name": "vajce", "quantity": 2, "unit": "ks"},
+				{"name": "paradajka", "quantity": 100, "unit": "g"},
+				{"name": "korenie H3T"},
+				{"name": "chilli omáčka"}
+			]
+		}
+	],
+	"image": "onvia/image237.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image237"
+}

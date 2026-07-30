@@ -1,0 +1,101 @@
+{
+	"title": "Lososové cupcakes",
+	"category": "snacky",
+	"prepTimeMinutes": 48,
+	"steps": [
+		"Predhrej si rúru na 170°C funkcia ventilátor.",
+		"Losos nakrájaj na malé kocky, mrkvu postrúhaj a šalotku nakrájaj nadrobno.",
+		"Vo väčšej miske zmiešaj všetky suroviny na marinádu a vlož do nej lososa a zeleninu. Nechaj marinovať aspoň 30 min.",
+		"Medzitým si uvar ryžu podľa návodu na obale. Aby bola ešte autentickejšia, môžeš po uvarení pridať lyžicu ryžového octu. Vďaka tomu bude ryža lepkavejšia.",
+		"Rozrež si Nori morské riasy na 4 rovnaké štvorčeky, do stredu polož ryžu veľkosti čajovej lyžičky a vlož ju do muffinovej formy. Navrch polož lososovo-zeleninovú zmes. Takto postupuj aj pri ostatných košíčkoch.",
+		"Hotové košíčky vlož do rúry a peč 15-18 min. Po dopečení ich ozdob trochou chili omáčky alebo wakame."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 220,
+			"portions": 12,
+			"macros": {
+				"carbs": 18,
+				"protein": 20,
+				"fat": 3
+			},
+			"ingredients": [
+				{
+					"name": "losos",
+					"quantity": 300,
+					"unit": "g"
+				},
+				{
+					"name": "nori morská riasa",
+					"quantity": 3,
+					"unit": "plát"
+				},
+				{
+					"name": "lepkavá sushi ryža",
+					"quantity": 50,
+					"unit": "g"
+				},
+				{
+					"name": "šalotka",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "mrkva",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "med",
+					"quantity": 1,
+					"unit": "ČL"
+				},
+				{
+					"name": "sriracha",
+					"quantity": 2,
+					"unit": "ČL"
+				},
+				{
+					"name": "zázvor"
+				},
+				{
+					"name": "cesnak",
+					"quantity": 2,
+					"unit": "strúčik"
+				},
+				{
+					"name": "citrónová šťava",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "sójová omáčka",
+					"quantity": 2,
+					"unit": "PL"
+				},
+				{
+					"name": "biele korenie"
+				},
+				{
+					"name": "sezamové semienka",
+					"quantity": 1,
+					"unit": "ČL"
+				},
+				{
+					"name": "sezamový olej",
+					"quantity": 1,
+					"unit": "PL"
+				},
+				{
+					"name": "ryžový ocot",
+					"quantity": 1,
+					"unit": "PL"
+				}
+			]
+		}
+	],
+	"image": "onvia/image167.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image167"
+}

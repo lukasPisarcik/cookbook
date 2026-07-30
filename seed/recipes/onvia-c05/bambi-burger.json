@@ -1,0 +1,106 @@
+{
+	"title": "Bambi burger",
+	"category": "obedy",
+	"prepTimeMinutes": 40,
+	"steps": [
+		"Mleté mäso okoreníme, pridáme horčicu a vytvarujeme z neho rukami placku.",
+		"Na panvici alebo na grile opečieme mäsovú placku z obidvoch strán kým nie je prepečená.",
+		"Medzitým na strednom ohni restujeme cibuľu s olejom, cukrom, octom a korením, až pokým nám úplne nezmäkkne (cca 10-15 minút). Popritom ju stále miešame, aby sa nám nepripiekla.",
+		"Oblohu si nakrájame podľa potreby a na omáčku v miske zmiešame všetky suroviny dokopy.",
+		"Obidve polovice žemle (najlepšie je ich predtým krátko opiecť v rúre) potrieme omáčkou a na vrch položíme mäsovú placku a zeleninovú oblohu."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 394,
+			"portions": 1,
+			"macros": {
+				"carbs": 30,
+				"protein": 50,
+				"fat": 7
+			},
+			"ingredients": [
+				{
+					"name": "chudé mleté hovädzie mäso",
+					"quantity": 150,
+					"unit": "g"
+				},
+				{
+					"name": "horčica",
+					"quantity": 1,
+					"unit": "ČL"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "čierne korenie"
+				},
+				{
+					"name": "čerstvý cesnak"
+				},
+				{
+					"name": "rasca"
+				},
+				{
+					"name": "čerstvá petržlen"
+				},
+				{
+					"name": "sladká paprika"
+				},
+				{
+					"name": "celozrnná žemľa"
+				},
+				{
+					"name": "ľadový šalát"
+				},
+				{
+					"name": "nízkotučný krémový syr",
+					"quantity": 80,
+					"unit": "g"
+				},
+				{
+					"name": "horčica",
+					"quantity": 1,
+					"unit": "ČL"
+				},
+				{
+					"name": "kečup light",
+					"quantity": 1,
+					"unit": "ČL"
+				},
+				{
+					"name": "med",
+					"quantity": 0.5,
+					"unit": "ČL"
+				},
+				{
+					"name": "zeleninový bujón",
+					"unit": "štipka"
+				},
+				{
+					"name": "cibuľa",
+					"quantity": 0.5
+				},
+				{
+					"name": "balsamico ocot",
+					"quantity": 1,
+					"unit": "PL"
+				},
+				{
+					"name": "cukor Erythritol",
+					"quantity": 10,
+					"unit": "g"
+				},
+				{
+					"name": "olivový olej",
+					"quantity": 5,
+					"unit": "ml"
+				}
+			]
+		}
+	],
+	"image": "onvia/image98.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image98"
+}

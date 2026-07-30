@@ -1,0 +1,32 @@
+{
+	"title": "Čučoriedkový koláč z batátov",
+	"category": "dezerty",
+	"prepTimeMinutes": 20,
+	"steps": [
+		"Predhrej rúru na 180°C ohrev zhora/zdola, priprav si malú formu (ja zvyčajne používam 18 cm).",
+		"Ak používaš čerstvé sladké zemiaky, ošúp ich, nakrájaj na malé kocky a povar asi 15 minút pokým nezmäknú.",
+		"Všetky prísady okrem čučoriedok rozmixuj mixérom, ak je hmota príliš hustá, postupne pridávaj trochu vody, kým nevznikne krémová, nie príliš riedka konzistencia.",
+		"Čučoriedky vysyp do zmesi a premiešaj, niekoľko si ich nechaj bokom. Pridáš ich neskôr na vrch koláča.",
+		"Cesto nalej do formy, ozdob ho zvyšnými čučoriedkami a vlož do rúry na 30 minút. Po dopečení nechaj dobre vychladnúť a vychutnávaj."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 507,
+			"portions": 1,
+			"macros": {"carbs": 77, "protein": 41, "fat": 3},
+			"ingredients": [
+				{"name": "sladké zemiaky (uvarené)", "quantity": 150, "unit": "g"},
+				{"name": "proteínový prášok (vanilka)", "quantity": 30, "unit": "g"},
+				{"name": "instantné vločky", "quantity": 50, "unit": "g"},
+				{"name": "Unicorn Dust", "quantity": 6, "unit": "g"},
+				{"name": "vaječný bielok", "quantity": 2, "unit": "ks"},
+				{"name": "prášok do pečiva", "quantity": 1, "unit": "ČL"},
+				{"name": "čučoriedky", "quantity": 40, "unit": "g"}
+			]
+		}
+	],
+	"image": "onvia/image255.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image255"
+}

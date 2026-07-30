@@ -1,0 +1,36 @@
+{
+	"title": "Buddha bowl",
+	"category": "obedy",
+	"dietTags": ["vegan", "bezlaktozove", "bezlepkove"],
+	"prepTimeMinutes": 25,
+	"steps": [
+		"V miske zmiešaj tahini, studenú vodu, čierne korenie a morskú soľ.",
+		"Dobre vyšľahaj, aby vznikla hladká omáčka.",
+		"Na tanier alebo do misky vyskladaj uvarenú ryžu, čerstvú zeleninu a hummus.",
+		"Tofu opeč na panvičke s trochou oleja.",
+		"Všetko zalej dresingom a posyp sezamom."
+	],
+	"funFact": "Buddha bowl je pokrm inšpirovaný havajskou Poké Bowl, ktorá je väčšinou pripravovaná z rýb. Obe varianty obsahujú veľa vlákniny, ale tiež mikronutrienty (vitamíny a minerály).",
+	"variants": [
+		{
+			"label": "600 kcal",
+			"kcalPerPortion": 592,
+			"portions": 2,
+			"macros": {"carbs": 32, "protein": 23, "fat": 39},
+			"ingredients": [
+				{"name": "hummus", "quantity": 120, "unit": "g"},
+				{"name": "údené tofu", "quantity": 180, "unit": "g"},
+				{"name": "olivový olej", "quantity": 15, "unit": "g"},
+				{"name": "hnedá ryža", "quantity": 190, "unit": "g"},
+				{"name": "čerstvá zelenina", "quantity": 200, "unit": "g"},
+				{"name": "sezamové semienka", "quantity": 10, "unit": "g"},
+				{"name": "sezamová pasta tahini", "quantity": 30, "unit": "g"},
+				{"name": "studená voda", "quantity": 4, "unit": "PL"},
+				{"name": "čierne korenie"},
+				{"name": "soľ"}
+			]
+		}
+	],
+	"source": "Obedy - 600 kcal.pdf",
+	"sourceRef": "p7"
+}

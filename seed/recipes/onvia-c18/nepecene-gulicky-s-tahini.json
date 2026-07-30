@@ -1,0 +1,33 @@
+{
+	"title": "Nepečené guličky s tahini",
+	"category": "snacky",
+	"prepTimeMinutes": 70,
+	"steps": [
+		"Vločky, vlašské orechy, hrozienka alebo datle, proteínový prášok, tahini, štipku škorice vhoď do mixéra a zalej trochou vody.",
+		"Mixuj, kým nebude zmes polotuhá.",
+		"Cesto by nemalo byť príliš mastné, ale ani príliš drobivé, aby guľky držali pohromade.",
+		"Z cesta vytvaruj guľky a obal ich v pomletom maku. Niektoré môžeš nechať bez maku.",
+		"Skladuj v chladničke až týždeň."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 103,
+			"portions": 12,
+			"macros": {"carbs": 10, "protein": 4, "fat": 5},
+			"ingredients": [
+				{"name": "celé ovsené vločky", "quantity": 110, "unit": "g"},
+				{"name": "vlašské orechy", "quantity": 50, "unit": "g"},
+				{"name": "hrozienka", "quantity": 50, "unit": "g"},
+				{"name": "škorica", "unit": "štipka"},
+				{"name": "tahini", "quantity": 40, "unit": "g"},
+				{"name": "vanilkový proteínový prášok", "quantity": 20, "unit": "g"},
+				{"name": "voda", "quantity": 30, "unit": "ml"},
+				{"name": "mak"}
+			]
+		}
+	],
+	"image": "onvia/image357.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image357"
+}

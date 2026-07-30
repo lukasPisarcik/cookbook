@@ -1,0 +1,35 @@
+{
+	"title": "Pečené Francúzske toasty",
+	"category": "ranajky",
+	"prepTimeMinutes": 7,
+	"steps": [
+		"Predhrej rúru na 180 stupňov.",
+		"V nádobe na pečenie rozšľahaj 2 vajcia, pridaj mlieko, proteín (ak nemáš proteín na pečenie, pridaj napr. klasický vanilkový proteín), štipku škorice, štipku soli, odmerku Unicorn Dust a dôkladne premiešaj.",
+		"Do zmesi pridaj plátky toastového chleba nakrájané na kocky.",
+		"Na vrch polož nakrájaný banán a posyp hrsťou čučoriedok (alebo si vyber akékoľvek iné ovocie).",
+		"Vlož do vyhriatej rúry na približne 30 minút.",
+		"Následne ho rozdeľ na 4 porcie a vychutnaj si ho ešte teplý."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 208,
+			"portions": 4,
+			"macros": {"carbs": 28, "protein": 14, "fat": 4},
+			"ingredients": [
+				{"name": "toastový chlieb", "quantity": 6, "unit": "plátok"},
+				{"name": "vajce", "quantity": 2, "unit": "ks"},
+				{"name": "polotučné mlieko", "quantity": 100, "unit": "ml"},
+				{"name": "proteín na pečenie", "quantity": 1, "unit": "odmerka"},
+				{"name": "Unicorn Dust", "quantity": 1, "unit": "odmerka"},
+				{"name": "banán", "quantity": 1, "unit": "ks"},
+				{"name": "čučoriedky", "unit": "hrsť"},
+				{"name": "škorica", "unit": "štipka"},
+				{"name": "soľ", "unit": "štipka"}
+			]
+		}
+	],
+	"image": "onvia/image273.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image273"
+}

@@ -1,0 +1,44 @@
+{
+	"title": "Pečené kuracie stehná na smotanovej kapuste",
+	"category": "obedy",
+	"steps": [
+		"Rúru predhrejte na 180 stupňov.",
+		"Kapustu sceďte a prepláchnite aby nebola veľmi kyslá. Presuňte ju do pekáča a zalejte ju smotanou.",
+		"Kuracie stehná osoľte zo všetkých strán a položte na kapustu.",
+		"Dajte piecť na hodinu, ideálne 40 minút zakryté a potom odkryté.",
+		"Ak sa vám kapusta bude zdať kyslá, stačí ju ešte teplú premiešať s trstinovým cukrom podľa chuti.",
+		"Ideálnou prílohou je zemiaková knedľa, gnocchi alebo kvalitný chlieb."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 4,
+			"ingredients": [
+				{
+					"name": "kuracie stehno",
+					"quantity": 4,
+					"unit": "ks"
+				},
+				{
+					"name": "kyslá kapusta",
+					"quantity": 1,
+					"unit": "kg"
+				},
+				{
+					"name": "krémová smotana s 15 % tuku",
+					"quantity": 400,
+					"unit": "g"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "trstinový cukor"
+				}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p68.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p68"
+}

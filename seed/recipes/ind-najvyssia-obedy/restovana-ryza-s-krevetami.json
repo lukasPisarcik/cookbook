@@ -1,0 +1,99 @@
+{
+	"title": "Restovaná ryža s krevetami",
+	"category": "obedy",
+	"dietTags": ["bezlaktozove"],
+	"prepTimeMinutes": 35,
+	"steps": [
+		"Ryžu uvar podľa návodu a osoľ.",
+		"Medzitým si daj zovrieť zvlášť vodu v hrnci a uvar si hrášok a hráškové struky na 1 minútu. Potom ich sceď a odlož bokom spolu s ryžou.",
+		"Zatiaľ si na strednom ohni rozohrej veľkú neprilnavú panvicu alebo wok a orestuj pokrájanú nadrobno cibuľu približne 10 minút, kým nebude zlatohnedá.",
+		"Pridaj rozlatačený cesnak a najemno nastrúhaný zázvor a smaž ešte ďalšiu minútu.",
+		"Potom pridaj hrášok a struky a smaž 5 minút, ďalej pridaj krevety a smaž ešte 2 minúty. Primiešaj ryžu do panvice a všetko posuň na jednu stranu.",
+		"Do volnej časti panvice vlej rozšľahané vajcia a miešaj, aby sa spravila praženica.",
+		"Nakoniec všetko spolu premiešaj so sezamovými semienkami, sójovkou a octom.",
+		"Posyp jarnou cibuľkou nakrájanou na kolieska a môžeš podávať."
+	],
+	"funFact": "V Japonsku existuje zmrzlina s príchuťou kreviet.",
+	"variants": [
+		{
+			"label": "600 kcal",
+			"kcalPerPortion": 601,
+			"portions": 3,
+			"macros": {
+				"carbs": 85,
+				"protein": 32,
+				"fat": 14
+			},
+			"ingredients": [
+				{
+					"name": "ryža",
+					"quantity": 240,
+					"unit": "g"
+				},
+				{
+					"name": "mrazený hrášok",
+					"quantity": 150,
+					"unit": "g"
+				},
+				{
+					"name": "hráškové struky",
+					"quantity": 100,
+					"unit": "g"
+				},
+				{
+					"name": "olivový olej",
+					"quantity": 15,
+					"unit": "g"
+				},
+				{
+					"name": "cibuľa",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "cesnak",
+					"quantity": 2,
+					"unit": "strúčik"
+				},
+				{
+					"name": "zázvor",
+					"quantity": 100,
+					"unit": "g"
+				},
+				{
+					"name": "surové krevety",
+					"quantity": 150,
+					"unit": "g"
+				},
+				{
+					"name": "vajce",
+					"quantity": 3,
+					"unit": "ks"
+				},
+				{
+					"name": "sezamové semienka",
+					"quantity": 10,
+					"unit": "g"
+				},
+				{
+					"name": "sójová omáčka",
+					"quantity": 1,
+					"unit": "PL"
+				},
+				{
+					"name": "ryžový ocot",
+					"quantity": 0.5,
+					"unit": "PL"
+				},
+				{
+					"name": "jarná cibuľka",
+					"quantity": 4,
+					"unit": "ks"
+				}
+			]
+		}
+	],
+	"image": "restovana-ryza-s-krevetami-600-kcal/p1.webp",
+	"source": "Restovaná ryža s krevetami - 600 kcal.pdf",
+	"sourceRef": "p1"
+}

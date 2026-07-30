@@ -1,0 +1,37 @@
+{
+	"title": "Syrové pyré z karfiolu s jahňacím filetom",
+	"category": "vecere",
+	"prepTimeMinutes": 30,
+	"steps": [
+		"Mäso v miske marinuj s koreninami a nechaj ho chvíľu odstáť.",
+		"Daj do hrnca vodu, nechaj zovrieť a pridaj do nej karfiol nasekaný na drobno. Prikry ho pokrievkou, aby sa lepšie uvaril. Asi po 10 minútach by mal byť karfiol mäkký. Sceď ho z vody a nechaj dobre odkvapkať.",
+		"Scedený karfiol pridaj do kuchynského mixéra spolu s maslom, teveným syrom a korením.",
+		"Mixuj pokým sa všetky suroviny pekne neprepoja a nevznikne krémová konzistencia.",
+		"Po vymixovaní vlož kašu do misky, primiešaj strúhaný syr a nakrájanú pažítku.",
+		"Mäso opeč na rozpálenej panvici zo všetkých strán a podávaj nakrájané na syrovo karfiolovom pyré."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 472,
+			"portions": 1,
+			"macros": {"carbs": 24, "protein": 50, "fat": 16},
+			"ingredients": [
+				{"name": "mrazený karfiol", "quantity": 500, "unit": "g"},
+				{"name": "maslo", "quantity": 15, "unit": "g"},
+				{"name": "tavený syr light", "quantity": 30, "unit": "g"},
+				{"name": "čerstvá nasekaná pažítka", "quantity": 20, "unit": "g"},
+				{"name": "strúhaný syr light", "quantity": 50, "unit": "g"},
+				{"name": "jahňací filet", "quantity": 150, "unit": "g"},
+				{"name": "morská soľ"},
+				{"name": "čierne korenie"},
+				{"name": "cesnak"},
+				{"name": "tymián"},
+				{"name": "rozmarín"}
+			]
+		}
+	],
+	"image": "onvia/image206.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image206"
+}

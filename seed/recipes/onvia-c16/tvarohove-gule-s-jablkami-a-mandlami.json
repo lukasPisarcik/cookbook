@@ -1,0 +1,37 @@
+{
+	"title": "Tvarohové gule s jablkami a mandľami",
+	"category": "dezerty",
+	"prepTimeMinutes": 20,
+	"steps": [
+		"Všetky suroviny na gule pomixujeme ručným mixérom a necháme odstáť 10 minút.",
+		"Hrniec naplníme na 75% vodou a necháme zovrieť.",
+		"Medzitým si na plnku rozohrejeme na panvici cukor Erytritol, jablko nakrájame na kocky, mandle nasekáme, zmiešame v miske so škoricou a pridáme na panvicu. Po dobu 8-10 minút necháme skaramelizovať na panvici za občasného miešania.",
+		"Pripravíme si misku s vodou a mokrými rukami tvarujeme gule, s prstom vytvoríme malý otvor do gule, otvor naplníme plnkou a zatvoríme zlepením cesta pomocou prstov.",
+		"Gule vložíme na 8 minút do hrnca s vriacou vodou.",
+		"Gule postupne vyplávajú na povrch, po 8 minútach ich vytiahneme z vody, ozdobíme zvyškom plnky a podávame."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 484,
+			"portions": 1,
+			"macros": {"carbs": 27, "protein": 58, "fat": 14},
+			"ingredients": [
+				{"name": "nízkotučný tvaroh jemný", "quantity": 200, "unit": "g"},
+				{"name": "ľanová múka", "quantity": 30, "unit": "g"},
+				{"name": "proteínový prášok", "quantity": 25, "unit": "g"},
+				{"name": "bielok", "quantity": 1, "unit": "ks"},
+				{"name": "psyllium", "quantity": 8, "unit": "g"},
+				{"name": "Unicorn Dust", "quantity": 3, "unit": "g"},
+				{"name": "malé jablko", "quantity": 1, "unit": "ks"},
+				{"name": "nasekané mandle", "quantity": 15, "unit": "g"},
+				{"name": "Unicorn Dust", "quantity": 3, "unit": "g"},
+				{"name": "soľ", "unit": "štipka"},
+				{"name": "škorica"}
+			]
+		}
+	],
+	"image": "onvia/image304.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image304"
+}

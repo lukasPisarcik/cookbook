@@ -1,0 +1,53 @@
+{
+	"title": "Domáce bagels",
+	"category": "zaklady",
+	"prepTimeMinutes": 30,
+	"steps": [
+		"Predhrej rúru na 185°C ohrev zhora/zdola.",
+		"V miske zmiešaj mandľovú múku, jogurt a veľkú štipku soli. Dôkladne premiešaj a nechaj chvíľu odstáť.",
+		"Navlhči si ruky vodou a potom vytvaruj mini bagels. Vždy vytvor guľôčku a potom prstom urob do stredu jamku.",
+		"Bagels polož na plech vyložený papierom na pečenie, potri rozšľahaným vajíčkom, aby mali zlatistú farbu po dopečení, posyp sezamovými semienkami a upeč.",
+		"Peč približne 25 minút, kým nie sú pekne zlatzisté.",
+		"Ako náplň si môžeš vybrať čokoľvek. Ja som ako prvú možnosť zvolila miešané vajíčka so slaninou a ako druhú možnosť nátierkový syr s cherry paradajkami.",
+		"Dobrú chuť!"
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 186,
+			"portions": 5,
+			"macros": {
+				"carbs": 7,
+				"protein": 10,
+				"fat": 15
+			},
+			"ingredients": [
+				{
+					"name": "mandľová múka",
+					"quantity": 140,
+					"unit": "g"
+				},
+				{
+					"name": "skyr natural",
+					"quantity": 200,
+					"unit": "g"
+				},
+				{
+					"name": "soľ",
+					"unit": "štipka"
+				},
+				{
+					"name": "vajce",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "sezam"
+				}
+			]
+		}
+	],
+	"image": "onvia/image43.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image43"
+}

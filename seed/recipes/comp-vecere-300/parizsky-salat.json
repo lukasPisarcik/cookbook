@@ -1,0 +1,85 @@
+{
+	"title": "Parížsky šalát",
+	"category": "vecere",
+	"prepTimeMinutes": 10,
+	"steps": [
+		"Šunku nakráj na tenké pásiky.",
+		"Do misky pridaj hrášok, nadrobno nakrájanú cibuľu a kyslé uhorky.",
+		"Pridaj zvyšné suroviny a dôkladne premiešaj.",
+		"Šalát dochuť nálevom z uhoriek podľa chuti a konzistencie.",
+		"Na 1 porciu, podávaj plátok proteínového chlebíka.",
+		"Vyjdú ti 2 porcie."
+	],
+	"variants": [
+		{
+			"label": "300 kcal",
+			"kcalPerPortion": 297,
+			"portions": 2,
+			"macros": {
+				"carbs": 12,
+				"protein": 32,
+				"fat": 12
+			},
+			"ingredients": [
+				{
+					"name": "kvalitná šunka",
+					"quantity": 100,
+					"unit": "g"
+				},
+				{
+					"name": "uvarený hrášok",
+					"quantity": 140,
+					"unit": "g"
+				},
+				{
+					"name": "grécky jogurt",
+					"quantity": 125,
+					"unit": "g"
+				},
+				{
+					"name": "cream cheese",
+					"quantity": 40,
+					"unit": "g"
+				},
+				{
+					"name": "kyslé uhorky",
+					"quantity": 25,
+					"unit": "g"
+				},
+				{
+					"name": "cibuľa",
+					"quantity": 0.125,
+					"unit": "ks"
+				},
+				{
+					"name": "citrónová šťava",
+					"quantity": 0.5,
+					"unit": "ČL"
+				},
+				{
+					"name": "horčica",
+					"quantity": 2,
+					"unit": "ČL"
+				},
+				{
+					"name": "nálev z kyslých uhoriek",
+					"quantity": 1,
+					"unit": "ČL"
+				},
+				{
+					"name": "čierne korenie"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "proteínový chlebík",
+					"quantity": 2,
+					"unit": "plátok"
+				}
+			]
+		}
+	],
+	"source": "Večere - 300 kcal.pdf",
+	"sourceRef": "p6"
+}

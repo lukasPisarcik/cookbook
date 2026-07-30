@@ -8,7 +8,10 @@ declare global {
 			code?: string;
 			id?: string;
 		}
-		// interface Locals {}
+		interface Locals {
+			/** True when the request carries a valid session cookie. */
+			authed: boolean;
+		}
 		// interface PageData {}
 		// interface PageState {}
 		// interface Platform {}

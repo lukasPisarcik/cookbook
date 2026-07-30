@@ -1,0 +1,42 @@
+{
+	"title": "Tvarohový dezert so sušienkami",
+	"category": "dezerty",
+	"steps": [
+		"Tvaroh zmiešajte spolu s cukrom.",
+		"Na dno dvoch mištičiek nalámte polovicu sušienok, na ne navrstvite polovicu tvarohu, potom položte zvyšok sušienok, navrstvite znovu tvaroh a nakoniec posypte rovnomerne kakaom."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 2,
+			"ingredients": [
+				{
+					"name": "plnotučný tvaroh vo vaničke",
+					"quantity": 120,
+					"unit": "g"
+				},
+				{
+					"name": "nízkotučný tvaroh vo vaničke",
+					"quantity": 230,
+					"unit": "g"
+				},
+				{
+					"name": "práškový cukor",
+					"quantity": 1,
+					"unit": "PL"
+				},
+				{
+					"name": "sušienky BeBe rodinné",
+					"quantity": 40,
+					"unit": "g"
+				},
+				{
+					"name": "holandské kakao"
+				}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p61.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p61"
+}

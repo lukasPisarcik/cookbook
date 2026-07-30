@@ -1,0 +1,68 @@
+{
+	"title": "Cuketové mini placky",
+	"category": "snacky",
+	"prepTimeMinutes": 30,
+	"steps": [
+		"Cuketu nastrúhaj najemno, osoľ a nechaj 5–10 minút odstáť.",
+		"Potom ju dobre vyžmýkaj (napr. cez čistú utierku).",
+		"Pridaj vajce, cottage cheese, múku a koreniny.",
+		"Všetko dobre premiešaj.",
+		"Tvaruj malé placky a opeč na panvici s troškou oleja (alebo v rúre na 180 °C cca 20 minút, otoč v polovici).",
+		"Na vrch môžeš dať čerstvo pokrájanú pažítku.",
+		"Dobrú chuť ;)"
+	],
+	"variants": [
+		{
+			"label": "300 kcal",
+			"kcalPerPortion": 348,
+			"portions": 1,
+			"macros": {
+				"carbs": 27,
+				"protein": 25,
+				"fat": 14
+			},
+			"ingredients": [
+				{
+					"name": "cuketa",
+					"quantity": 200,
+					"unit": "g"
+				},
+				{
+					"name": "vajíčko",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "olivový olej",
+					"quantity": 5,
+					"unit": "g"
+				},
+				{
+					"name": "cottage cheese light",
+					"quantity": 100,
+					"unit": "g"
+				},
+				{
+					"name": "špaldová múka",
+					"quantity": 30,
+					"unit": "g"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "čierne korenie"
+				},
+				{
+					"name": "sušený cesnak"
+				},
+				{
+					"name": "čerstvá pažítka"
+				}
+			]
+		}
+	],
+	"image": "cuketove-placky-300-kcal/p1.webp",
+	"source": "Cuketové placky - 300 kcal.pdf",
+	"sourceRef": "p1"
+}

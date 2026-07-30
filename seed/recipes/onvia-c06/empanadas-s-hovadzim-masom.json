@@ -1,0 +1,40 @@
+{
+	"title": "Empanadas s hovädzím mäsom",
+	"category": "snacky",
+	"prepTimeMinutes": 45,
+	"steps": [
+		"Lístkové cesto rozbaľ a nakrájaj na 12 rovnakých štvorcov.",
+		"V miske zmiešaj mleté mäso, nadrobno nakrájanú cibuľu a koreniny (soľ, majoránka, sušený cesnak).",
+		"Pomocou lyžice rozdeľ mäsovú zmes medzi 12 štvorcov cesta, pričom každý štvorec prelož zvlášť a okraje pritlač k sebe, aby sa zmes nevysypala.",
+		"V miske alebo hrnčeku rozšľahaj vajce a silikónovým štetcom potri všetky taštičky.",
+		"Vlož do rúry vyhriatej na 185°C na približne 25-30 minút (kým nie sú zlatohnedé). Môžeš otestovať, či sú hotové tak, že jednu rozkrojíš a zistíš, či je mäso hotové.",
+		"Podávaj s bazalkovým pestom."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 296,
+			"portions": 4,
+			"macros": {
+				"carbs": 15,
+				"protein": 14,
+				"fat": 19
+			},
+			"ingredients": [
+				{ "name": "lístkové cesto", "quantity": 125, "unit": "g" },
+				{ "name": "hovädzie mäso", "quantity": 150, "unit": "g" },
+				{ "name": "cibuľa", "quantity": 0.5, "unit": "ks" },
+				{ "name": "vajce", "quantity": 1, "unit": "ks" },
+				{ "name": "soľ" },
+				{ "name": "majoránka" },
+				{ "name": "sušený cesnak" },
+				{ "name": "bazalka", "quantity": 1, "unit": "hrsť" },
+				{ "name": "Pesto Genovese", "quantity": 2, "unit": "PL" },
+				{ "name": "voda", "quantity": 2, "unit": "PL" }
+			]
+		}
+	],
+	"image": "onvia/image138.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image138"
+}

@@ -1,0 +1,33 @@
+{
+	"title": "Slivkové Pop Tarts",
+	"category": "dezerty",
+	"prepTimeMinutes": 5,
+	"steps": [
+		"Vezmi 1 plátok toastu a potri ho bielkom. Otoč ho na tanieri a do suchej strany toastu v strede vytvaruj prstami priehlbinu. Potom do nej pridaj 40 g džemu. Vnútorné okraje toastu navôkol džemu tiež potri bielkom.",
+		"Vezmi si ďalší plátok toastu a spodné okraje opäť potri bielkom, aby sa lepšie prilepili a uzavreli, keď toast položíš na vrch toastu s džemom. Potom celý toast potri bielkom aj zvrchu a prstami dobre postláčaj okraje, aby sa lepšie uzavreli.",
+		"Vezmi si vidličkou a ešte ňou stlač okraje na vôkol toastu. (Podobne akoby si robila pirohy) Prebytočné kúsky toastu odkroj. Tento postup zopakuj pre všetky Pop Tarts.",
+		"Keď sú hotové, vlož ich do fritézy (AirFryer) a nastriekaj vrchné časti olejom v spreji. Peč ich na 200°C 3 - 4 minúty. Keď sú vrchné časti zlatisté, otoč ich, aby sa upiekli aj spodné časti.",
+		"Pokým sa Pop Tarts pečú, vytvor si polevu pridaním všetkých suchých surovín do misky a premiešaj, aby sa zabránilo ich zhlukovaniu. Pridaj trošku studenej vody a miešaj, kým nezískaš hustú konzistenciu polevy. Potom pridaj grécky jogurt a miešaj, kým nevznikne finálna hustá poleva.",
+		"Akonáhle sú Pop Tarts upečené, pridaj na každý z nich polevu. Vrch ozdob čím len chceš a vychutnaj si ich!"
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 161,
+			"portions": 4,
+			"macros": {"carbs": 29, "protein": 9, "fat": 1},
+			"ingredients": [
+				{"name": "toastový chlieb", "quantity": 8, "unit": "ks"},
+				{"name": "vaječné bielky", "quantity": 50, "unit": "g"},
+				{"name": "domáci slivkový džem", "quantity": 160, "unit": "g"},
+				{"name": "vanilkový proteínový prášok", "quantity": 20, "unit": "g"},
+				{"name": "xantánová guma", "quantity": 2, "unit": "g"},
+				{"name": "Unicorn Dust", "quantity": 3, "unit": "g"},
+				{"name": "nízkotučný grécky jogurt", "quantity": 60, "unit": "g"}
+			]
+		}
+	],
+	"image": "onvia/image261.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image261"
+}

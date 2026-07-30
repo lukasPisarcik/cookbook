@@ -1,0 +1,49 @@
+{
+	"title": "Quinoa chlieb",
+	"category": "zaklady",
+	"steps": [
+		"Bielu quinou namoč na 12 hodín do vody.",
+		"Vodu sceď a quinou vlož do mixéra.",
+		"Pridaj 1 čajovú lyžičku soli, vodu a mixuj do hladka.",
+		"Cesto nalej do misy a nechaj ho 24 hodín pri izbovej teplote, aby vykyslo.",
+		"Cesto nalej do formy na pečenie, posyp slnečnicovými semienkami a peč pri teplote 180 stupňov 30 minút.",
+		"Pred krájaním nechaj vychladnúť."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 259,
+			"portions": 4,
+			"macros": {
+				"carbs": 41,
+				"protein": 10,
+				"fat": 6
+			},
+			"ingredients": [
+				{
+					"name": "quinoa",
+					"quantity": 250,
+					"unit": "g"
+				},
+				{
+					"name": "soľ",
+					"quantity": 1,
+					"unit": "ČL"
+				},
+				{
+					"name": "voda",
+					"quantity": 150,
+					"unit": "ml"
+				},
+				{
+					"name": "slnečnicové semienka",
+					"quantity": 20,
+					"unit": "g"
+				}
+			]
+		}
+	],
+	"image": "onvia/image46.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image46"
+}

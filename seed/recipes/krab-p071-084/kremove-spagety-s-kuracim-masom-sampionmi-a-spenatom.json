@@ -1,0 +1,87 @@
+{
+	"title": "Krémové špagety s kuracím mäsom, šampiónmi a špenátom",
+	"category": "obedy",
+	"steps": [
+		"Cibuľu a cesnak zbavte šupky a nakrájané nadrobno. Šampiónov umyte a nakrájajte na plátky a kuracie prsia nakrájajte na kocky.",
+		"V hlbokej panvici rozohrejte olej a orestuje na ňom cibuľu s cesnakom. Potom pridajte mäso a orestujte zo všetkých strán. Nakoniec pridajte šampiónony a opäť orestujte. Osoľte a podlejte vodou.",
+		"Pridajte pretlak a mletú papriku, duste cca 15-20 minút, kým nebude mäso mäkké.",
+		"Potom pridajte smotanu a nechajte 5 minút prebublať. Ak by bola omáčka riedka, rozmiešajte v troške vody múku a omáčku zahustite. Povarte 10 minút.",
+		"Nakoniec pridajte umytý špenát a nechajte chvíľu povariť.",
+		"Špagety uvarte v osolenej vode, po uvarení zlejte vodu a premiešajte omáčku.",
+		"Ihneď servírujte alebo pripravte porcie do krabičiek."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 4,
+			"ingredients": [
+				{
+					"name": "olivový olej",
+					"quantity": 1,
+					"unit": "PL"
+				},
+				{
+					"name": "cibuľa",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "cesnak",
+					"quantity": 2,
+					"unit": "strúčik"
+				},
+				{
+					"name": "kuracie prsia",
+					"quantity": 500,
+					"unit": "g"
+				},
+				{
+					"name": "šampióny",
+					"quantity": 250,
+					"unit": "g"
+				},
+				{
+					"name": "voda",
+					"quantity": 450,
+					"unit": "ml"
+				},
+				{
+					"name": "mletá paprika",
+					"quantity": 2,
+					"unit": "ČL"
+				},
+				{
+					"name": "paradajkový pretlak",
+					"quantity": 85,
+					"unit": "g"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "krémová smotana 15 % tuku",
+					"quantity": 400,
+					"unit": "ml"
+				},
+				{
+					"name": "špaldová hladká múka",
+					"quantity": 20,
+					"unit": "g"
+				},
+				{
+					"name": "čerstvý špenát",
+					"quantity": 3,
+					"unit": "hrsť"
+				},
+				{
+					"name": "špagety",
+					"quantity": 500,
+					"unit": "g"
+				}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p74.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p74"
+}

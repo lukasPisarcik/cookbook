@@ -1,0 +1,34 @@
+{
+	"title": "Acai bowl",
+	"category": "ranajky",
+	"prepTimeMinutes": 15,
+	"steps": [
+		"V mixéri zmiešaj acai prášok, kolagén / proteín, banán, lesné plody, sladidlo a mandľové mlieko.",
+		"Nalej do misky a ozdob plátkami banánu, čerstvým ovocím, granolou, orieškovým maslom a semienkami.",
+		"Konzumuj hneď, kým sa to roztopí :D."
+	],
+	"funFact": "Acai pochádza z amazonského dažďového pralesa a je považované za superpotravinu. Oproti čučoriedkam obsahujú acai bobule až trojnásobok antioxidantov.",
+	"variants": [
+		{
+			"label": "550 kcal",
+			"kcalPerPortion": 544,
+			"portions": 1,
+			"macros": { "carbs": 50, "protein": 29, "fat": 22 },
+			"ingredients": [
+				{ "name": "acai prášok", "quantity": 2, "unit": "ČL" },
+				{ "name": "banán", "quantity": 1, "unit": "ks" },
+				{ "name": "kolagén", "quantity": 20, "unit": "g" },
+				{ "name": "mrazené lesné plody", "quantity": 100, "unit": "g" },
+				{ "name": "mandľové mlieko", "quantity": 100, "unit": "ml" },
+				{ "name": "stévia" },
+				{ "name": "čerstvé ovocie", "quantity": 20, "unit": "g" },
+				{ "name": "granola", "quantity": 30, "unit": "g" },
+				{ "name": "chia semienka", "quantity": 3, "unit": "g" },
+				{ "name": "orieškové maslo", "quantity": 15, "unit": "g" }
+			]
+		}
+	],
+	"image": "ranajky-550-kcal/p14.webp",
+	"source": "Raňajky - 550 kcal.pdf",
+	"sourceRef": "p14"
+}

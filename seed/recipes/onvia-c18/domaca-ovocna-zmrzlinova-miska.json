@@ -1,0 +1,29 @@
+{
+	"title": "Domáca ovocná zmrzlinová miska",
+	"category": "dezerty",
+	"prepTimeMinutes": 35,
+	"steps": [
+		"Všetky prísady zmixujeme ručným mixérom a pridáme vodu.",
+		"Mixujeme cca 2-3 minúty, pokým sa nám Xanthán nespojí s vodou a zmes začne naberať na objeme. Výsledkom by mala byť krémová, vzdušná konzistencia zmesi.",
+		"Podľa chuti môžeme ešte dosladiť, pridať rôzne topingy a servírovať."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 272,
+			"portions": 1,
+			"macros": {"carbs": 16, "protein": 45, "fat": 2},
+			"ingredients": [
+				{"name": "proteínový prášok", "quantity": 30, "unit": "g"},
+				{"name": "nízkotučný tvaroh jemný", "quantity": 150, "unit": "g"},
+				{"name": "mrazené lesné ovocie", "quantity": 150, "unit": "g"},
+				{"name": "xanthánová guma", "quantity": 0.5, "unit": "ČL"},
+				{"name": "voda", "quantity": 150, "unit": "ml"},
+				{"name": "sladidlo"}
+			]
+		}
+	],
+	"image": "onvia/image348.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image348"
+}

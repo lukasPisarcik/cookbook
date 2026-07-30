@@ -1,0 +1,34 @@
+{
+	"title": "Berry smoothie",
+	"category": "smoothies",
+	"dietTags": ["bezlepkove"],
+	"prepTimeMinutes": 5,
+	"steps": [
+		"Zmixuj všetky ingrediencie.",
+		"Môžeš podávať s ľadom."
+	],
+	"funFact": "Cvikla obsahuje betalaíny, ktoré pôsobia ako silné antioxidanty a bojujú napríklad aj proti oxidačnému stresu, či zápalom.",
+	"variants": [
+		{
+			"label": "200 kcal",
+			"kcalPerPortion": 225,
+			"portions": 1,
+			"macros": {
+				"carbs": 30,
+				"protein": 12,
+				"fat": 4
+			},
+			"ingredients": [
+				{"name": "mrazené lesné ovocie", "quantity": 100, "unit": "g"},
+				{"name": "mrazené mango", "quantity": 50, "unit": "g"},
+				{"name": "varená cvikla", "quantity": 50, "unit": "g"},
+				{"name": "grécky jogurt", "quantity": 40, "unit": "g"},
+				{"name": "nesladené mandľové mlieko", "quantity": 150, "unit": "ml"},
+				{"name": "jahodový proteín", "quantity": 15, "unit": "g"}
+			]
+		}
+	],
+	"image": "smoothie-200-kcal/p5.webp",
+	"source": "Smoothie - 200 kcal.pdf",
+	"sourceRef": "p5"
+}

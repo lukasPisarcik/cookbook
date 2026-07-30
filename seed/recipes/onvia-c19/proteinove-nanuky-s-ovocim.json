@@ -1,0 +1,30 @@
+{
+	"title": "Proteínové nanuky s ovocím",
+	"category": "dezerty",
+	"prepTimeMinutes": 130,
+	"steps": [
+		"V miske vymiešaj tvaroh, jogurt, sirup a semienka z vanilkového lusku.",
+		"Akékoľvek ovocie nakrájaj na malé kocky.",
+		"Priprav si formy na nanuky.",
+		"Formičky najprv naplň 1/2 pripraveného ovocia. Potom pridaj zmes jogurtu a tvarohu. Nakoniec zvyšok ovocia. Pridaj tyčinky na nanuky a vlož ich do mrazničky.",
+		"Nanuky nechaj v mrazničke aspoň 2 hodiny a potom si ich vychutnaj."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 78,
+			"portions": 4,
+			"macros": { "carbs": 6, "protein": 9, "fat": 1 },
+			"ingredients": [
+				{ "name": "nízkotučný tvaroh", "quantity": 250, "unit": "g" },
+				{ "name": "biely jogurt max. 3 % tuku", "quantity": 150, "unit": "g" },
+				{ "name": "čakankový sirup", "quantity": 1, "unit": "PL" },
+				{ "name": "semienka z vanilkového lusku" },
+				{ "name": "ovocie podľa vlastného výberu", "quantity": 100, "unit": "g" }
+			]
+		}
+	],
+	"image": "onvia/image360.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image360"
+}

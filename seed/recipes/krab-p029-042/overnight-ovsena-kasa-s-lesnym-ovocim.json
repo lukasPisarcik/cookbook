@@ -1,0 +1,28 @@
+{
+	"title": "Overnight ovsená kaša s lesným ovocím",
+	"category": "ranajky",
+	"steps": [
+		"Všetky ingrediencie okrem sušeného ovocia a orechov zmiešajte v miske a zmes presuňte do dvoch krabičiek.",
+		"Krabičky zakryte a dajte na 3 hodiny (ideálne cez noc) vychladiť do chladničky.",
+		"Ráno ozdobte ovocím a orechmi. Môžete pridať ešte skyr alebo grécky jogurt s 0 % tuku."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 2,
+			"ingredients": [
+				{"name": "ovsené jemné vločky", "quantity": 110, "unit": "g"},
+				{"name": "chia semienka", "quantity": 2, "unit": "ČL"},
+				{"name": "smotanový jogurt", "quantity": 90, "unit": "g"},
+				{"name": "polotučné mlieko", "quantity": 260, "unit": "g"},
+				{"name": "med", "quantity": 1, "unit": "PL"},
+				{"name": "rozmrazené lesné ovocie", "quantity": 120, "unit": "g"},
+				{"name": "sušené ovocie na ozdobu"},
+				{"name": "obľúbené orechy na ozdobu"}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p30.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p30"
+}

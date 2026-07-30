@@ -1,0 +1,91 @@
+{
+	"title": "Cestoviny s ratatouille",
+	"category": "obedy",
+	"dietTags": ["vegan", "vegetarianske"],
+	"prepTimeMinutes": 25,
+	"steps": [
+		"Cestoviny uvar vo vriacej, mierne osolenej vode.",
+		"V menšom hrnci ohrej lúpané paradajky a rozmiešaj ich so 100 – 200 ml vody.",
+		"Pridaj na malé kúsky nakrájaný baklažán, nasekané olivy, prelisovaný cesnak, soľ a všetky koreniny.",
+		"Omáčku var pod pokrievkou na miernom ohni približne 10 – 15 minút, kým baklažán nezmäkne.",
+		"Medzitým si na panvici zohrej lyžičku olivového oleja.",
+		"Tofu (osušené v papierových obrúskoch) nakrájaj na malé kocky a opeč ho na panvici do zlatista (cca 5 minút).",
+		"Opečené tofu primiešaj do hotovej omáčky.",
+		"Následne zamiešaj omáčku do uvarených scedených cestovín."
+	],
+	"variants": [
+		{
+			"label": "500 kcal",
+			"kcalPerPortion": 529,
+			"portions": 3,
+			"macros": {
+				"carbs": 68,
+				"protein": 28,
+				"fat": 15
+			},
+			"ingredients": [
+				{
+					"name": "celozrnné cestoviny",
+					"quantity": 200,
+					"unit": "g"
+				},
+				{
+					"name": "lúpané sekané paradajky",
+					"quantity": 1,
+					"unit": "konzerva"
+				},
+				{
+					"name": "voda",
+					"quantity": 150,
+					"unit": "ml"
+				},
+				{
+					"name": "čierne olivy",
+					"quantity": 50,
+					"unit": "g"
+				},
+				{
+					"name": "baklažán",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "marinované tofu",
+					"quantity": 360,
+					"unit": "g"
+				},
+				{
+					"name": "cesnak",
+					"quantity": 2,
+					"unit": "strúčik"
+				},
+				{
+					"name": "olivový olej",
+					"quantity": 1,
+					"unit": "ČL"
+				},
+				{
+					"name": "soľ",
+					"quantity": 0.5,
+					"unit": "ČL"
+				},
+				{
+					"name": "provensálske korenie",
+					"quantity": 1,
+					"unit": "ČL"
+				},
+				{
+					"name": "čili",
+					"unit": "štipka"
+				},
+				{
+					"name": "čierne korenie",
+					"unit": "štipka"
+				}
+			]
+		}
+	],
+	"image": "cestoviny-s-ratatouille-500-kcal/p1.webp",
+	"source": "Cestoviny s ratatouille - 500 kcal.pdf",
+	"sourceRef": "p1"
+}

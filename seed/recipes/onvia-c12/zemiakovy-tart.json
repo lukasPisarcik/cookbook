@@ -1,0 +1,34 @@
+{
+	"title": "Zemiakový tart",
+	"category": "obedy",
+	"prepTimeMinutes": 30,
+	"steps": [
+		"Zemiaky uvar v šupke domäkka, nechaj vychladnúť, ošúp a nakrájaj na menšie kúsky.",
+		"Vlož ich do vymastenej formy, vidličkou jemne roztlač, osoľ a pokvapkaj olivovým olejom.",
+		"Na vrch poukladaj očistené huby a cibuľu nakrájanú na pásiky. Osoľ, okoreň a posyp čerstvými bylinkami.",
+		"Smotanu zmiešaj s ricottou, dochuť soľou a korením a zmesou rovnomerne polej tart.",
+		"Peč v rúre vyhriatej na 190 °C približne 40 minút, kým povrch nezíska zlatistú farbu."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 194,
+			"portions": 8,
+			"macros": { "carbs": 27, "protein": 6, "fat": 7 },
+			"ingredients": [
+				{ "name": "zemiak", "quantity": 1000, "unit": "g" },
+				{ "name": "líšky", "quantity": 200, "unit": "g" },
+				{ "name": "červená cibuľa", "quantity": 100, "unit": "g" },
+				{ "name": "olivový olej", "quantity": 10, "unit": "g" },
+				{ "name": "smotana na varenie", "quantity": 200, "unit": "g" },
+				{ "name": "ricotta", "quantity": 200, "unit": "g" },
+				{ "name": "soľ" },
+				{ "name": "čierne korenie" },
+				{ "name": "čerstvé bylinky" }
+			]
+		}
+	],
+	"image": "onvia/image247.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image247"
+}

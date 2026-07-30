@@ -1,0 +1,33 @@
+{
+	"title": "Tvarohový koláč bez lepku",
+	"category": "dezerty",
+	"dietTags": ["bezlepkove"],
+	"steps": [
+		"Rúru predhrejte na 170 stupňov.",
+		"Vyšľahajte vajcia s cukrom, potom zašľahajte maslo, tvaroh, vanilkový cukor, mandľovú múku a kypriaci prášok.",
+		"V misky zmiešajte všetky ingrediencie na mrveničku a zapracujte ju rukami.",
+		"Koláčovú formu vymastite trochou masla a vysypte mandľovou múkou. Prelejte do formy cesto a nakoniec posypte mrveničkou.",
+		"Pečte 45-50 minút. Po upečení nechajte vychladnúť."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"ingredients": [
+				{"name": "nízkotučný tvaroh vo vaničke izbovej teploty", "quantity": 800, "unit": "g"},
+				{"name": "maslo", "quantity": 120, "unit": "g"},
+				{"name": "vajce", "quantity": 4, "unit": "ks"},
+				{"name": "trstinový cukor", "quantity": 110, "unit": "g"},
+				{"name": "vanilkový cukor", "quantity": 2, "unit": "ks"},
+				{"name": "mandľová múka", "quantity": 75, "unit": "g"},
+				{"name": "kypriaci prášok", "quantity": 7, "unit": "g"},
+				{"name": "mandľová múka na mrveničku", "quantity": 100, "unit": "g"},
+				{"name": "jemné ovsené vločky", "quantity": 100, "unit": "g"},
+				{"name": "trstinový cukor na mrveničku", "quantity": 100, "unit": "g"},
+				{"name": "maslo na mrveničku", "quantity": 100, "unit": "g"}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p27.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p27"
+}

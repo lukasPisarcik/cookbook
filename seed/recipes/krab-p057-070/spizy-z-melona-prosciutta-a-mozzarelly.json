@@ -1,0 +1,40 @@
+{
+	"title": "Špízy z melóna, prosciutta a mozzarelly",
+	"category": "snacky",
+	"steps": [
+		"Melón zbavte šupky vydlabte semienka a nakrájajte ho na kocky.",
+		"Mozzarelly vyberte z nálevu a plátky prosciutta rozpoľte.",
+		"Na špáradlo postupne napichnite melón, kúsok prosciutta, bazalku a mozzarellu.",
+		"Postupujte, kým vám nedôjdu suroviny a presuňte do krabičky.",
+		"Podávať môžete s kúskom kvalitného pečiva alebo cottage buchtičkou."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 2,
+			"ingredients": [
+				{
+					"name": "melón Galia",
+					"quantity": 0.5,
+					"unit": "ks"
+				},
+				{
+					"name": "prosciutto di crudo",
+					"quantity": 80,
+					"unit": "g"
+				},
+				{
+					"name": "mini mozzarelly",
+					"quantity": 150,
+					"unit": "g"
+				},
+				{
+					"name": "čerstvá bazalka"
+				}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p59.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p59"
+}

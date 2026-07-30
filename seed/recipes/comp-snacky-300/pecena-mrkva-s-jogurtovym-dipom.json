@@ -1,0 +1,61 @@
+{
+	"title": "Pečená mrkva s jogurtovým dipom",
+	"category": "snacky",
+	"dietTags": ["bezlepkove"],
+	"prepTimeMinutes": 20,
+	"steps": [
+		"Mrkvy ošúp a nakráj na prúžky alebo hranolky.",
+		"Pokvapkaj olivovým olejom, posyp soľou a korením.",
+		"Peči na plechu s papierom na pečenie pri 200°C asi 15 minút, kým nezmäknú.",
+		"Na dip zmiešaj grécky jogurt so soľou, čiernym korením, citrónovou šťavou a cesnakovým práškom."
+	],
+	"funFact": "Mrkva je bohatá na beta-karotén, ktorý jej dodáva oranžovú farbu a v tele sa môže premeniť na vitamín A.",
+	"variants": [
+		{
+			"label": "300 kcal",
+			"kcalPerPortion": 315,
+			"portions": 1,
+			"macros": {
+				"carbs": 25,
+				"protein": 9,
+				"fat": 18
+			},
+			"ingredients": [
+				{
+					"name": "stredná mrkva",
+					"quantity": 3,
+					"unit": "ks"
+				},
+				{
+					"name": "olivový olej",
+					"quantity": 15,
+					"unit": "g"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "čierne korenie"
+				},
+				{
+					"name": "grécky jogurt",
+					"quantity": 70,
+					"unit": "g"
+				},
+				{
+					"name": "citrónová šťava",
+					"quantity": 1,
+					"unit": "ČL"
+				},
+				{
+					"name": "cesnakový prášok",
+					"quantity": 0.5,
+					"unit": "ČL"
+				}
+			]
+		}
+	],
+	"image": "snacky-300-kcal/p6.webp",
+	"source": "Snacky - 300 kcal.pdf",
+	"sourceRef": "p6"
+}

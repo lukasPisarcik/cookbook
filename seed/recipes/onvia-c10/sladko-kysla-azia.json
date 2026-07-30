@@ -1,0 +1,46 @@
+{
+	"title": "Sladko-kyslá Ázia",
+	"category": "obedy",
+	"prepTimeMinutes": 15,
+	"steps": [
+		"Kuracie mäso orestuj na troche sezamového oleja so soľou a korením, kým nie je opečené.",
+		"Mäso odlož do misky bokom a na tej istej panvici na troche oleja krátko orestuj zeleninu a potom pridaj na kúsky nakrájaný ananás.",
+		"V malom hrnci si uvar ryžu poldľa návodu, my sme použili už predvarenú v sáčkoch.",
+		"V malej miske zmiešaj všetky suroviny na omáčku a pridaj ich do panvice k zelenine.",
+		"Priveď do varu, pridaj kuracie mäso, nechaj ešte chvíľu povariť, kým omáčka nezhustne.",
+		"Uvarenú ryžu si nalož do misky, na vrch pridaj kuracie na sladko-kyslej omáčke so zeleninou a vychutnávaj."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 506,
+			"portions": 2,
+			"macros": {"carbs": 59, "protein": 44, "fat": 9},
+			"ingredients": [
+				{"name": "kuracie mäso", "quantity": 300, "unit": "g"},
+				{"name": "červená cibuľa", "quantity": 1, "unit": "ks"},
+				{"name": "paprika", "quantity": 2, "unit": "ks"},
+				{"name": "veľká mrkva", "quantity": 1, "unit": "ks"},
+				{"name": "pór", "quantity": 0.5, "unit": "ks"},
+				{"name": "nesladený ananás", "quantity": 120, "unit": "g"},
+				{"name": "šťava z konzervovaného ananásu"},
+				{"name": "sójová omáčka", "quantity": 2, "unit": "PL"},
+				{"name": "paradajkový pretlak", "quantity": 2, "unit": "PL"},
+				{"name": "sezamové semienka", "quantity": 1, "unit": "ČL"},
+				{"name": "med", "quantity": 1, "unit": "ČL"},
+				{"name": "kukuričný škrob", "quantity": 2, "unit": "PL"},
+				{"name": "ryžový ocot", "quantity": 6, "unit": "PL"},
+				{"name": "zázvor", "quantity": 1, "unit": "ks"},
+				{"name": "kurkuma", "quantity": 2, "unit": "ČL"},
+				{"name": "kari korenie", "quantity": 2, "unit": "ČL"},
+				{"name": "morská soľ"},
+				{"name": "čierne korenie"},
+				{"name": "chili"},
+				{"name": "cesnak"}
+			]
+		}
+	],
+	"image": "onvia/image205.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image205"
+}

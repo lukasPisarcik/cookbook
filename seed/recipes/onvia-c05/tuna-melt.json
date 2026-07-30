@@ -1,0 +1,91 @@
+{
+	"title": "Tuna melt",
+	"category": "obedy",
+	"prepTimeMinutes": 20,
+	"steps": [
+		"Uisti sa, že si z tuniaka vyliala čo najviac vody, aby si pri pridávaní ostatných surovín získala hustú konzistenciu. Teraz pridaj do misky tuniaka, avokádo, tavený syr, srirachu a koreniny. Premiešaj, kým sa suroviny nespoja. Ja si rada nechávam kúsky avokáda kvôli textúre.",
+		"Po spojení rozrež žemľu a vyber vnútro. Každú polovicu potri jednou lyžicou kečupu, jednu stranu naplň polovicou tuniakovej zmesi, prikry plátkom syra a všetky žemle nechaj zapiecť v rúre, kým sa syr neroztopí (180°C/ 8-10 min/ funkcia ventilátor) a žemle budú chrumkavé.",
+		"Po opečení pridaj do prázdnej polovice hrsť rukoly a kimči. Spoj obe polovičky dokopy, rozrež na polovicu a potom si ho vychutnaj!"
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 457,
+			"portions": 2,
+			"macros": {
+				"carbs": 40,
+				"protein": 45,
+				"fat": 13
+			},
+			"ingredients": [
+				{
+					"name": "tuniak vo vlastnej šťave",
+					"quantity": 1,
+					"unit": "konzerva"
+				},
+				{
+					"name": "stredne veľké avokádo",
+					"quantity": 0.5
+				},
+				{
+					"name": "tavený syr",
+					"quantity": 40,
+					"unit": "g"
+				},
+				{
+					"name": "sriracha",
+					"quantity": 10,
+					"unit": "g"
+				},
+				{
+					"name": "syr light",
+					"quantity": 30,
+					"unit": "g"
+				},
+				{
+					"name": "paradajka",
+					"quantity": 3,
+					"unit": "plátok"
+				},
+				{
+					"name": "rukola",
+					"unit": "hrsť"
+				},
+				{
+					"name": "kimči"
+				},
+				{
+					"name": "kečup",
+					"quantity": 4,
+					"unit": "ČL"
+				},
+				{
+					"name": "briošková žemľa",
+					"quantity": 2,
+					"unit": "ks"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "korenie"
+				},
+				{
+					"name": "sladká paprika"
+				},
+				{
+					"name": "petržlen"
+				},
+				{
+					"name": "granulovaný cesnak"
+				},
+				{
+					"name": "granulovaná cibuľa"
+				}
+			]
+		}
+	],
+	"image": "onvia/image118.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image118"
+}

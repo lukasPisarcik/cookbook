@@ -1,0 +1,37 @@
+{
+	"title": "Glow up smoothie",
+	"category": "smoothies",
+	"dietTags": ["bezlaktozove", "bezlepkove"],
+	"prepTimeMinutes": 5,
+	"steps": [
+		"Zmixuj všetky ingrediencie.",
+		"Môžeš podávať s ľadom."
+	],
+	"funFact": "Špenát obsahuje železo, ktoré je základnou zložkou hemoglobínu (bielkoviny v krvi), ktoré prenáša kyslík do telesných tkanív.",
+	"variants": [
+		{
+			"label": "200 kcal",
+			"kcalPerPortion": 229,
+			"portions": 1,
+			"macros": {
+				"carbs": 35,
+				"protein": 6,
+				"fat": 6
+			},
+			"ingredients": [
+				{"name": "banán", "quantity": 50, "unit": "g"},
+				{"name": "mrazené mango", "quantity": 100, "unit": "g"},
+				{"name": "mandľové mlieko", "quantity": 150, "unit": "ml"},
+				{"name": "avokádo", "quantity": 20, "unit": "g"},
+				{"name": "uhorka", "quantity": 20, "unit": "g"},
+				{"name": "vanilkový proteín", "quantity": 10, "unit": "g"},
+				{"name": "špenát", "quantity": 1, "unit": "hrsť"},
+				{"name": "citrón", "quantity": 0.25, "unit": "ks"},
+				{"name": "voda", "quantity": 100, "unit": "ml"}
+			]
+		}
+	],
+	"image": "smoothie-200-kcal/p4.webp",
+	"source": "Smoothie - 200 kcal.pdf",
+	"sourceRef": "p4"
+}

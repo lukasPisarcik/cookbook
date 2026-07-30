@@ -1,0 +1,32 @@
+{
+	"title": "Hovězí ragú s máslovými fazolemi",
+	"category": "obedy",
+	"steps": [
+		"V hlubší pánvi rozehřejte olej a orestujte na něm nadrobno nakrájenou cibuli nebo šalotku.",
+		"Přidejte mleté maso a orestujte. Nakonec přidejte fazole, přilijte passatu a vývar, přidejte cukr, zázvor, tymián a vařte, dokud nebude maso uvařené.",
+		"Nakonec přidejte lahůdkové droždí a dle chuti i sůl. Povařte.",
+		"Podávejte s vařenou rýží a můžete ozdobit nasekanou petrželkou."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 2,
+			"ingredients": [
+				{"name": "řepkový olej", "quantity": 1, "unit": "PL"},
+				{"name": "šalotka", "quantity": 1, "unit": "ks"},
+				{"name": "mleté hovězí maso", "quantity": 300, "unit": "g"},
+				{"name": "máslové fazole", "quantity": 1, "unit": "konzerva"},
+				{"name": "rajčatová passata", "quantity": 240, "unit": "g"},
+				{"name": "kuřecí vývar", "quantity": 140, "unit": "ml"},
+				{"name": "třtinový cukr", "quantity": 1, "unit": "PL"},
+				{"name": "sůl"},
+				{"name": "mletý zázvor", "unit": "štipka"},
+				{"name": "sušený tymián", "quantity": 0.33, "unit": "ČL"},
+				{"name": "lahůdkové droždí", "quantity": 2, "unit": "PL"}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p136.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p136"
+}

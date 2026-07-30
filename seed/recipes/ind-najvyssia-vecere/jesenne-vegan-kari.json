@@ -1,0 +1,105 @@
+{
+	"title": "Jesenné vegan kari",
+	"category": "vecere",
+	"dietTags": ["vegan"],
+	"prepTimeMinutes": 45,
+	"steps": [
+		"Nakrájaj cibuľu, cesnak a nastrúhaný zázvor rozmixuj s 10 g olivového oleja.",
+		"V hrnci rozohrej 10 g olivového oleja, pridaj rascu a bobkový list. Keď začnú voňať, bobkový list vyber. Prisyp vytvorenú zmes z cibule, cesnaku, zázvoru a restuj asi 4 minúty. Potom pridaj paradajkový pretlak a miešaj ďalších 5 minút. Dochutíš soľou a zvyšným korením.",
+		"Pridaj na kocky nakrájanú tekvicu, zalej kokosovým mliekom a var približne 30 minút.",
+		"Podľa návodu priprav ryžu.",
+		"Kari podávaj s ryžou a ozdob čerstvým koriandrom alebo petržlenom."
+	],
+	"funFact": "Zatiaľ čo hnedá ryža obsahuje viac vlákniny a minerálov ako biela, biela ryža je ľahšie stráviteľná a vhodná pre citlivejšie trávenie či po tréningu. Obe majú svoje miesto v zdravej strave, záleží na tom, čo tvoje telo práve potrebuje.",
+	"variants": [
+		{
+			"label": "500 kcal",
+			"kcalPerPortion": 498,
+			"portions": 4,
+			"macros": {
+				"carbs": 76,
+				"protein": 9,
+				"fat": 18
+			},
+			"ingredients": [
+				{
+					"name": "tekvica maslová",
+					"quantity": 750,
+					"unit": "g"
+				},
+				{
+					"name": "ryža",
+					"quantity": 250,
+					"unit": "g"
+				},
+				{
+					"name": "klinčeky",
+					"quantity": 4,
+					"unit": "ks"
+				},
+				{
+					"name": "bobkový list",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "cibuľa",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "cesnak",
+					"quantity": 2,
+					"unit": "strúčik"
+				},
+				{
+					"name": "čerstvý strúhaný zázvor",
+					"quantity": 1,
+					"unit": "ČL"
+				},
+				{
+					"name": "garam masala",
+					"quantity": 1,
+					"unit": "ČL"
+				},
+				{
+					"name": "mletá kurkuma",
+					"quantity": 1,
+					"unit": "ČL"
+				},
+				{
+					"name": "rímska rasca",
+					"unit": "štipka"
+				},
+				{
+					"name": "mleté čili",
+					"unit": "štipka"
+				},
+				{
+					"name": "kokosové light mlieko",
+					"quantity": 400,
+					"unit": "ml"
+				},
+				{
+					"name": "paradajkový pretlak",
+					"quantity": 70,
+					"unit": "g"
+				},
+				{
+					"name": "petržlen"
+				},
+				{
+					"name": "olivový olej",
+					"quantity": 20,
+					"unit": "g"
+				},
+				{
+					"name": "soľ"
+				}
+			]
+		}
+	],
+	"image": "jesenne-kari-500-kcal/p1.webp",
+	"source": "Jesenné kari - 500 kcal.pdf",
+	"sourceRef": "p1"
+}

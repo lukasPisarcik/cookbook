@@ -1,0 +1,90 @@
+{
+	"title": "Proteínové cestoviny s vegánskou syrovou omáčkou",
+	"category": "obedy",
+	"prepTimeMinutes": 45,
+	"steps": [
+		"Kešu oriešky necháme odmočiť na 15 minút v prevarenej vode.",
+		"Medzitým si karfiol a mrkvu nakrájame na malé kocky a uvaríme vo vriacej vode do mäkka (cca 5-7 min.).",
+		"Kešu oriešky scedíme a spolu s karfiolom, mrkvou, horčicou, kukuricou, kváskom zmiešame v hrnci a okoreníme. Potom ručným mixérom mixujeme v hrnci pokým nám nevznikne pyré. Do pyré pridáme cca 50-100 ml vody a dusíme na malom ohni približne 10 minút. Ak použijeme mrazený hrášok pridáme ho do omáčky a dusíme.",
+		"Cestoviny si uvaríme ''al dente'' podľa návodu.",
+		"Cestoviny (pokiaľ použijeme hrášok z konzervy, tak aj ten) pridáme k omáčke, všetko spolu premiešame a podávame. Ozdobíme pažítkou nakrájanou na drobno a nakladanou paprikou."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 723,
+			"portions": 1,
+			"macros": {
+				"carbs": 70,
+				"protein": 39,
+				"fat": 28
+			},
+			"ingredients": [
+				{
+					"name": "karfiol",
+					"quantity": 120,
+					"unit": "g"
+				},
+				{
+					"name": "mrkva",
+					"quantity": 40,
+					"unit": "g"
+				},
+				{
+					"name": "kukurica",
+					"quantity": 20,
+					"unit": "g"
+				},
+				{
+					"name": "cícerové cestoviny",
+					"quantity": 80,
+					"unit": "g"
+				},
+				{
+					"name": "kešu oriešky",
+					"quantity": 45,
+					"unit": "g"
+				},
+				{
+					"name": "zelený hrach",
+					"quantity": 60,
+					"unit": "g"
+				},
+				{
+					"name": "horčica",
+					"quantity": 12,
+					"unit": "g"
+				},
+				{
+					"name": "lahôdkové droždie",
+					"quantity": 2,
+					"unit": "ČL"
+				},
+				{
+					"name": "voda"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "sušená cibuľa"
+				},
+				{
+					"name": "čerstvý cesnak"
+				},
+				{
+					"name": "čili"
+				},
+				{
+					"name": "muškátový orech"
+				},
+				{
+					"name": "čerstvý petržlen"
+				}
+			]
+		}
+	],
+	"image": "onvia/image176.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image176"
+}

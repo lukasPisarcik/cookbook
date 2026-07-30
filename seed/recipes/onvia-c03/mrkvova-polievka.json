@@ -1,0 +1,72 @@
+{
+	"title": "Mrkvová polievka",
+	"category": "obedy",
+	"prepTimeMinutes": 20,
+	"steps": [
+		"Do hrnca pridaj lyžicu olivového oleja, nadrobno nakrájanú cibuľu, pretlačený cesnak a všetko spolu orestuj.",
+		"Potom pridaj očistenú a nakrájanú mrkvu, bobkový list a vodu. Var aspoň 10 minút, kým mrkva nezmäkne.",
+		"Medzitým nakrájaj žemľu na kocky a upeč ju v rúre (alebo na sucho na panvici).",
+		"V neposlednom rade vyber bobkový list a polievku rozmixuj tyčovým mixérom. Dochuť soľou a korením.",
+		"Podávaj s krutónmi a čerstvo nasekanou majoránkou."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 148,
+			"portions": 2,
+			"macros": {
+				"carbs": 24,
+				"protein": 3,
+				"fat": 5
+			},
+			"ingredients": [
+				{
+					"name": "mrkva",
+					"quantity": 2,
+					"unit": "ks"
+				},
+				{
+					"name": "cibuľa",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "cesnak",
+					"quantity": 1,
+					"unit": "strúčik"
+				},
+				{
+					"name": "olivový olej",
+					"quantity": 1,
+					"unit": "PL"
+				},
+				{
+					"name": "voda"
+				},
+				{
+					"name": "žemľa",
+					"quantity": 0.5,
+					"unit": "ks"
+				},
+				{
+					"name": "bobkový list"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "mleté čierne korenie"
+				},
+				{
+					"name": "kurkuma"
+				},
+				{
+					"name": "majoránka"
+				}
+			]
+		}
+	],
+	"image": "onvia/image72.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image72"
+}

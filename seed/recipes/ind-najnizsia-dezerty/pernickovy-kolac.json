@@ -1,0 +1,100 @@
+{
+	"title": "Perníčkový koláč",
+	"category": "dezerty",
+	"prepTimeMinutes": 50,
+	"steps": [
+		"Všetky sypké ingredience zmiešaj.",
+		"Potom pridaj mokré ingredience v inej miske a premiešaj.",
+		"Spoj suchú aj mokrú zmes.",
+		"Peč na 170 stupňov cca 40 minút ( záleží akú máš formu / plech, kontroluj vidličkou ).",
+		"Po vychladnutí rozdeľ na porcie a každú porciu podávaj s gréckym jogurtom a džemom. Ak chceš, môžeš ešte preliať čakankovým sirupom."
+	],
+	"funFact": "Škorica a zázvor majú silné protizápalové a hrejivé účinky, ktoré podporujú imunitu",
+	"variants": [
+		{
+			"label": "300 kcal",
+			"kcalPerPortion": 323,
+			"portions": 11,
+			"macros": {
+				"carbs": 50,
+				"protein": 12,
+				"fat": 7
+			},
+			"ingredients": [
+				{
+					"name": "polohrubá špaldová múka",
+					"quantity": 400,
+					"unit": "g"
+				},
+				{
+					"name": "kokosový cukor",
+					"quantity": 100,
+					"unit": "g"
+				},
+				{
+					"name": "stévia",
+					"quantity": 1,
+					"unit": "špachtlička"
+				},
+				{
+					"name": "mandľové mlieko",
+					"quantity": 200,
+					"unit": "ml"
+				},
+				{
+					"name": "kokosový olej",
+					"quantity": 50,
+					"unit": "ml"
+				},
+				{
+					"name": "odtučnený grécky jogurt",
+					"quantity": 50,
+					"unit": "g"
+				},
+				{
+					"name": "jablkové pyré",
+					"quantity": 50,
+					"unit": "g"
+				},
+				{
+					"name": "kakao",
+					"quantity": 40,
+					"unit": "g"
+				},
+				{
+					"name": "prášok do perníka",
+					"quantity": 1,
+					"unit": "balenie"
+				},
+				{
+					"name": "prášok do pečiva",
+					"quantity": 0.5,
+					"unit": "balenie"
+				},
+				{
+					"name": "perníkové korenie",
+					"quantity": 1,
+					"unit": "PL"
+				},
+				{
+					"name": "vajce",
+					"quantity": 2,
+					"unit": "ks"
+				},
+				{
+					"name": "odtučnený grécky jogurt na vrch",
+					"quantity": 60,
+					"unit": "g"
+				},
+				{
+					"name": "jahodový džem",
+					"quantity": 30,
+					"unit": "g"
+				}
+			]
+		}
+	],
+	"image": "pernickovy-kolac-300-kcal/p1.webp",
+	"source": "Perníčkový koláč - 300 kcal.pdf",
+	"sourceRef": "p1"
+}

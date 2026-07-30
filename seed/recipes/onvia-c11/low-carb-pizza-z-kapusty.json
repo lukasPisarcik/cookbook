@@ -1,0 +1,40 @@
+{
+	"title": "Low carb Pizza z kapusty",
+	"category": "vecere",
+	"dietTags": ["bezlepkove"],
+	"prepTimeMinutes": 10,
+	"steps": [
+		"Rúru predhrej na 185°C ohrev zhora / zdola.",
+		"Kapustu nakrájaj na plátky hrubé asi 1 cm.",
+		"Plátky polož na plech vyložený papierom na pečenie.",
+		"V malej miske zmiešaj olivový olej a korenie (korenie na pizzu, sladkú papriku, sušený cesnak, soľ) a potom ním potri plátky kapusty.",
+		"Vlož do rúry na približne 25 minút.",
+		"Medzitým si priprav, čím budeš zdobiť svoju kapustovú pizzu.",
+		"Predpečenú kapustu potri kečupom alebo paradajkovým sugom, pridaj nastrúhaný syr, plátky šunky a môžeš pridať zeleninu (napríklad papriku).",
+		"Vlož späť do rúry a nechaj piecť, kým sa všetko nezapečie, cca 10-15 min.",
+		"Nakoniec posyp bylinkami a vychutnaj si."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 168,
+			"macros": {"carbs": 12, "protein": 7, "fat": 10},
+			"ingredients": [
+				{"name": "kapusta", "quantity": 1, "unit": "hlávka"},
+				{"name": "olivový olej", "quantity": 30, "unit": "g"},
+				{"name": "kečup", "quantity": 5, "unit": "PL"},
+				{"name": "šunka", "quantity": 50, "unit": "g"},
+				{"name": "strúhaný eidam", "quantity": 50, "unit": "g"},
+				{"name": "čerstvá paprika"},
+				{"name": "čerstvé bylinky"},
+				{"name": "soľ"},
+				{"name": "sladká paprika"},
+				{"name": "sušený cesnak"},
+				{"name": "korenie na pizzu"}
+			]
+		}
+	],
+	"image": "onvia/image3.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image3"
+}

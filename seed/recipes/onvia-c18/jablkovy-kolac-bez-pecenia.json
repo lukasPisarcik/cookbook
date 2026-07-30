@@ -1,0 +1,37 @@
+{
+	"title": "Jablkový koláč bez pečenia",
+	"category": "dezerty",
+	"prepTimeMinutes": 330,
+	"steps": [
+		"Do hrnca vhoď ošúpané a nakrájané jablká. Pridaj trošku vody a var, kým nezmäknú. Potom pridaj jablkové pyré a oslaď.",
+		"Jablká roztlač vidličkou alebo rozmixuj tyčovým mixérom.",
+		"Do jabĺk vmiešaj zmes vody, vanilkového prášku a želatínovej zmesi. Nechaj na miernom ohni bublať. Zmes by mala za stáleho miešania začať hustnúť.",
+		"Tortovú formu vypláchni studenou vodou a na dno formy pritlač papier na pečenie.",
+		"Na dno formy polož prvú vrstvu piškót a navrch nalej 1/3 jablkovej zmesi.",
+		"Opakuj ešte dvakrát, kým na vrchu nezostane žiadna jablková zmes. Nechaj vychladnúť a potom presuň do chladničky.",
+		"Približne po 5 hodinách navrstvi na vrch koláča tvarohový krém a posyp ho škoricou. Chvíľu nechaj v chladničke."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 205,
+			"portions": 8,
+			"macros": {"carbs": 40, "protein": 9, "fat": 1},
+			"ingredients": [
+				{"name": "jablká", "quantity": 400, "unit": "g"},
+				{"name": "jablkové pyré", "quantity": 800, "unit": "g"},
+				{"name": "xylitol", "quantity": 45, "unit": "g"},
+				{"name": "vanilkový pudingový prášok", "quantity": 1},
+				{"name": "želatína v prášku", "quantity": 1},
+				{"name": "voda", "quantity": 150, "unit": "ml"},
+				{"name": "piškóty", "quantity": 170, "unit": "g"},
+				{"name": "nízkotučný tvaroh", "quantity": 250, "unit": "g"},
+				{"name": "vanilková stévia"},
+				{"name": "škorica"}
+			]
+		}
+	],
+	"image": "onvia/image356.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image356"
+}

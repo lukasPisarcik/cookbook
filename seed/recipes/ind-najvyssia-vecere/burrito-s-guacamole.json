@@ -1,0 +1,114 @@
+{
+	"title": "Burrito s guacamole",
+	"category": "vecere",
+	"prepTimeMinutes": 45,
+	"steps": [
+		"Var ryžu podľa návodu.",
+		"Na panvici rozohrej olej a pridaj polovicu nasekanej cibule a 1 strúčik cesnaku. Restuj to tak 2 minúty.",
+		"Pridaj mleté mäso, osoľ, okoreň a opeč cca 10 minút, kým nebude hnedé.",
+		"Prisyp fazuľu a kukuricu a paradajkový pretlak. Podus ďalších cca 5 minút, aby sa chute spojili.",
+		"Potom pridaj uvarenu ryžu a jemne to pomiešaj.",
+		"Popritom si očisti avokádo, nakrájaj paradajky, pretlač cesnak, šťavu z citróna, osoľ, okoreň, a rozmixuj všetko. Vznikne ti guacamole.",
+		"Tortillu krátko ohrej na panvici bez oleja.",
+		"Na tortillu rozlož guacamole, mäsovú zmes a posyp syrom.",
+		"Nakoniec zroluj tortillu a vznikne ti z toho burrito.",
+		"Doobrú chuť :)"
+	],
+	"funFact": "Ak chceš zistiť zrelosť avokáda, odstráň malú stopku na vrchu avokáda, ak je pod ňou svetlozelená farba,je akurát zrelé. Ak je hnedá, je prezreté. Ak nejde dole a je tvrdé, ešte potrebuje dozrieť",
+	"variants": [
+		{
+			"label": "500 kcal",
+			"kcalPerPortion": 511,
+			"portions": 2,
+			"macros": {
+				"carbs": 57,
+				"protein": 25,
+				"fat": 20
+			},
+			"ingredients": [
+				{
+					"name": "celozrnná tortilla",
+					"quantity": 124,
+					"unit": "g"
+				},
+				{
+					"name": "mleté morčacie mäso",
+					"quantity": 100,
+					"unit": "g"
+				},
+				{
+					"name": "cibuľa",
+					"quantity": 50,
+					"unit": "g"
+				},
+				{
+					"name": "avokádo",
+					"quantity": 80,
+					"unit": "g"
+				},
+				{
+					"name": "hnedá ryža",
+					"quantity": 30,
+					"unit": "g"
+				},
+				{
+					"name": "kukurica konzervovaná",
+					"quantity": 30,
+					"unit": "g"
+				},
+				{
+					"name": "červená fazuľa konzervovaná",
+					"quantity": 50,
+					"unit": "g"
+				},
+				{
+					"name": "paradajky",
+					"quantity": 40,
+					"unit": "g"
+				},
+				{
+					"name": "paradajkový pretlak",
+					"quantity": 20,
+					"unit": "g"
+				},
+				{
+					"name": "šťava z citróna"
+				},
+				{
+					"name": "olivový olej",
+					"quantity": 5,
+					"unit": "g"
+				},
+				{
+					"name": "cesnak",
+					"quantity": 2,
+					"unit": "strúčik"
+				},
+				{
+					"name": "strúhaná mozzarella",
+					"quantity": 30,
+					"unit": "g"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "čierne korenie"
+				},
+				{
+					"name": "mletá paprika"
+				},
+				{
+					"name": "rímska rasca"
+				},
+				{
+					"name": "čili",
+					"unit": "štipka"
+				}
+			]
+		}
+	],
+	"image": "burrito-s-guackamole-500-kcal/p1.webp",
+	"source": "Burrito s guackamole - 500 kcal.pdf",
+	"sourceRef": "p1"
+}

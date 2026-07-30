@@ -1,0 +1,101 @@
+{
+	"title": "Šalát s trhaným kuracím",
+	"category": "obedy",
+	"prepTimeMinutes": 50,
+	"steps": [
+		"Mäso uvar v osolenej vode a potom ho roztrhaj. Okořeň podľa chuti.",
+		"Do rúry alebo fritézy daj piecť na kocky, osolené, okořeněné a nakrájané bataty.",
+		"Priprav si zálievku, na ktorú zmiešaj všetky potrebné suroviny v miske.",
+		"Do veľkej misy daj nakrájaný šalát, kapustu nakrájanú na rezančeky, natrhané mäso, upečené bataty, nadrobený syr, všetko zalej zálievkou a premiešaj.",
+		"Posyp orechmi alebo inými semienkami a vychutnávaj!"
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 418,
+			"portions": 2,
+			"macros": {
+				"carbs": 44,
+				"protein": 28,
+				"fat": 16
+			},
+			"ingredients": [
+				{
+					"name": "bataty",
+					"quantity": 300,
+					"unit": "g"
+				},
+				{
+					"name": "šalát",
+					"quantity": 100,
+					"unit": "g"
+				},
+				{
+					"name": "červená kapusta",
+					"quantity": 100,
+					"unit": "g"
+				},
+				{
+					"name": "kuracie prsia",
+					"quantity": 150,
+					"unit": "g"
+				},
+				{
+					"name": "balkánsky syr",
+					"quantity": 40,
+					"unit": "g"
+				},
+				{
+					"name": "arašidy",
+					"quantity": 15,
+					"unit": "g"
+				},
+				{
+					"name": "uhorka",
+					"quantity": 100,
+					"unit": "g"
+				},
+				{
+					"name": "avokádo",
+					"quantity": 100,
+					"unit": "g"
+				},
+				{
+					"name": "čierne korenie"
+				},
+				{
+					"name": "paprika"
+				},
+				{
+					"name": "cesnak"
+				},
+				{
+					"name": "koriander"
+				},
+				{
+					"name": "pomarančová šťava",
+					"quantity": 40,
+					"unit": "ml"
+				},
+				{
+					"name": "olivový olej",
+					"quantity": 1,
+					"unit": "ČL"
+				},
+				{
+					"name": "tahini",
+					"quantity": 15,
+					"unit": "g"
+				},
+				{
+					"name": "ocot",
+					"quantity": 1,
+					"unit": "ČL"
+				}
+			]
+		}
+	],
+	"image": "onvia/image67.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image67"
+}

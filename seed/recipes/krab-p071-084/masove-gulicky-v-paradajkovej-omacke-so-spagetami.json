@@ -1,0 +1,62 @@
+{
+	"title": "Mäsové guličky v paradajkovej omáčke so špagetami",
+	"category": "obedy",
+	"steps": [
+		"Cibuľu olúpte a nakrájajte nadrobno.",
+		"Sadlo rozpusťte na horúcej panvici a orestujte na ňom cibuľu.",
+		"Do misky presuňte mäsom, pridajte orestovanú cibuľu, soľ, korenie a sušený cesnak, všetko spolu premiešajte.",
+		"Znovu rozohrejte panvicu, z mletého mäsa vytvarujte guličky, ktoré dajte opekať na panvicu. Opečte ich zo všetkých strán a potom pridajte pretlak a vodu.",
+		"Panvicu prikryte pokrývkou a duste kým nebudú guličky hotové, cca 20 minút.",
+		"Pokiaľ je potrebné, omáčku ešte ochuťte bylinkami alebo korením podľa vašej chuti.",
+		"Špagety uvarte v osolenej vode, ihneď po uvarení ich rozdeľte do 4 krabičiek, pridajte guličky s omáčkou a dajte do chladničky alebo zjedzte."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 4,
+			"ingredients": [
+				{
+					"name": "sadlo",
+					"quantity": 1,
+					"unit": "ČL"
+				},
+				{
+					"name": "cibuľa",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "mleté mäso mix bravčové a hovädzie",
+					"quantity": 500,
+					"unit": "g"
+				},
+				{
+					"name": "sušený cesnak",
+					"quantity": 0.5,
+					"unit": "ČL"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "paradajková passata",
+					"quantity": 200,
+					"unit": "g"
+				},
+				{
+					"name": "voda",
+					"quantity": 600,
+					"unit": "ml"
+				},
+				{
+					"name": "špagety",
+					"quantity": 320,
+					"unit": "g"
+				}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p78.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p78"
+}

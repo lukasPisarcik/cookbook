@@ -1,0 +1,43 @@
+{
+	"title": "Tekvicový falafel",
+	"category": "snacky",
+	"prepTimeMinutes": 50,
+	"steps": [
+		"Rúru si predhrejme na 180°C s funkciou ventilátor. Tekvicu nakrájanú na kusy pečieme na plechu vyloženým papierom na pečenie do mäkka cca 25 minút. Rúru nevypíname.",
+		"Mäkkú tekvicu a cícer si rozmixujeme ručným mixérom, následne pridáme ostatné suroviny.",
+		"Zmes v mise miešame pokiaľ nám nevznikne lepkavé cesto, ktoré sa dobre formuje, podľa potreby pridávame cícerovú múku a proteínový prášok.",
+		"Rukami formujeme malé guličky (cca 35g/kus), ktoré rovnomerne ukladáme na plech vyložený papierom na pečenie. Pri formovaní guličiek z cesta si prichystáme malú misku s vodou, do ktorej si vždy namočíme prsty pred formovaním každej guličky. Cesto sa tak nebude lepiť na prsty.",
+		"Pečieme cca 20 minút."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 52,
+			"portions": 13,
+			"macros": {
+				"carbs": 6,
+				"protein": 5,
+				"fat": 1
+			},
+			"ingredients": [
+				{ "name": "tekvica Hokkaido", "quantity": 300, "unit": "g" },
+				{ "name": "cícer z konzervy", "quantity": 100, "unit": "g" },
+				{ "name": "cícerová múka", "quantity": 50, "unit": "g" },
+				{ "name": "proteínový prášok bez príchute", "quantity": 50, "unit": "g" },
+				{ "name": "prášok do pečenia", "quantity": 1, "unit": "ČL" },
+				{ "name": "cibuľa", "quantity": 0.5, "unit": "ks" },
+				{ "name": "soľ" },
+				{ "name": "čierne korenie" },
+				{ "name": "rasca" },
+				{ "name": "paprika" },
+				{ "name": "biele korenie" },
+				{ "name": "cesnak" },
+				{ "name": "čerstvý petržlen" },
+				{ "name": "čerstvý koriander" }
+			]
+		}
+	],
+	"image": "onvia/image87.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image87"
+}

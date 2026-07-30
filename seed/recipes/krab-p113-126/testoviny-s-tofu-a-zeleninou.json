@@ -1,0 +1,35 @@
+{
+	"title": "Těstoviny s tofu a zeleninou",
+	"category": "obedy",
+	"steps": [
+		"V hluboké pánvi rozehřejte olej a orestujte na něm nadrobno nakrájenou cibuli a česnek.",
+		"Přidejte rozpůlená cherry rajčátka, tofu a orestujte.",
+		"Nyní přidejte těstoviny, brokolici rozebranou na růžičky a přilijte vývar. kokosové mléko a rajčatovou passatu. A taky zázvor, kurkumu a sůl. Povařte, dokud nejsou těstoviny měkké.",
+		"Nakonec dochuťte lahůdkovým droždím a podávejte nebo přendejte do krabiček a dejte zchladit do lednice."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 4,
+			"ingredients": [
+				{"name": "olivový olej", "quantity": 1, "unit": "ČL"},
+				{"name": "střední žlutá cibule", "quantity": 1, "unit": "ks"},
+				{"name": "česnek", "quantity": 2, "unit": "stroužek"},
+				{"name": "tofu natural", "quantity": 300, "unit": "g"},
+				{"name": "cherry rajčátka", "quantity": 130, "unit": "g"},
+				{"name": "růžičky brokolice", "quantity": 0.5},
+				{"name": "oblíbené těstoviny", "quantity": 150, "unit": "g"},
+				{"name": "zeleninový vývar", "quantity": 300, "unit": "ml"},
+				{"name": "kokosové mléko", "quantity": 200, "unit": "g"},
+				{"name": "rajčatová passata", "quantity": 160, "unit": "g"},
+				{"name": "lahůdkové droždí", "quantity": 30, "unit": "g"},
+				{"name": "mletý zázvor", "quantity": 0.33, "unit": "ČL"},
+				{"name": "mletá kurkuma", "quantity": 0.5, "unit": "ČL"},
+				{"name": "sůl"}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p125.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p125"
+}

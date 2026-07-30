@@ -1,0 +1,109 @@
+{
+	"title": "Indická miska z fazule mungo s humusom",
+	"category": "obedy",
+	"prepTimeMinutes": 45,
+	"steps": [
+		"Olej rozohrejme a nakrájanú cibuľu s korením orestujeme na panvici.",
+		"Po niekoľkých minútach pridáme premytú mungo fazuľu a karfiol (ktorý si predtým najemno nastrúhame). Poriadne všetko v panvici premiešame a restujeme ďalších 4-5 minút.",
+		"Zalejeme zeleninovým vývarom (bujón), teplotu stlmíme na polovicu a necháme zakryté pokrievkou dusiť, pokým nám fazuľa nezmäkne (cca 20 min.).",
+		"Medzitým si s ručným mixérom zmixujeme všetky prísady na arašidový hummus s pridaním malého množstva vody, pokým nám nevznikne pyré.",
+		"Mujaddaru servírujeme do misky spolu s hummusom, semienkami granátového jablka a čerstvým petržlenom."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 639,
+			"portions": 1,
+			"macros": {
+				"carbs": 47,
+				"protein": 31,
+				"fat": 30
+			},
+			"ingredients": [
+				{
+					"name": "mungo fazuľa",
+					"quantity": 70,
+					"unit": "g"
+				},
+				{
+					"name": "karfiol",
+					"quantity": 100,
+					"unit": "g"
+				},
+				{
+					"name": "veľká cibuľa",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "sezamový olej",
+					"quantity": 10,
+					"unit": "ml"
+				},
+				{
+					"name": "semená granátového jablka",
+					"quantity": 20,
+					"unit": "g"
+				},
+				{
+					"name": "zeleninový vývar",
+					"quantity": 250,
+					"unit": "ml"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "biele korenie"
+				},
+				{
+					"name": "garam masala"
+				},
+				{
+					"name": "cesnak"
+				},
+				{
+					"name": "kari korenie"
+				},
+				{
+					"name": "čerstvý koriander"
+				},
+				{
+					"name": "čerstvý petržlen"
+				},
+				{
+					"name": "cícer z konzervy",
+					"quantity": 70,
+					"unit": "g"
+				},
+				{
+					"name": "arašidy",
+					"quantity": 20,
+					"unit": "g"
+				},
+				{
+					"name": "tahini",
+					"quantity": 10,
+					"unit": "g"
+				},
+				{
+					"name": "šťava z citróna",
+					"quantity": 0.5,
+					"unit": "ks"
+				},
+				{
+					"name": "voda"
+				},
+				{
+					"name": "čierne korenie"
+				},
+				{
+					"name": "čerstvý cesnak"
+				}
+			]
+		}
+	],
+	"image": "onvia/image173.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image173"
+}

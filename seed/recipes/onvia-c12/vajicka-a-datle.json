@@ -1,0 +1,33 @@
+{
+	"title": "Vajíčka a ďatle",
+	"category": "ranajky",
+	"prepTimeMinutes": 5,
+	"steps": [
+		"Ďatle nakrájaj na malé kúsky a orestuj na masle alebo ghí.",
+		"V miske rozšľahaj vajcia a pridaj korenie CU8.",
+		"Vajcia nalej na panvicu, zníž teplotu na polovicu, priklop pokrievkou a nechaj urobiť omeletu.",
+		"Podávaj s čerstvým pečivom."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 444,
+			"portions": 2,
+			"macros": {
+				"carbs": 55,
+				"protein": 15,
+				"fat": 17
+			},
+			"ingredients": [
+				{"name": "ghí", "quantity": 10, "unit": "g"},
+				{"name": "ďatle bez kôstok", "quantity": 50, "unit": "g"},
+				{"name": "vajce", "quantity": 2, "unit": "ks"},
+				{"name": "chlieb", "quantity": 150, "unit": "g"},
+				{"name": "korenie CU8"}
+			]
+		}
+	],
+	"image": "onvia/image238.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image238"
+}

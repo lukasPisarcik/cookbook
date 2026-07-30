@@ -1,0 +1,35 @@
+{
+	"title": "Mandľová kaša",
+	"category": "ranajky",
+	"prepTimeMinutes": 10,
+	"steps": [
+		"V miske zmiešaj vločky, kypriaci prášok, datľový cukor, škoricu a proteín.",
+		"Pridaj vajce, mlieko a roztopené maslo, potom všetko dobre premiešaj.",
+		"Cesto rozdeľ do dvoch malých misiek vhodných do air fryera.",
+		"Povrch posyp mandľovými plátkami.",
+		"Zapekaj v air fryeri pri 170 °C približne 20 minút, kým povrch nezozlatne.",
+		"Vychutnaj si!"
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 511,
+			"portions": 2,
+			"macros": {"carbs": 47, "protein": 32, "fat": 22},
+			"ingredients": [
+				{"name": "ovsené vločky", "quantity": 100, "unit": "g"},
+				{"name": "kypriaci prášok", "quantity": 1, "unit": "ČL"},
+				{"name": "datľový cukor", "quantity": 20, "unit": "g"},
+				{"name": "mletá škorica", "unit": "štipka"},
+				{"name": "roztopené maslo", "quantity": 20, "unit": "g"},
+				{"name": "proteínový prášok", "quantity": 45, "unit": "g"},
+				{"name": "vajce", "quantity": 1, "unit": "ks"},
+				{"name": "mlieko", "quantity": 175, "unit": "ml"},
+				{"name": "mandľové plátky", "quantity": 15, "unit": "g"}
+			]
+		}
+	],
+	"image": "onvia/image324.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image324"
+}

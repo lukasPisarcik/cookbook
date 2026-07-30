@@ -1,0 +1,32 @@
+{
+	"title": "Cícerové guľky",
+	"category": "dezerty",
+	"prepTimeMinutes": 25,
+	"steps": [
+		"Všetky potrebné ingrediencie hoď do mixéra a rozmixuj do hladkej konzistencie. Do cesta prisyp kokos a zamiešaj.",
+		"Ak je cesto príliš tuhé, prilej viac vody. Kľudne môžeš priliať aj viac vody, aby bolo cesto pekne krémové, a potom prisyp psyllium a počkaj niekoľko minút, kým cesto nezhustne.",
+		"Cesto nechaj minimálne 10 minút v chladničke.",
+		"Potom z cesta tvaruj guľky, ktoré obal v strúhanom kokose a uskladni v chladničke."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 69,
+			"portions": 15,
+			"macros": { "carbs": 7, "protein": 3, "fat": 3 },
+			"ingredients": [
+				{ "name": "predvarený cícer", "quantity": 220, "unit": "g" },
+				{ "name": "kakao", "quantity": 15, "unit": "g" },
+				{ "name": "arašidové maslo", "quantity": 70, "unit": "g" },
+				{ "name": "datle bez kôstok", "quantity": 50, "unit": "g" },
+				{ "name": "voda", "quantity": 50, "unit": "ml" },
+				{ "name": "psyllium", "quantity": 1, "unit": "PL" },
+				{ "name": "strúhaný kokos", "quantity": 30, "unit": "g" },
+				{ "name": "strúhaný kokos na posypanie" }
+			]
+		}
+	],
+	"image": "onvia/image367.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image367"
+}

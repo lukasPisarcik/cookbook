@@ -1,0 +1,37 @@
+{
+	"title": "Karfiolová polievka",
+	"category": "obedy",
+	"prepTimeMinutes": 45,
+	"steps": [
+		"Na lyžičke oleja, ghí alebo bravčovej masti orestuj cibuľu na mesiačiky nakrájanú, pridaj karfiol nakrájaný na ružičky a papriku na kúsky.",
+		"Zalej vodou, pridaj vývar alebo bujón rozmiešaný vo vode a nechaj variť pod pokrievkou na miernom ohni do mäkka.",
+		"Po uvarení dochuť korením soľou, pretlačeným cesnakom a rozmixuj tyčovým mixérom.",
+		"Podávaj s nastrúhaným syrom, jarnou cibuľkou a opečeným chlebom."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 368,
+			"portions": 2,
+			"macros": {
+				"carbs": 47,
+				"protein": 19,
+				"fat": 11
+			},
+			"ingredients": [
+				{ "name": "karfiol", "quantity": 500, "unit": "g" },
+				{ "name": "cesnak", "quantity": 5, "unit": "strúčik" },
+				{ "name": "žltá paprika", "quantity": 1, "unit": "ks" },
+				{ "name": "cibuľa", "quantity": 1, "unit": "ks" },
+				{ "name": "vývar", "quantity": 500, "unit": "ml" },
+				{ "name": "olivový olej", "quantity": 1, "unit": "ČL" },
+				{ "name": "strúhaný eidam 20-30%", "quantity": 40, "unit": "g" },
+				{ "name": "chlieb", "quantity": 100, "unit": "g" },
+				{ "name": "jarná cibuľka", "unit": "štipka" }
+			]
+		}
+	],
+	"image": "onvia/image79.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image79"
+}

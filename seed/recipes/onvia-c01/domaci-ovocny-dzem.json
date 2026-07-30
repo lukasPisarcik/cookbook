@@ -1,0 +1,60 @@
+{
+	"title": "Domáci ovocný džem",
+	"category": "zaklady",
+	"prepTimeMinutes": 15,
+	"steps": [
+		"Vezmi ovocie podľa vlastného výberu a pridaj ho do hrnca spolu s vodou.",
+		"Daj na stredný oheň a var, kým sa nezačne variť a ovocie nezmäkne (v prípade, že si si vybrala mrazené).",
+		"Vezmi ručný mixér a v hrnci rozmixuj ovocie na hladké pyré.",
+		"Kým sa pyré varí, pridaj vanilkovú arómu a citrónovú šťavu, potom tortové želé a xantánovú gumu. Pokračuj v miešaní.",
+		"Nechaj ešte raz zovrieť, odstav z ohňa, pridaj sladidlo a dobre premiešaj.",
+		"Hrniec nechaj ďalších 20 minút vychladnúť.",
+		"Džem prelej do zaváraninovej nádoby a vlož do chladničky, aby stuhol.",
+		"Po stuhnutí a vychladení už len vychutnávaj."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"ingredients": [
+				{
+					"name": "čerstvé jahody",
+					"quantity": 500,
+					"unit": "g"
+				},
+				{
+					"name": "sladidlo",
+					"quantity": 8,
+					"unit": "g"
+				},
+				{
+					"name": "vanilková aróma",
+					"quantity": 2,
+					"unit": "g"
+				},
+				{
+					"name": "voda",
+					"quantity": 60,
+					"unit": "ml"
+				},
+				{
+					"name": "citrón",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "tortové želé",
+					"quantity": 1,
+					"unit": "balenie"
+				},
+				{
+					"name": "xantánová guma",
+					"quantity": 0.33,
+					"unit": "ČL"
+				}
+			]
+		}
+	],
+	"image": "onvia/image27.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image27"
+}

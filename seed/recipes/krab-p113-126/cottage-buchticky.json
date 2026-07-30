@@ -1,0 +1,29 @@
+{
+	"title": "Cottage buchtičky",
+	"category": "zaklady",
+	"steps": [
+		"Rúru predhrejte na 180 stupňov.",
+		"Vajce rozbite do pohára alebo misky a rozmiešajte.",
+		"Cottage syr premiestnite do vyššej nádoby na mixovanie a pridajte k nemu väčšinu vajíčka, trochu si však nechajte na potretie.",
+		"Rozmixovanú zmes presuňte do nádoby od robota, pridajte múku, soľ a kypriaci prášok, zvoľte nadstavec typu hák a na malú chvíľku max 1,5 minúty premiešajte cesto.",
+		"Plech vyložte papierom na pečenie a vlhkými rukami vytvorte na plech 9 rovnako veľkých buchtičiek. Tie potrite vajíčkom, ktoré vám ostalo a posypte semienkami.",
+		"Pečte 22 minút, po upečení nechajte vychladnúť."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 9,
+			"ingredients": [
+				{"name": "cottage syr", "quantity": 400, "unit": "g"},
+				{"name": "vajcia", "quantity": 3, "unit": "ks"},
+				{"name": "hladká múka", "quantity": 300, "unit": "g"},
+				{"name": "soľ", "quantity": 6, "unit": "g"},
+				{"name": "kypriaci prášok", "quantity": 1, "unit": "balenie"},
+				{"name": "tekvicové semiačka"}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p119.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p119"
+}

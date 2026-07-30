@@ -1,0 +1,56 @@
+{
+	"title": "Nízkokalorická pizza",
+	"category": "obedy",
+	"prepTimeMinutes": 55,
+	"steps": [
+		"V miske zmiešaj nahrubo nastrúhanú cuketu so soľou a vajcami.",
+		"Plech na pečenie vylož papierom na pečenie a postriekaj olejom v spreji. Pripravenú zmes vylej na plech a vlož piecť do vyhriatej rúry na 180 stupňov na približne 30 minút.",
+		"Medzitým si nastrúhaj syr.",
+		"Keď je cesto predpečené, posyp ho syrom, pridaj šunku a nechaj ešte chvíľu zapiecť.",
+		"Po upečení pridaj bazalku podľa preferencií a môžeš si pochutnať!"
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 425,
+			"portions": 1,
+			"macros": {
+				"carbs": 13,
+				"protein": 41,
+				"fat": 24
+			},
+			"ingredients": [
+				{
+					"name": "cuketa",
+					"quantity": 1
+				},
+				{
+					"name": "vajce",
+					"quantity": 2
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "olivový olej v spreji"
+				},
+				{
+					"name": "strúhaný eidam 30%",
+					"quantity": 50,
+					"unit": "g"
+				},
+				{
+					"name": "kvalitná šunka",
+					"quantity": 50,
+					"unit": "g"
+				},
+				{
+					"name": "čerstvá bazalka"
+				}
+			]
+		}
+	],
+	"image": "onvia/image150.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image150"
+}

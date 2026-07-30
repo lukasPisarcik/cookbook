@@ -1,0 +1,51 @@
+{
+	"title": "Bryndzová nátierka",
+	"category": "snacky",
+	"prepTimeMinutes": 10,
+	"steps": [
+		"V miske si rozmiešj všetky suroviny pomocou vidličky okrem pažítky / cibuľky.",
+		"Nátierku si natri na chlebík, na vrch daj nasekanú pažítku a môžeš podávať.",
+		"Dobrú chuť ;)"
+	],
+	"funFact": "Bryndza obsahuje probiotiká, vápnik, fosfor a vitamín B. Tiež môže byť prospešná pre trávenie či imunitu.",
+	"variants": [
+		{
+			"label": "300 kcal",
+			"kcalPerPortion": 325,
+			"portions": 2,
+			"macros": {
+				"carbs": 8,
+				"protein": 30,
+				"fat": 19
+			},
+			"ingredients": [
+				{
+					"name": "bryndza",
+					"quantity": 125,
+					"unit": "g"
+				},
+				{
+					"name": "nízkotučný jemný tvaroh",
+					"quantity": 150,
+					"unit": "g"
+				},
+				{
+					"name": "pažítka"
+				},
+				{
+					"name": "sladká mletá paprika",
+					"quantity": 0.5,
+					"unit": "ČL"
+				},
+				{
+					"name": "proteínový chlebík",
+					"quantity": 2,
+					"unit": "ks"
+				}
+			]
+		}
+	],
+	"image": "bryndzova-natierka/p1.webp",
+	"source": "Bryndzová nátierka.pdf",
+	"sourceRef": "p1"
+}

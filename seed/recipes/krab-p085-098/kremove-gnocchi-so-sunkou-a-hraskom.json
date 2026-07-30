@@ -1,0 +1,30 @@
+{
+	"title": "Krémové gnocchi so šunkou a hráškom",
+	"category": "vecere",
+	"steps": [
+		"Do hlbokej panvice nalejte olej, zohrejte ho a pridajte na kocky nakrájanú šunku, oprestujte ju a pridajte hrášok.",
+		"Pridajte gnocchi a zalejte vodou alebo vývarom a smotanou. Povarte kým nebudú gnocchi mäkké.",
+		"Do hotového jedla potom premiešajte najemno nastrúhaný syr – už nevarte.",
+		"Podávajte so šalátom."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"portions": 3,
+			"ingredients": [
+				{"name": "olivový olej", "quantity": 1, "unit": "PL"},
+				{"name": "šunka od kosti", "quantity": 200, "unit": "g"},
+				{"name": "mrazený hrášok", "quantity": 150, "unit": "g"},
+				{"name": "zemiakové gnocchi", "quantity": 500, "unit": "g"},
+				{"name": "smotana na šľahanie", "quantity": 200, "unit": "g"},
+				{"name": "voda", "quantity": 300, "unit": "g"},
+				{"name": "syr Grana Padano", "quantity": 50, "unit": "g"},
+				{"name": "soľ"},
+				{"name": "peper"}
+			]
+		}
+	],
+	"image": "krabickovanie-recepty/p93.webp",
+	"source": "Krabičkovanie - recepty.pdf",
+	"sourceRef": "p93"
+}

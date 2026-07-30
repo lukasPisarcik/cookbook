@@ -1,0 +1,108 @@
+{
+	"title": "Lososové tacos",
+	"category": "obedy",
+	"prepTimeMinutes": 30,
+	"steps": [
+		"Priprav si mango salsu tak, že všetky suroviny pridáš do misky a premiešaš. Potom ju odlož bokom.",
+		"Rovnako postupuj aj pri avokádovo limetkovom dressingu. Avokádo môžeš roztlačiť, alebo nakrájať na malé kúsky a vymiešať so zvyšnými surovinami.",
+		"Teraz okoreň a osoľ rybu. Ja som použila čerstvého lososa. Môžeš použiť aj mrazené ryby, len im daj pred použitím čas na rozmrazenie.",
+		"Peč na vzduchu vo fritéze (AirFryer) pri 200°C 10 minút, alebo v predhriatej rúre na 180°C po dobu 16-18 minút funkcia ventilátor.",
+		"Opeč si tortilly na pár minút na panvici z každej strany.",
+		"Vytvor si svoje tacos a vychutnávaj!"
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 135,
+			"portions": 8,
+			"macros": {
+				"carbs": 12,
+				"protein": 15,
+				"fat": 3
+			},
+			"ingredients": [
+				{
+					"name": "čerstvý losos",
+					"quantity": 500,
+					"unit": "g"
+				},
+				{
+					"name": "malá kukuričná placka",
+					"quantity": 8,
+					"unit": "ks"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "korenie"
+				},
+				{
+					"name": "kôpor"
+				},
+				{
+					"name": "mango",
+					"quantity": 150,
+					"unit": "g"
+				},
+				{
+					"name": "červená paprika",
+					"quantity": 100,
+					"unit": "g"
+				},
+				{
+					"name": "červená cibuľa",
+					"quantity": 50,
+					"unit": "g"
+				},
+				{
+					"name": "jalapenos",
+					"quantity": 30,
+					"unit": "g"
+				},
+				{
+					"name": "koriander",
+					"quantity": 15,
+					"unit": "g"
+				},
+				{
+					"name": "šťava z limetky",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "morská soľ"
+				},
+				{
+					"name": "rasca"
+				},
+				{
+					"name": "stredne veľké avokádo",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "šťava z limetky",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "grécky jogurt",
+					"quantity": 2,
+					"unit": "PL"
+				},
+				{
+					"name": "koriander",
+					"quantity": 15,
+					"unit": "g"
+				},
+				{
+					"name": "pretlačený cesnak"
+				}
+			]
+		}
+	],
+	"image": "onvia/image171.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image171"
+}

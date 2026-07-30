@@ -1,0 +1,36 @@
+{
+	"title": "Krémova vanilková doska s arašidovým maslom",
+	"category": "dezerty",
+	"prepTimeMinutes": 20,
+	"steps": [
+		"Zmiešaj prísady na krém tak, aby si získala krémovú konzistenciu. Krém vlož do chladničky.",
+		"Zmiešaj prísady na maslo a pomaly pridávaj po troche studenú vodu (mandľové mlieko), kým nedosiahneš požadovanú krémovú konzistenciu.",
+		"Na dosku z dreva rozotri krém a maslo. Popusti uzdu svojej fantázii!",
+		"Po bokoch dosky poukladaj nakrájané ovocie, sušienky a ozdob zvyšnými prísadami na topping."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"macros": {"carbs": 135, "protein": 127, "fat": 63},
+			"ingredients": [
+				{"name": "arašidové maslo v prášku", "quantity": 60, "unit": "g"},
+				{"name": "proteínový prášok (čokoláda/vanilka)", "quantity": 50, "unit": "g"},
+				{"name": "Unicorn Dust", "quantity": 6, "unit": "g"},
+				{"name": "čokoládové lupienky", "quantity": 30, "unit": "g"},
+				{"name": "nasekané arašidy", "quantity": 30, "unit": "g"},
+				{"name": "krémový syr light", "quantity": 200, "unit": "g"},
+				{"name": "nízkotučný tvaroh", "quantity": 200, "unit": "g"},
+				{"name": "Unicorn Dust", "quantity": 6, "unit": "g"},
+				{"name": "nasekané pistácie", "quantity": 30, "unit": "g"},
+				{"name": "maliny", "quantity": 50, "unit": "g"},
+				{"name": "kokosové lupienky", "quantity": 20, "unit": "g"},
+				{"name": "jablko", "quantity": 1, "unit": "ks"},
+				{"name": "hruška", "quantity": 1, "unit": "ks"},
+				{"name": "sušienky (krekry)", "quantity": 10, "unit": "ks"}
+			]
+		}
+	],
+	"image": "onvia/image331.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image331"
+}

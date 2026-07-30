@@ -1,0 +1,61 @@
+{
+	"title": "Guacamole s celozrnnými krekrami",
+	"category": "snacky",
+	"dietTags": ["vegan", "bezlaktozove"],
+	"prepTimeMinutes": 10,
+	"steps": [
+		"Avokádo nakrájaj a roztlač vidličkou.",
+		"Pridaj šťavu z citróna, nakrájanú paradajku a cibuľu nakrájanú na malé kúsky.",
+		"Dochutíš soľou a čiernym korením.",
+		"Podávaj so celozrnnými krekrami."
+	],
+	"funFact": "Recept na guacamole vznikol pred viac ako 500 rokmi. Tento mexický dip sa vyrábal už v čase starých Aztékov a dodnes je jeden z najoblúbenejších dipov na svete.",
+	"variants": [
+		{
+			"label": "300 kcal",
+			"kcalPerPortion": 293,
+			"portions": 1,
+			"macros": {
+				"carbs": 27,
+				"protein": 4,
+				"fat": 17
+			},
+			"ingredients": [
+				{
+					"name": "avokádo",
+					"quantity": 100,
+					"unit": "g"
+				},
+				{
+					"name": "citrón (šťava)",
+					"quantity": 0.5,
+					"unit": "ks"
+				},
+				{
+					"name": "paradajka",
+					"quantity": 1,
+					"unit": "ks"
+				},
+				{
+					"name": "červená cibuľa",
+					"quantity": 0.25,
+					"unit": "ks"
+				},
+				{
+					"name": "soľ"
+				},
+				{
+					"name": "čierne korenie"
+				},
+				{
+					"name": "celozrnné krekry",
+					"quantity": 30,
+					"unit": "g"
+				}
+			]
+		}
+	],
+	"image": "snacky-300-kcal/p2.webp",
+	"source": "Snacky - 300 kcal.pdf",
+	"sourceRef": "p2"
+}

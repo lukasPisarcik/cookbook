@@ -1,0 +1,41 @@
+{
+	"title": "Citrónovo-šošovicové cestoviny s morčacím mäsom",
+	"category": "obedy",
+	"prepTimeMinutes": 10,
+	"steps": [
+		"Morčacie mäso nakrájaj na kocky, osoľ, okoreň a orestuj na olivovom oleji spolu s cibuľou a cesnakom nakrájanými nadrobno. Keď morčacie mäso získa farbu, pridaj do panvice fazuľku, suché cestoviny a podlej vývarom. Občas premiešaj, kým sa nezačne zmes variť, potom prikry a povar pri nízkej teplote asi 15 minút.",
+		"Odstráň pokrievku a pokračuj v miešaní, kým sa tekutina takmer úplne neodparí.",
+		"Vypni oheň a vmiešaj smotanový syr, parmezán a čerstvú petržlenovú vňať, kým nevznikne krémová omáčka na cestoviny. Pokvapkaj ju šťavou z polovice citróna a znova premiešaj.",
+		"Podávaj s trochou citrónovej kôry nastrúhanej na vrch a vychutnávaj."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 531,
+			"portions": 1,
+			"macros": {
+				"carbs": 41,
+				"protein": 61,
+				"fat": 12
+			},
+			"ingredients": [
+				{ "name": "cestoviny z šošovice", "quantity": 75, "unit": "g" },
+				{ "name": "morčacie prsia", "quantity": 100, "unit": "g" },
+				{ "name": "mrazená mladá fazuľka", "quantity": 150, "unit": "g" },
+				{ "name": "cesnak", "quantity": 1, "unit": "strúčik" },
+				{ "name": "cibuľa", "quantity": 1, "unit": "ks" },
+				{ "name": "kurací vývar", "quantity": 250, "unit": "ml" },
+				{ "name": "smotanový syr light", "quantity": 50, "unit": "g" },
+				{ "name": "olivový olej", "quantity": 1, "unit": "PL" },
+				{ "name": "citrón", "quantity": 0.5, "unit": "ks" },
+				{ "name": "strúhaný parmezán", "quantity": 1, "unit": "PL" },
+				{ "name": "morská soľ" },
+				{ "name": "čierne korenie" },
+				{ "name": "čerstvá petržlenová vňať" }
+			]
+		}
+	],
+	"image": "onvia/image192.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image192"
+}

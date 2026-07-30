@@ -1,0 +1,28 @@
+{
+	"title": "Apple tarts",
+	"category": "dezerty",
+	"prepTimeMinutes": 15,
+	"steps": [
+		"Pomocou malej misky z lístkového cesta vykroj 5 koliesok.",
+		"Na papier na pečenie nalej lyžicu medu, tú posyp pekanovými orechmi, na to polož plátky nakrájaného jablka a celé prikry kruhom z cesta.",
+		"Postláčaj kraje a daj piecť do vopred vyhriatej rúry na 200 stupňov na 20 minút.",
+		"Po upečení otoč a vychutnávaj."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 322,
+			"portions": 5,
+			"macros": {"carbs": 38, "protein": 3, "fat": 17},
+			"ingredients": [
+				{"name": "lístkové cesto", "quantity": 275, "unit": "g"},
+				{"name": "jablko", "quantity": 1, "unit": "ks"},
+				{"name": "med", "quantity": 85, "unit": "g"},
+				{"name": "pekanové orechy", "quantity": 20, "unit": "g"}
+			]
+		}
+	],
+	"image": "onvia/image320.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image320"
+}

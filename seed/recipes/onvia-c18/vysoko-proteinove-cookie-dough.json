@@ -1,0 +1,30 @@
+{
+	"title": "Vysoko Proteínové Cookie Dough",
+	"category": "dezerty",
+	"prepTimeMinutes": 20,
+	"steps": [
+		"Cottage syr rozmixuj v miske mixérom na hladkú konzistenciu.",
+		"Pridaj všetky suché suroviny, orechové maslo a dobre vymiešaj stierkou, kým nezískaš homogénne cesto.",
+		"Pridaj čokopecičky a buď si ho vychutnaj hneď, alebo ho nechaj 30-40 min v chladničke, aby ztuhlo."
+	],
+	"variants": [
+		{
+			"label": "štandard",
+			"kcalPerPortion": 312,
+			"portions": 3,
+			"macros": {"carbs": 12, "protein": 35, "fat": 14},
+			"ingredients": [
+				{"name": "nízkotučný cottage syr", "quantity": 400, "unit": "g"},
+				{"name": "vanilkový proteínový prášok", "quantity": 50, "unit": "g"},
+				{"name": "kokosová múka", "quantity": 22, "unit": "g"},
+				{"name": "psyllium", "quantity": 4, "unit": "g"},
+				{"name": "sladidlo", "quantity": 6, "unit": "g"},
+				{"name": "orechové maslo", "quantity": 20, "unit": "g"},
+				{"name": "čokopecičky", "quantity": 30, "unit": "g"}
+			]
+		}
+	],
+	"image": "onvia/image337.webp",
+	"source": "ONVIA recepty.docx",
+	"sourceRef": "image337"
+}
