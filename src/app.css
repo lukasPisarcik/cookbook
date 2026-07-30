@@ -75,6 +75,27 @@
 	--selection: #fdf2f8;
 	--selection-border: #f472b6;
 
+	/*
+	 * Recipe-detail hero geometry (see RecipeHero.svelte). The photo is a
+	 * collapsing toolbar: a sticky stage of CONSTANT height with a NEGATIVE
+	 * sticky top, so it scrolls away naturally until only `--recipe-hero-peek`
+	 * stays pinned under the status bar, with the content sliding behind it.
+	 *
+	 * Both values are static on purpose. Driving the stage's height from a
+	 * scroll handler resizes the document mid-scroll, which fights the
+	 * browser's scroll anchoring and stutters — the same trap the trip-planner
+	 * map stage documents.
+	 */
+	--recipe-hero-h: 62vh;
+	--recipe-hero-peek: 4.5rem;
+
+	/*
+	 * TabBar's own height, excluding its safe-area padding. Mirrors the markup in
+	 * TabBar.svelte; anything pinned above the tab bar (the recipe detail's
+	 * „Dnes varím" action bar) offsets by this plus the safe-area inset.
+	 */
+	--tab-bar-h: 3.5rem;
+
 	/* Sidebar — kept in sync even though no sidebar renders today. */
 	--sidebar: 0 0% 100%;
 	--sidebar-foreground: 20 10% 8%;
