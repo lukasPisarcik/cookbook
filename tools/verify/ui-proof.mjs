@@ -11,6 +11,7 @@
  *
  * Usage:
  *   bun tools/verify/ui-proof.mjs [output-dir]   # default: .verify/
+ *   UI_PROOF_HEADED=1 bun tools/verify/ui-proof.mjs   # watch it in a real window
  *
  * Exits non-zero on any uncaught page error, failed navigation, or missing
  * feature element — screenshots land in the output dir either way.
@@ -23,24 +24,42 @@ import { chromium } from 'playwright-core';
 
 const BASE_URL = process.env.UI_PROOF_BASE_URL ?? 'http://localhost:5173';
 const PASSWORD = process.env.UI_PROOF_PASSWORD ?? process.env.APP_PASSWORD ?? 'kucharka-dev';
+const HEADED = process.env.UI_PROOF_HEADED === '1';
 const OUT = process.argv[2] ?? '.verify';
 
 function findChromium() {
 	if (process.env.UI_PROOF_CHROMIUM) return process.env.UI_PROOF_CHROMIUM;
 	const cache = join(homedir(), 'Library', 'Caches', 'ms-playwright');
-	const shell = readdirSync(cache)
-		.filter((name) => name.startsWith('chromium_headless_shell-'))
+	// Headed needs the full Chromium build; headless uses the lighter shell.
+	const prefix = HEADED ? 'chromium-' : 'chromium_headless_shell-';
+	const build = readdirSync(cache)
+		.filter((name) => name.startsWith(prefix))
 		.sort()
 		.at(-1);
-	if (!shell) {
+	if (!build) {
 		throw new Error('Playwright Chromium not found — run `bunx playwright install chromium` first');
 	}
-	return join(cache, shell, 'chrome-headless-shell-mac-arm64', 'chrome-headless-shell');
+	return HEADED
+		? join(
+				cache,
+				build,
+				'chrome-mac-arm64',
+				'Google Chrome for Testing.app',
+				'Contents',
+				'MacOS',
+				'Google Chrome for Testing'
+			)
+		: join(cache, build, 'chrome-headless-shell-mac-arm64', 'chrome-headless-shell');
 }
 
 mkdirSync(OUT, { recursive: true });
 
-const browser = await chromium.launch({ executablePath: findChromium() });
+const browser = await chromium.launch({
+	executablePath: findChromium(),
+	headless: !HEADED,
+	// Slow the clicks down a touch so a human can follow along in headed mode.
+	slowMo: HEADED ? 600 : 0
+});
 const page = await browser.newPage({
 	viewport: { width: 390, height: 844 },
 	locale: 'sk-SK'
