@@ -25,20 +25,37 @@
 	}
 </script>
 
-<section class="space-y-1">
-	<h3 class="pt-2 text-xs font-bold tracking-wider text-muted-foreground uppercase">{title}</h3>
-	<ul class="divide-y rounded-xl border bg-card">
+<section class="space-y-0.5">
+	<h3
+		class="px-1 pt-3 pb-1 font-display text-[11px] font-bold tracking-widest text-muted-foreground uppercase"
+	>
+		{title}
+	</h3>
+	<ul>
 		{#each items as item (item.id)}
 			<li>
-				<label class="flex cursor-pointer items-center gap-3 px-3 py-2.5">
+				<label
+					class="flex cursor-pointer items-center gap-3 rounded-lg px-1 py-2 transition-colors hover:bg-muted/60"
+				>
 					<Checkbox
 						checked={item.checked}
 						onCheckedChange={(checked) => onToggle(item.id, checked === true)}
+						class="size-[18px] rounded-[5px]"
 					/>
-					<span class={cn('flex-1 text-sm', item.checked && 'text-muted-foreground line-through')}>
+					<span
+						class={cn(
+							'flex-1 text-sm transition-all duration-200',
+							item.checked && 'text-muted-foreground/70 line-through'
+						)}
+					>
 						{item.name}
 					</span>
-					<span class="text-xs text-muted-foreground tabular-nums">
+					<span
+						class={cn(
+							'text-xs text-muted-foreground tabular-nums transition-all duration-200',
+							item.checked && 'text-muted-foreground/50 line-through'
+						)}
+					>
 						{formatQuantity(item.quantity, item.unit)}
 					</span>
 				</label>

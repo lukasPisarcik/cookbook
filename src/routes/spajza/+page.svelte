@@ -63,7 +63,7 @@
 				placeholder={d.spajzaPlaceholder}
 				bind:value={newItem}
 				autocomplete="off"
-				class="rounded-full"
+				class="rounded-full border-transparent bg-card shadow-sm"
 			/>
 			<Button
 				type="submit"
@@ -76,13 +76,13 @@
 		</div>
 
 		{#if suggestions.length > 0}
-			<ul class="overflow-hidden rounded-xl border bg-card">
+			<ul class="overflow-hidden rounded-2xl bg-card shadow-sm">
 				{#each suggestions as suggestion (suggestion.nameNorm)}
 					<li>
 						<button
 							type="button"
 							onclick={() => add(suggestion.name, suggestion.productType)}
-							class="flex w-full items-center justify-between px-3 py-2 text-left text-sm transition-colors hover:bg-muted"
+							class="flex w-full items-center justify-between px-3 py-2.5 text-left text-sm transition-colors hover:bg-accent"
 						>
 							<span>{suggestion.name}</span>
 							<span class="text-xs text-muted-foreground">{suggestion.productType}</span>
@@ -100,13 +100,17 @@
 	{:else}
 		<div class="space-y-4">
 			{#each groups as group (group.productType)}
-				<section class="space-y-1">
-					<h3 class="pt-2 text-xs font-bold tracking-wider text-muted-foreground uppercase">
+				<section class="space-y-0.5">
+					<h3
+						class="px-1 pt-3 pb-1 font-display text-[11px] font-bold tracking-widest text-muted-foreground uppercase"
+					>
 						{group.productType}
 					</h3>
-					<ul class="divide-y rounded-xl border bg-card">
+					<ul>
 						{#each group.items as item (item._id)}
-							<li class="flex items-center justify-between gap-3 px-3 py-2.5">
+							<li
+								class="flex items-center justify-between gap-3 rounded-lg px-1 py-2 transition-colors hover:bg-muted/60"
+							>
 								<span class="text-sm">{item.name}</span>
 								<button
 									type="button"

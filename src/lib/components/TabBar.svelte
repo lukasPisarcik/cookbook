@@ -45,10 +45,17 @@
 				aria-current={active ? 'page' : undefined}
 				class={cn(
 					'flex flex-col items-center gap-0.5 py-2 text-[11px] font-medium transition-colors',
-					active ? 'text-sky-700 dark:text-sky-300' : 'text-muted-foreground hover:text-foreground'
+					active ? 'text-primary' : 'text-muted-foreground hover:text-foreground'
 				)}
 			>
-				<tab.icon class={cn('h-5 w-5', active && 'text-primary')} />
+				<span
+					class={cn(
+						'flex items-center justify-center rounded-full px-3 py-0.5 transition-colors',
+						active && 'bg-primary/10'
+					)}
+				>
+					<tab.icon class="h-5 w-5" />
+				</span>
 				<span>{tab.label}</span>
 			</a>
 		{/each}
