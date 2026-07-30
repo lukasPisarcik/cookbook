@@ -4,10 +4,12 @@
 	import { api } from '$convex/api';
 	import { d } from '$lib';
 	import { CategoryChips, Input, RecipeCard, Spinner } from '$lib/components';
+	import { profileStore } from '$lib/stores';
 	import { Heart, Search } from '@lucide/svelte';
 	import { cn } from '$lib/utils';
 
 	const token = $derived(page.data.convexToken as string);
+	const userId = $derived(profileStore.userId);
 
 	let search = $state('');
 	let debouncedSearch = $state('');
@@ -21,13 +23,20 @@
 		return () => clearTimeout(timer);
 	});
 
-	const recipes = useQuery(api.recipes.list, () => ({
-		token,
-		search: debouncedSearch.trim() || undefined,
-		category: category ?? undefined,
-		dietTag: dietTag ?? undefined,
-		favoritesOnly: favoritesOnly || undefined
-	}));
+	// 'skip' until the profile resolves — otherwise the first frame would query
+	// with no user and flash an empty (or the wrong profile's) list.
+	const recipes = useQuery(api.recipes.list, () =>
+		userId
+			? {
+					token,
+					userId,
+					search: debouncedSearch.trim() || undefined,
+					category: category ?? undefined,
+					dietTag: dietTag ?? undefined,
+					favoritesOnly: favoritesOnly || undefined
+				}
+			: 'skip'
+	);
 
 	const dietTags = useQuery(api.recipes.dietTags, () => ({ token }));
 </script>

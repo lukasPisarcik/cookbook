@@ -1,19 +1,13 @@
 <script lang="ts">
-	import { page } from '$app/state';
 	import { resolve } from '$app/paths';
 	import logo from '$lib/assets/logo.svg';
 	import { d, type MeetingLanguageCode } from '$lib';
 	import { langStore, themeStore } from '$lib/stores';
-	import { Button } from '$lib/components';
+	import { Button, ProfileSwitcher } from '$lib/components';
 	import { Moon, Sun } from '@lucide/svelte';
 
-	const title = $derived.by(() => {
-		const pathname = page.url.pathname;
-		if (pathname.startsWith('/dnes')) return d.tabDnes;
-		if (pathname.startsWith('/nakup')) return d.tabNakup;
-		if (pathname.startsWith('/spajza')) return d.tabSpajza;
-		return d.tabRecepty;
-	});
+	// A fixed wordmark, not the active tab's name — the bottom tab bar already
+	// says which tab you are on, so repeating it left the app with no identity.
 
 	const locales = Object.keys(langStore.config) as MeetingLanguageCode[];
 
@@ -28,8 +22,8 @@
 >
 	<div class="mx-auto flex w-full max-w-lg items-center justify-between px-4 py-2">
 		<a href={resolve('/')} class="flex items-center gap-2 transition-opacity hover:opacity-80">
-			<img src={logo} alt={d.appTitle} class="h-8 w-8" />
-			<span class="font-display text-lg font-bold tracking-tight">{title}</span>
+			<img src={logo} alt="" class="h-8 w-8" />
+			<span class="font-display text-lg font-bold tracking-tight">{d.appTitle}</span>
 		</a>
 
 		<div class="flex items-center gap-1">
@@ -48,6 +42,7 @@
 					<Sun class="h-5 w-5" />
 				{/if}
 			</Button>
+			<ProfileSwitcher variant="switcher" />
 		</div>
 	</div>
 </header>

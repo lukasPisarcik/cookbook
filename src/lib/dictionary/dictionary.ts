@@ -81,6 +81,28 @@ type DictionarySchema = {
 	spajzaPlaceholder: DictionaryEntry;
 	spajzaAdd: DictionaryEntry;
 	spajzaEmpty: DictionaryEntry;
+	spajzaMamDoma: DictionaryEntry;
+	spajzaFrequent: DictionaryEntry;
+	spajzaFrequentHint: DictionaryEntry;
+	spajzaSearchResults: DictionaryEntry;
+	spajzaRemoved: DictionaryEntry;
+	spajzaUndo: DictionaryEntry;
+	spajzaAlreadyOwned: DictionaryEntry;
+
+	// Profile („Kto si?" gate + switcher)
+	profileWhoAreYou: DictionaryEntry;
+	profileHint: DictionaryEntry;
+	profileNamePlaceholder: DictionaryEntry;
+	profileContinue: DictionaryEntry;
+	profileSwitcherLabel: DictionaryEntry;
+	profileSwitchHeading: DictionaryEntry;
+	profileAddAnother: DictionaryEntry;
+	profileKnownHeading: DictionaryEntry;
+
+	// Recipe detail stat cards
+	statTime: DictionaryEntry;
+	statKcal: DictionaryEntry;
+	statPortions: DictionaryEntry;
 
 	// Error page (generic chrome)
 	errorPageGoHome: DictionaryEntry;
@@ -131,13 +153,13 @@ export const dictionary: DictionarySchema = {
 	searchLanguage: { sk_sk: 'Hľadať jazyk…', en_us: 'Search language…' },
 	noLanguageFound: { sk_sk: 'Jazyk sa nenašiel', en_us: 'No language found' },
 
-	appTitle: { sk_sk: 'Kuchárka', en_us: 'Kuchárka' },
+	appTitle: { sk_sk: 'Mňamka', en_us: 'Mňamka' },
 	appDescription: { sk_sk: 'Osobná kuchárka.', en_us: 'A personal cookbook.' },
 	loading: { sk_sk: 'Načítava sa…', en_us: 'Loading…' },
 
 	loginSubtitle: {
-		sk_sk: 'Zadaj heslo a otvor kuchárku',
-		en_us: 'Enter the password to open the cookbook'
+		sk_sk: 'Zadaj heslo a poďme variť',
+		en_us: 'Enter the password and let’s cook'
 	},
 	loginPasswordLabel: { sk_sk: 'Heslo', en_us: 'Password' },
 	loginSubmit: { sk_sk: 'Odomknúť', en_us: 'Unlock' },
@@ -210,6 +232,32 @@ export const dictionary: DictionarySchema = {
 		sk_sk: 'Špajza je prázdna. Pridaj, čo máš doma — nákupný zoznam to preskočí.',
 		en_us: 'The pantry is empty. Add what you have at home — the shopping list will skip it.'
 	},
+	spajzaMamDoma: { sk_sk: 'Mám doma', en_us: 'At home' },
+	spajzaFrequent: { sk_sk: 'Časté', en_us: 'Common' },
+	spajzaFrequentHint: {
+		sk_sk: 'Ťukni a pridá sa do špajze.',
+		en_us: 'Tap to add it to the pantry.'
+	},
+	spajzaSearchResults: { sk_sk: 'Výsledky', en_us: 'Results' },
+	spajzaRemoved: { sk_sk: 'Odstránené zo špajze', en_us: 'Removed from the pantry' },
+	spajzaUndo: { sk_sk: 'Vrátiť', en_us: 'Undo' },
+	spajzaAlreadyOwned: { sk_sk: 'Už máš doma', en_us: 'Already at home' },
+
+	profileWhoAreYou: { sk_sk: 'Kto si?', en_us: 'Who are you?' },
+	profileHint: {
+		sk_sk: 'Tvoje obľúbené recepty, špajza a nákupný zoznam sa uložia pod týmto menom.',
+		en_us: 'Your favourites, pantry and shopping list are saved under this name.'
+	},
+	profileNamePlaceholder: { sk_sk: 'Tvoje meno…', en_us: 'Your name…' },
+	profileContinue: { sk_sk: 'Pokračovať', en_us: 'Continue' },
+	profileSwitcherLabel: { sk_sk: 'Prepnúť profil', en_us: 'Switch profile' },
+	profileSwitchHeading: { sk_sk: 'Prepnúť profil', en_us: 'Switch profile' },
+	profileAddAnother: { sk_sk: 'Pridať iné meno', en_us: 'Add another name' },
+	profileKnownHeading: { sk_sk: 'Na tomto zariadení', en_us: 'On this device' },
+
+	statTime: { sk_sk: 'Čas', en_us: 'Time' },
+	statKcal: { sk_sk: 'Kcal', en_us: 'Kcal' },
+	statPortions: { sk_sk: 'Porcie', en_us: 'Portions' },
 
 	errorPageGoHome: { sk_sk: 'Domov', en_us: 'Go home' },
 	errorPageTryAgain: { sk_sk: 'Skúsiť znova', en_us: 'Try again' },

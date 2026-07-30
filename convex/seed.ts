@@ -45,15 +45,16 @@ export const upsertRecipe = mutation({
 			.withIndex('by_slug', (q) => q.eq('slug', args.recipe.slug))
 			.unique();
 		if (existing) {
-			// Preserve user state (isFavorite, cookingToday) and the stored
-			// image when the re-run doesn't bring a new one.
+			// Per-user state lives in `recipeState`, keyed by slug, so replacing
+			// the recipe document never touches it. Keep the stored image when
+			// the re-run doesn't bring a new one.
 			await ctx.db.patch(existing._id, {
 				...args.recipe,
 				imageId: args.recipe.imageId ?? existing.imageId
 			});
 			return { action: 'updated', slug: args.recipe.slug };
 		}
-		await ctx.db.insert('recipes', { ...args.recipe, isFavorite: false });
+		await ctx.db.insert('recipes', args.recipe);
 		return { action: 'inserted', slug: args.recipe.slug };
 	}
 });
@@ -61,6 +62,8 @@ export const upsertRecipe = mutation({
 export const upsertPantryItem = mutation({
 	args: {
 		token: v.string(),
+		/** Which profile's špajza the starter pantry lands in. */
+		userId: v.string(),
 		name: v.string(),
 		nameNorm: v.string(),
 		productType: v.string()
@@ -69,10 +72,13 @@ export const upsertPantryItem = mutation({
 		requireToken(args.token);
 		const existing = await ctx.db
 			.query('pantryItems')
-			.withIndex('by_nameNorm', (q) => q.eq('nameNorm', args.nameNorm))
+			.withIndex('by_user_nameNorm', (q) =>
+				q.eq('userId', args.userId).eq('nameNorm', args.nameNorm)
+			)
 			.unique();
 		if (existing) return existing._id;
 		return ctx.db.insert('pantryItems', {
+			userId: args.userId,
 			name: args.name,
 			nameNorm: args.nameNorm,
 			productType: args.productType

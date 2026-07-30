@@ -28,6 +28,10 @@ export { default as RecipeCard } from './RecipeCard.svelte';
 export { default as VariantSwitcher } from './VariantSwitcher.svelte';
 export { default as CategoryChips } from './CategoryChips.svelte';
 export { default as ShoppingSection } from './ShoppingSection.svelte';
+export { default as IngredientTile } from './IngredientTile.svelte';
+export { default as IngredientRow } from './IngredientRow.svelte';
+export { default as ProfileSwitcher } from './ProfileSwitcher.svelte';
+export { default as RecipeHero } from './RecipeHero.svelte';
 
 export { Button } from './ui/button';
 export { Avatar, AvatarFallback } from './ui/avatar';
