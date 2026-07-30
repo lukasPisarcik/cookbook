@@ -19,6 +19,7 @@ import { log } from '$lib/helpers/logger';
  * language code.
  */
 const languageConfig: Record<Locale, LanguageConfigEntry> = {
+	sk_sk: { label: 'Slovenčina', flag: '🇸🇰', dir: 'ltr' },
 	en_us: { label: 'English (United States)', flag: '🇺🇸', dir: 'ltr' }
 };
 

@@ -49,3 +49,6 @@ browser-results.xml
 
 # Plans (dev-cycle artifacts)
 .plans/
+
+# extraction intermediates
+.extract-cache/
