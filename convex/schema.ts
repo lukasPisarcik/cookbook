@@ -46,7 +46,24 @@ export default defineSchema({
 		/** Source document filename. */
 		source: v.string(),
 		/** Page / blueprint code (R1…) inside the source. */
-		sourceRef: v.optional(v.string()),
+		sourceRef: v.optional(v.string())
+		// `isFavorite` and `cookingToday` used to live here, shared by everyone
+		// with the password. They are now per-user in `recipeState`; the
+		// `migrations:adoptLegacyState` mutation copied them across and stripped
+		// them from every row before this field list dropped them.
+	})
+		.index('by_slug', ['slug'])
+		.index('by_category', ['category'])
+		.searchIndex('search_title', { searchField: 'searchText' }),
+
+	/**
+	 * Per-user recipe state — favourites and „Dnes varím". Keyed by `slug`
+	 * rather than by document id so the importer can keep replacing recipe
+	 * documents without touching anyone's state.
+	 */
+	recipeState: defineTable({
+		userId: v.string(),
+		slug: v.string(),
 		isFavorite: v.boolean(),
 		cookingToday: v.optional(
 			v.object({
@@ -55,17 +72,18 @@ export default defineSchema({
 			})
 		)
 	})
-		.index('by_slug', ['slug'])
-		.index('by_category', ['category'])
-		.searchIndex('search_title', { searchField: 'searchText' }),
+		.index('by_user', ['userId'])
+		.index('by_user_slug', ['userId', 'slug']),
 
 	pantryItems: defineTable({
+		userId: v.string(),
 		nameNorm: v.string(),
 		name: v.string(),
 		productType: v.string()
-	}).index('by_nameNorm', ['nameNorm']),
+	}).index('by_user_nameNorm', ['userId', 'nameNorm']),
 
 	shoppingItems: defineTable({
+		userId: v.string(),
 		nameNorm: v.string(),
 		name: v.string(),
 		quantity: v.optional(v.number()),
@@ -77,5 +95,5 @@ export default defineSchema({
 		excludedByPantry: v.boolean(),
 		/** „Kúpim aj tak" — buy despite the pantry having it. */
 		overridden: v.boolean()
-	}).index('by_productType', ['productType'])
+	}).index('by_user_productType', ['userId', 'productType'])
 });

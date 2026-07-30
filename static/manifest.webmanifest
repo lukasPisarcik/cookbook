@@ -1,6 +1,6 @@
 {
-	"name": "Kuchárka",
-	"short_name": "Kuchárka",
+	"name": "Mňamka",
+	"short_name": "Mňamka",
 	"description": "Osobná kuchárka — recepty, dnešné varenie, nákupný zoznam a špajza.",
 	"start_url": "/",
 	"scope": "/",

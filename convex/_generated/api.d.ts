@@ -9,6 +9,7 @@
  */
 
 import type * as lib from '../lib.js';
+import type * as migrations from '../migrations.js';
 import type * as pantry from '../pantry.js';
 import type * as recipes from '../recipes.js';
 import type * as seed from '../seed.js';
@@ -18,6 +19,7 @@ import type { ApiFromModules, FilterApi, FunctionReference } from 'convex/server
 
 declare const fullApi: ApiFromModules<{
 	lib: typeof lib;
+	migrations: typeof migrations;
 	pantry: typeof pantry;
 	recipes: typeof recipes;
 	seed: typeof seed;

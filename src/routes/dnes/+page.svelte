@@ -6,35 +6,42 @@
 	import { api } from '$convex/api';
 	import { d, toast } from '$lib';
 	import { Button, Spinner, VariantSwitcher } from '$lib/components';
+	import { profileStore } from '$lib/stores';
 	import { Minus, Plus, ShoppingCart, Trash2, X } from '@lucide/svelte';
 
 	const token = $derived(page.data.convexToken as string);
+	const userId = $derived(profileStore.userId);
 	const client = useConvexClient();
 
-	const flagged = useQuery(api.recipes.cookingToday, () => ({ token }));
+	const flagged = useQuery(api.recipes.cookingToday, () => (userId ? { token, userId } : 'skip'));
 
 	let generating = $state(false);
 
 	async function update(slug: string, variantIndex: number, portionMultiplier: number) {
+		if (!userId) return;
 		await client.mutation(api.recipes.setCookingToday, {
 			token,
+			userId,
 			slug,
 			value: { variantIndex, portionMultiplier: Math.max(0.5, portionMultiplier) }
 		});
 	}
 
 	async function remove(slug: string) {
-		await client.mutation(api.recipes.setCookingToday, { token, slug, value: null });
+		if (!userId) return;
+		await client.mutation(api.recipes.setCookingToday, { token, userId, slug, value: null });
 	}
 
 	async function clearAll() {
-		await client.mutation(api.recipes.clearCookingToday, { token });
+		if (!userId) return;
+		await client.mutation(api.recipes.clearCookingToday, { token, userId });
 	}
 
 	async function generate() {
+		if (!userId) return;
 		generating = true;
 		try {
-			await client.mutation(api.shopping.regenerate, { token });
+			await client.mutation(api.shopping.regenerate, { token, userId });
 			toast.success(d.dnesGenerated);
 			await goto(resolve('/nakup'));
 		} finally {

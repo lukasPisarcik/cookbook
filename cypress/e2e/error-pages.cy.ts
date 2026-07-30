@@ -26,5 +26,11 @@ describe('Error page mapping', () => {
 
 		cy.contains('h1', '404').should('be.visible');
 		cy.findByRole('link', { name: /domov|go home/i }).should('be.visible');
+
+		// No profile has been chosen in this spec, and error pages deliberately
+		// skip the „Kto si?" gate — so the error page must be the error page, not
+		// the profile prompt, and the top bar must not sprout one either.
+		cy.contains('Kto si?').should('not.exist');
+		cy.get('[data-testid="profile-name-input"]').should('not.exist');
 	});
 });
