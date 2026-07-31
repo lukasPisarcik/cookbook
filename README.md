@@ -120,11 +120,29 @@ bunx convex deploy
 # 2. APP_TOKEN is NOT carried over from dev — set it on prod explicitly
 bunx convex env set APP_TOKEN <value> --prod
 
-# 3. Seed production (777 recipe entries + photo uploads — expect several
-#    minutes; dry-run first, and just re-run on failure, it is idempotent)
-CONVEX_URL=<prod-url> bun tools/seed/import.ts --dry-run
-CONVEX_URL=<prod-url> bun tools/seed/import.ts --user lukas
+# 3. Validate the corpus first — --dry-run writes nothing and needs no
+#    deployment, so it takes no env at all
+bun tools/seed/import.ts --dry-run
+
+# 4. Seed production (777 seed files → 635 recipes, ~580 photo uploads —
+#    expect several minutes; just re-run on failure, it is idempotent)
+PUBLIC_CONVEX_URL=<prod-url> APP_TOKEN=$(bunx convex env get APP_TOKEN --prod) \
+  bun tools/seed/import.ts --user lukas
 ```
+
+> **Pass `PUBLIC_CONVEX_URL`, not `CONVEX_URL`.** The importer reads
+> `Bun.env.PUBLIC_CONVEX_URL` (`tools/seed/import.ts`), and Bun auto-loads
+> `.env.local`, so an unset or misnamed override silently seeds the **dev**
+> deployment instead of prod — with no error. `APP_TOKEN` must likewise be the
+> value set on prod in step 2, not the dev one from `.env`; reading it back with
+> `convex env get` keeps the two in sync by construction.
+>
+> The script prints its fuzzy-title-match list and then goes **silent for
+> several minutes** while it uploads photos one at a time — there is no
+> per-image progress. The next line you see is `✓ images: N available`. That
+> pause is not a hang. Uploads are cached per deployment in
+> `.extract-cache/image-uploads.json`, so a re-run resumes rather than
+> re-uploading. Don't run two importers at once — they race on that cache file.
 
 Then, in the Vercel project settings, set these for **Production and Preview**
 and deploy:
