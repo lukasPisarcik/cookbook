@@ -44,7 +44,9 @@
 				/>
 			</div>
 
-			{#if form?.incorrect}
+			{#if form?.rateLimited}
+				<p class="text-sm text-destructive" role="alert">{d.loginTooManyAttempts}</p>
+			{:else if form?.incorrect}
 				<p class="text-sm text-destructive" role="alert">{d.loginIncorrectPassword}</p>
 			{/if}
 

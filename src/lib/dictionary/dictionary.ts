@@ -21,6 +21,7 @@ type DictionarySchema = {
 	loginPasswordLabel: DictionaryEntry;
 	loginSubmit: DictionaryEntry;
 	loginIncorrectPassword: DictionaryEntry;
+	loginTooManyAttempts: DictionaryEntry;
 
 	// Tabs
 	tabRecepty: DictionaryEntry;
@@ -166,6 +167,10 @@ export const dictionary: DictionarySchema = {
 	loginIncorrectPassword: {
 		sk_sk: 'Nesprávne heslo, skús znova',
 		en_us: 'Incorrect password, try again'
+	},
+	loginTooManyAttempts: {
+		sk_sk: 'Príliš veľa pokusov. Skús to znova o pár minút.',
+		en_us: 'Too many attempts. Try again in a few minutes.'
 	},
 
 	tabRecepty: { sk_sk: 'Recepty', en_us: 'Recipes' },
