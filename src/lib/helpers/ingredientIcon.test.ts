@@ -1,8 +1,18 @@
-import { readFileSync } from 'node:fs';
+import { existsSync, readFileSync } from 'node:fs';
 import { describe, expect, it } from 'vitest';
 import { ingredientIcon } from './ingredientIcon';
 
 const FALLBACK_TINT = 'bg-muted';
+
+/**
+ * The recipe corpus is not distributed with the repo (see README → "The recipe
+ * corpus"), so the two corpus-wide checks below can only run on a machine that
+ * holds it. They are the real regression net for the icon map — skipping is a
+ * concession to the clone, not a downgrade — so they run in full wherever
+ * `seed/blueprint.json` exists and are skipped, not weakened, where it doesn't.
+ */
+const BLUEPRINT = 'seed/blueprint.json';
+const withCorpus = existsSync(BLUEPRINT) ? it : it.skip;
 
 describe('ingredientIcon', () => {
 	it('matches a curated keyword', () => {
@@ -67,8 +77,8 @@ describe('ingredientIcon', () => {
 		expect(noType.emoji).not.toBe('');
 	});
 
-	it('never returns a blank tile for any ingredient in the corpus', () => {
-		const blueprint = JSON.parse(readFileSync('seed/blueprint.json', 'utf8')) as {
+	withCorpus('never returns a blank tile for any ingredient in the corpus', () => {
+		const blueprint = JSON.parse(readFileSync(BLUEPRINT, 'utf8')) as {
 			ingredientsByCode: Record<string, Array<{ name: string; productType: string }>>;
 		};
 		const blanks: string[] = [];
@@ -83,8 +93,8 @@ describe('ingredientIcon', () => {
 		expect(blanks).toEqual([]);
 	});
 
-	it('resolves every blueprint productType to a non-fallback tint', () => {
-		const blueprint = JSON.parse(readFileSync('seed/blueprint.json', 'utf8')) as {
+	withCorpus('resolves every blueprint productType to a non-fallback tint', () => {
+		const blueprint = JSON.parse(readFileSync(BLUEPRINT, 'utf8')) as {
 			productTypes: string[];
 		};
 		const unmapped = blueprint.productTypes.filter(

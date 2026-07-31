@@ -4,7 +4,7 @@
 
 <h1 align="center">Mňamka</h1>
 
-<p align="center">A personal, mobile-first cookbook — recipes, today's cooking, an aggregated shopping list and a pantry, backed by Convex. Shared by two kitchens, with per-profile personal state.</p>
+<p align="center">A personal, mobile-first cookbook — recipes, today's cooking, an aggregated shopping list and a pantry, backed by Convex. Shared by two kitchens, with per-profile personal state.<br /><em>Application code only — the recipe corpus it runs on is not part of this repository.</em></p>
 
 </div>
 
@@ -23,7 +23,7 @@
 
 ## The app
 
-Four bottom tabs rebuild the workflow of the `Zoznam receptov.xlsx` workbook:
+Four bottom tabs rebuild the workflow of the spreadsheet this replaced:
 
 | Tab            | Route     | What it does                                                                                 |
 | -------------- | --------- | -------------------------------------------------------------------------------------------- |
@@ -44,11 +44,10 @@ corpus itself stays shared and read-only. Typing the same name on another device
 resolves to the same profile, and the top-bar avatar switches between them.
 
 > **Trust boundary — read this before sharing the URL.** A profile is a
-> _preference, not a credential_. The shared password is the only real boundary:
-> the client sends `userId` to Convex unverified, so anyone past the password can
-> read or write any profile by editing `localStorage`. That is acceptable for two
-> siblings sharing a secret; it is **not** acceptable if the URL is shared
-> further. Adding a second person is safe; adding a stranger is not.
+> _preference, not a credential_: it separates two people's favourites and lists,
+> it does not isolate them from each other. The shared password is the only real
+> boundary. Adding someone you'd hand the password to is fine; treating a profile
+> as a wall between accounts is not what it is.
 
 ## Setup
 
@@ -62,30 +61,42 @@ bun run dev
 
 App will start on http://localhost:5173.
 
-## Seeding the data
+> **Never deploy with the local test password.** The Cypress specs and
+> `tools/verify/ui-proof.mjs` fall back to a hard-coded `kucharka-dev` so they
+> run without env, which means that string is public. It is fine for a laptop;
+> anything reachable from the internet needs a real `APP_PASSWORD`, and
+> `APP_TOKEN` should be freshly random per deployment (`openssl rand -hex 24`).
+> Changing `APP_PASSWORD` invalidates every session, since the cookie is an HMAC
+> keyed by it.
 
-The recipe corpus is a one-time extraction of 95 source documents (see
-`tools/extract/`); the validated output is committed under `seed/`, so
-importing never re-reads the PDFs:
+## The recipe corpus
+
+**This repository contains the application only.** The recipe corpus it was
+built around — the recipe text, macros and photographs — was extracted from
+third-party source documents that aren't mine to redistribute, so `seed/` is
+gitignored and no recipe data ships here. Cloning gives you a working cookbook
+with an empty database.
+
+`tools/extract/` and `tools/seed/import.ts` are included because they document
+how the app's data model is populated, not as an invitation to scrape anyone:
+the extractors read local files you supply. To run the app with your own
+recipes, produce a `seed/` tree matching `RecipeSeedSchema` in
+`src/lib/schemas/schemas.ts` and import it:
 
 ```bash
-bun tools/seed/import.ts             # validate, merge variants, upload photos, upsert
-bun tools/seed/import.ts --dry-run   # validation + report only
-bun tools/seed/import.ts --user zuzka   # own the starter pantry / pre-flagged recipes
+bun tools/seed/import.ts --dry-run   # validate + report, writes nothing
+bun tools/seed/import.ts             # upload photos, upsert recipes
+bun tools/seed/import.ts --user anna # who owns the starter pantry / flagged recipes
 ```
 
-The import is idempotent (recipes upsert by slug) and prints per-source
-counts plus an anomaly report (missing photos/macros, suspicious kcal).
-`--user` (default `lukas`) decides which profile gets the blueprint's starter
-pantry and its pre-flagged "Dnes varím" recipes — both are per-profile state now.
+The import is idempotent (recipes upsert by slug) and prints per-source counts
+plus an anomaly report (missing photos/macros, suspicious kcal). `--user`
+decides which profile gets the blueprint's starter pantry and its pre-flagged
+"Dnes varím" recipes — both are per-profile state.
 
-To regenerate the seed from the source folder (`~/Desktop/Všetky recepty`):
-
-```bash
-bun tools/extract/parse-xlsx.ts        # workbook → seed/blueprint.json
-bash tools/extract/extract-images.sh   # photos → seed/images/*.webp (needs poppler + webp)
-# LLM document extraction produces seed/recipes/**/*.json (see plan)
-```
+Two unit tests in `ingredientIcon.test.ts` check the icon map against the whole
+corpus; they skip automatically when `seed/blueprint.json` isn't present, so a
+fresh clone still runs green.
 
 ## Migrating an existing deployment to profiles
 
