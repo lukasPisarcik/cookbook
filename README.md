@@ -1,200 +1,219 @@
 <div align="center">
 
-<img src="src/lib/assets/logo.svg" alt="Mňamka" width="96" height="96" />
+<img src="src/lib/assets/logo.svg" alt="" width="96" height="96" />
 
 <h1 align="center">Mňamka</h1>
 
-<p align="center">A personal, mobile-first cookbook — recipes, today's cooking, an aggregated shopping list and a pantry, backed by Convex. Shared by two kitchens, with per-profile personal state.<br /><em>Application code only — the recipe corpus it runs on is not part of this repository.</em></p>
+<p align="center">
+  A mobile-first cookbook for a shared household — recipes, what you're cooking today,<br />
+  an aggregated shopping list and a pantry that knows what you already have.
+</p>
+
+<p align="center">
+  <sub>SvelteKit 2 · Svelte 5 runes · Convex · Tailwind 4 · Bun</sub>
+</p>
 
 </div>
 
 ---
 
-## Stack
+> **This repository is the application, not the cookbook.** The recipe corpus it
+> was built around isn't mine to redistribute, so no recipe data ships here — see
+> [Bringing your own recipes](#bringing-your-own-recipes). A fresh clone runs
+> against an empty database.
 
-- **Runtime**: Bun
-- **Framework**: SvelteKit 2 (Svelte 5 with runes)
-- **Backend**: Convex (`convex-svelte` live queries, file storage for photos)
-- **Styling**: Tailwind CSS 4 + shadcn-svelte primitives
-- **Validation**: Zod
-- **Logging**: Pino
-- **Tests**: Vitest (server + browser) + Cypress (e2e, local-only)
-- **Versioning**: Changesets
+## What it does
 
-## The app
+It replaces a spreadsheet. Four tabs, each one step of the same weekly loop:
 
-Four bottom tabs rebuild the workflow of the spreadsheet this replaced:
+| Tab            | Route     | What it does                                                                                     |
+| -------------- | --------- | ------------------------------------------------------------------------------------------------ |
+| **Recepty**    | `/`       | The corpus, with diacritic-insensitive search (`ryza` finds `ryža`), category chips, diet filter |
+| **Dnes varím** | `/dnes`   | What you picked to cook, with a kcal-variant switch and a portion multiplier                     |
+| **Nákup**      | `/nakup`  | One shopping list built from those picks — quantities summed, grouped by aisle                   |
+| **Špajza**     | `/spajza` | What's already in the cupboard, so the shopping list stops asking you to buy it                  |
 
-| Tab            | Route     | What it does                                                                                 |
-| -------------- | --------- | -------------------------------------------------------------------------------------------- |
-| **Recepty**    | `/`       | Card grid with diacritic-insensitive search, category chips, diet-tag filter and favorites   |
-| **Dnes varím** | `/dnes`   | Flagged recipes with kcal-variant + portion-multiplier controls; generates the shopping list |
-| **Nákup**      | `/nakup`  | Aggregated list grouped by product type, pantry items auto-excluded (with per-trip override) |
-| **Špajza**     | `/spajza` | Tile grid of "mám doma" — tap to remove, search or tap a "Časté" tile to add                 |
-
-The whole app sits behind a shared-password gate (`/login`); every public
-Convex function additionally requires the `APP_TOKEN` shared secret.
+The interesting part is the seam between the last three. Flag a few recipes,
+pick a variant and a multiplier, and **Nákup** aggregates their ingredients by
+`(normalized name, unit)`, scales each by its recipe's multiplier, groups the
+result by product type and crosses off anything **Špajza** says you own — while
+preserving what you'd already ticked off on the current trip. That aggregation
+is a pure function (`src/lib/helpers/shopping.ts`), unit-tested independently of
+Convex, and reused verbatim by the mutation that persists it.
 
 ### Profiles
 
-Past the password, a first-run "Kto si?" prompt asks for a name and stores
-`{ userId: slugify(name), name }` in `localStorage`. Favourites, "Dnes varím"
-selections, špajza and shopping list are all scoped to that `userId`; the recipe
-corpus itself stays shared and read-only. Typing the same name on another device
-resolves to the same profile, and the top-bar avatar switches between them.
+One deployment, two kitchens. A first-run "Kto si?" prompt asks for a name and
+stores `{ userId: slugify(name), name }` in `localStorage`. Favourites, "Dnes
+varím" picks, pantry and shopping list are all scoped to that `userId`; the
+recipe corpus stays shared and read-only. Type the same name on another device
+and you land on the same data.
 
-> **Trust boundary — read this before sharing the URL.** A profile is a
-> _preference, not a credential_: it separates two people's favourites and lists,
-> it does not isolate them from each other. The shared password is the only real
-> boundary. Adding someone you'd hand the password to is fine; treating a profile
-> as a wall between accounts is not what it is.
+## How it fits together
 
-## Setup
+```
+SvelteKit (Vercel)                          Convex
+┌──────────────────────────────┐            ┌─────────────────────────────┐
+│  hooks.server.ts             │            │  recipes · pantry · shopping│
+│    └─ password gate ─────────┼── token ──▶│    └─ requireToken(token)   │
+│  +layout.server.ts           │            │    └─ every personal read,  │
+│    └─ hands APP_TOKEN to the │            │       write and delete      │
+│       client after login     │            │       scoped by userId      │
+│  routes/ (4 tabs)            │◀── live ───┤  storage: recipe photos     │
+└──────────────────────────────┘   queries  └─────────────────────────────┘
+```
+
+Convex live queries mean no client-side cache to invalidate: a mutation on one
+device repaints the other. The trade-off is that the deployment URL ships in the
+client bundle, which is what the token below is for.
+
+## Security model
+
+Two layers, deliberately simple, sized for a household rather than a SaaS:
+
+1. **A shared password** (`/login`). The session cookie is `HMAC-SHA256(key =
+APP_PASSWORD, message = fixed payload)`, `httpOnly`, `SameSite=Lax`, and
+   `Secure` whenever the request is HTTPS. Because the key _is_ the password,
+   changing `APP_PASSWORD` invalidates every session everywhere — that's the
+   "log everyone out" lever. Attempts are rate-limited per client address
+   (`src/lib/server/utils/rateLimit.ts`).
+2. **A shared token** (`APP_TOKEN`). The SvelteKit gate can't protect Convex,
+   whose URL is public, so every Convex function takes a token and checks it in
+   constant time. The server hands it to the browser only after login.
+
+> **Trust boundary.** A profile is a _preference, not a credential_: it keeps two
+> people's lists apart, it does not isolate them from each other. The shared
+> password is the only real boundary. Share it with someone you'd share a kitchen
+> with.
+
+> **The test password is public.** Cypress and the UI-proof script fall back to a
+> hard-coded `kucharka-dev` so they run without env. Fine on a laptop; anything
+> internet-reachable needs a real `APP_PASSWORD`, and an `APP_TOKEN` freshly
+> random per deployment (`openssl rand -hex 24`).
+
+## Getting started
 
 ```bash
 bun install
-bunx convex dev --once     # provisions a dev deployment, writes .env.local
-cp .env.example .env       # set APP_PASSWORD + APP_TOKEN
-bunx convex env set APP_TOKEN <same-value-as-in-.env>
-bun run dev
+bunx convex dev --once                     # provisions a dev deployment, writes .env.local
+cp .env.example .env                       # set APP_PASSWORD + APP_TOKEN
+bunx convex env set APP_TOKEN <same-value> # Convex needs the same token
+bun run dev                                # http://localhost:5173
 ```
 
-App will start on http://localhost:5173.
+You'll get the full app against an empty database. To put food in it:
 
-> **Never deploy with the local test password.** The Cypress specs and
-> `tools/verify/ui-proof.mjs` fall back to a hard-coded `kucharka-dev` so they
-> run without env, which means that string is public. It is fine for a laptop;
-> anything reachable from the internet needs a real `APP_PASSWORD`, and
-> `APP_TOKEN` should be freshly random per deployment (`openssl rand -hex 24`).
-> Changing `APP_PASSWORD` invalidates every session, since the cookie is an HMAC
-> keyed by it.
+## Bringing your own recipes
 
-## The recipe corpus
-
-**This repository contains the application only.** The recipe corpus it was
-built around — the recipe text, macros and photographs — was extracted from
-third-party source documents that aren't mine to redistribute, so `seed/` is
-gitignored and no recipe data ships here. Cloning gives you a working cookbook
-with an empty database.
-
-`tools/extract/` and `tools/seed/import.ts` are included because they document
-how the app's data model is populated, not as an invitation to scrape anyone:
-the extractors read local files you supply. To run the app with your own
-recipes, produce a `seed/` tree matching `RecipeSeedSchema` in
-`src/lib/schemas/schemas.ts` and import it:
+The importer reads a local `seed/` tree — gitignored, never published. Produce
+files matching `RecipeSeedSchema` (`src/lib/schemas/schemas.ts`), then:
 
 ```bash
-bun tools/seed/import.ts --dry-run   # validate + report, writes nothing
-bun tools/seed/import.ts             # upload photos, upsert recipes
-bun tools/seed/import.ts --user anna # who owns the starter pantry / flagged recipes
+bun tools/seed/import.ts --dry-run    # validate + report, writes nothing
+bun tools/seed/import.ts              # upload photos, upsert recipes
+bun tools/seed/import.ts --user anna  # who owns the starter pantry + flagged recipes
 ```
 
-The import is idempotent (recipes upsert by slug) and prints per-source counts
-plus an anomaly report (missing photos/macros, suspicious kcal). `--user`
-decides which profile gets the blueprint's starter pantry and its pre-flagged
-"Dnes varím" recipes — both are per-profile state.
+It's idempotent — recipes upsert by slug, pantry by `(userId, nameNorm)`, photo
+uploads cached per deployment — so re-run it freely. It prints per-source counts
+and an anomaly report (missing photos or macros, implausible kcal) for
+spot-checking.
 
-Two unit tests in `ingredientIcon.test.ts` check the icon map against the whole
-corpus; they skip automatically when `seed/blueprint.json` isn't present, so a
-fresh clone still runs green.
+`tools/extract/` holds the parsers that built the original corpus from local
+documents and a spreadsheet. They're here because they document how the data
+model gets populated; they read files you supply.
 
-## Migrating an existing deployment to profiles
+<details>
+<summary>Two tests depend on the corpus</summary>
 
-A deployment that predates profiles has favourites and "Dnes varím" flags on the
-shared recipe document, and owner-less pantry/shopping rows. `convex/schema.ts`
-is already at its final shape, so a **fresh** deployment needs nothing. An
-existing one needs the one-shot migration, which is idempotent:
+`ingredientIcon.test.ts` checks the emoji/tint map against every ingredient in
+`seed/blueprint.json`. Those two cases skip automatically when the file is
+absent, so a fresh clone runs green (140 passed + 2 skipped instead of 142).
+They're skipped, not weakened.
 
-```bash
-bunx convex run migrations:adoptLegacyState '{"userId":"lukas"}'
-```
+</details>
 
-It copies the legacy flags into `recipeState`, stamps `userId` on every pantry
-and shopping row, and strips the legacy fields. It is deliberately **not** wired
-into a build step — a data-destructive mutation should not run on every deploy.
-
-> If you are staging this migration onto a deployment that still holds legacy
-> rows, Convex validates the schema against existing documents on deploy: widen
-> first (every new field `v.optional`), run the migration, then tighten. Dropping
-> `isFavorite` before the migration has stripped it fails the deploy.
-
-## Deploying to Vercel
+## Deploying
 
 `svelte.config.js` picks the adapter off Vercel's own `VERCEL` env var:
-`@sveltejs/adapter-vercel` on Vercel, `@sveltejs/adapter-node` locally — so
-`bun run e2e`, which serves `node build/index.js`, keeps working.
+`@sveltejs/adapter-vercel` there, `@sveltejs/adapter-node` locally — so the
+local E2E flow, which serves `node build/index.js`, keeps working.
 
 ```bash
 # 1. Provision the Convex production deployment (prints its URL)
 bunx convex deploy
 
-# 2. APP_TOKEN is NOT carried over from dev — set it on prod explicitly
+# 2. APP_TOKEN is NOT inherited from dev — set it on prod explicitly
 bunx convex env set APP_TOKEN <value> --prod
 
-# 3. Validate the corpus first — --dry-run writes nothing and needs no
-#    deployment, so it takes no env at all
-bun tools/seed/import.ts --dry-run
-
-# 4. Seed production (777 seed files → 635 recipes, ~580 photo uploads —
-#    expect several minutes; just re-run on failure, it is idempotent)
+# 3. Seed production
 PUBLIC_CONVEX_URL=<prod-url> APP_TOKEN=$(bunx convex env get APP_TOKEN --prod) \
-  bun tools/seed/import.ts --user lukas
+  bun tools/seed/import.ts --user <profile>
 ```
 
+Then set these in Vercel for **Production _and_ Preview**, and deploy:
+
+| Variable            | Value                                      |
+| ------------------- | ------------------------------------------ |
+| `PUBLIC_CONVEX_URL` | the production deployment URL from step 1  |
+| `APP_PASSWORD`      | the shared password — not the test default |
+| `APP_TOKEN`         | must match what step 2 set on Convex prod  |
+
 > **Pass `PUBLIC_CONVEX_URL`, not `CONVEX_URL`.** The importer reads
-> `Bun.env.PUBLIC_CONVEX_URL` (`tools/seed/import.ts`), and Bun auto-loads
-> `.env.local`, so an unset or misnamed override silently seeds the **dev**
-> deployment instead of prod — with no error. `APP_TOKEN` must likewise be the
-> value set on prod in step 2, not the dev one from `.env`; reading it back with
-> `convex env get` keeps the two in sync by construction.
+> `Bun.env.PUBLIC_CONVEX_URL`, and Bun auto-loads `.env.local` — so a misnamed
+> override silently seeds your **dev** deployment, with no error.
 >
-> The script prints its fuzzy-title-match list and then goes **silent for
-> several minutes** while it uploads photos one at a time — there is no
-> per-image progress. The next line you see is `✓ images: N available`. That
-> pause is not a hang. Uploads are cached per deployment in
-> `.extract-cache/image-uploads.json`, so a re-run resumes rather than
-> re-uploading. Don't run two importers at once — they race on that cache file.
+> After its fuzzy-match list the importer goes **silent for several minutes**
+> while it uploads photos one at a time. The next line is `✓ images: N
+available`. That pause is not a hang. Don't run two importers at once; they
+> race on the upload cache.
 
-Then, in the Vercel project settings, set these for **Production and Preview**
-and deploy:
+<details>
+<summary>Migrating a deployment that predates profiles</summary>
 
-| Variable            | Value                                     |
-| ------------------- | ----------------------------------------- |
-| `PUBLIC_CONVEX_URL` | the production deployment URL from step 1 |
-| `APP_PASSWORD`      | the shared password                       |
-| `APP_TOKEN`         | must match what step 2 set on Convex prod |
+Such a deployment has favourites on the shared recipe document and owner-less
+pantry rows. A **fresh** deployment needs nothing; an existing one needs a
+one-shot, idempotent migration:
 
-No new environment variable is introduced — the same three carry over, so
-`env.server.ts` is untouched. The session cookie already sets `secure` from
-`url.protocol === 'https:'`, so it works on Vercel and on a LAN dev box without
-changes.
+```bash
+bunx convex run migrations:adoptLegacyState '{"userId":"<profile>"}'
+```
 
-Verify on a phone afterwards: login → "Kto si?" → recipes load → favourite
-persists across a reload.
+It copies legacy flags into `recipeState`, stamps `userId` on every pantry and
+shopping row, and strips the legacy fields. Deliberately not wired into a build
+step — a data-destructive mutation shouldn't run on every deploy.
 
-## Conventions
+Convex validates the schema against existing documents on deploy, so stage it:
+widen (new fields `v.optional`), migrate, then tighten. Dropping `isFavorite`
+before the migration has stripped it will fail the deploy.
 
-This project follows the Clinigma SPA template conventions. See:
+</details>
 
-- `CLAUDE.md` — agent orientation
-- `.claude/docs/` — topic-by-topic reference (schemas, services, testing, etc.)
+## Development
 
-Key rules:
+| Command             | What it does                          |
+| ------------------- | ------------------------------------- |
+| `bun run dev`       | Dev server on :5173                   |
+| `bunx convex dev`   | Convex dev deployment (watch mode)    |
+| `bun run check`     | TypeScript + Svelte type check        |
+| `bun run lint`      | Prettier + ESLint                     |
+| `bun run test:unit` | Vitest (server + browser projects)    |
+| `bun run e2e`       | Cypress smoke flow (needs Convex dev) |
+| `bun run build`     | Production build                      |
+| `bun changeset`     | Add a changeset for your change       |
 
-- All Zod schemas live in `src/lib/schemas/schemas.ts`
-- All env vars are declared in `src/lib/server/env.server.ts` (Zod-validated)
-- All styling is Tailwind utility classes — no `<style>` blocks or standalone CSS
-- Test files: `*.test.ts` (server, Vitest node) or `*.svelte.test.ts` (client, Vitest browser)
+House rules, enforced by review rather than tooling:
 
-## Commands
+- Zod schemas live in `src/lib/schemas/schemas.ts` — never inline.
+- Env vars are declared and validated in `src/lib/server/env.server.ts` — never
+  read `Bun.env` / `process.env` elsewhere.
+- `src/lib/components/ui/` is shadcn-svelte output; change it via the CLI, not by
+  hand.
+- Tailwind utilities only — no `<style>` blocks.
+- Tests are `*.test.ts` (server) or `*.svelte.test.ts` (browser).
 
-| Command             | What it does                           |
-| ------------------- | -------------------------------------- |
-| `bun run dev`       | Start dev server                       |
-| `bunx convex dev`   | Run Convex dev deployment (watch mode) |
-| `bun run build`     | Production build                       |
-| `bun run check`     | TypeScript + Svelte type check         |
-| `bun run lint`      | Prettier + ESLint                      |
-| `bun run test:unit` | Vitest (server + client projects)      |
-| `bun run e2e`       | Cypress smoke flow (needs Convex dev)  |
-| `bun changeset`     | Add a changeset for your change        |
+`CLAUDE.md` and `.claude/docs/` carry the long-form version, topic by topic.
+
+## Licence
+
+No licence — all rights reserved. Read it, learn from it; ask before reusing it.
