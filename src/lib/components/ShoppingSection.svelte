@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { Checkbox } from '$lib/components';
+	import { Checkbox, IngredientTile } from '$lib/components';
 	import { cn } from '$lib/utils';
 
 	interface ShoppingRow {
@@ -7,6 +7,7 @@
 		name: string;
 		quantity?: number;
 		unit?: string;
+		productType?: string;
 		checked: boolean;
 	}
 
@@ -42,6 +43,7 @@
 						onCheckedChange={(checked) => onToggle(item.id, checked === true)}
 						class="size-[18px] rounded-[5px]"
 					/>
+					<IngredientTile name={item.name} productType={item.productType} size="sm" />
 					<span
 						class={cn(
 							'flex-1 text-sm transition-all duration-200',

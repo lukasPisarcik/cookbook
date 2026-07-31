@@ -8,6 +8,18 @@
  */
 
 const password = Cypress.env('APP_PASSWORD') ?? 'kucharka-dev';
+const profile = Cypress.env('APP_PROFILE') ?? 'Lukáš';
+
+/**
+ * Personal state is per profile now, so the „Kto si?" gate stands between the
+ * login and the tabs. Seeding localStorage directly is deterministic and keeps
+ * the spec about the cooking loop rather than about the prompt.
+ */
+function useProfile() {
+	cy.window().then((win) => {
+		win.localStorage.setItem('mnamka_profile', JSON.stringify({ userId: 'lukas', name: profile }));
+	});
+}
 
 describe('Smoke', () => {
 	it('redirects unauthenticated visitors to /login', () => {
@@ -20,12 +32,13 @@ describe('Smoke', () => {
 	it('runs the full cooking loop', () => {
 		// Login
 		cy.visit('/login');
+		useProfile();
 		cy.get('input[name="password"]').type(password);
 		cy.get('button[type="submit"]').click();
 		cy.location('pathname', { timeout: 15000 }).should('eq', '/');
 
 		// Search a recipe (diacritic-insensitive)
-		cy.get('input[type="search"]').type('thajske');
+		cy.get('input[type="search"]', { timeout: 15000 }).type('thajske');
 		cy.contains('a', /thajské kari/i, { timeout: 15000 }).click();
 
 		// Detail renders and can be flagged for today (idempotent: flag only

@@ -94,6 +94,33 @@ export const LoginInput = z.object({
 export type LoginInput = z.infer<typeof LoginInput>;
 
 // =============================================================================
+// Profile (used by profileStore).
+//
+// A profile is a *preference*, not a credential: the shared password is the
+// only boundary, and the client sends `userId` to Convex unverified. It exists
+// so two people sharing the deployment keep separate favourites, „Dnes varím"
+// selections, špajza and shopping lists.
+// =============================================================================
+
+export const ProfileSchema = z.object({
+	/** slugify(name) — the stable key sent to Convex. */
+	userId: z.string().min(1).max(40),
+	/** Display name as typed, diacritics intact. */
+	name: z.string().min(1).max(40)
+});
+export type Profile = z.infer<typeof ProfileSchema>;
+
+/** The „Kto si?" prompt's text input. */
+export const ProfileNameInput = z.object({
+	name: z.string().trim().min(1).max(40)
+});
+export type ProfileNameInput = z.infer<typeof ProfileNameInput>;
+
+/** The `mnamka_profiles` roster — previously used names, offered by the switcher. */
+export const ProfileRosterSchema = z.array(ProfileSchema);
+export type ProfileRoster = z.infer<typeof ProfileRosterSchema>;
+
+// =============================================================================
 // Recipes (seed contract + shared enums).
 //
 // `RecipeSeedSchema` is the contract the offline extraction pipeline must

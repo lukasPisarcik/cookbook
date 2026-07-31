@@ -13,7 +13,15 @@ protocol from the contract — fix and re-run, never weaken a gate.
 bun run check        # svelte-kit sync + svelte-check
 bun run lint         # prettier --check + eslint
 bun run test:unit    # Vitest server + browser (Chromium) projects
-bun run build        # production build (adapter-node)
+bun run build        # production build — adapter-node locally, adapter-vercel on Vercel
+```
+
+`svelte.config.js` selects the adapter on the presence of Vercel's own `VERCEL`
+env var, so the local gate exercises the Node build (which `bun run e2e` serves)
+while Vercel builds serverless functions. To prove the other branch locally:
+
+```bash
+VERCEL=1 bun run build   # must also succeed — it is what Vercel runs
 ```
 
 **User-facing changes additionally require the Playwright UI proof** (see
@@ -47,8 +55,14 @@ Summarised from `CLAUDE.md` (authoritative) — read before editing:
 6. Every public Convex function takes a `token` argument checked by
    `requireToken` (`convex/lib.ts`) — the SvelteKit gate cannot protect the
    Convex deployment itself.
-7. `seed/` and `convex/_generated/` are generated — excluded from
-   prettier/eslint; don't hand-edit seed output (fix the extractor/importer).
+7. Every Convex function touching **personal** state (favourites, „Dnes varím",
+   špajza, nákup) also takes `userId` and scopes every read, write **and delete
+   sweep** by it. Client queries pass `'skip'` until `profileStore` resolves.
+   `userId` is trusted, not verified — see the trust boundary in `README.md`.
+8. `seed/` and `convex/_generated/` are generated — don't hand-edit either (fix
+   the extractor/importer instead). `seed/` is in `.prettierignore`;
+   `convex/_generated/` is **not**, so after a `bunx convex dev` regenerates it
+   you must `bun run format` before `bun run lint` passes.
 
 ## VCS, branch base & PR mechanism
 
@@ -78,13 +92,27 @@ Changesets (`.changeset/*.md`, `bun changeset` or write the file directly).
 
 `tools/verify/ui-proof.mjs` — Playwright (playwright-core + the Chromium
 headless shell from `bunx playwright install chromium`) drives the running app
-at **390×844** through every feature: login gate (wrong + right password), grid,
-diacritic-insensitive search, category filter, recipe detail with kcal-variant
-switch, favorite toggle, Dnes varím + portion multiplier, shopping-list
-generation, check-off, „Mám doma" override, Špajza autocomplete, EN toggle and
-dark mode. Screenshots land in `.verify/` (gitignored); the script exits
-non-zero on any uncaught page error. Review the frames visually — a green exit
-only proves no crashes, not good looks.
+at **390×844** through every feature: login gate (wrong + right password), the
+**„Kto si?" profile gate** (and that the tabs are unreachable before a name is
+chosen, and that the choice survives a reload), grid, diacritic-insensitive
+search, category filter, the **full-width recipe hero** (asserting the header is
+present, the photo spans the viewport and sits flush under it, and that the
+header stays pinned while the photo scrolls away), kcal-variant
+switch, favorite toggle, **ingredient tiles**, Dnes varím + portion multiplier,
+shopping-list generation with tiles, check-off, „Mám doma" override, the
+**Špajza tile grid** (add via „Časté", remove, dimmed already-owned tiles),
+**two-profile isolation**, EN toggle and dark mode.
+
+Beyond screenshots the script makes ~15 hard assertions (`check(...)`) and exits
+non-zero if any fails or on any uncaught page error. Screenshots land in
+`.verify/` (gitignored). Review the frames visually — a green exit only proves no
+crashes, not good looks.
+
+The **two-profile isolation step is the only automated evidence** that profile A
+cannot see profile B's data: Convex functions have no test harness in this repo,
+so don't delete it. It switches to a second profile through the top-bar
+switcher, asserts an empty špajza and no „Dnes varím" rows, then switches back
+and asserts the primary profile's pantry is intact.
 
 Config via env: `UI_PROOF_BASE_URL` (default `http://localhost:5173`),
 `UI_PROOF_PASSWORD` (default `kucharka-dev`), `UI_PROOF_CHROMIUM` (explicit

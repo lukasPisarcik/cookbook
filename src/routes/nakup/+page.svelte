@@ -3,13 +3,15 @@
 	import { useConvexClient, useQuery } from 'convex-svelte';
 	import { api } from '$convex/api';
 	import { d, groupByProductType } from '$lib';
-	import { ShoppingSection, Spinner } from '$lib/components';
+	import { IngredientTile, ShoppingSection, Spinner } from '$lib/components';
+	import { profileStore } from '$lib/stores';
 	import { ChevronDown } from '@lucide/svelte';
 
 	const token = $derived(page.data.convexToken as string);
+	const userId = $derived(profileStore.userId);
 	const client = useConvexClient();
 
-	const shopping = useQuery(api.shopping.list, () => ({ token }));
+	const shopping = useQuery(api.shopping.list, () => (userId ? { token, userId } : 'skip'));
 
 	const actionable = $derived(
 		(shopping.data ?? []).filter((item) => !item.excludedByPantry || item.overridden)
@@ -23,15 +25,18 @@
 	);
 
 	async function toggle(id: string, checked: boolean) {
+		if (!userId) return;
 		await client.mutation(api.shopping.setChecked, {
 			token,
+			userId,
 			id: id as (typeof actionable)[number]['_id'],
 			checked
 		});
 	}
 
 	async function setOverride(id: (typeof actionable)[number]['_id'], overridden: boolean) {
-		await client.mutation(api.shopping.setOverridden, { token, id, overridden });
+		if (!userId) return;
+		await client.mutation(api.shopping.setOverridden, { token, userId, id, overridden });
 	}
 </script>
 
@@ -76,8 +81,9 @@
 				</summary>
 				<ul>
 					{#each atHome as item (item._id)}
-						<li class="flex items-center justify-between gap-3 rounded-lg px-1 py-2">
-							<span class="text-sm text-muted-foreground">
+						<li class="flex items-center gap-3 rounded-lg px-1 py-2">
+							<IngredientTile name={item.name} productType={item.productType} size="sm" />
+							<span class="min-w-0 flex-1 text-sm text-muted-foreground">
 								{item.name}
 								{#if item.quantity !== undefined}
 									<span class="ml-1 text-xs tabular-nums">

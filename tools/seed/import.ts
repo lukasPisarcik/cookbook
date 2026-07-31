@@ -15,7 +15,9 @@
  *   idempotent, safe to re-run; user state is preserved.
  * - Prints per-source counts and an anomaly report.
  *
- * Usage: bun tools/seed/import.ts [--dry-run]
+ * Usage: bun tools/seed/import.ts [--dry-run] [--user <profileId>]
+ *        (--user defaults to `lukas` — it owns the pre-flagged „Dnes varím"
+ *        recipes and the starter pantry, which are per-profile state)
  */
 
 import { readdirSync, readFileSync, existsSync, mkdirSync, writeFileSync } from 'node:fs';
@@ -32,6 +34,19 @@ const UPLOAD_CACHE = '.extract-cache/image-uploads.json';
 const FALLBACK_PRODUCT_TYPE = 'ostatné';
 
 const dryRun = process.argv.includes('--dry-run');
+
+/**
+ * Which profile the blueprint's pre-flagged „Dnes varím" recipes and starter
+ * pantry belong to. Personal state is per-user now, so both writes need an
+ * owner; `lukas` is the profile the one-shot migration adopted the legacy rows
+ * into.
+ */
+const userIdFlag = process.argv.indexOf('--user');
+const userId = userIdFlag === -1 ? 'lukas' : (process.argv[userIdFlag + 1] ?? '');
+if (userId.trim() === '') {
+	console.error('✗ --user needs a profile id, e.g. --user lukas');
+	process.exit(1);
+}
 
 // ---------------------------------------------------------------------------
 // 1. Load + validate every seed file
@@ -495,6 +510,7 @@ async function run() {
 					}
 					await client.mutation(api.recipes.setCookingToday, {
 						token: token!,
+						userId,
 						slug: recipe.slug,
 						value: { variantIndex, portionMultiplier: 1 }
 					});
@@ -507,12 +523,13 @@ async function run() {
 		for (const item of blueprint.pantry) {
 			await client.mutation(api.seed.upsertPantryItem, {
 				token: token!,
+				userId,
 				name: item.name,
 				nameNorm: normalizeName(item.name),
 				productType: item.productType
 			});
 		}
-		console.log(`✓ pantry: ${blueprint.pantry.length} items upserted`);
+		console.log(`✓ pantry: ${blueprint.pantry.length} items upserted for profile „${userId}"`);
 	}
 
 	// -------------------------------------------------------------------------

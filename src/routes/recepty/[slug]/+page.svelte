@@ -4,19 +4,22 @@
 	import { useConvexClient, useQuery } from 'convex-svelte';
 	import { api } from '$convex/api';
 	import { d } from '$lib';
-	import { Button, Spinner, VariantSwitcher } from '$lib/components';
-	import { ArrowLeft, CalendarCheck, Clock, Heart, Users } from '@lucide/svelte';
-	import { cn } from '$lib/utils';
+	import { Button, IngredientRow, RecipeHero, Spinner, VariantSwitcher } from '$lib/components';
+	import { profileStore } from '$lib/stores';
+	import { ArrowLeft, CalendarCheck, Clock, Flame, Users } from '@lucide/svelte';
 
 	const token = $derived(page.data.convexToken as string);
+	const userId = $derived(profileStore.userId);
 	const slug = $derived(page.params.slug ?? '');
 	const client = useConvexClient();
 
-	const recipe = useQuery(api.recipes.bySlug, () => ({ token, slug }));
+	const recipe = useQuery(api.recipes.bySlug, () => (userId ? { token, userId, slug } : 'skip'));
 
 	let selectedVariant = $state(0);
 	let variantTouched = $state(false);
 
+	// The displayed variant defaults to whatever „Dnes varím" stored and only
+	// follows the pills once one has been tapped.
 	const variant = $derived.by(() => {
 		const data = recipe.data;
 		if (!data) return undefined;
@@ -41,14 +44,16 @@
 	}
 
 	async function toggleFavorite() {
-		await client.mutation(api.recipes.toggleFavorite, { token, slug });
+		if (!userId) return;
+		await client.mutation(api.recipes.toggleFavorite, { token, userId, slug });
 	}
 
 	async function toggleCookingToday() {
 		const data = recipe.data;
-		if (!data) return;
+		if (!data || !userId) return;
 		await client.mutation(api.recipes.setCookingToday, {
 			token,
+			userId,
 			slug,
 			value: data.cookingToday ? null : { variantIndex: activeIndex, portionMultiplier: 1 }
 		});
@@ -71,158 +76,157 @@
 	</div>
 {:else}
 	{@const data = recipe.data}
-	<article class="space-y-5">
-		<a
-			href={resolve('/')}
-			class="inline-flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground"
-		>
-			<ArrowLeft class="h-4 w-4" />
-			{d.backToList}
-		</a>
-
-		<div class="relative aspect-[4/3] overflow-hidden rounded-3xl bg-muted shadow-sm">
-			{#if data.imageUrl}
-				<img src={data.imageUrl} alt={data.title} class="h-full w-full object-cover" />
-			{:else}
-				<div class="flex h-full w-full items-center justify-center text-6xl">🥗</div>
-			{/if}
-		</div>
-
-		<div class="flex items-start justify-between gap-3">
-			<h1 class="font-display text-2xl leading-tight font-bold tracking-tight">{data.title}</h1>
-			<button
-				type="button"
-				onclick={toggleFavorite}
-				aria-label={d.favoriteToggle}
-				aria-pressed={data.isFavorite}
-				class="shrink-0 rounded-full bg-card p-2.5 shadow-sm transition-colors hover:bg-accent"
-			>
-				<Heart
-					class={cn(
-						'h-5 w-5',
-						data.isFavorite ? 'fill-primary text-primary' : 'text-muted-foreground'
-					)}
-				/>
-			</button>
-		</div>
-
-		{#if data.dietTags.length > 0}
-			<div class="flex flex-wrap gap-1.5">
-				{#each data.dietTags as tag (tag)}
-					<span
-						class="rounded-full bg-secondary px-2.5 py-0.5 text-xs font-medium text-secondary-foreground"
-					>
-						{tag}
-					</span>
-				{/each}
-			</div>
-		{/if}
-
-		<VariantSwitcher
-			labels={data.variants.map((entry) => entry.label)}
-			selected={activeIndex}
-			onSelect={selectVariant}
+	<article>
+		<RecipeHero
+			imageUrl={data.imageUrl}
+			title={data.title}
+			isFavorite={data.isFavorite}
+			onToggleFavorite={toggleFavorite}
 		/>
 
-		{#if variant}
-			<div class="grid grid-cols-3 gap-2 text-center">
-				<div class="rounded-2xl bg-card py-3 shadow-sm">
-					<p class="font-display text-xl font-bold tabular-nums">{variant.kcalPerPortion ?? '–'}</p>
-					<p class="text-[11px] text-muted-foreground">{d.kcalPerPortionLabel}</p>
-				</div>
-				<div class="flex flex-col items-center justify-center rounded-2xl bg-card py-3 shadow-sm">
-					{#if variant.portions}
-						<p class="flex items-center gap-1 font-display text-xl font-bold tabular-nums">
-							<Users class="h-4 w-4 text-primary" />{variant.portions}
-						</p>
-						<p class="text-[11px] text-muted-foreground">{d.portionsLabel}</p>
-					{:else}
-						<p class="font-display text-xl font-bold">–</p>
-						<p class="text-[11px] text-muted-foreground">{d.portionsLabel}</p>
-					{/if}
-				</div>
-				<div class="flex flex-col items-center justify-center rounded-2xl bg-card py-3 shadow-sm">
-					{#if data.prepTimeMinutes}
-						<p class="flex items-center gap-1 font-display text-xl font-bold tabular-nums">
-							<Clock class="h-4 w-4 text-primary" />{data.prepTimeMinutes}
-						</p>
-						<p class="text-[11px] text-muted-foreground">{d.minutesShort} · {d.prepTimeLabel}</p>
-					{:else}
-						<p class="font-display text-xl font-bold">–</p>
-						<p class="text-[11px] text-muted-foreground">{d.prepTimeLabel}</p>
-					{/if}
-				</div>
+		<!--
+			Only the photo bleeds out of the layout's gutter; the content keeps it.
+			pb-10 clears the fixed action bar, on top of the layout's tab-bar padding.
+		-->
+		<div class="space-y-5 pt-4 pb-10">
+			<div class="space-y-2">
+				<h1 class="font-display text-2xl leading-tight font-bold tracking-tight">{data.title}</h1>
+				{#if data.dietTags.length > 0}
+					<div class="flex flex-wrap gap-1.5">
+						{#each data.dietTags as tag (tag)}
+							<span
+								class="rounded-full border border-primary/25 px-2 py-0.5 text-[11px] font-medium text-muted-foreground"
+							>
+								{tag}
+							</span>
+						{/each}
+					</div>
+				{/if}
 			</div>
 
-			{#if variant.macros}
-				<div class="grid grid-cols-3 gap-2 text-center text-sm">
-					<div class="rounded-xl bg-secondary py-2">
-						<span class="font-semibold tabular-nums">{variant.macros.carbs} g</span>
-						<span class="block text-[11px] text-muted-foreground">{d.macrosCarbs}</span>
+			<VariantSwitcher
+				labels={data.variants.map((entry) => entry.label)}
+				selected={activeIndex}
+				onSelect={selectVariant}
+			/>
+
+			{#if variant}
+				<div class="grid grid-cols-3 gap-2 text-center">
+					<div class="flex flex-col items-center gap-0.5 rounded-2xl bg-card py-3 shadow-sm">
+						<Clock class="h-4 w-4 text-primary" />
+						<p class="font-display text-lg font-bold tabular-nums">
+							{data.prepTimeMinutes ?? '–'}
+							{#if data.prepTimeMinutes}<span class="text-xs font-semibold">{d.minutesShort}</span
+								>{/if}
+						</p>
+						<p class="text-[11px] text-muted-foreground">{d.statTime}</p>
 					</div>
-					<div class="rounded-xl bg-secondary py-2">
-						<span class="font-semibold tabular-nums">{variant.macros.protein} g</span>
-						<span class="block text-[11px] text-muted-foreground">{d.macrosProtein}</span>
+					<div class="flex flex-col items-center gap-0.5 rounded-2xl bg-card py-3 shadow-sm">
+						<Flame class="h-4 w-4 text-primary" />
+						<p class="font-display text-lg font-bold tabular-nums">
+							{variant.kcalPerPortion ?? '–'}
+						</p>
+						<p class="text-[11px] text-muted-foreground">{d.statKcal}</p>
 					</div>
-					<div class="rounded-xl bg-secondary py-2">
-						<span class="font-semibold tabular-nums">{variant.macros.fat} g</span>
-						<span class="block text-[11px] text-muted-foreground">{d.macrosFat}</span>
+					<div class="flex flex-col items-center gap-0.5 rounded-2xl bg-card py-3 shadow-sm">
+						<Users class="h-4 w-4 text-primary" />
+						<p class="font-display text-lg font-bold tabular-nums">{variant.portions ?? '–'}</p>
+						<p class="text-[11px] text-muted-foreground">{d.statPortions}</p>
 					</div>
 				</div>
+
+				{#if variant.macros}
+					<div class="grid grid-cols-3 gap-2 text-center text-sm">
+						<div class="rounded-xl bg-secondary py-2">
+							<span class="font-semibold tabular-nums">{variant.macros.carbs} g</span>
+							<span class="block text-[11px] text-muted-foreground">{d.macrosCarbs}</span>
+						</div>
+						<div class="rounded-xl bg-secondary py-2">
+							<span class="font-semibold tabular-nums">{variant.macros.protein} g</span>
+							<span class="block text-[11px] text-muted-foreground">{d.macrosProtein}</span>
+						</div>
+						<div class="rounded-xl bg-secondary py-2">
+							<span class="font-semibold tabular-nums">{variant.macros.fat} g</span>
+							<span class="block text-[11px] text-muted-foreground">{d.macrosFat}</span>
+						</div>
+					</div>
+				{/if}
+
+				<section class="space-y-2">
+					<h2
+						class="font-display text-xs font-bold tracking-widest text-muted-foreground uppercase"
+					>
+						{d.ingredientsHeading} ({variant.ingredients.length})
+					</h2>
+					<ul class="space-y-2">
+						{#each variant.ingredients as ingredient, index (`${index}|${ingredient.nameNorm}|${ingredient.unit ?? ''}`)}
+							<li>
+								<IngredientRow
+									name={ingredient.name}
+									quantity={ingredient.quantity}
+									unit={ingredient.unit}
+									productType={ingredient.productType}
+								/>
+							</li>
+						{/each}
+					</ul>
+				</section>
 			{/if}
 
-			<section class="space-y-2">
-				<h2 class="font-display text-xs font-bold tracking-widest text-muted-foreground uppercase">
-					{d.ingredientsHeading}
-				</h2>
-				<ul class="divide-y rounded-2xl bg-card px-1 shadow-sm">
-					{#each variant.ingredients as ingredient, index (`${index}|${ingredient.nameNorm}|${ingredient.unit ?? ''}`)}
-						<li class="flex items-baseline justify-between gap-3 px-3 py-2.5 text-sm">
-							<span>{ingredient.name}</span>
-							<span class="shrink-0 text-xs text-muted-foreground tabular-nums">
-								{ingredient.quantity ?? ''}
-								{ingredient.unit ?? ''}
-							</span>
-						</li>
-					{/each}
-				</ul>
-			</section>
-		{/if}
+			{#if data.steps.length > 0}
+				<section class="space-y-2">
+					<h2
+						class="font-display text-xs font-bold tracking-widest text-muted-foreground uppercase"
+					>
+						{d.stepsHeading}
+					</h2>
+					<ol class="space-y-3">
+						{#each data.steps as step, index (index)}
+							<li class="flex gap-3 text-sm leading-relaxed">
+								<span
+									class="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-primary font-display text-xs font-bold text-primary-foreground shadow-sm"
+								>
+									{index + 1}
+								</span>
+								<span>{step}</span>
+							</li>
+						{/each}
+					</ol>
+				</section>
+			{/if}
 
-		{#if data.steps.length > 0}
-			<section class="space-y-2">
-				<h2 class="font-display text-xs font-bold tracking-widest text-muted-foreground uppercase">
-					{d.stepsHeading}
-				</h2>
-				<ol class="space-y-3">
-					{#each data.steps as step, index (index)}
-						<li class="flex gap-3 text-sm leading-relaxed">
-							<span
-								class="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-primary font-display text-xs font-bold text-primary-foreground shadow-sm"
-							>
-								{index + 1}
-							</span>
-							<span>{step}</span>
-						</li>
-					{/each}
-				</ol>
-			</section>
-		{/if}
+			{#if data.funFact}
+				<aside
+					class="rounded-2xl border border-primary/20 bg-accent p-4 text-sm leading-relaxed text-accent-foreground"
+				>
+					<p class="mb-1 font-display font-bold">💡 {d.funFactHeading}</p>
+					<p>{data.funFact}</p>
+				</aside>
+			{/if}
+		</div>
 
-		{#if data.funFact}
-			<aside
-				class="rounded-2xl border border-primary/20 bg-accent p-4 text-sm leading-relaxed text-accent-foreground"
+		<!--
+			A fixed action bar pinned above the tab bar, not a sticky element inside
+			the content flow: sticky-in-flow floats over whichever row happens to sit
+			under it, which read as the button colliding with the stat cards. The
+			gradient turns opaque before the tab bar, so content scrolls out of sight
+			behind it rather than colliding with the button.
+		-->
+		<div
+			class="pointer-events-none fixed inset-x-0 bottom-[calc(env(safe-area-inset-bottom)+var(--tab-bar-h))] z-10"
+		>
+			<div
+				class="mx-auto w-full max-w-lg bg-gradient-to-t from-background from-50% to-transparent px-4 pt-10 pb-3"
 			>
-				<p class="mb-1 font-display font-bold">💡 {d.funFactHeading}</p>
-				<p>{data.funFact}</p>
-			</aside>
-		{/if}
-
-		<div class="sticky bottom-20 pt-2">
-			<Button class="w-full rounded-full shadow-lg" size="lg" onclick={toggleCookingToday}>
-				<CalendarCheck class="mr-2 h-5 w-5" />
-				{data.cookingToday ? d.cookingTodayRemove : d.cookingTodayAdd}
-			</Button>
+				<Button
+					class="pointer-events-auto w-full rounded-full shadow-lg"
+					size="lg"
+					onclick={toggleCookingToday}
+				>
+					<CalendarCheck class="mr-2 h-5 w-5" />
+					{data.cookingToday ? d.cookingTodayRemove : d.cookingTodayAdd}
+				</Button>
+			</div>
 		</div>
 	</article>
 {/if}
