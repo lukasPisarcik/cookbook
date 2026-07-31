@@ -27,8 +27,8 @@ export const handle: Handle = async ({ event, resolve }) => {
  * Server-side error handler for unexpected errors.
  *
  * This hook catches errors that bypass the normal error handling flow
- * (e.g., unhandled exceptions, runtime crashes). Errors thrown via
- * createHttpError() already have proper IDs and logging.
+ * (e.g., unhandled exceptions, runtime crashes) and stamps each one with an
+ * `errorId` that `+error.svelte` renders, so a report can be traced to a log.
  */
 export const handleError: HandleServerError = ({ error, event, status, message }) => {
 	const errorId = crypto.randomUUID();

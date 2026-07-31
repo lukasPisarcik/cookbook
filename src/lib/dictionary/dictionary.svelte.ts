@@ -17,6 +17,7 @@ class ReactiveDictionary {
 	loginPasswordLabel = $derived(dictionary.loginPasswordLabel[lang.actual]);
 	loginSubmit = $derived(dictionary.loginSubmit[lang.actual]);
 	loginIncorrectPassword = $derived(dictionary.loginIncorrectPassword[lang.actual]);
+	loginTooManyAttempts = $derived(dictionary.loginTooManyAttempts[lang.actual]);
 	tabRecepty = $derived(dictionary.tabRecepty[lang.actual]);
 	tabDnes = $derived(dictionary.tabDnes[lang.actual]);
 	tabNakup = $derived(dictionary.tabNakup[lang.actual]);

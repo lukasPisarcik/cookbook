@@ -11,7 +11,21 @@ import { ConvexError } from 'convex/values';
  */
 export function requireToken(token: string): void {
 	const expected = process.env.APP_TOKEN;
-	if (!expected || token !== expected) {
+	if (!expected || !constantTimeEquals(token, expected)) {
 		throw new ConvexError('Invalid or missing app token');
 	}
+}
+
+/**
+ * Compare without leaking how much of the token matched. `!==` returns on the
+ * first differing byte, which is the same shape of side channel the login
+ * password check already avoids; the guard is kept consistent across both.
+ */
+function constantTimeEquals(candidate: string, expected: string): boolean {
+	if (candidate.length !== expected.length) return false;
+	let diff = 0;
+	for (let i = 0; i < expected.length; i++) {
+		diff |= candidate.charCodeAt(i) ^ expected.charCodeAt(i);
+	}
+	return diff === 0;
 }

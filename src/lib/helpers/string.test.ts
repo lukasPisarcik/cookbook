@@ -20,4 +20,12 @@ describe('getInitials', () => {
 	it('caps the result at 2 characters even for long names', () => {
 		expect(getInitials('Anna Bertha Cathy Diane Elinor')).toBe('AB');
 	});
+
+	it('ignores surrounding and repeated whitespace', () => {
+		expect(getInitials('  Anna   Bertha  ')).toBe('AB');
+	});
+
+	it('returns an empty string for a whitespace-only input', () => {
+		expect(getInitials('   ')).toBe('');
+	});
 });

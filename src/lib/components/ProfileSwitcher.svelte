@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { d } from '$lib';
+	import { d, getInitials } from '$lib';
 	import { profileStore } from '$lib/stores';
 	import { Button, Input, Sheet } from '$lib/components';
 	import { Check, UserPlus } from '@lucide/svelte';
@@ -29,14 +29,7 @@
 	let addingInSheet = $state(false);
 	let typedName = $state('');
 
-	const initials = $derived(
-		(profileStore.name ?? '')
-			.trim()
-			.split(/\s+/)
-			.slice(0, 2)
-			.map((part) => part.charAt(0).toUpperCase())
-			.join('')
-	);
+	const initials = $derived(getInitials(profileStore.name ?? ''));
 
 	function submitName(event: SubmitEvent) {
 		event.preventDefault();
