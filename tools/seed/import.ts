@@ -13,19 +13,38 @@
  * - Uploads cover photos to Convex storage (cached per deployment in
  *   `.extract-cache/image-uploads.json`) and upserts recipes by slug —
  *   idempotent, safe to re-run; user state is preserved.
+ * - Writes the thin `recipeCards` projection alongside each recipe, and the
+ *   four precomputed `corpusMeta` aggregates once at the end — both exist so
+ *   the app's read path never scans the whole corpus.
  * - Prints per-source counts and an anomaly report.
  *
  * Usage: bun tools/seed/import.ts [--dry-run] [--user <profileId>]
+ *                                 [--limit N [--prune]]
  *        (--user defaults to `lukas` — it owns the pre-flagged „Dnes varím"
  *        recipes and the starter pantry, which are per-profile state)
+ *
+ *   --limit N   import a deterministic N-recipe subset (dev deployments): the
+ *               pinned gate fixtures plus a round-robin across categories.
+ *   --prune     delete the documents outside that subset. Required for --limit
+ *               to actually shrink a deployment — the importer otherwise only
+ *               ever upserts, so previously imported recipes would remain.
+ *
+ * Full corpus to prod, a 40-recipe subset to dev:
+ *   bun tools/seed/import.ts
+ *   bun tools/seed/import.ts --limit 40 --prune
  */
 
 import { readdirSync, readFileSync, existsSync, mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { ConvexHttpClient } from 'convex/browser';
 import { api } from '../../convex/_generated/api';
-import { RecipeSeedSchema, type RecipeSeed } from '../../src/lib/schemas/schemas';
+import {
+	CorpusAggregatesSchema,
+	RecipeSeedSchema,
+	type RecipeSeed
+} from '../../src/lib/schemas/schemas';
 import { normalizeName, slugify, stripKcalSuffix } from '../../src/lib/helpers/normalize';
+import { computeCorpusAggregates } from '../../src/lib/helpers/corpus';
 import type { Blueprint } from '../extract/parse-xlsx';
 
 const SEED_DIR = 'seed/recipes';
@@ -237,9 +256,7 @@ console.log(`✓ merged into ${dishes.size} dishes`);
 /** Sources occasionally list the same ingredient twice in one variant
  * (e.g. salt in the dough and on top) — sum them so keyed UI lists and the
  * shopping aggregation see unique (nameNorm, unit) rows. */
-function mergeDuplicateIngredients(
-	ingredients: Variant['ingredients']
-): Variant['ingredients'] {
+function mergeDuplicateIngredients(ingredients: Variant['ingredients']): Variant['ingredients'] {
 	const byKey = new Map<string, Variant['ingredients'][number]>();
 	for (const ingredient of ingredients) {
 		const key = `${ingredient.nameNorm}|${ingredient.unit ?? ''}`;
@@ -425,7 +442,171 @@ const finalRecipes = [...dishes.values()].map((dish) => ({
 }));
 
 // ---------------------------------------------------------------------------
-// 5. Import into Convex
+// 5. Optional dev subset (--limit) and the precomputed corpus aggregates
+// ---------------------------------------------------------------------------
+
+/**
+ * Slugs the validation gate hard-codes and therefore may never be dropped by
+ * `--limit`: `tools/verify/ui-proof.mjs` navigates to /recepty/thajske-kari and
+ * asserts four times on `article img`. If those assertions fail, the fix is
+ * this list — never a relaxed assertion.
+ */
+const PINNED_SLUGS = ['thajske-kari'];
+
+type FinalRecipe = (typeof finalRecipes)[number];
+
+/**
+ * Deterministically pick `limit` recipes, in three passes:
+ *
+ *  1. the pinned gate fixtures,
+ *  2. one recipe per diet tag, so the filter chips keep every value,
+ *  3. round-robin across categories (each bucket ordered by slug) so every
+ *     category chip — „Dezerty" included — still has something behind it.
+ *
+ * Pass 2 is not optional: a plain category round-robin over 40 recipes happens
+ * to surface only two of the four diet tags, and the gate asserts on all four.
+ */
+function selectSubset(recipes: FinalRecipe[], limit: number): FinalRecipe[] {
+	const bySlug = new Map(recipes.map((recipe) => [recipe.slug, recipe]));
+	const orderedBySlug = recipes.toSorted((a, b) => a.slug.localeCompare(b.slug));
+	const selected: FinalRecipe[] = [];
+	const taken = new Set<string>();
+
+	for (const slug of PINNED_SLUGS) {
+		const pinned = bySlug.get(slug);
+		if (!pinned) {
+			console.error(
+				`✗ --limit: pinned slug "${slug}" is not in the corpus — the UI proof needs it`
+			);
+			process.exit(1);
+		}
+		if (!pinned.imagePath) {
+			console.error(`✗ --limit: pinned slug "${slug}" has no photo — the UI proof asserts on one`);
+			process.exit(1);
+		}
+		selected.push(pinned);
+		taken.add(slug);
+	}
+
+	const allTags = [...new Set(recipes.flatMap((recipe) => recipe.dietTags))].sort();
+	const coveredTags = new Set(selected.flatMap((recipe) => recipe.dietTags));
+	for (const tag of allTags) {
+		if (coveredTags.has(tag)) continue;
+		const candidate = orderedBySlug.find(
+			(recipe) => !taken.has(recipe.slug) && recipe.dietTags.includes(tag)
+		);
+		if (!candidate) continue;
+		selected.push(candidate);
+		taken.add(candidate.slug);
+		for (const covered of candidate.dietTags) coveredTags.add(covered);
+	}
+
+	if (selected.length > limit) {
+		console.error(
+			`✗ --limit ${limit} is too small: ${selected.length} recipes are needed to cover the` +
+				` pinned slugs and all ${allTags.length} diet tags the gate asserts on`
+		);
+		process.exit(1);
+	}
+
+	const byCategory = new Map<string, FinalRecipe[]>();
+	for (const recipe of orderedBySlug) {
+		if (taken.has(recipe.slug)) continue;
+		const bucket = byCategory.get(recipe.category);
+		if (bucket) bucket.push(recipe);
+		else byCategory.set(recipe.category, [recipe]);
+	}
+
+	const categories = [...byCategory.keys()].sort();
+	for (let round = 0; selected.length < limit; round++) {
+		let progressed = false;
+		for (const category of categories) {
+			if (selected.length >= limit) break;
+			const bucket = byCategory.get(category)!;
+			if (round < bucket.length) {
+				selected.push(bucket[round]);
+				progressed = true;
+			}
+		}
+		// Every bucket exhausted — the corpus is smaller than the limit.
+		if (!progressed) break;
+	}
+
+	return selected;
+}
+
+const limitFlagIndex = process.argv.indexOf('--limit');
+let limit: number | undefined;
+if (limitFlagIndex !== -1) {
+	limit = Number(process.argv[limitFlagIndex + 1]);
+	if (!Number.isInteger(limit) || limit <= 0) {
+		console.error('✗ --limit needs a positive integer, e.g. --limit 40');
+		process.exit(1);
+	}
+}
+
+/**
+ * `--prune` deletes the documents outside the selected set. Without it
+ * `--limit` saves nothing on a deployment that already holds the full corpus:
+ * the importer upserts by slug and never deletes, so the other 595 recipes
+ * would simply stay.
+ */
+const prune = process.argv.includes('--prune');
+if (prune && limit === undefined) {
+	console.error('✗ --prune only makes sense together with --limit');
+	process.exit(1);
+}
+
+const selectedRecipes = limit === undefined ? finalRecipes : selectSubset(finalRecipes, limit);
+if (limit !== undefined) {
+	console.log(
+		`✓ --limit ${limit}: ${selectedRecipes.length} of ${finalRecipes.length} recipes selected` +
+			` (pinned: ${PINNED_SLUGS.join(', ')})${prune ? ', pruning the rest' : ''}`
+	);
+	if (!prune) {
+		console.log(
+			'  ! without --prune, recipes already in the deployment are left in place — see the runbook'
+		);
+	}
+}
+
+/**
+ * Precompute the four static aggregates the app used to derive at read time by
+ * scanning the whole corpus. Computed here because the importer already holds
+ * every merged recipe in memory, so it costs no database I/O — and the logic is
+ * a pure function the server test project covers (`corpus.test.ts`).
+ *
+ * Computed from the *selected* set, so a `--limit` dev deployment never
+ * autocompletes ingredients from recipes it does not have.
+ */
+const aggregates = computeCorpusAggregates(selectedRecipes);
+const aggregatesCheck = CorpusAggregatesSchema.safeParse(aggregates);
+if (!aggregatesCheck.success) {
+	console.error('✗ computed corpus aggregates failed CorpusAggregatesSchema validation:');
+	for (const issue of aggregatesCheck.error.issues) {
+		console.error(`  - ${issue.path.join('.')}: ${issue.message}`);
+	}
+	process.exit(1);
+}
+const taggedSlugCount = aggregates.dietTagSlugs.reduce(
+	(total, entry) => total + entry.slugs.length,
+	0
+);
+console.log(
+	`✓ aggregates: ${aggregates.dietTags.length} diet tags, ` +
+		`${aggregates.knownIngredients.length} distinct ingredients, ` +
+		`${aggregates.frequentIngredients.length} frequent tiles`
+);
+// The diet-tag slug lists replace a full card-table scan per filtered read, so
+// their size is the thing worth watching: it is only cheap while tags stay rare.
+console.log(
+	`✓ dietTagSlugs: ${taggedSlugCount} slugs across ${aggregates.dietTagSlugs.length} tags ` +
+		`(~${(JSON.stringify(aggregates.dietTagSlugs).length / 1024).toFixed(1)} KB) — ` +
+		aggregates.dietTagSlugs.map((entry) => `${entry.tag} ${entry.slugs.length}`).join(', ')
+);
+
+// ---------------------------------------------------------------------------
+// 6. Import into Convex
 // ---------------------------------------------------------------------------
 
 const convexUrl = Bun.env.PUBLIC_CONVEX_URL;
@@ -450,7 +631,7 @@ async function run() {
 		}
 		const deploymentCache = (cache[convexUrl!] ??= {});
 
-		for (const recipe of finalRecipes) {
+		for (const recipe of selectedRecipes) {
 			if (!recipe.imagePath) continue;
 			if (deploymentCache[recipe.imagePath]) {
 				uploadedImages.set(recipe.imagePath, deploymentCache[recipe.imagePath]);
@@ -475,7 +656,7 @@ async function run() {
 		}
 		console.log(`✓ images: ${uploadedImages.size} available (uploaded or cached)`);
 
-		for (const recipe of finalRecipes) {
+		for (const recipe of selectedRecipes) {
 			const result = await client.mutation(api.seed.upsertRecipe, {
 				token: token!,
 				recipe: {
@@ -530,15 +711,37 @@ async function run() {
 			});
 		}
 		console.log(`✓ pantry: ${blueprint.pantry.length} items upserted for profile „${userId}"`);
+
+		// Prune before writing the aggregates, so a failure here can never leave
+		// aggregates that describe a corpus wider than what is actually stored.
+		if (prune) {
+			const { deletedRecipes, deletedCards } = await client.mutation(api.seed.pruneRecipes, {
+				token: token!,
+				keepSlugs: selectedRecipes.map((recipe) => recipe.slug)
+			});
+			console.log(`✓ pruned: ${deletedRecipes} recipes, ${deletedCards} card rows deleted`);
+		}
+
+		// Last, and in one mutation: the queries read these instead of scanning the
+		// corpus, so they must describe the corpus that is now stored.
+		await client.mutation(api.seed.upsertCorpusMeta, {
+			token: token!,
+			recipeCount: aggregates.recipeCount,
+			dietTags: aggregates.dietTags,
+			dietTagSlugs: aggregates.dietTagSlugs,
+			knownIngredients: aggregates.knownIngredients,
+			frequentIngredients: aggregates.frequentIngredients
+		});
+		console.log(`✓ corpusMeta: 4 aggregate rows written for ${aggregates.recipeCount} recipes`);
 	}
 
 	// -------------------------------------------------------------------------
-	// 6. Report
+	// 7. Report
 	// -------------------------------------------------------------------------
 
 	console.log('\n=== Import report ===');
 	console.log(
-		`recipes: ${finalRecipes.length} total${dryRun ? ' (dry run — nothing written)' : ` (${inserted} inserted, ${updated} updated)`}`
+		`recipes: ${selectedRecipes.length} imported of ${finalRecipes.length} merged${dryRun ? ' (dry run — nothing written)' : ` (${inserted} inserted, ${updated} updated)`}`
 	);
 
 	const bySource = new Map<string, number>();
@@ -560,14 +763,18 @@ async function run() {
 		for (const entry of blueprintOnly) console.log(`  - ${entry}`);
 	}
 
-	const missingPhoto = finalRecipes.filter((recipe) => !recipe.imagePath);
-	const missingMacros = finalRecipes.filter((recipe) => recipe.variants.every((v) => !v.macros));
-	const suspiciousKcal = finalRecipes.filter((recipe) =>
+	// Scoped to what was actually imported — with --limit, anomalies for recipes
+	// that were never pushed are just noise. Identical for a full import.
+	const missingPhoto = selectedRecipes.filter((recipe) => !recipe.imagePath);
+	const missingMacros = selectedRecipes.filter((recipe) => recipe.variants.every((v) => !v.macros));
+	const suspiciousKcal = selectedRecipes.filter((recipe) =>
 		recipe.variants.some(
 			(v) => v.kcalPerPortion !== undefined && (v.kcalPerPortion < 60 || v.kcalPerPortion > 1200)
 		)
 	);
-	const wantedButMissing = finalRecipes.filter((recipe) => recipe.imageWanted && !recipe.imagePath);
+	const wantedButMissing = selectedRecipes.filter(
+		(recipe) => recipe.imageWanted && !recipe.imagePath
+	);
 
 	console.log(`\nanomalies for manual spot-check:`);
 	console.log(`  missing photo: ${missingPhoto.length}`);

@@ -156,6 +156,26 @@ const wordmark = await page.locator('header').first().textContent();
 check(wordmark?.includes('Mňamka') === true, 'the top bar does not show the „Mňamka" wordmark');
 check(wordmark?.includes('Recepty') !== true, 'the top bar still repeats the active tab name');
 
+// The list pages at 20 rows and grows as the sentinel scrolls into view. The
+// dev deployment holds 40 recipes, so an unfiltered list is exactly two pages —
+// the first render must show 20, and scrolling must produce more without a
+// „load more" button anywhere.
+const firstPageRows = await page.locator('[data-testid="recipe-list"] > a').count();
+check(
+	firstPageRows === 20,
+	`the first page rendered ${firstPageRows} rows, expected the 20-row page size`
+);
+await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight));
+await page.waitForTimeout(1500);
+const grownRows = await page.locator('[data-testid="recipe-list"] > a').count();
+check(
+	grownRows > firstPageRows,
+	`scrolling to the sentinel did not load another page (still ${grownRows} rows)`
+);
+await shot('recepty-second-page-loaded');
+await page.evaluate(() => window.scrollTo(0, 0));
+await page.waitForTimeout(400);
+
 await page.fill('input[type="search"]', 'thajske');
 await page.waitForTimeout(1000);
 await shot('recepty-search-diacritic-free');
@@ -164,7 +184,15 @@ await page.fill('input[type="search"]', '');
 await page.click('button:has-text("Dezerty")');
 await page.waitForTimeout(800);
 await shot('recepty-category-filter');
+// Changing a filter resets pagination — the category result must not still be
+// showing the rows the unfiltered list had already loaded.
+const dezertyRows = await page.locator('[data-testid="recipe-list"] > a').count();
+check(
+	dezertyRows > 0 && dezertyRows <= 20,
+	`the category filter shows ${dezertyRows} rows — pagination did not reset to one page`
+);
 await page.click('button:has-text("Všetky")');
+await page.waitForTimeout(800);
 
 // --- Detail: full-width hero under the header, variants, favourite ----------
 await page.goto(BASE_URL + '/recepty/thajske-kari');

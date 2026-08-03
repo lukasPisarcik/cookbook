@@ -172,6 +172,34 @@ export const VariantSeedSchema = z.object({
 });
 export type VariantSeed = z.infer<typeof VariantSeedSchema>;
 
+/**
+ * The precomputed corpus aggregates the importer pushes to `corpusMeta`.
+ * Validated before the push so a malformed aggregate fails locally rather than
+ * silently emptying the filter chips, autocomplete and „Časté" tiles.
+ */
+export const CorpusIngredientSchema = z.object({
+	name: z.string().min(1),
+	nameNorm: z.string().min(1),
+	productType: z.string().min(1)
+});
+export type CorpusIngredientSeed = z.infer<typeof CorpusIngredientSchema>;
+
+/** A diet tag and every slug carrying it — the filter chips' bounded lookup. */
+export const DietTagSlugsSchema = z.object({
+	tag: z.string().min(1),
+	slugs: z.array(z.string().min(1))
+});
+export type DietTagSlugsSeed = z.infer<typeof DietTagSlugsSchema>;
+
+export const CorpusAggregatesSchema = z.object({
+	recipeCount: z.number().int().positive(),
+	dietTags: z.array(z.string().min(1)),
+	dietTagSlugs: z.array(DietTagSlugsSchema),
+	knownIngredients: z.array(CorpusIngredientSchema),
+	frequentIngredients: z.array(CorpusIngredientSchema)
+});
+export type CorpusAggregatesSeed = z.infer<typeof CorpusAggregatesSchema>;
+
 export const RecipeSeedSchema = z.object({
 	title: z.string().min(1),
 	category: RecipeCategory,

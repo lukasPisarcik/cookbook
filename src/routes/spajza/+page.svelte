@@ -13,7 +13,6 @@
 	const client = useConvexClient();
 
 	const pantry = useQuery(api.pantry.list, () => (userId ? { token, userId } : 'skip'));
-	const known = useQuery(api.pantry.knownIngredients, () => ({ token }));
 	const frequent = useQuery(api.pantry.frequentIngredients, () => ({ token }));
 
 	type PantryItem = NonNullable<typeof pantry.data>[number];
@@ -21,11 +20,29 @@
 	let search = $state('');
 	let busy = $state(false);
 
+	/** The threshold the suggestion list applies — see `known` below. */
+	const MIN_QUERY_LENGTH = 2;
+
+	const query = $derived(normalizeName(search));
+
+	/**
+	 * All 1,431 distinct ingredient names — 110 KB, and the single most expensive
+	 * read in the app. It is only ever used to autocomplete, which needs two
+	 * characters before it matches anything, so subscribing on mount charged
+	 * every Špajza visit for a suggestion list most of them never asked for.
+	 *
+	 * The whole list still has to arrive at once: matching is a mid-word
+	 * substring test („lej" → „olej"), which a Convex search index cannot do —
+	 * it matches token prefixes.
+	 */
+	const known = useQuery(api.pantry.knownIngredients, () =>
+		query.length >= MIN_QUERY_LENGTH ? { token } : 'skip'
+	);
+
 	const ownedNorms = $derived(new Set((pantry.data ?? []).map((item) => item.nameNorm)));
 
 	const suggestions = $derived.by(() => {
-		const query = normalizeName(search);
-		if (query.length < 2) return [];
+		if (query.length < MIN_QUERY_LENGTH) return [];
 		return (known.data ?? [])
 			.filter((entry) => entry.nameNorm.includes(query) && !ownedNorms.has(entry.nameNorm))
 			.slice(0, 8);
