@@ -124,6 +124,41 @@ None — no observability MCP is connected and the app is personal/local-first.
 Work from a local reproduction (`bun run dev` + seeded Convex dev deployment)
 and say telemetry wasn't consulted.
 
+## Dev-seed workflow (`--limit` / `--prune`)
+
+The dev deployment does **not** need the full 635-recipe corpus. Seed a subset:
+
+```bash
+bun tools/seed/import.ts --limit 40 --prune   # dev: ~40 recipes, photos kept
+bun tools/seed/import.ts                      # prod: full corpus
+```
+
+**`--prune` is not optional on a deployment that already holds more.** The
+importer upserts by slug and never deletes, so `--limit 40` on its own leaves
+all 635 previously imported documents in place and saves nothing. `--prune`
+deletes the recipes and `recipeCards` rows outside the selected set (it leaves
+per-user `recipeState` alone — those rows are keyed by slug, cost nothing when
+orphaned, and are picked up again by a later full import).
+
+The subset is deterministic: `PINNED_SLUGS` (currently `thajske-kari`, which
+`tools/verify/ui-proof.mjs` hard-codes and asserts a photo on) first, then
+round-robin across categories ordered by slug, so every filter chip — „Dezerty"
+included — still has data. The importer exits non-zero if a pinned slug is
+missing or has no photo. **If a ui-proof assertion fails after a `--limit` run,
+extend `PINNED_SLUGS` — never relax the assertion.**
+
+Both new tables are populated **only by an import**, so re-run the importer
+against prod after deploying schema changes that touch them. Order matters: push
+the schema and seed _before_ the query rewrite reaches prod, or `corpusMeta`
+reads return `[]` and the UI silently loses its filter chips, autocomplete and
+„Časté" tiles (it fails soft, with no visible error).
+
+### Stale deployments
+
+Delete unused Convex deployments rather than leaving them around — each full
+corpus copy is ~65 MB of file storage against a 0.5 GB budget, and preview
+deployments should never be seeded with images.
+
 ## Data / seed pipeline (project-specific stage)
 
 The recipe corpus is generated once by `tools/extract/` (+ a multi-agent LLM
