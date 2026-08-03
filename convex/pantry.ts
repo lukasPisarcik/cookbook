@@ -1,11 +1,33 @@
 import { ConvexError, v } from 'convex/values';
-import { mutation, query } from './_generated/server';
+import { mutation, query, type QueryCtx, type MutationCtx } from './_generated/server';
 import { requireToken } from './lib';
 import { normalizeName } from '../src/lib/helpers/normalize';
+import type { CorpusIngredient } from '../src/lib/helpers/corpus';
 
 const FALLBACK_PRODUCT_TYPE = 'ostatné';
-/** How many „Časté" tiles the Špajza tab offers. */
-const FREQUENT_LIMIT = 40;
+
+/**
+ * Read one precomputed aggregate row.
+ *
+ * These used to be derived here with `ctx.db.query('recipes').collect()`, which
+ * re-read all 635 recipe documents (1,357 KB) per call to return at most 116 KB
+ * — 71% of the monthly database-I/O allowance between them. The importer now
+ * precomputes them into `corpusMeta`; see `src/lib/helpers/corpus.ts`.
+ *
+ * An empty array means the row is missing, which happens only if the schema was
+ * pushed without a subsequent import. It fails soft — no autocomplete and no
+ * „Časté" tiles rather than an error — so re-run `bun tools/seed/import.ts`.
+ */
+async function corpusIngredients(
+	ctx: QueryCtx | MutationCtx,
+	kind: 'knownIngredients' | 'frequentIngredients'
+): Promise<CorpusIngredient[]> {
+	const row = await ctx.db
+		.query('corpusMeta')
+		.withIndex('by_kind', (q) => q.eq('kind', kind))
+		.unique();
+	return row?.ingredients ?? [];
+}
 
 export const list = query({
 	args: { token: v.string(), userId: v.string() },
@@ -28,22 +50,11 @@ export const knownIngredients = query({
 	args: { token: v.string() },
 	handler: async (ctx, args) => {
 		requireToken(args.token);
-		const recipes = await ctx.db.query('recipes').collect();
-		const known = new Map<string, { name: string; nameNorm: string; productType: string }>();
-		for (const recipe of recipes) {
-			for (const variant of recipe.variants) {
-				for (const ingredient of variant.ingredients) {
-					if (!known.has(ingredient.nameNorm)) {
-						known.set(ingredient.nameNorm, {
-							name: ingredient.name,
-							nameNorm: ingredient.nameNorm,
-							productType: ingredient.productType
-						});
-					}
-				}
-			}
-		}
-		return [...known.values()].sort((a, b) => a.name.localeCompare(b.name, 'sk'));
+		// Returned whole so the Špajza page keeps filtering it in the browser with
+		// `nameNorm.includes(query)`. A Convex search index would cut this to
+		// ~600 B but only matches token prefixes, silently breaking the mid-word
+		// match that makes typing „lej" suggest „olej".
+		return corpusIngredients(ctx, 'knownIngredients');
 	}
 });
 
@@ -56,36 +67,10 @@ export const frequentIngredients = query({
 	args: { token: v.string() },
 	handler: async (ctx, args) => {
 		requireToken(args.token);
-		const recipes = await ctx.db.query('recipes').collect();
-		const counts = new Map<
-			string,
-			{ name: string; nameNorm: string; productType: string; count: number }
-		>();
-		for (const recipe of recipes) {
-			// Count each name once per recipe, not once per variant — the kcal
-			// variants of one dish repeat most of the same ingredients.
-			const seen = new Set<string>();
-			for (const variant of recipe.variants) {
-				for (const ingredient of variant.ingredients) {
-					if (seen.has(ingredient.nameNorm)) continue;
-					seen.add(ingredient.nameNorm);
-					const entry = counts.get(ingredient.nameNorm);
-					if (entry) {
-						entry.count += 1;
-					} else {
-						counts.set(ingredient.nameNorm, {
-							name: ingredient.name,
-							nameNorm: ingredient.nameNorm,
-							productType: ingredient.productType,
-							count: 1
-						});
-					}
-				}
-			}
-		}
-		return [...counts.values()]
-			.sort((a, b) => b.count - a.count || a.name.localeCompare(b.name, 'sk'))
-			.slice(0, FREQUENT_LIMIT);
+		// Already ranked and capped at 40 by the importer, in tile order. The old
+		// shape also carried each ingredient's `count`, which the tile grid never
+		// read — the aggregate ranks with it and then drops it.
+		return corpusIngredients(ctx, 'frequentIngredients');
 	}
 });
 
@@ -110,19 +95,13 @@ export const add = mutation({
 			.unique();
 		if (existing) return existing._id;
 
+		// Typing a name straight into the field sends no productType, so resolve it
+		// from the precomputed corpus rather than scanning all 635 recipes for a
+		// single string match. Unknown names fall back to „ostatné".
 		let productType = args.productType;
 		if (!productType) {
-			const recipes = await ctx.db.query('recipes').collect();
-			outer: for (const recipe of recipes) {
-				for (const variant of recipe.variants) {
-					for (const ingredient of variant.ingredients) {
-						if (ingredient.nameNorm === nameNorm) {
-							productType = ingredient.productType;
-							break outer;
-						}
-					}
-				}
-			}
+			const known = await corpusIngredients(ctx, 'knownIngredients');
+			productType = known.find((entry) => entry.nameNorm === nameNorm)?.productType;
 		}
 
 		return ctx.db.insert('pantryItems', {

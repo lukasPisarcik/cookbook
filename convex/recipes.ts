@@ -32,21 +32,23 @@ async function stateFor(
 		.unique();
 }
 
-/** Card projection for the Recepty list. */
-async function toCard(ctx: QueryCtx, recipe: Doc<'recipes'>, states: Map<string, RecipeState>) {
-	const state = states.get(recipe.slug);
+/**
+ * Merge a stored card row with this user's state. The projection itself is
+ * precomputed into `recipeCards` by the importer, so listing no longer reads
+ * the fat recipe documents at all.
+ */
+async function toCard(ctx: QueryCtx, card: Doc<'recipeCards'>, states: Map<string, RecipeState>) {
+	const state = states.get(card.slug);
 	return {
-		slug: recipe.slug,
-		title: recipe.title,
-		category: recipe.category,
-		dietTags: recipe.dietTags,
-		prepTimeMinutes: recipe.prepTimeMinutes,
-		kcalOptions: recipe.variants
-			.map((variant) => variant.kcalPerPortion)
-			.filter((kcal): kcal is number => kcal !== undefined),
+		slug: card.slug,
+		title: card.title,
+		category: card.category,
+		dietTags: card.dietTags,
+		prepTimeMinutes: card.prepTimeMinutes,
+		kcalOptions: card.kcalOptions,
 		isFavorite: state?.isFavorite ?? false,
 		cookingToday: state?.cookingToday ?? null,
-		imageUrl: recipe.imageId ? await ctx.storage.getUrl(recipe.imageId) : null
+		imageUrl: card.imageId ? await ctx.storage.getUrl(card.imageId) : null
 	};
 }
 
@@ -62,33 +64,36 @@ export const list = query({
 	handler: async (ctx, args) => {
 		requireToken(args.token);
 
-		let recipes;
+		// Reads `recipeCards`, never `recipes` — the whole point of the split. The
+		// search index lives on the card table too, so no branch here touches a
+		// fat document.
+		let cards;
 		if (args.search && args.search.trim() !== '') {
-			recipes = await ctx.db
-				.query('recipes')
+			cards = await ctx.db
+				.query('recipeCards')
 				.withSearchIndex('search_title', (q) => q.search('searchText', normalizeName(args.search!)))
 				.collect();
 		} else if (args.category) {
-			recipes = await ctx.db
-				.query('recipes')
+			cards = await ctx.db
+				.query('recipeCards')
 				.withIndex('by_category', (q) => q.eq('category', args.category!))
 				.collect();
-			recipes.sort((a, b) => a.title.localeCompare(b.title, 'sk'));
+			cards.sort((a, b) => a.title.localeCompare(b.title, 'sk'));
 		} else {
-			recipes = await ctx.db.query('recipes').collect();
-			recipes.sort((a, b) => a.title.localeCompare(b.title, 'sk'));
+			cards = await ctx.db.query('recipeCards').collect();
+			cards.sort((a, b) => a.title.localeCompare(b.title, 'sk'));
 		}
 
 		const states = await stateBySlug(ctx, args.userId);
 
-		const filtered = recipes.filter(
-			(recipe) =>
-				(!args.category || recipe.category === args.category) &&
-				(!args.dietTag || recipe.dietTags.includes(args.dietTag)) &&
-				(!args.favoritesOnly || states.get(recipe.slug)?.isFavorite === true)
+		const filtered = cards.filter(
+			(card) =>
+				(!args.category || card.category === args.category) &&
+				(!args.dietTag || card.dietTags.includes(args.dietTag)) &&
+				(!args.favoritesOnly || states.get(card.slug)?.isFavorite === true)
 		);
 
-		return Promise.all(filtered.map((recipe) => toCard(ctx, recipe, states)));
+		return Promise.all(filtered.map((card) => toCard(ctx, card, states)));
 	}
 });
 
@@ -150,15 +155,23 @@ export const cookingToday = query({
 	}
 });
 
-/** All diet tags in use — drives the filter chips. Corpus-wide, not per user. */
+/**
+ * All diet tags in use — drives the filter chips. Corpus-wide, not per user.
+ *
+ * Four short strings, precomputed by the importer into `corpusMeta`. Deriving
+ * them here used to read all 635 recipe documents — 1,357 KB of database I/O to
+ * return 53 bytes, which was more than loading the entire shopping and pantry
+ * subsystem for both profiles combined.
+ */
 export const dietTags = query({
 	args: { token: v.string() },
 	handler: async (ctx, args) => {
 		requireToken(args.token);
-		const recipes = await ctx.db.query('recipes').collect();
-		return [...new Set(recipes.flatMap((recipe) => recipe.dietTags))].sort((a, b) =>
-			a.localeCompare(b, 'sk')
-		);
+		const row = await ctx.db
+			.query('corpusMeta')
+			.withIndex('by_kind', (q) => q.eq('kind', 'dietTags'))
+			.unique();
+		return row?.dietTags ?? [];
 	}
 });
 

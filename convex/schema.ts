@@ -13,6 +13,16 @@ export const ingredient = v.object({
 	productType: v.string()
 });
 
+/**
+ * An ingredient as the precomputed corpus aggregates carry it — identity and
+ * grouping only, no quantity or unit (those are per-recipe, not per-corpus).
+ */
+export const corpusIngredient = v.object({
+	name: v.string(),
+	nameNorm: v.string(),
+	productType: v.string()
+});
+
 export const variant = v.object({
 	/** "400 kcal" | "500 kcal" | "600 kcal" | "štandard". */
 	label: v.string(),
@@ -52,9 +62,63 @@ export default defineSchema({
 		// `migrations:adoptLegacyState` mutation copied them across and stripped
 		// them from every row before this field list dropped them.
 	})
+		// Only `by_slug` remains: the detail page is the sole reader of the fat
+		// documents. Listing, filtering by category and searching all moved to
+		// `recipeCards`, so the category and search indexes are not paid for twice.
+		.index('by_slug', ['slug']),
+
+	/**
+	 * The thin card projection the Recepty list renders — a derived subset of
+	 * `recipes`, written in the same transaction by `seed.upsertRecipe`.
+	 *
+	 * The list only ever needed these nine fields (~230 B per recipe), but
+	 * Convex bills whole documents, so reading them off `recipes` paid for every
+	 * recipe's steps, variants and ingredient rows too — a 9.6× overcharge, and
+	 * one that a single favourite toggle re-paid in full, because Convex
+	 * invalidates a subscription when any table it touched changes.
+	 *
+	 * `recipes` keeps `by_slug` for the detail page; the search index lives here
+	 * now, so searching never touches the fat table either.
+	 */
+	recipeCards: defineTable({
+		slug: v.string(),
+		title: v.string(),
+		/** Normalized title for diacritic-insensitive search. */
+		searchText: v.string(),
+		category: v.string(),
+		dietTags: v.array(v.string()),
+		prepTimeMinutes: v.optional(v.number()),
+		kcalOptions: v.array(v.number()),
+		imageId: v.optional(v.id('_storage'))
+	})
 		.index('by_slug', ['slug'])
 		.index('by_category', ['category'])
 		.searchIndex('search_title', { searchField: 'searchText' }),
+
+	/**
+	 * Importer-computed aggregates over the whole corpus — the diet tags in
+	 * use, every distinct ingredient, and the most frequent ones.
+	 *
+	 * These are derived data, not a source of truth: they exist because
+	 * deriving them at read time meant re-reading all 635 recipe documents
+	 * (1,357 KB) on every call to return at most 116 KB. Convex bills whole
+	 * documents, so that alone was 71% of the monthly database-I/O allowance.
+	 * One row per aggregate kind, so each query reads only its own payload.
+	 * Shared corpus data — no `userId` (rule 7 does not apply).
+	 */
+	corpusMeta: defineTable({
+		kind: v.union(
+			v.literal('dietTags'),
+			v.literal('knownIngredients'),
+			v.literal('frequentIngredients')
+		),
+		/** Corpus size when this row was written — a mismatch means it is stale. */
+		recipeCount: v.number(),
+		/** Set on the `dietTags` row only. */
+		dietTags: v.optional(v.array(v.string())),
+		/** Set on the `knownIngredients` / `frequentIngredients` rows only. */
+		ingredients: v.optional(v.array(corpusIngredient))
+	}).index('by_kind', ['kind']),
 
 	/**
 	 * Per-user recipe state — favourites and „Dnes varím". Keyed by `slug`
