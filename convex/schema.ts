@@ -23,6 +23,16 @@ export const corpusIngredient = v.object({
 	productType: v.string()
 });
 
+/**
+ * A diet tag and every slug carrying it. `recipeCards.dietTags` is an array and
+ * Convex has no multi-key index, so this precomputed mapping is what lets the
+ * diet chips resolve a bounded slug list instead of scanning the card table.
+ */
+export const dietTagSlugs = v.object({
+	tag: v.string(),
+	slugs: v.array(v.string())
+});
+
 export const variant = v.object({
 	/** "400 kcal" | "500 kcal" | "600 kcal" | "štandard". */
 	label: v.string(),
@@ -92,8 +102,19 @@ export default defineSchema({
 		imageId: v.optional(v.id('_storage'))
 	})
 		.index('by_slug', ['slug'])
-		.index('by_category', ['category'])
-		.searchIndex('search_title', { searchField: 'searchText' }),
+		// Ordered by `searchText`, the diacritic-stripped lowercase title, so a
+		// paginated read comes back in diacritic-insensitive alphabetical order
+		// without collecting the table first. An index on `title` could only give
+		// UTF-8 byte order, which would sort „Čokoládový" after „Zemiaky".
+		// `by_category_searchText` supersedes the old `by_category`: it serves the
+		// same equality lookup and adds the ordering the page needs.
+		.index('by_searchText', ['searchText'])
+		.index('by_category_searchText', ['category', 'searchText'])
+		// `category` is a filter field so a search can be narrowed to one
+		// category inside the index. Post-filtering a search page instead would
+		// be the documented pagination pitfall — a page of 20 can yield 0 matches
+		// while more exist, making „load more" look broken.
+		.searchIndex('search_title', { searchField: 'searchText', filterFields: ['category'] }),
 
 	/**
 	 * Importer-computed aggregates over the whole corpus — the diet tags in
@@ -110,12 +131,22 @@ export default defineSchema({
 		kind: v.union(
 			v.literal('dietTags'),
 			v.literal('knownIngredients'),
-			v.literal('frequentIngredients')
+			v.literal('frequentIngredients'),
+			v.literal('dietTagSlugs')
 		),
 		/** Corpus size when this row was written — a mismatch means it is stale. */
 		recipeCount: v.number(),
-		/** Set on the `dietTags` row only. */
+		/**
+		 * Set on the `dietTags` row only — just the four names.
+		 *
+		 * Kept separate from `tagSlugs` rather than derived from it: the chips
+		 * need only the names and are read on every home mount, while the slug
+		 * lists are read only when a chip is actually active. Merging the two
+		 * would put 3.2 KB on the common path to save one row.
+		 */
 		dietTags: v.optional(v.array(v.string())),
+		/** Set on the `dietTagSlugs` row only — tag → the slugs carrying it. */
+		tagSlugs: v.optional(v.array(dietTagSlugs)),
 		/** Set on the `knownIngredients` / `frequentIngredients` rows only. */
 		ingredients: v.optional(v.array(corpusIngredient))
 	}).index('by_kind', ['kind']),

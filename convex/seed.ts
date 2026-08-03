@@ -1,7 +1,7 @@
 import { v } from 'convex/values';
 import { mutation, query } from './_generated/server';
 import { requireToken } from './lib';
-import { corpusIngredient, variant } from './schema';
+import { corpusIngredient, dietTagSlugs, variant } from './schema';
 
 /**
  * Seed-import surface, used only by `tools/seed/import.ts`.
@@ -123,11 +123,11 @@ export const pruneRecipes = mutation({
 });
 
 /**
- * Replace the three precomputed corpus aggregates.
+ * Replace the four precomputed corpus aggregates.
  *
  * The importer computes these (it already holds every merged recipe in memory,
  * so it costs no database I/O) and pushes them here in one mutation, so the
- * three rows can never disagree about which corpus they describe. Corpus data
+ * four rows can never disagree about which corpus they describe. Corpus data
  * is shared, so there is no `userId` — but the token guard still applies.
  */
 export const upsertCorpusMeta = mutation({
@@ -135,6 +135,7 @@ export const upsertCorpusMeta = mutation({
 		token: v.string(),
 		recipeCount: v.number(),
 		dietTags: v.array(v.string()),
+		dietTagSlugs: v.array(dietTagSlugs),
 		knownIngredients: v.array(corpusIngredient),
 		frequentIngredients: v.array(corpusIngredient)
 	},
@@ -143,6 +144,7 @@ export const upsertCorpusMeta = mutation({
 
 		const rows = [
 			{ kind: 'dietTags' as const, dietTags: args.dietTags },
+			{ kind: 'dietTagSlugs' as const, tagSlugs: args.dietTagSlugs },
 			{ kind: 'knownIngredients' as const, ingredients: args.knownIngredients },
 			{ kind: 'frequentIngredients' as const, ingredients: args.frequentIngredients }
 		];
@@ -152,8 +154,9 @@ export const upsertCorpusMeta = mutation({
 				.query('corpusMeta')
 				.withIndex('by_kind', (q) => q.eq('kind', row.kind))
 				.unique();
-			// Replace rather than patch: `dietTags` and `ingredients` are mutually
-			// exclusive per kind, and patching would leave the other one behind.
+			// Replace rather than patch: `dietTags`, `tagSlugs` and `ingredients`
+			// are mutually exclusive per kind, and patching would leave the other
+			// ones behind.
 			if (existing) await ctx.db.delete(existing._id);
 			await ctx.db.insert('corpusMeta', { ...row, recipeCount: args.recipeCount });
 		}

@@ -1,12 +1,19 @@
 <script lang="ts">
 	import { page } from '$app/state';
-	import { useQuery } from 'convex-svelte';
+	import { useQuery, usePaginatedQuery } from 'convex-svelte';
 	import { api } from '$convex/api';
 	import { d } from '$lib';
 	import { CategoryChips, Input, RecipeCard, Spinner } from '$lib/components';
 	import { profileStore } from '$lib/stores';
 	import { Heart, Search } from '@lucide/svelte';
 	import { cn } from '$lib/utils';
+
+	/**
+	 * Rows per page. 20 fills a phone screen roughly twice over, so the sentinel
+	 * has something to scroll towards before it fires, and one page is ~5.7 KB
+	 * against the 188 KB the unpaginated list used to read.
+	 */
+	const PAGE_SIZE = 20;
 
 	const token = $derived(page.data.convexToken as string);
 	const userId = $derived(profileStore.userId);
@@ -23,22 +30,61 @@
 		return () => clearTimeout(timer);
 	});
 
-	// 'skip' until the profile resolves — otherwise the first frame would query
-	// with no user and flash an empty (or the wrong profile's) list.
-	const recipes = useQuery(api.recipes.list, () =>
-		userId
-			? {
-					token,
-					userId,
-					search: debouncedSearch.trim() || undefined,
-					category: category ?? undefined,
-					dietTag: dietTag ?? undefined,
-					favoritesOnly: favoritesOnly || undefined
-				}
-			: 'skip'
+	/**
+	 * The card read. It no longer takes the profile's state with it — favourites
+	 * arrive separately below — so nothing this profile writes can invalidate it
+	 * and force a re-read of every loaded page.
+	 *
+	 * `userId` is still passed (and still gates on the profile) because the
+	 * favourites filter resolves server-side; every other branch ignores it.
+	 * Changing any argument resets pagination to the first page, which
+	 * `usePaginatedQuery` does for us on an args change.
+	 */
+	const recipes = usePaginatedQuery(
+		api.recipes.list,
+		() =>
+			userId
+				? {
+						token,
+						userId,
+						search: debouncedSearch.trim() || undefined,
+						category: category ?? undefined,
+						dietTag: dietTag ?? undefined,
+						favoritesOnly: favoritesOnly || undefined
+					}
+				: 'skip',
+		() => ({ initialNumItems: PAGE_SIZE })
 	);
 
+	// One indexed read of this profile's state, merged into the cards client-side
+	// for the heart indicator. A toggle re-runs this ~1 KB query and nothing else.
+	const favorites = useQuery(api.recipes.favoriteSlugs, () =>
+		userId ? { token, userId } : 'skip'
+	);
+	const favoriteSlugs = $derived(new Set(favorites.data ?? []));
+
 	const dietTags = useQuery(api.recipes.dietTags, () => ({ token }));
+
+	/**
+	 * Infinite scroll. Guarded on `CanLoadMore` rather than on scroll position,
+	 * because with a short filtered result the sentinel can already be in view
+	 * on first paint — a scroll-based guard would chain `loadMore` calls.
+	 */
+	let sentinel = $state<HTMLElement | null>(null);
+
+	$effect(() => {
+		if (!sentinel || recipes.status !== 'CanLoadMore') return;
+		const observer = new IntersectionObserver(
+			(entries) => {
+				if (entries[0]?.isIntersecting) recipes.loadMore(PAGE_SIZE);
+			},
+			// Start fetching before the sentinel is actually visible, so the next
+			// page is usually already there by the time the user reaches it.
+			{ rootMargin: '400px' }
+		);
+		observer.observe(sentinel);
+		return () => observer.disconnect();
+	});
 </script>
 
 <svelte:head>
@@ -90,22 +136,29 @@
 		{/each}
 	</div>
 
-	{#if recipes.isLoading}
+	{#if recipes.status === 'LoadingFirstPage'}
 		<div class="flex justify-center py-16"><Spinner /></div>
-	{:else if (recipes.data ?? []).length === 0}
+	{:else if recipes.results.length === 0}
 		<p class="py-16 text-center text-sm text-muted-foreground">{d.emptyRecipes}</p>
 	{:else}
-		<div class="space-y-2">
-			{#each recipes.data ?? [] as recipe (recipe.slug)}
+		<div class="space-y-2" data-testid="recipe-list">
+			{#each recipes.results as recipe (recipe.slug)}
 				<RecipeCard
 					slug={recipe.slug}
 					title={recipe.title}
 					imageUrl={recipe.imageUrl}
 					kcalOptions={recipe.kcalOptions}
-					isFavorite={recipe.isFavorite}
+					isFavorite={favoriteSlugs.has(recipe.slug)}
 					prepTimeMinutes={recipe.prepTimeMinutes}
 				/>
 			{/each}
 		</div>
+
+		{#if recipes.status === 'LoadingMore'}
+			<div class="flex justify-center py-6"><Spinner /></div>
+		{/if}
+
+		<!-- Scrolled into view → the next page loads. No button, no polling. -->
+		<div bind:this={sentinel} aria-hidden="true"></div>
 	{/if}
 </div>

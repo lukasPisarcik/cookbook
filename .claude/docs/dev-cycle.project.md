@@ -94,7 +94,10 @@ Changesets (`.changeset/*.md`, `bun changeset` or write the file directly).
 headless shell from `bunx playwright install chromium`) drives the running app
 at **390×844** through every feature: login gate (wrong + right password), the
 **„Kto si?" profile gate** (and that the tabs are unreachable before a name is
-chosen, and that the choice survives a reload), grid, diacritic-insensitive
+chosen, and that the choice survives a reload), grid, **20-row pagination**
+(asserting the first page renders exactly 20 rows, that scrolling to the
+sentinel grows the count, and that switching to a category resets back to one
+page), diacritic-insensitive
 search, category filter, the **full-width recipe hero** (asserting the header is
 present, the photo spans the viewport and sits flush under it, and that the
 header stays pinned while the photo scrolls away), kcal-variant
@@ -146,6 +149,12 @@ round-robin across categories ordered by slug, so every filter chip — „Dezer
 included — still has data. The importer exits non-zero if a pinned slug is
 missing or has no photo. **If a ui-proof assertion fails after a `--limit` run,
 extend `PINNED_SLUGS` — never relax the assertion.**
+
+**The pagination proof needs more than one page.** `tools/verify/ui-proof.mjs`
+asserts the first page renders exactly 20 rows and that scrolling loads more, so
+the dev deployment must hold **more than 20** recipes — `--limit 40` gives
+exactly two pages. Seeding fewer would make the assertion fail for want of data
+rather than for a real regression; raise the limit, never relax the assertion.
 
 Both new tables are populated **only by an import**, so re-run the importer
 against prod after deploying schema changes that touch them. Order matters: push

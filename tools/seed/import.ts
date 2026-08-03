@@ -14,7 +14,7 @@
  *   `.extract-cache/image-uploads.json`) and upserts recipes by slug —
  *   idempotent, safe to re-run; user state is preserved.
  * - Writes the thin `recipeCards` projection alongside each recipe, and the
- *   three precomputed `corpusMeta` aggregates once at the end — both exist so
+ *   four precomputed `corpusMeta` aggregates once at the end — both exist so
  *   the app's read path never scans the whole corpus.
  * - Prints per-source counts and an anomaly report.
  *
@@ -571,7 +571,7 @@ if (limit !== undefined) {
 }
 
 /**
- * Precompute the three static aggregates the app used to derive at read time by
+ * Precompute the four static aggregates the app used to derive at read time by
  * scanning the whole corpus. Computed here because the importer already holds
  * every merged recipe in memory, so it costs no database I/O — and the logic is
  * a pure function the server test project covers (`corpus.test.ts`).
@@ -588,10 +588,21 @@ if (!aggregatesCheck.success) {
 	}
 	process.exit(1);
 }
+const taggedSlugCount = aggregates.dietTagSlugs.reduce(
+	(total, entry) => total + entry.slugs.length,
+	0
+);
 console.log(
 	`✓ aggregates: ${aggregates.dietTags.length} diet tags, ` +
 		`${aggregates.knownIngredients.length} distinct ingredients, ` +
 		`${aggregates.frequentIngredients.length} frequent tiles`
+);
+// The diet-tag slug lists replace a full card-table scan per filtered read, so
+// their size is the thing worth watching: it is only cheap while tags stay rare.
+console.log(
+	`✓ dietTagSlugs: ${taggedSlugCount} slugs across ${aggregates.dietTagSlugs.length} tags ` +
+		`(~${(JSON.stringify(aggregates.dietTagSlugs).length / 1024).toFixed(1)} KB) — ` +
+		aggregates.dietTagSlugs.map((entry) => `${entry.tag} ${entry.slugs.length}`).join(', ')
 );
 
 // ---------------------------------------------------------------------------
@@ -717,10 +728,11 @@ async function run() {
 			token: token!,
 			recipeCount: aggregates.recipeCount,
 			dietTags: aggregates.dietTags,
+			dietTagSlugs: aggregates.dietTagSlugs,
 			knownIngredients: aggregates.knownIngredients,
 			frequentIngredients: aggregates.frequentIngredients
 		});
-		console.log(`✓ corpusMeta: 3 aggregate rows written for ${aggregates.recipeCount} recipes`);
+		console.log(`✓ corpusMeta: 4 aggregate rows written for ${aggregates.recipeCount} recipes`);
 	}
 
 	// -------------------------------------------------------------------------

@@ -184,9 +184,17 @@ export const CorpusIngredientSchema = z.object({
 });
 export type CorpusIngredientSeed = z.infer<typeof CorpusIngredientSchema>;
 
+/** A diet tag and every slug carrying it — the filter chips' bounded lookup. */
+export const DietTagSlugsSchema = z.object({
+	tag: z.string().min(1),
+	slugs: z.array(z.string().min(1))
+});
+export type DietTagSlugsSeed = z.infer<typeof DietTagSlugsSchema>;
+
 export const CorpusAggregatesSchema = z.object({
 	recipeCount: z.number().int().positive(),
 	dietTags: z.array(z.string().min(1)),
+	dietTagSlugs: z.array(DietTagSlugsSchema),
 	knownIngredients: z.array(CorpusIngredientSchema),
 	frequentIngredients: z.array(CorpusIngredientSchema)
 });

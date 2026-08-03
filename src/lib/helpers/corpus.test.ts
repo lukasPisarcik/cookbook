@@ -12,8 +12,13 @@ function ingredient(name: string, productType = 'ostatné'): CorpusIngredient {
 	return { name, nameNorm: name.toLowerCase(), productType };
 }
 
-function recipe(dietTags: string[], variants: CorpusIngredient[][] = [[]]): AggregatableRecipe {
-	return { dietTags, variants: variants.map((ingredients) => ({ ingredients })) };
+let slugCounter = 0;
+function recipe(
+	dietTags: string[],
+	variants: CorpusIngredient[][] = [[]],
+	slug = `recipe-${slugCounter++}`
+): AggregatableRecipe {
+	return { slug, dietTags, variants: variants.map((ingredients) => ({ ingredients })) };
 }
 
 describe('computeCorpusAggregates', () => {
@@ -105,6 +110,7 @@ describe('computeCorpusAggregates', () => {
 		expect(result).toEqual({
 			recipeCount: 0,
 			dietTags: [],
+			dietTagSlugs: [],
 			knownIngredients: [],
 			frequentIngredients: []
 		});
@@ -112,6 +118,83 @@ describe('computeCorpusAggregates', () => {
 
 	it('reports the corpus size it was computed from', () => {
 		expect(computeCorpusAggregates([recipe([]), recipe([])]).recipeCount).toBe(2);
+	});
+});
+
+/**
+ * `dietTagSlugs` is what lets the diet chips resolve a bounded slug list
+ * instead of scanning all 635 card rows, so its grouping has to be exactly
+ * right: a slug missing from a tag silently reads as „no such recipes" in the
+ * UI rather than as a fault.
+ */
+describe('computeCorpusAggregates — dietTagSlugs', () => {
+	it('groups slugs under every tag they carry', () => {
+		const result = computeCorpusAggregates([
+			recipe(['vegan'], [[]], 'tofu-kari'),
+			recipe(['vegan', 'bezlepkove'], [[]], 'ryzova-kasa'),
+			recipe(['bezlepkove'], [[]], 'omeleta')
+		]);
+		expect(result.dietTagSlugs).toEqual([
+			{ tag: 'bezlepkove', slugs: ['omeleta', 'ryzova-kasa'] },
+			{ tag: 'vegan', slugs: ['ryzova-kasa', 'tofu-kari'] }
+		]);
+	});
+
+	it('counts a multi-tag recipe under each of its tags', () => {
+		const result = computeCorpusAggregates([
+			recipe(['vegan', 'bezlepkove', 'bezlaktozove'], [[]], 'salat')
+		]);
+		expect(result.dietTagSlugs.map((entry) => entry.tag)).toEqual([
+			'bezlaktozove',
+			'bezlepkove',
+			'vegan'
+		]);
+		for (const entry of result.dietTagSlugs) expect(entry.slugs).toEqual(['salat']);
+	});
+
+	it('sorts slugs within a tag so a re-import writes an identical row', () => {
+		const result = computeCorpusAggregates([
+			recipe(['vegan'], [[]], 'zemiaky'),
+			recipe(['vegan'], [[]], 'avokado'),
+			recipe(['vegan'], [[]], 'mrkva')
+		]);
+		expect(result.dietTagSlugs[0].slugs).toEqual(['avokado', 'mrkva', 'zemiaky']);
+	});
+
+	it('orders tags with the same Slovak collation as dietTags', () => {
+		// The two rows are written separately but must agree on the tag set —
+		// the chips come from `dietTags`, the filtered branch from `tagSlugs`,
+		// and a tag present in one but not the other yields an empty filter.
+		const result = computeCorpusAggregates([
+			recipe(['vegetarianske'], [[]], 'a'),
+			recipe(['bezlaktozove'], [[]], 'b'),
+			recipe(['vegan'], [[]], 'c'),
+			recipe(['bezlepkove'], [[]], 'd')
+		]);
+		expect(result.dietTagSlugs.map((entry) => entry.tag)).toEqual(result.dietTags);
+	});
+
+	it('deduplicates a tag repeated on one recipe', () => {
+		const result = computeCorpusAggregates([recipe(['vegan', 'vegan'], [[]], 'tofu')]);
+		expect(result.dietTagSlugs).toEqual([{ tag: 'vegan', slugs: ['tofu'] }]);
+	});
+
+	it('yields no entries when nothing in the corpus is tagged', () => {
+		const result = computeCorpusAggregates([recipe([], [[]], 'a'), recipe([], [[]], 'b')]);
+		expect(result.dietTagSlugs).toEqual([]);
+		expect(result.dietTags).toEqual([]);
+	});
+
+	it('stays small because tags are rare — the premise the bounded read rests on', () => {
+		// 85% of the real corpus carries no tag at all and the largest tag covers
+		// 62 of 635 dishes. If that stopped being true, the filtered branch would
+		// no longer be bounded and this aggregate would be the wrong mechanism.
+		const corpus = Array.from({ length: 100 }, (_, index) =>
+			recipe(index % 10 === 0 ? ['vegan'] : [], [[]], `dish-${String(index).padStart(3, '0')}`)
+		);
+		const result = computeCorpusAggregates(corpus);
+		expect(result.dietTagSlugs).toHaveLength(1);
+		expect(result.dietTagSlugs[0].slugs).toHaveLength(10);
 	});
 });
 
@@ -202,6 +285,7 @@ describe('computeCorpusAggregates matches the queries it replaces', () => {
 	const fixture: AggregatableRecipe[] = Array.from({ length: 60 }, (_, index) => {
 		const variantCount = (index % 3) + 1;
 		return {
+			slug: `dish-${String(index).padStart(2, '0')}`,
 			// A coprime modulus for the untagged case, so every tag still occurs —
 			// `index % TAGS.length` would have masked TAGS[0] entirely.
 			dietTags: index % 7 === 0 ? [] : [TAGS[index % TAGS.length]],
@@ -233,5 +317,11 @@ describe('computeCorpusAggregates matches the queries it replaces', () => {
 		expect(result.dietTags.length).toBe(TAGS.length);
 		// „cibuľa" and „Cibuľa" share a nameNorm — one entry, not two.
 		expect(result.knownIngredients.filter((entry) => entry.nameNorm === 'cibuľa')).toHaveLength(1);
+		// The two diet-tag rows are written separately; they must describe the
+		// same tag set, and every tagged dish must appear under its tag.
+		expect(result.dietTagSlugs.map((entry) => entry.tag)).toEqual(result.dietTags);
+		expect(result.dietTagSlugs.reduce((total, entry) => total + entry.slugs.length, 0)).toBe(
+			fixture.filter((recipe) => recipe.dietTags.length > 0).length
+		);
 	});
 });
